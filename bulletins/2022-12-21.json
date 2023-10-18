@@ -23517,7 +23517,7 @@
             },
             {
                 "date": "2023-09-18",
-                "def_id": "oval:redos:def:1093",
+                "def_id": "oval:redos:def:1092",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -34561,6 +34561,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
+                "date": "2023-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20235683",
+                "title": "ELSA-2023-5683:  mariadb:10.5 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
                 "date": "2023-10-12",
                 "def_id": "oval:org.almalinux.alsa:def:20235683",
                 "title": "ALSA-2023:5683: mariadb:10.5 security update (Important)",
@@ -34701,6 +34708,13 @@
                 "title": "ELSA-2023-5683:  mariadb:10.5 security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20235683",
+                "title": "ELSA-2023-5683:  mariadb:10.5 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
                 "date": "2023-10-12",
@@ -34869,6 +34883,13 @@
                 "date": "2023-09-21",
                 "def_id": "oval:com.oracle.elsa:def:20235259",
                 "title": "ELSA-2023-5259:  mariadb:10.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20235683",
+                "title": "ELSA-2023-5683:  mariadb:10.5 security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
@@ -35057,6 +35078,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
+                "date": "2023-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20235683",
+                "title": "ELSA-2023-5683:  mariadb:10.5 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
                 "date": "2023-10-12",
                 "def_id": "oval:org.almalinux.alsa:def:20235683",
                 "title": "ALSA-2023:5683: mariadb:10.5 security update (Important)",
@@ -35223,6 +35251,13 @@
                 "date": "2023-09-21",
                 "def_id": "oval:com.oracle.elsa:def:20235259",
                 "title": "ELSA-2023-5259:  mariadb:10.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20235683",
+                "title": "ELSA-2023-5683:  mariadb:10.5 security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
@@ -35434,7 +35469,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2022-46879": [
+        "CVE-2022-46873": [
             {
                 "date": "2022-12-15",
                 "def_id": "oval:com.ubuntu.bionic:def:57821000000",
@@ -35464,7 +35499,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2022-46873": [
+        "CVE-2022-46879": [
             {
                 "date": "2022-12-15",
                 "def_id": "oval:com.ubuntu.bionic:def:57821000000",
@@ -35593,36 +35628,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
             }
         ],
-        "CVE-2022-3782": [
-            {
-                "date": "2022-12-13",
-                "def_id": "oval:com.redhat.rhsa:def:20228963",
-                "title": "RHSA-2022:8963: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2022-12-13",
-                "def_id": "oval:com.redhat.rhsa:def:20228963",
-                "title": "RHSA-2022:8963: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2022-12-13",
-                "def_id": "oval:com.redhat.rhsa:def:20228963",
-                "title": "RHSA-2022:8963: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2022-12-13",
-                "def_id": "oval:com.redhat.rhsa:def:20228963",
-                "title": "RHSA-2022:8963: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
-            }
-        ],
         "CVE-2022-3916": [
             {
                 "date": "2022-12-13",
@@ -35677,6 +35682,36 @@
                 "date": "2023-03-01",
                 "def_id": "oval:com.redhat.rhsa:def:20231045",
                 "title": "RHSA-2023:1045: Red Hat Single Sign-On 7.6.2 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-3782": [
+            {
+                "date": "2022-12-13",
+                "def_id": "oval:com.redhat.rhsa:def:20228963",
+                "title": "RHSA-2022:8963: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2022-12-13",
+                "def_id": "oval:com.redhat.rhsa:def:20228963",
+                "title": "RHSA-2022:8963: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2022-12-13",
+                "def_id": "oval:com.redhat.rhsa:def:20228963",
+                "title": "RHSA-2022:8963: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2022-12-13",
+                "def_id": "oval:com.redhat.rhsa:def:20228963",
+                "title": "RHSA-2022:8963: Red Hat Single Sign-On 7.6.1 security update on RHEL 9 (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
             }

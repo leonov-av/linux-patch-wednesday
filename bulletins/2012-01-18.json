@@ -3460,7 +3460,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2011-4566": [
+        "CVE-2011-4885": [
             {
                 "date": "2012-01-31",
                 "def_id": "oval:org.debian:def:207659295288883605927753021912003011907",
@@ -3644,7 +3644,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2011-4885": [
+        "CVE-2011-4566": [
             {
                 "date": "2012-01-31",
                 "def_id": "oval:org.debian:def:207659295288883605927753021912003011907",
@@ -3851,46 +3851,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             }
         ],
-        "CVE-2011-3637": [
-            {
-                "date": "2012-01-11",
-                "def_id": "oval:com.oracle.elsa:def:20120007",
-                "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-01-11",
-                "def_id": "oval:com.oracle.elsa:def:20120007",
-                "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-01-10",
-                "def_id": "oval:com.redhat.rhsa:def:20120010",
-                "title": "RHSA-2012:0010: kernel-rt security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/mrg-2.oval.xml.bz2"
-            }
-        ],
-        "CVE-2011-4324": [
-            {
-                "date": "2012-01-11",
-                "def_id": "oval:com.oracle.elsa:def:20120007",
-                "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-01-11",
-                "def_id": "oval:com.oracle.elsa:def:20120007",
-                "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2011-4325": [
+        "CVE-2011-4348": [
             {
                 "date": "2012-01-11",
                 "def_id": "oval:com.oracle.elsa:def:20120007",
@@ -4076,6 +4037,22 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2011-4324": [
+            {
+                "date": "2012-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20120007",
+                "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20120007",
+                "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2011-4132": [
             {
                 "date": "2012-01-11",
@@ -4253,7 +4230,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2011-4348": [
+        "CVE-2011-4325": [
             {
                 "date": "2012-01-11",
                 "def_id": "oval:com.oracle.elsa:def:20120007",
@@ -4267,6 +4244,29 @@
                 "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2011-3637": [
+            {
+                "date": "2012-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20120007",
+                "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20120007",
+                "title": "ELSA-2012-0007:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20120010",
+                "title": "RHSA-2012:0010: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/mrg-2.oval.xml.bz2"
             }
         ],
         "CVE-2011-4081": [
@@ -4511,7 +4511,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             }
         ],
-        "CVE-2011-4369": [
+        "CVE-2011-2462": [
             {
                 "date": "2012-01-10",
                 "def_id": "oval:com.redhat.rhsa:def:20120011",
@@ -4625,7 +4625,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2011-2462": [
+        "CVE-2011-4369": [
             {
                 "date": "2012-01-10",
                 "def_id": "oval:com.redhat.rhsa:def:20120011",
