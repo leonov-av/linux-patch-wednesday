@@ -18050,7 +18050,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2016-10249": [
+        "CVE-2016-9591": [
             {
                 "date": "2017-04-07",
                 "def_id": "oval:org.debian:def:241734894189488102303936656561477051588",
@@ -18544,7 +18544,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
-        "CVE-2016-9591": [
+        "CVE-2016-10249": [
             {
                 "date": "2017-04-07",
                 "def_id": "oval:org.debian:def:241734894189488102303936656561477051588",
@@ -19028,6 +19028,22 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2017-2367": [
+            {
+                "date": "2017-04-10",
+                "def_id": "oval:com.ubuntu.xenial:def:32571000000",
+                "title": "USN-3257-1 -- WebKitGTK+ vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-04-10",
+                "def_id": "oval:com.ubuntu.xenial:def:32571000000",
+                "title": "USN-3257-1 -- WebKitGTK+ vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2016-9643": [
             {
                 "date": "2017-04-10",
@@ -19045,22 +19061,6 @@
             }
         ],
         "CVE-2016-9642": [
-            {
-                "date": "2017-04-10",
-                "def_id": "oval:com.ubuntu.xenial:def:32571000000",
-                "title": "USN-3257-1 -- WebKitGTK+ vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2017-04-10",
-                "def_id": "oval:com.ubuntu.xenial:def:32571000000",
-                "title": "USN-3257-1 -- WebKitGTK+ vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2017-2367": [
             {
                 "date": "2017-04-10",
                 "def_id": "oval:com.ubuntu.xenial:def:32571000000",
@@ -19532,29 +19532,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-5055": [
-            {
-                "date": "2017-03-31",
-                "def_id": "oval:com.redhat.rhsa:def:20170860",
-                "title": "RHSA-2017:0860: chromium-browser security update (Critical)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2017-03-31",
-                "def_id": "oval:com.redhat.rhsa:def:20170860",
-                "title": "RHSA-2017:0860: chromium-browser security update (Critical)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2017-03-31",
-                "def_id": "oval:com.redhat.rhsa:def:20170860",
-                "title": "RHSA-2017:0860: chromium-browser security update (Critical)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
         "CVE-2017-5052": [
             {
                 "date": "2017-03-31",
@@ -19578,7 +19555,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-5054": [
+        "CVE-2017-5055": [
             {
                 "date": "2017-03-31",
                 "def_id": "oval:com.redhat.rhsa:def:20170860",
@@ -19647,7 +19624,30 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-3060": [
+        "CVE-2017-5054": [
+            {
+                "date": "2017-03-31",
+                "def_id": "oval:com.redhat.rhsa:def:20170860",
+                "title": "RHSA-2017:0860: chromium-browser security update (Critical)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-03-31",
+                "def_id": "oval:com.redhat.rhsa:def:20170860",
+                "title": "RHSA-2017:0860: chromium-browser security update (Critical)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-03-31",
+                "def_id": "oval:com.redhat.rhsa:def:20170860",
+                "title": "RHSA-2017:0860: chromium-browser security update (Critical)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-3061": [
             {
                 "date": "2017-04-12",
                 "def_id": "oval:com.redhat.rhsa:def:20170934",
@@ -19693,30 +19693,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-3059": [
-            {
-                "date": "2017-04-12",
-                "def_id": "oval:com.redhat.rhsa:def:20170934",
-                "title": "RHSA-2017:0934: flash-plugin security update (Critical)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2017-04-12",
-                "def_id": "oval:com.redhat.rhsa:def:20170934",
-                "title": "RHSA-2017:0934: flash-plugin security update (Critical)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2017-04-12",
-                "def_id": "oval:com.redhat.rhsa:def:20170934",
-                "title": "RHSA-2017:0934: flash-plugin security update (Critical)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2017-3063": [
+        "CVE-2017-3064": [
             {
                 "date": "2017-04-12",
                 "def_id": "oval:com.redhat.rhsa:def:20170934",
@@ -19762,7 +19739,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-3064": [
+        "CVE-2017-3063": [
             {
                 "date": "2017-04-12",
                 "def_id": "oval:com.redhat.rhsa:def:20170934",
@@ -19785,7 +19762,30 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-3061": [
+        "CVE-2017-3060": [
+            {
+                "date": "2017-04-12",
+                "def_id": "oval:com.redhat.rhsa:def:20170934",
+                "title": "RHSA-2017:0934: flash-plugin security update (Critical)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-04-12",
+                "def_id": "oval:com.redhat.rhsa:def:20170934",
+                "title": "RHSA-2017:0934: flash-plugin security update (Critical)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-04-12",
+                "def_id": "oval:com.redhat.rhsa:def:20170934",
+                "title": "RHSA-2017:0934: flash-plugin security update (Critical)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-3059": [
             {
                 "date": "2017-04-12",
                 "def_id": "oval:com.redhat.rhsa:def:20170934",

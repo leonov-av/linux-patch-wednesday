@@ -22406,6 +22406,36 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
+        "CVE-2019-17013": [
+            {
+                "date": "2019-12-09",
+                "def_id": "oval:com.ubuntu.bionic:def:42161000000",
+                "title": "USN-4216-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-13",
+                "def_id": "oval:com.ubuntu.xenial:def:42162000000",
+                "title": "USN-4216-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-09",
+                "def_id": "oval:com.ubuntu.bionic:def:42161000000",
+                "title": "USN-4216-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-13",
+                "def_id": "oval:com.ubuntu.xenial:def:42162000000",
+                "title": "USN-4216-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2019-11756": [
             {
                 "date": "2019-12-09",
@@ -22700,36 +22730,6 @@
                 "title": "RHSA-2020:3280: nss and nspr security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-17013": [
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.ubuntu.bionic:def:42161000000",
-                "title": "USN-4216-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-13",
-                "def_id": "oval:com.ubuntu.xenial:def:42162000000",
-                "title": "USN-4216-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.ubuntu.bionic:def:42161000000",
-                "title": "USN-4216-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-13",
-                "def_id": "oval:com.ubuntu.xenial:def:42162000000",
-                "title": "USN-4216-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2019-17014": [
@@ -23302,7 +23302,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2019-17631": [
+        "CVE-2019-2996": [
             {
                 "date": "2020-01-07",
                 "def_id": "oval:org.almalinux.alsa:def:20200046",
@@ -23521,7 +23521,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2019-2996": [
+        "CVE-2019-17631": [
             {
                 "date": "2020-01-07",
                 "def_id": "oval:org.almalinux.alsa:def:20200046",
@@ -23898,25 +23898,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
-        "CVE-2019-10393": [
-            {
-                "date": "2019-12-16",
-                "def_id": "oval:com.redhat.rhsa:def:20194055",
-                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-10432": [
-            {
-                "date": "2019-12-16",
-                "def_id": "oval:com.redhat.rhsa:def:20194055",
-                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-10399": [
+        "CVE-2019-10400": [
             {
                 "date": "2019-12-16",
                 "def_id": "oval:com.redhat.rhsa:def:20194055",
@@ -23934,7 +23916,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
-        "CVE-2019-10400": [
+        "CVE-2019-10393": [
             {
                 "date": "2019-12-16",
                 "def_id": "oval:com.redhat.rhsa:def:20194055",
@@ -23944,6 +23926,24 @@
             }
         ],
         "CVE-2019-10394": [
+            {
+                "date": "2019-12-16",
+                "def_id": "oval:com.redhat.rhsa:def:20194055",
+                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-10399": [
+            {
+                "date": "2019-12-16",
+                "def_id": "oval:com.redhat.rhsa:def:20194055",
+                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-10432": [
             {
                 "date": "2019-12-16",
                 "def_id": "oval:com.redhat.rhsa:def:20194055",
@@ -23968,7 +23968,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
             }
         ],
-        "CVE-2019-18802": [
+        "CVE-2019-18801": [
             {
                 "date": "2019-12-11",
                 "def_id": "oval:com.redhat.rhsa:def:20194222",
@@ -23984,7 +23984,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
             }
         ],
-        "CVE-2019-18801": [
+        "CVE-2019-18802": [
             {
                 "date": "2019-12-11",
                 "def_id": "oval:com.redhat.rhsa:def:20194222",

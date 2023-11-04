@@ -10416,7 +10416,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
-        "CVE-2015-0801": [
+        "CVE-2015-0816": [
             {
                 "date": "2015-04-02",
                 "def_id": "oval:org.debian:def:209338094395964356465430893332418260813",
@@ -11076,7 +11076,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
-        "CVE-2015-0816": [
+        "CVE-2015-0815": [
             {
                 "date": "2015-04-02",
                 "def_id": "oval:org.debian:def:209338094395964356465430893332418260813",
@@ -12396,7 +12396,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
-        "CVE-2015-0815": [
+        "CVE-2015-0801": [
             {
                 "date": "2015-04-02",
                 "def_id": "oval:org.debian:def:209338094395964356465430893332418260813",
@@ -13746,7 +13746,7 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             }
         ],
-        "CVE-2015-0817": [
+        "CVE-2015-0818": [
             {
                 "date": "2015-03-22",
                 "def_id": "oval:org.debian:def:134088098096829177947617021939238185667",
@@ -14035,7 +14035,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
-        "CVE-2015-0818": [
+        "CVE-2015-0817": [
             {
                 "date": "2015-03-22",
                 "def_id": "oval:org.debian:def:134088098096829177947617021939238185667",
@@ -15102,7 +15102,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2015-2559": [
+        "CVE-2015-2750": [
             {
                 "date": "2015-03-20",
                 "def_id": "oval:org.debian:def:223424476653207061021815116290402481495",
@@ -15160,7 +15160,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2015-2750": [
+        "CVE-2015-2559": [
             {
                 "date": "2015-03-20",
                 "def_id": "oval:org.debian:def:223424476653207061021815116290402481495",
@@ -15415,38 +15415,6 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2015-0806": [
-            {
-                "date": "2015-04-01",
-                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
-                "title": "USN-2550-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-04-01",
-                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
-                "title": "USN-2550-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2015-0804": [
-            {
-                "date": "2015-04-01",
-                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
-                "title": "USN-2550-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-04-01",
-                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
-                "title": "USN-2550-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2015-0812": [
             {
                 "date": "2015-04-01",
@@ -15479,22 +15447,6 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2015-0803": [
-            {
-                "date": "2015-04-01",
-                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
-                "title": "USN-2550-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-04-01",
-                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
-                "title": "USN-2550-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2015-0802": [
             {
                 "date": "2015-04-01",
@@ -15511,7 +15463,55 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2015-0806": [
+            {
+                "date": "2015-04-01",
+                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
+                "title": "USN-2550-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-04-01",
+                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
+                "title": "USN-2550-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2015-0811": [
+            {
+                "date": "2015-04-01",
+                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
+                "title": "USN-2550-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-04-01",
+                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
+                "title": "USN-2550-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2015-0804": [
+            {
+                "date": "2015-04-01",
+                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
+                "title": "USN-2550-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-04-01",
+                "def_id": "oval:com.ubuntu.trusty:def:25501000000",
+                "title": "USN-2550-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2015-0803": [
             {
                 "date": "2015-04-01",
                 "def_id": "oval:com.ubuntu.trusty:def:25501000000",
@@ -15795,22 +15795,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
-        "CVE-2015-1317": [
-            {
-                "date": "2015-04-07",
-                "def_id": "oval:com.ubuntu.trusty:def:25561000000",
-                "title": "USN-2556-1 -- Oxide vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-04-07",
-                "def_id": "oval:com.ubuntu.trusty:def:25561000000",
-                "title": "USN-2556-1 -- Oxide vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2015-1233": [
             {
                 "date": "2015-04-07",
@@ -15874,6 +15858,22 @@
                 "title": "RHSA-2015:0778: chromium-browser security update (Critical)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2015-1317": [
+            {
+                "date": "2015-04-07",
+                "def_id": "oval:com.ubuntu.trusty:def:25561000000",
+                "title": "USN-2556-1 -- Oxide vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-04-07",
+                "def_id": "oval:com.ubuntu.trusty:def:25561000000",
+                "title": "USN-2556-1 -- Oxide vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             }
         ],
         "CVE-2015-1234": [

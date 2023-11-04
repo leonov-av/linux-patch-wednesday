@@ -7887,6 +7887,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.impish.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64571000000",
+                "title": "USN-6457-1 -- Node.js vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2022-03-15",
                 "def_id": "oval:com.ubuntu.trusty:def:53282000000",
                 "title": "USN-5328-2 -- OpenSSL vulnerability",
@@ -7920,6 +7927,13 @@
                 "title": "5328-1 -- OpenSSL vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.impish.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64571000000",
+                "title": "USN-6457-1 -- Node.js vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
                 "date": "2022-03-15",
@@ -24541,92 +24555,6 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2022-0843": [
-            {
-                "date": "2022-03-10",
-                "def_id": "oval:com.ubuntu.bionic:def:53211000000",
-                "title": "USN-5321-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-17",
-                "def_id": "oval:com.ubuntu.bionic:def:53212000000",
-                "title": "USN-5321-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-10",
-                "def_id": "oval:com.ubuntu.focal:def:53211000000",
-                "title": "USN-5321-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-17",
-                "def_id": "oval:com.ubuntu.focal:def:53212000000",
-                "title": "USN-5321-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-10",
-                "def_id": "oval:com.ubuntu.impish:def:53211000000",
-                "title": "5321-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.impish.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-17",
-                "def_id": "oval:com.ubuntu.impish:def:53212000000",
-                "title": "5321-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.impish.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-10",
-                "def_id": "oval:com.ubuntu.bionic:def:53211000000",
-                "title": "USN-5321-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-17",
-                "def_id": "oval:com.ubuntu.bionic:def:53212000000",
-                "title": "USN-5321-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-10",
-                "def_id": "oval:com.ubuntu.focal:def:53211000000",
-                "title": "USN-5321-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-17",
-                "def_id": "oval:com.ubuntu.focal:def:53212000000",
-                "title": "USN-5321-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-10",
-                "def_id": "oval:com.ubuntu.impish:def:53211000000",
-                "title": "5321-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.impish.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-17",
-                "def_id": "oval:com.ubuntu.impish:def:53212000000",
-                "title": "5321-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.impish.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2022-26385": [
             {
                 "date": "2022-03-10",
@@ -24799,6 +24727,92 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.impish.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2022-0843": [
+            {
+                "date": "2022-03-10",
+                "def_id": "oval:com.ubuntu.bionic:def:53211000000",
+                "title": "USN-5321-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-17",
+                "def_id": "oval:com.ubuntu.bionic:def:53212000000",
+                "title": "USN-5321-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-10",
+                "def_id": "oval:com.ubuntu.focal:def:53211000000",
+                "title": "USN-5321-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-17",
+                "def_id": "oval:com.ubuntu.focal:def:53212000000",
+                "title": "USN-5321-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-10",
+                "def_id": "oval:com.ubuntu.impish:def:53211000000",
+                "title": "5321-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.impish.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-17",
+                "def_id": "oval:com.ubuntu.impish:def:53212000000",
+                "title": "5321-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.impish.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-10",
+                "def_id": "oval:com.ubuntu.bionic:def:53211000000",
+                "title": "USN-5321-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-17",
+                "def_id": "oval:com.ubuntu.bionic:def:53212000000",
+                "title": "USN-5321-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-10",
+                "def_id": "oval:com.ubuntu.focal:def:53211000000",
+                "title": "USN-5321-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-17",
+                "def_id": "oval:com.ubuntu.focal:def:53212000000",
+                "title": "USN-5321-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-10",
+                "def_id": "oval:com.ubuntu.impish:def:53211000000",
+                "title": "5321-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.impish.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-17",
+                "def_id": "oval:com.ubuntu.impish:def:53212000000",
+                "title": "5321-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.impish.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-0175": [
             {
                 "date": "2022-02-28",
@@ -24829,7 +24843,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.impish.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2022-24464": [
+        "CVE-2022-24512": [
             {
                 "date": "2022-03-11",
                 "def_id": "oval:com.oracle.elsa:def:20220826",
@@ -25125,7 +25139,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2022-24512": [
+        "CVE-2022-24464": [
             {
                 "date": "2022-03-11",
                 "def_id": "oval:com.oracle.elsa:def:20220826",
@@ -26005,22 +26019,6 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
-        "CVE-2021-21684": [
-            {
-                "date": "2022-03-10",
-                "def_id": "oval:com.redhat.rhsa:def:20220055",
-                "title": "RHSA-2022:0055: OpenShift Container Platform 4.10.3 bug fix and security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.10.oval.xml.bz2"
-            },
-            {
-                "date": "2022-03-10",
-                "def_id": "oval:com.redhat.rhsa:def:20220055",
-                "title": "RHSA-2022:0055: OpenShift Container Platform 4.10.3 bug fix and security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.10.oval.xml.bz2"
-            }
-        ],
         "CVE-2022-0532": [
             {
                 "date": "2022-03-10",
@@ -26091,6 +26089,22 @@
                 "title": "RHBA-2022:0794: OpenShift Container Platform 4.9.24 packages update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-21684": [
+            {
+                "date": "2022-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20220055",
+                "title": "RHSA-2022:0055: OpenShift Container Platform 4.10.3 bug fix and security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.10.oval.xml.bz2"
+            },
+            {
+                "date": "2022-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20220055",
+                "title": "RHSA-2022:0055: OpenShift Container Platform 4.10.3 bug fix and security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.10.oval.xml.bz2"
             }
         ],
         "CVE-2021-4142": [

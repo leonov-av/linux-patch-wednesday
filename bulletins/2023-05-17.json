@@ -1289,6 +1289,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2023-10-30",
+                "def_id": "oval:redos:def:1213",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c podman",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-05-09",
                 "def_id": "oval:org.almalinux.alba:def:20232181",
                 "title": "ALBA-2023:2181: delve, golang, and go-toolset bug fix and enhancement update (Moderate)",
@@ -3152,13 +3159,6 @@
                 "title": "CVE-2023-0778 libpod",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:214206236001608263383041762801684334870",
-                "title": "CVE-2023-0778 libpod",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2023-05-23",
@@ -13024,6 +13024,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.trusty:def:64601000000",
+                "title": "USN-6460-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-07-25",
                 "def_id": "oval:com.ubuntu.trusty:def:961000000",
                 "title": "LSN-0096-1 -- Kernel Live Patch Security Notice",
@@ -13195,6 +13202,13 @@
                 "date": "2023-06-08",
                 "def_id": "oval:com.ubuntu.trusty:def:61491000000",
                 "title": "USN-6149-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.trusty:def:64601000000",
+                "title": "USN-6460-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
@@ -19707,510 +19721,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             }
         ],
-        "CVE-2023-21972": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21955": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21911": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21920": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21953": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21977": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21982": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2023-21946": [
             {
                 "date": "2023-05-08",
@@ -20283,7 +19793,79 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-21940": [
+        "CVE-2023-21966": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21920": [
             {
                 "date": "2023-05-08",
                 "def_id": "oval:com.ubuntu.bionic:def:60601000000",
@@ -20441,511 +20023,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-21947": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21976": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21935": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21962": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21919": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21966": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21945": [
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.focal:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-08",
-                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
-                "title": "USN-6060-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-21933": [
+        "CVE-2023-21972": [
             {
                 "date": "2023-05-08",
                 "def_id": "oval:com.ubuntu.bionic:def:60601000000",
@@ -21089,6 +20167,942 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2023-21962": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21935": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21982": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21945": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21947": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21919": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21977": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21953": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21911": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21955": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21933": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21940": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-21976": [
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.bionic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.focal:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.jammy:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.kinetic:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-08",
+                "def_id": "oval:com.ubuntu.lunar:def:60601000000",
+                "title": "USN-6060-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-32208": [
             {
                 "date": "2023-05-15",
@@ -21119,7 +21133,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-32209": [
+        "CVE-2023-32210": [
             {
                 "date": "2023-05-15",
                 "def_id": "oval:com.ubuntu.bionic:def:60741000000",
@@ -21149,7 +21163,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-32210": [
+        "CVE-2023-32209": [
             {
                 "date": "2023-05-15",
                 "def_id": "oval:com.ubuntu.bionic:def:60741000000",
@@ -21225,38 +21239,6 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2019-5885": [
-            {
-                "date": "2023-05-16",
-                "def_id": "oval:com.ubuntu.bionic:def:60761000000",
-                "title": "USN-6076-1 -- Synapse vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-16",
-                "def_id": "oval:com.ubuntu.bionic:def:60761000000",
-                "title": "USN-6076-1 -- Synapse vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-12423": [
-            {
-                "date": "2023-05-16",
-                "def_id": "oval:com.ubuntu.bionic:def:60761000000",
-                "title": "USN-6076-1 -- Synapse vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-16",
-                "def_id": "oval:com.ubuntu.bionic:def:60761000000",
-                "title": "USN-6076-1 -- Synapse vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2018-16515": [
             {
                 "date": "2023-05-16",
@@ -21289,7 +21271,23 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2019-18835": [
+        "CVE-2018-12423": [
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.ubuntu.bionic:def:60761000000",
+                "title": "USN-6076-1 -- Synapse vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.ubuntu.bionic:def:60761000000",
+                "title": "USN-6076-1 -- Synapse vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-5885": [
             {
                 "date": "2023-05-16",
                 "def_id": "oval:com.ubuntu.bionic:def:60761000000",
@@ -21306,6 +21304,22 @@
             }
         ],
         "CVE-2018-12291": [
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.ubuntu.bionic:def:60761000000",
+                "title": "USN-6076-1 -- Synapse vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.ubuntu.bionic:def:60761000000",
+                "title": "USN-6076-1 -- Synapse vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-18835": [
             {
                 "date": "2023-05-16",
                 "def_id": "oval:com.ubuntu.bionic:def:60761000000",
@@ -21474,6 +21488,64 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2022-35957": [
+            {
+                "date": "2023-05-15",
+                "def_id": "oval:com.oracle.elsa:def:20232167",
+                "title": "ELSA-2023-2167:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-05-15",
+                "def_id": "oval:com.oracle.elsa:def:20232167",
+                "title": "ELSA-2023-2167:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-05-15",
+                "def_id": "oval:com.oracle.elsa:def:20232167",
+                "title": "ELSA-2023-2167:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:org.almalinux.alsa:def:20232167",
+                "title": "ALSA-2023:2167: grafana security and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232167",
+                "title": "RHSA-2023:2167: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232167",
+                "title": "RHSA-2023:2167: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232167",
+                "title": "RHSA-2023:2167: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232167",
+                "title": "RHSA-2023:2167: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-39229": [
             {
                 "date": "2023-05-15",
@@ -21565,64 +21637,6 @@
                 "title": "RHSA-2023:2784: grafana security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-09",
-                "def_id": "oval:com.redhat.rhsa:def:20232167",
-                "title": "RHSA-2023:2167: grafana security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-09",
-                "def_id": "oval:com.redhat.rhsa:def:20232167",
-                "title": "RHSA-2023:2167: grafana security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-09",
-                "def_id": "oval:com.redhat.rhsa:def:20232167",
-                "title": "RHSA-2023:2167: grafana security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-05-09",
-                "def_id": "oval:com.redhat.rhsa:def:20232167",
-                "title": "RHSA-2023:2167: grafana security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-35957": [
-            {
-                "date": "2023-05-15",
-                "def_id": "oval:com.oracle.elsa:def:20232167",
-                "title": "ELSA-2023-2167:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-15",
-                "def_id": "oval:com.oracle.elsa:def:20232167",
-                "title": "ELSA-2023-2167:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-15",
-                "def_id": "oval:com.oracle.elsa:def:20232167",
-                "title": "ELSA-2023-2167:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-05-09",
-                "def_id": "oval:org.almalinux.alsa:def:20232167",
-                "title": "ALSA-2023:2167: grafana security and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -21909,7 +21923,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-34302": [
+        "CVE-2022-34303": [
             {
                 "date": "2023-05-15",
                 "def_id": "oval:com.oracle.elsa:def:20232487",
@@ -21967,7 +21981,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-34303": [
+        "CVE-2022-34302": [
             {
                 "date": "2023-05-15",
                 "def_id": "oval:com.oracle.elsa:def:20232487",
@@ -22490,7 +22504,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2021-33645": [
+        "CVE-2021-33644": [
             {
                 "date": "2023-05-24",
                 "def_id": "oval:com.oracle.elsa:def:20232898",
@@ -22620,7 +22634,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2021-33644": [
+        "CVE-2021-33645": [
             {
                 "date": "2023-05-24",
                 "def_id": "oval:com.oracle.elsa:def:20232898",
@@ -22909,7 +22923,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
             }
         ],
-        "CVE-2023-25761": [
+        "CVE-2023-25762": [
             {
                 "date": "2023-04-26",
                 "def_id": "oval:com.redhat.rhsa:def:20231866",
@@ -22925,7 +22939,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.10.oval.xml.bz2"
             }
         ],
-        "CVE-2023-25762": [
+        "CVE-2023-25761": [
             {
                 "date": "2023-04-26",
                 "def_id": "oval:com.redhat.rhsa:def:20231866",
