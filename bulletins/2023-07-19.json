@@ -824,6 +824,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-11-10",
+                "def_id": "oval:com.ubuntu.focal:def:64622000000",
+                "title": "USN-6462-2 -- Linux kernel (IoT) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-07-06",
                 "def_id": "oval:com.ubuntu.jammy:def:62061000000",
                 "title": "USN-6206-1 -- Linux kernel (OEM) vulnerabilities",
@@ -929,6 +936,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-11-10",
+                "def_id": "oval:com.ubuntu.focal:def:64622000000",
+                "title": "USN-6462-2 -- Linux kernel (IoT) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-07-06",
                 "def_id": "oval:com.ubuntu.jammy:def:62061000000",
                 "title": "USN-6206-1 -- Linux kernel (OEM) vulnerabilities",
@@ -990,6 +1004,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20236901",
+                "title": "RHSA-2023:6901: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2023-1906": [
@@ -2086,6 +2114,20 @@
                 "title": "USN-6290-1 -- LibTIFF vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:org.almalinux.alsa:def:20236575",
+                "title": "ALSA-2023:6575: libtiff security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236575",
+                "title": "RHSA-2023:6575: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2023-26966": [
@@ -2235,6 +2277,20 @@
                 "title": "USN-6290-1 -- LibTIFF vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:org.almalinux.alsa:def:20236575",
+                "title": "ALSA-2023:6575: libtiff security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236575",
+                "title": "RHSA-2023:6575: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2023-2727": [
@@ -2651,6 +2707,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2023-11-09",
+                "def_id": "oval:redos:def:1222",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-06-29",
                 "def_id": "oval:org.almalinux.alsa:def:20233922",
                 "title": "ALSA-2023:3922: go-toolset:rhel8 security update (Critical)",
@@ -2798,6 +2861,13 @@
                 "title": "ELSA-2023-3923:  go-toolset and golang security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-11-09",
+                "def_id": "oval:redos:def:1223",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-06-29",
@@ -2949,6 +3019,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2023-11-09",
+                "def_id": "oval:redos:def:1224",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-06-29",
                 "def_id": "oval:org.almalinux.alsa:def:20233922",
                 "title": "ALSA-2023:3922: go-toolset:rhel8 security update (Critical)",
@@ -3096,6 +3173,13 @@
                 "title": "ELSA-2023-3923:  go-toolset and golang security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-11-09",
+                "def_id": "oval:redos:def:1225",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-06-29",
@@ -4637,6 +4721,20 @@
                 "title": "ELSA-2023-12688: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20236901",
+                "title": "RHSA-2023:6901: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2023-3111": [
@@ -5679,6 +5777,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20236901",
+                "title": "RHSA-2023:6901: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2023-3159": [
@@ -5879,6 +5991,20 @@
                 "title": "ELSA-2023-12688: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20236901",
+                "title": "RHSA-2023:6901: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-10-10",
@@ -6359,6 +6485,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20236901",
+                "title": "RHSA-2023:6901: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2023-32435": [
@@ -7305,6 +7445,20 @@
                 "title": "USN-6254-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20236901",
+                "title": "RHSA-2023:6901: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2023-3269": [
@@ -7512,6 +7666,20 @@
                 "title": "USN-6290-1 -- LibTIFF vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:org.almalinux.alsa:def:20236575",
+                "title": "ALSA-2023:6575: libtiff security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236575",
+                "title": "RHSA-2023:6575: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2023-33460": [
@@ -7605,6 +7773,27 @@
                 "title": "USN-6233-1 -- YAJL vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:org.almalinux.alsa:def:20236551",
+                "title": "ALSA-2023:6551: yajl security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237057",
+                "title": "RHSA-2023:7057: yajl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236551",
+                "title": "RHSA-2023:6551: yajl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2023-33733": [
@@ -9347,6 +9536,13 @@
                 "title": "RHSA-2023:5414: kernel security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20237243",
+                "title": "RHSA-2023:7243: kernel security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
             },
             {
                 "date": "2023-10-10",
@@ -14998,55 +15194,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-37210": [
-            {
-                "date": "2023-07-05",
-                "def_id": "oval:com.ubuntu.focal:def:62011000000",
-                "title": "USN-6201-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-07-05",
-                "def_id": "oval:com.ubuntu.focal:def:62011000000",
-                "title": "USN-6201-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2023-37206": [
-            {
-                "date": "2023-07-05",
-                "def_id": "oval:com.ubuntu.focal:def:62011000000",
-                "title": "USN-6201-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-07-05",
-                "def_id": "oval:com.ubuntu.focal:def:62011000000",
-                "title": "USN-6201-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-37204": [
-            {
-                "date": "2023-07-05",
-                "def_id": "oval:com.ubuntu.focal:def:62011000000",
-                "title": "USN-6201-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-07-05",
-                "def_id": "oval:com.ubuntu.focal:def:62011000000",
-                "title": "USN-6201-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-3482": [
             {
                 "date": "2023-07-05",
                 "def_id": "oval:com.ubuntu.focal:def:62011000000",
@@ -15078,22 +15226,6 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-37209": [
-            {
-                "date": "2023-07-05",
-                "def_id": "oval:com.ubuntu.focal:def:62011000000",
-                "title": "USN-6201-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-07-05",
-                "def_id": "oval:com.ubuntu.focal:def:62011000000",
-                "title": "USN-6201-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2023-37212": [
             {
                 "date": "2023-07-05",
@@ -15110,7 +15242,71 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2023-3482": [
+            {
+                "date": "2023-07-05",
+                "def_id": "oval:com.ubuntu.focal:def:62011000000",
+                "title": "USN-6201-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-07-05",
+                "def_id": "oval:com.ubuntu.focal:def:62011000000",
+                "title": "USN-6201-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-37203": [
+            {
+                "date": "2023-07-05",
+                "def_id": "oval:com.ubuntu.focal:def:62011000000",
+                "title": "USN-6201-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-07-05",
+                "def_id": "oval:com.ubuntu.focal:def:62011000000",
+                "title": "USN-6201-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-37204": [
+            {
+                "date": "2023-07-05",
+                "def_id": "oval:com.ubuntu.focal:def:62011000000",
+                "title": "USN-6201-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-07-05",
+                "def_id": "oval:com.ubuntu.focal:def:62011000000",
+                "title": "USN-6201-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-37210": [
+            {
+                "date": "2023-07-05",
+                "def_id": "oval:com.ubuntu.focal:def:62011000000",
+                "title": "USN-6201-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-07-05",
+                "def_id": "oval:com.ubuntu.focal:def:62011000000",
+                "title": "USN-6201-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-37209": [
             {
                 "date": "2023-07-05",
                 "def_id": "oval:com.ubuntu.focal:def:62011000000",
@@ -16058,6 +16254,13 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20236972",
+                "title": "RHSA-2023:6972: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
                 "date": "2023-07-12",
                 "def_id": "oval:com.redhat.rhsa:def:20234030",
                 "title": "RHSA-2023:4030: grafana security update (Critical)",
@@ -16209,36 +16412,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
             }
         ],
-        "CVE-2023-2585": [
-            {
-                "date": "2023-06-27",
-                "def_id": "oval:com.redhat.rhsa:def:20233885",
-                "title": "RHSA-2023:3885: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-27",
-                "def_id": "oval:com.redhat.rhsa:def:20233885",
-                "title": "RHSA-2023:3885: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-27",
-                "def_id": "oval:com.redhat.rhsa:def:20233885",
-                "title": "RHSA-2023:3885: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-27",
-                "def_id": "oval:com.redhat.rhsa:def:20233885",
-                "title": "RHSA-2023:3885: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
-            }
-        ],
         "CVE-2022-4361": [
             {
                 "date": "2023-06-27",
@@ -16269,6 +16442,52 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
             }
         ],
+        "CVE-2023-2585": [
+            {
+                "date": "2023-06-27",
+                "def_id": "oval:com.redhat.rhsa:def:20233885",
+                "title": "RHSA-2023:3885: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-27",
+                "def_id": "oval:com.redhat.rhsa:def:20233885",
+                "title": "RHSA-2023:3885: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-27",
+                "def_id": "oval:com.redhat.rhsa:def:20233885",
+                "title": "RHSA-2023:3885: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-27",
+                "def_id": "oval:com.redhat.rhsa:def:20233885",
+                "title": "RHSA-2023:3885: Red Hat Single Sign-On 7.6.4 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-32977": [
+            {
+                "date": "2023-06-23",
+                "def_id": "oval:com.redhat.rhsa:def:20233625",
+                "title": "RHSA-2023:3625: OpenShift Container Platform 4.10.62 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.10.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-23",
+                "def_id": "oval:com.redhat.rhsa:def:20233625",
+                "title": "RHSA-2023:3625: OpenShift Container Platform 4.10.62 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.10.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-32980": [
             {
                 "date": "2023-06-23",
@@ -16286,22 +16505,6 @@
             }
         ],
         "CVE-2023-32981": [
-            {
-                "date": "2023-06-23",
-                "def_id": "oval:com.redhat.rhsa:def:20233625",
-                "title": "RHSA-2023:3625: OpenShift Container Platform 4.10.62 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.10.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-23",
-                "def_id": "oval:com.redhat.rhsa:def:20233625",
-                "title": "RHSA-2023:3625: OpenShift Container Platform 4.10.62 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.10.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-32977": [
             {
                 "date": "2023-06-23",
                 "def_id": "oval:com.redhat.rhsa:def:20233625",
