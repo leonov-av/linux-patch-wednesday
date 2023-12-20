@@ -489,23 +489,9 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
             },
             {
-                "date": "2013-02-17",
-                "def_id": "oval:org.debian:def:64886559531324579300082336701785895026",
-                "title": "DSA-2626-1 lighttpd",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
-            },
-            {
                 "date": "2015-05-07",
                 "def_id": "oval:org.debian:def:157398882746675679252897485015155754467",
                 "title": "DSA-3253-1 pound",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
-            },
-            {
-                "date": "2013-02-17",
-                "def_id": "oval:org.debian:def:683525713102472308812293184807450768",
-                "title": "DSA-2626-1 lighttpd",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
@@ -520,13 +506,6 @@
                 "date": "2015-05-07",
                 "def_id": "oval:org.debian:def:245660050237419982929744776544857156193",
                 "title": "DSA-3253-1 pound",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
-            },
-            {
-                "date": "2013-02-17",
-                "def_id": "oval:org.debian:def:9263012909685998620203290077116888526",
-                "title": "DSA-2626-1 lighttpd",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
@@ -883,39 +862,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2009-3274": [
+            {
+                "date": "2009-10-28",
+                "def_id": "oval:com.oracle.elsa:def:20091530",
+                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-10-28",
+                "def_id": "oval:com.oracle.elsa:def:20091530",
+                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2009-3376": [
-            {
-                "date": "2009-10-28",
-                "def_id": "oval:com.oracle.elsa:def:20091530",
-                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-10-28",
-                "def_id": "oval:com.oracle.elsa:def:20091530",
-                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3372": [
-            {
-                "date": "2009-10-28",
-                "def_id": "oval:com.oracle.elsa:def:20091530",
-                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-10-28",
-                "def_id": "oval:com.oracle.elsa:def:20091530",
-                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3382": [
             {
                 "date": "2009-10-28",
                 "def_id": "oval:com.oracle.elsa:def:20091530",
@@ -947,39 +910,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-3374": [
-            {
-                "date": "2009-10-28",
-                "def_id": "oval:com.oracle.elsa:def:20091530",
-                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-10-28",
-                "def_id": "oval:com.oracle.elsa:def:20091530",
-                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-1563": [
-            {
-                "date": "2009-10-28",
-                "def_id": "oval:com.oracle.elsa:def:20091530",
-                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-10-28",
-                "def_id": "oval:com.oracle.elsa:def:20091530",
-                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3375": [
+        "CVE-2009-3380": [
             {
                 "date": "2009-10-28",
                 "def_id": "oval:com.oracle.elsa:def:20091530",
@@ -1011,7 +942,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-3380": [
+        "CVE-2009-3382": [
             {
                 "date": "2009-10-28",
                 "def_id": "oval:com.oracle.elsa:def:20091530",
@@ -1027,7 +958,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-3274": [
+        "CVE-2009-3375": [
             {
                 "date": "2009-10-28",
                 "def_id": "oval:com.oracle.elsa:def:20091530",
@@ -1043,18 +974,50 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-2695": [
+        "CVE-2009-3374": [
             {
-                "date": "2009-11-03",
-                "def_id": "oval:com.oracle.elsa:def:20091548",
-                "title": "ELSA-2009-1548:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2009-10-28",
+                "def_id": "oval:com.oracle.elsa:def:20091530",
+                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
             },
             {
-                "date": "2009-11-03",
-                "def_id": "oval:com.oracle.elsa:def:20091548",
-                "title": "ELSA-2009-1548:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2009-10-28",
+                "def_id": "oval:com.oracle.elsa:def:20091530",
+                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3372": [
+            {
+                "date": "2009-10-28",
+                "def_id": "oval:com.oracle.elsa:def:20091530",
+                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-10-28",
+                "def_id": "oval:com.oracle.elsa:def:20091530",
+                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-1563": [
+            {
+                "date": "2009-10-28",
+                "def_id": "oval:com.oracle.elsa:def:20091530",
+                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-10-28",
+                "def_id": "oval:com.oracle.elsa:def:20091530",
+                "title": "ELSA-2009-1530:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
@@ -1075,7 +1038,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-3547": [
+        "CVE-2009-2695": [
             {
                 "date": "2009-11-03",
                 "def_id": "oval:com.oracle.elsa:def:20091548",
@@ -1107,22 +1070,6 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-3228": [
-            {
-                "date": "2009-11-03",
-                "def_id": "oval:com.oracle.elsa:def:20091548",
-                "title": "ELSA-2009-1548:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-03",
-                "def_id": "oval:com.oracle.elsa:def:20091548",
-                "title": "ELSA-2009-1548:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2009-3613": [
             {
                 "date": "2009-11-03",
@@ -1139,167 +1086,39 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-3876": [
+        "CVE-2009-3228": [
             {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2009-11-03",
+                "def_id": "oval:com.oracle.elsa:def:20091548",
+                "title": "ELSA-2009-1548:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
             },
             {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2009-11-03",
+                "def_id": "oval:com.oracle.elsa:def:20091548",
+                "title": "ELSA-2009-1548:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-3728": [
+        "CVE-2009-3547": [
             {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2009-11-03",
+                "def_id": "oval:com.oracle.elsa:def:20091548",
+                "title": "ELSA-2009-1548:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
             },
             {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3884": [
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3871": [
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3869": [
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3879": [
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3874": [
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3880": [
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3875": [
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2009-11-03",
+                "def_id": "oval:com.oracle.elsa:def:20091548",
+                "title": "ELSA-2009-1548:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
         "CVE-2009-3883": [
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20091584",
-                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-3882": [
             {
                 "date": "2009-11-16",
                 "def_id": "oval:com.oracle.elsa:def:20091584",
@@ -1347,7 +1166,167 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2009-3884": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3728": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3876": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3882": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3874": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2009-3877": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3871": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3880": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3869": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3875": [
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20091584",
+                "title": "ELSA-2009-1584:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-3879": [
             {
                 "date": "2009-11-16",
                 "def_id": "oval:com.oracle.elsa:def:20091584",

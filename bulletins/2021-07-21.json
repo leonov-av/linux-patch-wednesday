@@ -3440,7 +3440,7 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
-                "date": "2021-08-04",
+                "date": "2021-08-05",
                 "def_id": "oval:org.debian:def:32630818760489309713987097522646749652",
                 "title": "DSA-4949-1 jetty9",
                 "type": "debian",
@@ -6868,23 +6868,9 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2021-11-10",
-                "def_id": "oval:org.debian:def:165211187863055798574438905967967864425",
-                "title": "DSA-5004-1 libxstream-java",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
                 "date": "unknown",
                 "def_id": "oval:org.debian:def:162630842621365578346480596679125599258",
                 "title": "CVE-2021-29505 libxstream-java",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2021-11-10",
-                "def_id": "oval:org.debian:def:165211187863055798574438905967967864425",
-                "title": "DSA-5004-1 libxstream-java",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
@@ -12740,6 +12726,13 @@
             },
             {
                 "date": "2021-07-20",
+                "def_id": "oval:org.debian:def:269285932299294932622505809902988856745",
+                "title": "DSA-4942-1 systemd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-07-20",
                 "def_id": "oval:com.ubuntu.bionic:def:50131000000",
                 "title": "USN-5013-1 -- systemd vulnerabilities",
                 "type": "ubuntu",
@@ -13873,11 +13866,60 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236707",
+                "title": "ELSA-2023-6707:  avahi security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-12-15",
+                "def_id": "oval:com.oracle.elsa:def:20237836",
+                "title": "ELSA-2023-7836:  avahi security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236707",
+                "title": "ELSA-2023-6707:  avahi security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-12-15",
+                "def_id": "oval:com.oracle.elsa:def:20237836",
+                "title": "ELSA-2023-7836:  avahi security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236707",
+                "title": "ELSA-2023-6707:  avahi security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:org.almalinux.alsa:def:20237836",
+                "title": "ALSA-2023:7836: avahi security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
                 "date": "2023-11-07",
                 "def_id": "oval:org.almalinux.alsa:def:20236707",
                 "title": "ALSA-2023:6707: avahi security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237836",
+                "title": "RHSA-2023:7836: avahi security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -14239,6 +14281,27 @@
                 "title": "5008-1 -- Avahi vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.hirsute.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236707",
+                "title": "ELSA-2023-6707:  avahi security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236707",
+                "title": "ELSA-2023-6707:  avahi security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236707",
+                "title": "ELSA-2023-6707:  avahi security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -19525,13 +19588,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2021-12-28",
-                "def_id": "oval:org.debian:def:161846696094655734733975564833361612420",
-                "title": "DSA-5032-1 djvulibre",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
                 "date": "unknown",
                 "def_id": "oval:org.debian:def:181138432229826617790205174271879760994",
                 "title": "CVE-2021-3630 djvulibre",
@@ -20049,7 +20105,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2021-29972": [
+        "CVE-2021-29975": [
             {
                 "date": "2021-07-16",
                 "def_id": "oval:com.ubuntu.bionic:def:50111000000",
@@ -20137,7 +20193,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.hirsute.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-29974": [
+        "CVE-2021-29972": [
             {
                 "date": "2021-07-16",
                 "def_id": "oval:com.ubuntu.bionic:def:50111000000",
@@ -20181,7 +20237,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.hirsute.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-29975": [
+        "CVE-2021-29974": [
             {
                 "date": "2021-07-16",
                 "def_id": "oval:com.ubuntu.bionic:def:50111000000",

@@ -165,6 +165,36 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
+        "CVE-2018-25045": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:153085995161275483294142852067995098262",
+                "title": "CVE-2018-25045 djangorestframework",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:153085995161275483294142852067995098262",
+                "title": "CVE-2018-25045 djangorestframework",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:153085995161275483294142852067995098262",
+                "title": "CVE-2018-25045 djangorestframework",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-07-22",
+                "def_id": "oval:org.debian:def:77082316535085195574306888018625988962",
+                "title": "DSA-5186-1 djangorestframework",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            }
+        ],
         "CVE-2019-17533": [
             {
                 "date": "unknown",
@@ -723,6 +753,85 @@
                 "date": "2022-07-25",
                 "def_id": "oval:com.ubuntu.xenial:def:51871000000",
                 "title": "USN-5187-1 -- Glances vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-32761": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:307309428206707192674662435006768740873",
+                "title": "CVE-2021-32761 redis",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:307309428206707192674662435006768740873",
+                "title": "CVE-2021-32761 redis",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:307309428206707192674662435006768740873",
+                "title": "CVE-2021-32761 redis",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-08-03",
+                "def_id": "oval:com.ubuntu.bionic:def:52211000000",
+                "title": "USN-5221-1 -- Redis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-03",
+                "def_id": "oval:com.ubuntu.focal:def:52211000000",
+                "title": "USN-5221-1 -- Redis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-03",
+                "def_id": "oval:com.ubuntu.trusty:def:52211000000",
+                "title": "USN-5221-1 -- Redis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-03",
+                "def_id": "oval:com.ubuntu.xenial:def:52211000000",
+                "title": "USN-5221-1 -- Redis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-03",
+                "def_id": "oval:com.ubuntu.bionic:def:52211000000",
+                "title": "USN-5221-1 -- Redis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-03",
+                "def_id": "oval:com.ubuntu.focal:def:52211000000",
+                "title": "USN-5221-1 -- Redis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-03",
+                "def_id": "oval:com.ubuntu.trusty:def:52211000000",
+                "title": "USN-5221-1 -- Redis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-03",
+                "def_id": "oval:com.ubuntu.xenial:def:52211000000",
+                "title": "USN-5221-1 -- Redis vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
@@ -12987,6 +13096,66 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2022-2742": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:295961279876204299285565560861804908837",
+                "title": "CVE-2022-2742 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:295961279876204299285565560861804908837",
+                "title": "CVE-2022-2742 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-08-07",
+                "def_id": "oval:org.debian:def:131965418846219540438523280356984821289",
+                "title": "DSA-5201-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:295961279876204299285565560861804908837",
+                "title": "CVE-2022-2742 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            }
+        ],
+        "CVE-2022-2743": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:86874376923110523340845920240096629058",
+                "title": "CVE-2022-2743 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:86874376923110523340845920240096629058",
+                "title": "CVE-2022-2743 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-08-07",
+                "def_id": "oval:org.debian:def:131965418846219540438523280356984821289",
+                "title": "DSA-5201-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:86874376923110523340845920240096629058",
+                "title": "CVE-2022-2743 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            }
+        ],
         "CVE-2022-28129": [
             {
                 "date": "unknown",
@@ -17650,9 +17819,23 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-12-12",
+                "def_id": "oval:com.ubuntu.bionic:def:65501000000",
+                "title": "USN-6550-1 -- PostfixAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2022-08-10",
                 "def_id": "oval:com.ubuntu.focal:def:55591000000",
                 "title": "USN-5559-1 -- Moment.js vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:com.ubuntu.focal:def:65501000000",
+                "title": "USN-6550-1 -- PostfixAdmin vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
@@ -17664,9 +17847,23 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-12-12",
+                "def_id": "oval:com.ubuntu.jammy:def:65501000000",
+                "title": "USN-6550-1 -- PostfixAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2022-08-10",
                 "def_id": "oval:com.ubuntu.bionic:def:55591000000",
                 "title": "USN-5559-1 -- Moment.js vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:com.ubuntu.bionic:def:65501000000",
+                "title": "USN-6550-1 -- PostfixAdmin vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
@@ -17678,9 +17875,23 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-12-12",
+                "def_id": "oval:com.ubuntu.focal:def:65501000000",
+                "title": "USN-6550-1 -- PostfixAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2022-08-10",
                 "def_id": "oval:com.ubuntu.jammy:def:55591000000",
                 "title": "USN-5559-1 -- Moment.js vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:com.ubuntu.jammy:def:65501000000",
+                "title": "USN-6550-1 -- PostfixAdmin vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -20508,6 +20719,120 @@
                 "title": "USN-5568-1 -- WebKitGTK vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227704",
+                "title": "RHSA-2022:7704: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227704",
+                "title": "RHSA-2022:7704: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227704",
+                "title": "RHSA-2022:7704: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227704",
+                "title": "RHSA-2022:7704: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227704",
+                "title": "RHSA-2022:7704: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-32891": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:95110843304104886289466909590360329549",
+                "title": "CVE-2022-32891 webkit2gtk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:37823833112628458367238562393312156450",
+                "title": "CVE-2022-32891 wpewebkit",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:95110843304104886289466909590360329549",
+                "title": "CVE-2022-32891 webkit2gtk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:37823833112628458367238562393312156450",
+                "title": "CVE-2022-32891 wpewebkit",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-08-16",
+                "def_id": "oval:org.debian:def:236063640154983335970460551719973520449",
+                "title": "DSA-5210-1 webkit2gtk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-08-16",
+                "def_id": "oval:org.debian:def:229778545429677172080186549372894035995",
+                "title": "DSA-5211-1 wpewebkit",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:95110843304104886289466909590360329549",
+                "title": "CVE-2022-32891 webkit2gtk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
                 "date": "2022-11-08",
@@ -25747,6 +26072,103 @@
                 "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-37155": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:289851238444486568990360106669161090182",
+                "title": "CVE-2022-37155 spip",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:289851238444486568990360106669161090182",
+                "title": "CVE-2022-37155 spip",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-07-26",
+                "def_id": "oval:org.debian:def:44524569027777983456314422553978812964",
+                "title": "DSA-5190-1 spip",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:289851238444486568990360106669161090182",
+                "title": "CVE-2022-37155 spip",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-07-26",
+                "def_id": "oval:org.debian:def:44524569027777983456314422553978812964",
+                "title": "DSA-5190-1 spip",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            }
+        ],
+        "CVE-2022-4914": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:85669092596847329670643225554444403114",
+                "title": "CVE-2022-4914 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:85669092596847329670643225554444403114",
+                "title": "CVE-2022-4914 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-08-07",
+                "def_id": "oval:org.debian:def:131965418846219540438523280356984821289",
+                "title": "DSA-5201-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:85669092596847329670643225554444403114",
+                "title": "CVE-2022-4914 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            }
+        ],
+        "CVE-2022-4915": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:127188398937945092568881821978380307406",
+                "title": "CVE-2022-4915 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:127188398937945092568881821978380307406",
+                "title": "CVE-2022-4915 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-07-22",
+                "def_id": "oval:org.debian:def:83555446280199012437121803480243933064",
+                "title": "DSA-5187-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:127188398937945092568881821978380307406",
+                "title": "CVE-2022-4915 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             }
         ],
         "CVE-2021-46669": [
@@ -35220,1321 +35642,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2022-21522": [
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:org.almalinux.alsa:def:20227119",
-                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:org.almalinux.alsa:def:20226590",
-                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-21525": [
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:org.almalinux.alsa:def:20227119",
-                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:org.almalinux.alsa:def:20226590",
-                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-21539": [
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:org.almalinux.alsa:def:20227119",
-                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:org.almalinux.alsa:def:20226590",
-                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-21528": [
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:org.almalinux.alsa:def:20227119",
-                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:org.almalinux.alsa:def:20226590",
-                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-21547": [
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:org.almalinux.alsa:def:20227119",
-                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:org.almalinux.alsa:def:20226590",
-                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
         "CVE-2022-21530": [
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:org.almalinux.alsa:def:20227119",
-                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:org.almalinux.alsa:def:20226590",
-                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-21538": [
             {
                 "date": "2022-07-28",
                 "def_id": "oval:com.ubuntu.bionic:def:55371000000",
@@ -36972,7 +36080,883 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-21531": [
+        "CVE-2022-21529": [
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:org.almalinux.alsa:def:20227119",
+                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:org.almalinux.alsa:def:20226590",
+                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-21522": [
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:org.almalinux.alsa:def:20227119",
+                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:org.almalinux.alsa:def:20226590",
+                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-21527": [
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:org.almalinux.alsa:def:20227119",
+                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:org.almalinux.alsa:def:20226590",
+                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-21539": [
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:org.almalinux.alsa:def:20227119",
+                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:org.almalinux.alsa:def:20226590",
+                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-21538": [
             {
                 "date": "2022-07-28",
                 "def_id": "oval:com.ubuntu.bionic:def:55371000000",
@@ -37410,7 +37394,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-21534": [
+        "CVE-2022-21526": [
             {
                 "date": "2022-07-28",
                 "def_id": "oval:com.ubuntu.bionic:def:55371000000",
@@ -37629,7 +37613,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-21509": [
+        "CVE-2022-21534": [
             {
                 "date": "2022-07-28",
                 "def_id": "oval:com.ubuntu.bionic:def:55371000000",
@@ -38067,226 +38051,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-21526": [
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.focal:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-28",
-                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
-                "title": "USN-5537-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-27",
-                "def_id": "oval:com.oracle.elsa:def:20227119",
-                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-09-22",
-                "def_id": "oval:com.oracle.elsa:def:20226590",
-                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:org.almalinux.alsa:def:20227119",
-                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:org.almalinux.alsa:def:20226590",
-                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-14",
-                "def_id": "oval:com.redhat.rhsa:def:20226518",
-                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-25",
-                "def_id": "oval:com.redhat.rhsa:def:20227119",
-                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226590",
-                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-21529": [
+        "CVE-2022-21531": [
             {
                 "date": "2022-07-28",
                 "def_id": "oval:com.ubuntu.bionic:def:55371000000",
@@ -38738,6 +38503,663 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2022-21528": [
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:org.almalinux.alsa:def:20227119",
+                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:org.almalinux.alsa:def:20226590",
+                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-21525": [
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:org.almalinux.alsa:def:20227119",
+                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:org.almalinux.alsa:def:20226590",
+                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-21547": [
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.bionic:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.focal:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-28",
+                "def_id": "oval:com.ubuntu.jammy:def:55371000000",
+                "title": "USN-5537-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-27",
+                "def_id": "oval:com.oracle.elsa:def:20227119",
+                "title": "ELSA-2022-7119:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-09-22",
+                "def_id": "oval:com.oracle.elsa:def:20226590",
+                "title": "ELSA-2022-6590:  mysql security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:org.almalinux.alsa:def:20227119",
+                "title": "ALSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:org.almalinux.alsa:def:20226590",
+                "title": "ALSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-14",
+                "def_id": "oval:com.redhat.rhsa:def:20226518",
+                "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-25",
+                "def_id": "oval:com.redhat.rhsa:def:20227119",
+                "title": "RHSA-2022:7119: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226590",
+                "title": "RHSA-2022:6590: mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-21569": [
             {
                 "date": "2022-07-28",
@@ -38957,7 +39379,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-21527": [
+        "CVE-2022-21509": [
             {
                 "date": "2022-07-28",
                 "def_id": "oval:com.ubuntu.bionic:def:55371000000",
