@@ -2199,6 +2199,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-01-15",
+                "def_id": "oval:com.ubuntu.bionic:def:65831000000",
+                "title": "USN-6583-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
                 "title": "USN-6459-1 -- MySQL vulnerabilities",
@@ -2227,6 +2234,20 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-15",
+                "def_id": "oval:com.ubuntu.xenial:def:65831000000",
+                "title": "USN-6583-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-15",
+                "def_id": "oval:com.ubuntu.bionic:def:65831000000",
+                "title": "USN-6583-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
                 "title": "USN-6459-1 -- MySQL vulnerabilities",
@@ -2253,6 +2274,13 @@
                 "title": "USN-6459-1 -- MySQL vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-15",
+                "def_id": "oval:com.ubuntu.xenial:def:65831000000",
+                "title": "USN-6583-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2023-22745": [
@@ -3088,6 +3116,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.mantic:def:65721000000",
+                "title": "USN-6572-1 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-11-30",
                 "def_id": "oval:com.ubuntu.trusty:def:64942000000",
                 "title": "USN-6494-2 -- Linux kernel vulnerabilities",
@@ -3280,6 +3315,13 @@
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.mantic:def:65371000000",
                 "title": "USN-6537-1 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.mantic:def:65721000000",
+                "title": "USN-6572-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
@@ -4785,9 +4827,23 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-01-02",
+                "def_id": "oval:org.debian:def:255747552385868070202943910069869949601",
+                "title": "DSA-5594-1 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
                 "date": "unknown",
                 "def_id": "oval:org.debian:def:59665362655015182929575381283336786214",
                 "title": "CVE-2023-34324 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:65737095331634761143284656688226738041",
+                "title": "CVE-2023-34324 linux-5.10",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
@@ -5529,9 +5585,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240133",
+                "title": "ELSA-2024-0133:  fence-agents security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2023-12-18",
                 "def_id": "oval:com.oracle.elsa:def:20237753",
                 "title": "ELSA-2023-7753:  fence-agents security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240133",
+                "title": "ELSA-2024-0133:  fence-agents security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5541,6 +5611,13 @@
                 "title": "ELSA-2023-7753:  fence-agents security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240133",
+                "title": "ALSA-2024:0133: fence-agents security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -5653,6 +5730,13 @@
                 "title": "RHSA-2023:7528: fence-agents security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240133",
+                "title": "RHSA-2024:0133: fence-agents security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-11-21",
@@ -6004,6 +6088,20 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.focal:def:65484000000",
+                "title": "USN-6548-4 -- Linux kernel (GKE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.ubuntu.focal:def:65485000000",
+                "title": "USN-6548-5 -- Linux kernel (IoT) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-11",
                 "def_id": "oval:com.ubuntu.focal:def:65491000000",
                 "title": "USN-6549-1 -- Linux kernel vulnerabilities",
@@ -6021,6 +6119,13 @@
                 "date": "2023-12-13",
                 "def_id": "oval:com.ubuntu.focal:def:65493000000",
                 "title": "USN-6549-3 -- Linux kernel (Low Latency) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.ubuntu.focal:def:65495000000",
+                "title": "USN-6549-5 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
@@ -6074,6 +6179,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-05",
+                "def_id": "oval:com.ubuntu.jammy:def:65494000000",
+                "title": "USN-6549-4 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-05",
                 "def_id": "oval:com.ubuntu.lunar:def:65341000000",
                 "title": "USN-6534-1 -- Linux kernel vulnerabilities",
@@ -6098,6 +6210,13 @@
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.mantic:def:65371000000",
                 "title": "USN-6537-1 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.mantic:def:65731000000",
+                "title": "USN-6573-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
             },
@@ -6186,6 +6305,20 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.focal:def:65484000000",
+                "title": "USN-6548-4 -- Linux kernel (GKE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.ubuntu.focal:def:65485000000",
+                "title": "USN-6548-5 -- Linux kernel (IoT) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-11",
                 "def_id": "oval:com.ubuntu.focal:def:65491000000",
                 "title": "USN-6549-1 -- Linux kernel vulnerabilities",
@@ -6203,6 +6336,13 @@
                 "date": "2023-12-13",
                 "def_id": "oval:com.ubuntu.focal:def:65493000000",
                 "title": "USN-6549-3 -- Linux kernel (Low Latency) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.ubuntu.focal:def:65495000000",
+                "title": "USN-6549-5 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
@@ -6256,6 +6396,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-05",
+                "def_id": "oval:com.ubuntu.jammy:def:65494000000",
+                "title": "USN-6549-4 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-05",
                 "def_id": "oval:com.ubuntu.lunar:def:65341000000",
                 "title": "USN-6534-1 -- Linux kernel vulnerabilities",
@@ -6280,6 +6427,13 @@
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.mantic:def:65371000000",
                 "title": "USN-6537-1 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.mantic:def:65731000000",
+                "title": "USN-6573-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
@@ -6372,6 +6526,62 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.focal:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.jammy:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.lunar:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.mantic:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.focal:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.jammy:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.lunar:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.mantic:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -6400,6 +6610,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -6428,6 +6645,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -6454,6 +6678,13 @@
                 "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240121",
+                "title": "ALSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -6496,6 +6727,13 @@
                 "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240121",
+                "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-10-31",
@@ -6563,6 +6801,62 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.focal:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.jammy:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.lunar:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.mantic:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.focal:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.jammy:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.lunar:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.mantic:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -6582,6 +6876,13 @@
                 "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
             },
             {
                 "date": "2023-12-13",
@@ -6605,6 +6906,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -6624,6 +6932,13 @@
                 "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240121",
+                "title": "ALSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -6666,6 +6981,13 @@
                 "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240121",
+                "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-10-31",
@@ -6731,6 +7053,62 @@
                 "title": "CVE-2023-39323 golang-1.11",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.focal:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.jammy:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.lunar:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.mantic:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.focal:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.jammy:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.lunar:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.ubuntu.mantic:def:65741000000",
+                "title": "USN-6574-1 -- Go vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-11-09",
@@ -8606,6 +8984,20 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.focal:def:65484000000",
+                "title": "USN-6548-4 -- Linux kernel (GKE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.ubuntu.focal:def:65485000000",
+                "title": "USN-6548-5 -- Linux kernel (IoT) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-11",
                 "def_id": "oval:com.ubuntu.focal:def:65491000000",
                 "title": "USN-6549-1 -- Linux kernel vulnerabilities",
@@ -8623,6 +9015,13 @@
                 "date": "2023-12-13",
                 "def_id": "oval:com.ubuntu.focal:def:65493000000",
                 "title": "USN-6549-3 -- Linux kernel (Low Latency) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.ubuntu.focal:def:65495000000",
+                "title": "USN-6549-5 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
@@ -8676,6 +9075,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-05",
+                "def_id": "oval:com.ubuntu.jammy:def:65494000000",
+                "title": "USN-6549-4 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-05",
                 "def_id": "oval:com.ubuntu.lunar:def:65341000000",
                 "title": "USN-6534-1 -- Linux kernel vulnerabilities",
@@ -8700,6 +9106,13 @@
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.mantic:def:65371000000",
                 "title": "USN-6537-1 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.mantic:def:65731000000",
+                "title": "USN-6573-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
             },
@@ -8788,6 +9201,20 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.focal:def:65484000000",
+                "title": "USN-6548-4 -- Linux kernel (GKE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.ubuntu.focal:def:65485000000",
+                "title": "USN-6548-5 -- Linux kernel (IoT) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-11",
                 "def_id": "oval:com.ubuntu.focal:def:65491000000",
                 "title": "USN-6549-1 -- Linux kernel vulnerabilities",
@@ -8805,6 +9232,13 @@
                 "date": "2023-12-13",
                 "def_id": "oval:com.ubuntu.focal:def:65493000000",
                 "title": "USN-6549-3 -- Linux kernel (Low Latency) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.ubuntu.focal:def:65495000000",
+                "title": "USN-6549-5 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
@@ -8858,6 +9292,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-05",
+                "def_id": "oval:com.ubuntu.jammy:def:65494000000",
+                "title": "USN-6549-4 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-05",
                 "def_id": "oval:com.ubuntu.lunar:def:65341000000",
                 "title": "USN-6534-1 -- Linux kernel vulnerabilities",
@@ -8882,6 +9323,13 @@
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.mantic:def:65371000000",
                 "title": "USN-6537-1 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.mantic:def:65731000000",
+                "title": "USN-6573-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
@@ -9298,9 +9746,37 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
+                "date": "2024-01-10",
+                "def_id": "oval:com.oracle.elsa:def:20240116",
+                "title": "ELSA-2024-0116:  python-urllib3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240133",
+                "title": "ELSA-2024-0133:  fence-agents security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2023-12-18",
                 "def_id": "oval:com.oracle.elsa:def:20237753",
                 "title": "ELSA-2023-7753:  fence-agents security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.oracle.elsa:def:20240116",
+                "title": "ELSA-2024-0116:  python-urllib3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240133",
+                "title": "ELSA-2024-0133:  fence-agents security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -9310,6 +9786,20 @@
                 "title": "ELSA-2023-7753:  fence-agents security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240116",
+                "title": "ALSA-2024:0116: python-urllib3 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240133",
+                "title": "ALSA-2024:0133: fence-agents security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -9424,6 +9914,20 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
             },
             {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240116",
+                "title": "RHSA-2024:0116: python-urllib3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240133",
+                "title": "RHSA-2024:0133: fence-agents security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
                 "date": "2023-11-21",
                 "def_id": "oval:com.redhat.rhsa:def:20237385",
                 "title": "RHSA-2023:7385: fence-agents security update (Moderate)",
@@ -9501,6 +10005,104 @@
                 "title": "CVE-2023-44981 zookeeper",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.bionic:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.focal:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.jammy:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.lunar:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.mantic:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.trusty:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.xenial:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.bionic:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.focal:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.jammy:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.lunar:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.mantic:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.trusty:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.xenial:def:65591000000",
+                "title": "USN-6559-1 -- ZooKeeper vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2023-45024": [
@@ -9808,6 +10410,34 @@
                 "title": "USN-6473-2 -- pip vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.oracle.elsa:def:20240116",
+                "title": "ELSA-2024-0116:  python-urllib3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.oracle.elsa:def:20240116",
+                "title": "ELSA-2024-0116:  python-urllib3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240116",
+                "title": "ALSA-2024:0116: python-urllib3 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240116",
+                "title": "RHSA-2024:0116: python-urllib3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2023-45853": [
@@ -10646,6 +11276,20 @@
                 "date": "2023-11-08",
                 "def_id": "oval:com.oracle.elsa:def:20236805",
                 "title": "ELSA-2023-6805:  squid security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-12",
+                "def_id": "oval:com.oracle.elsa:def:20236882",
+                "title": "ELSA-2023-6882:  squid34 security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-12",
+                "def_id": "oval:com.oracle.elsa:def:20236884",
+                "title": "ELSA-2023-6884:  squid security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -12579,6 +13223,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.mantic:def:65721000000",
+                "title": "USN-6572-1 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-10-31",
                 "def_id": "oval:com.ubuntu.jammy:def:64611000000",
                 "title": "USN-6461-1 -- Linux kernel (OEM) vulnerabilities",
@@ -12652,6 +13303,13 @@
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.mantic:def:65371000000",
                 "title": "USN-6537-1 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.mantic:def:65721000000",
+                "title": "USN-6572-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
@@ -12933,6 +13591,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240010",
+                "title": "ELSA-2024-0010:  tigervnc security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2023-11-08",
                 "def_id": "oval:com.oracle.elsa:def:20236802",
                 "title": "ELSA-2023-6802:  xorg-x11-server security update (IMPORTANT)",
@@ -12943,6 +13608,13 @@
                 "date": "2023-11-22",
                 "def_id": "oval:com.oracle.elsa:def:20237428",
                 "title": "ELSA-2023-7428:  tigervnc security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240010",
+                "title": "ELSA-2024-0010:  tigervnc security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -12966,6 +13638,13 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 xorg-x11-server-Xorg",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:org.almalinux.alsa:def:20240010",
+                "title": "ALSA-2024:0010: tigervnc security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
                 "date": "2023-11-08",
@@ -13101,6 +13780,13 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
             },
             {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240128",
+                "title": "RHSA-2024:0128: tigervnc security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
                 "date": "2023-11-21",
                 "def_id": "oval:com.redhat.rhsa:def:20237388",
                 "title": "RHSA-2023:7388: tigervnc security update (Important)",
@@ -13134,6 +13820,13 @@
                 "title": "RHSA-2023:7373: tigervnc security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240010",
+                "title": "RHSA-2024:0010: tigervnc security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2023-5380": [
@@ -17638,6 +18331,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-01-17",
+                "def_id": "oval:com.ubuntu.bionic:def:65382000000",
+                "title": "USN-6538-2 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.focal:def:65381000000",
                 "title": "USN-6538-1 -- PostgreSQL vulnerabilities",
@@ -17664,6 +18364,13 @@
                 "title": "USN-6538-1 -- PostgreSQL vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-17",
+                "def_id": "oval:com.ubuntu.bionic:def:65382000000",
+                "title": "USN-6538-2 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-12-06",
@@ -18193,6 +18900,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-01-17",
+                "def_id": "oval:com.ubuntu.bionic:def:65382000000",
+                "title": "USN-6538-2 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.focal:def:65381000000",
                 "title": "USN-6538-1 -- PostgreSQL vulnerabilities",
@@ -18221,6 +18935,20 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.xenial:def:65701000000",
+                "title": "USN-6570-1 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-17",
+                "def_id": "oval:com.ubuntu.bionic:def:65382000000",
+                "title": "USN-6538-2 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.focal:def:65381000000",
                 "title": "USN-6538-1 -- PostgreSQL vulnerabilities",
@@ -18247,6 +18975,13 @@
                 "title": "USN-6538-1 -- PostgreSQL vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.xenial:def:65701000000",
+                "title": "USN-6570-1 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-11-30",
@@ -18937,6 +19672,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-01-17",
+                "def_id": "oval:com.ubuntu.bionic:def:65382000000",
+                "title": "USN-6538-2 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.focal:def:65381000000",
                 "title": "USN-6538-1 -- PostgreSQL vulnerabilities",
@@ -18965,6 +19707,20 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.xenial:def:65701000000",
+                "title": "USN-6570-1 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-17",
+                "def_id": "oval:com.ubuntu.bionic:def:65382000000",
+                "title": "USN-6538-2 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-12-06",
                 "def_id": "oval:com.ubuntu.focal:def:65381000000",
                 "title": "USN-6538-1 -- PostgreSQL vulnerabilities",
@@ -18991,6 +19747,13 @@
                 "title": "USN-6538-1 -- PostgreSQL vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-09",
+                "def_id": "oval:com.ubuntu.xenial:def:65701000000",
+                "title": "USN-6570-1 -- PostgreSQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-11-30",
@@ -19561,23 +20324,7 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
-        "CVE-2023-5722": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64561000000",
-                "title": "USN-6456-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64561000000",
-                "title": "USN-6456-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-5729": [
+        "CVE-2023-5731": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64561000000",
@@ -19609,7 +20356,23 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-5731": [
+        "CVE-2023-5729": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64561000000",
+                "title": "USN-6456-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64561000000",
+                "title": "USN-6456-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-5722": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64561000000",
@@ -19626,64 +20389,6 @@
             }
         ],
         "CVE-2023-22097": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-22066": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
@@ -19799,123 +20504,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-22032": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-22059": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-22064": [
+        "CVE-2023-22068": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
@@ -20089,7 +20678,181 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-22078": [
+        "CVE-2023-22064": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-22066": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-22032": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-22059": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
@@ -20205,7 +20968,65 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-22068": [
+        "CVE-2023-22103": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-22078": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
@@ -20321,113 +21142,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-22103": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.lunar:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-45083": [
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-40323": [
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-1000226": [
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-1000225": [
+        "CVE-2021-40325": [
             {
                 "date": "2023-11-13",
                 "def_id": "oval:com.ubuntu.xenial:def:64751000000",
@@ -20459,6 +21174,22 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2021-45083": [
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-0860": [
             {
                 "date": "2023-11-13",
@@ -20475,7 +21206,55 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2017-1000469": [
+        "CVE-2021-40324": [
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1000225": [
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1000226": [
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-40323": [
             {
                 "date": "2023-11-13",
                 "def_id": "oval:com.ubuntu.xenial:def:64751000000",
@@ -20507,23 +21286,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-40325": [
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-40324": [
+        "CVE-2017-1000469": [
             {
                 "date": "2023-11-13",
                 "def_id": "oval:com.ubuntu.xenial:def:64751000000",
@@ -21051,117 +21814,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-39201": [
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-11-07",
-                "def_id": "oval:org.almalinux.alsa:def:20236420",
-                "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-11-07",
-                "def_id": "oval:com.redhat.rhsa:def:20236420",
-                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-39307": [
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-11-07",
-                "def_id": "oval:org.almalinux.alsa:def:20236420",
-                "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-11-07",
-                "def_id": "oval:com.redhat.rhsa:def:20236420",
-                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-39306": [
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-11-07",
-                "def_id": "oval:org.almalinux.alsa:def:20236420",
-                "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-11-07",
-                "def_id": "oval:com.redhat.rhsa:def:20236420",
-                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
         "CVE-2022-23552": [
             {
                 "date": "2023-11-11",
@@ -21236,7 +21888,118 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2022-39201": [
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:org.almalinux.alsa:def:20236420",
+                "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236420",
+                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-39307": [
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:org.almalinux.alsa:def:20236420",
+                "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236420",
+                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-31130": [
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:org.almalinux.alsa:def:20236420",
+                "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236420",
+                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-39306": [
             {
                 "date": "2023-11-11",
                 "def_id": "oval:com.oracle.elsa:def:20236420",
@@ -21516,6 +22279,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -21544,6 +22314,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -21570,6 +22347,13 @@
                 "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240121",
+                "title": "ALSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -21619,6 +22403,13 @@
                 "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240121",
+                "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-10-31",
@@ -21700,6 +22491,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -21728,6 +22526,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:com.oracle.elsa:def:20237762",
                 "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
@@ -21754,6 +22559,13 @@
                 "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240121",
+                "title": "ALSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -21803,6 +22615,13 @@
                 "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240121",
+                "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-10-31",
@@ -22139,6 +22958,15 @@
                 "title": "RHSA-2023:6231: Red Hat OpenStack Platform 16.2 (openstack-barbican) security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.2.oval.xml.bz2"
+            }
+        ],
+        "CVE-2024-0443": [
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ]
     }
