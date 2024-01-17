@@ -9,6 +9,50 @@
     "patch_wednesday_end_date_ts": 1576616400,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2015-6673": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:274322611270962595036299878737499846512",
+                "title": "CVE-2015-6673 libpgf",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:274322611270962595036299878737499846512",
+                "title": "CVE-2015-6673 libpgf",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:274322611270962595036299878737499846512",
+                "title": "CVE-2015-6673 libpgf",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-09-28",
+                "def_id": "oval:com.ubuntu.xenial:def:45541000000",
+                "title": "USN-4554-1 -- libPGF vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-28",
+                "def_id": "oval:com.ubuntu.xenial:def:45541000000",
+                "title": "USN-4554-1 -- libPGF vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-16",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2016-10735": [
             {
                 "date": "unknown",
@@ -414,6 +458,50 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2017-14160": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:285544666504811146586385341547434608162",
+                "title": "CVE-2017-14160 libvorbis",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:285544666504811146586385341547434608162",
+                "title": "CVE-2017-14160 libvorbis",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:285544666504811146586385341547434608162",
+                "title": "CVE-2017-14160 libvorbis",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:54201000000",
+                "title": "USN-5420-1 -- Vorbis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:54201000000",
+                "title": "USN-5420-1 -- Vorbis vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-28",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2017-18367": [
             {
                 "date": "unknown",
@@ -470,43 +558,13 @@
                 "title": "RHSA-2019:4087: OpenShift Container Platform 4.1 openshift security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.1.oval.xml.bz2"
-            }
-        ],
-        "CVE-2017-6335": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:242144457518453797474547713740823628150",
-                "title": "CVE-2017-6335 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:242144457518453797474547713740823628150",
-                "title": "CVE-2017-6335 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:242144457518453797474547713740823628150",
-                "title": "CVE-2017-6335 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-02",
-                "def_id": "oval:com.ubuntu.xenial:def:42061000000",
-                "title": "USN-4206-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-02",
-                "def_id": "oval:com.ubuntu.xenial:def:42061000000",
-                "title": "USN-4206-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+                "date": "2020-08-11",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2018-11805": [
@@ -719,6 +777,13 @@
                 "title": "RHSA-2020:4625: spamassassin security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-16",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2018-19519": [
@@ -1003,329 +1068,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2018-20184": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:63441329722750295371372333760134209306",
-                "title": "CVE-2018-20184 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:63441329722750295371372333760134209306",
-                "title": "CVE-2018-20184 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:63441329722750295371372333760134209306",
-                "title": "CVE-2018-20184 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.bionic:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.focal:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.trusty:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.xenial:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.bionic:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.focal:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.trusty:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.xenial:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-20185": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:224852260507123924509027093810913556151",
-                "title": "CVE-2018-20185 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:224852260507123924509027093810913556151",
-                "title": "CVE-2018-20185 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:224852260507123924509027093810913556151",
-                "title": "CVE-2018-20185 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-20189": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:155424034065923279108357031912148121169",
-                "title": "CVE-2018-20189 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:155424034065923279108357031912148121169",
-                "title": "CVE-2018-20189 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:155424034065923279108357031912148121169",
-                "title": "CVE-2018-20189 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.bionic:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.focal:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.trusty:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.xenial:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.bionic:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.focal:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.trusty:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.xenial:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-8740": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:233219130040069278024299723197491405884",
-                "title": "CVE-2018-8740 sqlite3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:233219130040069278024299723197491405884",
-                "title": "CVE-2018-8740 sqlite3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:9446681256263375740860016723769270103",
-                "title": "CVE-2018-8740 sqlite",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:233219130040069278024299723197491405884",
-                "title": "CVE-2018-8740 sqlite3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-02",
-                "def_id": "oval:com.ubuntu.bionic:def:42051000000",
-                "title": "USN-4205-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-06-10",
-                "def_id": "oval:com.ubuntu.bionic:def:43941000000",
-                "title": "USN-4394-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-06-10",
-                "def_id": "oval:com.ubuntu.focal:def:43941000000",
-                "title": "USN-4394-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-02",
-                "def_id": "oval:com.ubuntu.xenial:def:42051000000",
-                "title": "USN-4205-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-06-10",
-                "def_id": "oval:com.ubuntu.xenial:def:43941000000",
-                "title": "USN-4394-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-02",
-                "def_id": "oval:com.ubuntu.bionic:def:42051000000",
-                "title": "USN-4205-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-06-10",
-                "def_id": "oval:com.ubuntu.bionic:def:43941000000",
-                "title": "USN-4394-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-06-10",
-                "def_id": "oval:com.ubuntu.focal:def:43941000000",
-                "title": "USN-4394-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-02",
-                "def_id": "oval:com.ubuntu.xenial:def:42051000000",
-                "title": "USN-4205-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-06-10",
-                "def_id": "oval:com.ubuntu.xenial:def:43941000000",
-                "title": "USN-4394-1 -- SQLite vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2019-10195": [
             {
                 "date": "unknown",
@@ -1596,247 +1338,6 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2019-11006": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:89457126280693633750561841632173405341",
-                "title": "CVE-2019-11006 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:89457126280693633750561841632173405341",
-                "title": "CVE-2019-11006 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:89457126280693633750561841632173405341",
-                "title": "CVE-2019-11006 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.bionic:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.focal:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.trusty:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.xenial:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.bionic:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.focal:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.trusty:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-27",
-                "def_id": "oval:com.ubuntu.xenial:def:59741000000",
-                "title": "USN-5974-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-11007": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:159564510308700270749522829293579914537",
-                "title": "CVE-2019-11007 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:159564510308700270749522829293579914537",
-                "title": "CVE-2019-11007 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:159564510308700270749522829293579914537",
-                "title": "CVE-2019-11007 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-11008": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:214515027926033010125632952620973935982",
-                "title": "CVE-2019-11008 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:214515027926033010125632952620973935982",
-                "title": "CVE-2019-11008 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:214515027926033010125632952620973935982",
-                "title": "CVE-2019-11008 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-11009": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:22732917244137154960757895969900438997",
-                "title": "CVE-2019-11009 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:22732917244137154960757895969900438997",
-                "title": "CVE-2019-11009 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:22732917244137154960757895969900438997",
-                "title": "CVE-2019-11009 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-11010": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:172366936761666540239731639668989702194",
-                "title": "CVE-2019-11010 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:172366936761666540239731639668989702194",
-                "title": "CVE-2019-11010 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:172366936761666540239731639668989702194",
-                "title": "CVE-2019-11010 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2019-11037": [
             {
                 "date": "unknown",
@@ -1937,154 +1438,6 @@
                 "title": "RHSA-2019:4087: OpenShift Container Platform 4.1 openshift security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.1.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-11473": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:121044863411393920083490899774059738540",
-                "title": "CVE-2019-11473 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:121044863411393920083490899774059738540",
-                "title": "CVE-2019-11473 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:121044863411393920083490899774059738540",
-                "title": "CVE-2019-11473 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-11474": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:271099961841030255348911504443016175203",
-                "title": "CVE-2019-11474 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:271099961841030255348911504443016175203",
-                "title": "CVE-2019-11474 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:271099961841030255348911504443016175203",
-                "title": "CVE-2019-11474 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-11505": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:195852672732728808760230504713924818343",
-                "title": "CVE-2019-11505 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:195852672732728808760230504713924818343",
-                "title": "CVE-2019-11505 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:195852672732728808760230504713924818343",
-                "title": "CVE-2019-11505 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-11506": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:234524991198898744112510437992239333158",
-                "title": "CVE-2019-11506 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:234524991198898744112510437992239333158",
-                "title": "CVE-2019-11506 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:234524991198898744112510437992239333158",
-                "title": "CVE-2019-11506 graphicsmagick",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-03",
-                "def_id": "oval:com.ubuntu.bionic:def:42071000000",
-                "title": "USN-4207-1 -- GraphicsMagick vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             }
         ],
         "CVE-2019-11745": [
@@ -2556,6 +1909,404 @@
                 "title": "RHSA-2019:4114: nss security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-26",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-12095": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:280905861612793533905038285877280841994",
+                "title": "CVE-2019-12095 php-horde",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:328092381006934779651415490263567389863",
+                "title": "CVE-2019-12095 php-horde-trean",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:280905861612793533905038285877280841994",
+                "title": "CVE-2019-12095 php-horde",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:328092381006934779651415490263567389863",
+                "title": "CVE-2019-12095 php-horde-trean",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:280905861612793533905038285877280841994",
+                "title": "CVE-2019-12095 php-horde",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:328092381006934779651415490263567389863",
+                "title": "CVE-2019-12095 php-horde-trean",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-12-14",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-12211": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:111322732644785431545875925130777950330",
+                "title": "CVE-2019-12211 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:111322732644785431545875925130777950330",
+                "title": "CVE-2019-12211 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:111322732644785431545875925130777950330",
+                "title": "CVE-2019-12211 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-12-27",
+                "def_id": "oval:org.debian:def:132557640859046087550759768418575280813",
+                "title": "DSA-4593-1 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-12-27",
+                "def_id": "oval:org.debian:def:111322732644785431545875925130777950330",
+                "title": "DSA-4593-1 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-27",
+                "def_id": "oval:org.debian:def:210043660658036251695129777308204749686",
+                "title": "DSA-4593-1 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-27",
+                "def_id": "oval:org.debian:def:132557640859046087550759768418575280813",
+                "title": "DSA-4593-1 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2020-09-22",
+                "def_id": "oval:com.ubuntu.bionic:def:45291000000",
+                "title": "USN-4529-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.bionic:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.focal:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.jammy:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.lunar:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.mantic:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.trusty:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.xenial:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-22",
+                "def_id": "oval:com.ubuntu.bionic:def:45291000000",
+                "title": "USN-4529-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.bionic:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.focal:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.jammy:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.lunar:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.mantic:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.trusty:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.xenial:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-12213": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:210043660658036251695129777308204749686",
+                "title": "CVE-2019-12213 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:210043660658036251695129777308204749686",
+                "title": "CVE-2019-12213 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:210043660658036251695129777308204749686",
+                "title": "CVE-2019-12213 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-12-27",
+                "def_id": "oval:org.debian:def:132557640859046087550759768418575280813",
+                "title": "DSA-4593-1 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-12-27",
+                "def_id": "oval:org.debian:def:111322732644785431545875925130777950330",
+                "title": "DSA-4593-1 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-27",
+                "def_id": "oval:org.debian:def:210043660658036251695129777308204749686",
+                "title": "DSA-4593-1 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-27",
+                "def_id": "oval:org.debian:def:132557640859046087550759768418575280813",
+                "title": "DSA-4593-1 freeimage",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2020-09-22",
+                "def_id": "oval:com.ubuntu.bionic:def:45291000000",
+                "title": "USN-4529-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.bionic:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.focal:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.jammy:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.lunar:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.mantic:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.trusty:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.xenial:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-22",
+                "def_id": "oval:com.ubuntu.bionic:def:45291000000",
+                "title": "USN-4529-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.bionic:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.focal:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.jammy:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.lunar:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.lunar.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.mantic:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.trusty:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-16",
+                "def_id": "oval:com.ubuntu.xenial:def:65861000000",
+                "title": "USN-6586-1 -- FreeImage vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-12420": [
@@ -2810,6 +2561,13 @@
                 "title": "RHSA-2020:4625: spamassassin security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-16",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-12523": [
@@ -3029,6 +2787,13 @@
                 "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-11",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-12526": [
@@ -3199,6 +2964,13 @@
                 "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-1348": [
@@ -3481,6 +3253,13 @@
                 "title": "RHSA-2019:4356: git security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-23",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-1349": [
@@ -3763,6 +3542,13 @@
                 "title": "RHSA-2019:4356: git security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-23",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-1350": [
@@ -4147,6 +3933,13 @@
                 "title": "RHSA-2019:4356: git security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-23",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-1353": [
@@ -4247,6 +4040,13 @@
                 "title": "USN-4220-1 -- Git vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-23",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-1354": [
@@ -7591,6 +7391,13 @@
                 "title": "RHSA-2019:4356: git security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-23",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-14607": [
@@ -7700,6 +7507,13 @@
                 "title": "USN-4217-1 -- Samba vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-05-29",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-14867": [
@@ -8019,6 +7833,13 @@
                 "title": "USN-4217-1 -- Samba vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-05-29",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-14889": [
@@ -8189,311 +8010,13 @@
                 "title": "RHSA-2020:4545: libssh security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-15165": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:133935979948044196189829633611374907811",
-                "title": "CVE-2019-15165 libpcap",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:133935979948044196189829633611374907811",
-                "title": "CVE-2019-15165 libpcap",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:133935979948044196189829633611374907811",
-                "title": "CVE-2019-15165 libpcap",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42211000000",
-                "title": "USN-4221-1 -- libpcap vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-11",
-                "def_id": "oval:com.ubuntu.trusty:def:42211000000",
-                "title": "USN-4221-1 -- libpcap vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42211000000",
-                "title": "USN-4221-1 -- libpcap vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42211000000",
-                "title": "USN-4221-1 -- libpcap vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-11",
-                "def_id": "oval:com.ubuntu.trusty:def:42211000000",
-                "title": "USN-4221-1 -- libpcap vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42211000000",
-                "title": "USN-4221-1 -- libpcap vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-10",
-                "def_id": "oval:com.oracle.elsa:def:20204547",
-                "title": "ELSA-2020-4547:  libpcap security, bug fix, and enhancement update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
-            },
-            {
-                "date": "2020-11-10",
-                "def_id": "oval:com.oracle.elsa:def:20204547",
-                "title": "ELSA-2020-4547:  libpcap security, bug fix, and enhancement update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2020-11-10",
-                "def_id": "oval:com.oracle.elsa:def:20204547",
-                "title": "ELSA-2020-4547:  libpcap security, bug fix, and enhancement update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:org.almalinux.alsa:def:20204547",
-                "title": "ALSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2020-11-04",
-                "def_id": "oval:com.redhat.rhsa:def:20204547",
-                "title": "RHSA-2020:4547: libpcap security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-15219": [
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:60225002594056150316803617110974441101",
-                "title": "CVE-2019-15219 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:60225002594056150316803617110974441101",
-                "title": "CVE-2019-15219 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:60225002594056150316803617110974441101",
-                "title": "CVE-2019-15219 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194870",
-                "title": "ELSA-2019-4870: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2019.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194871",
-                "title": "ELSA-2019-4871: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2019.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194872",
-                "title": "ELSA-2019-4872: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2019.xml.bz2"
-            },
-            {
-                "date": "2019-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20194878",
-                "title": "ELSA-2019-4878: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2019.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194870",
-                "title": "ELSA-2019-4870: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194871",
-                "title": "ELSA-2019-4871: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194872",
-                "title": "ELSA-2019-4872: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2019-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20194878",
-                "title": "ELSA-2019-4878: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194870",
-                "title": "ELSA-2019-4870: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194871",
-                "title": "ELSA-2019-4871: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194872",
-                "title": "ELSA-2019-4872: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194870",
-                "title": "ELSA-2019-4870: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.oracle.elsa:def:20194871",
-                "title": "ELSA-2019-4871: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2019-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20194878",
-                "title": "ELSA-2019-4878: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+                "date": "2019-12-17",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-15794": [
@@ -8813,6 +8336,13 @@
                 "title": "RHSA-2021:1968: mingw packages security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-23",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-16201": [
@@ -9207,6 +8737,13 @@
                 "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-26",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-16254": [
@@ -9601,6 +9138,13 @@
                 "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-26",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-16255": [
@@ -9995,6 +9539,13 @@
                 "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-26",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-16892": [
@@ -10776,6 +10327,13 @@
                 "title": "RHSA-2019:4195: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-17008": [
@@ -11520,6 +11078,13 @@
                 "title": "RHSA-2019:4195: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-17010": [
@@ -12264,6 +11829,13 @@
                 "title": "RHSA-2019:4195: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-17011": [
@@ -13008,6 +12580,13 @@
                 "title": "RHSA-2019:4195: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-17012": [
@@ -13752,6 +13331,13 @@
                 "title": "RHSA-2019:4195: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-17075": [
@@ -13908,6 +13494,13 @@
                 "title": "ELSA-2020-5866: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2020-03-02",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-17133": [
@@ -14323,6 +13916,108 @@
                 "title": "RHSA-2020:0375: kernel-rt security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-18",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-17267": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:121075191677659579630352496100696332290",
+                "title": "CVE-2019-17267 jackson-databind",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:121075191677659579630352496100696332290",
+                "title": "CVE-2019-17267 jackson-databind",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:121075191677659579630352496100696332290",
+                "title": "CVE-2019-17267 jackson-databind",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-03-15",
+                "def_id": "oval:com.ubuntu.xenial:def:48131000000",
+                "title": "USN-4813-1 -- Jackson Databind vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-15",
+                "def_id": "oval:com.ubuntu.xenial:def:48131000000",
+                "title": "USN-4813-1 -- Jackson Databind vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-17358": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:154794064093466340446431086814797044524",
+                "title": "CVE-2019-17358 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:154794064093466340446431086814797044524",
+                "title": "CVE-2019-17358 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:154794064093466340446431086814797044524",
+                "title": "CVE-2019-17358 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-01-19",
+                "def_id": "oval:org.debian:def:331159570948051441647440888087440050191",
+                "title": "DSA-4604-1 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-01-19",
+                "def_id": "oval:org.debian:def:154794064093466340446431086814797044524",
+                "title": "DSA-4604-1 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2020-01-19",
+                "def_id": "oval:org.debian:def:331159570948051441647440888087440050191",
+                "title": "DSA-4604-1 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-11",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-17531": [
@@ -14514,6 +14209,92 @@
                 "title": "RHSA-2020:1644: pki-core:10.6 and pki-deps:10.6 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-17542": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:301954350989225773814438395226536167579",
+                "title": "CVE-2019-17542 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:301954350989225773814438395226536167579",
+                "title": "CVE-2019-17542 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:301954350989225773814438395226536167579",
+                "title": "CVE-2019-17542 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-07-08",
+                "def_id": "oval:org.debian:def:304122276032612165697127758040914124583",
+                "title": "DSA-4722-1 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-07-22",
+                "def_id": "oval:com.ubuntu.bionic:def:44311000000",
+                "title": "USN-4431-1 -- FFmpeg vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-22",
+                "def_id": "oval:com.ubuntu.focal:def:44311000000",
+                "title": "USN-4431-1 -- FFmpeg vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-22",
+                "def_id": "oval:com.ubuntu.xenial:def:44311000000",
+                "title": "USN-4431-1 -- FFmpeg vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-22",
+                "def_id": "oval:com.ubuntu.bionic:def:44311000000",
+                "title": "USN-4431-1 -- FFmpeg vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-22",
+                "def_id": "oval:com.ubuntu.focal:def:44311000000",
+                "title": "USN-4431-1 -- FFmpeg vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-22",
+                "def_id": "oval:com.ubuntu.xenial:def:44311000000",
+                "title": "USN-4431-1 -- FFmpeg vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-05",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18345": [
@@ -14572,6 +14353,13 @@
                 "title": "DSA-4582-1 davical",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-14",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18346": [
@@ -14630,6 +14418,13 @@
                 "title": "DSA-4582-1 davical",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-14",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18347": [
@@ -14688,6 +14483,13 @@
                 "title": "DSA-4582-1 davical",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-14",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18609": [
@@ -14914,6 +14716,13 @@
                 "title": "RHSA-2020:4445: librabbitmq security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-06",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18676": [
@@ -15112,6 +14921,13 @@
                 "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-11",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18677": [
@@ -15282,6 +15098,13 @@
                 "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18678": [
@@ -15452,6 +15275,13 @@
                 "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18679": [
@@ -15622,6 +15452,13 @@
                 "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-10",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-18810": [
@@ -15654,258 +15491,134 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2019-18874": [
+        "CVE-2019-18849": [
             {
                 "date": "unknown",
-                "def_id": "oval:org.debian:def:196382361496970661621560562492052164658",
-                "title": "CVE-2019-18874 python-psutil",
+                "def_id": "oval:org.debian:def:312967804978666152161602519072341629632",
+                "title": "CVE-2019-18849 tnef",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "unknown",
-                "def_id": "oval:org.debian:def:196382361496970661621560562492052164658",
-                "title": "CVE-2019-18874 python-psutil",
+                "def_id": "oval:org.debian:def:312967804978666152161602519072341629632",
+                "title": "CVE-2019-18849 tnef",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "unknown",
-                "def_id": "oval:org.debian:def:196382361496970661621560562492052164658",
-                "title": "CVE-2019-18874 python-psutil",
+                "def_id": "oval:org.debian:def:312967804978666152161602519072341629632",
+                "title": "CVE-2019-18849 tnef",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
-                "date": "2019-11-28",
-                "def_id": "oval:com.ubuntu.bionic:def:42041000000",
-                "title": "USN-4204-1 -- psutil vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-11-28",
-                "def_id": "oval:com.ubuntu.xenial:def:42041000000",
-                "title": "USN-4204-1 -- psutil vulnerability",
+                "date": "2020-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:45241000000",
+                "title": "USN-4524-1 -- TNEF vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
-                "date": "2019-11-28",
-                "def_id": "oval:com.ubuntu.bionic:def:42041000000",
-                "title": "USN-4204-1 -- psutil vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-11-28",
-                "def_id": "oval:com.ubuntu.xenial:def:42041000000",
-                "title": "USN-4204-1 -- psutil vulnerability",
+                "date": "2020-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:45241000000",
+                "title": "USN-4524-1 -- TNEF vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214162",
-                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+                "date": "2019-11-29",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-19012": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:227015572352219530331156124665946937254",
+                "title": "CVE-2019-19012 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214324",
-                "title": "ELSA-2021-4324:  python-psutil security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:227015572352219530331156124665946937254",
+                "title": "CVE-2019-19012 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214162",
-                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:227015572352219530331156124665946937254",
+                "title": "CVE-2019-19012 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214324",
-                "title": "ELSA-2021-4324:  python-psutil security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.bionic:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214162",
-                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+                "date": "2020-08-17",
+                "def_id": "oval:com.ubuntu.trusty:def:44601000000",
+                "title": "USN-4460-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214324",
-                "title": "ELSA-2021-4324:  python-psutil security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.trusty:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2021-11-09",
-                "def_id": "oval:org.almalinux.alsa:def:20214324",
-                "title": "ALSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.xenial:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
-                "date": "2021-11-09",
-                "def_id": "oval:org.almalinux.alsa:def:20214162",
-                "title": "ALSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.bionic:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
-                "date": "2020-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20204299",
-                "title": "RHSA-2020:4299: rh-python38 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+                "date": "2020-08-17",
+                "def_id": "oval:com.ubuntu.trusty:def:44601000000",
+                "title": "USN-4460-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2020-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20204299",
-                "title": "RHSA-2020:4299: rh-python38 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.trusty:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2021-04-21",
-                "def_id": "oval:com.redhat.rhsa:def:20211313",
-                "title": "RHSA-2021:1313: Satellite 6.9 Release (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/satellite-6.9.oval.xml.bz2"
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.xenial:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214324",
-                "title": "RHSA-2021:4324: python-psutil security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+                "date": "2019-12-04",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-19048": [
@@ -17081,6 +16794,253 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2019-19204": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:317398909671917096670164186243049199939",
+                "title": "CVE-2019-19204 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:317398909671917096670164186243049199939",
+                "title": "CVE-2019-19204 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:317398909671917096670164186243049199939",
+                "title": "CVE-2019-19204 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.bionic:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-17",
+                "def_id": "oval:com.ubuntu.trusty:def:44601000000",
+                "title": "USN-4460-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.trusty:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.xenial:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.bionic:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-17",
+                "def_id": "oval:com.ubuntu.trusty:def:44601000000",
+                "title": "USN-4460-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.trusty:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.xenial:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-09",
+                "def_id": "oval:com.oracle.elsa:def:20203662",
+                "title": "ELSA-2020-3662:  php:7.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
+            },
+            {
+                "date": "2020-09-09",
+                "def_id": "oval:com.oracle.elsa:def:20203662",
+                "title": "ELSA-2020-3662:  php:7.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-09-09",
+                "def_id": "oval:com.oracle.elsa:def:20203662",
+                "title": "ELSA-2020-3662:  php:7.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:org.almalinux.alsa:def:20203662",
+                "title": "ALSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2020-12-01",
+                "def_id": "oval:com.redhat.rhsa:def:20205275",
+                "title": "RHSA-2020:5275: rh-php73-php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2020-12-01",
+                "def_id": "oval:com.redhat.rhsa:def:20205275",
+                "title": "RHSA-2020:5275: rh-php73-php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-04",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2019-19242": [
             {
                 "date": "unknown",
@@ -17174,6 +17134,283 @@
                 "title": "USN-4205-1 -- SQLite vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-19246": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:310264262282710883873150889186129636932",
+                "title": "CVE-2019-19246 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:310264262282710883873150889186129636932",
+                "title": "CVE-2019-19246 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:310264262282710883873150889186129636932",
+                "title": "CVE-2019-19246 libonig",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.bionic:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-17",
+                "def_id": "oval:com.ubuntu.trusty:def:44601000000",
+                "title": "USN-4460-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.trusty:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.xenial:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.bionic:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-17",
+                "def_id": "oval:com.ubuntu.trusty:def:44601000000",
+                "title": "USN-4460-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.trusty:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-10",
+                "def_id": "oval:com.ubuntu.xenial:def:56621000000",
+                "title": "USN-5662-1 -- Oniguruma vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-09",
+                "def_id": "oval:com.oracle.elsa:def:20203662",
+                "title": "ELSA-2020-3662:  php:7.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
+            },
+            {
+                "date": "2020-09-09",
+                "def_id": "oval:com.oracle.elsa:def:20203662",
+                "title": "ELSA-2020-3662:  php:7.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-09-09",
+                "def_id": "oval:com.oracle.elsa:def:20203662",
+                "title": "ELSA-2020-3662:  php:7.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:org.almalinux.alsa:def:20203662",
+                "title": "ALSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2020-12-01",
+                "def_id": "oval:com.redhat.rhsa:def:20205275",
+                "title": "RHSA-2020:5275: rh-php73-php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2020-12-01",
+                "def_id": "oval:com.redhat.rhsa:def:20205275",
+                "title": "RHSA-2020:5275: rh-php73-php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-08",
+                "def_id": "oval:com.redhat.rhsa:def:20203662",
+                "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-04",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-19269": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:83646003527160592802169322365881563090",
+                "title": "CVE-2019-19269 proftpd-dfsg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:83646003527160592802169322365881563090",
+                "title": "CVE-2019-19269 proftpd-dfsg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:83646003527160592802169322365881563090",
+                "title": "CVE-2019-19269 proftpd-dfsg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-12-01",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-19330": [
@@ -17451,6 +17688,157 @@
                 "title": "USN-4220-1 -- Git vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-19617": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:218438109797462485268840398065880378104",
+                "title": "CVE-2019-19617 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:218438109797462485268840398065880378104",
+                "title": "CVE-2019-19617 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2020-11-19",
+                "def_id": "oval:com.ubuntu.bionic:def:46391000000",
+                "title": "USN-4639-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.bionic:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.focal:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.trusty:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.xenial:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-19",
+                "def_id": "oval:com.ubuntu.bionic:def:46391000000",
+                "title": "USN-4639-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.bionic:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.focal:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.trusty:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.xenial:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-08",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-19630": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:298480599946756875606470129628442639181",
+                "title": "CVE-2019-19630 htmldoc",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:298480599946756875606470129628442639181",
+                "title": "CVE-2019-19630 htmldoc",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:298480599946756875606470129628442639181",
+                "title": "CVE-2019-19630 htmldoc",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.ubuntu.bionic:def:46961000000",
+                "title": "USN-4696-1 -- HTMLDOC vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.ubuntu.xenial:def:46961000000",
+                "title": "USN-4696-1 -- HTMLDOC vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.ubuntu.bionic:def:46961000000",
+                "title": "USN-4696-1 -- HTMLDOC vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.ubuntu.xenial:def:46961000000",
+                "title": "USN-4696-1 -- HTMLDOC vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-09",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-19830": [
@@ -17926,6 +18314,13 @@
                 "title": "RHSA-2020:4629: libvpx security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-27",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-9325": [
@@ -18443,6 +18838,126 @@
                 "title": "RHSA-2020:4629: libvpx security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-27",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-9656": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:107557114895526831055800484472335518741",
+                "title": "CVE-2019-9656 libofx",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:107557114895526831055800484472335518741",
+                "title": "CVE-2019-9656 libofx",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:107557114895526831055800484472335518741",
+                "title": "CVE-2019-9656 libofx",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:45231000000",
+                "title": "USN-4523-1 -- LibOFX vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:45231000000",
+                "title": "USN-4523-1 -- LibOFX vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-23",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-13161": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:125094878837788922130915999800016781380",
+                "title": "CVE-2019-13161 asterisk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:125094878837788922130915999800016781380",
+                "title": "CVE-2019-13161 asterisk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-11-30",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-18610": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:19227779986063580220882875708905733380",
+                "title": "CVE-2019-18610 asterisk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:19227779986063580220882875708905733380",
+                "title": "CVE-2019-18610 asterisk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-11-30",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-18790": [
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:252665967352795470354640375121395067444",
+                "title": "CVE-2019-18790 asterisk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "unknown",
+                "def_id": "oval:org.debian:def:252665967352795470354640375121395067444",
+                "title": "CVE-2019-18790 asterisk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-11-30",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-15845": [
@@ -18823,6 +19338,13 @@
                 "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2019-11-26",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-2126": [
@@ -18972,36 +19494,6 @@
                 "title": "RHSA-2020:4629: libvpx security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-17014": [
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.ubuntu.bionic:def:42161000000",
-                "title": "USN-4216-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-13",
-                "def_id": "oval:com.ubuntu.xenial:def:42162000000",
-                "title": "USN-4216-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-09",
-                "def_id": "oval:com.ubuntu.bionic:def:42161000000",
-                "title": "USN-4216-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-12-13",
-                "def_id": "oval:com.ubuntu.xenial:def:42162000000",
-                "title": "USN-4216-2 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2019-11756": [
@@ -19330,6 +19822,36 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2019-17014": [
+            {
+                "date": "2019-12-09",
+                "def_id": "oval:com.ubuntu.bionic:def:42161000000",
+                "title": "USN-4216-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-13",
+                "def_id": "oval:com.ubuntu.xenial:def:42162000000",
+                "title": "USN-4216-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-09",
+                "def_id": "oval:com.ubuntu.bionic:def:42161000000",
+                "title": "USN-4216-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-13",
+                "def_id": "oval:com.ubuntu.xenial:def:42162000000",
+                "title": "USN-4216-2 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2019-5544": [
             {
                 "date": "2021-04-19",
@@ -19470,6 +19992,13 @@
                 "title": "RHSA-2019:4240: openslp security update (Critical)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2019-12-08",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2019-14906": [
@@ -19870,7 +20399,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2019-2996": [
+        "CVE-2019-17631": [
             {
                 "date": "2020-01-07",
                 "def_id": "oval:org.almalinux.alsa:def:20200046",
@@ -20089,7 +20618,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2019-17631": [
+        "CVE-2019-2996": [
             {
                 "date": "2020-01-07",
                 "def_id": "oval:org.almalinux.alsa:def:20200046",
@@ -20466,33 +20995,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
-        "CVE-2019-10393": [
-            {
-                "date": "2019-12-16",
-                "def_id": "oval:com.redhat.rhsa:def:20194055",
-                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-10431": [
-            {
-                "date": "2019-12-16",
-                "def_id": "oval:com.redhat.rhsa:def:20194055",
-                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-10432": [
-            {
-                "date": "2019-12-16",
-                "def_id": "oval:com.redhat.rhsa:def:20194055",
-                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
         "CVE-2019-10399": [
             {
                 "date": "2019-12-16",
@@ -20520,7 +21022,34 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
-        "CVE-2019-18838": [
+        "CVE-2019-10432": [
+            {
+                "date": "2019-12-16",
+                "def_id": "oval:com.redhat.rhsa:def:20194055",
+                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-10393": [
+            {
+                "date": "2019-12-16",
+                "def_id": "oval:com.redhat.rhsa:def:20194055",
+                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-10431": [
+            {
+                "date": "2019-12-16",
+                "def_id": "oval:com.redhat.rhsa:def:20194055",
+                "title": "RHSA-2019:4055: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-18801": [
             {
                 "date": "2019-12-11",
                 "def_id": "oval:com.redhat.rhsa:def:20194222",
@@ -20536,7 +21065,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
             }
         ],
-        "CVE-2019-18801": [
+        "CVE-2019-18838": [
             {
                 "date": "2019-12-11",
                 "def_id": "oval:com.redhat.rhsa:def:20194222",
@@ -20566,6 +21095,69 @@
                 "title": "RHSA-2019:4222: Red Hat OpenShift Service Mesh 1.0.3 RPMs security update (Critical)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-2933": [
+            {
+                "date": "2019-12-08",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-2958": [
+            {
+                "date": "2019-12-08",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-14443": [
+            {
+                "date": "2019-12-05",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-17127": [
+            {
+                "date": "2019-12-05",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-19130": [
+            {
+                "date": "2019-12-05",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-19128": [
+            {
+                "date": "2019-12-05",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-18245": [
+            {
+                "date": "2019-12-05",
+                "def_id": "n/a",
+                "title": "Debian email list",
+                "type": "n/a",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ]
     }
