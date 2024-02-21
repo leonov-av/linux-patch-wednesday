@@ -188,13 +188,6 @@
             },
             {
                 "date": "2021-06-17",
-                "def_id": "oval:com.ubuntu.hirsute:def:49911000000",
-                "title": "4991-1 -- libxml2 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.hirsute.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-17",
                 "def_id": "oval:com.ubuntu.trusty:def:49911000000",
                 "title": "USN-4991-1 -- libxml2 vulnerabilities",
                 "type": "ubuntu",
@@ -220,13 +213,6 @@
                 "title": "USN-4991-1 -- libxml2 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-17",
-                "def_id": "oval:com.ubuntu.hirsute:def:49911000000",
-                "title": "4991-1 -- libxml2 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.hirsute.usn.oval.xml.bz2"
             },
             {
                 "date": "2021-06-17",
@@ -963,9 +949,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
             },
             {
+                "date": "2024-02-20",
+                "def_id": "oval:com.oracle.elsa:def:20240889",
+                "title": "ELSA-2024-0889:  oniguruma security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2020-09-09",
                 "def_id": "oval:com.oracle.elsa:def:20203662",
                 "title": "ELSA-2020-3662:  php:7.3 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.oracle.elsa:def:20240889",
+                "title": "ELSA-2024-0889:  oniguruma security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -1117,9 +1117,23 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
             },
             {
+                "date": "2024-01-30",
+                "def_id": "oval:com.redhat.rhsa:def:20240572",
+                "title": "RHSA-2024:0572: oniguruma security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2020-09-08",
                 "def_id": "oval:com.redhat.rhsa:def:20203662",
                 "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-30",
+                "def_id": "oval:com.redhat.rhsa:def:20240572",
+                "title": "RHSA-2024:0572: oniguruma security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
             },
@@ -1131,6 +1145,13 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
             },
             {
+                "date": "2024-01-30",
+                "def_id": "oval:com.redhat.rhsa:def:20240572",
+                "title": "RHSA-2024:0572: oniguruma security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2020-09-08",
                 "def_id": "oval:com.redhat.rhsa:def:20203662",
                 "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
@@ -1138,9 +1159,23 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
             },
             {
+                "date": "2024-01-30",
+                "def_id": "oval:com.redhat.rhsa:def:20240572",
+                "title": "RHSA-2024:0572: oniguruma security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
                 "date": "2020-09-08",
                 "def_id": "oval:com.redhat.rhsa:def:20203662",
                 "title": "RHSA-2020:3662: php:7.3 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20240889",
+                "title": "RHSA-2024:0889: oniguruma security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
@@ -1190,13 +1225,6 @@
             },
             {
                 "date": "2021-06-17",
-                "def_id": "oval:com.ubuntu.hirsute:def:49911000000",
-                "title": "4991-1 -- libxml2 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.hirsute.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-17",
                 "def_id": "oval:com.ubuntu.trusty:def:49911000000",
                 "title": "USN-4991-1 -- libxml2 vulnerabilities",
                 "type": "ubuntu",
@@ -1222,13 +1250,6 @@
                 "title": "USN-4991-1 -- libxml2 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-17",
-                "def_id": "oval:com.ubuntu.hirsute:def:49911000000",
-                "title": "4991-1 -- libxml2 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.hirsute.usn.oval.xml.bz2"
             },
             {
                 "date": "2021-06-17",
@@ -3666,13 +3687,6 @@
             },
             {
                 "date": "2023-04-28",
-                "def_id": "oval:com.ubuntu.kinetic:def:60491000000",
-                "title": "USN-6049-1 -- Netty vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-28",
                 "def_id": "oval:com.ubuntu.xenial:def:60491000000",
                 "title": "USN-6049-1 -- Netty vulnerabilities",
                 "type": "ubuntu",
@@ -3705,13 +3719,6 @@
                 "title": "USN-6049-1 -- Netty vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-28",
-                "def_id": "oval:com.ubuntu.kinetic:def:60491000000",
-                "title": "USN-6049-1 -- Netty vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-04-28",
@@ -17799,13 +17806,6 @@
             },
             {
                 "date": "2021-06-17",
-                "def_id": "oval:com.ubuntu.hirsute:def:49911000000",
-                "title": "4991-1 -- libxml2 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.hirsute.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-17",
                 "def_id": "oval:com.ubuntu.trusty:def:49911000000",
                 "title": "USN-4991-1 -- libxml2 vulnerabilities",
                 "type": "ubuntu",
@@ -17831,13 +17831,6 @@
                 "title": "USN-4991-1 -- libxml2 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-17",
-                "def_id": "oval:com.ubuntu.hirsute:def:49911000000",
-                "title": "4991-1 -- libxml2 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.hirsute.usn.oval.xml.bz2"
             },
             {
                 "date": "2021-06-17",
@@ -21566,13 +21559,6 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
-                "date": "2022-11-15",
-                "def_id": "oval:com.ubuntu.kinetic:def:57251000000",
-                "title": "USN-5725-1 -- Go vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.kinetic.usn.oval.xml.bz2"
-            },
-            {
                 "date": "2023-05-23",
                 "def_id": "oval:com.ubuntu.xenial:def:57252000000",
                 "title": "USN-5725-2 -- Go vulnerability",
@@ -21599,13 +21585,6 @@
                 "title": "USN-5725-1 -- Go vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.ubuntu.kinetic:def:57251000000",
-                "title": "USN-5725-1 -- Go vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.kinetic.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-05-23",
@@ -22079,13 +22058,6 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
-                "date": "2021-07-07",
-                "def_id": "oval:com.ubuntu.hirsute:def:50061000000",
-                "title": "5006-1 -- PHP vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.hirsute.usn.oval.xml.bz2"
-            },
-            {
                 "date": "2021-07-13",
                 "def_id": "oval:com.ubuntu.trusty:def:50062000000",
                 "title": "USN-5006-2 -- PHP vulnerabilities",
@@ -22112,13 +22084,6 @@
                 "title": "USN-5006-1 -- PHP vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-07-07",
-                "def_id": "oval:com.ubuntu.hirsute:def:50061000000",
-                "title": "5006-1 -- PHP vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.hirsute.usn.oval.xml.bz2"
             },
             {
                 "date": "2021-07-13",
@@ -22895,7 +22860,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvh-4.oval.xml.bz2"
             }
         ],
-        "CVE-2020-15666": [
+        "CVE-2020-15668": [
             {
                 "date": "2020-08-26",
                 "def_id": "oval:com.ubuntu.bionic:def:44741000000",
@@ -22939,7 +22904,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2020-15668": [
+        "CVE-2020-15665": [
             {
                 "date": "2020-08-26",
                 "def_id": "oval:com.ubuntu.bionic:def:44741000000",
@@ -23027,7 +22992,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2020-15665": [
+        "CVE-2020-15666": [
             {
                 "date": "2020-08-26",
                 "def_id": "oval:com.ubuntu.bionic:def:44741000000",
@@ -23741,16 +23706,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2020-2224": [
-            {
-                "date": "2020-08-27",
-                "def_id": "oval:com.redhat.rhsa:def:20203541",
-                "title": "RHSA-2020:3541: OpenShift Container Platform 3.11 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2222": [
+        "CVE-2019-16541": [
             {
                 "date": "2020-08-27",
                 "def_id": "oval:com.redhat.rhsa:def:20203541",
@@ -23759,69 +23715,18 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             },
             {
-                "date": "2020-09-23",
-                "def_id": "oval:com.redhat.rhsa:def:20203808",
-                "title": "RHSA-2020:3808: OpenShift Container Platform 4.3.38 jenkins and openshift security update (Important)",
+                "date": "2020-10-27",
+                "def_id": "oval:com.redhat.rhsa:def:20204297",
+                "title": "RHSA-2020:4297: OpenShift Container Platform 4.6.1 package security update (Moderate)",
                 "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
             },
             {
-                "date": "2020-08-24",
-                "def_id": "oval:com.redhat.rhsa:def:20203519",
-                "title": "RHSA-2020:3519: OpenShift Container Platform 4.5.7 jenkins and openshift packages security update (Important)",
+                "date": "2020-10-27",
+                "def_id": "oval:com.redhat.rhsa:def:20204297",
+                "title": "RHSA-2020:4297: OpenShift Container Platform 4.6.1 package security update (Moderate)",
                 "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.5.oval.xml.bz2"
-            },
-            {
-                "date": "2020-09-23",
-                "def_id": "oval:com.redhat.rhsa:def:20203808",
-                "title": "RHSA-2020:3808: OpenShift Container Platform 4.3.38 jenkins and openshift security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
-            },
-            {
-                "date": "2020-08-24",
-                "def_id": "oval:com.redhat.rhsa:def:20203519",
-                "title": "RHSA-2020:3519: OpenShift Container Platform 4.5.7 jenkins and openshift packages security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.5.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2220": [
-            {
-                "date": "2020-08-27",
-                "def_id": "oval:com.redhat.rhsa:def:20203541",
-                "title": "RHSA-2020:3541: OpenShift Container Platform 3.11 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2020-09-23",
-                "def_id": "oval:com.redhat.rhsa:def:20203808",
-                "title": "RHSA-2020:3808: OpenShift Container Platform 4.3.38 jenkins and openshift security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
-            },
-            {
-                "date": "2020-08-24",
-                "def_id": "oval:com.redhat.rhsa:def:20203519",
-                "title": "RHSA-2020:3519: OpenShift Container Platform 4.5.7 jenkins and openshift packages security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.5.oval.xml.bz2"
-            },
-            {
-                "date": "2020-09-23",
-                "def_id": "oval:com.redhat.rhsa:def:20203808",
-                "title": "RHSA-2020:3808: OpenShift Container Platform 4.3.38 jenkins and openshift security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
-            },
-            {
-                "date": "2020-08-24",
-                "def_id": "oval:com.redhat.rhsa:def:20203519",
-                "title": "RHSA-2020:3519: OpenShift Container Platform 4.5.7 jenkins and openshift packages security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.5.oval.xml.bz2"
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
             }
         ],
         "CVE-2020-2223": [
@@ -23861,36 +23766,50 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.5.oval.xml.bz2"
             }
         ],
-        "CVE-2019-16541": [
+        "CVE-2020-2226": [
             {
                 "date": "2020-08-27",
                 "def_id": "oval:com.redhat.rhsa:def:20203541",
                 "title": "RHSA-2020:3541: OpenShift Container Platform 3.11 security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2020-10-27",
-                "def_id": "oval:com.redhat.rhsa:def:20204297",
-                "title": "RHSA-2020:4297: OpenShift Container Platform 4.6.1 package security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2020-10-27",
-                "def_id": "oval:com.redhat.rhsa:def:20204297",
-                "title": "RHSA-2020:4297: OpenShift Container Platform 4.6.1 package security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
             }
         ],
-        "CVE-2020-1741": [
+        "CVE-2020-2220": [
             {
                 "date": "2020-08-27",
                 "def_id": "oval:com.redhat.rhsa:def:20203541",
                 "title": "RHSA-2020:3541: OpenShift Container Platform 3.11 security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-23",
+                "def_id": "oval:com.redhat.rhsa:def:20203808",
+                "title": "RHSA-2020:3808: OpenShift Container Platform 4.3.38 jenkins and openshift security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20203519",
+                "title": "RHSA-2020:3519: OpenShift Container Platform 4.5.7 jenkins and openshift packages security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.5.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-23",
+                "def_id": "oval:com.redhat.rhsa:def:20203808",
+                "title": "RHSA-2020:3808: OpenShift Container Platform 4.3.38 jenkins and openshift security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20203519",
+                "title": "RHSA-2020:3519: OpenShift Container Platform 4.5.7 jenkins and openshift packages security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.5.oval.xml.bz2"
             }
         ],
         "CVE-2020-2221": [
@@ -23930,6 +23849,52 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.5.oval.xml.bz2"
             }
         ],
+        "CVE-2020-2222": [
+            {
+                "date": "2020-08-27",
+                "def_id": "oval:com.redhat.rhsa:def:20203541",
+                "title": "RHSA-2020:3541: OpenShift Container Platform 3.11 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-23",
+                "def_id": "oval:com.redhat.rhsa:def:20203808",
+                "title": "RHSA-2020:3808: OpenShift Container Platform 4.3.38 jenkins and openshift security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20203519",
+                "title": "RHSA-2020:3519: OpenShift Container Platform 4.5.7 jenkins and openshift packages security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.5.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-23",
+                "def_id": "oval:com.redhat.rhsa:def:20203808",
+                "title": "RHSA-2020:3808: OpenShift Container Platform 4.3.38 jenkins and openshift security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
+            },
+            {
+                "date": "2020-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20203519",
+                "title": "RHSA-2020:3519: OpenShift Container Platform 4.5.7 jenkins and openshift packages security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.5.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-1741": [
+            {
+                "date": "2020-08-27",
+                "def_id": "oval:com.redhat.rhsa:def:20203541",
+                "title": "RHSA-2020:3541: OpenShift Container Platform 3.11 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-2225": [
             {
                 "date": "2020-08-27",
@@ -23939,7 +23904,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
-        "CVE-2020-2226": [
+        "CVE-2020-2224": [
             {
                 "date": "2020-08-27",
                 "def_id": "oval:com.redhat.rhsa:def:20203541",
