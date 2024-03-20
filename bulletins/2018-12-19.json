@@ -609,13 +609,6 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
-                "date": "2019-11-05",
-                "def_id": "oval:org.almalinux.alsa:def:20193700",
-                "title": "ALSA-2019:3700: openssl security, bug fix, and enhancement update (Low)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
                 "date": "2019-08-06",
                 "def_id": "oval:com.redhat.rhsa:def:20192304",
                 "title": "RHSA-2019:2304: openssl security and bug fix update (Moderate)",
@@ -924,13 +917,6 @@
                 "title": "ELSA-2019-3700:  openssl security, bug fix, and enhancement update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2019-11-05",
-                "def_id": "oval:org.almalinux.alsa:def:20193700",
-                "title": "ALSA-2019:3700: openssl security, bug fix, and enhancement update (Low)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
                 "date": "2019-03-13",
@@ -10343,13 +10329,6 @@
                 "title": "ELSA-2019-0374:  firefox security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2019-05-13",
-                "def_id": "oval:org.almalinux.alsa:def:20191144",
-                "title": "ALSA-2019:1144: thunderbird security update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
                 "date": "2018-12-10",
@@ -21537,50 +21516,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
-        "CVE-2018-12406": [
-            {
-                "date": "2018-12-11",
-                "def_id": "oval:com.ubuntu.bionic:def:38441000000",
-                "title": "USN-3844-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-12-11",
-                "def_id": "oval:com.ubuntu.trusty:def:38441000000",
-                "title": "USN-3844-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-12-11",
-                "def_id": "oval:com.ubuntu.xenial:def:38441000000",
-                "title": "USN-3844-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-12-11",
-                "def_id": "oval:com.ubuntu.bionic:def:38441000000",
-                "title": "USN-3844-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-12-11",
-                "def_id": "oval:com.ubuntu.trusty:def:38441000000",
-                "title": "USN-3844-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-12-11",
-                "def_id": "oval:com.ubuntu.xenial:def:38441000000",
-                "title": "USN-3844-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2018-18495": [
             {
                 "date": "2018-12-11",
@@ -21626,6 +21561,50 @@
             }
         ],
         "CVE-2018-18497": [
+            {
+                "date": "2018-12-11",
+                "def_id": "oval:com.ubuntu.bionic:def:38441000000",
+                "title": "USN-3844-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-12-11",
+                "def_id": "oval:com.ubuntu.trusty:def:38441000000",
+                "title": "USN-3844-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-12-11",
+                "def_id": "oval:com.ubuntu.xenial:def:38441000000",
+                "title": "USN-3844-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-12-11",
+                "def_id": "oval:com.ubuntu.bionic:def:38441000000",
+                "title": "USN-3844-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-12-11",
+                "def_id": "oval:com.ubuntu.trusty:def:38441000000",
+                "title": "USN-3844-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-12-11",
+                "def_id": "oval:com.ubuntu.xenial:def:38441000000",
+                "title": "USN-3844-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-12406": [
             {
                 "date": "2018-12-11",
                 "def_id": "oval:com.ubuntu.bionic:def:38441000000",
@@ -22168,7 +22147,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.1.oval.xml.bz2"
             }
         ],
-        "CVE-2018-1000406": [
+        "CVE-2018-1000409": [
             {
                 "date": "2018-12-12",
                 "def_id": "oval:com.redhat.rhba:def:20183743",
@@ -22178,6 +22157,15 @@
             }
         ],
         "CVE-2018-17246": [
+            {
+                "date": "2018-12-12",
+                "def_id": "oval:com.redhat.rhba:def:20183743",
+                "title": "RHBA-2018:3743: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1000408": [
             {
                 "date": "2018-12-12",
                 "def_id": "oval:com.redhat.rhba:def:20183743",
@@ -22204,15 +22192,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
-        "CVE-2018-1000409": [
-            {
-                "date": "2018-12-12",
-                "def_id": "oval:com.redhat.rhba:def:20183743",
-                "title": "RHBA-2018:3743: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
         "CVE-2018-1999043": [
             {
                 "date": "2018-12-12",
@@ -22222,7 +22201,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
-        "CVE-2018-1000408": [
+        "CVE-2018-1000410": [
             {
                 "date": "2018-12-12",
                 "def_id": "oval:com.redhat.rhba:def:20183743",
@@ -22231,7 +22210,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
-        "CVE-2018-1000410": [
+        "CVE-2018-1000406": [
             {
                 "date": "2018-12-12",
                 "def_id": "oval:com.redhat.rhba:def:20183743",
