@@ -2742,9 +2742,23 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2024-04-16",
+                "def_id": "oval:org.debian:def:108948013867719557299148057026870588673",
+                "title": "DSA-5662-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "unknown",
                 "def_id": "oval:org.debian:def:41019742231847507030215156947867179457",
                 "title": "CVE-2023-31122 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-04-16",
+                "def_id": "oval:org.debian:def:108948013867719557299148057026870588673",
+                "title": "DSA-5662-1 apache2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
@@ -2841,7 +2855,7 @@
             },
             {
                 "date": "2023-10-30",
-                "def_id": "oval:redos:def:1210",
+                "def_id": "oval:redos:def:1212",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Apache httpd",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -3575,6 +3589,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-04-03",
+                "def_id": "oval:redos:def:1543",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 open-vm-tools",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-11-15",
                 "def_id": "oval:org.almalinux.alsa:def:20237265",
                 "title": "ALSA-2023:7265: open-vm-tools security update (Important)",
@@ -3932,6 +3953,13 @@
                 "title": "ELSA-2023-7277:  open-vm-tools security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-03",
+                "def_id": "oval:redos:def:1542",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 open-vm-tools",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-11-15",
@@ -4754,6 +4782,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-04-05",
+                "def_id": "oval:redos:def:1618",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c krb5-server",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-11-07",
                 "def_id": "oval:org.almalinux.alsa:def:20236699",
                 "title": "ALSA-2023:6699: krb5 security and bug fix update (Moderate)",
@@ -4963,6 +4998,20 @@
                 "title": "ELSA-2023-7753:  fence-agents security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-10",
+                "def_id": "oval:redos:def:1748",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c python3-certifi",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-04-10",
+                "def_id": "oval:redos:def:1749",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c ca-certificates",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-01-10",
@@ -5954,6 +6003,13 @@
             },
             {
                 "date": "2023-12-12",
+                "def_id": "oval:org.almalinux.alsa:def:20237765",
+                "title": "ALSA-2023:7765: podman security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
                 "def_id": "oval:org.almalinux.alsa:def:20237762",
                 "title": "ALSA-2023:7762: skopeo security update (Moderate)",
                 "type": "almalinux",
@@ -5963,13 +6019,6 @@
                 "date": "2023-12-12",
                 "def_id": "oval:org.almalinux.alsa:def:20237764",
                 "title": "ALSA-2023:7764: buildah security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:org.almalinux.alsa:def:20237765",
-                "title": "ALSA-2023:7765: podman security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
@@ -5995,6 +6044,13 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
             },
             {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhba:def:20236928",
+                "title": "RHBA-2023:6928: go-toolset:rhel8 bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
                 "date": "2024-01-10",
                 "def_id": "oval:com.redhat.rhsa:def:20240121",
                 "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
@@ -6014,6 +6070,13 @@
                 "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhba:def:20236364",
+                "title": "RHBA-2023:6364: golang and delve bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -6201,6 +6264,13 @@
             },
             {
                 "date": "2023-12-12",
+                "def_id": "oval:org.almalinux.alsa:def:20237765",
+                "title": "ALSA-2023:7765: podman security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
                 "def_id": "oval:org.almalinux.alsa:def:20237762",
                 "title": "ALSA-2023:7762: skopeo security update (Moderate)",
                 "type": "almalinux",
@@ -6210,13 +6280,6 @@
                 "date": "2023-12-12",
                 "def_id": "oval:org.almalinux.alsa:def:20237764",
                 "title": "ALSA-2023:7764: buildah security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:org.almalinux.alsa:def:20237765",
-                "title": "ALSA-2023:7765: podman security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
@@ -6242,6 +6305,13 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
             },
             {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhba:def:20236928",
+                "title": "RHBA-2023:6928: go-toolset:rhel8 bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
                 "date": "2024-01-10",
                 "def_id": "oval:com.redhat.rhsa:def:20240121",
                 "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
@@ -6261,6 +6331,13 @@
                 "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhba:def:20236364",
+                "title": "RHBA-2023:6364: golang and delve bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -6357,7 +6434,7 @@
             },
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1220",
+                "def_id": "oval:redos:def:1222",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -6465,6 +6542,20 @@
                 "title": "CVE-2023-39361 cacti",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-04-02",
+                "def_id": "oval:com.ubuntu.jammy:def:67201000000",
+                "title": "USN-6720-1 -- Cacti vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-02",
+                "def_id": "oval:com.ubuntu.jammy:def:67201000000",
+                "title": "USN-6720-1 -- Cacti vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             }
         ],
         "CVE-2023-39362": [
@@ -6738,6 +6829,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-04-08",
+                "def_id": "oval:redos:def:1652",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c golang-x-net-devel",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-11-14",
                 "def_id": "oval:org.almalinux.alsa:def:20236939",
                 "title": "ALSA-2023:6939: container-tools:rhel8 security and bug fix update (Moderate)",
@@ -6944,7 +7042,7 @@
             },
             {
                 "date": "2023-10-20",
-                "def_id": "oval:redos:def:1201",
+                "def_id": "oval:redos:def:1203",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c procps-ng",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -7673,6 +7771,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-03-27",
+                "def_id": "oval:com.ubuntu.focal:def:66865000000",
+                "title": "USN-6686-5 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-03-20",
                 "def_id": "oval:com.ubuntu.focal:def:67051000000",
                 "title": "USN-6705-1 -- Linux kernel (AWS) vulnerabilities",
@@ -7729,6 +7834,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-03-27",
+                "def_id": "oval:com.ubuntu.jammy:def:66865000000",
+                "title": "USN-6686-5 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-03-20",
                 "def_id": "oval:com.ubuntu.jammy:def:67051000000",
                 "title": "USN-6705-1 -- Linux kernel (AWS) vulnerabilities",
@@ -7746,6 +7858,13 @@
                 "date": "2024-03-19",
                 "def_id": "oval:com.ubuntu.focal:def:66863000000",
                 "title": "USN-6686-3 -- Linux kernel (Oracle) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-27",
+                "def_id": "oval:com.ubuntu.focal:def:66865000000",
+                "title": "USN-6686-5 -- Linux kernel (Intel IoTG) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
@@ -7802,6 +7921,13 @@
                 "date": "2024-03-20",
                 "def_id": "oval:com.ubuntu.jammy:def:66864000000",
                 "title": "USN-6686-4 -- Linux kernel (KVM) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-27",
+                "def_id": "oval:com.ubuntu.jammy:def:66865000000",
+                "title": "USN-6686-5 -- Linux kernel (Intel IoTG) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -7962,6 +8088,13 @@
                 "title": "USN-6455-1 -- Exim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1608",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 exim",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-42119": [
@@ -8069,6 +8202,13 @@
                 "title": "USN-6455-1 -- Exim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1610",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 exim",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-42754": [
@@ -8615,7 +8755,7 @@
             },
             {
                 "date": "2023-10-24",
-                "def_id": "oval:redos:def:1206",
+                "def_id": "oval:redos:def:1208",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c xrdp",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -8630,9 +8770,23 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2024-04-16",
+                "def_id": "oval:org.debian:def:108948013867719557299148057026870588673",
+                "title": "DSA-5662-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "unknown",
                 "def_id": "oval:org.debian:def:137766503689575540694615526150786412708",
                 "title": "CVE-2023-43622 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-04-16",
+                "def_id": "oval:org.debian:def:108948013867719557299148057026870588673",
+                "title": "DSA-5662-1 apache2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
@@ -8680,7 +8834,7 @@
             },
             {
                 "date": "2023-10-30",
-                "def_id": "oval:redos:def:1214",
+                "def_id": "oval:redos:def:1216",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Apache httpd",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -8707,6 +8861,48 @@
                 "title": "CVE-2023-4421 nss",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-04-10",
+                "def_id": "oval:com.ubuntu.focal:def:67271000000",
+                "title": "USN-6727-1 -- NSS vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-10",
+                "def_id": "oval:com.ubuntu.jammy:def:67271000000",
+                "title": "USN-6727-1 -- NSS vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-10",
+                "def_id": "oval:com.ubuntu.mantic:def:67271000000",
+                "title": "USN-6727-1 -- NSS vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-10",
+                "def_id": "oval:com.ubuntu.focal:def:67271000000",
+                "title": "USN-6727-1 -- NSS vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-10",
+                "def_id": "oval:com.ubuntu.jammy:def:67271000000",
+                "title": "USN-6727-1 -- NSS vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-10",
+                "def_id": "oval:com.ubuntu.mantic:def:67271000000",
+                "title": "USN-6727-1 -- NSS vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-10-28",
@@ -8961,7 +9157,7 @@
             },
             {
                 "date": "2023-10-30",
-                "def_id": "oval:redos:def:1215",
+                "def_id": "oval:redos:def:1217",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c redis",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9179,6 +9375,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-04-03",
+                "def_id": "oval:redos:def:1562",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c python3-urllib3",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-01-10",
                 "def_id": "oval:org.almalinux.alsa:def:20240116",
                 "title": "ALSA-2024:0116: python-urllib3 security update (Moderate)",
@@ -9322,7 +9525,7 @@
             },
             {
                 "date": "2023-10-20",
-                "def_id": "oval:redos:def:1199",
+                "def_id": "oval:redos:def:1201",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c zlib",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9352,7 +9555,7 @@
             },
             {
                 "date": "2023-10-30",
-                "def_id": "oval:redos:def:1212",
+                "def_id": "oval:redos:def:1214",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c zchunk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9496,7 +9699,7 @@
             },
             {
                 "date": "2023-11-02",
-                "def_id": "oval:redos:def:1218",
+                "def_id": "oval:redos:def:1220",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Traceroute",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9649,6 +9852,13 @@
                 "title": "ELSA-2023-6632:  shadow-utils security and bug fix update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-09",
+                "def_id": "oval:redos:def:1700",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c shadow-utils",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-11-14",
@@ -9871,7 +10081,7 @@
             },
             {
                 "date": "2023-11-21",
-                "def_id": "oval:redos:def:1261",
+                "def_id": "oval:redos:def:1263",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 squid",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -10307,7 +10517,7 @@
             },
             {
                 "date": "2023-11-21",
-                "def_id": "oval:redos:def:1260",
+                "def_id": "oval:redos:def:1262",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 squid",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -10652,7 +10862,7 @@
             },
             {
                 "date": "2023-11-21",
-                "def_id": "oval:redos:def:1259",
+                "def_id": "oval:redos:def:1261",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 squid",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -10763,6 +10973,13 @@
                 "title": "USN-6476-1 -- Memcached vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-12",
+                "def_id": "oval:redos:def:1787",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 memcached",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-46853": [
@@ -10807,6 +11024,13 @@
                 "title": "USN-6476-1 -- Memcached vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-12",
+                "def_id": "oval:redos:def:1786",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 memcached",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-4732": [
@@ -11028,6 +11252,13 @@
                 "title": "USN-6452-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1453",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 VIM",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-4734": [
@@ -11135,6 +11366,13 @@
                 "title": "USN-6452-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1381",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 VIM",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-4735": [
@@ -11242,6 +11480,13 @@
                 "title": "USN-6452-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1382",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 VIM",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-47359": [
@@ -11282,7 +11527,7 @@
             },
             {
                 "date": "2023-11-21",
-                "def_id": "oval:redos:def:1262",
+                "def_id": "oval:redos:def:1264",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 vlc",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -11333,7 +11578,7 @@
             },
             {
                 "date": "2023-11-21",
-                "def_id": "oval:redos:def:1263",
+                "def_id": "oval:redos:def:1265",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 vlc",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -11451,6 +11696,13 @@
                 "title": "USN-6452-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1384",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 VIM",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-4750": [
@@ -11558,6 +11810,13 @@
                 "title": "USN-6452-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1454",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 VIM",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-4751": [
@@ -11900,6 +12159,13 @@
                 "title": "USN-6452-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1457",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 VIM",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5345": [
@@ -12266,15 +12532,22 @@
             },
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1221",
+                "def_id": "oval:redos:def:1223",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-11-10",
-                "def_id": "oval:redos:def:1238",
+                "def_id": "oval:redos:def:1240",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c OpenSSL",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-04-09",
+                "def_id": "oval:redos:def:1697",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 salt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
@@ -12506,7 +12779,7 @@
             },
             {
                 "date": "2023-11-15",
-                "def_id": "oval:redos:def:1249",
+                "def_id": "oval:redos:def:1251",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 xorg-x11-server-Xorg",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -12851,7 +13124,7 @@
             },
             {
                 "date": "2023-11-15",
-                "def_id": "oval:redos:def:1250",
+                "def_id": "oval:redos:def:1252",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 xorg-x11-server-Xorg",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -12983,6 +13256,13 @@
                 "title": "USN-6452-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1458",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 VIM",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5472": [
@@ -13020,6 +13300,13 @@
                 "title": "CVE-2023-5472 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1416",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5480": [
@@ -13057,6 +13344,13 @@
                 "title": "CVE-2023-5480 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1403",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5482": [
@@ -13094,6 +13388,13 @@
                 "title": "CVE-2023-5482 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1404",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5535": [
@@ -13201,6 +13502,13 @@
                 "title": "USN-6452-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1459",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 VIM",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5631": [
@@ -13241,7 +13549,7 @@
             },
             {
                 "date": "2023-10-26",
-                "def_id": "oval:redos:def:1209",
+                "def_id": "oval:redos:def:1211",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Roundcube",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -16731,6 +17039,13 @@
                 "title": "CVE-2023-5849 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1405",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5850": [
@@ -16768,6 +17083,13 @@
                 "title": "CVE-2023-5850 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1406",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5851": [
@@ -16805,6 +17127,13 @@
                 "title": "CVE-2023-5851 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1407",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5852": [
@@ -16842,6 +17171,13 @@
                 "title": "CVE-2023-5852 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1408",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5853": [
@@ -16879,6 +17215,13 @@
                 "title": "CVE-2023-5853 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1409",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5854": [
@@ -16916,6 +17259,13 @@
                 "title": "CVE-2023-5854 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1410",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5855": [
@@ -16953,6 +17303,13 @@
                 "title": "CVE-2023-5855 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1411",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5856": [
@@ -16990,6 +17347,13 @@
                 "title": "CVE-2023-5856 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1412",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5857": [
@@ -17027,6 +17391,13 @@
                 "title": "CVE-2023-5857 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1413",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5858": [
@@ -17064,6 +17435,13 @@
                 "title": "CVE-2023-5858 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1414",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5859": [
@@ -17101,6 +17479,13 @@
                 "title": "CVE-2023-5859 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1415",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-5868": [
@@ -17301,6 +17686,34 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1431",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1438",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql13",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1441",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql14",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1444",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql15",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-12-11",
                 "def_id": "oval:org.almalinux.alsa:def:20237714",
                 "title": "ALSA-2023:7714: postgresql:12 security update (Important)",
@@ -17323,15 +17736,15 @@
             },
             {
                 "date": "2023-12-13",
-                "def_id": "oval:org.almalinux.alsa:def:20237784",
-                "title": "ALSA-2023:7784: postgresql security update (Important)",
+                "def_id": "oval:org.almalinux.alsa:def:20237785",
+                "title": "ALSA-2023:7785: postgresql:15 security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
                 "date": "2023-12-13",
-                "def_id": "oval:org.almalinux.alsa:def:20237785",
-                "title": "ALSA-2023:7785: postgresql:15 security update (Important)",
+                "def_id": "oval:org.almalinux.alsa:def:20237784",
+                "title": "ALSA-2023:7784: postgresql security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
@@ -17919,6 +18332,34 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1432",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1439",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql13",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1442",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql14",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1445",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql15",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-12-13",
                 "def_id": "oval:org.almalinux.alsa:def:20237790",
                 "title": "ALSA-2023:7790: postgresql:10 security update (Important)",
@@ -17948,15 +18389,15 @@
             },
             {
                 "date": "2023-12-13",
-                "def_id": "oval:org.almalinux.alsa:def:20237784",
-                "title": "ALSA-2023:7784: postgresql security update (Important)",
+                "def_id": "oval:org.almalinux.alsa:def:20237785",
+                "title": "ALSA-2023:7785: postgresql:15 security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
                 "date": "2023-12-13",
-                "def_id": "oval:org.almalinux.alsa:def:20237785",
-                "title": "ALSA-2023:7785: postgresql:15 security update (Important)",
+                "def_id": "oval:org.almalinux.alsa:def:20237784",
+                "title": "ALSA-2023:7784: postgresql security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
@@ -18642,6 +19083,34 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1433",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1440",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql13",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1443",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql14",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1446",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 postgresql15",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-12-11",
                 "def_id": "oval:org.almalinux.alsa:def:20237714",
                 "title": "ALSA-2023:7714: postgresql:12 security update (Important)",
@@ -18664,15 +19133,15 @@
             },
             {
                 "date": "2023-12-13",
-                "def_id": "oval:org.almalinux.alsa:def:20237784",
-                "title": "ALSA-2023:7784: postgresql security update (Important)",
+                "def_id": "oval:org.almalinux.alsa:def:20237785",
+                "title": "ALSA-2023:7785: postgresql:15 security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
                 "date": "2023-12-13",
-                "def_id": "oval:org.almalinux.alsa:def:20237785",
-                "title": "ALSA-2023:7785: postgresql:15 security update (Important)",
+                "def_id": "oval:org.almalinux.alsa:def:20237784",
+                "title": "ALSA-2023:7784: postgresql security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
@@ -19041,6 +19510,13 @@
                 "title": "CVE-2023-5996 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1387",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-46927": [
@@ -19060,7 +19536,7 @@
             },
             {
                 "date": "2023-11-10",
-                "def_id": "oval:redos:def:1236",
+                "def_id": "oval:redos:def:1238",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 gpac",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -19083,7 +19559,7 @@
             },
             {
                 "date": "2023-11-10",
-                "def_id": "oval:redos:def:1237",
+                "def_id": "oval:redos:def:1239",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 gpac",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -19106,26 +19582,10 @@
             },
             {
                 "date": "2023-11-10",
-                "def_id": "oval:redos:def:1235",
+                "def_id": "oval:redos:def:1237",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 gpac",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-5731": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64561000000",
-                "title": "USN-6456-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64561000000",
-                "title": "USN-6456-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
         "CVE-2023-5723": [
@@ -19144,7 +19604,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-5729": [
+        "CVE-2023-5731": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64561000000",
@@ -19176,118 +19636,20 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-22078": [
+        "CVE-2023-5729": [
             {
                 "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "def_id": "oval:com.ubuntu.focal:def:64561000000",
+                "title": "USN-6456-1 -- Firefox vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "def_id": "oval:com.ubuntu.focal:def:64561000000",
+                "title": "USN-6456-1 -- Firefox vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:org.almalinux.alsa:def:20240894",
-                "title": "ALSA-2024:0894: mysql:8.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:org.almalinux.alsa:def:20241141",
-                "title": "ALSA-2024:1141: mysql security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:com.redhat.rhsa:def:20240894",
-                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20241141",
-                "title": "RHSA-2024:1141: mysql security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2023-22064": [
@@ -19404,121 +19766,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2023-22059": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:org.almalinux.alsa:def:20240894",
-                "title": "ALSA-2024:0894: mysql:8.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:org.almalinux.alsa:def:20241141",
-                "title": "ALSA-2024:1141: mysql security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:com.redhat.rhsa:def:20240894",
-                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20241141",
-                "title": "RHSA-2024:1141: mysql security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-22070": [
+        "CVE-2023-22078": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
@@ -19746,120 +19994,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2023-22103": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:org.almalinux.alsa:def:20240894",
-                "title": "ALSA-2024:0894: mysql:8.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:org.almalinux.alsa:def:20241141",
-                "title": "ALSA-2024:1141: mysql security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:com.redhat.rhsa:def:20240894",
-                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20241141",
-                "title": "RHSA-2024:1141: mysql security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
         "CVE-2023-22112": [
             {
                 "date": "2023-10-30",
@@ -19974,7 +20108,121 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2023-22068": [
+        "CVE-2023-22097": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:org.almalinux.alsa:def:20240894",
+                "title": "ALSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:org.almalinux.alsa:def:20241141",
+                "title": "ALSA-2024:1141: mysql security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20240894",
+                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20241141",
+                "title": "RHSA-2024:1141: mysql security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-22059": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
@@ -20089,120 +20337,6 @@
             }
         ],
         "CVE-2023-22079": [
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.focal:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
-                "title": "USN-6459-1 -- MySQL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-02-21",
-                "def_id": "oval:com.oracle.elsa:def:20240894",
-                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241141",
-                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:org.almalinux.alsa:def:20240894",
-                "title": "ALSA-2024:0894: mysql:8.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:org.almalinux.alsa:def:20241141",
-                "title": "ALSA-2024:1141: mysql security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:com.redhat.rhsa:def:20240894",
-                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20241141",
-                "title": "RHSA-2024:1141: mysql security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-22097": [
             {
                 "date": "2023-10-30",
                 "def_id": "oval:com.ubuntu.focal:def:64591000000",
@@ -20658,7 +20792,349 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2017-1000469": [
+        "CVE-2023-22070": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:org.almalinux.alsa:def:20240894",
+                "title": "ALSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:org.almalinux.alsa:def:20241141",
+                "title": "ALSA-2024:1141: mysql security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20240894",
+                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20241141",
+                "title": "RHSA-2024:1141: mysql security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-22068": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:org.almalinux.alsa:def:20240894",
+                "title": "ALSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:org.almalinux.alsa:def:20241141",
+                "title": "ALSA-2024:1141: mysql security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20240894",
+                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20241141",
+                "title": "RHSA-2024:1141: mysql security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-22103": [
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.focal:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.jammy:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.mantic:def:64591000000",
+                "title": "USN-6459-1 -- MySQL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20240894",
+                "title": "ELSA-2024-0894:  mysql:8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241141",
+                "title": "ELSA-2024-1141:  mysql security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:org.almalinux.alsa:def:20240894",
+                "title": "ALSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:org.almalinux.alsa:def:20241141",
+                "title": "ALSA-2024:1141: mysql security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20240894",
+                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20241141",
+                "title": "RHSA-2024:1141: mysql security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1000225": [
             {
                 "date": "2023-11-13",
                 "def_id": "oval:com.ubuntu.xenial:def:64751000000",
@@ -20690,7 +21166,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-40323": [
+        "CVE-2018-1000226": [
             {
                 "date": "2023-11-13",
                 "def_id": "oval:com.ubuntu.xenial:def:64751000000",
@@ -20706,39 +21182,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-40324": [
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-40325": [
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-13",
-                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
-                "title": "USN-6475-1 -- Cobbler vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-1000225": [
+        "CVE-2022-0860": [
             {
                 "date": "2023-11-13",
                 "def_id": "oval:com.ubuntu.xenial:def:64751000000",
@@ -20786,7 +21230,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2022-0860": [
+        "CVE-2017-1000469": [
             {
                 "date": "2023-11-13",
                 "def_id": "oval:com.ubuntu.xenial:def:64751000000",
@@ -20802,7 +21246,39 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2018-1000226": [
+        "CVE-2021-40323": [
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-40325": [
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:64751000000",
+                "title": "USN-6475-1 -- Cobbler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-40324": [
             {
                 "date": "2023-11-13",
                 "def_id": "oval:com.ubuntu.xenial:def:64751000000",
@@ -21433,7 +21909,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-31130": [
+        "CVE-2022-39306": [
             {
                 "date": "2023-11-11",
                 "def_id": "oval:com.oracle.elsa:def:20236420",
@@ -21454,6 +21930,13 @@
                 "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1582",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 grafana",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-11-07",
@@ -21493,6 +21976,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1578",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 grafana",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-11-07",
                 "def_id": "oval:org.almalinux.alsa:def:20236420",
                 "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
@@ -21528,6 +22018,57 @@
                 "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1586",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 grafana",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:org.almalinux.alsa:def:20236420",
+                "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236420",
+                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-31130": [
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-11",
+                "def_id": "oval:com.oracle.elsa:def:20236420",
+                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1585",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 grafana",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-11-07",
@@ -21567,6 +22108,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1584",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 grafana",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-11-07",
                 "def_id": "oval:org.almalinux.alsa:def:20236420",
                 "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
@@ -21602,6 +22150,13 @@
                 "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1581",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 grafana",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-11-07",
@@ -21641,41 +22196,11 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
-                "date": "2023-11-07",
-                "def_id": "oval:org.almalinux.alsa:def:20236420",
-                "title": "ALSA-2023:6420: grafana security and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-11-07",
-                "def_id": "oval:com.redhat.rhsa:def:20236420",
-                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-39306": [
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-11-11",
-                "def_id": "oval:com.oracle.elsa:def:20236420",
-                "title": "ELSA-2023-6420:  grafana security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1579",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 grafana",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-11-07",
@@ -21891,225 +22416,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2023-39321": [
-            {
-                "date": "2023-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20237762",
-                "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.oracle.elsa:def:20237763",
-                "title": "ELSA-2023-7763:  runc security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.oracle.elsa:def:20237764",
-                "title": "ELSA-2023-7764:  buildah security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20237766",
-                "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2024-01-11",
-                "def_id": "oval:com.oracle.elsa:def:20240121",
-                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2023-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20237762",
-                "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.oracle.elsa:def:20237763",
-                "title": "ELSA-2023-7763:  runc security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.oracle.elsa:def:20237764",
-                "title": "ELSA-2023-7764:  buildah security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20237766",
-                "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-01-11",
-                "def_id": "oval:com.oracle.elsa:def:20240121",
-                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-01-11",
-                "def_id": "oval:com.oracle.elsa:def:20240121",
-                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20237762",
-                "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.oracle.elsa:def:20237763",
-                "title": "ELSA-2023-7763:  runc security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.oracle.elsa:def:20237764",
-                "title": "ELSA-2023-7764:  buildah security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-12-13",
-                "def_id": "oval:com.oracle.elsa:def:20237766",
-                "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-01-10",
-                "def_id": "oval:org.almalinux.alsa:def:20240121",
-                "title": "ALSA-2024:0121: container-tools:4.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:org.almalinux.alsa:def:20237762",
-                "title": "ALSA-2023:7762: skopeo security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:org.almalinux.alsa:def:20237763",
-                "title": "ALSA-2023:7763: runc security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:org.almalinux.alsa:def:20237764",
-                "title": "ALSA-2023:7764: buildah security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:org.almalinux.alsa:def:20237765",
-                "title": "ALSA-2023:7765: podman security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:org.almalinux.alsa:def:20237766",
-                "title": "ALSA-2023:7766: containernetworking-plugins security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-10-31",
-                "def_id": "oval:com.redhat.rhsa:def:20235009",
-                "title": "RHSA-2023:5009: OpenShift Container Platform 4.14.0 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20236840",
-                "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
-            },
-            {
-                "date": "2024-01-10",
-                "def_id": "oval:com.redhat.rhsa:def:20240121",
-                "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-31",
-                "def_id": "oval:com.redhat.rhsa:def:20235009",
-                "title": "RHSA-2023:5009: OpenShift Container Platform 4.14.0 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.14.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20236840",
-                "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.14.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:com.redhat.rhsa:def:20237762",
-                "title": "RHSA-2023:7762: skopeo security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:com.redhat.rhsa:def:20237763",
-                "title": "RHSA-2023:7763: runc security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:com.redhat.rhsa:def:20237764",
-                "title": "RHSA-2023:7764: buildah security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:com.redhat.rhsa:def:20237765",
-                "title": "RHSA-2023:7765: podman security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:com.redhat.rhsa:def:20237766",
-                "title": "RHSA-2023:7766: containernetworking-plugins security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
         "CVE-2023-39322": [
             {
                 "date": "2023-12-13",
@@ -22225,6 +22531,13 @@
             },
             {
                 "date": "2023-12-12",
+                "def_id": "oval:org.almalinux.alsa:def:20237765",
+                "title": "ALSA-2023:7765: podman security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
                 "def_id": "oval:org.almalinux.alsa:def:20237762",
                 "title": "ALSA-2023:7762: skopeo security update (Moderate)",
                 "type": "almalinux",
@@ -22241,13 +22554,6 @@
                 "date": "2023-12-12",
                 "def_id": "oval:org.almalinux.alsa:def:20237764",
                 "title": "ALSA-2023:7764: buildah security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-12-12",
-                "def_id": "oval:org.almalinux.alsa:def:20237765",
-                "title": "ALSA-2023:7765: podman security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
@@ -22273,6 +22579,13 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
             },
             {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhba:def:20236928",
+                "title": "RHBA-2023:6928: go-toolset:rhel8 bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
                 "date": "2024-01-10",
                 "def_id": "oval:com.redhat.rhsa:def:20240121",
                 "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
@@ -22292,6 +22605,246 @@
                 "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhba:def:20236364",
+                "title": "RHBA-2023:6364: golang and delve bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:com.redhat.rhsa:def:20237762",
+                "title": "RHSA-2023:7762: skopeo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:com.redhat.rhsa:def:20237763",
+                "title": "RHSA-2023:7763: runc security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:com.redhat.rhsa:def:20237764",
+                "title": "RHSA-2023:7764: buildah security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:com.redhat.rhsa:def:20237765",
+                "title": "RHSA-2023:7765: podman security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:com.redhat.rhsa:def:20237766",
+                "title": "RHSA-2023:7766: containernetworking-plugins security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-39321": [
+            {
+                "date": "2023-12-13",
+                "def_id": "oval:com.oracle.elsa:def:20237762",
+                "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20237763",
+                "title": "ELSA-2023-7763:  runc security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20237764",
+                "title": "ELSA-2023-7764:  buildah security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-12-13",
+                "def_id": "oval:com.oracle.elsa:def:20237766",
+                "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2023-12-13",
+                "def_id": "oval:com.oracle.elsa:def:20237762",
+                "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20237763",
+                "title": "ELSA-2023-7763:  runc security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20237764",
+                "title": "ELSA-2023-7764:  buildah security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-12-13",
+                "def_id": "oval:com.oracle.elsa:def:20237766",
+                "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20240121",
+                "title": "ELSA-2024-0121:  container-tools:4.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-12-13",
+                "def_id": "oval:com.oracle.elsa:def:20237762",
+                "title": "ELSA-2023-7762:  skopeo security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20237763",
+                "title": "ELSA-2023-7763:  runc security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20237764",
+                "title": "ELSA-2023-7764:  buildah security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-12-13",
+                "def_id": "oval:com.oracle.elsa:def:20237766",
+                "title": "ELSA-2023-7766:  containernetworking-plugins security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:org.almalinux.alsa:def:20240121",
+                "title": "ALSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:org.almalinux.alsa:def:20237765",
+                "title": "ALSA-2023:7765: podman security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:org.almalinux.alsa:def:20237762",
+                "title": "ALSA-2023:7762: skopeo security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:org.almalinux.alsa:def:20237763",
+                "title": "ALSA-2023:7763: runc security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:org.almalinux.alsa:def:20237764",
+                "title": "ALSA-2023:7764: buildah security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-12-12",
+                "def_id": "oval:org.almalinux.alsa:def:20237766",
+                "title": "ALSA-2023:7766: containernetworking-plugins security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-10-31",
+                "def_id": "oval:com.redhat.rhsa:def:20235009",
+                "title": "RHSA-2023:5009: OpenShift Container Platform 4.14.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20236840",
+                "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhba:def:20236928",
+                "title": "RHBA-2023:6928: go-toolset:rhel8 bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-10",
+                "def_id": "oval:com.redhat.rhsa:def:20240121",
+                "title": "RHSA-2024:0121: container-tools:4.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-31",
+                "def_id": "oval:com.redhat.rhsa:def:20235009",
+                "title": "RHSA-2023:5009: OpenShift Container Platform 4.14.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20236840",
+                "title": "RHSA-2023:6840: OpenShift Container Platform 4.14.2 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.14.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhba:def:20236364",
+                "title": "RHBA-2023:6364: golang and delve bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
                 "date": "2023-12-12",
@@ -22332,7 +22885,7 @@
         "CVE-2023-45150": [
             {
                 "date": "2023-10-20",
-                "def_id": "oval:redos:def:1200",
+                "def_id": "oval:redos:def:1202",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c nextcloud-calendar",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22341,7 +22894,7 @@
         "CVE-2023-45148": [
             {
                 "date": "2023-10-24",
-                "def_id": "oval:redos:def:1207",
+                "def_id": "oval:redos:def:1209",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 nextcloud",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22350,7 +22903,7 @@
         "CVE-2023-45151": [
             {
                 "date": "2023-10-24",
-                "def_id": "oval:redos:def:1208",
+                "def_id": "oval:redos:def:1210",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 nextcloud",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22359,7 +22912,7 @@
         "CVE-2023-41320": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1226",
+                "def_id": "oval:redos:def:1228",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22368,7 +22921,7 @@
         "CVE-2023-41321": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1227",
+                "def_id": "oval:redos:def:1229",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22377,7 +22930,7 @@
         "CVE-2023-41322": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1228",
+                "def_id": "oval:redos:def:1230",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22386,7 +22939,7 @@
         "CVE-2023-41323": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1229",
+                "def_id": "oval:redos:def:1231",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22395,7 +22948,7 @@
         "CVE-2023-41324": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1230",
+                "def_id": "oval:redos:def:1232",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22404,7 +22957,7 @@
         "CVE-2023-41326": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1231",
+                "def_id": "oval:redos:def:1233",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22413,7 +22966,7 @@
         "CVE-2023-41888": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1232",
+                "def_id": "oval:redos:def:1234",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22422,7 +22975,7 @@
         "CVE-2023-42461": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1233",
+                "def_id": "oval:redos:def:1235",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22431,7 +22984,7 @@
         "CVE-2023-42462": [
             {
                 "date": "2023-11-09",
-                "def_id": "oval:redos:def:1234",
+                "def_id": "oval:redos:def:1236",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 glpi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"

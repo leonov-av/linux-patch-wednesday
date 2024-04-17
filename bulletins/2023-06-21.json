@@ -868,6 +868,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-04-11",
+                "def_id": "oval:redos:def:1757",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c etcd",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-06-05",
                 "def_id": "oval:com.redhat.rhsa:def:20233447",
                 "title": "RHSA-2023:3447: Red Hat OpenStack Platform 16.1 (etcd) security update (Important)",
@@ -2248,6 +2255,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-04-09",
+                "def_id": "oval:redos:def:1722",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c mariadb",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-09-19",
                 "def_id": "oval:org.almalinux.alsa:def:20235259",
                 "title": "ALSA-2023:5259: mariadb:10.3 security, bug fix, and enhancement update (Moderate)",
@@ -2784,6 +2798,13 @@
                 "title": "ELSA-2024-12152: virt:kvm_utils1 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1450",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 qemu",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-10-05",
@@ -4116,7 +4137,7 @@
             },
             {
                 "date": "2023-10-13",
-                "def_id": "oval:redos:def:1171",
+                "def_id": "oval:redos:def:1173",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 binutils",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -4220,6 +4241,13 @@
                 "title": "ELSA-2023-6643:  libssh security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1462",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 LibSSH",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-06-27",
@@ -4479,7 +4507,7 @@
             },
             {
                 "date": "2023-10-13",
-                "def_id": "oval:redos:def:1172",
+                "def_id": "oval:redos:def:1174",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 binutils",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -4550,6 +4578,20 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.bionic:def:67012000000",
+                "title": "USN-6701-2 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:67013000000",
+                "title": "USN-6701-3 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-08-17",
                 "def_id": "oval:com.ubuntu.focal:def:63001000000",
                 "title": "USN-6300-1 -- Linux kernel vulnerabilities",
@@ -4648,9 +4690,30 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-04-09",
+                "def_id": "oval:com.ubuntu.trusty:def:67014000000",
+                "title": "USN-6701-4 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-03-18",
                 "def_id": "oval:com.ubuntu.xenial:def:67011000000",
                 "title": "USN-6701-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.xenial:def:67012000000",
+                "title": "USN-6701-2 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:67013000000",
+                "title": "USN-6701-3 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
@@ -4683,6 +4746,20 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.bionic:def:67012000000",
+                "title": "USN-6701-2 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:67013000000",
+                "title": "USN-6701-3 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-08-17",
                 "def_id": "oval:com.ubuntu.focal:def:63001000000",
                 "title": "USN-6300-1 -- Linux kernel vulnerabilities",
@@ -4781,9 +4858,30 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-04-09",
+                "def_id": "oval:com.ubuntu.trusty:def:67014000000",
+                "title": "USN-6701-4 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-03-18",
                 "def_id": "oval:com.ubuntu.xenial:def:67011000000",
                 "title": "USN-6701-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.xenial:def:67012000000",
+                "title": "USN-6701-2 -- Linux kernel (GCP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:67013000000",
+                "title": "USN-6701-3 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
@@ -4831,14 +4929,14 @@
             },
             {
                 "date": "2023-09-05",
-                "def_id": "oval:redos:def:1008",
+                "def_id": "oval:redos:def:1010",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-09-05",
-                "def_id": "oval:redos:def:1029",
+                "def_id": "oval:redos:def:1031",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -4852,17 +4950,24 @@
             },
             {
                 "date": "2023-06-21",
+                "def_id": "oval:org.almalinux.alsa:def:20233723",
+                "title": "ALSA-2023:3723: kernel security and bug fix update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
                 "def_id": "oval:org.almalinux.alsa:def:20233708",
                 "title": "ALSA-2023:3708: kernel-rt security and bug fix update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
-                "date": "2023-06-21",
-                "def_id": "oval:org.almalinux.alsa:def:20233723",
-                "title": "ALSA-2023:3723: kernel security and bug fix update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+                "date": "2024-04-10",
+                "def_id": "oval:com.redhat.rhsa:def:20241746",
+                "title": "RHSA-2024:1746: kernel security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
             },
             {
                 "date": "2023-09-05",
@@ -5260,7 +5365,7 @@
             },
             {
                 "date": "2023-09-04",
-                "def_id": "oval:redos:def:981",
+                "def_id": "oval:redos:def:982",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -5938,7 +6043,7 @@
             },
             {
                 "date": "2023-09-18",
-                "def_id": "oval:redos:def:1097",
+                "def_id": "oval:redos:def:1099",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -6056,6 +6161,13 @@
                 "title": "ELSA-2023-6643:  libssh security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-03-29",
+                "def_id": "oval:redos:def:1461",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 LibSSH",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-06-27",
@@ -6906,6 +7018,13 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/devtools.oval.xml.bz2"
             },
             {
+                "date": "2023-06-07",
+                "def_id": "oval:com.redhat.rhsa:def:20233366",
+                "title": "RHSA-2023:3366: OpenShift Container Platform 4.13.2 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.13.oval.xml.bz2"
+            },
+            {
                 "date": "2023-06-13",
                 "def_id": "oval:com.redhat.rhsa:def:20233540",
                 "title": "RHSA-2023:3540: OpenShift Container Platform 4.13.3 bug fix and security update (Moderate)",
@@ -6981,6 +7100,13 @@
                 "title": "RHSA-2023:6939: container-tools:rhel8 security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-07",
+                "def_id": "oval:com.redhat.rhsa:def:20233366",
+                "title": "RHSA-2023:3366: OpenShift Container Platform 4.13.2 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.13.oval.xml.bz2"
             },
             {
                 "date": "2023-06-13",
@@ -8113,6 +8239,13 @@
                 "title": "ELSA-2023-5071:  libcap security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1599",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c libcap",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-08-08",
@@ -9715,6 +9848,13 @@
                 "title": "CVE-2023-2931 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-28",
+                "def_id": "oval:redos:def:1340",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-2932": [
@@ -10579,6 +10719,13 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/devtools.oval.xml.bz2"
             },
             {
+                "date": "2023-06-07",
+                "def_id": "oval:com.redhat.rhsa:def:20233366",
+                "title": "RHSA-2023:3366: OpenShift Container Platform 4.13.2 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.13.oval.xml.bz2"
+            },
+            {
                 "date": "2023-06-13",
                 "def_id": "oval:com.redhat.rhsa:def:20233540",
                 "title": "RHSA-2023:3540: OpenShift Container Platform 4.13.3 bug fix and security update (Moderate)",
@@ -10654,6 +10801,13 @@
                 "title": "RHSA-2023:6939: container-tools:rhel8 security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-07",
+                "def_id": "oval:com.redhat.rhsa:def:20233366",
+                "title": "RHSA-2023:3366: OpenShift Container Platform 4.13.2 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.13.oval.xml.bz2"
             },
             {
                 "date": "2023-06-13",
@@ -10910,6 +11064,13 @@
                 "title": "ELSA-2023-6698:  ncurses security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1602",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c ncurses",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-09-19",
@@ -11878,6 +12039,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1589",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 c-ares",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-07-12",
                 "def_id": "oval:org.almalinux.alsa:def:20234034",
                 "title": "ALSA-2023:4034: nodejs:16 security update (Important)",
@@ -12312,6 +12480,13 @@
                 "title": "ELSA-2023-6635:  c-ares security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-04",
+                "def_id": "oval:redos:def:1588",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 c-ares",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-07-12",
@@ -13423,6 +13598,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-04-03",
+                "def_id": "oval:redos:def:1556",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 frr",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-09-19",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -13684,16 +13866,16 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
-                "date": "2023-06-13",
-                "def_id": "oval:org.almalinux.alsa:def:20233559",
-                "title": "ALSA-2023:3559: c-ares security update (Important)",
+                "date": "2023-06-14",
+                "def_id": "oval:org.almalinux.alsa:def:20233577",
+                "title": "ALSA-2023:3577: nodejs:18 security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
-                "date": "2023-06-14",
-                "def_id": "oval:org.almalinux.alsa:def:20233577",
-                "title": "ALSA-2023:3577: nodejs:18 security update (Important)",
+                "date": "2023-06-13",
+                "def_id": "oval:org.almalinux.alsa:def:20233559",
+                "title": "ALSA-2023:3559: c-ares security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
@@ -14404,14 +14586,14 @@
             },
             {
                 "date": "2023-09-05",
-                "def_id": "oval:redos:def:993",
+                "def_id": "oval:redos:def:995",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-09-05",
-                "def_id": "oval:redos:def:1014",
+                "def_id": "oval:redos:def:1016",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -14433,11 +14615,53 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2024-04-09",
+                "def_id": "oval:com.ubuntu.focal:def:67251000000",
+                "title": "USN-6725-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-16",
+                "def_id": "oval:com.ubuntu.focal:def:67252000000",
+                "title": "USN-6725-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-06-16",
                 "def_id": "oval:com.ubuntu.jammy:def:61731000000",
                 "title": "USN-6173-1 -- Linux kernel (OEM) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-09",
+                "def_id": "oval:com.ubuntu.jammy:def:67251000000",
+                "title": "USN-6725-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-16",
+                "def_id": "oval:com.ubuntu.jammy:def:67252000000",
+                "title": "USN-6725-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-09",
+                "def_id": "oval:com.ubuntu.focal:def:67251000000",
+                "title": "USN-6725-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-16",
+                "def_id": "oval:com.ubuntu.focal:def:67252000000",
+                "title": "USN-6725-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-06-16",
@@ -14447,15 +14671,29 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-04-09",
+                "def_id": "oval:com.ubuntu.jammy:def:67251000000",
+                "title": "USN-6725-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-16",
+                "def_id": "oval:com.ubuntu.jammy:def:67252000000",
+                "title": "USN-6725-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-09-05",
-                "def_id": "oval:redos:def:992",
+                "def_id": "oval:redos:def:994",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-09-05",
-                "def_id": "oval:redos:def:1013",
+                "def_id": "oval:redos:def:1015",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -15670,6 +15908,13 @@
                 "title": "ELSA-2023-4350:  python-requests security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-08",
+                "def_id": "oval:redos:def:1669",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c python3-requests",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-11-14",
@@ -20595,6 +20840,402 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2023-24936": [
+            {
+                "date": "2023-06-13",
+                "def_id": "oval:com.ubuntu.jammy:def:61611000000",
+                "title": "USN-6161-1 -- .NET vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-13",
+                "def_id": "oval:com.ubuntu.jammy:def:61611000000",
+                "title": "USN-6161-1 -- .NET vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-15",
+                "def_id": "oval:com.oracle.elsa:def:20233581",
+                "title": "ELSA-2023-3581:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-16",
+                "def_id": "oval:com.oracle.elsa:def:20233582",
+                "title": "ELSA-2023-3582:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233592",
+                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233593",
+                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-15",
+                "def_id": "oval:com.oracle.elsa:def:20233581",
+                "title": "ELSA-2023-3581:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-16",
+                "def_id": "oval:com.oracle.elsa:def:20233582",
+                "title": "ELSA-2023-3582:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233592",
+                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233593",
+                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-16",
+                "def_id": "oval:com.oracle.elsa:def:20233582",
+                "title": "ELSA-2023-3582:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233593",
+                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-15",
+                "def_id": "oval:com.oracle.elsa:def:20233581",
+                "title": "ELSA-2023-3581:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233592",
+                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:org.almalinux.alsa:def:20233582",
+                "title": "ALSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:org.almalinux.alsa:def:20233593",
+                "title": "ALSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:org.almalinux.alsa:def:20233581",
+                "title": "ALSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:org.almalinux.alsa:def:20233592",
+                "title": "ALSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233580",
+                "title": "RHSA-2023:3580: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-6.0.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233582",
+                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233582",
+                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233582",
+                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233582",
+                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233582",
+                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233581",
+                "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233592",
+                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233581",
+                "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233592",
+                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233581",
+                "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233592",
+                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233581",
+                "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233592",
+                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-32032": [
+            {
+                "date": "2023-06-13",
+                "def_id": "oval:com.ubuntu.jammy:def:61611000000",
+                "title": "USN-6161-1 -- .NET vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-13",
+                "def_id": "oval:com.ubuntu.jammy:def:61611000000",
+                "title": "USN-6161-1 -- .NET vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233592",
+                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233593",
+                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233592",
+                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233593",
+                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233593",
+                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-17",
+                "def_id": "oval:com.oracle.elsa:def:20233592",
+                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:org.almalinux.alsa:def:20233593",
+                "title": "ALSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:org.almalinux.alsa:def:20233592",
+                "title": "ALSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233593",
+                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233592",
+                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233592",
+                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233592",
+                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-14",
+                "def_id": "oval:com.redhat.rhsa:def:20233592",
+                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-29331": [
             {
                 "date": "2023-06-13",
@@ -20889,141 +21530,6 @@
                 "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233592",
-                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-32032": [
-            {
-                "date": "2023-06-13",
-                "def_id": "oval:com.ubuntu.jammy:def:61611000000",
-                "title": "USN-6161-1 -- .NET vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-13",
-                "def_id": "oval:com.ubuntu.jammy:def:61611000000",
-                "title": "USN-6161-1 -- .NET vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233592",
-                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233593",
-                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233592",
-                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233593",
-                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233593",
-                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233592",
-                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:org.almalinux.alsa:def:20233593",
-                "title": "ALSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:org.almalinux.alsa:def:20233592",
-                "title": "ALSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233592",
-                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233592",
-                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233592",
-                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-06-14",
@@ -21336,481 +21842,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2023-24936": [
-            {
-                "date": "2023-06-13",
-                "def_id": "oval:com.ubuntu.jammy:def:61611000000",
-                "title": "USN-6161-1 -- .NET vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-13",
-                "def_id": "oval:com.ubuntu.jammy:def:61611000000",
-                "title": "USN-6161-1 -- .NET vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-15",
-                "def_id": "oval:com.oracle.elsa:def:20233581",
-                "title": "ELSA-2023-3581:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-16",
-                "def_id": "oval:com.oracle.elsa:def:20233582",
-                "title": "ELSA-2023-3582:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233592",
-                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233593",
-                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-15",
-                "def_id": "oval:com.oracle.elsa:def:20233581",
-                "title": "ELSA-2023-3581:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-16",
-                "def_id": "oval:com.oracle.elsa:def:20233582",
-                "title": "ELSA-2023-3582:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233592",
-                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233593",
-                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-16",
-                "def_id": "oval:com.oracle.elsa:def:20233582",
-                "title": "ELSA-2023-3582:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233593",
-                "title": "ELSA-2023-3593:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-06-15",
-                "def_id": "oval:com.oracle.elsa:def:20233581",
-                "title": "ELSA-2023-3581:  .NET 6.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-06-17",
-                "def_id": "oval:com.oracle.elsa:def:20233592",
-                "title": "ELSA-2023-3592:  .NET 7.0 security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:org.almalinux.alsa:def:20233582",
-                "title": "ALSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:org.almalinux.alsa:def:20233593",
-                "title": "ALSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:org.almalinux.alsa:def:20233581",
-                "title": "ALSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:org.almalinux.alsa:def:20233592",
-                "title": "ALSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233580",
-                "title": "RHSA-2023:3580: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-6.0.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233582",
-                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233582",
-                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233582",
-                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233582",
-                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233582",
-                "title": "RHSA-2023:3582: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233593",
-                "title": "RHSA-2023:3593: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233581",
-                "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233592",
-                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233581",
-                "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233592",
-                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233581",
-                "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233592",
-                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233581",
-                "title": "RHSA-2023:3581: .NET 6.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-14",
-                "def_id": "oval:com.redhat.rhsa:def:20233592",
-                "title": "RHSA-2023:3592: .NET 7.0 security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-27488": [
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            }
-        ],
-        "CVE-2022-27493": [
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            }
-        ],
         "CVE-2022-27487": [
             {
                 "date": "2023-05-26",
@@ -21846,183 +21877,6 @@
                 "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            }
-        ],
-        "CVE-2022-27496": [
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             }
         ],
         "CVE-2022-27492": [
@@ -22060,76 +21914,117 @@
                 "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
+            }
+        ],
+        "CVE-2022-27496": [
             {
                 "date": "2023-05-26",
                 "def_id": "oval:com.oracle.elsa:def:202312354",
                 "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
                 "date": "2023-05-26",
                 "def_id": "oval:com.oracle.elsa:def:202312355",
                 "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
                 "date": "2023-05-26",
                 "def_id": "oval:com.oracle.elsa:def:202312356",
                 "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
                 "date": "2023-05-26",
                 "def_id": "oval:com.oracle.elsa:def:202312357",
                 "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
                 "date": "2023-05-26",
                 "def_id": "oval:com.oracle.elsa:def:202323648",
                 "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            }
+        ],
+        "CVE-2022-27493": [
+            {
+                "date": "2023-05-26",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
                 "date": "2023-05-26",
                 "def_id": "oval:com.oracle.elsa:def:202312355",
                 "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
                 "date": "2023-05-26",
                 "def_id": "oval:com.oracle.elsa:def:202312356",
                 "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-05-26",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
             {
                 "date": "2023-05-26",
                 "def_id": "oval:com.oracle.elsa:def:202323648",
                 "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            }
+        ],
+        "CVE-2022-27488": [
+            {
+                "date": "2023-05-26",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-05-26",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-05-26",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-05-26",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-05-26",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             }
         ],
         "CVE-2022-27491": [
@@ -22167,76 +22062,6 @@
                 "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312355",
-                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312357",
-                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312354",
-                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202312356",
-                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-05-26",
-                "def_id": "oval:com.oracle.elsa:def:202323648",
-                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             }
         ],
         "CVE-2023-2248": [
@@ -22270,63 +22095,17 @@
             },
             {
                 "date": "2023-09-05",
-                "def_id": "oval:redos:def:1011",
+                "def_id": "oval:redos:def:1013",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-09-05",
-                "def_id": "oval:redos:def:1032",
+                "def_id": "oval:redos:def:1034",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-27492": [
-            {
-                "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            }
-        ],
-        "CVE-2023-27488": [
-            {
-                "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
             }
         ],
         "CVE-2023-27496": [
@@ -22339,8 +22118,36 @@
             },
             {
                 "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -22349,30 +22156,49 @@
                 "def_id": "oval:com.oracle.elsa:def:202323649",
                 "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            }
-        ],
-        "CVE-2023-27487": [
-            {
-                "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
                 "def_id": "oval:com.oracle.elsa:def:202323649",
                 "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             }
         ],
         "CVE-2023-27493": [
@@ -22385,8 +22211,36 @@
             },
             {
                 "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -22395,7 +22249,328 @@
                 "def_id": "oval:com.oracle.elsa:def:202323649",
                 "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            }
+        ],
+        "CVE-2023-27488": [
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            }
+        ],
+        "CVE-2023-27492": [
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            }
+        ],
+        "CVE-2023-27487": [
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             }
         ],
         "CVE-2023-27491": [
@@ -22408,8 +22583,36 @@
             },
             {
                 "date": "2023-06-02",
-                "def_id": "oval:com.oracle.elsa:def:202323649",
-                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -22418,7 +22621,49 @@
                 "def_id": "oval:com.oracle.elsa:def:202323649",
                 "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312355",
+                "title": "ELSA-2023-12355:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312357",
+                "title": "ELSA-2023-12357:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323649",
+                "title": "ELSA-2023-23649:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312354",
+                "title": "ELSA-2023-12354:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202312356",
+                "title": "ELSA-2023-12356:  istio security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-06-02",
+                "def_id": "oval:com.oracle.elsa:def:202323648",
+                "title": "ELSA-2023-23648:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             }
         ],
         "CVE-2023-31141": [

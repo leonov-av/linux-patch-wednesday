@@ -2628,6 +2628,29 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             }
         ],
+        "CVE-2013-5710": [
+            {
+                "date": "2013-10-08",
+                "def_id": "oval:org.debian:def:288260756907893507330001844050808576739",
+                "title": "DSA-2769-1 kfreebsd-9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2013-10-08",
+                "def_id": "oval:org.debian:def:221585821223651965156872269134373602240",
+                "title": "DSA-2769-1 kfreebsd-9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2013-10-08",
+                "def_id": "oval:org.debian:def:282470897976795240099180266004340668349",
+                "title": "DSA-2769-1 kfreebsd-9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            }
+        ],
         "CVE-2013-5691": [
             {
                 "date": "2013-10-08",
@@ -2651,27 +2674,167 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             }
         ],
-        "CVE-2013-5710": [
+        "CVE-2013-1643": [
             {
-                "date": "2013-10-08",
-                "def_id": "oval:org.debian:def:288260756907893507330001844050808576739",
-                "title": "DSA-2769-1 kfreebsd-9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+                "date": "2013-10-02",
+                "def_id": "oval:com.oracle.elsa:def:20131307",
+                "title": "ELSA-2013-1307:  php53 security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
-                "date": "2013-10-08",
-                "def_id": "oval:org.debian:def:221585821223651965156872269134373602240",
-                "title": "DSA-2769-1 kfreebsd-9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+                "date": "2013-11-25",
+                "def_id": "oval:com.oracle.elsa:def:20131615",
+                "title": "ELSA-2013-1615:  php security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
-                "date": "2013-10-08",
-                "def_id": "oval:org.debian:def:282470897976795240099180266004340668349",
-                "title": "DSA-2769-1 kfreebsd-9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+                "date": "2013-12-10",
+                "def_id": "oval:com.oracle.elsa:def:20131814",
+                "title": "ELSA-2013-1814:  php security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-10-02",
+                "def_id": "oval:com.oracle.elsa:def:20131307",
+                "title": "ELSA-2013-1307:  php53 security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-11-25",
+                "def_id": "oval:com.oracle.elsa:def:20131615",
+                "title": "ELSA-2013-1615:  php security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-12-10",
+                "def_id": "oval:com.oracle.elsa:def:20131814",
+                "title": "ELSA-2013-1814:  php security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-11-25",
+                "def_id": "oval:com.oracle.elsa:def:20131615",
+                "title": "ELSA-2013-1615:  php security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-20",
+                "def_id": "oval:com.redhat.rhsa:def:20131615",
+                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
         "CVE-2006-7243": [
@@ -2842,169 +3005,6 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2013-1643": [
-            {
-                "date": "2013-10-02",
-                "def_id": "oval:com.oracle.elsa:def:20131307",
-                "title": "ELSA-2013-1307:  php53 security, bug fix and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-11-25",
-                "def_id": "oval:com.oracle.elsa:def:20131615",
-                "title": "ELSA-2013-1615:  php security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-12-10",
-                "def_id": "oval:com.oracle.elsa:def:20131814",
-                "title": "ELSA-2013-1814:  php security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-10-02",
-                "def_id": "oval:com.oracle.elsa:def:20131307",
-                "title": "ELSA-2013-1307:  php53 security, bug fix and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-11-25",
-                "def_id": "oval:com.oracle.elsa:def:20131615",
-                "title": "ELSA-2013-1615:  php security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-12-10",
-                "def_id": "oval:com.oracle.elsa:def:20131814",
-                "title": "ELSA-2013-1814:  php security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-11-25",
-                "def_id": "oval:com.oracle.elsa:def:20131615",
-                "title": "ELSA-2013-1615:  php security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131615",
-                "title": "RHSA-2013:1615: php security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
         "CVE-2013-4284": [

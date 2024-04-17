@@ -14670,6 +14670,22 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2017-9782": [
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-27828": [
             {
                 "date": "2021-01-11",
@@ -14775,22 +14791,6 @@
                 "title": "RHSA-2021:4235: jasper security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2017-9782": [
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2021-1723": [
@@ -15033,29 +15033,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2020-2306": [
-            {
-                "date": "2021-03-03",
-                "def_id": "oval:com.redhat.rhsa:def:20210637",
-                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
-            }
-        ],
         "CVE-2020-2304": [
             {
                 "date": "2021-03-03",
@@ -15079,30 +15056,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
             }
         ],
-        "CVE-2020-2305": [
-            {
-                "date": "2021-03-03",
-                "def_id": "oval:com.redhat.rhsa:def:20210637",
-                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2309": [
+        "CVE-2020-2308": [
             {
                 "date": "2021-03-03",
                 "def_id": "oval:com.redhat.rhsa:def:20210637",
@@ -15148,7 +15102,53 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
             }
         ],
-        "CVE-2020-2308": [
+        "CVE-2020-2309": [
+            {
+                "date": "2021-03-03",
+                "def_id": "oval:com.redhat.rhsa:def:20210637",
+                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-2306": [
+            {
+                "date": "2021-03-03",
+                "def_id": "oval:com.redhat.rhsa:def:20210637",
+                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-2305": [
             {
                 "date": "2021-03-03",
                 "def_id": "oval:com.redhat.rhsa:def:20210637",

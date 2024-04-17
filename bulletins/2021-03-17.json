@@ -12948,6 +12948,13 @@
                 "title": "USN-4743-1 -- GDK-PixBuf vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-08",
+                "def_id": "oval:redos:def:1665",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 gdk-pixbuf2",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2021-20265": [
@@ -18741,13 +18748,6 @@
                 "title": "CVE-2021-25291 pillow",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "unknown",
-                "def_id": "oval:org.debian:def:157621084272633015153651752230224652438",
-                "title": "CVE-2021-25291 pillow",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
                 "date": "2021-03-11",
@@ -27231,51 +27231,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2021-23974": [
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.bionic:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.xenial:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.bionic:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.xenial:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-23971": [
+        "CVE-2021-23979": [
             {
                 "date": "2021-02-26",
                 "def_id": "oval:com.ubuntu.bionic:def:47561000000",
@@ -27363,6 +27319,94 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2021-23970": [
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.bionic:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.focal:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.xenial:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.bionic:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.focal:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.xenial:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-23974": [
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.bionic:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.focal:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.xenial:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.bionic:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.focal:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-02-26",
+                "def_id": "oval:com.ubuntu.xenial:def:47561000000",
+                "title": "USN-4756-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2021-23972": [
             {
                 "date": "2021-02-26",
@@ -27407,51 +27451,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-23979": [
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.bionic:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.xenial:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.bionic:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-02-26",
-                "def_id": "oval:com.ubuntu.xenial:def:47561000000",
-                "title": "USN-4756-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-23970": [
+        "CVE-2021-23971": [
             {
                 "date": "2021-02-26",
                 "def_id": "oval:com.ubuntu.bionic:def:47561000000",
@@ -27525,7 +27525,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2018-12021": [
+        "CVE-2018-19295": [
             {
                 "date": "2021-03-15",
                 "def_id": "oval:com.ubuntu.bionic:def:48401000000",
@@ -27541,7 +27541,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2018-19295": [
+        "CVE-2018-12021": [
             {
                 "date": "2021-03-15",
                 "def_id": "oval:com.ubuntu.bionic:def:48401000000",
