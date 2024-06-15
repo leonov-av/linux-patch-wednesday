@@ -1,12 +1,11 @@
 {
-    "name": "January 2019",
-    "year": 2019,
     "month": "January",
+    "name": "January 2019",
     "patch_wednesday": "2019-01-16",
-    "patch_wednesday_start_date": "2018-12-20",
-    "patch_wednesday_start_date_ts": 1545253200,
     "patch_wednesday_end_date": "2019-01-16",
     "patch_wednesday_end_date_ts": 1547672399,
+    "patch_wednesday_start_date": "2018-12-20",
+    "patch_wednesday_start_date_ts": 1545253200,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2014-9317": [
@@ -957,6 +956,33 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2017-17130": [
+            {
+                "date": "2019-01-08",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-17456": [
+            {
+                "date": "2018-12-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-17457": [
+            {
+                "date": "2018-12-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2017-17669": [
             {
                 "date": "2024-05-15",
@@ -1087,6 +1113,64 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-18174": [
+            {
+                "date": "2018-12-20",
+                "def_id": "oval:com.ubuntu.trusty:def:38482000000",
+                "title": "USN-3848-2 -- Linux kernel (Xenial HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-12-20",
+                "def_id": "oval:com.ubuntu.xenial:def:38481000000",
+                "title": "USN-3848-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-12-20",
+                "def_id": "oval:com.ubuntu.trusty:def:38482000000",
+                "title": "USN-3848-2 -- Linux kernel (Xenial HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-12-20",
+                "def_id": "oval:com.ubuntu.xenial:def:38481000000",
+                "title": "USN-3848-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20194315",
+                "title": "ELSA-2019-4315: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2019.xml.bz2"
+            },
+            {
+                "date": "2019-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20194315",
+                "title": "ELSA-2019-4315: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2019-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20194315",
+                "title": "ELSA-2019-4315: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2019-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20194315",
+                "title": "ELSA-2019-4315: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
             }
         ],
         "CVE-2017-2518": [
@@ -1590,6 +1674,42 @@
                 "title": "RHSA-2020:4490: gnupg2 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1000861": [
+            {
+                "date": "2019-01-10",
+                "def_id": "oval:com.redhat.rhba:def:20190024",
+                "title": "RHBA-2019:0024: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1000862": [
+            {
+                "date": "2019-01-10",
+                "def_id": "oval:com.redhat.rhba:def:20190024",
+                "title": "RHBA-2019:0024: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1000863": [
+            {
+                "date": "2019-01-10",
+                "def_id": "oval:com.redhat.rhba:def:20190024",
+                "title": "RHBA-2019:0024: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1000864": [
+            {
+                "date": "2019-01-10",
+                "def_id": "oval:com.redhat.rhba:def:20190024",
+                "title": "RHBA-2019:0024: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
             }
         ],
         "CVE-2018-1000877": [
@@ -2861,6 +2981,36 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2018-1160": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:272830756068724525145669287440185450109",
+                "title": "CVE-2018-1160 netatalk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:272830756068724525145669287440185450109",
+                "title": "CVE-2018-1160 netatalk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2018-12-20",
+                "def_id": "oval:org.debian:def:272830756068724525145669287440185450109",
+                "title": "DSA-4356-1 netatalk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2018-12-20",
+                "def_id": "oval:org.debian:def:45889838627707784333867019836574694289",
+                "title": "DSA-4356-1 netatalk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            }
+        ],
         "CVE-2018-12086": [
             {
                 "date": "2024-05-15",
@@ -4103,6 +4253,15 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-15727": [
+            {
+                "date": "2019-01-03",
+                "def_id": "oval:com.redhat.rhsa:def:20190019",
+                "title": "RHSA-2019:0019: grafana security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/storage-ceph-3.oval.xml.bz2"
             }
         ],
         "CVE-2018-16468": [
@@ -6065,6 +6224,47 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
+        "CVE-2018-18623": [
+            {
+                "date": "2019-01-03",
+                "def_id": "oval:com.redhat.rhsa:def:20190019",
+                "title": "RHSA-2019:0019: grafana security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/storage-ceph-3.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-18873": [
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-01-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-19139": [
+            {
+                "date": "2019-01-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2018-19407": [
             {
                 "date": "2024-05-15",
@@ -6322,6 +6522,56 @@
             },
             {
                 "date": "2018-12-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-19539": [
+            {
+                "date": "2019-01-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-19540": [
+            {
+                "date": "2019-01-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-19541": [
+            {
+                "date": "2019-01-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-19542": [
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-01-03",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -11665,6 +11915,24 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2018-20570": [
+            {
+                "date": "2019-01-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2018-20584": [
+            {
+                "date": "2019-01-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2018-20615": [
             {
                 "date": "2024-05-15",
@@ -11749,6 +12017,15 @@
                 "title": "RHSA-2019:0275: rh-haproxy18-haproxy security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-20622": [
+            {
+                "date": "2019-01-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2018-3740": [
@@ -12559,6 +12836,54 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2019-0545": [
+            {
+                "date": "2019-01-09",
+                "def_id": "oval:com.redhat.rhsa:def:20190040",
+                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.1.oval.xml.bz2"
+            },
+            {
+                "date": "2019-01-09",
+                "def_id": "oval:com.redhat.rhsa:def:20190040",
+                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.2.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-0548": [
+            {
+                "date": "2019-01-09",
+                "def_id": "oval:com.redhat.rhsa:def:20190040",
+                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.1.oval.xml.bz2"
+            },
+            {
+                "date": "2019-01-09",
+                "def_id": "oval:com.redhat.rhsa:def:20190040",
+                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.2.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-0564": [
+            {
+                "date": "2019-01-09",
+                "def_id": "oval:com.redhat.rhsa:def:20190040",
+                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.1.oval.xml.bz2"
+            },
+            {
+                "date": "2019-01-09",
+                "def_id": "oval:com.redhat.rhsa:def:20190040",
+                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.2.oval.xml.bz2"
+            }
+        ],
         "CVE-2019-3461": [
             {
                 "date": "2024-05-15",
@@ -12753,332 +13078,7 @@
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
             }
-        ],
-        "CVE-2018-1160": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:272830756068724525145669287440185450109",
-                "title": "CVE-2018-1160 netatalk",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:272830756068724525145669287440185450109",
-                "title": "CVE-2018-1160 netatalk",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2018-12-20",
-                "def_id": "oval:org.debian:def:272830756068724525145669287440185450109",
-                "title": "DSA-4356-1 netatalk",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
-            },
-            {
-                "date": "2018-12-20",
-                "def_id": "oval:org.debian:def:45889838627707784333867019836574694289",
-                "title": "DSA-4356-1 netatalk",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
-            }
-        ],
-        "CVE-2017-18174": [
-            {
-                "date": "2018-12-20",
-                "def_id": "oval:com.ubuntu.trusty:def:38482000000",
-                "title": "USN-3848-2 -- Linux kernel (Xenial HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-12-20",
-                "def_id": "oval:com.ubuntu.xenial:def:38481000000",
-                "title": "USN-3848-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-12-20",
-                "def_id": "oval:com.ubuntu.trusty:def:38482000000",
-                "title": "USN-3848-2 -- Linux kernel (Xenial HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-12-20",
-                "def_id": "oval:com.ubuntu.xenial:def:38481000000",
-                "title": "USN-3848-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-01-03",
-                "def_id": "oval:com.oracle.elsa:def:20194315",
-                "title": "ELSA-2019-4315: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2019.xml.bz2"
-            },
-            {
-                "date": "2019-01-03",
-                "def_id": "oval:com.oracle.elsa:def:20194315",
-                "title": "ELSA-2019-4315: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2019-01-03",
-                "def_id": "oval:com.oracle.elsa:def:20194315",
-                "title": "ELSA-2019-4315: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2019-01-03",
-                "def_id": "oval:com.oracle.elsa:def:20194315",
-                "title": "ELSA-2019-4315: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            }
-        ],
-        "CVE-2018-18873": [
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2018-19542": [
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2019-0564": [
-            {
-                "date": "2019-01-09",
-                "def_id": "oval:com.redhat.rhsa:def:20190040",
-                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.1.oval.xml.bz2"
-            },
-            {
-                "date": "2019-01-09",
-                "def_id": "oval:com.redhat.rhsa:def:20190040",
-                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.2.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-0548": [
-            {
-                "date": "2019-01-09",
-                "def_id": "oval:com.redhat.rhsa:def:20190040",
-                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.1.oval.xml.bz2"
-            },
-            {
-                "date": "2019-01-09",
-                "def_id": "oval:com.redhat.rhsa:def:20190040",
-                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.2.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-0545": [
-            {
-                "date": "2019-01-09",
-                "def_id": "oval:com.redhat.rhsa:def:20190040",
-                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.1.oval.xml.bz2"
-            },
-            {
-                "date": "2019-01-09",
-                "def_id": "oval:com.redhat.rhsa:def:20190040",
-                "title": "RHSA-2019:0040: .NET Core on Red Hat Enterprise Linux security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-2.2.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-1000861": [
-            {
-                "date": "2019-01-10",
-                "def_id": "oval:com.redhat.rhba:def:20190024",
-                "title": "RHBA-2019:0024: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-1000864": [
-            {
-                "date": "2019-01-10",
-                "def_id": "oval:com.redhat.rhba:def:20190024",
-                "title": "RHBA-2019:0024: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-1000863": [
-            {
-                "date": "2019-01-10",
-                "def_id": "oval:com.redhat.rhba:def:20190024",
-                "title": "RHBA-2019:0024: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-1000862": [
-            {
-                "date": "2019-01-10",
-                "def_id": "oval:com.redhat.rhba:def:20190024",
-                "title": "RHBA-2019:0024: OpenShift Container Platform 3.11 bug fix and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-15727": [
-            {
-                "date": "2019-01-03",
-                "def_id": "oval:com.redhat.rhsa:def:20190019",
-                "title": "RHSA-2019:0019: grafana security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/storage-ceph-3.oval.xml.bz2"
-            }
-        ],
-        "CVE-2018-18623": [
-            {
-                "date": "2019-01-03",
-                "def_id": "oval:com.redhat.rhsa:def:20190019",
-                "title": "RHSA-2019:0019: grafana security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/storage-ceph-3.oval.xml.bz2"
-            }
-        ],
-        "CVE-2017-17130": [
-            {
-                "date": "2019-01-08",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2018-20570": [
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2018-20584": [
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2018-19539": [
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2018-19541": [
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2018-20622": [
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2018-19540": [
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2018-19139": [
-            {
-                "date": "2019-01-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2017-17456": [
-            {
-                "date": "2018-12-26",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2017-17457": [
-            {
-                "date": "2018-12-26",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
         ]
-    }
+    },
+    "year": 2019
 }

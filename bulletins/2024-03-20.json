@@ -1,12 +1,11 @@
 {
-    "name": "March 2024",
-    "year": 2024,
     "month": "March",
+    "name": "March 2024",
     "patch_wednesday": "2024-03-20",
-    "patch_wednesday_start_date": "2024-02-22",
-    "patch_wednesday_start_date_ts": 1708549200,
     "patch_wednesday_end_date": "2024-03-20",
     "patch_wednesday_end_date_ts": 1710968399,
+    "patch_wednesday_start_date": "2024-02-22",
+    "patch_wednesday_start_date_ts": 1708549200,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2012-6655": [
@@ -1361,6 +1360,43 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2023-3674": [
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241139",
+                "title": "ELSA-2024-1139:  keylime security update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241139",
+                "title": "ELSA-2024-1139:  keylime security update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20241139",
+                "title": "ELSA-2024-1139:  keylime security update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:org.almalinux.alsa:def:20241139",
+                "title": "ALSA-2024:1139: keylime security update (Low)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20241139",
+                "title": "RHSA-2024:1139: keylime security update (Low)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-37276": [
             {
                 "date": "2024-05-15",
@@ -1710,6 +1746,22 @@
                 "title": "USN-6682-1 -- Puma vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-4043": [
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.redhat.rhsa:def:20241193",
+                "title": "RHSA-2024:1193: Red Hat JBoss Enterprise Application Platform 8.0.1 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.redhat.rhsa:def:20241193",
+                "title": "RHSA-2024:1193: Red Hat JBoss Enterprise Application Platform 8.0.1 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-8.oval.xml.bz2"
             }
         ],
         "CVE-2023-46317": [
@@ -13284,6 +13336,92 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openstack-17.1.oval.xml.bz2"
             }
         ],
+        "CVE-2023-6560": [
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.ubuntu.jammy:def:66801000000",
+                "title": "USN-6680-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-08",
+                "def_id": "oval:com.ubuntu.jammy:def:66802000000",
+                "title": "USN-6680-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-19",
+                "def_id": "oval:com.ubuntu.jammy:def:66803000000",
+                "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.ubuntu.mantic:def:66801000000",
+                "title": "USN-6680-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-08",
+                "def_id": "oval:com.ubuntu.mantic:def:66802000000",
+                "title": "USN-6680-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-19",
+                "def_id": "oval:com.ubuntu.mantic:def:66803000000",
+                "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.ubuntu.jammy:def:66801000000",
+                "title": "USN-6680-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-08",
+                "def_id": "oval:com.ubuntu.jammy:def:66802000000",
+                "title": "USN-6680-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-19",
+                "def_id": "oval:com.ubuntu.jammy:def:66803000000",
+                "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-06",
+                "def_id": "oval:com.ubuntu.mantic:def:66801000000",
+                "title": "USN-6680-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-08",
+                "def_id": "oval:com.ubuntu.mantic:def:66802000000",
+                "title": "USN-6680-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-19",
+                "def_id": "oval:com.ubuntu.mantic:def:66803000000",
+                "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-6915": [
             {
                 "date": "2024-05-15",
@@ -14100,6 +14238,92 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
+        "CVE-2024-0582": [
+            {
+                "date": "2024-02-23",
+                "def_id": "oval:com.ubuntu.jammy:def:66511000000",
+                "title": "USN-6651-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-28",
+                "def_id": "oval:com.ubuntu.jammy:def:66512000000",
+                "title": "USN-6651-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-29",
+                "def_id": "oval:com.ubuntu.jammy:def:66513000000",
+                "title": "USN-6651-3 -- Linux kernel (StarFive) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-23",
+                "def_id": "oval:com.ubuntu.mantic:def:66511000000",
+                "title": "USN-6651-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-28",
+                "def_id": "oval:com.ubuntu.mantic:def:66512000000",
+                "title": "USN-6651-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-23",
+                "def_id": "oval:com.ubuntu.mantic:def:66521000000",
+                "title": "USN-6652-1 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-23",
+                "def_id": "oval:com.ubuntu.jammy:def:66511000000",
+                "title": "USN-6651-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-28",
+                "def_id": "oval:com.ubuntu.jammy:def:66512000000",
+                "title": "USN-6651-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-29",
+                "def_id": "oval:com.ubuntu.jammy:def:66513000000",
+                "title": "USN-6651-3 -- Linux kernel (StarFive) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-23",
+                "def_id": "oval:com.ubuntu.mantic:def:66511000000",
+                "title": "USN-6651-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-28",
+                "def_id": "oval:com.ubuntu.mantic:def:66512000000",
+                "title": "USN-6651-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-23",
+                "def_id": "oval:com.ubuntu.mantic:def:66521000000",
+                "title": "USN-6652-1 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2024-0775": [
             {
                 "date": "2024-05-15",
@@ -14282,6 +14506,22 @@
                 "title": "ELSA-2024-12193: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            }
+        ],
+        "CVE-2024-0793": [
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.redhat.rhsa:def:20241267",
+                "title": "RHSA-2024:1267: OpenShift Container Platform 4.12.53 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.12.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.redhat.rhsa:def:20241267",
+                "title": "RHSA-2024:1267: OpenShift Container Platform 4.12.53 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.12.oval.xml.bz2"
             }
         ],
         "CVE-2024-0914": [
@@ -14890,6 +15130,70 @@
                 "title": "RHSA-2024:1019: kernel-rt security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            }
+        ],
+        "CVE-2024-1554": [
+            {
+                "date": "2024-02-22",
+                "def_id": "oval:com.ubuntu.focal:def:66491000000",
+                "title": "USN-6649-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-22",
+                "def_id": "oval:com.ubuntu.focal:def:66491000000",
+                "title": "USN-6649-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2024-1555": [
+            {
+                "date": "2024-02-22",
+                "def_id": "oval:com.ubuntu.focal:def:66491000000",
+                "title": "USN-6649-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-22",
+                "def_id": "oval:com.ubuntu.focal:def:66491000000",
+                "title": "USN-6649-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2024-1556": [
+            {
+                "date": "2024-02-22",
+                "def_id": "oval:com.ubuntu.focal:def:66491000000",
+                "title": "USN-6649-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-22",
+                "def_id": "oval:com.ubuntu.focal:def:66491000000",
+                "title": "USN-6649-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2024-1557": [
+            {
+                "date": "2024-02-22",
+                "def_id": "oval:com.ubuntu.focal:def:66491000000",
+                "title": "USN-6649-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-22",
+                "def_id": "oval:com.ubuntu.focal:def:66491000000",
+                "title": "USN-6649-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
         "CVE-2024-1597": [
@@ -15754,6 +16058,176 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2024-21392": [
+            {
+                "date": "2024-03-12",
+                "def_id": "oval:com.ubuntu.jammy:def:66931000000",
+                "title": "USN-6693-1 -- .NET vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-12",
+                "def_id": "oval:com.ubuntu.mantic:def:66931000000",
+                "title": "USN-6693-1 -- .NET vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-12",
+                "def_id": "oval:com.ubuntu.jammy:def:66931000000",
+                "title": "USN-6693-1 -- .NET vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-12",
+                "def_id": "oval:com.ubuntu.mantic:def:66931000000",
+                "title": "USN-6693-1 -- .NET vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-15",
+                "def_id": "oval:com.oracle.elsa:def:20241308",
+                "title": "ELSA-2024-1308:  .NET 7.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241309",
+                "title": "ELSA-2024-1309:  .NET 7.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241310",
+                "title": "ELSA-2024-1310:  .NET 8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241311",
+                "title": "ELSA-2024-1311:  .NET 8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-03-15",
+                "def_id": "oval:com.oracle.elsa:def:20241308",
+                "title": "ELSA-2024-1308:  .NET 7.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241309",
+                "title": "ELSA-2024-1309:  .NET 7.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241310",
+                "title": "ELSA-2024-1310:  .NET 8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241311",
+                "title": "ELSA-2024-1311:  .NET 8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-15",
+                "def_id": "oval:com.oracle.elsa:def:20241308",
+                "title": "ELSA-2024-1308:  .NET 7.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241311",
+                "title": "ELSA-2024-1311:  .NET 8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241309",
+                "title": "ELSA-2024-1309:  .NET 7.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-03-14",
+                "def_id": "oval:com.oracle.elsa:def:20241310",
+                "title": "ELSA-2024-1310:  .NET 8.0 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-03-13",
+                "def_id": "oval:org.almalinux.alsa:def:20241311",
+                "title": "ALSA-2024:1311: .NET 8.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-03-13",
+                "def_id": "oval:org.almalinux.alsa:def:20241308",
+                "title": "ALSA-2024:1308: .NET 7.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-03-13",
+                "def_id": "oval:org.almalinux.alsa:def:20241310",
+                "title": "ALSA-2024:1310: .NET 8.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-03-13",
+                "def_id": "oval:org.almalinux.alsa:def:20241309",
+                "title": "ALSA-2024:1309: .NET 7.0 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-03-13",
+                "def_id": "oval:com.redhat.rhsa:def:20241308",
+                "title": "RHSA-2024:1308: .NET 7.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-13",
+                "def_id": "oval:com.redhat.rhsa:def:20241311",
+                "title": "RHSA-2024:1311: .NET 8.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-13",
+                "def_id": "oval:com.redhat.rhsa:def:20241309",
+                "title": "RHSA-2024:1309: .NET 7.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-13",
+                "def_id": "oval:com.redhat.rhsa:def:20241310",
+                "title": "RHSA-2024:1310: .NET 8.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-2173": [
@@ -19579,6 +20053,22 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
             }
         ],
+        "CVE-2024-2606": [
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.focal:def:67031000000",
+                "title": "USN-6703-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.focal:def:67031000000",
+                "title": "USN-6703-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2024-2607": [
             {
                 "date": "2024-05-15",
@@ -23140,6 +23630,22 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2024-2613": [
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.focal:def:67031000000",
+                "title": "USN-6703-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.focal:def:67031000000",
+                "title": "USN-6703-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2024-26130": [
             {
                 "date": "2024-05-15",
@@ -24336,6 +24842,22 @@
                 "title": "RHSA-2024:2113: pcs security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2024-2615": [
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.focal:def:67031000000",
+                "title": "USN-6703-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:com.ubuntu.focal:def:67031000000",
+                "title": "USN-6703-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
         "CVE-2024-26581": [
@@ -27761,529 +28283,7 @@
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
-        ],
-        "CVE-2024-1556": [
-            {
-                "date": "2024-02-22",
-                "def_id": "oval:com.ubuntu.focal:def:66491000000",
-                "title": "USN-6649-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-22",
-                "def_id": "oval:com.ubuntu.focal:def:66491000000",
-                "title": "USN-6649-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-1554": [
-            {
-                "date": "2024-02-22",
-                "def_id": "oval:com.ubuntu.focal:def:66491000000",
-                "title": "USN-6649-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-22",
-                "def_id": "oval:com.ubuntu.focal:def:66491000000",
-                "title": "USN-6649-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-1555": [
-            {
-                "date": "2024-02-22",
-                "def_id": "oval:com.ubuntu.focal:def:66491000000",
-                "title": "USN-6649-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-22",
-                "def_id": "oval:com.ubuntu.focal:def:66491000000",
-                "title": "USN-6649-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-1557": [
-            {
-                "date": "2024-02-22",
-                "def_id": "oval:com.ubuntu.focal:def:66491000000",
-                "title": "USN-6649-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-22",
-                "def_id": "oval:com.ubuntu.focal:def:66491000000",
-                "title": "USN-6649-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-2606": [
-            {
-                "date": "2024-03-20",
-                "def_id": "oval:com.ubuntu.focal:def:67031000000",
-                "title": "USN-6703-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-20",
-                "def_id": "oval:com.ubuntu.focal:def:67031000000",
-                "title": "USN-6703-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-2613": [
-            {
-                "date": "2024-03-20",
-                "def_id": "oval:com.ubuntu.focal:def:67031000000",
-                "title": "USN-6703-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-20",
-                "def_id": "oval:com.ubuntu.focal:def:67031000000",
-                "title": "USN-6703-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-2615": [
-            {
-                "date": "2024-03-20",
-                "def_id": "oval:com.ubuntu.focal:def:67031000000",
-                "title": "USN-6703-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-20",
-                "def_id": "oval:com.ubuntu.focal:def:67031000000",
-                "title": "USN-6703-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-0582": [
-            {
-                "date": "2024-02-23",
-                "def_id": "oval:com.ubuntu.jammy:def:66511000000",
-                "title": "USN-6651-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-28",
-                "def_id": "oval:com.ubuntu.jammy:def:66512000000",
-                "title": "USN-6651-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-29",
-                "def_id": "oval:com.ubuntu.jammy:def:66513000000",
-                "title": "USN-6651-3 -- Linux kernel (StarFive) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-23",
-                "def_id": "oval:com.ubuntu.mantic:def:66511000000",
-                "title": "USN-6651-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-28",
-                "def_id": "oval:com.ubuntu.mantic:def:66512000000",
-                "title": "USN-6651-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-23",
-                "def_id": "oval:com.ubuntu.mantic:def:66521000000",
-                "title": "USN-6652-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-23",
-                "def_id": "oval:com.ubuntu.jammy:def:66511000000",
-                "title": "USN-6651-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-28",
-                "def_id": "oval:com.ubuntu.jammy:def:66512000000",
-                "title": "USN-6651-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-29",
-                "def_id": "oval:com.ubuntu.jammy:def:66513000000",
-                "title": "USN-6651-3 -- Linux kernel (StarFive) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-23",
-                "def_id": "oval:com.ubuntu.mantic:def:66511000000",
-                "title": "USN-6651-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-28",
-                "def_id": "oval:com.ubuntu.mantic:def:66512000000",
-                "title": "USN-6651-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-23",
-                "def_id": "oval:com.ubuntu.mantic:def:66521000000",
-                "title": "USN-6652-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-6560": [
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.ubuntu.jammy:def:66801000000",
-                "title": "USN-6680-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-08",
-                "def_id": "oval:com.ubuntu.jammy:def:66802000000",
-                "title": "USN-6680-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-19",
-                "def_id": "oval:com.ubuntu.jammy:def:66803000000",
-                "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.ubuntu.mantic:def:66801000000",
-                "title": "USN-6680-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-08",
-                "def_id": "oval:com.ubuntu.mantic:def:66802000000",
-                "title": "USN-6680-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-19",
-                "def_id": "oval:com.ubuntu.mantic:def:66803000000",
-                "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.ubuntu.jammy:def:66801000000",
-                "title": "USN-6680-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-08",
-                "def_id": "oval:com.ubuntu.jammy:def:66802000000",
-                "title": "USN-6680-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-19",
-                "def_id": "oval:com.ubuntu.jammy:def:66803000000",
-                "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.ubuntu.mantic:def:66801000000",
-                "title": "USN-6680-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-08",
-                "def_id": "oval:com.ubuntu.mantic:def:66802000000",
-                "title": "USN-6680-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-19",
-                "def_id": "oval:com.ubuntu.mantic:def:66803000000",
-                "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-21392": [
-            {
-                "date": "2024-03-12",
-                "def_id": "oval:com.ubuntu.jammy:def:66931000000",
-                "title": "USN-6693-1 -- .NET vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-12",
-                "def_id": "oval:com.ubuntu.mantic:def:66931000000",
-                "title": "USN-6693-1 -- .NET vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-12",
-                "def_id": "oval:com.ubuntu.jammy:def:66931000000",
-                "title": "USN-6693-1 -- .NET vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-12",
-                "def_id": "oval:com.ubuntu.mantic:def:66931000000",
-                "title": "USN-6693-1 -- .NET vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-15",
-                "def_id": "oval:com.oracle.elsa:def:20241308",
-                "title": "ELSA-2024-1308:  .NET 7.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241309",
-                "title": "ELSA-2024-1309:  .NET 7.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241310",
-                "title": "ELSA-2024-1310:  .NET 8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241311",
-                "title": "ELSA-2024-1311:  .NET 8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-15",
-                "def_id": "oval:com.oracle.elsa:def:20241308",
-                "title": "ELSA-2024-1308:  .NET 7.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241309",
-                "title": "ELSA-2024-1309:  .NET 7.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241310",
-                "title": "ELSA-2024-1310:  .NET 8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241311",
-                "title": "ELSA-2024-1311:  .NET 8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-15",
-                "def_id": "oval:com.oracle.elsa:def:20241308",
-                "title": "ELSA-2024-1308:  .NET 7.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241311",
-                "title": "ELSA-2024-1311:  .NET 8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241309",
-                "title": "ELSA-2024-1309:  .NET 7.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-03-14",
-                "def_id": "oval:com.oracle.elsa:def:20241310",
-                "title": "ELSA-2024-1310:  .NET 8.0 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-03-13",
-                "def_id": "oval:org.almalinux.alsa:def:20241311",
-                "title": "ALSA-2024:1311: .NET 8.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2024-03-13",
-                "def_id": "oval:org.almalinux.alsa:def:20241308",
-                "title": "ALSA-2024:1308: .NET 7.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2024-03-13",
-                "def_id": "oval:org.almalinux.alsa:def:20241310",
-                "title": "ALSA-2024:1310: .NET 8.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2024-03-13",
-                "def_id": "oval:org.almalinux.alsa:def:20241309",
-                "title": "ALSA-2024:1309: .NET 7.0 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2024-03-13",
-                "def_id": "oval:com.redhat.rhsa:def:20241308",
-                "title": "RHSA-2024:1308: .NET 7.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-13",
-                "def_id": "oval:com.redhat.rhsa:def:20241311",
-                "title": "RHSA-2024:1311: .NET 8.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-13",
-                "def_id": "oval:com.redhat.rhsa:def:20241309",
-                "title": "RHSA-2024:1309: .NET 7.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-13",
-                "def_id": "oval:com.redhat.rhsa:def:20241310",
-                "title": "RHSA-2024:1310: .NET 8.0 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-3674": [
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241139",
-                "title": "ELSA-2024-1139:  keylime security update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241139",
-                "title": "ELSA-2024-1139:  keylime security update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20241139",
-                "title": "ELSA-2024-1139:  keylime security update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:org.almalinux.alsa:def:20241139",
-                "title": "ALSA-2024:1139: keylime security update (Low)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2024-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20241139",
-                "title": "RHSA-2024:1139: keylime security update (Low)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-4043": [
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.redhat.rhsa:def:20241193",
-                "title": "RHSA-2024:1193: Red Hat JBoss Enterprise Application Platform 8.0.1 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-8.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-06",
-                "def_id": "oval:com.redhat.rhsa:def:20241193",
-                "title": "RHSA-2024:1193: Red Hat JBoss Enterprise Application Platform 8.0.1 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2024-0793": [
-            {
-                "date": "2024-03-20",
-                "def_id": "oval:com.redhat.rhsa:def:20241267",
-                "title": "RHSA-2024:1267: OpenShift Container Platform 4.12.53 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.12.oval.xml.bz2"
-            },
-            {
-                "date": "2024-03-20",
-                "def_id": "oval:com.redhat.rhsa:def:20241267",
-                "title": "RHSA-2024:1267: OpenShift Container Platform 4.12.53 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openshift-4.12.oval.xml.bz2"
-            }
         ]
-    }
+    },
+    "year": 2024
 }

@@ -1,12 +1,11 @@
 {
-    "name": "April 2021",
-    "year": 2021,
     "month": "April",
+    "name": "April 2021",
     "patch_wednesday": "2021-04-21",
-    "patch_wednesday_start_date": "2021-03-18",
-    "patch_wednesday_start_date_ts": 1616014800,
     "patch_wednesday_end_date": "2021-04-21",
     "patch_wednesday_end_date_ts": 1619038799,
+    "patch_wednesday_start_date": "2021-03-18",
+    "patch_wednesday_start_date_ts": 1616014800,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2015-1820": [
@@ -61,6 +60,15 @@
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
+            {
+                "date": "2021-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20211313",
+                "title": "RHSA-2021:1313: Satellite 6.9 Release (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/satellite-6.9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-2662": [
             {
                 "date": "2021-04-21",
                 "def_id": "oval:com.redhat.rhsa:def:20211313",
@@ -197,6 +205,36 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-20921": [
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211169",
+                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211186",
+                "title": "RHSA-2021:1186: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] 0-day security, bug fix, enhance (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211169",
+                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211186",
+                "title": "RHSA-2021:1186: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] 0-day security, bug fix, enhance (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
             }
         ],
         "CVE-2020-0465": [
@@ -873,6 +911,61 @@
                 "title": "RHSA-2021:1093: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-13482": [
+            {
+                "date": "2021-03-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210937",
+                "title": "RHSA-2021:0937: rubygem-em-http-request security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openstack-13.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-14335": [
+            {
+                "date": "2021-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20211313",
+                "title": "RHSA-2021:1313: Satellite 6.9 Release (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/satellite-6.9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-15227": [
+            {
+                "date": "2023-03-29",
+                "def_id": "oval:com.ubuntu.bionic:def:59831000000",
+                "title": "USN-5983-1 -- Nette vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-29",
+                "def_id": "oval:com.ubuntu.xenial:def:59831000000",
+                "title": "USN-5983-1 -- Nette vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-29",
+                "def_id": "oval:com.ubuntu.bionic:def:59831000000",
+                "title": "USN-5983-1 -- Nette vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-29",
+                "def_id": "oval:com.ubuntu.xenial:def:59831000000",
+                "title": "USN-5983-1 -- Nette vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2020-15395": [
@@ -3616,6 +3709,73 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
+        "CVE-2020-28458": [
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211184",
+                "title": "RHSA-2021:1184: RHV RHEL Host (ovirt-host) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhvh-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211184",
+                "title": "RHSA-2021:1184: RHV RHEL Host (ovirt-host) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvh-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211169",
+                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211186",
+                "title": "RHSA-2021:1186: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] 0-day security, bug fix, enhance (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211184",
+                "title": "RHSA-2021:1184: RHV RHEL Host (ovirt-host) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvh-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211169",
+                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211186",
+                "title": "RHSA-2021:1186: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] 0-day security, bug fix, enhance (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-28477": [
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211169",
+                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-14",
+                "def_id": "oval:com.redhat.rhsa:def:20211169",
+                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-29623": [
             {
                 "date": "2024-05-15",
@@ -4137,6 +4297,15 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-8185": [
+            {
+                "date": "2021-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20211313",
+                "title": "RHSA-2021:1313: Satellite 6.9 Release (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/satellite-6.9.oval.xml.bz2"
             }
         ],
         "CVE-2021-1252": [
@@ -5433,6 +5602,22 @@
                 "title": "USN-4886-1 -- Privoxy vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-20218": [
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211006",
+                "title": "RHSA-2021:1006: OpenShift Container Platform 4.7.5 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.7.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211006",
+                "title": "RHSA-2021:1006: OpenShift Container Platform 4.7.5 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.7.oval.xml.bz2"
             }
         ],
         "CVE-2021-20241": [
@@ -7089,6 +7274,127 @@
                 "title": "RHSA-2022:8008: buildah security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-20295": [
+            {
+                "date": "2021-04-09",
+                "def_id": "oval:com.oracle.elsa:def:20211064",
+                "title": "ELSA-2021-1064:  virt:ol and virt-devel:rhel security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-04-09",
+                "def_id": "oval:com.oracle.elsa:def:20211064",
+                "title": "ELSA-2021-1064:  virt:ol and virt-devel:rhel security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-04-09",
+                "def_id": "oval:com.oracle.elsa:def:20211064",
+                "title": "ELSA-2021-1064:  virt:ol and virt-devel:rhel security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:org.almalinux.alsa:def:20211064",
+                "title": "ALSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-05",
+                "def_id": "oval:com.redhat.rhsa:def:20211064",
+                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2021-20305": [
@@ -12044,6 +12350,50 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2021-23983": [
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.focal:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.focal:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2021-23984": [
             {
                 "date": "2024-05-15",
@@ -12571,6 +12921,94 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2021-23985": [
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.focal:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.focal:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-23986": [
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.focal:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.focal:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2021-23987": [
             {
                 "date": "2024-05-15",
@@ -13096,6 +13534,50 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2021-23988": [
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.focal:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.focal:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
+                "title": "USN-4893-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2021-23991": [
@@ -17128,6 +17610,211 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             }
         ],
+        "CVE-2021-27928": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:52618827508520491090945210478691014158",
+                "title": "CVE-2021-27928 mariadb-10.5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:119429356458280783945151520015372088344",
+                "title": "CVE-2021-27928 mariadb-10.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-04-27",
+                "def_id": "oval:com.oracle.elsa:def:20211242",
+                "title": "ELSA-2021-1242:  mariadb:10.3 and mariadb-devel:10.3 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-04-27",
+                "def_id": "oval:com.oracle.elsa:def:20211242",
+                "title": "ELSA-2021-1242:  mariadb:10.3 and mariadb-devel:10.3 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-04-27",
+                "def_id": "oval:com.oracle.elsa:def:20211242",
+                "title": "ELSA-2021-1242:  mariadb:10.3 and mariadb-devel:10.3 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:org.almalinux.alsa:def:20211242",
+                "title": "ALSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20212040",
+                "title": "RHSA-2021:2040: rh-mariadb103-mariadb and rh-mariadb103-galera security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-30",
+                "def_id": "oval:com.redhat.rhsa:def:20211039",
+                "title": "RHSA-2021:1039: mariadb security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openstack-13.oval.xml.bz2"
+            },
+            {
+                "date": "2021-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20212040",
+                "title": "RHSA-2021:2040: rh-mariadb103-mariadb and rh-mariadb103-galera security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211241",
+                "title": "RHSA-2021:1241: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211241",
+                "title": "RHSA-2021:1241: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211240",
+                "title": "RHSA-2021:1240: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211240",
+                "title": "RHSA-2021:1240: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211240",
+                "title": "RHSA-2021:1240: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211240",
+                "title": "RHSA-2021:1240: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-19",
+                "def_id": "oval:com.redhat.rhsa:def:20211242",
+                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2021-28210": [
             {
                 "date": "2024-05-15",
@@ -18921,6 +19608,505 @@
                 "title": "USN-4925-1 -- Shibboleth vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-28965": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:326340102783302992177610687262812546757",
+                "title": "CVE-2021-28965 ruby2.7",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:57309160627086993537013841459116860343",
+                "title": "CVE-2021-28965 ruby2.5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-02-03",
+                "def_id": "oval:org.debian:def:16142796196476375586354552495471649703",
+                "title": "DSA-5066-1 ruby2.5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-04-20",
+                "def_id": "oval:com.ubuntu.bionic:def:49221000000",
+                "title": "USN-4922-1 -- Ruby vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-20",
+                "def_id": "oval:com.ubuntu.focal:def:49221000000",
+                "title": "USN-4922-1 -- Ruby vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-20",
+                "def_id": "oval:com.ubuntu.xenial:def:49221000000",
+                "title": "USN-4922-1 -- Ruby vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-20",
+                "def_id": "oval:com.ubuntu.bionic:def:49221000000",
+                "title": "USN-4922-1 -- Ruby vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-20",
+                "def_id": "oval:com.ubuntu.focal:def:49221000000",
+                "title": "USN-4922-1 -- Ruby vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-20",
+                "def_id": "oval:com.ubuntu.xenial:def:49221000000",
+                "title": "USN-4922-1 -- Ruby vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20212584",
+                "title": "ELSA-2021-2584:  ruby:2.7 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-07-02",
+                "def_id": "oval:com.oracle.elsa:def:20212587",
+                "title": "ELSA-2021-2587:  ruby:2.5 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20212588",
+                "title": "ELSA-2021-2588:  ruby:2.6 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20212584",
+                "title": "ELSA-2021-2584:  ruby:2.7 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-07-02",
+                "def_id": "oval:com.oracle.elsa:def:20212587",
+                "title": "ELSA-2021-2587:  ruby:2.5 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20212588",
+                "title": "ELSA-2021-2588:  ruby:2.6 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20212584",
+                "title": "ELSA-2021-2584:  ruby:2.7 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-07-02",
+                "def_id": "oval:com.oracle.elsa:def:20212587",
+                "title": "ELSA-2021-2587:  ruby:2.5 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20212588",
+                "title": "ELSA-2021-2588:  ruby:2.6 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:org.almalinux.alsa:def:20212588",
+                "title": "ALSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:org.almalinux.alsa:def:20212587",
+                "title": "ALSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:org.almalinux.alsa:def:20212584",
+                "title": "ALSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-05-26",
+                "def_id": "oval:com.redhat.rhsa:def:20212104",
+                "title": "RHSA-2021:2104: rh-ruby25-ruby security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-03",
+                "def_id": "oval:com.redhat.rhsa:def:20212229",
+                "title": "RHSA-2021:2229: rh-ruby27-ruby security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-03",
+                "def_id": "oval:com.redhat.rhsa:def:20212230",
+                "title": "RHSA-2021:2230: rh-ruby26-ruby security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-05-26",
+                "def_id": "oval:com.redhat.rhsa:def:20212104",
+                "title": "RHSA-2021:2104: rh-ruby25-ruby security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-03",
+                "def_id": "oval:com.redhat.rhsa:def:20212229",
+                "title": "RHSA-2021:2229: rh-ruby27-ruby security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-03",
+                "def_id": "oval:com.redhat.rhsa:def:20212230",
+                "title": "RHSA-2021:2230: rh-ruby26-ruby security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20220581",
+                "title": "RHSA-2022:0581: ruby:2.6 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20220582",
+                "title": "RHSA-2022:0582: ruby:2.6 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20220582",
+                "title": "RHSA-2022:0582: ruby:2.6 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20220582",
+                "title": "RHSA-2022:0582: ruby:2.6 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20220582",
+                "title": "RHSA-2022:0582: ruby:2.6 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212584",
+                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212587",
+                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2021-06-29",
+                "def_id": "oval:com.redhat.rhsa:def:20212588",
+                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2021-29154": [
@@ -23894,6 +25080,64 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2021-3492": [
+            {
+                "date": "2021-04-15",
+                "def_id": "oval:com.ubuntu.bionic:def:49171000000",
+                "title": "USN-4917-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-05-17",
+                "def_id": "oval:com.ubuntu.bionic:def:771000000",
+                "title": "LSN-0077-1 -- Kernel Live Patch Security Notice",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-15",
+                "def_id": "oval:com.ubuntu.focal:def:49151000000",
+                "title": "USN-4915-1 -- Linux kernel (OEM) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-15",
+                "def_id": "oval:com.ubuntu.focal:def:49171000000",
+                "title": "USN-4917-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-05-17",
+                "def_id": "oval:com.ubuntu.focal:def:771000000",
+                "title": "LSN-0077-1 -- Kernel Live Patch Security Notice",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-15",
+                "def_id": "oval:com.ubuntu.bionic:def:49171000000",
+                "title": "USN-4917-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-15",
+                "def_id": "oval:com.ubuntu.focal:def:49151000000",
+                "title": "USN-4915-1 -- Linux kernel (OEM) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-04-15",
+                "def_id": "oval:com.ubuntu.focal:def:49171000000",
+                "title": "USN-4917-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2021-3493": [
             {
                 "date": "2024-05-15",
@@ -24380,1251 +25624,7 @@
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
-        ],
-        "CVE-2021-27928": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:52618827508520491090945210478691014158",
-                "title": "CVE-2021-27928 mariadb-10.5",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:119429356458280783945151520015372088344",
-                "title": "CVE-2021-27928 mariadb-10.3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2021-04-27",
-                "def_id": "oval:com.oracle.elsa:def:20211242",
-                "title": "ELSA-2021-1242:  mariadb:10.3 and mariadb-devel:10.3 security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-04-27",
-                "def_id": "oval:com.oracle.elsa:def:20211242",
-                "title": "ELSA-2021-1242:  mariadb:10.3 and mariadb-devel:10.3 security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-04-27",
-                "def_id": "oval:com.oracle.elsa:def:20211242",
-                "title": "ELSA-2021-1242:  mariadb:10.3 and mariadb-devel:10.3 security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:org.almalinux.alsa:def:20211242",
-                "title": "ALSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-05-19",
-                "def_id": "oval:com.redhat.rhsa:def:20212040",
-                "title": "RHSA-2021:2040: rh-mariadb103-mariadb and rh-mariadb103-galera security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-30",
-                "def_id": "oval:com.redhat.rhsa:def:20211039",
-                "title": "RHSA-2021:1039: mariadb security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openstack-13.oval.xml.bz2"
-            },
-            {
-                "date": "2021-05-19",
-                "def_id": "oval:com.redhat.rhsa:def:20212040",
-                "title": "RHSA-2021:2040: rh-mariadb103-mariadb and rh-mariadb103-galera security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211241",
-                "title": "RHSA-2021:1241: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211241",
-                "title": "RHSA-2021:1241: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211240",
-                "title": "RHSA-2021:1240: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211240",
-                "title": "RHSA-2021:1240: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211240",
-                "title": "RHSA-2021:1240: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211240",
-                "title": "RHSA-2021:1240: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-19",
-                "def_id": "oval:com.redhat.rhsa:def:20211242",
-                "title": "RHSA-2021:1242: mariadb:10.3 and mariadb-devel:10.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-23",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2021-28965": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:326340102783302992177610687262812546757",
-                "title": "CVE-2021-28965 ruby2.7",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:57309160627086993537013841459116860343",
-                "title": "CVE-2021-28965 ruby2.5",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2022-02-03",
-                "def_id": "oval:org.debian:def:16142796196476375586354552495471649703",
-                "title": "DSA-5066-1 ruby2.5",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2021-04-20",
-                "def_id": "oval:com.ubuntu.bionic:def:49221000000",
-                "title": "USN-4922-1 -- Ruby vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-20",
-                "def_id": "oval:com.ubuntu.focal:def:49221000000",
-                "title": "USN-4922-1 -- Ruby vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-20",
-                "def_id": "oval:com.ubuntu.xenial:def:49221000000",
-                "title": "USN-4922-1 -- Ruby vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-20",
-                "def_id": "oval:com.ubuntu.bionic:def:49221000000",
-                "title": "USN-4922-1 -- Ruby vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-20",
-                "def_id": "oval:com.ubuntu.focal:def:49221000000",
-                "title": "USN-4922-1 -- Ruby vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-20",
-                "def_id": "oval:com.ubuntu.xenial:def:49221000000",
-                "title": "USN-4922-1 -- Ruby vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-07-07",
-                "def_id": "oval:com.oracle.elsa:def:20212584",
-                "title": "ELSA-2021-2584:  ruby:2.7 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-07-02",
-                "def_id": "oval:com.oracle.elsa:def:20212587",
-                "title": "ELSA-2021-2587:  ruby:2.5 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-07-07",
-                "def_id": "oval:com.oracle.elsa:def:20212588",
-                "title": "ELSA-2021-2588:  ruby:2.6 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-07-07",
-                "def_id": "oval:com.oracle.elsa:def:20212584",
-                "title": "ELSA-2021-2584:  ruby:2.7 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-07-02",
-                "def_id": "oval:com.oracle.elsa:def:20212587",
-                "title": "ELSA-2021-2587:  ruby:2.5 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-07-07",
-                "def_id": "oval:com.oracle.elsa:def:20212588",
-                "title": "ELSA-2021-2588:  ruby:2.6 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-07-07",
-                "def_id": "oval:com.oracle.elsa:def:20212584",
-                "title": "ELSA-2021-2584:  ruby:2.7 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-07-02",
-                "def_id": "oval:com.oracle.elsa:def:20212587",
-                "title": "ELSA-2021-2587:  ruby:2.5 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-07-07",
-                "def_id": "oval:com.oracle.elsa:def:20212588",
-                "title": "ELSA-2021-2588:  ruby:2.6 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:org.almalinux.alsa:def:20212588",
-                "title": "ALSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:org.almalinux.alsa:def:20212587",
-                "title": "ALSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:org.almalinux.alsa:def:20212584",
-                "title": "ALSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-05-26",
-                "def_id": "oval:com.redhat.rhsa:def:20212104",
-                "title": "RHSA-2021:2104: rh-ruby25-ruby security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-03",
-                "def_id": "oval:com.redhat.rhsa:def:20212229",
-                "title": "RHSA-2021:2229: rh-ruby27-ruby security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-03",
-                "def_id": "oval:com.redhat.rhsa:def:20212230",
-                "title": "RHSA-2021:2230: rh-ruby26-ruby security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-05-26",
-                "def_id": "oval:com.redhat.rhsa:def:20212104",
-                "title": "RHSA-2021:2104: rh-ruby25-ruby security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-03",
-                "def_id": "oval:com.redhat.rhsa:def:20212229",
-                "title": "RHSA-2021:2229: rh-ruby27-ruby security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-03",
-                "def_id": "oval:com.redhat.rhsa:def:20212230",
-                "title": "RHSA-2021:2230: rh-ruby26-ruby security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-02-21",
-                "def_id": "oval:com.redhat.rhsa:def:20220581",
-                "title": "RHSA-2022:0581: ruby:2.6 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-02-21",
-                "def_id": "oval:com.redhat.rhsa:def:20220582",
-                "title": "RHSA-2022:0582: ruby:2.6 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-02-21",
-                "def_id": "oval:com.redhat.rhsa:def:20220582",
-                "title": "RHSA-2022:0582: ruby:2.6 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-02-21",
-                "def_id": "oval:com.redhat.rhsa:def:20220582",
-                "title": "RHSA-2022:0582: ruby:2.6 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-02-21",
-                "def_id": "oval:com.redhat.rhsa:def:20220582",
-                "title": "RHSA-2022:0582: ruby:2.6 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212584",
-                "title": "RHSA-2021:2584: ruby:2.7 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212587",
-                "title": "RHSA-2021:2587: ruby:2.5 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2021-06-29",
-                "def_id": "oval:com.redhat.rhsa:def:20212588",
-                "title": "RHSA-2021:2588: ruby:2.6 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-23983": [
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.focal:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.focal:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-23985": [
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.focal:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.focal:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-23986": [
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.focal:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.focal:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-23988": [
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.focal:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.bionic:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.focal:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.ubuntu.xenial:def:48931000000",
-                "title": "USN-4893-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-3492": [
-            {
-                "date": "2021-04-15",
-                "def_id": "oval:com.ubuntu.bionic:def:49171000000",
-                "title": "USN-4917-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-05-17",
-                "def_id": "oval:com.ubuntu.bionic:def:771000000",
-                "title": "LSN-0077-1 -- Kernel Live Patch Security Notice",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-15",
-                "def_id": "oval:com.ubuntu.focal:def:49151000000",
-                "title": "USN-4915-1 -- Linux kernel (OEM) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-15",
-                "def_id": "oval:com.ubuntu.focal:def:49171000000",
-                "title": "USN-4917-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-05-17",
-                "def_id": "oval:com.ubuntu.focal:def:771000000",
-                "title": "LSN-0077-1 -- Kernel Live Patch Security Notice",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-15",
-                "def_id": "oval:com.ubuntu.bionic:def:49171000000",
-                "title": "USN-4917-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-15",
-                "def_id": "oval:com.ubuntu.focal:def:49151000000",
-                "title": "USN-4915-1 -- Linux kernel (OEM) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-15",
-                "def_id": "oval:com.ubuntu.focal:def:49171000000",
-                "title": "USN-4917-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-15227": [
-            {
-                "date": "2023-03-29",
-                "def_id": "oval:com.ubuntu.bionic:def:59831000000",
-                "title": "USN-5983-1 -- Nette vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-29",
-                "def_id": "oval:com.ubuntu.xenial:def:59831000000",
-                "title": "USN-5983-1 -- Nette vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-29",
-                "def_id": "oval:com.ubuntu.bionic:def:59831000000",
-                "title": "USN-5983-1 -- Nette vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-03-29",
-                "def_id": "oval:com.ubuntu.xenial:def:59831000000",
-                "title": "USN-5983-1 -- Nette vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-04",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2021-20295": [
-            {
-                "date": "2021-04-09",
-                "def_id": "oval:com.oracle.elsa:def:20211064",
-                "title": "ELSA-2021-1064:  virt:ol and virt-devel:rhel security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-04-09",
-                "def_id": "oval:com.oracle.elsa:def:20211064",
-                "title": "ELSA-2021-1064:  virt:ol and virt-devel:rhel security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-04-09",
-                "def_id": "oval:com.oracle.elsa:def:20211064",
-                "title": "ELSA-2021-1064:  virt:ol and virt-devel:rhel security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:org.almalinux.alsa:def:20211064",
-                "title": "ALSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211064",
-                "title": "RHSA-2021:1064: virt:rhel and virt-devel:rhel security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-28458": [
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211184",
-                "title": "RHSA-2021:1184: RHV RHEL Host (ovirt-host) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhvh-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211184",
-                "title": "RHSA-2021:1184: RHV RHEL Host (ovirt-host) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvh-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211169",
-                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211186",
-                "title": "RHSA-2021:1186: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] 0-day security, bug fix, enhance (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211184",
-                "title": "RHSA-2021:1184: RHV RHEL Host (ovirt-host) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvh-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211169",
-                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211186",
-                "title": "RHSA-2021:1186: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] 0-day security, bug fix, enhance (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-20218": [
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211006",
-                "title": "RHSA-2021:1006: OpenShift Container Platform 4.7.5 security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.7.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-05",
-                "def_id": "oval:com.redhat.rhsa:def:20211006",
-                "title": "RHSA-2021:1006: OpenShift Container Platform 4.7.5 security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.7.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-13482": [
-            {
-                "date": "2021-03-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210937",
-                "title": "RHSA-2021:0937: rubygem-em-http-request security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openstack-13.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-28477": [
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211169",
-                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211169",
-                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-20921": [
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211169",
-                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211186",
-                "title": "RHSA-2021:1186: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] 0-day security, bug fix, enhance (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhvm-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211169",
-                "title": "RHSA-2021:1169: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] security, bug fix, enhancement (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-04-14",
-                "def_id": "oval:com.redhat.rhsa:def:20211186",
-                "title": "RHSA-2021:1186: RHV Manager (ovirt-engine) 4.4.z [ovirt-4.4.5] 0-day security, bug fix, enhance (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhvm-4.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-8185": [
-            {
-                "date": "2021-04-21",
-                "def_id": "oval:com.redhat.rhsa:def:20211313",
-                "title": "RHSA-2021:1313: Satellite 6.9 Release (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/satellite-6.9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-14335": [
-            {
-                "date": "2021-04-21",
-                "def_id": "oval:com.redhat.rhsa:def:20211313",
-                "title": "RHSA-2021:1313: Satellite 6.9 Release (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/satellite-6.9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2017-2662": [
-            {
-                "date": "2021-04-21",
-                "def_id": "oval:com.redhat.rhsa:def:20211313",
-                "title": "RHSA-2021:1313: Satellite 6.9 Release (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/satellite-6.9.oval.xml.bz2"
-            }
         ]
-    }
+    },
+    "year": 2021
 }

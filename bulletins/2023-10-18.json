@@ -1,12 +1,11 @@
 {
-    "name": "October 2023",
-    "year": 2023,
     "month": "October",
+    "name": "October 2023",
     "patch_wednesday": "2023-10-18",
-    "patch_wednesday_start_date": "2023-09-21",
-    "patch_wednesday_start_date_ts": 1695243600,
     "patch_wednesday_end_date": "2023-10-18",
     "patch_wednesday_end_date_ts": 1697662799,
+    "patch_wednesday_start_date": "2023-09-21",
+    "patch_wednesday_start_date_ts": 1695243600,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2019-19450": [
@@ -1045,6 +1044,15 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2021-22138": [
+            {
+                "date": "2023-09-28",
+                "def_id": "oval:redos:def:1161",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Logstash",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
         "CVE-2021-27847": [
             {
                 "date": "2024-05-15",
@@ -2070,6 +2078,218 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2022-40433": [
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235731",
+                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235733",
+                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235731",
+                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235733",
+                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235731",
+                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235733",
+                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:org.almalinux.alsa:def:20235731",
+                "title": "ALSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:org.almalinux.alsa:def:20235733",
+                "title": "ALSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235727",
+                "title": "RHSA-2023:5727: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235728",
+                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235728",
+                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235728",
+                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235729",
+                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235729",
+                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235729",
+                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235730",
+                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235730",
+                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235730",
+                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235730",
+                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235732",
+                "title": "RHSA-2023:5732: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235732",
+                "title": "RHSA-2023:5732: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235733",
+                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235733",
+                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235733",
+                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235733",
+                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2022-40964": [
@@ -4035,6 +4255,344 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2023-22067": [
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.bionic:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.focal:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.jammy:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.mantic:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.xenial:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.bionic:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.focal:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.jammy:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.mantic:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-29",
+                "def_id": "oval:com.ubuntu.xenial:def:65281000000",
+                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235731",
+                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235733",
+                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-10-19",
+                "def_id": "oval:com.oracle.elsa:def:20235761",
+                "title": "ELSA-2023-5761:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235731",
+                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235733",
+                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-10-19",
+                "def_id": "oval:com.oracle.elsa:def:20235761",
+                "title": "ELSA-2023-5761:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-10-19",
+                "def_id": "oval:com.oracle.elsa:def:20235761",
+                "title": "ELSA-2023-5761:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235731",
+                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2023-11-02",
+                "def_id": "oval:com.oracle.elsa:def:20235733",
+                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:org.almalinux.alsa:def:20235731",
+                "title": "ALSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:org.almalinux.alsa:def:20235733",
+                "title": "ALSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235761",
+                "title": "RHSA-2023:5761: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20240879",
+                "title": "RHSA-2024:0879: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235761",
+                "title": "RHSA-2023:5761: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20240879",
+                "title": "RHSA-2024:0879: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235727",
+                "title": "RHSA-2023:5727: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235728",
+                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235728",
+                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235728",
+                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235729",
+                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235729",
+                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235729",
+                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235730",
+                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235730",
+                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235730",
+                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235730",
+                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235731",
+                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-19",
+                "def_id": "oval:com.redhat.rhsa:def:20240866",
+                "title": "RHSA-2024:0866: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235732",
+                "title": "RHSA-2023:5732: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235732",
+                "title": "RHSA-2023:5732: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235733",
+                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235733",
+                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235733",
+                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-18",
+                "def_id": "oval:com.redhat.rhsa:def:20235733",
+                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-22081": [
             {
                 "date": "2024-05-15",
@@ -5618,6 +6176,36 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2023-26464": [
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-28327": [
             {
                 "date": "2024-05-15",
@@ -6534,6 +7122,36 @@
                 "title": "RHSA-2023:7766: containernetworking-plugins security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-3171": [
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
             }
         ],
         "CVE-2023-3180": [
@@ -11545,6 +12163,22 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2023-39355": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:283347993088030565709993817999863374509",
+                "title": "CVE-2023-39355 freerdp2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2023-10-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2023-39356": [
             {
                 "date": "2024-05-15",
@@ -12880,6 +13514,36 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2023-4061": [
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-06",
+                "def_id": "oval:com.redhat.rhsa:def:20235486",
+                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-40743": [
             {
                 "date": "2024-05-15",
@@ -13225,6 +13889,29 @@
                 "title": "RHSA-2023:6744: samba security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-41000": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:66489163616748337989842498239306206713",
+                "title": "CVE-2023-41000 gpac",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:66489163616748337989842498239306206713",
+                "title": "CVE-2023-41000 gpac",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2023-09-26",
+                "def_id": "oval:redos:def:1160",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c gpac",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-41074": [
@@ -22923,6 +23610,36 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2023-46159": [
+            {
+                "date": "2024-02-08",
+                "def_id": "oval:com.redhat.rhsa:def:20240745",
+                "title": "RHSA-2024:0745: Red Hat Ceph Storage 5.3 Security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/storage-ceph-5.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20235693",
+                "title": "RHSA-2023:5693: Red Hat Ceph Storage 6.1 security, enhancement, and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/storage-ceph-6.oval.xml.bz2"
+            },
+            {
+                "date": "2024-02-08",
+                "def_id": "oval:com.redhat.rhsa:def:20240745",
+                "title": "RHSA-2024:0745: Red Hat Ceph Storage 5.3 Security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/storage-ceph-5.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20235693",
+                "title": "RHSA-2023:5693: Red Hat Ceph Storage 6.1 security, enhancement, and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/storage-ceph-6.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-4623": [
             {
                 "date": "2024-05-15",
@@ -25284,6 +26001,15 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2023-5002": [
+            {
+                "date": "2023-10-13",
+                "def_id": "oval:redos:def:1170",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c pgAdmin",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
         "CVE-2023-5090": [
             {
                 "date": "2024-05-15",
@@ -26375,6 +27101,22 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2023-5170": [
+            {
+                "date": "2023-10-03",
+                "def_id": "oval:com.ubuntu.focal:def:64041000000",
+                "title": "USN-6404-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-03",
+                "def_id": "oval:com.ubuntu.focal:def:64041000000",
+                "title": "USN-6404-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-5171": [
             {
                 "date": "2024-05-15",
@@ -26970,6 +27712,54 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2023-5172": [
+            {
+                "date": "2023-10-03",
+                "def_id": "oval:com.ubuntu.focal:def:64041000000",
+                "title": "USN-6404-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-03",
+                "def_id": "oval:com.ubuntu.focal:def:64041000000",
+                "title": "USN-6404-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-5173": [
+            {
+                "date": "2023-10-03",
+                "def_id": "oval:com.ubuntu.focal:def:64041000000",
+                "title": "USN-6404-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-03",
+                "def_id": "oval:com.ubuntu.focal:def:64041000000",
+                "title": "USN-6404-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-5175": [
+            {
+                "date": "2023-10-03",
+                "def_id": "oval:com.ubuntu.focal:def:64041000000",
+                "title": "USN-6404-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-03",
+                "def_id": "oval:com.ubuntu.focal:def:64041000000",
+                "title": "USN-6404-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
         "CVE-2023-5176": [
@@ -29582,797 +30372,7 @@
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
             }
-        ],
-        "CVE-2023-41000": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:66489163616748337989842498239306206713",
-                "title": "CVE-2023-41000 gpac",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:66489163616748337989842498239306206713",
-                "title": "CVE-2023-41000 gpac",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2023-09-26",
-                "def_id": "oval:redos:def:1160",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c gpac",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-39355": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:283347993088030565709993817999863374509",
-                "title": "CVE-2023-39355 freerdp2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2023-10-07",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2023-22067": [
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.bionic:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.focal:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.jammy:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.mantic:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.xenial:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.bionic:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.focal:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.jammy:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.mantic:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-29",
-                "def_id": "oval:com.ubuntu.xenial:def:65281000000",
-                "title": "USN-6528-1 -- OpenJDK 8 vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235731",
-                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235733",
-                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-10-19",
-                "def_id": "oval:com.oracle.elsa:def:20235761",
-                "title": "ELSA-2023-5761:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235731",
-                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235733",
-                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-10-19",
-                "def_id": "oval:com.oracle.elsa:def:20235761",
-                "title": "ELSA-2023-5761:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-10-19",
-                "def_id": "oval:com.oracle.elsa:def:20235761",
-                "title": "ELSA-2023-5761:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235731",
-                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235733",
-                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:org.almalinux.alsa:def:20235731",
-                "title": "ALSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:org.almalinux.alsa:def:20235733",
-                "title": "ALSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235761",
-                "title": "RHSA-2023:5761: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:com.redhat.rhsa:def:20240879",
-                "title": "RHSA-2024:0879: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235761",
-                "title": "RHSA-2023:5761: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-20",
-                "def_id": "oval:com.redhat.rhsa:def:20240879",
-                "title": "RHSA-2024:0879: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235727",
-                "title": "RHSA-2023:5727: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235728",
-                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235728",
-                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235728",
-                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235729",
-                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235729",
-                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235729",
-                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235730",
-                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235730",
-                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235730",
-                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235730",
-                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-19",
-                "def_id": "oval:com.redhat.rhsa:def:20240866",
-                "title": "RHSA-2024:0866: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235732",
-                "title": "RHSA-2023:5732: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235732",
-                "title": "RHSA-2023:5732: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235733",
-                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235733",
-                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235733",
-                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235733",
-                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-5175": [
-            {
-                "date": "2023-10-03",
-                "def_id": "oval:com.ubuntu.focal:def:64041000000",
-                "title": "USN-6404-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-03",
-                "def_id": "oval:com.ubuntu.focal:def:64041000000",
-                "title": "USN-6404-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-5173": [
-            {
-                "date": "2023-10-03",
-                "def_id": "oval:com.ubuntu.focal:def:64041000000",
-                "title": "USN-6404-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-03",
-                "def_id": "oval:com.ubuntu.focal:def:64041000000",
-                "title": "USN-6404-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-5172": [
-            {
-                "date": "2023-10-03",
-                "def_id": "oval:com.ubuntu.focal:def:64041000000",
-                "title": "USN-6404-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-03",
-                "def_id": "oval:com.ubuntu.focal:def:64041000000",
-                "title": "USN-6404-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-5170": [
-            {
-                "date": "2023-10-03",
-                "def_id": "oval:com.ubuntu.focal:def:64041000000",
-                "title": "USN-6404-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-03",
-                "def_id": "oval:com.ubuntu.focal:def:64041000000",
-                "title": "USN-6404-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-40433": [
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235731",
-                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235733",
-                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235731",
-                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235733",
-                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235731",
-                "title": "ELSA-2023-5731:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-11-02",
-                "def_id": "oval:com.oracle.elsa:def:20235733",
-                "title": "ELSA-2023-5733:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:org.almalinux.alsa:def:20235731",
-                "title": "ALSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:org.almalinux.alsa:def:20235733",
-                "title": "ALSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235727",
-                "title": "RHSA-2023:5727: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235728",
-                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235728",
-                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235728",
-                "title": "RHSA-2023:5728: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235729",
-                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235729",
-                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235729",
-                "title": "RHSA-2023:5729: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235730",
-                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235730",
-                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235730",
-                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235730",
-                "title": "RHSA-2023:5730: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235731",
-                "title": "RHSA-2023:5731: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235732",
-                "title": "RHSA-2023:5732: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235732",
-                "title": "RHSA-2023:5732: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235733",
-                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235733",
-                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235733",
-                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-18",
-                "def_id": "oval:com.redhat.rhsa:def:20235733",
-                "title": "RHSA-2023:5733: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-22138": [
-            {
-                "date": "2023-09-28",
-                "def_id": "oval:redos:def:1161",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Logstash",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-5002": [
-            {
-                "date": "2023-10-13",
-                "def_id": "oval:redos:def:1170",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c pgAdmin",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-26464": [
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-3171": [
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-4061": [
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-06",
-                "def_id": "oval:com.redhat.rhsa:def:20235486",
-                "title": "RHSA-2023:5486: Red Hat JBoss Enterprise Application Platform 7.4.13 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-46159": [
-            {
-                "date": "2024-02-08",
-                "def_id": "oval:com.redhat.rhsa:def:20240745",
-                "title": "RHSA-2024:0745: Red Hat Ceph Storage 5.3 Security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/storage-ceph-5.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20235693",
-                "title": "RHSA-2023:5693: Red Hat Ceph Storage 6.1 security, enhancement, and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/storage-ceph-6.oval.xml.bz2"
-            },
-            {
-                "date": "2024-02-08",
-                "def_id": "oval:com.redhat.rhsa:def:20240745",
-                "title": "RHSA-2024:0745: Red Hat Ceph Storage 5.3 Security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/storage-ceph-5.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20235693",
-                "title": "RHSA-2023:5693: Red Hat Ceph Storage 6.1 security, enhancement, and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/storage-ceph-6.oval.xml.bz2"
-            }
         ]
-    }
+    },
+    "year": 2023
 }

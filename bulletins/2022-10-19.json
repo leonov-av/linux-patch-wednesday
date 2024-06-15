@@ -1,12 +1,11 @@
 {
-    "name": "October 2022",
-    "year": 2022,
     "month": "October",
+    "name": "October 2022",
     "patch_wednesday": "2022-10-19",
-    "patch_wednesday_start_date": "2022-09-22",
-    "patch_wednesday_start_date_ts": 1663794000,
     "patch_wednesday_end_date": "2022-10-19",
     "patch_wednesday_end_date_ts": 1666213199,
+    "patch_wednesday_start_date": "2022-09-22",
+    "patch_wednesday_start_date_ts": 1663794000,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2016-7445": [
@@ -2410,6 +2409,15 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2021-36568": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:486",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
         "CVE-2021-4159": [
             {
                 "date": "2024-05-15",
@@ -3723,6 +3731,36 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2022-1259": [
+            {
+                "date": "2022-10-05",
+                "def_id": "oval:com.redhat.rhsa:def:20226823",
+                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-05",
+                "def_id": "oval:com.redhat.rhsa:def:20226823",
+                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-05",
+                "def_id": "oval:com.redhat.rhsa:def:20226823",
+                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-05",
+                "def_id": "oval:com.redhat.rhsa:def:20226823",
+                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-1882": [
             {
                 "date": "2024-05-15",
@@ -4350,6 +4388,36 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2022-2053": [
+            {
+                "date": "2022-10-05",
+                "def_id": "oval:com.redhat.rhsa:def:20226823",
+                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-05",
+                "def_id": "oval:com.redhat.rhsa:def:20226823",
+                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-05",
+                "def_id": "oval:com.redhat.rhsa:def:20226823",
+                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-05",
+                "def_id": "oval:com.redhat.rhsa:def:20226823",
+                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
             }
         ],
         "CVE-2022-2085": [
@@ -6080,6 +6148,862 @@
                 "title": "ELSA-2022-7013:  java-11-openjdk security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:org.almalinux.alsa:def:20227000",
+                "title": "ALSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:org.almalinux.alsa:def:20227012",
+                "title": "ALSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:org.almalinux.alsa:def:20227006",
+                "title": "ALSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:org.almalinux.alsa:def:20226999",
+                "title": "ALSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:org.almalinux.alsa:def:20227013",
+                "title": "ALSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:org.almalinux.alsa:def:20227007",
+                "title": "ALSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227002",
+                "title": "RHSA-2022:7002: java-1.8.0-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227008",
+                "title": "RHSA-2022:7008: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-12-07",
+                "def_id": "oval:com.redhat.rhsa:def:20228880",
+                "title": "RHSA-2022:8880: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227002",
+                "title": "RHSA-2022:7002: java-1.8.0-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227008",
+                "title": "RHSA-2022:7008: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-12-07",
+                "def_id": "oval:com.redhat.rhsa:def:20228880",
+                "title": "RHSA-2022:8880: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227003",
+                "title": "RHSA-2022:7003: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227009",
+                "title": "RHSA-2022:7009: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227004",
+                "title": "RHSA-2022:7004: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227010",
+                "title": "RHSA-2022:7010: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227004",
+                "title": "RHSA-2022:7004: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227010",
+                "title": "RHSA-2022:7010: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227004",
+                "title": "RHSA-2022:7004: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227010",
+                "title": "RHSA-2022:7010: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227004",
+                "title": "RHSA-2022:7004: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227010",
+                "title": "RHSA-2022:7010: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227001",
+                "title": "RHSA-2022:7001: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227005",
+                "title": "RHSA-2022:7005: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227011",
+                "title": "RHSA-2022:7011: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227001",
+                "title": "RHSA-2022:7001: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227005",
+                "title": "RHSA-2022:7005: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227011",
+                "title": "RHSA-2022:7011: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227001",
+                "title": "RHSA-2022:7001: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227005",
+                "title": "RHSA-2022:7005: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227011",
+                "title": "RHSA-2022:7011: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227001",
+                "title": "RHSA-2022:7001: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227005",
+                "title": "RHSA-2022:7005: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227011",
+                "title": "RHSA-2022:7011: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-12",
+                "def_id": "oval:com.redhat.rhsa:def:20230128",
+                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-12",
+                "def_id": "oval:com.redhat.rhsa:def:20230128",
+                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-12",
+                "def_id": "oval:com.redhat.rhsa:def:20230128",
+                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-12",
+                "def_id": "oval:com.redhat.rhsa:def:20230128",
+                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227000",
+                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227006",
+                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-19",
+                "def_id": "oval:com.redhat.rhsa:def:20227012",
+                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-12",
+                "def_id": "oval:com.redhat.rhsa:def:20230128",
+                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227007",
+                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227007",
+                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227007",
+                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227007",
+                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227007",
+                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227007",
+                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2022-21626": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:336989683597743673688425221396559978219",
+                "title": "CVE-2022-21626 openjdk-11",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-01-28",
+                "def_id": "oval:org.debian:def:156565036902154636938673631761830696159",
+                "title": "DSA-5331-1 openjdk-11",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:336989683597743673688425221396559978219",
+                "title": "CVE-2022-21626 openjdk-11",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-11-09",
+                "def_id": "oval:com.ubuntu.bionic:def:57191000000",
+                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-09",
+                "def_id": "oval:com.ubuntu.focal:def:57191000000",
+                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-09",
+                "def_id": "oval:com.ubuntu.jammy:def:57191000000",
+                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-09",
+                "def_id": "oval:com.ubuntu.xenial:def:57191000000",
+                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-09",
+                "def_id": "oval:com.ubuntu.bionic:def:57191000000",
+                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-09",
+                "def_id": "oval:com.ubuntu.focal:def:57191000000",
+                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-09",
+                "def_id": "oval:com.ubuntu.jammy:def:57191000000",
+                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-09",
+                "def_id": "oval:com.ubuntu.xenial:def:57191000000",
+                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20226999",
+                "title": "ELSA-2022-6999:  java-17-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227000",
+                "title": "ELSA-2022-7000:  java-17-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227002",
+                "title": "ELSA-2022-7002:  java-1.8.0-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227006",
+                "title": "ELSA-2022-7006:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227007",
+                "title": "ELSA-2022-7007:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227008",
+                "title": "ELSA-2022-7008:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227012",
+                "title": "ELSA-2022-7012:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227013",
+                "title": "ELSA-2022-7013:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20226999",
+                "title": "ELSA-2022-6999:  java-17-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227000",
+                "title": "ELSA-2022-7000:  java-17-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227002",
+                "title": "ELSA-2022-7002:  java-1.8.0-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227006",
+                "title": "ELSA-2022-7006:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227007",
+                "title": "ELSA-2022-7007:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227008",
+                "title": "ELSA-2022-7008:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227012",
+                "title": "ELSA-2022-7012:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227013",
+                "title": "ELSA-2022-7013:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227002",
+                "title": "ELSA-2022-7002:  java-1.8.0-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227008",
+                "title": "ELSA-2022-7008:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227000",
+                "title": "ELSA-2022-7000:  java-17-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227006",
+                "title": "ELSA-2022-7006:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227012",
+                "title": "ELSA-2022-7012:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20226999",
+                "title": "ELSA-2022-6999:  java-17-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227007",
+                "title": "ELSA-2022-7007:  java-1.8.0-openjdk security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-21",
+                "def_id": "oval:com.oracle.elsa:def:20227013",
+                "title": "ELSA-2022-7013:  java-11-openjdk security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-05-29",
+                "def_id": "oval:redos:def:2156",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-1.8.0-openjdk",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-05-29",
+                "def_id": "oval:redos:def:2168",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-11-openjdk",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-10-19",
@@ -12995,6 +13919,22 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2022-3101": [
+            {
+                "date": "2022-10-17",
+                "def_id": "oval:com.redhat.rhsa:def:20226969",
+                "title": "RHSA-2022:6969: Red Hat OpenStack Platform (tripleo-ansible) security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.1.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-17",
+                "def_id": "oval:com.redhat.rhsa:def:20226969",
+                "title": "RHSA-2022:6969: Red Hat OpenStack Platform (tripleo-ansible) security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.2.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-31042": [
             {
                 "date": "2024-05-15",
@@ -13113,6 +14053,64 @@
                 "title": "DSA-5246-1 mediawiki",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            }
+        ],
+        "CVE-2022-3116": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.ubuntu.bionic:def:56751000000",
+                "title": "USN-5675-1 -- Heimdal vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.ubuntu.focal:def:56751000000",
+                "title": "USN-5675-1 -- Heimdal vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.ubuntu.trusty:def:56751000000",
+                "title": "USN-5675-1 -- Heimdal vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.ubuntu.xenial:def:56751000000",
+                "title": "USN-5675-1 -- Heimdal vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.ubuntu.bionic:def:56751000000",
+                "title": "USN-5675-1 -- Heimdal vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.ubuntu.focal:def:56751000000",
+                "title": "USN-5675-1 -- Heimdal vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.ubuntu.trusty:def:56751000000",
+                "title": "USN-5675-1 -- Heimdal vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.ubuntu.xenial:def:56751000000",
+                "title": "USN-5675-1 -- Heimdal vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2022-31197": [
@@ -13397,6 +14395,22 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2022-3146": [
+            {
+                "date": "2022-10-17",
+                "def_id": "oval:com.redhat.rhsa:def:20226969",
+                "title": "RHSA-2022:6969: Red Hat OpenStack Platform (tripleo-ansible) security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.1.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-17",
+                "def_id": "oval:com.redhat.rhsa:def:20226969",
+                "title": "RHSA-2022:6969: Red Hat OpenStack Platform (tripleo-ansible) security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.2.oval.xml.bz2"
             }
         ],
         "CVE-2022-3172": [
@@ -17393,6 +18407,51 @@
                 "title": "RHSA-2023:0321: nodejs and nodejs-nodemon security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-35649": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:487",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2022-35650": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:489",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2022-35651": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:490",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2022-35652": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:491",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2022-35653": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:488",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2022-35951": [
@@ -21728,6 +22787,42 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2022-40313": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:485",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2022-40314": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:484",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2022-40315": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:483",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2022-40316": [
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:redos:def:482",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2022-40617": [
@@ -27220,6 +28315,407 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2022-41032": [
+            {
+                "date": "2022-10-11",
+                "def_id": "oval:com.ubuntu.jammy:def:56701000000",
+                "title": "USN-5670-1 -- .NET 6 vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-11",
+                "def_id": "oval:com.ubuntu.jammy:def:56701000000",
+                "title": "USN-5670-1 -- .NET 6 vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20226911",
+                "title": "ELSA-2022-6911:  .NET 6.0 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.oracle.elsa:def:20226912",
+                "title": "ELSA-2022-6912:  .NET Core 3.1 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20226913",
+                "title": "ELSA-2022-6913:  .NET 6.0 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-11-17",
+                "def_id": "oval:com.oracle.elsa:def:20227826",
+                "title": "ELSA-2022-7826:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-11-29",
+                "def_id": "oval:com.oracle.elsa:def:20228434",
+                "title": "ELSA-2022-8434:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20226911",
+                "title": "ELSA-2022-6911:  .NET 6.0 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.oracle.elsa:def:20226912",
+                "title": "ELSA-2022-6912:  .NET Core 3.1 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20226913",
+                "title": "ELSA-2022-6913:  .NET 6.0 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-11-17",
+                "def_id": "oval:com.oracle.elsa:def:20227826",
+                "title": "ELSA-2022-7826:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-11-29",
+                "def_id": "oval:com.oracle.elsa:def:20228434",
+                "title": "ELSA-2022-8434:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20226911",
+                "title": "ELSA-2022-6911:  .NET 6.0 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.oracle.elsa:def:20226912",
+                "title": "ELSA-2022-6912:  .NET Core 3.1 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-11-17",
+                "def_id": "oval:com.oracle.elsa:def:20227826",
+                "title": "ELSA-2022-7826:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "oval:com.oracle.elsa:def:20226913",
+                "title": "ELSA-2022-6913:  .NET 6.0 security and bugfix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-11-29",
+                "def_id": "oval:com.oracle.elsa:def:20228434",
+                "title": "ELSA-2022-8434:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:org.almalinux.alsa:def:20226911",
+                "title": "ALSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:org.almalinux.alsa:def:20226912",
+                "title": "ALSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:org.almalinux.alsa:def:20227826",
+                "title": "ALSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:org.almalinux.alsa:def:20226913",
+                "title": "ALSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:org.almalinux.alsa:def:20228434",
+                "title": "ALSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226914",
+                "title": "RHSA-2022:6914: .NET Core 3.1 on RHEL 7 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-3.1.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226915",
+                "title": "RHSA-2022:6915: .NET 6.0 on RHEL 7 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-6.0.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227826",
+                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227826",
+                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227826",
+                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227826",
+                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226911",
+                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226912",
+                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227826",
+                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226913",
+                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226913",
+                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226913",
+                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228434",
+                "title": "RHSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226913",
+                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228434",
+                "title": "RHSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226913",
+                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228434",
+                "title": "RHSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20226913",
+                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228434",
+                "title": "RHSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2022-41317": [
@@ -34353,1536 +35849,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2023-42833": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:301844807315269615123284296012987417954",
-                "title": "CVE-2023-42833 webkit2gtk",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:145226254051284098288683834856830286592",
-                "title": "CVE-2023-42833 wpewebkit",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:301844807315269615123284296012987417954",
-                "title": "CVE-2023-42833 webkit2gtk",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:145226254051284098288683834856830286592",
-                "title": "CVE-2023-42833 wpewebkit",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2022-09-28",
-                "def_id": "oval:org.debian:def:49421247889067421997563734685687230935",
-                "title": "DSA-5240-1 webkit2gtk",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2022-09-28",
-                "def_id": "oval:org.debian:def:129880730149025688255985636835605854260",
-                "title": "DSA-5241-1 wpewebkit",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:301844807315269615123284296012987417954",
-                "title": "CVE-2023-42833 webkit2gtk",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2023-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20237055",
-                "title": "RHSA-2023:7055: webkit2gtk3 security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-11-07",
-                "def_id": "oval:com.redhat.rhsa:def:20236535",
-                "title": "RHSA-2023:6535: webkit2gtk3 security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-21626": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:336989683597743673688425221396559978219",
-                "title": "CVE-2022-21626 openjdk-11",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2023-01-28",
-                "def_id": "oval:org.debian:def:156565036902154636938673631761830696159",
-                "title": "DSA-5331-1 openjdk-11",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:336989683597743673688425221396559978219",
-                "title": "CVE-2022-21626 openjdk-11",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2022-11-09",
-                "def_id": "oval:com.ubuntu.bionic:def:57191000000",
-                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-09",
-                "def_id": "oval:com.ubuntu.focal:def:57191000000",
-                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-09",
-                "def_id": "oval:com.ubuntu.jammy:def:57191000000",
-                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-09",
-                "def_id": "oval:com.ubuntu.xenial:def:57191000000",
-                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-09",
-                "def_id": "oval:com.ubuntu.bionic:def:57191000000",
-                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-09",
-                "def_id": "oval:com.ubuntu.focal:def:57191000000",
-                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-09",
-                "def_id": "oval:com.ubuntu.jammy:def:57191000000",
-                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-09",
-                "def_id": "oval:com.ubuntu.xenial:def:57191000000",
-                "title": "USN-5719-1 -- OpenJDK vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20226999",
-                "title": "ELSA-2022-6999:  java-17-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227000",
-                "title": "ELSA-2022-7000:  java-17-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227002",
-                "title": "ELSA-2022-7002:  java-1.8.0-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227006",
-                "title": "ELSA-2022-7006:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227007",
-                "title": "ELSA-2022-7007:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227008",
-                "title": "ELSA-2022-7008:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227012",
-                "title": "ELSA-2022-7012:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227013",
-                "title": "ELSA-2022-7013:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20226999",
-                "title": "ELSA-2022-6999:  java-17-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227000",
-                "title": "ELSA-2022-7000:  java-17-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227002",
-                "title": "ELSA-2022-7002:  java-1.8.0-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227006",
-                "title": "ELSA-2022-7006:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227007",
-                "title": "ELSA-2022-7007:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227008",
-                "title": "ELSA-2022-7008:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227012",
-                "title": "ELSA-2022-7012:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227013",
-                "title": "ELSA-2022-7013:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227002",
-                "title": "ELSA-2022-7002:  java-1.8.0-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227008",
-                "title": "ELSA-2022-7008:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227000",
-                "title": "ELSA-2022-7000:  java-17-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227006",
-                "title": "ELSA-2022-7006:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227012",
-                "title": "ELSA-2022-7012:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20226999",
-                "title": "ELSA-2022-6999:  java-17-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227007",
-                "title": "ELSA-2022-7007:  java-1.8.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20227013",
-                "title": "ELSA-2022-7013:  java-11-openjdk security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2024-05-29",
-                "def_id": "oval:redos:def:2156",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-1.8.0-openjdk",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2024-05-29",
-                "def_id": "oval:redos:def:2168",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-11-openjdk",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:org.almalinux.alsa:def:20227000",
-                "title": "ALSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:org.almalinux.alsa:def:20227012",
-                "title": "ALSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:org.almalinux.alsa:def:20227006",
-                "title": "ALSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:org.almalinux.alsa:def:20226999",
-                "title": "ALSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:org.almalinux.alsa:def:20227013",
-                "title": "ALSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:org.almalinux.alsa:def:20227007",
-                "title": "ALSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227002",
-                "title": "RHSA-2022:7002: java-1.8.0-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227008",
-                "title": "RHSA-2022:7008: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2022-12-07",
-                "def_id": "oval:com.redhat.rhsa:def:20228880",
-                "title": "RHSA-2022:8880: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227002",
-                "title": "RHSA-2022:7002: java-1.8.0-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227008",
-                "title": "RHSA-2022:7008: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-12-07",
-                "def_id": "oval:com.redhat.rhsa:def:20228880",
-                "title": "RHSA-2022:8880: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227003",
-                "title": "RHSA-2022:7003: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227009",
-                "title": "RHSA-2022:7009: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.1-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227004",
-                "title": "RHSA-2022:7004: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227010",
-                "title": "RHSA-2022:7010: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227004",
-                "title": "RHSA-2022:7004: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227010",
-                "title": "RHSA-2022:7010: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227004",
-                "title": "RHSA-2022:7004: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227010",
-                "title": "RHSA-2022:7010: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227004",
-                "title": "RHSA-2022:7004: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227010",
-                "title": "RHSA-2022:7010: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227001",
-                "title": "RHSA-2022:7001: java-17-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227005",
-                "title": "RHSA-2022:7005: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227011",
-                "title": "RHSA-2022:7011: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227001",
-                "title": "RHSA-2022:7001: java-17-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227005",
-                "title": "RHSA-2022:7005: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227011",
-                "title": "RHSA-2022:7011: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227001",
-                "title": "RHSA-2022:7001: java-17-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227005",
-                "title": "RHSA-2022:7005: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227011",
-                "title": "RHSA-2022:7011: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227001",
-                "title": "RHSA-2022:7001: java-17-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227005",
-                "title": "RHSA-2022:7005: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227011",
-                "title": "RHSA-2022:7011: java-11-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-01-12",
-                "def_id": "oval:com.redhat.rhsa:def:20230128",
-                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-01-12",
-                "def_id": "oval:com.redhat.rhsa:def:20230128",
-                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-01-12",
-                "def_id": "oval:com.redhat.rhsa:def:20230128",
-                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-01-12",
-                "def_id": "oval:com.redhat.rhsa:def:20230128",
-                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227000",
-                "title": "RHSA-2022:7000: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227006",
-                "title": "RHSA-2022:7006: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-19",
-                "def_id": "oval:com.redhat.rhsa:def:20227012",
-                "title": "RHSA-2022:7012: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2023-01-12",
-                "def_id": "oval:com.redhat.rhsa:def:20230128",
-                "title": "RHSA-2023:0128: java-1.8.0-ibm security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226999",
-                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227007",
-                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227013",
-                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226999",
-                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227007",
-                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227013",
-                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226999",
-                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227007",
-                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227013",
-                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226999",
-                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227007",
-                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227013",
-                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226999",
-                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227007",
-                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227013",
-                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20226999",
-                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227007",
-                "title": "RHSA-2022:7007: java-1.8.0-openjdk security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-20",
-                "def_id": "oval:com.redhat.rhsa:def:20227013",
-                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2023-02-06",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2022-3116": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.ubuntu.bionic:def:56751000000",
-                "title": "USN-5675-1 -- Heimdal vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.ubuntu.focal:def:56751000000",
-                "title": "USN-5675-1 -- Heimdal vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.ubuntu.trusty:def:56751000000",
-                "title": "USN-5675-1 -- Heimdal vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.ubuntu.xenial:def:56751000000",
-                "title": "USN-5675-1 -- Heimdal vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.ubuntu.bionic:def:56751000000",
-                "title": "USN-5675-1 -- Heimdal vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.ubuntu.focal:def:56751000000",
-                "title": "USN-5675-1 -- Heimdal vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.ubuntu.trusty:def:56751000000",
-                "title": "USN-5675-1 -- Heimdal vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.ubuntu.xenial:def:56751000000",
-                "title": "USN-5675-1 -- Heimdal vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-41032": [
-            {
-                "date": "2022-10-11",
-                "def_id": "oval:com.ubuntu.jammy:def:56701000000",
-                "title": "USN-5670-1 -- .NET 6 vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-11",
-                "def_id": "oval:com.ubuntu.jammy:def:56701000000",
-                "title": "USN-5670-1 -- .NET 6 vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.oracle.elsa:def:20226911",
-                "title": "ELSA-2022-6911:  .NET 6.0 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.oracle.elsa:def:20226912",
-                "title": "ELSA-2022-6912:  .NET Core 3.1 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.oracle.elsa:def:20226913",
-                "title": "ELSA-2022-6913:  .NET 6.0 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-11-17",
-                "def_id": "oval:com.oracle.elsa:def:20227826",
-                "title": "ELSA-2022-7826:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-11-29",
-                "def_id": "oval:com.oracle.elsa:def:20228434",
-                "title": "ELSA-2022-8434:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.oracle.elsa:def:20226911",
-                "title": "ELSA-2022-6911:  .NET 6.0 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.oracle.elsa:def:20226912",
-                "title": "ELSA-2022-6912:  .NET Core 3.1 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.oracle.elsa:def:20226913",
-                "title": "ELSA-2022-6913:  .NET 6.0 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-11-17",
-                "def_id": "oval:com.oracle.elsa:def:20227826",
-                "title": "ELSA-2022-7826:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-11-29",
-                "def_id": "oval:com.oracle.elsa:def:20228434",
-                "title": "ELSA-2022-8434:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.oracle.elsa:def:20226911",
-                "title": "ELSA-2022-6911:  .NET 6.0 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.oracle.elsa:def:20226912",
-                "title": "ELSA-2022-6912:  .NET Core 3.1 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-11-17",
-                "def_id": "oval:com.oracle.elsa:def:20227826",
-                "title": "ELSA-2022-7826:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:com.oracle.elsa:def:20226913",
-                "title": "ELSA-2022-6913:  .NET 6.0 security and bugfix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-11-29",
-                "def_id": "oval:com.oracle.elsa:def:20228434",
-                "title": "ELSA-2022-8434:  dotnet7.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:org.almalinux.alsa:def:20226911",
-                "title": "ALSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:org.almalinux.alsa:def:20226912",
-                "title": "ALSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:org.almalinux.alsa:def:20227826",
-                "title": "ALSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:org.almalinux.alsa:def:20226913",
-                "title": "ALSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:org.almalinux.alsa:def:20228434",
-                "title": "ALSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226914",
-                "title": "RHSA-2022:6914: .NET Core 3.1 on RHEL 7 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-3.1.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226915",
-                "title": "RHSA-2022:6915: .NET 6.0 on RHEL 7 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-6.0.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227826",
-                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227826",
-                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227826",
-                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227826",
-                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226911",
-                "title": "RHSA-2022:6911: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226912",
-                "title": "RHSA-2022:6912: .NET Core 3.1 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227826",
-                "title": "RHSA-2022:7826: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226913",
-                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226913",
-                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226913",
-                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228434",
-                "title": "RHSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226913",
-                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228434",
-                "title": "RHSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226913",
-                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228434",
-                "title": "RHSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20226913",
-                "title": "RHSA-2022:6913: .NET 6.0 security and bugfix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228434",
-                "title": "RHSA-2022:8434: dotnet7.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-40316": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:482",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-40315": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:483",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-40314": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:484",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-40313": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:485",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2021-36568": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:486",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-35649": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:487",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-35653": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:488",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-35650": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:489",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-35651": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:490",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-35652": [
-            {
-                "date": "2022-10-13",
-                "def_id": "oval:redos:def:491",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Moodle",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2022-2053": [
-            {
-                "date": "2022-10-05",
-                "def_id": "oval:com.redhat.rhsa:def:20226823",
-                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-05",
-                "def_id": "oval:com.redhat.rhsa:def:20226823",
-                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-05",
-                "def_id": "oval:com.redhat.rhsa:def:20226823",
-                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-05",
-                "def_id": "oval:com.redhat.rhsa:def:20226823",
-                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-1259": [
-            {
-                "date": "2022-10-05",
-                "def_id": "oval:com.redhat.rhsa:def:20226823",
-                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-05",
-                "def_id": "oval:com.redhat.rhsa:def:20226823",
-                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-05",
-                "def_id": "oval:com.redhat.rhsa:def:20226823",
-                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2022-10-05",
-                "def_id": "oval:com.redhat.rhsa:def:20226823",
-                "title": "RHSA-2022:6823: Red Hat JBoss Enterprise Application Platform 7.4.7 Security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
-            }
-        ],
         "CVE-2023-30441": [
             {
                 "date": "2022-09-29",
@@ -35962,37 +35928,71 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2022-3146": [
+        "CVE-2023-42833": [
             {
-                "date": "2022-10-17",
-                "def_id": "oval:com.redhat.rhsa:def:20226969",
-                "title": "RHSA-2022:6969: Red Hat OpenStack Platform (tripleo-ansible) security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.1.oval.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:301844807315269615123284296012987417954",
+                "title": "CVE-2023-42833 webkit2gtk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2022-10-17",
-                "def_id": "oval:com.redhat.rhsa:def:20226969",
-                "title": "RHSA-2022:6969: Red Hat OpenStack Platform (tripleo-ansible) security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.2.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-3101": [
-            {
-                "date": "2022-10-17",
-                "def_id": "oval:com.redhat.rhsa:def:20226969",
-                "title": "RHSA-2022:6969: Red Hat OpenStack Platform (tripleo-ansible) security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.1.oval.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:145226254051284098288683834856830286592",
+                "title": "CVE-2023-42833 wpewebkit",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2022-10-17",
-                "def_id": "oval:com.redhat.rhsa:def:20226969",
-                "title": "RHSA-2022:6969: Red Hat OpenStack Platform (tripleo-ansible) security update (Important)",
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:301844807315269615123284296012987417954",
+                "title": "CVE-2023-42833 webkit2gtk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:145226254051284098288683834856830286592",
+                "title": "CVE-2023-42833 wpewebkit",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-09-28",
+                "def_id": "oval:org.debian:def:49421247889067421997563734685687230935",
+                "title": "DSA-5240-1 webkit2gtk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-09-28",
+                "def_id": "oval:org.debian:def:129880730149025688255985636835605854260",
+                "title": "DSA-5241-1 wpewebkit",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:301844807315269615123284296012987417954",
+                "title": "CVE-2023-42833 webkit2gtk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237055",
+                "title": "RHSA-2023:7055: webkit2gtk3 security and bug fix update (Important)",
                 "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.2.oval.xml.bz2"
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ]
-    }
+    },
+    "year": 2022
 }

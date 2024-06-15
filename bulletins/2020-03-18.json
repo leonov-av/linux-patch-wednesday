@@ -1,12 +1,11 @@
 {
-    "name": "March 2020",
-    "year": 2020,
     "month": "March",
+    "name": "March 2020",
     "patch_wednesday": "2020-03-18",
-    "patch_wednesday_start_date": "2020-02-20",
-    "patch_wednesday_start_date_ts": 1582146000,
     "patch_wednesday_end_date": "2020-03-18",
     "patch_wednesday_end_date_ts": 1584565199,
+    "patch_wednesday_start_date": "2020-02-20",
+    "patch_wednesday_start_date_ts": 1582146000,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2014-6262": [
@@ -33,6 +32,29 @@
             },
             {
                 "date": "2020-03-02",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2015-0258": [
+            {
+                "date": "2020-10-19",
+                "def_id": "oval:com.ubuntu.xenial:def:45901000000",
+                "title": "USN-4590-1 -- Collabtive vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-19",
+                "def_id": "oval:com.ubuntu.xenial:def:45901000000",
+                "title": "USN-4590-1 -- Collabtive vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-29",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -442,6 +464,57 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-10392": [
+            {
+                "date": "2020-06-17",
+                "def_id": "oval:com.redhat.rhsa:def:20202478",
+                "title": "RHSA-2020:2478: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-12",
+                "def_id": "oval:com.redhat.rhba:def:20200690",
+                "title": "RHBA-2020:0690: OpenShift Container Platform 4.1.38 packages update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.1.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-25",
+                "def_id": "oval:com.redhat.rhba:def:20200522",
+                "title": "RHBA-2020:0522: OpenShift Container Platform 4.2.20 packages update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.2.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-24",
+                "def_id": "oval:com.redhat.rhba:def:20200527",
+                "title": "RHBA-2020:0527: OpenShift Container Platform 4.3.3 packages update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-12",
+                "def_id": "oval:com.redhat.rhba:def:20200690",
+                "title": "RHBA-2020:0690: OpenShift Container Platform 4.1.38 packages update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.1.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-25",
+                "def_id": "oval:com.redhat.rhba:def:20200522",
+                "title": "RHBA-2020:0522: OpenShift Container Platform 4.2.20 packages update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.2.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-24",
+                "def_id": "oval:com.redhat.rhba:def:20200527",
+                "title": "RHBA-2020:0527: OpenShift Container Platform 4.3.3 packages update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
             }
         ],
         "CVE-2019-10785": [
@@ -917,6 +990,22 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-14894": [
+            {
+                "date": "2020-02-25",
+                "def_id": "oval:com.redhat.rhsa:def:20200589",
+                "title": "RHSA-2020:0589: CloudForms 4.7.15 security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/cfme-5.10.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-25",
+                "def_id": "oval:com.redhat.rhsa:def:20200588",
+                "title": "RHSA-2020:0588: CloudForms 5.0.3 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/cfme-5.11.oval.xml.bz2"
             }
         ],
         "CVE-2019-15604": [
@@ -6805,6 +6894,78 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2019-6438": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:314577992929490310720816088083355745413",
+                "title": "CVE-2019-6438 slurm-llnl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2022-05-25",
+                "def_id": "oval:com.ubuntu.bionic:def:47811000000",
+                "title": "USN-4781-1 -- Slurm vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-25",
+                "def_id": "oval:com.ubuntu.focal:def:47811000000",
+                "title": "USN-4781-1 -- Slurm vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-25",
+                "def_id": "oval:com.ubuntu.trusty:def:47811000000",
+                "title": "USN-4781-1 -- Slurm vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-25",
+                "def_id": "oval:com.ubuntu.xenial:def:47811000000",
+                "title": "USN-4781-1 -- Slurm vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-25",
+                "def_id": "oval:com.ubuntu.bionic:def:47811000000",
+                "title": "USN-4781-1 -- Slurm vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-25",
+                "def_id": "oval:com.ubuntu.focal:def:47811000000",
+                "title": "USN-4781-1 -- Slurm vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-25",
+                "def_id": "oval:com.ubuntu.trusty:def:47811000000",
+                "title": "USN-4781-1 -- Slurm vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-25",
+                "def_id": "oval:com.ubuntu.xenial:def:47811000000",
+                "title": "USN-4781-1 -- Slurm vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-16",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2020-0034": [
             {
                 "date": "2024-05-15",
@@ -7430,6 +7591,38 @@
             },
             {
                 "date": "2020-03-17",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-10184": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:153776203303300202352047939461568109919",
+                "title": "CVE-2020-10184 yubikey-val",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-03-12",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-10185": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:279390020599152256630670487084546981953",
+                "title": "CVE-2020-10185 yubikey-val",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-03-12",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -12530,6 +12723,96 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2020-6808": [
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-6809": [
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-6810": [
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-6811": [
             {
                 "date": "2024-05-15",
@@ -14088,6 +14371,36 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2020-6813": [
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-6814": [
             {
                 "date": "2024-05-15",
@@ -14865,6 +15178,36 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-6815": [
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2020-8130": [
@@ -15787,6 +16130,77 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-8659": [
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-8660": [
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-8661": [
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-8664": [
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
             }
         ],
         "CVE-2020-8793": [
@@ -17321,421 +17735,7 @@
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
-        ],
-        "CVE-2019-6438": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:314577992929490310720816088083355745413",
-                "title": "CVE-2019-6438 slurm-llnl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2022-05-25",
-                "def_id": "oval:com.ubuntu.bionic:def:47811000000",
-                "title": "USN-4781-1 -- Slurm vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-05-25",
-                "def_id": "oval:com.ubuntu.focal:def:47811000000",
-                "title": "USN-4781-1 -- Slurm vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-05-25",
-                "def_id": "oval:com.ubuntu.trusty:def:47811000000",
-                "title": "USN-4781-1 -- Slurm vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-05-25",
-                "def_id": "oval:com.ubuntu.xenial:def:47811000000",
-                "title": "USN-4781-1 -- Slurm vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-05-25",
-                "def_id": "oval:com.ubuntu.bionic:def:47811000000",
-                "title": "USN-4781-1 -- Slurm vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-05-25",
-                "def_id": "oval:com.ubuntu.focal:def:47811000000",
-                "title": "USN-4781-1 -- Slurm vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-05-25",
-                "def_id": "oval:com.ubuntu.trusty:def:47811000000",
-                "title": "USN-4781-1 -- Slurm vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-05-25",
-                "def_id": "oval:com.ubuntu.xenial:def:47811000000",
-                "title": "USN-4781-1 -- Slurm vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-16",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2020-10184": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:153776203303300202352047939461568109919",
-                "title": "CVE-2020-10184 yubikey-val",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2020-03-12",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2020-10185": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:279390020599152256630670487084546981953",
-                "title": "CVE-2020-10185 yubikey-val",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2020-03-12",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2020-6808": [
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-6815": [
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-6809": [
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-6813": [
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-6810": [
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2015-0258": [
-            {
-                "date": "2020-10-19",
-                "def_id": "oval:com.ubuntu.xenial:def:45901000000",
-                "title": "USN-4590-1 -- Collabtive vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-10-19",
-                "def_id": "oval:com.ubuntu.xenial:def:45901000000",
-                "title": "USN-4590-1 -- Collabtive vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-02-29",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2019-14894": [
-            {
-                "date": "2020-02-25",
-                "def_id": "oval:com.redhat.rhsa:def:20200589",
-                "title": "RHSA-2020:0589: CloudForms 4.7.15 security, bug fix and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/cfme-5.10.oval.xml.bz2"
-            },
-            {
-                "date": "2020-02-25",
-                "def_id": "oval:com.redhat.rhsa:def:20200588",
-                "title": "RHSA-2020:0588: CloudForms 5.0.3 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/cfme-5.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2019-10392": [
-            {
-                "date": "2020-06-17",
-                "def_id": "oval:com.redhat.rhsa:def:20202478",
-                "title": "RHSA-2020:2478: OpenShift Container Platform 3.11 jenkins-2-plugins security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-12",
-                "def_id": "oval:com.redhat.rhba:def:20200690",
-                "title": "RHBA-2020:0690: OpenShift Container Platform 4.1.38 packages update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.1.oval.xml.bz2"
-            },
-            {
-                "date": "2020-02-25",
-                "def_id": "oval:com.redhat.rhba:def:20200522",
-                "title": "RHBA-2020:0522: OpenShift Container Platform 4.2.20 packages update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.2.oval.xml.bz2"
-            },
-            {
-                "date": "2020-02-24",
-                "def_id": "oval:com.redhat.rhba:def:20200527",
-                "title": "RHBA-2020:0527: OpenShift Container Platform 4.3.3 packages update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-12",
-                "def_id": "oval:com.redhat.rhba:def:20200690",
-                "title": "RHBA-2020:0690: OpenShift Container Platform 4.1.38 packages update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.1.oval.xml.bz2"
-            },
-            {
-                "date": "2020-02-25",
-                "def_id": "oval:com.redhat.rhba:def:20200522",
-                "title": "RHBA-2020:0522: OpenShift Container Platform 4.2.20 packages update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.2.oval.xml.bz2"
-            },
-            {
-                "date": "2020-02-24",
-                "def_id": "oval:com.redhat.rhba:def:20200527",
-                "title": "RHBA-2020:0527: OpenShift Container Platform 4.3.3 packages update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-8661": [
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-8659": [
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
-            },
-            {
-                "date": "2022-05-18",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2020-8664": [
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-8660": [
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
-            }
         ]
-    }
+    },
+    "year": 2020
 }

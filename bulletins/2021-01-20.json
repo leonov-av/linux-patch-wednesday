@@ -1,12 +1,11 @@
 {
-    "name": "January 2021",
-    "year": 2021,
     "month": "January",
+    "name": "January 2021",
     "patch_wednesday": "2021-01-20",
-    "patch_wednesday_start_date": "2020-12-17",
-    "patch_wednesday_start_date_ts": 1608152400,
     "patch_wednesday_end_date": "2021-01-20",
     "patch_wednesday_end_date_ts": 1611176399,
+    "patch_wednesday_start_date": "2020-12-17",
+    "patch_wednesday_start_date_ts": 1608152400,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2015-8011": [
@@ -365,6 +364,80 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-9782": [
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2018-1285": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:119500634514841762659926212936943524518",
+                "title": "CVE-2018-1285 log4net",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:119500634514841762659926212936943524518",
+                "title": "CVE-2018-1285 log4net",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-01-19",
+                "def_id": "oval:com.ubuntu.bionic:def:46991000000",
+                "title": "USN-4699-1 -- Apache Log4net vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-19",
+                "def_id": "oval:com.ubuntu.focal:def:46991000000",
+                "title": "USN-4699-1 -- Apache Log4net vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-19",
+                "def_id": "oval:com.ubuntu.xenial:def:46991000000",
+                "title": "USN-4699-1 -- Apache Log4net vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-19",
+                "def_id": "oval:com.ubuntu.bionic:def:46991000000",
+                "title": "USN-4699-1 -- Apache Log4net vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-19",
+                "def_id": "oval:com.ubuntu.focal:def:46991000000",
+                "title": "USN-4699-1 -- Apache Log4net vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-19",
+                "def_id": "oval:com.ubuntu.xenial:def:46991000000",
+                "title": "USN-4699-1 -- Apache Log4net vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2018-5727": [
@@ -1481,6 +1554,22 @@
                 "date": "2021-01-16",
                 "def_id": "oval:org.debian:def:166553856444322235641827568638446687118",
                 "title": "DSA-4832-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            }
+        ],
+        "CVE-2020-16011": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:288109950207030959851526676074006663558",
+                "title": "CVE-2020-16011 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-01-01",
+                "def_id": "oval:org.debian:def:99417648905378632673148024787256898776",
+                "title": "DSA-4824-1 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             }
@@ -2952,6 +3041,144 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2020-2304": [
+            {
+                "date": "2021-03-03",
+                "def_id": "oval:com.redhat.rhsa:def:20210637",
+                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-2305": [
+            {
+                "date": "2021-03-03",
+                "def_id": "oval:com.redhat.rhsa:def:20210637",
+                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-2306": [
+            {
+                "date": "2021-03-03",
+                "def_id": "oval:com.redhat.rhsa:def:20210637",
+                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-2307": [
+            {
+                "date": "2021-03-03",
+                "def_id": "oval:com.redhat.rhsa:def:20210637",
+                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-2308": [
+            {
+                "date": "2021-03-03",
+                "def_id": "oval:com.redhat.rhsa:def:20210637",
+                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2020-2309": [
+            {
+                "date": "2021-03-03",
+                "def_id": "oval:com.redhat.rhsa:def:20210637",
+                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-18",
+                "def_id": "oval:com.redhat.rhsa:def:20210038",
+                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-24386": [
             {
                 "date": "2024-05-15",
@@ -3504,6 +3731,22 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-25677": [
+            {
+                "date": "2021-01-12",
+                "def_id": "oval:com.redhat.rhsa:def:20210081",
+                "title": "RHSA-2021:0081: Red Hat Ceph Storage 4.2 Security and Bug Fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/storage-ceph-4.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-12",
+                "def_id": "oval:com.redhat.rhsa:def:20210081",
+                "title": "RHSA-2021:0081: Red Hat Ceph Storage 4.2 Security and Bug Fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/storage-ceph-4.oval.xml.bz2"
             }
         ],
         "CVE-2020-25681": [
@@ -6689,6 +6932,57 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2020-27813": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:264998873870784607592657622012987042066",
+                "title": "CVE-2020-27813 golang-websocket",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2023-07-06",
+                "def_id": "oval:com.ubuntu.bionic:def:62081000000",
+                "title": "USN-6208-1 -- Gorilla WebSocket vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-07-06",
+                "def_id": "oval:com.ubuntu.xenial:def:62081000000",
+                "title": "USN-6208-1 -- Gorilla WebSocket vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-07-06",
+                "def_id": "oval:com.ubuntu.bionic:def:62081000000",
+                "title": "USN-6208-1 -- Gorilla WebSocket vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-07-06",
+                "def_id": "oval:com.ubuntu.xenial:def:62081000000",
+                "title": "USN-6208-1 -- Gorilla WebSocket vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-25",
+                "def_id": "oval:com.redhat.rhsa:def:20210833",
+                "title": "RHSA-2021:0833: OpenShift Container Platform 3.11.404 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2020-27814": [
             {
                 "date": "2024-05-15",
@@ -7437,6 +7731,113 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-27828": [
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-11",
+                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
+                "title": "USN-4688-1 -- JasPer vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20214235",
+                "title": "ELSA-2021-4235:  jasper security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20214235",
+                "title": "ELSA-2021-4235:  jasper security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20214235",
+                "title": "ELSA-2021-4235:  jasper security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:org.almalinux.alsa:def:20214235",
+                "title": "ALSA-2021:4235: jasper security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214235",
+                "title": "RHSA-2021:4235: jasper security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2020-27841": [
@@ -13666,6 +14067,64 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2020-8554": [
+            {
+                "date": "2021-02-10",
+                "def_id": "oval:com.oracle.elsa:def:20219028",
+                "title": "ELSA-2021-9028:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-02-10",
+                "def_id": "oval:com.oracle.elsa:def:20219029",
+                "title": "ELSA-2021-9029:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-02-10",
+                "def_id": "oval:com.oracle.elsa:def:20219028",
+                "title": "ELSA-2021-9028:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-02-10",
+                "def_id": "oval:com.oracle.elsa:def:20219029",
+                "title": "ELSA-2021-9029:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-02-10",
+                "def_id": "oval:com.oracle.elsa:def:20219028",
+                "title": "ELSA-2021-9028:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2021-02-10",
+                "def_id": "oval:com.oracle.elsa:def:20219029",
+                "title": "ELSA-2021-9029:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2021-02-10",
+                "def_id": "oval:com.oracle.elsa:def:20219028",
+                "title": "ELSA-2021-9028:  olcne security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-01-20",
+                "def_id": "oval:com.redhat.rhsa:def:20210079",
+                "title": "RHSA-2021:0079: OpenShift Container Platform 3.11.374 bug fix and security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-9369": [
             {
                 "date": "2024-05-15",
@@ -14099,6 +14558,246 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2021-1723": [
+            {
+                "date": "2021-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20210094",
+                "title": "ELSA-2021-0094:  dotnet5.0 security and bugfix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20210095",
+                "title": "ELSA-2021-0095:  dotnet3.1 security and bugfix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20210094",
+                "title": "ELSA-2021-0094:  dotnet5.0 security and bugfix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20210095",
+                "title": "ELSA-2021-0095:  dotnet3.1 security and bugfix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20210094",
+                "title": "ELSA-2021-0094:  dotnet5.0 security and bugfix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20210095",
+                "title": "ELSA-2021-0095:  dotnet3.1 security and bugfix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210114",
+                "title": "RHSA-2021:0114: .NET Core 3.1 on Red Hat Enterprise Linux security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-3.1.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210096",
+                "title": "RHSA-2021:0096: .NET 5.0 on Red Hat Enterprise Linux security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-5.0.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210094",
+                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2021-01-13",
+                "def_id": "oval:com.redhat.rhsa:def:20210095",
+                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2021-21106": [
@@ -14877,706 +15576,7 @@
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             }
-        ],
-        "CVE-2018-1285": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:119500634514841762659926212936943524518",
-                "title": "CVE-2018-1285 log4net",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:119500634514841762659926212936943524518",
-                "title": "CVE-2018-1285 log4net",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2021-01-19",
-                "def_id": "oval:com.ubuntu.bionic:def:46991000000",
-                "title": "USN-4699-1 -- Apache Log4net vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-19",
-                "def_id": "oval:com.ubuntu.focal:def:46991000000",
-                "title": "USN-4699-1 -- Apache Log4net vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-19",
-                "def_id": "oval:com.ubuntu.xenial:def:46991000000",
-                "title": "USN-4699-1 -- Apache Log4net vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-19",
-                "def_id": "oval:com.ubuntu.bionic:def:46991000000",
-                "title": "USN-4699-1 -- Apache Log4net vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-19",
-                "def_id": "oval:com.ubuntu.focal:def:46991000000",
-                "title": "USN-4699-1 -- Apache Log4net vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-19",
-                "def_id": "oval:com.ubuntu.xenial:def:46991000000",
-                "title": "USN-4699-1 -- Apache Log4net vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-16011": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:288109950207030959851526676074006663558",
-                "title": "CVE-2020-16011 chromium",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2021-01-01",
-                "def_id": "oval:org.debian:def:99417648905378632673148024787256898776",
-                "title": "DSA-4824-1 chromium",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            }
-        ],
-        "CVE-2020-27813": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:264998873870784607592657622012987042066",
-                "title": "CVE-2020-27813 golang-websocket",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
-            },
-            {
-                "date": "2023-07-06",
-                "def_id": "oval:com.ubuntu.bionic:def:62081000000",
-                "title": "USN-6208-1 -- Gorilla WebSocket vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-07-06",
-                "def_id": "oval:com.ubuntu.xenial:def:62081000000",
-                "title": "USN-6208-1 -- Gorilla WebSocket vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-07-06",
-                "def_id": "oval:com.ubuntu.bionic:def:62081000000",
-                "title": "USN-6208-1 -- Gorilla WebSocket vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-07-06",
-                "def_id": "oval:com.ubuntu.xenial:def:62081000000",
-                "title": "USN-6208-1 -- Gorilla WebSocket vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-03-25",
-                "def_id": "oval:com.redhat.rhsa:def:20210833",
-                "title": "RHSA-2021:0833: OpenShift Container Platform 3.11.404 security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-07",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2020-27828": [
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214235",
-                "title": "ELSA-2021-4235:  jasper security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214235",
-                "title": "ELSA-2021-4235:  jasper security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214235",
-                "title": "ELSA-2021-4235:  jasper security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:org.almalinux.alsa:def:20214235",
-                "title": "ALSA-2021:4235: jasper security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214235",
-                "title": "RHSA-2021:4235: jasper security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2017-9782": [
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-11",
-                "def_id": "oval:com.ubuntu.xenial:def:46881000000",
-                "title": "USN-4688-1 -- JasPer vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-1723": [
-            {
-                "date": "2021-01-15",
-                "def_id": "oval:com.oracle.elsa:def:20210094",
-                "title": "ELSA-2021-0094:  dotnet5.0 security and bugfix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-01-15",
-                "def_id": "oval:com.oracle.elsa:def:20210095",
-                "title": "ELSA-2021-0095:  dotnet3.1 security and bugfix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-01-15",
-                "def_id": "oval:com.oracle.elsa:def:20210094",
-                "title": "ELSA-2021-0094:  dotnet5.0 security and bugfix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-01-15",
-                "def_id": "oval:com.oracle.elsa:def:20210095",
-                "title": "ELSA-2021-0095:  dotnet3.1 security and bugfix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-01-15",
-                "def_id": "oval:com.oracle.elsa:def:20210094",
-                "title": "ELSA-2021-0094:  dotnet5.0 security and bugfix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-01-15",
-                "def_id": "oval:com.oracle.elsa:def:20210095",
-                "title": "ELSA-2021-0095:  dotnet3.1 security and bugfix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210114",
-                "title": "RHSA-2021:0114: .NET Core 3.1 on Red Hat Enterprise Linux security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-3.1.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210096",
-                "title": "RHSA-2021:0096: .NET 5.0 on Red Hat Enterprise Linux security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/dotnet-5.0.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210094",
-                "title": "RHSA-2021:0094: dotnet5.0 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-13",
-                "def_id": "oval:com.redhat.rhsa:def:20210095",
-                "title": "RHSA-2021:0095: dotnet3.1 security and bugfix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-8554": [
-            {
-                "date": "2021-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20219028",
-                "title": "ELSA-2021-9028:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20219029",
-                "title": "ELSA-2021-9029:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20219028",
-                "title": "ELSA-2021-9028:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20219029",
-                "title": "ELSA-2021-9029:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20219028",
-                "title": "ELSA-2021-9028:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2021-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20219029",
-                "title": "ELSA-2021-9029:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2021-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20219028",
-                "title": "ELSA-2021-9028:  olcne security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-01-20",
-                "def_id": "oval:com.redhat.rhsa:def:20210079",
-                "title": "RHSA-2021:0079: OpenShift Container Platform 3.11.374 bug fix and security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2306": [
-            {
-                "date": "2021-03-03",
-                "def_id": "oval:com.redhat.rhsa:def:20210637",
-                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2304": [
-            {
-                "date": "2021-03-03",
-                "def_id": "oval:com.redhat.rhsa:def:20210637",
-                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2309": [
-            {
-                "date": "2021-03-03",
-                "def_id": "oval:com.redhat.rhsa:def:20210637",
-                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2305": [
-            {
-                "date": "2021-03-03",
-                "def_id": "oval:com.redhat.rhsa:def:20210637",
-                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2307": [
-            {
-                "date": "2021-03-03",
-                "def_id": "oval:com.redhat.rhsa:def:20210637",
-                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-2308": [
-            {
-                "date": "2021-03-03",
-                "def_id": "oval:com.redhat.rhsa:def:20210637",
-                "title": "RHSA-2021:0637: OpenShift Container Platform 3.11.394 bug fix and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.6.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-18",
-                "def_id": "oval:com.redhat.rhsa:def:20210038",
-                "title": "RHSA-2021:0038: OpenShift Container Platform 4.6.12 packages and security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-25677": [
-            {
-                "date": "2021-01-12",
-                "def_id": "oval:com.redhat.rhsa:def:20210081",
-                "title": "RHSA-2021:0081: Red Hat Ceph Storage 4.2 Security and Bug Fix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/storage-ceph-4.oval.xml.bz2"
-            },
-            {
-                "date": "2021-01-12",
-                "def_id": "oval:com.redhat.rhsa:def:20210081",
-                "title": "RHSA-2021:0081: Red Hat Ceph Storage 4.2 Security and Bug Fix update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/storage-ceph-4.oval.xml.bz2"
-            }
         ]
-    }
+    },
+    "year": 2021
 }
