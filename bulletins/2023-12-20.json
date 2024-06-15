@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2023-11-16",
     "patch_wednesday_start_date_ts": 1700082000,
     "patch_wednesday_end_date": "2023-12-20",
-    "patch_wednesday_end_date_ts": 1703019600,
+    "patch_wednesday_end_date_ts": 1703105999,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2013-20001": [
@@ -871,6 +871,36 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2022-41727": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:172107963716748721477659345627487220880",
+                "title": "CVE-2022-41727 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:172107963716748721477659345627487220880",
+                "title": "CVE-2022-41727 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:172107963716748721477659345627487220880",
+                "title": "CVE-2022-41727 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2023-11-16",
+                "def_id": "oval:redos:def:1256",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang-x-image",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
         "CVE-2022-45582": [
             {
                 "date": "2024-05-15",
@@ -1508,6 +1538,66 @@
                 "title": "CVE-2023-2906 wireshark",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            }
+        ],
+        "CVE-2023-29407": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:125360830565540501237850313714704609883",
+                "title": "CVE-2023-29407 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:125360830565540501237850313714704609883",
+                "title": "CVE-2023-29407 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:125360830565540501237850313714704609883",
+                "title": "CVE-2023-29407 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2023-11-16",
+                "def_id": "oval:redos:def:1258",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang-x-image",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2023-29408": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70596843047198194981600962249605536451",
+                "title": "CVE-2023-29408 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70596843047198194981600962249605536451",
+                "title": "CVE-2023-29408 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70596843047198194981600962249605536451",
+                "title": "CVE-2023-29408 golang-golang-x-image",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2023-11-16",
+                "def_id": "oval:redos:def:1257",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 golang-x-image",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-2976": [
@@ -12905,6 +12995,57 @@
                 "title": "RHSA-2024:0477: frr security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-47272": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:68714377431530479899811386816702074019",
+                "title": "CVE-2023-47272 roundcube",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:org.debian:def:3784771260134156958986519840480816222",
+                "title": "DSA-5572-1 roundcube",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:68714377431530479899811386816702074019",
+                "title": "CVE-2023-47272 roundcube",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:org.debian:def:3784771260134156958986519840480816222",
+                "title": "DSA-5572-1 roundcube",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:68714377431530479899811386816702074019",
+                "title": "CVE-2023-47272 roundcube",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2023-11-16",
+                "def_id": "oval:redos:def:1255",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Roundcube",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-12-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-47471": [
@@ -33016,6 +33157,36 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-8.oval.xml.bz2"
             }
         ],
+        "CVE-2023-39410": [
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:20237639",
+                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:20237639",
+                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:20237639",
+                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:20237639",
+                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-35887": [
             {
                 "date": "2023-12-04",
@@ -33058,36 +33229,6 @@
                 "title": "RHSA-2024:1193: Red Hat JBoss Enterprise Application Platform 8.0.1 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-39410": [
-            {
-                "date": "2023-12-04",
-                "def_id": "oval:com.redhat.rhsa:def:20237639",
-                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-04",
-                "def_id": "oval:com.redhat.rhsa:def:20237639",
-                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-04",
-                "def_id": "oval:com.redhat.rhsa:def:20237639",
-                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-04",
-                "def_id": "oval:com.redhat.rhsa:def:20237639",
-                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
             }
         ],
         "CVE-2023-0105": [
@@ -33178,36 +33319,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
             }
         ],
-        "CVE-2023-6563": [
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.redhat.rhsa:def:20237855",
-                "title": "RHSA-2023:7855: Red Hat Single Sign-On 7.6.6 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.redhat.rhsa:def:20237855",
-                "title": "RHSA-2023:7855: Red Hat Single Sign-On 7.6.6 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.redhat.rhsa:def:20237855",
-                "title": "RHSA-2023:7855: Red Hat Single Sign-On 7.6.6 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhsso.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.redhat.rhsa:def:20237855",
-                "title": "RHSA-2023:7855: Red Hat Single Sign-On 7.6.6 security update on RHEL 9 (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
-            }
-        ],
         "CVE-2023-6291": [
             {
                 "date": "2023-12-14",
@@ -33262,6 +33373,36 @@
                 "date": "2024-02-13",
                 "def_id": "oval:com.redhat.rhsa:def:20240800",
                 "title": "RHSA-2024:0800: Red Hat Single Sign-On 7.6.7 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-6563": [
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237855",
+                "title": "RHSA-2023:7855: Red Hat Single Sign-On 7.6.6 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237855",
+                "title": "RHSA-2023:7855: Red Hat Single Sign-On 7.6.6 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237855",
+                "title": "RHSA-2023:7855: Red Hat Single Sign-On 7.6.6 security update on RHEL 9 (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhsso.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237855",
+                "title": "RHSA-2023:7855: Red Hat Single Sign-On 7.6.6 security update on RHEL 9 (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhsso.oval.xml.bz2"
             }

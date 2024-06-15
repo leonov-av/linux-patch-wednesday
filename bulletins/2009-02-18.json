@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2009-01-22",
     "patch_wednesday_start_date_ts": 1232571600,
     "patch_wednesday_end_date": "2009-02-18",
-    "patch_wednesday_end_date_ts": 1234904400,
+    "patch_wednesday_end_date_ts": 1234990799,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2007-2721": [
@@ -263,6 +263,22 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2008-5079": [
+            {
+                "date": "2009-01-27",
+                "def_id": "oval:com.oracle.elsa:def:20090225",
+                "title": "ELSA-2009-0225:  Oracle Enterprise Linux 5.3 kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-01-27",
+                "def_id": "oval:com.oracle.elsa:def:20090225",
+                "title": "ELSA-2009-0225:  Oracle Enterprise Linux 5.3 kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2008-5182": [
             {
                 "date": "2009-01-27",
@@ -295,71 +311,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2008-5079": [
-            {
-                "date": "2009-01-27",
-                "def_id": "oval:com.oracle.elsa:def:20090225",
-                "title": "ELSA-2009-0225:  Oracle Enterprise Linux 5.3 kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-01-27",
-                "def_id": "oval:com.oracle.elsa:def:20090225",
-                "title": "ELSA-2009-0225:  Oracle Enterprise Linux 5.3 kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2009-0355": [
-            {
-                "date": "2009-02-04",
-                "def_id": "oval:com.oracle.elsa:def:20090256",
-                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-02-04",
-                "def_id": "oval:com.oracle.elsa:def:20090256",
-                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0354": [
-            {
-                "date": "2009-02-04",
-                "def_id": "oval:com.oracle.elsa:def:20090256",
-                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-02-04",
-                "def_id": "oval:com.oracle.elsa:def:20090256",
-                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0357": [
-            {
-                "date": "2009-02-04",
-                "def_id": "oval:com.oracle.elsa:def:20090256",
-                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-02-04",
-                "def_id": "oval:com.oracle.elsa:def:20090256",
-                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0356": [
             {
                 "date": "2009-02-04",
                 "def_id": "oval:com.oracle.elsa:def:20090256",
@@ -391,6 +343,22 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2009-0357": [
+            {
+                "date": "2009-02-04",
+                "def_id": "oval:com.oracle.elsa:def:20090256",
+                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-02-04",
+                "def_id": "oval:com.oracle.elsa:def:20090256",
+                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2009-0353": [
             {
                 "date": "2009-02-04",
@@ -407,7 +375,39 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2009-0356": [
+            {
+                "date": "2009-02-04",
+                "def_id": "oval:com.oracle.elsa:def:20090256",
+                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-02-04",
+                "def_id": "oval:com.oracle.elsa:def:20090256",
+                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2009-0352": [
+            {
+                "date": "2009-02-04",
+                "def_id": "oval:com.oracle.elsa:def:20090256",
+                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-02-04",
+                "def_id": "oval:com.oracle.elsa:def:20090256",
+                "title": "ELSA-2009-0256:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0354": [
             {
                 "date": "2009-02-04",
                 "def_id": "oval:com.oracle.elsa:def:20090256",
@@ -572,71 +572,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2008-4933": [
-            {
-                "date": "2009-02-11",
-                "def_id": "oval:com.oracle.elsa:def:20090264",
-                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-02-11",
-                "def_id": "oval:com.oracle.elsa:def:20090264",
-                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0065": [
-            {
-                "date": "2009-02-11",
-                "def_id": "oval:com.oracle.elsa:def:20090264",
-                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-02-11",
-                "def_id": "oval:com.oracle.elsa:def:20090264",
-                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2008-5025": [
-            {
-                "date": "2009-02-11",
-                "def_id": "oval:com.oracle.elsa:def:20090264",
-                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-02-11",
-                "def_id": "oval:com.oracle.elsa:def:20090264",
-                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0031": [
-            {
-                "date": "2009-02-11",
-                "def_id": "oval:com.oracle.elsa:def:20090264",
-                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-02-11",
-                "def_id": "oval:com.oracle.elsa:def:20090264",
-                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2008-4934": [
             {
                 "date": "2009-02-11",
                 "def_id": "oval:com.oracle.elsa:def:20090264",
@@ -668,7 +604,71 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-0386": [
+        "CVE-2008-4934": [
+            {
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090264",
+                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090264",
+                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2008-4933": [
+            {
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090264",
+                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090264",
+                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0031": [
+            {
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090264",
+                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090264",
+                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0065": [
+            {
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090264",
+                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090264",
+                "title": "ELSA-2009-0264:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0397": [
             {
                 "date": "2009-02-06",
                 "def_id": "oval:com.oracle.elsa:def:20090271",
@@ -700,7 +700,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-0397": [
+        "CVE-2009-0386": [
             {
                 "date": "2009-02-06",
                 "def_id": "oval:com.oracle.elsa:def:20090271",

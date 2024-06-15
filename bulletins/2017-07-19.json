@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2017-06-22",
     "patch_wednesday_start_date_ts": 1498078800,
     "patch_wednesday_end_date": "2017-07-19",
-    "patch_wednesday_end_date_ts": 1500411600,
+    "patch_wednesday_end_date_ts": 1500497999,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2012-6706": [
@@ -726,6 +726,57 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2016-6329": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:332439191307913549112327626770004227432",
+                "title": "CVE-2016-6329 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:332439191307913549112327626770004227432",
+                "title": "CVE-2016-6329 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:332439191307913549112327626770004227432",
+                "title": "CVE-2016-6329 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.trusty:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.xenial:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.trusty:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.xenial:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2017-1000083": [
             {
                 "date": "2024-05-15",
@@ -1333,6 +1384,253 @@
             },
             {
                 "date": "2017-09-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-1000368": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:138955684367945687506484864822529919250",
+                "title": "CVE-2017-1000368 sudo",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:138955684367945687506484864822529919250",
+                "title": "CVE-2017-1000368 sudo",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:138955684367945687506484864822529919250",
+                "title": "CVE-2017-1000368 sudo",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-05-29",
+                "def_id": "oval:com.ubuntu.trusty:def:39682000000",
+                "title": "USN-3968-2 -- Sudo vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-05-06",
+                "def_id": "oval:com.ubuntu.xenial:def:39681000000",
+                "title": "USN-3968-1 -- Sudo vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-05-29",
+                "def_id": "oval:com.ubuntu.trusty:def:39682000000",
+                "title": "USN-3968-2 -- Sudo vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2019-05-06",
+                "def_id": "oval:com.ubuntu.xenial:def:39681000000",
+                "title": "USN-3968-1 -- Sudo vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-23",
+                "def_id": "oval:com.oracle.elsa:def:20171574",
+                "title": "ELSA-2017-1574:  sudo security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-06-23",
+                "def_id": "oval:com.oracle.elsa:def:20171574",
+                "title": "ELSA-2017-1574:  sudo security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-06-23",
+                "def_id": "oval:com.oracle.elsa:def:20171574",
+                "title": "ELSA-2017-1574:  sudo security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2017-06-23",
+                "def_id": "oval:com.oracle.elsa:def:20171574",
+                "title": "ELSA-2017-1574:  sudo security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.redhat.rhsa:def:20171574",
+                "title": "RHSA-2017:1574: sudo security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2017-07-03",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -3404,6 +3702,78 @@
             },
             {
                 "date": "2017-07-09",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-11109": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70478182692464051285985980059724330056",
+                "title": "CVE-2017-11109 vim",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70478182692464051285985980059724330056",
+                "title": "CVE-2017-11109 vim",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70478182692464051285985980059724330056",
+                "title": "CVE-2017-11109 vim",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-03-23",
+                "def_id": "oval:com.ubuntu.bionic:def:43091000000",
+                "title": "USN-4309-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-23",
+                "def_id": "oval:com.ubuntu.trusty:def:43091000000",
+                "title": "USN-4309-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-23",
+                "def_id": "oval:com.ubuntu.xenial:def:43091000000",
+                "title": "USN-4309-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-23",
+                "def_id": "oval:com.ubuntu.bionic:def:43091000000",
+                "title": "USN-4309-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-23",
+                "def_id": "oval:com.ubuntu.trusty:def:43091000000",
+                "title": "USN-4309-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-23",
+                "def_id": "oval:com.ubuntu.xenial:def:43091000000",
+                "title": "USN-4309-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-07-19",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -10058,6 +10428,752 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2017-3167": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "CVE-2017-3167 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "CVE-2017-3167 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "CVE-2017-3167 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:28527739036069914537860057933958465263",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:28527739036069914537860057933958465263",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.trusty:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.xenial:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.trusty:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.xenial:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173195",
+                "title": "RHSA-2017:3195: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-16",
+                "def_id": "oval:com.redhat.rhsa:def:20172483",
+                "title": "RHSA-2017:2483: httpd24-httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-16",
+                "def_id": "oval:com.redhat.rhsa:def:20172483",
+                "title": "RHSA-2017:2483: httpd24-httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-3169": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "CVE-2017-3169 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "CVE-2017-3169 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "CVE-2017-3169 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:28527739036069914537860057933958465263",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:28527739036069914537860057933958465263",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.trusty:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.xenial:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.trusty:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.xenial:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173195",
+                "title": "RHSA-2017:3195: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-16",
+                "def_id": "oval:com.redhat.rhsa:def:20172483",
+                "title": "RHSA-2017:2483: httpd24-httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-16",
+                "def_id": "oval:com.redhat.rhsa:def:20172483",
+                "title": "RHSA-2017:2483: httpd24-httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            }
+        ],
         "CVE-2017-5577": [
             {
                 "date": "2024-05-15",
@@ -10556,6 +11672,113 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             }
         ],
+        "CVE-2017-7508": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "CVE-2017-7508 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "CVE-2017-7508 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "CVE-2017-7508 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:58028099793877533224751625850537320385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:58028099793877533224751625850537320385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.trusty:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.xenial:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.trusty:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.xenial:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2017-7511": [
             {
                 "date": "2024-05-15",
@@ -10654,6 +11877,227 @@
                 "date": "2017-07-07",
                 "def_id": "oval:com.ubuntu.xenial:def:33501000000",
                 "title": "USN-3350-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-7520": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "CVE-2017-7520 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "CVE-2017-7520 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "CVE-2017-7520 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:58028099793877533224751625850537320385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:58028099793877533224751625850537320385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.trusty:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.xenial:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.trusty:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.xenial:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-7521": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "CVE-2017-7521 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "CVE-2017-7521 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "CVE-2017-7521 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:58028099793877533224751625850537320385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:275837759444534758732491605856516579400",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:210047797198055853825734021685051102142",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:46095323613537167725000406948450623385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-27",
+                "def_id": "oval:org.debian:def:58028099793877533224751625850537320385",
+                "title": "DSA-3900-1 openvpn",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.trusty:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.xenial:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.trusty:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:com.ubuntu.xenial:def:33391000000",
+                "title": "USN-3339-1 -- OpenVPN vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
@@ -10947,6 +12391,703 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-7668": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "CVE-2017-7668 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "CVE-2017-7668 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "CVE-2017-7668 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:28527739036069914537860057933958465263",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:28527739036069914537860057933958465263",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.trusty:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.xenial:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.trusty:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.xenial:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2017-08-16",
+                "def_id": "oval:com.redhat.rhsa:def:20172483",
+                "title": "RHSA-2017:2483: httpd24-httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-16",
+                "def_id": "oval:com.redhat.rhsa:def:20172483",
+                "title": "RHSA-2017:2483: httpd24-httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-7679": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "CVE-2017-7679 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "CVE-2017-7679 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "CVE-2017-7679 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:28527739036069914537860057933958465263",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:53562729905023068261642188890079727162",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:138018186941150836713009217555496220962",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:108653432823987750902356931395794549052",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:65562593200881047642002827609622224514",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:28527739036069914537860057933958465263",
+                "title": "DSA-3896-1 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.trusty:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.xenial:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.trusty:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-26",
+                "def_id": "oval:com.ubuntu.xenial:def:33401000000",
+                "title": "USN-3340-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172478",
+                "title": "ELSA-2017-2478:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.oracle.elsa:def:20172479",
+                "title": "ELSA-2017-2479:  httpd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173195",
+                "title": "RHSA-2017:3195: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172478",
+                "title": "RHSA-2017:2478: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-16",
+                "def_id": "oval:com.redhat.rhsa:def:20172483",
+                "title": "RHSA-2017:2483: httpd24-httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173193",
+                "title": "RHSA-2017:3193: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.redhat.rhsa:def:20173194",
+                "title": "RHSA-2017:3194: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-15",
+                "def_id": "oval:com.redhat.rhsa:def:20172479",
+                "title": "RHSA-2017:2479: httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2017-08-16",
+                "def_id": "oval:com.redhat.rhsa:def:20172483",
+                "title": "RHSA-2017:2483: httpd24-httpd security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
             }
         ],
         "CVE-2017-8310": [
@@ -15103,6 +17244,43 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2017-9780": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:38305903248211090360524941359402685758",
+                "title": "CVE-2017-9780 flatpak",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:38305903248211090360524941359402685758",
+                "title": "CVE-2017-9780 flatpak",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:38305903248211090360524941359402685758",
+                "title": "CVE-2017-9780 flatpak",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:38305903248211090360524941359402685758",
+                "title": "DSA-3895-1 flatpak",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "oval:org.debian:def:304330346921960915459207835459966111918",
+                "title": "DSA-3895-1 flatpak",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            }
+        ],
         "CVE-2017-9788": [
             {
                 "date": "2024-05-15",
@@ -16690,7 +18868,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-3080": [
+        "CVE-2017-3099": [
             {
                 "date": "2017-07-12",
                 "def_id": "oval:com.redhat.rhsa:def:20171731",
@@ -16713,7 +18891,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-3099": [
+        "CVE-2017-3080": [
             {
                 "date": "2017-07-12",
                 "def_id": "oval:com.redhat.rhsa:def:20171731",

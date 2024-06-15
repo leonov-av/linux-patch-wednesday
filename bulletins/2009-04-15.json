@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2009-03-19",
     "patch_wednesday_start_date_ts": 1237410000,
     "patch_wednesday_end_date": "2009-04-15",
-    "patch_wednesday_end_date_ts": 1239739200,
+    "patch_wednesday_end_date_ts": 1239825599,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2007-6725": [
@@ -83,6 +83,43 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2008-5086": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128503292972180289139394579271093397578",
+                "title": "CVE-2008-5086 libvirt",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128503292972180289139394579271093397578",
+                "title": "CVE-2008-5086 libvirt",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128503292972180289139394579271093397578",
+                "title": "CVE-2008-5086 libvirt",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090382",
+                "title": "ELSA-2009-0382:  libvirt security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090382",
+                "title": "ELSA-2009-0382:  libvirt security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2008-6679": [
             {
                 "date": "2024-05-15",
@@ -116,6 +153,80 @@
                 "date": "2009-04-14",
                 "def_id": "oval:com.oracle.elsa:def:20090421",
                 "title": "ELSA-2009-0421:  ghostscript security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0036": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:175206042076123559566577326424735949559",
+                "title": "CVE-2009-0036 libvirt",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:175206042076123559566577326424735949559",
+                "title": "CVE-2009-0036 libvirt",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:175206042076123559566577326424735949559",
+                "title": "CVE-2009-0036 libvirt",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090382",
+                "title": "ELSA-2009-0382:  libvirt security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090382",
+                "title": "ELSA-2009-0382:  libvirt security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0037": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:43586772625698701112063466345963344248",
+                "title": "CVE-2009-0037 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:43586772625698701112063466345963344248",
+                "title": "CVE-2009-0037 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:43586772625698701112063466345963344248",
+                "title": "CVE-2009-0037 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090341",
+                "title": "ELSA-2009-0341:  curl security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090341",
+                "title": "ELSA-2009-0341:  curl security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
@@ -285,6 +396,122 @@
                 "date": "2009-03-25",
                 "def_id": "oval:com.oracle.elsa:def:20090361",
                 "title": "ELSA-2009-0361:  NetworkManager security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0583": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185747991631029017482532509650920856297",
+                "title": "CVE-2009-0583 argyll",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:230274229354222622539628155224755629860",
+                "title": "CVE-2009-0583 ghostscript",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185747991631029017482532509650920856297",
+                "title": "CVE-2009-0583 argyll",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:230274229354222622539628155224755629860",
+                "title": "CVE-2009-0583 ghostscript",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185747991631029017482532509650920856297",
+                "title": "CVE-2009-0583 argyll",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:230274229354222622539628155224755629860",
+                "title": "CVE-2009-0583 ghostscript",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090345",
+                "title": "ELSA-2009-0345:  ghostscript security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090345",
+                "title": "ELSA-2009-0345:  ghostscript security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0584": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:295334184976766975464044013004394598680",
+                "title": "CVE-2009-0584 argyll",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:257929948231149112758641848224780012213",
+                "title": "CVE-2009-0584 ghostscript",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:295334184976766975464044013004394598680",
+                "title": "CVE-2009-0584 argyll",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:257929948231149112758641848224780012213",
+                "title": "CVE-2009-0584 ghostscript",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:295334184976766975464044013004394598680",
+                "title": "CVE-2009-0584 argyll",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:257929948231149112758641848224780012213",
+                "title": "CVE-2009-0584 ghostscript",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090345",
+                "title": "ELSA-2009-0345:  ghostscript security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090345",
+                "title": "ELSA-2009-0345:  ghostscript security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
@@ -532,6 +759,38 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2009-0269": [
+            {
+                "date": "2009-04-01",
+                "def_id": "oval:com.oracle.elsa:def:20090326",
+                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-01",
+                "def_id": "oval:com.oracle.elsa:def:20090326",
+                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0778": [
+            {
+                "date": "2009-04-01",
+                "def_id": "oval:com.oracle.elsa:def:20090326",
+                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-01",
+                "def_id": "oval:com.oracle.elsa:def:20090326",
+                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2009-0676": [
             {
                 "date": "2009-04-01",
@@ -564,71 +823,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-0028": [
-            {
-                "date": "2009-04-01",
-                "def_id": "oval:com.oracle.elsa:def:20090326",
-                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-01",
-                "def_id": "oval:com.oracle.elsa:def:20090326",
-                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2008-3528": [
-            {
-                "date": "2009-04-01",
-                "def_id": "oval:com.oracle.elsa:def:20090326",
-                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-01",
-                "def_id": "oval:com.oracle.elsa:def:20090326",
-                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0778": [
-            {
-                "date": "2009-04-01",
-                "def_id": "oval:com.oracle.elsa:def:20090326",
-                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-01",
-                "def_id": "oval:com.oracle.elsa:def:20090326",
-                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0269": [
-            {
-                "date": "2009-04-01",
-                "def_id": "oval:com.oracle.elsa:def:20090326",
-                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-01",
-                "def_id": "oval:com.oracle.elsa:def:20090326",
-                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0675": [
             {
                 "date": "2009-04-01",
                 "def_id": "oval:com.oracle.elsa:def:20090326",
@@ -660,7 +855,55 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2009-0675": [
+            {
+                "date": "2009-04-01",
+                "def_id": "oval:com.oracle.elsa:def:20090326",
+                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-01",
+                "def_id": "oval:com.oracle.elsa:def:20090326",
+                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0028": [
+            {
+                "date": "2009-04-01",
+                "def_id": "oval:com.oracle.elsa:def:20090326",
+                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-01",
+                "def_id": "oval:com.oracle.elsa:def:20090326",
+                "title": "ELSA-2009-0326:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2008-3658": [
+            {
+                "date": "2009-04-06",
+                "def_id": "oval:com.oracle.elsa:def:20090338",
+                "title": "ELSA-2009-0338:  php security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-06",
+                "def_id": "oval:com.oracle.elsa:def:20090338",
+                "title": "ELSA-2009-0338:  php security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2008-5498": [
             {
                 "date": "2009-04-06",
                 "def_id": "oval:com.oracle.elsa:def:20090338",
@@ -708,22 +951,6 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2008-5498": [
-            {
-                "date": "2009-04-06",
-                "def_id": "oval:com.oracle.elsa:def:20090338",
-                "title": "ELSA-2009-0338:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-06",
-                "def_id": "oval:com.oracle.elsa:def:20090338",
-                "title": "ELSA-2009-0338:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2009-0754": [
             {
                 "date": "2009-04-06",
@@ -756,6 +983,96 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2009-0581": [
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090339",
+                "title": "ELSA-2009-0339:  lcms security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090339",
+                "title": "ELSA-2009-0339:  lcms security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0723": [
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090339",
+                "title": "ELSA-2009-0339:  lcms security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090339",
+                "title": "ELSA-2009-0339:  lcms security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0733": [
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090339",
+                "title": "ELSA-2009-0339:  lcms security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-03-19",
+                "def_id": "oval:com.oracle.elsa:def:20090339",
+                "title": "ELSA-2009-0339:  lcms security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
         "CVE-2009-0586": [
             {
                 "date": "2009-04-06",
@@ -772,7 +1089,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2006-2426": [
+        "CVE-2009-0793": [
             {
                 "date": "2009-04-07",
                 "def_id": "oval:com.oracle.elsa:def:20090377",
@@ -804,71 +1121,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-1101": [
-            {
-                "date": "2009-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20090377",
-                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20090377",
-                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-0793": [
-            {
-                "date": "2009-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20090377",
-                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20090377",
-                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-1096": [
-            {
-                "date": "2009-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20090377",
-                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20090377",
-                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-1095": [
-            {
-                "date": "2009-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20090377",
-                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
-            },
-            {
-                "date": "2009-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20090377",
-                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2009-1098": [
+        "CVE-2009-1094": [
             {
                 "date": "2009-04-07",
                 "def_id": "oval:com.oracle.elsa:def:20090377",
@@ -916,7 +1169,71 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2009-1094": [
+        "CVE-2009-1101": [
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2006-2426": [
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-1098": [
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-1095": [
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20090377",
+                "title": "ELSA-2009-0377:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-1096": [
             {
                 "date": "2009-04-07",
                 "def_id": "oval:com.oracle.elsa:def:20090377",

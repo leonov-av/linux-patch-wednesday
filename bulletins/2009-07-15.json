@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2009-06-18",
     "patch_wednesday_start_date_ts": 1245268800,
     "patch_wednesday_end_date": "2009-07-15",
-    "patch_wednesday_end_date_ts": 1247601600,
+    "patch_wednesday_end_date_ts": 1247687999,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2009-0153": [
@@ -42,6 +42,43 @@
                 "date": "2009-06-25",
                 "def_id": "oval:com.oracle.elsa:def:20091122",
                 "title": "ELSA-2009-1122:  icu security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2009-0688": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:184294769217105735343632619814357777299",
+                "title": "CVE-2009-0688 cyrus-sasl2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:184294769217105735343632619814357777299",
+                "title": "CVE-2009-0688 cyrus-sasl2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:184294769217105735343632619814357777299",
+                "title": "CVE-2009-0688 cyrus-sasl2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2009-06-18",
+                "def_id": "oval:com.oracle.elsa:def:20091116",
+                "title": "ELSA-2009-1116:  cyrus-imapd security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-06-18",
+                "def_id": "oval:com.oracle.elsa:def:20091116",
+                "title": "ELSA-2009-1116:  cyrus-imapd security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }

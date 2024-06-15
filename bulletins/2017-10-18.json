@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2017-09-21",
     "patch_wednesday_start_date_ts": 1505941200,
     "patch_wednesday_end_date": "2017-10-18",
-    "patch_wednesday_end_date_ts": 1508274000,
+    "patch_wednesday_end_date_ts": 1508360399,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2015-8749": [
@@ -480,6 +480,64 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
             }
         ],
+        "CVE-2017-10140": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:263794361466666195575882464255102043500",
+                "title": "CVE-2017-10140 db5.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:263794361466666195575882464255102043500",
+                "title": "CVE-2017-10140 db5.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:263794361466666195575882464255102043500",
+                "title": "CVE-2017-10140 db5.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-11-21",
+                "def_id": "oval:com.ubuntu.trusty:def:34891000000",
+                "title": "USN-3489-1 -- Berkeley DB vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-21",
+                "def_id": "oval:com.ubuntu.xenial:def:34891000000",
+                "title": "USN-3489-1 -- Berkeley DB vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-21",
+                "def_id": "oval:com.ubuntu.trusty:def:34891000000",
+                "title": "USN-3489-1 -- Berkeley DB vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-21",
+                "def_id": "oval:com.ubuntu.xenial:def:34891000000",
+                "title": "USN-3489-1 -- Berkeley DB vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2017-11499": [
             {
                 "date": "2024-05-15",
@@ -529,6 +587,908 @@
                 "title": "RHSA-2017:3002: rh-nodejs4-nodejs security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-12150": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "CVE-2017-12150 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "CVE-2017-12150 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "CVE-2017-12150 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:170486474661173302321991007139245913850",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:170486474661173302321991007139245913850",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.trusty:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.trusty:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172789",
+                "title": "ELSA-2017-2789:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172791",
+                "title": "ELSA-2017-2791:  samba4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172789",
+                "title": "ELSA-2017-2789:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172791",
+                "title": "ELSA-2017-2791:  samba4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172789",
+                "title": "ELSA-2017-2789:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172791",
+                "title": "ELSA-2017-2791:  samba4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172789",
+                "title": "RHSA-2017:2789: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172791",
+                "title": "RHSA-2017:2791: samba4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172789",
+                "title": "RHSA-2017:2789: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172791",
+                "title": "RHSA-2017:2791: samba4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172789",
+                "title": "RHSA-2017:2789: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172791",
+                "title": "RHSA-2017:2791: samba4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-25",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-12151": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "CVE-2017-12151 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "CVE-2017-12151 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "CVE-2017-12151 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:170486474661173302321991007139245913850",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:170486474661173302321991007139245913850",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.trusty:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.trusty:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-12163": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "CVE-2017-12163 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "CVE-2017-12163 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "CVE-2017-12163 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:170486474661173302321991007139245913850",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:122866978833347104838699409972527278085",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:73736820630029440967653991021226437591",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:281052247679655949889273534874701402353",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-22",
+                "def_id": "oval:org.debian:def:170486474661173302321991007139245913850",
+                "title": "DSA-3983-1 samba",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.trusty:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.trusty:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.ubuntu.xenial:def:34261000000",
+                "title": "USN-3426-1 -- Samba vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172789",
+                "title": "ELSA-2017-2789:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172791",
+                "title": "ELSA-2017-2791:  samba4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2017.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172789",
+                "title": "ELSA-2017-2789:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172791",
+                "title": "ELSA-2017-2791:  samba4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172789",
+                "title": "ELSA-2017-2789:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172791",
+                "title": "ELSA-2017-2791:  samba4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2017-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20172790",
+                "title": "ELSA-2017-2790:  samba security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172789",
+                "title": "RHSA-2017:2789: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172791",
+                "title": "RHSA-2017:2791: samba4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172789",
+                "title": "RHSA-2017:2789: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172791",
+                "title": "RHSA-2017:2791: samba4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172789",
+                "title": "RHSA-2017:2789: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172791",
+                "title": "RHSA-2017:2791: samba4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172790",
+                "title": "RHSA-2017:2790: samba security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-25",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2017-12176": [
@@ -4182,6 +5142,99 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2017-12837": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:333640133668956858066191795206690361258",
+                "title": "CVE-2017-12837 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:333640133668956858066191795206690361258",
+                "title": "CVE-2017-12837 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:333640133668956858066191795206690361258",
+                "title": "CVE-2017-12837 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:333640133668956858066191795206690361258",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:160485150030863966849810192570085769231",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:102200169981430878767698622570310648596",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:333640133668956858066191795206690361258",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:160485150030863966849810192570085769231",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:102200169981430878767698622570310648596",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.ubuntu.trusty:def:34781000000",
+                "title": "USN-3478-1 -- Perl vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:34781000000",
+                "title": "USN-3478-1 -- Perl vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.ubuntu.trusty:def:34781000000",
+                "title": "USN-3478-1 -- Perl vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:34781000000",
+                "title": "USN-3478-1 -- Perl vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2017-12862": [
             {
                 "date": "2024-05-15",
@@ -4342,6 +5395,99 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-12883": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:160485150030863966849810192570085769231",
+                "title": "CVE-2017-12883 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:160485150030863966849810192570085769231",
+                "title": "CVE-2017-12883 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:160485150030863966849810192570085769231",
+                "title": "CVE-2017-12883 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:333640133668956858066191795206690361258",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:160485150030863966849810192570085769231",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:102200169981430878767698622570310648596",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:333640133668956858066191795206690361258",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:160485150030863966849810192570085769231",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:org.debian:def:102200169981430878767698622570310648596",
+                "title": "DSA-3982-1 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.ubuntu.trusty:def:34781000000",
+                "title": "USN-3478-1 -- Perl vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:34781000000",
+                "title": "USN-3478-1 -- Perl vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.ubuntu.trusty:def:34781000000",
+                "title": "USN-3478-1 -- Perl vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:34781000000",
+                "title": "USN-3478-1 -- Perl vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2017-13077": [
@@ -25705,253 +26851,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2017-14033": [
-            {
-                "date": "2017-11-11",
-                "def_id": "oval:org.debian:def:261385261012198114281101127243334678066",
-                "title": "DSA-4031-1 ruby2.3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
-            },
-            {
-                "date": "2017-11-11",
-                "def_id": "oval:org.debian:def:133982290129693372342390973105307172560",
-                "title": "DSA-4031-1 ruby2.3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
-            },
-            {
-                "date": "2017-11-11",
-                "def_id": "oval:org.debian:def:173823877513702098659218472761293154563",
-                "title": "DSA-4031-1 ruby2.3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
-            },
-            {
-                "date": "2017-11-11",
-                "def_id": "oval:org.debian:def:283305229591472964042691664397573151929",
-                "title": "DSA-4031-1 ruby2.3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
-            },
-            {
-                "date": "2017-11-11",
-                "def_id": "oval:org.debian:def:117004161315788786147347659812553108693",
-                "title": "DSA-4031-1 ruby2.3",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
-            },
-            {
-                "date": "2017-10-05",
-                "def_id": "oval:com.ubuntu.trusty:def:34391000000",
-                "title": "USN-3439-1 -- Ruby vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-01-10",
-                "def_id": "oval:com.ubuntu.trusty:def:35281000000",
-                "title": "USN-3528-1 -- Ruby vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-01-10",
-                "def_id": "oval:com.ubuntu.xenial:def:35281000000",
-                "title": "USN-3528-1 -- Ruby vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2017-10-05",
-                "def_id": "oval:com.ubuntu.trusty:def:34391000000",
-                "title": "USN-3439-1 -- Ruby vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-01-10",
-                "def_id": "oval:com.ubuntu.trusty:def:35281000000",
-                "title": "USN-3528-1 -- Ruby vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-01-10",
-                "def_id": "oval:com.ubuntu.xenial:def:35281000000",
-                "title": "USN-3528-1 -- Ruby vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20180378",
-                "title": "ELSA-2018-0378:  ruby security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2018.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20180378",
-                "title": "ELSA-2018-0378:  ruby security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20180378",
-                "title": "ELSA-2018-0378:  ruby security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2018-03-26",
-                "def_id": "oval:com.redhat.rhsa:def:20180583",
-                "title": "RHSA-2018:0583: rh-ruby22-ruby security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2018-03-26",
-                "def_id": "oval:com.redhat.rhsa:def:20180585",
-                "title": "RHSA-2018:0585: rh-ruby23-ruby security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2018-02-28",
-                "def_id": "oval:com.redhat.rhsa:def:20180378",
-                "title": "RHSA-2018:0378: ruby security update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2018-03-26",
-                "def_id": "oval:com.redhat.rhsa:def:20180583",
-                "title": "RHSA-2018:0583: rh-ruby22-ruby security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2018-03-26",
-                "def_id": "oval:com.redhat.rhsa:def:20180585",
-                "title": "RHSA-2018:0585: rh-ruby23-ruby security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2017-09-27",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
         "CVE-2017-10784": [
             {
                 "date": "2017-11-11",
@@ -26502,7 +27401,254 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2017-5121": [
+        "CVE-2017-14033": [
+            {
+                "date": "2017-11-11",
+                "def_id": "oval:org.debian:def:261385261012198114281101127243334678066",
+                "title": "DSA-4031-1 ruby2.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-11-11",
+                "def_id": "oval:org.debian:def:133982290129693372342390973105307172560",
+                "title": "DSA-4031-1 ruby2.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-11-11",
+                "def_id": "oval:org.debian:def:173823877513702098659218472761293154563",
+                "title": "DSA-4031-1 ruby2.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-11-11",
+                "def_id": "oval:org.debian:def:283305229591472964042691664397573151929",
+                "title": "DSA-4031-1 ruby2.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-11-11",
+                "def_id": "oval:org.debian:def:117004161315788786147347659812553108693",
+                "title": "DSA-4031-1 ruby2.3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2017-10-05",
+                "def_id": "oval:com.ubuntu.trusty:def:34391000000",
+                "title": "USN-3439-1 -- Ruby vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-01-10",
+                "def_id": "oval:com.ubuntu.trusty:def:35281000000",
+                "title": "USN-3528-1 -- Ruby vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-01-10",
+                "def_id": "oval:com.ubuntu.xenial:def:35281000000",
+                "title": "USN-3528-1 -- Ruby vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-05",
+                "def_id": "oval:com.ubuntu.trusty:def:34391000000",
+                "title": "USN-3439-1 -- Ruby vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-01-10",
+                "def_id": "oval:com.ubuntu.trusty:def:35281000000",
+                "title": "USN-3528-1 -- Ruby vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-01-10",
+                "def_id": "oval:com.ubuntu.xenial:def:35281000000",
+                "title": "USN-3528-1 -- Ruby vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20180378",
+                "title": "ELSA-2018-0378:  ruby security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2018.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20180378",
+                "title": "ELSA-2018-0378:  ruby security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20180378",
+                "title": "ELSA-2018-0378:  ruby security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2018-03-26",
+                "def_id": "oval:com.redhat.rhsa:def:20180583",
+                "title": "RHSA-2018:0583: rh-ruby22-ruby security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2018-03-26",
+                "def_id": "oval:com.redhat.rhsa:def:20180585",
+                "title": "RHSA-2018:0585: rh-ruby23-ruby security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-02-28",
+                "def_id": "oval:com.redhat.rhsa:def:20180378",
+                "title": "RHSA-2018:0378: ruby security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2018-03-26",
+                "def_id": "oval:com.redhat.rhsa:def:20180583",
+                "title": "RHSA-2018:0583: rh-ruby22-ruby security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2018-03-26",
+                "def_id": "oval:com.redhat.rhsa:def:20180585",
+                "title": "RHSA-2018:0585: rh-ruby23-ruby security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-5122": [
             {
                 "date": "2017-09-28",
                 "def_id": "oval:org.debian:def:154449976897056218407113241466969695107",
@@ -26616,7 +27762,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2017-5122": [
+        "CVE-2017-5121": [
             {
                 "date": "2017-09-28",
                 "def_id": "oval:org.debian:def:154449976897056218407113241466969695107",
@@ -26795,7 +27941,37 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2017-7816": [
+        "CVE-2017-7811": [
+            {
+                "date": "2017-10-02",
+                "def_id": "oval:com.ubuntu.trusty:def:34351000000",
+                "title": "USN-3435-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-02",
+                "def_id": "oval:com.ubuntu.xenial:def:34351000000",
+                "title": "USN-3435-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-02",
+                "def_id": "oval:com.ubuntu.trusty:def:34351000000",
+                "title": "USN-3435-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-02",
+                "def_id": "oval:com.ubuntu.xenial:def:34351000000",
+                "title": "USN-3435-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-7812": [
             {
                 "date": "2017-10-02",
                 "def_id": "oval:com.ubuntu.trusty:def:34351000000",
@@ -26855,67 +28031,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2017-7822": [
-            {
-                "date": "2017-10-02",
-                "def_id": "oval:com.ubuntu.trusty:def:34351000000",
-                "title": "USN-3435-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2017-10-02",
-                "def_id": "oval:com.ubuntu.xenial:def:34351000000",
-                "title": "USN-3435-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2017-10-02",
-                "def_id": "oval:com.ubuntu.trusty:def:34351000000",
-                "title": "USN-3435-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2017-10-02",
-                "def_id": "oval:com.ubuntu.xenial:def:34351000000",
-                "title": "USN-3435-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2017-7820": [
-            {
-                "date": "2017-10-02",
-                "def_id": "oval:com.ubuntu.trusty:def:34351000000",
-                "title": "USN-3435-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2017-10-02",
-                "def_id": "oval:com.ubuntu.xenial:def:34351000000",
-                "title": "USN-3435-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2017-10-02",
-                "def_id": "oval:com.ubuntu.trusty:def:34351000000",
-                "title": "USN-3435-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2017-10-02",
-                "def_id": "oval:com.ubuntu.xenial:def:34351000000",
-                "title": "USN-3435-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2017-7812": [
             {
                 "date": "2017-10-02",
                 "def_id": "oval:com.ubuntu.trusty:def:34351000000",
@@ -27005,7 +28121,37 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2017-7811": [
+        "CVE-2017-7822": [
+            {
+                "date": "2017-10-02",
+                "def_id": "oval:com.ubuntu.trusty:def:34351000000",
+                "title": "USN-3435-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-02",
+                "def_id": "oval:com.ubuntu.xenial:def:34351000000",
+                "title": "USN-3435-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-02",
+                "def_id": "oval:com.ubuntu.trusty:def:34351000000",
+                "title": "USN-3435-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-02",
+                "def_id": "oval:com.ubuntu.xenial:def:34351000000",
+                "title": "USN-3435-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-7816": [
             {
                 "date": "2017-10-02",
                 "def_id": "oval:com.ubuntu.trusty:def:34351000000",
@@ -27058,6 +28204,22 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2017-3452": [
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172787",
+                "title": "RHSA-2017:2787: rh-mysql56-mysql security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2017-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20172787",
+                "title": "RHSA-2017:2787: rh-mysql56-mysql security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            }
+        ],
         "CVE-2017-3646": [
             {
                 "date": "2017-10-12",
@@ -27099,6 +28261,24 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2017-14637": [
+            {
+                "date": "2017-10-08",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2017-14629": [
+            {
+                "date": "2017-10-08",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2017-14636": [
             {
                 "date": "2017-10-08",
@@ -27117,24 +28297,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2017-14629": [
-            {
-                "date": "2017-10-08",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2017-14628": [
-            {
-                "date": "2017-10-08",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
         "CVE-2017-14630": [
             {
                 "date": "2017-10-08",
@@ -27144,7 +28306,7 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2017-14637": [
+        "CVE-2017-14628": [
             {
                 "date": "2017-10-08",
                 "def_id": "debian",

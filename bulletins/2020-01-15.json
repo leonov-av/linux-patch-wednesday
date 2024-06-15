@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2019-12-19",
     "patch_wednesday_start_date_ts": 1576702800,
     "patch_wednesday_end_date": "2020-01-15",
-    "patch_wednesday_end_date_ts": 1579035600,
+    "patch_wednesday_end_date_ts": 1579121999,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2016-2090": [
@@ -15203,6 +15203,36 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
             }
         ],
+        "CVE-2019-19687": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:64698770600078541626072610136034773405",
+                "title": "CVE-2019-19687 keystone",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:64698770600078541626072610136034773405",
+                "title": "CVE-2019-19687 keystone",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2019-12-19",
+                "def_id": "oval:com.redhat.rhsa:def:20194358",
+                "title": "RHSA-2019:4358: openstack-keystone security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-15.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-06",
+                "def_id": "oval:com.redhat.rhea:def:20200283",
+                "title": "RHEA-2020:0283: Red Hat OpenStack Platform 16.0 GA (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openstack-16.oval.xml.bz2"
+            }
+        ],
         "CVE-2019-19709": [
             {
                 "date": "2024-05-15",
@@ -15245,6 +15275,176 @@
                 "title": "DSA-4592-1 mediawiki",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            }
+        ],
+        "CVE-2019-19783": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:268454183787783986150326501602988364789",
+                "title": "CVE-2019-19783 cyrus-imapd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:268454183787783986150326501602988364789",
+                "title": "CVE-2019-19783 cyrus-imapd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:268454183787783986150326501602988364789",
+                "title": "CVE-2019-19783 cyrus-imapd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-12-19",
+                "def_id": "oval:org.debian:def:125786324116836980393036584994097049334",
+                "title": "DSA-4590-1 cyrus-imapd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2019-12-19",
+                "def_id": "oval:org.debian:def:268454183787783986150326501602988364789",
+                "title": "DSA-4590-1 cyrus-imapd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2019-12-19",
+                "def_id": "oval:org.debian:def:125786324116836980393036584994097049334",
+                "title": "DSA-4590-1 cyrus-imapd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-stretch.xml.bz2"
+            },
+            {
+                "date": "2020-10-05",
+                "def_id": "oval:com.ubuntu.bionic:def:45661000000",
+                "title": "USN-4566-1 -- Cyrus IMAP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-05",
+                "def_id": "oval:com.ubuntu.bionic:def:45661000000",
+                "title": "USN-4566-1 -- Cyrus IMAP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204655",
+                "title": "ELSA-2020-4655:  cyrus-imapd security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204655",
+                "title": "ELSA-2020-4655:  cyrus-imapd security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204655",
+                "title": "ELSA-2020-4655:  cyrus-imapd security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204655",
+                "title": "RHSA-2020:4655: cyrus-imapd security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2019-19807": [
@@ -18062,6 +18262,99 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2020-5504": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:38188928539981106188413332936005379217",
+                "title": "CVE-2020-5504 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:38188928539981106188413332936005379217",
+                "title": "CVE-2020-5504 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2020-11-19",
+                "def_id": "oval:com.ubuntu.bionic:def:46391000000",
+                "title": "USN-4639-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.bionic:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.focal:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.trusty:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.xenial:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-19",
+                "def_id": "oval:com.ubuntu.bionic:def:46391000000",
+                "title": "USN-4639-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.bionic:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.focal:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.trusty:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-03-16",
+                "def_id": "oval:com.ubuntu.xenial:def:48431000000",
+                "title": "USN-4843-1 -- phpMyAdmin vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2020-6377": [
             {
                 "date": "2024-05-15",
@@ -19489,7 +19782,30 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2019-10401": [
+        "CVE-2019-10406": [
+            {
+                "date": "2020-01-14",
+                "def_id": "oval:com.redhat.rhba:def:20200017",
+                "title": "RHBA-2020:0017: OpenShift Container Platform 3.11 bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-23",
+                "def_id": "oval:com.redhat.rhba:def:20200063",
+                "title": "RHBA-2020:0063: OpenShift Container Platform 4.3 RPM release advisory (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
+            },
+            {
+                "date": "2020-01-23",
+                "def_id": "oval:com.redhat.rhba:def:20200063",
+                "title": "RHBA-2020:0063: OpenShift Container Platform 4.3 RPM release advisory (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
+            }
+        ],
+        "CVE-2019-10402": [
             {
                 "date": "2020-01-14",
                 "def_id": "oval:com.redhat.rhba:def:20200017",
@@ -19535,7 +19851,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
             }
         ],
-        "CVE-2019-10402": [
+        "CVE-2019-10401": [
             {
                 "date": "2020-01-14",
                 "def_id": "oval:com.redhat.rhba:def:20200017",
@@ -19604,27 +19920,13 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
             }
         ],
-        "CVE-2019-10406": [
+        "CVE-2019-19337": [
             {
-                "date": "2020-01-14",
-                "def_id": "oval:com.redhat.rhba:def:20200017",
-                "title": "RHBA-2020:0017: OpenShift Container Platform 3.11 bug fix and enhancement update (Moderate)",
+                "date": "2019-12-19",
+                "def_id": "oval:com.redhat.rhsa:def:20194353",
+                "title": "RHSA-2019:4353: Red Hat Ceph Storage security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-3.11.oval.xml.bz2"
-            },
-            {
-                "date": "2020-01-23",
-                "def_id": "oval:com.redhat.rhba:def:20200063",
-                "title": "RHBA-2020:0063: OpenShift Container Platform 4.3 RPM release advisory (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
-            },
-            {
-                "date": "2020-01-23",
-                "def_id": "oval:com.redhat.rhba:def:20200063",
-                "title": "RHBA-2020:0063: OpenShift Container Platform 4.3 RPM release advisory (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/storage-ceph-3.oval.xml.bz2"
             }
         ]
     }

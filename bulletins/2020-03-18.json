@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2020-02-20",
     "patch_wednesday_start_date_ts": 1582146000,
     "patch_wednesday_end_date": "2020-03-18",
-    "patch_wednesday_end_date_ts": 1584478800,
+    "patch_wednesday_end_date_ts": 1584565199,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2014-6262": [
@@ -468,6 +468,225 @@
             },
             {
                 "date": "2020-02-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2019-12528": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:248981929618107291595216315111303856531",
+                "title": "CVE-2019-12528 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:248981929618107291595216315111303856531",
+                "title": "CVE-2019-12528 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:248981929618107291595216315111303856531",
+                "title": "CVE-2019-12528 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-05-08",
+                "def_id": "oval:org.debian:def:93431486525929991245705920687248296063",
+                "title": "DSA-4682-1 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.bionic:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.xenial:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.bionic:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.xenial:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204743",
+                "title": "ELSA-2020-4743:  squid:4 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204743",
+                "title": "ELSA-2020-4743:  squid:4 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:org.almalinux.alsa:def:20204743",
+                "title": "ALSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-11",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -14713,6 +14932,495 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2020-8449": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:115732680700286897941869851871927969314",
+                "title": "CVE-2020-8449 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:115732680700286897941869851871927969314",
+                "title": "CVE-2020-8449 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:115732680700286897941869851871927969314",
+                "title": "CVE-2020-8449 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-05-08",
+                "def_id": "oval:org.debian:def:93431486525929991245705920687248296063",
+                "title": "DSA-4682-1 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.bionic:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.xenial:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.bionic:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.xenial:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204743",
+                "title": "ELSA-2020-4743:  squid:4 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204743",
+                "title": "ELSA-2020-4743:  squid:4 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:org.almalinux.alsa:def:20204743",
+                "title": "ALSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-8450": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:87776206660911670320432157525774158498",
+                "title": "CVE-2020-8450 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:87776206660911670320432157525774158498",
+                "title": "CVE-2020-8450 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:87776206660911670320432157525774158498",
+                "title": "CVE-2020-8450 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-05-08",
+                "def_id": "oval:org.debian:def:93431486525929991245705920687248296063",
+                "title": "DSA-4682-1 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.bionic:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.xenial:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.bionic:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.xenial:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204743",
+                "title": "ELSA-2020-4743:  squid:4 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20204082",
+                "title": "ELSA-2020-4082:  squid security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2020-11-10",
+                "def_id": "oval:com.oracle.elsa:def:20204743",
+                "title": "ELSA-2020-4743:  squid:4 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:org.almalinux.alsa:def:20204743",
+                "title": "ALSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2020-09-30",
+                "def_id": "oval:com.redhat.rhsa:def:20204082",
+                "title": "RHSA-2020:4082: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2020-11-04",
+                "def_id": "oval:com.redhat.rhsa:def:20204743",
+                "title": "RHSA-2020:4743: squid:4 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2020-07-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-8517": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:321309112586440113894350488059253920250",
+                "title": "CVE-2020-8517 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:321309112586440113894350488059253920250",
+                "title": "CVE-2020-8517 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:321309112586440113894350488059253920250",
+                "title": "CVE-2020-8517 squid",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.bionic:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.xenial:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.bionic:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-02-20",
+                "def_id": "oval:com.ubuntu.xenial:def:42891000000",
+                "title": "USN-4289-1 -- Squid vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-8631": [
             {
                 "date": "2024-05-15",
@@ -16718,7 +17426,7 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2020-6809": [
+        "CVE-2020-6810": [
             {
                 "date": "2020-03-11",
                 "def_id": "oval:com.ubuntu.bionic:def:42991000000",
@@ -16778,6 +17486,36 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
+        "CVE-2020-6813": [
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-11",
+                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
+                "title": "USN-4299-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            }
+        ],
         "CVE-2020-6808": [
             {
                 "date": "2020-03-11",
@@ -16808,37 +17546,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2020-6810": [
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.bionic:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-11",
-                "def_id": "oval:com.ubuntu.xenial:def:42991000000",
-                "title": "USN-4299-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2020-6813": [
+        "CVE-2020-6809": [
             {
                 "date": "2020-03-11",
                 "def_id": "oval:com.ubuntu.bionic:def:42991000000",
@@ -16990,22 +17698,6 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
             }
         ],
-        "CVE-2020-8661": [
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
-            },
-            {
-                "date": "2020-03-05",
-                "def_id": "oval:com.redhat.rhsa:def:20200734",
-                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
-            }
-        ],
         "CVE-2020-8659": [
             {
                 "date": "2020-03-05",
@@ -17027,6 +17719,22 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2020-8661": [
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/openshift-service-mesh-1.0.oval.xml.bz2"
+            },
+            {
+                "date": "2020-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20200734",
+                "title": "RHSA-2020:0734: Red Hat OpenShift Service Mesh 1.0.9 servicemesh-proxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/openshift-service-mesh-1.0.oval.xml.bz2"
             }
         ]
     }

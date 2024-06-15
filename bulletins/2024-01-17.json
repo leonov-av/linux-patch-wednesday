@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2023-12-21",
     "patch_wednesday_start_date_ts": 1703106000,
     "patch_wednesday_end_date": "2024-01-17",
-    "patch_wednesday_end_date_ts": 1705438800,
+    "patch_wednesday_end_date_ts": 1705525199,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2022-24775": [
@@ -4319,6 +4319,57 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2023-50186": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:56071257930617189046455980101824290995",
+                "title": "CVE-2023-50186 gst-plugins-bad1.0",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:94636014667153169743055836068974193912",
+                "title": "DSA-5583-1 gst-plugins-bad1.0",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-02",
+                "def_id": "oval:com.oracle.elsa:def:20242287",
+                "title": "ELSA-2024-2287:  gstreamer1-plugins-bad-free security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-05-02",
+                "def_id": "oval:com.oracle.elsa:def:20242287",
+                "title": "ELSA-2024-2287:  gstreamer1-plugins-bad-free security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-05-02",
+                "def_id": "oval:com.oracle.elsa:def:20242287",
+                "title": "ELSA-2024-2287:  gstreamer1-plugins-bad-free security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-04-30",
+                "def_id": "oval:org.almalinux.alsa:def:20242287",
+                "title": "ALSA-2024:2287: gstreamer1-plugins-bad-free security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20242287",
+                "title": "RHSA-2024:2287: gstreamer1-plugins-bad-free security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-50269": [
             {
                 "date": "2024-05-15",
@@ -4709,6 +4760,654 @@
             },
             {
                 "date": "2023-12-30",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2023-50761": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:97156522442063316073512759423304485708",
+                "title": "CVE-2023-50761 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:307956406602040770454606299105781657015",
+                "title": "DSA-5582-1 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:97156522442063316073512759423304485708",
+                "title": "CVE-2023-50761 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:307956406602040770454606299105781657015",
+                "title": "DSA-5582-1 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:97156522442063316073512759423304485708",
+                "title": "CVE-2023-50761 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.focal:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.jammy:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.mantic:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.focal:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.jammy:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.mantic:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240001",
+                "title": "ELSA-2024-0001:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240003",
+                "title": "ELSA-2024-0003:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.oracle.elsa:def:20240027",
+                "title": "ELSA-2024-0027:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240001",
+                "title": "ELSA-2024-0001:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240003",
+                "title": "ELSA-2024-0003:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.oracle.elsa:def:20240027",
+                "title": "ELSA-2024-0027:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.oracle.elsa:def:20240027",
+                "title": "ELSA-2024-0027:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240003",
+                "title": "ELSA-2024-0003:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240001",
+                "title": "ELSA-2024-0001:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:org.almalinux.alsa:def:20240003",
+                "title": "ALSA-2024:0003: thunderbird security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:org.almalinux.alsa:def:20240001",
+                "title": "ALSA-2024:0001: thunderbird security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240027",
+                "title": "RHSA-2024:0027: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240027",
+                "title": "RHSA-2024:0027: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240030",
+                "title": "RHSA-2024:0030: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240030",
+                "title": "RHSA-2024:0030: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240030",
+                "title": "RHSA-2024:0030: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240028",
+                "title": "RHSA-2024:0028: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240028",
+                "title": "RHSA-2024:0028: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240028",
+                "title": "RHSA-2024:0028: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240005",
+                "title": "RHSA-2024:0005: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240005",
+                "title": "RHSA-2024:0005: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240005",
+                "title": "RHSA-2024:0005: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240005",
+                "title": "RHSA-2024:0005: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240004",
+                "title": "RHSA-2024:0004: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240004",
+                "title": "RHSA-2024:0004: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240004",
+                "title": "RHSA-2024:0004: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240004",
+                "title": "RHSA-2024:0004: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240003",
+                "title": "RHSA-2024:0003: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240002",
+                "title": "RHSA-2024:0002: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240002",
+                "title": "RHSA-2024:0002: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240029",
+                "title": "RHSA-2024:0029: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240029",
+                "title": "RHSA-2024:0029: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240029",
+                "title": "RHSA-2024:0029: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240001",
+                "title": "RHSA-2024:0001: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2023-50762": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:268409101352442858225274991245564592918",
+                "title": "CVE-2023-50762 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:307956406602040770454606299105781657015",
+                "title": "DSA-5582-1 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:268409101352442858225274991245564592918",
+                "title": "CVE-2023-50762 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:307956406602040770454606299105781657015",
+                "title": "DSA-5582-1 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:268409101352442858225274991245564592918",
+                "title": "CVE-2023-50762 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.focal:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.jammy:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.mantic:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.focal:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.jammy:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.mantic:def:65631000000",
+                "title": "USN-6563-1 -- Thunderbird vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240001",
+                "title": "ELSA-2024-0001:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240003",
+                "title": "ELSA-2024-0003:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.oracle.elsa:def:20240027",
+                "title": "ELSA-2024-0027:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240001",
+                "title": "ELSA-2024-0001:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240003",
+                "title": "ELSA-2024-0003:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.oracle.elsa:def:20240027",
+                "title": "ELSA-2024-0027:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.oracle.elsa:def:20240027",
+                "title": "ELSA-2024-0027:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240003",
+                "title": "ELSA-2024-0003:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-01-03",
+                "def_id": "oval:com.oracle.elsa:def:20240001",
+                "title": "ELSA-2024-0001:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:org.almalinux.alsa:def:20240003",
+                "title": "ALSA-2024:0003: thunderbird security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:org.almalinux.alsa:def:20240001",
+                "title": "ALSA-2024:0001: thunderbird security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240027",
+                "title": "RHSA-2024:0027: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240027",
+                "title": "RHSA-2024:0027: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240030",
+                "title": "RHSA-2024:0030: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240030",
+                "title": "RHSA-2024:0030: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240030",
+                "title": "RHSA-2024:0030: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240028",
+                "title": "RHSA-2024:0028: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240028",
+                "title": "RHSA-2024:0028: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240028",
+                "title": "RHSA-2024:0028: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240005",
+                "title": "RHSA-2024:0005: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240005",
+                "title": "RHSA-2024:0005: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240005",
+                "title": "RHSA-2024:0005: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240005",
+                "title": "RHSA-2024:0005: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240004",
+                "title": "RHSA-2024:0004: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240004",
+                "title": "RHSA-2024:0004: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240004",
+                "title": "RHSA-2024:0004: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240004",
+                "title": "RHSA-2024:0004: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240003",
+                "title": "RHSA-2024:0003: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240002",
+                "title": "RHSA-2024:0002: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240002",
+                "title": "RHSA-2024:0002: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240029",
+                "title": "RHSA-2024:0029: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240029",
+                "title": "RHSA-2024:0029: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240029",
+                "title": "RHSA-2024:0029: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.redhat.rhsa:def:20240001",
+                "title": "RHSA-2024:0001: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-29",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -11741,6 +12440,64 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2023-6873": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:322014228511535377793197515381228249795",
+                "title": "CVE-2023-6873 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:307956406602040770454606299105781657015",
+                "title": "DSA-5582-1 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:322014228511535377793197515381228249795",
+                "title": "CVE-2023-6873 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:307956406602040770454606299105781657015",
+                "title": "DSA-5582-1 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:322014228511535377793197515381228249795",
+                "title": "CVE-2023-6873 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.focal:def:65621000000",
+                "title": "USN-6562-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.focal:def:65621000000",
+                "title": "USN-6562-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2023-6918": [
             {
                 "date": "2024-05-15",
@@ -13187,6 +13944,50 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2023-7024": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:108477763385161771590396966033864801501",
+                "title": "CVE-2023-7024 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:335343646390701603041892454338725870406",
+                "title": "DSA-5585-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:108477763385161771590396966033864801501",
+                "title": "CVE-2023-7024 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-12-21",
+                "def_id": "oval:org.debian:def:335343646390701603041892454338725870406",
+                "title": "DSA-5585-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:108477763385161771590396966033864801501",
+                "title": "CVE-2023-7024 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-03-28",
+                "def_id": "oval:redos:def:1341",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-7101": [
@@ -21921,23 +22722,7 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2023-6869": [
-            {
-                "date": "2024-01-02",
-                "def_id": "oval:com.ubuntu.focal:def:65621000000",
-                "title": "USN-6562-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-01-02",
-                "def_id": "oval:com.ubuntu.focal:def:65621000000",
-                "title": "USN-6562-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2023-6872": [
+        "CVE-2023-6866": [
             {
                 "date": "2024-01-02",
                 "def_id": "oval:com.ubuntu.focal:def:65621000000",
@@ -21969,7 +22754,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-6866": [
+        "CVE-2023-6872": [
             {
                 "date": "2024-01-02",
                 "def_id": "oval:com.ubuntu.focal:def:65621000000",
@@ -21985,7 +22770,23 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-40360": [
+        "CVE-2023-6869": [
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.focal:def:65621000000",
+                "title": "USN-6562-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-01-02",
+                "def_id": "oval:com.ubuntu.focal:def:65621000000",
+                "title": "USN-6562-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-4135": [
             {
                 "date": "2024-01-08",
                 "def_id": "oval:com.ubuntu.focal:def:65671000000",
@@ -22029,7 +22830,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2023-4135": [
+        "CVE-2023-40360": [
             {
                 "date": "2024-01-08",
                 "def_id": "oval:com.ubuntu.focal:def:65671000000",

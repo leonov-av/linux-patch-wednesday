@@ -6,7 +6,7 @@
     "patch_wednesday_start_date": "2021-09-16",
     "patch_wednesday_start_date_ts": 1631739600,
     "patch_wednesday_end_date": "2021-10-20",
-    "patch_wednesday_end_date_ts": 1634677200,
+    "patch_wednesday_end_date_ts": 1634763599,
     "status": "Released",
     "vulnerabilities": {
         "CVE-2016-10246": [
@@ -16464,6 +16464,512 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2021-3737": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:210406535531855129070656790736361833281",
+                "title": "CVE-2021-3737 pypy3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:210406535531855129070656790736361833281",
+                "title": "CVE-2021-3737 pypy3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:192476762338600680493626555326361638440",
+                "title": "CVE-2021-3737 python2.7",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:12808318267842554065092170287851685196",
+                "title": "CVE-2021-3737 python3.9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:210406535531855129070656790736361833281",
+                "title": "CVE-2021-3737 pypy3",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:192476762338600680493626555326361638440",
+                "title": "CVE-2021-3737 python2.7",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:9963420166838047372681348461771859993",
+                "title": "CVE-2021-3737 python3.7",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-12-17",
+                "def_id": "oval:com.ubuntu.bionic:def:51991000000",
+                "title": "USN-5199-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-12-17",
+                "def_id": "oval:com.ubuntu.bionic:def:52001000000",
+                "title": "USN-5200-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-12-17",
+                "def_id": "oval:com.ubuntu.focal:def:52011000000",
+                "title": "USN-5201-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.trusty:def:50831000000",
+                "title": "USN-5083-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.xenial:def:50831000000",
+                "title": "USN-5083-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-12-17",
+                "def_id": "oval:com.ubuntu.bionic:def:51991000000",
+                "title": "USN-5199-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-12-17",
+                "def_id": "oval:com.ubuntu.bionic:def:52001000000",
+                "title": "USN-5200-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-12-17",
+                "def_id": "oval:com.ubuntu.focal:def:52011000000",
+                "title": "USN-5201-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.trusty:def:50831000000",
+                "title": "USN-5083-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.xenial:def:50831000000",
+                "title": "USN-5083-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20214160",
+                "title": "ELSA-2021-4160:  python39:3.9 and python39-devel:3.9 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221764",
+                "title": "ELSA-2022-1764:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221821",
+                "title": "ELSA-2022-1821:  python27:2.7 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221986",
+                "title": "ELSA-2022-1986:  python3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2021-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20214160",
+                "title": "ELSA-2021-4160:  python39:3.9 and python39-devel:3.9 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221764",
+                "title": "ELSA-2022-1764:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221821",
+                "title": "ELSA-2022-1821:  python27:2.7 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221986",
+                "title": "ELSA-2022-1986:  python3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20214160",
+                "title": "ELSA-2021-4160:  python39:3.9 and python39-devel:3.9 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221764",
+                "title": "ELSA-2022-1764:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221821",
+                "title": "ELSA-2022-1821:  python27:2.7 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221986",
+                "title": "ELSA-2022-1986:  python3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:org.almalinux.alsa:def:20221764",
+                "title": "ALSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:org.almalinux.alsa:def:20221821",
+                "title": "ALSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:org.almalinux.alsa:def:20221986",
+                "title": "ALSA-2022:1986: python3 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:org.almalinux.alsa:def:20214160",
+                "title": "ALSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-05-02",
+                "def_id": "oval:com.redhat.rhsa:def:20221663",
+                "title": "RHSA-2022:1663: python27-python and python27-python-pip security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-02",
+                "def_id": "oval:com.redhat.rhsa:def:20221663",
+                "title": "RHSA-2022:1663: python27-python and python27-python-pip security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-09",
+                "def_id": "oval:com.redhat.rhsa:def:20214160",
+                "title": "RHSA-2021:4160: python39:3.9 and python39-devel:3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221764",
+                "title": "RHSA-2022:1764: python38:3.8 and python38-devel:3.8 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221821",
+                "title": "RHSA-2022:1821: python27:2.7 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221986",
+                "title": "RHSA-2022:1986: python3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2021-11-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2021-3739": [
             {
                 "date": "2024-05-15",
@@ -24121,6 +24627,190 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2021-40528": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:165202431454644947164609787883572636847",
+                "title": "CVE-2021-40528 libgcrypt20",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:165202431454644947164609787883572636847",
+                "title": "CVE-2021-40528 libgcrypt20",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:165202431454644947164609787883572636847",
+                "title": "CVE-2021-40528 libgcrypt20",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.bionic:def:50801000000",
+                "title": "USN-5080-1 -- Libgcrypt vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.focal:def:50801000000",
+                "title": "USN-5080-1 -- Libgcrypt vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.xenial:def:50802000000",
+                "title": "USN-5080-2 -- Libgcrypt vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.bionic:def:50801000000",
+                "title": "USN-5080-1 -- Libgcrypt vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.focal:def:50801000000",
+                "title": "USN-5080-1 -- Libgcrypt vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.xenial:def:50802000000",
+                "title": "USN-5080-2 -- Libgcrypt vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.oracle.elsa:def:20225311",
+                "title": "ELSA-2022-5311:  libgcrypt security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20229564",
+                "title": "ELSA-2022-9564:  libgcrypt security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.oracle.elsa:def:20225311",
+                "title": "ELSA-2022-5311:  libgcrypt security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20229564",
+                "title": "ELSA-2022-9564:  libgcrypt security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.oracle.elsa:def:20225311",
+                "title": "ELSA-2022-5311:  libgcrypt security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-07-07",
+                "def_id": "oval:com.oracle.elsa:def:20229564",
+                "title": "ELSA-2022-9564:  libgcrypt security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-02-01",
+                "def_id": "oval:redos:def:61",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c \u043a\u0440\u0438\u043f\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438 Libgcrypt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:org.almalinux.alsa:def:20225311",
+                "title": "ALSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.redhat.rhsa:def:20225311",
+                "title": "RHSA-2022:5311: libgcrypt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
         "CVE-2021-40690": [
             {
                 "date": "2024-05-15",
@@ -27006,6 +27696,113 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2021-38593": [
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.bionic:def:50811000000",
+                "title": "USN-5081-1 -- Qt vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-16",
+                "def_id": "oval:com.ubuntu.bionic:def:50811000000",
+                "title": "USN-5081-1 -- Qt vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221796",
+                "title": "ELSA-2022-1796:  qt5-qtbase security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221796",
+                "title": "ELSA-2022-1796:  qt5-qtbase security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221796",
+                "title": "ELSA-2022-1796:  qt5-qtbase security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:org.almalinux.alsa:def:20221796",
+                "title": "ALSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20221796",
+                "title": "RHSA-2022:1796: qt5-qtbase security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
         "CVE-2019-20925": [
             {
                 "date": "2021-10-04",
@@ -27036,7 +27833,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-38498": [
+        "CVE-2021-38501": [
             {
                 "date": "2021-10-07",
                 "def_id": "oval:com.ubuntu.bionic:def:51071000000",
@@ -27502,7 +28299,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-38497": [
+        "CVE-2021-38498": [
             {
                 "date": "2021-10-07",
                 "def_id": "oval:com.ubuntu.bionic:def:51071000000",
@@ -27938,7 +28735,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2021-38501": [
+        "CVE-2021-38497": [
             {
                 "date": "2021-10-07",
                 "def_id": "oval:com.ubuntu.bionic:def:51071000000",
@@ -28637,1087 +29434,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             }
         ],
-        "CVE-2021-2213": [
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:org.almalinux.alsa:def:20213590",
-                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-2001": [
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:org.almalinux.alsa:def:20213590",
-                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-2444": [
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:org.almalinux.alsa:def:20213590",
-                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-2042": [
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:org.almalinux.alsa:def:20213590",
-                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-2202": [
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:org.almalinux.alsa:def:20213590",
-                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-2055": [
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:org.almalinux.alsa:def:20213590",
-                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-2030": [
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:org.almalinux.alsa:def:20213590",
-                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-2178": [
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-09-23",
-                "def_id": "oval:com.oracle.elsa:def:20213590",
-                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:org.almalinux.alsa:def:20213590",
-                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-12",
-                "def_id": "oval:com.redhat.rhsa:def:20213811",
-                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-09-21",
-                "def_id": "oval:com.redhat.rhsa:def:20213590",
-                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            }
-        ],
-        "CVE-2021-2412": [
+        "CVE-2021-2174": [
             {
                 "date": "2021-09-23",
                 "def_id": "oval:com.oracle.elsa:def:20213590",
@@ -29987,7 +29704,1087 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2021-2174": [
+        "CVE-2021-2042": [
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:org.almalinux.alsa:def:20213590",
+                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-2178": [
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:org.almalinux.alsa:def:20213590",
+                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-2202": [
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:org.almalinux.alsa:def:20213590",
+                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-2444": [
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:org.almalinux.alsa:def:20213590",
+                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-2412": [
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:org.almalinux.alsa:def:20213590",
+                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-2001": [
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:org.almalinux.alsa:def:20213590",
+                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-2030": [
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:org.almalinux.alsa:def:20213590",
+                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-2213": [
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-09-23",
+                "def_id": "oval:com.oracle.elsa:def:20213590",
+                "title": "ELSA-2021-3590:  mysql:8.0 security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:org.almalinux.alsa:def:20213590",
+                "title": "ALSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-10-12",
+                "def_id": "oval:com.redhat.rhsa:def:20213811",
+                "title": "RHSA-2021:3811: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2021-09-21",
+                "def_id": "oval:com.redhat.rhsa:def:20213590",
+                "title": "RHSA-2021:3590: mysql:8.0 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            }
+        ],
+        "CVE-2021-2055": [
             {
                 "date": "2021-09-23",
                 "def_id": "oval:com.oracle.elsa:def:20213590",
@@ -30590,7 +31387,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2020-26144": [
+        "CVE-2020-26146": [
             {
                 "date": "2021-11-16",
                 "def_id": "oval:com.oracle.elsa:def:20214356",
@@ -30774,7 +31571,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2020-26146": [
+        "CVE-2020-26144": [
             {
                 "date": "2021-11-16",
                 "def_id": "oval:com.oracle.elsa:def:20214356",
@@ -31172,7 +31969,7 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
             }
         ],
-        "CVE-2021-35629": [
+        "CVE-2021-35537": [
             {
                 "date": "2021-09-21",
                 "def_id": "oval:org.almalinux.alsa:def:20213590",
@@ -31286,7 +32083,7 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
-        "CVE-2021-35537": [
+        "CVE-2021-35629": [
             {
                 "date": "2021-09-21",
                 "def_id": "oval:org.almalinux.alsa:def:20213590",
