@@ -12,7 +12,7 @@ If Microsoft Patch Tuesday occurs every second Tuesday of the month, then Linux 
 
 | Year | Month | Bulletin | Status | CVEs |
 | --- | --- | --- | --- | --- |
-| 2024| July | [2024-07-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-07-17.json) | In Work | 703 |
+| 2024| July | [2024-07-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-07-17.json) | Released | 704 |
 | 2024| June | [2024-06-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-06-19.json) | Released | 1035 |
 | 2024| May | [2024-05-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-05-15.json) | Released | 10960 |
 | 2024| April | [2024-04-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-04-17.json) | Released | 360 |
