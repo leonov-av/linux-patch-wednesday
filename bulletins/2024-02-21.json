@@ -1347,6 +1347,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
             },
             {
+                "date": "2024-07-24",
+                "def_id": "oval:com.oracle.elsa:def:20244749",
+                "title": "ELSA-2024-4749:  edk2 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2024-04-24",
                 "def_id": "oval:com.oracle.elsa:def:202412343",
                 "title": "ELSA-2024-12343: edk2 security update (MODERATE)",
@@ -1385,6 +1392,13 @@
                 "date": "2024-05-23",
                 "def_id": "oval:com.oracle.elsa:def:20243017",
                 "title": "ELSA-2024-3017:  edk2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-07-24",
+                "def_id": "oval:com.oracle.elsa:def:20244749",
+                "title": "ELSA-2024-4749:  edk2 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -1431,6 +1445,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-07-24",
+                "def_id": "oval:com.oracle.elsa:def:20244749",
+                "title": "ELSA-2024-4749:  edk2 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
                 "date": "2024-06-26",
                 "def_id": "oval:redos:def:2285",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 edk2-tools",
@@ -1445,11 +1466,25 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
             },
             {
+                "date": "2024-07-23",
+                "def_id": "oval:org.almalinux.alsa:def:20244749",
+                "title": "ALSA-2024:4749: edk2 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
                 "date": "2024-05-22",
                 "def_id": "oval:com.redhat.rhsa:def:20243017",
                 "title": "RHSA-2024:3017: edk2 security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-23",
+                "def_id": "oval:com.redhat.rhsa:def:20244749",
+                "title": "RHSA-2024:4749: edk2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2022-38096": [
@@ -1482,6 +1517,34 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-07-19",
+                "def_id": "oval:com.ubuntu.focal:def:68983000000",
+                "title": "USN-6898-3 -- Linux kernel kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-23",
+                "def_id": "oval:com.ubuntu.focal:def:68984000000",
+                "title": "USN-6898-4 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-26",
+                "def_id": "oval:com.ubuntu.focal:def:69171000000",
+                "title": "USN-6917-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-30",
+                "def_id": "oval:com.ubuntu.focal:def:69271000000",
+                "title": "USN-6927-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-07-15",
                 "def_id": "oval:com.ubuntu.jammy:def:68981000000",
                 "title": "USN-6898-1 -- Linux kernel vulnerabilities",
@@ -1492,6 +1555,27 @@
                 "date": "2024-07-17",
                 "def_id": "oval:com.ubuntu.jammy:def:68982000000",
                 "title": "USN-6898-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-19",
+                "def_id": "oval:com.ubuntu.jammy:def:68983000000",
+                "title": "USN-6898-3 -- Linux kernel kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-26",
+                "def_id": "oval:com.ubuntu.jammy:def:69171000000",
+                "title": "USN-6917-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-26",
+                "def_id": "oval:com.ubuntu.jammy:def:69191000000",
+                "title": "USN-6919-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -1545,6 +1629,34 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-07-19",
+                "def_id": "oval:com.ubuntu.focal:def:68983000000",
+                "title": "USN-6898-3 -- Linux kernel kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-23",
+                "def_id": "oval:com.ubuntu.focal:def:68984000000",
+                "title": "USN-6898-4 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-26",
+                "def_id": "oval:com.ubuntu.focal:def:69171000000",
+                "title": "USN-6917-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-30",
+                "def_id": "oval:com.ubuntu.focal:def:69271000000",
+                "title": "USN-6927-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-07-15",
                 "def_id": "oval:com.ubuntu.jammy:def:68981000000",
                 "title": "USN-6898-1 -- Linux kernel vulnerabilities",
@@ -1555,6 +1667,27 @@
                 "date": "2024-07-17",
                 "def_id": "oval:com.ubuntu.jammy:def:68982000000",
                 "title": "USN-6898-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-19",
+                "def_id": "oval:com.ubuntu.jammy:def:68983000000",
+                "title": "USN-6898-3 -- Linux kernel kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-26",
+                "def_id": "oval:com.ubuntu.jammy:def:69171000000",
+                "title": "USN-6917-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-26",
+                "def_id": "oval:com.ubuntu.jammy:def:69191000000",
+                "title": "USN-6919-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -4082,6 +4215,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
+                "date": "2024-08-16",
+                "def_id": "oval:redos:def:3020",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c python3-pillow",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-05-22",
                 "def_id": "oval:org.almalinux.alsa:def:20243005",
                 "title": "ALSA-2024:3005: python-pillow security update (Moderate)",
@@ -6298,6 +6438,20 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-07-29",
+                "def_id": "oval:com.ubuntu.bionic:def:69261000000",
+                "title": "USN-6926-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:com.ubuntu.bionic:def:69262000000",
+                "title": "USN-6926-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-02-07",
                 "def_id": "oval:com.ubuntu.focal:def:66251000000",
                 "title": "USN-6625-1 -- Linux kernel vulnerabilities",
@@ -6429,6 +6583,41 @@
                 "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:com.ubuntu.trusty:def:69262000000",
+                "title": "USN-6926-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-31",
+                "def_id": "oval:com.ubuntu.trusty:def:69381000000",
+                "title": "USN-6938-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-29",
+                "def_id": "oval:com.ubuntu.xenial:def:69261000000",
+                "title": "USN-6926-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-08-09",
+                "def_id": "oval:com.ubuntu.xenial:def:69263000000",
+                "title": "USN-6926-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-31",
+                "def_id": "oval:com.ubuntu.xenial:def:69381000000",
+                "title": "USN-6938-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-02-07",
@@ -6452,6 +6641,20 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-07-29",
+                "def_id": "oval:com.ubuntu.bionic:def:69261000000",
+                "title": "USN-6926-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:com.ubuntu.bionic:def:69262000000",
+                "title": "USN-6926-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-02-07",
                 "def_id": "oval:com.ubuntu.focal:def:66251000000",
                 "title": "USN-6625-1 -- Linux kernel vulnerabilities",
@@ -6583,6 +6786,48 @@
                 "title": "USN-6680-3 -- Linux kernel (AWS) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:com.ubuntu.trusty:def:69262000000",
+                "title": "USN-6926-2 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-31",
+                "def_id": "oval:com.ubuntu.trusty:def:69381000000",
+                "title": "USN-6938-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-29",
+                "def_id": "oval:com.ubuntu.xenial:def:69261000000",
+                "title": "USN-6926-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-08-09",
+                "def_id": "oval:com.ubuntu.xenial:def:69263000000",
+                "title": "USN-6926-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-07-31",
+                "def_id": "oval:com.ubuntu.xenial:def:69381000000",
+                "title": "USN-6938-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-08-14",
+                "def_id": "oval:redos:def:2933",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-4759": [
@@ -6816,6 +7061,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:41223769510520544867099313945297084385",
+                "title": "CVE-2023-50387 dnsjava",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2024-05-15",
                 "def_id": "oval:org.debian:def:222867335341695493571907295715503324422",
                 "title": "CVE-2023-50387 dnsmasq",
@@ -6882,6 +7134,13 @@
                 "date": "2024-05-15",
                 "def_id": "oval:org.debian:def:182739334616644912576603299077053245284",
                 "title": "CVE-2023-50387 bind9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:41223769510520544867099313945297084385",
+                "title": "CVE-2023-50387 dnsjava",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
@@ -8178,6 +8437,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:47328930436953536296307371042915400939",
+                "title": "CVE-2023-50868 dnsjava",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2024-05-15",
                 "def_id": "oval:org.debian:def:316217419331916628824341357004759668466",
                 "title": "CVE-2023-50868 dnsmasq",
@@ -8244,6 +8510,13 @@
                 "date": "2024-05-15",
                 "def_id": "oval:org.debian:def:103713374167386470735713975149931445708",
                 "title": "CVE-2023-50868 bind9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:47328930436953536296307371042915400939",
+                "title": "CVE-2023-50868 dnsjava",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
@@ -9968,11 +10241,46 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-08-07",
+                "def_id": "oval:com.oracle.elsa:def:20245079",
+                "title": "ELSA-2024-5079:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-08-07",
+                "def_id": "oval:com.oracle.elsa:def:20245079",
+                "title": "ELSA-2024-5079:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-08-07",
+                "def_id": "oval:com.oracle.elsa:def:20245079",
+                "title": "ELSA-2024-5079:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
                 "date": "2024-04-12",
                 "def_id": "oval:redos:def:1796",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c libtiff",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-08-07",
+                "def_id": "oval:org.almalinux.alsa:def:20245079",
+                "title": "ALSA-2024:5079: libtiff security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-08-07",
+                "def_id": "oval:com.redhat.rhsa:def:20245079",
+                "title": "RHSA-2024:5079: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             }
         ],
         "CVE-2023-5341": [
@@ -10951,6 +11259,13 @@
                 "title": "ELSA-2024-2394:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-08-14",
+                "def_id": "oval:redos:def:2925",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-6129": [
@@ -11146,11 +11461,32 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
             },
             {
+                "date": "2024-08-07",
+                "def_id": "oval:com.oracle.elsa:def:20245079",
+                "title": "ELSA-2024-5079:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2024-05-02",
                 "def_id": "oval:com.oracle.elsa:def:20242289",
                 "title": "ELSA-2024-2289:  libtiff security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-08-07",
+                "def_id": "oval:com.oracle.elsa:def:20245079",
+                "title": "ELSA-2024-5079:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-08-07",
+                "def_id": "oval:com.oracle.elsa:def:20245079",
+                "title": "ELSA-2024-5079:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
                 "date": "2024-05-02",
@@ -11167,11 +11503,25 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
+                "date": "2024-08-07",
+                "def_id": "oval:org.almalinux.alsa:def:20245079",
+                "title": "ALSA-2024:5079: libtiff security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
                 "date": "2024-04-30",
                 "def_id": "oval:org.almalinux.alsa:def:20242289",
                 "title": "ALSA-2024:2289: libtiff security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-08-07",
+                "def_id": "oval:com.redhat.rhsa:def:20245079",
+                "title": "RHSA-2024:5079: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2024-04-30",
@@ -16085,6 +16435,13 @@
                 "title": "ELSA-2024-2447:  openssl and openssl-fips-provider security update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-08-06",
+                "def_id": "oval:redos:def:2669",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c openssl3",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-04-30",
@@ -24823,6 +25180,20 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-08-14",
+                "def_id": "oval:redos:def:2959",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-08-14",
+                "def_id": "oval:redos:def:2967",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-02-26",
                 "def_id": "oval:org.almalinux.alsa:def:20240964",
                 "title": "ALSA-2024:0964: thunderbird security update (Important)",
@@ -28953,6 +29324,20 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-08-14",
+                "def_id": "oval:redos:def:2960",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-08-14",
+                "def_id": "oval:redos:def:2968",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-02-26",
                 "def_id": "oval:org.almalinux.alsa:def:20240964",
                 "title": "ALSA-2024:0964: thunderbird security update (Important)",
@@ -32551,6 +32936,22 @@
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2024-21137": [
+            {
+                "date": "2024-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20240894",
+                "title": "RHSA-2024:0894: mysql:8.0 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-05",
+                "def_id": "oval:com.redhat.rhsa:def:20241141",
+                "title": "RHSA-2024:1141: mysql security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2024-21386": [
             {
                 "date": "2024-02-13",
@@ -34634,6 +35035,126 @@
                 "title": "RHSA-2024:2731: Red Hat OpenStack Platform 17.1 (python-django) security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/openstack-17.1.oval.xml.bz2"
+            }
+        ],
+        "CVE-2024-2884": [
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:204193901166683552672918155300234874679",
+                "title": "CVE-2024-2884 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-02-01",
+                "def_id": "oval:org.debian:def:144311089610070689884063071275034723454",
+                "title": "DSA-5612-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:204193901166683552672918155300234874679",
+                "title": "CVE-2024-2884 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-07-25",
+                "def_id": "oval:redos:def:2506",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2024-3169": [
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:9430544059712881617842600027793426151",
+                "title": "CVE-2024-3169 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-02-01",
+                "def_id": "oval:org.debian:def:144311089610070689884063071275034723454",
+                "title": "DSA-5612-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:9430544059712881617842600027793426151",
+                "title": "CVE-2024-3169 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-07-24",
+                "def_id": "oval:redos:def:2496",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2024-3170": [
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:185628625969120561738183361512677286044",
+                "title": "CVE-2024-3170 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-01-24",
+                "def_id": "oval:org.debian:def:232610127775312214416932798589846757391",
+                "title": "DSA-5607-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:185628625969120561738183361512677286044",
+                "title": "CVE-2024-3170 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-07-24",
+                "def_id": "oval:redos:def:2495",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2024-3172": [
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:34316360791084390684806492247705242184",
+                "title": "CVE-2024-3172 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-01-24",
+                "def_id": "oval:org.debian:def:232610127775312214416932798589846757391",
+                "title": "DSA-5607-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-08-01",
+                "def_id": "oval:org.debian:def:34316360791084390684806492247705242184",
+                "title": "CVE-2024-3172 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-07-24",
+                "def_id": "oval:redos:def:2492",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 chromium",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ]
     },
