@@ -73,13 +73,6 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
-                "date": "2024-07-11",
-                "def_id": "oval:com.ubuntu.mantic:def:68911000000",
-                "title": "USN-6891-1 -- Python vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
                 "date": "2022-07-14",
                 "def_id": "oval:com.ubuntu.trusty:def:55191000000",
                 "title": "USN-5519-1 -- Python vulnerability",
@@ -155,13 +148,6 @@
                 "title": "USN-6891-1 -- Python vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-07-11",
-                "def_id": "oval:com.ubuntu.mantic:def:68911000000",
-                "title": "USN-6891-1 -- Python vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
                 "date": "2022-07-14",
@@ -298,7 +284,7 @@
             },
             {
                 "date": "2023-09-18",
-                "def_id": "oval:redos:def:1102",
+                "def_id": "oval:redos:def:1103",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c mailcap",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -540,6 +526,13 @@
                 "title": "RHSA-2022:8353: python3.9 security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228353",
+                "title": "RHSA-2022:8353: python3.9 security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -1493,6 +1486,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227970",
                 "title": "RHSA-2022:7970: protobuf security update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227970",
+                "title": "RHSA-2022:7970: protobuf security update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -1921,6 +1921,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227967",
                 "title": "RHSA-2022:7967: qemu-kvm security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227967",
+                "title": "RHSA-2022:7967: qemu-kvm security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -1948,7 +1955,7 @@
             },
             {
                 "date": "2024-08-06",
-                "def_id": "oval:redos:def:2646",
+                "def_id": "oval:redos:def:2651",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 apache-commons-compress",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -1985,7 +1992,7 @@
             },
             {
                 "date": "2024-08-06",
-                "def_id": "oval:redos:def:2649",
+                "def_id": "oval:redos:def:2654",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 apache-commons-compress",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -2022,7 +2029,7 @@
             },
             {
                 "date": "2024-08-06",
-                "def_id": "oval:redos:def:2648",
+                "def_id": "oval:redos:def:2653",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 apache-commons-compress",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -2927,7 +2934,7 @@
             },
             {
                 "date": "2024-08-06",
-                "def_id": "oval:redos:def:2647",
+                "def_id": "oval:redos:def:2652",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 apache-commons-compress",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -3068,13 +3075,6 @@
             },
             {
                 "date": "2023-12-04",
-                "def_id": "oval:com.ubuntu.mantic:def:65291000000",
-                "title": "USN-6529-1 -- Request Tracker vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-04",
                 "def_id": "oval:com.ubuntu.bionic:def:65291000000",
                 "title": "USN-6529-1 -- Request Tracker vulnerabilities",
                 "type": "ubuntu",
@@ -3093,13 +3093,6 @@
                 "title": "USN-6529-1 -- Request Tracker vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-04",
-                "def_id": "oval:com.ubuntu.mantic:def:65291000000",
-                "title": "USN-6529-1 -- Request Tracker vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
                 "date": "2022-06-23",
@@ -3925,7 +3918,7 @@
             },
             {
                 "date": "2022-06-28",
-                "def_id": "oval:redos:def:304",
+                "def_id": "oval:redos:def:305",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Squid",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -3950,6 +3943,13 @@
                 "title": "RHSA-2022:5542: squid security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-11",
+                "def_id": "oval:com.redhat.rhsa:def:20225542",
+                "title": "RHSA-2022:5542: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-07-11",
@@ -4118,6 +4118,13 @@
                 "title": "RHSA-2022:5527: squid security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-07",
+                "def_id": "oval:com.redhat.rhsa:def:20225527",
+                "title": "RHSA-2022:5527: squid security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-07",
@@ -4316,7 +4323,7 @@
             },
             {
                 "date": "2022-12-20",
-                "def_id": "oval:redos:def:580",
+                "def_id": "oval:redos:def:581",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -4429,6 +4436,20 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-08-26",
+                "def_id": "oval:redos:def:3260",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 blender",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-08-26",
+                "def_id": "oval:redos:def:3263",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 OpenImageIO",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2022-06-29",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -4487,6 +4508,20 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-08-26",
+                "def_id": "oval:redos:def:3258",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 blender",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-08-26",
+                "def_id": "oval:redos:def:3261",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 OpenImageIO",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2022-06-29",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -4543,6 +4578,20 @@
                 "title": "DSA-5176-1 blender",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-08-26",
+                "def_id": "oval:redos:def:3259",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 blender",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-08-26",
+                "def_id": "oval:redos:def:3262",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 OpenImageIO",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-06-29",
@@ -5080,6 +5129,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225239",
                 "title": "RHSA-2022:5239: 389-ds-base security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20225239",
+                "title": "RHSA-2022:5239: 389-ds-base security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
@@ -5207,6 +5263,13 @@
                 "title": "RHSA-2022:8162: 389-ds-base security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228162",
+                "title": "RHSA-2022:8162: 389-ds-base security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -5327,6 +5390,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225239",
                 "title": "RHSA-2022:5239: 389-ds-base security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20225239",
+                "title": "RHSA-2022:5239: 389-ds-base security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
@@ -5460,6 +5530,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20228162",
                 "title": "RHSA-2022:8162: 389-ds-base security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228162",
+                "title": "RHSA-2022:8162: 389-ds-base security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -5571,7 +5648,7 @@
             },
             {
                 "date": "2022-06-22",
-                "def_id": "oval:redos:def:294",
+                "def_id": "oval:redos:def:295",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c PCRE2",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -5680,6 +5757,13 @@
                 "title": "RHSA-2022:5251: pcre2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225251",
+                "title": "RHSA-2022:5251: pcre2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -5808,6 +5892,13 @@
                 "title": "RHSA-2022:5251: pcre2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225251",
+                "title": "RHSA-2022:5251: pcre2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -6788,7 +6879,7 @@
             },
             {
                 "date": "2022-12-20",
-                "def_id": "oval:redos:def:576",
+                "def_id": "oval:redos:def:577",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -6966,6 +7057,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227933",
                 "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228267",
+                "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -7056,7 +7161,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:313",
+                "def_id": "oval:redos:def:314",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -7200,13 +7305,6 @@
             },
             {
                 "date": "2023-12-14",
-                "def_id": "oval:com.ubuntu.mantic:def:65571000000",
-                "title": "USN-6557-1 -- Vim vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
                 "def_id": "oval:com.ubuntu.trusty:def:65571000000",
                 "title": "USN-6557-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
@@ -7242,13 +7340,6 @@
             },
             {
                 "date": "2023-12-14",
-                "def_id": "oval:com.ubuntu.mantic:def:65571000000",
-                "title": "USN-6557-1 -- Vim vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
                 "def_id": "oval:com.ubuntu.trusty:def:65571000000",
                 "title": "USN-6557-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
@@ -7263,7 +7354,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:314",
+                "def_id": "oval:redos:def:315",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -7307,13 +7398,6 @@
             },
             {
                 "date": "2023-12-14",
-                "def_id": "oval:com.ubuntu.mantic:def:65571000000",
-                "title": "USN-6557-1 -- Vim vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
                 "def_id": "oval:com.ubuntu.trusty:def:65571000000",
                 "title": "USN-6557-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
@@ -7353,13 +7437,6 @@
                 "title": "USN-6557-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
-                "def_id": "oval:com.ubuntu.mantic:def:65571000000",
-                "title": "USN-6557-1 -- Vim vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-12-14",
@@ -7535,6 +7612,13 @@
                 "title": "RHSA-2022:5942: vim security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-09",
+                "def_id": "oval:com.redhat.rhsa:def:20225942",
+                "title": "RHSA-2022:5942: vim security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-08-09",
@@ -7731,7 +7815,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:321",
+                "def_id": "oval:redos:def:322",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -7827,6 +7911,27 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225216",
                 "title": "RHSA-2022:5216: kpatch-patch security update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20225232",
+                "title": "RHSA-2022:5232: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20225236",
+                "title": "RHSA-2022:5236: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20225216",
+                "title": "RHSA-2022:5216: kpatch-patch security update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
@@ -8031,6 +8136,27 @@
                 "title": "RHSA-2022:5267: kernel-rt security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20225214",
+                "title": "RHSA-2022:5214: kpatch-patch security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225249",
+                "title": "RHSA-2022:5249: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20225267",
+                "title": "RHSA-2022:5267: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-06-28",
@@ -8141,7 +8267,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:320",
+                "def_id": "oval:redos:def:321",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -8192,13 +8318,6 @@
             },
             {
                 "date": "2023-12-14",
-                "def_id": "oval:com.ubuntu.mantic:def:65571000000",
-                "title": "USN-6557-1 -- Vim vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
                 "def_id": "oval:com.ubuntu.trusty:def:65571000000",
                 "title": "USN-6557-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
@@ -8241,13 +8360,6 @@
             },
             {
                 "date": "2023-12-14",
-                "def_id": "oval:com.ubuntu.mantic:def:65571000000",
-                "title": "USN-6557-1 -- Vim vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
                 "def_id": "oval:com.ubuntu.trusty:def:65571000000",
                 "title": "USN-6557-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
@@ -8269,7 +8381,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:319",
+                "def_id": "oval:redos:def:320",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -8320,13 +8432,6 @@
             },
             {
                 "date": "2023-12-14",
-                "def_id": "oval:com.ubuntu.mantic:def:65571000000",
-                "title": "USN-6557-1 -- Vim vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
                 "def_id": "oval:com.ubuntu.trusty:def:65571000000",
                 "title": "USN-6557-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
@@ -8369,13 +8474,6 @@
             },
             {
                 "date": "2023-12-14",
-                "def_id": "oval:com.ubuntu.mantic:def:65571000000",
-                "title": "USN-6557-1 -- Vim vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-14",
                 "def_id": "oval:com.ubuntu.trusty:def:65571000000",
                 "title": "USN-6557-1 -- Vim vulnerabilities",
                 "type": "ubuntu",
@@ -8397,7 +8495,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:306",
+                "def_id": "oval:redos:def:307",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -8468,6 +8566,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-09-18",
+                "def_id": "oval:com.ubuntu.trusty:def:70181000000",
+                "title": "USN-7018-1 -- OpenSSL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2022-07-06",
                 "def_id": "oval:com.ubuntu.xenial:def:54882000000",
                 "title": "USN-5488-2 -- OpenSSL vulnerability",
@@ -8501,6 +8606,13 @@
                 "title": "USN-6457-1 -- Node.js vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-09-18",
+                "def_id": "oval:com.ubuntu.trusty:def:70181000000",
+                "title": "USN-7018-1 -- OpenSSL vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
                 "date": "2022-07-06",
@@ -8738,6 +8850,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226224",
                 "title": "RHSA-2022:6224: openssl security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-30",
+                "def_id": "oval:com.redhat.rhsa:def:20226224",
+                "title": "RHSA-2022:6224: openssl security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
@@ -8793,7 +8912,7 @@
             },
             {
                 "date": "2024-07-03",
-                "def_id": "oval:redos:def:2405",
+                "def_id": "oval:redos:def:2410",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 cloud-init",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9078,6 +9197,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226224",
                 "title": "RHSA-2022:6224: openssl security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-30",
+                "def_id": "oval:com.redhat.rhsa:def:20226224",
+                "title": "RHSA-2022:6224: openssl security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -9296,7 +9422,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:318",
+                "def_id": "oval:redos:def:319",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9396,7 +9522,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:317",
+                "def_id": "oval:redos:def:318",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9489,7 +9615,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:316",
+                "def_id": "oval:redos:def:317",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9768,6 +9894,20 @@
                 "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232458",
+                "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -10392,6 +10532,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227933",
                 "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228267",
+                "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -10710,7 +10864,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:305",
+                "def_id": "oval:redos:def:306",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -10803,7 +10957,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:312",
+                "def_id": "oval:redos:def:313",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -10896,7 +11050,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:311",
+                "def_id": "oval:redos:def:312",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -11276,14 +11430,14 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:328",
+                "def_id": "oval:redos:def:329",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:336",
+                "def_id": "oval:redos:def:337",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -11308,6 +11462,20 @@
                 "title": "RHSA-2022:5480: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225479",
+                "title": "RHSA-2022:5479: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225480",
+                "title": "RHSA-2022:5480: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -11650,6 +11818,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -11754,7 +11936,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:310",
+                "def_id": "oval:redos:def:311",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -11847,7 +12029,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:309",
+                "def_id": "oval:redos:def:310",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -11940,7 +12122,7 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:308",
+                "def_id": "oval:redos:def:309",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -12047,14 +12229,14 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:307",
+                "def_id": "oval:redos:def:308",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:315",
+                "def_id": "oval:redos:def:316",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -12276,6 +12458,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225480",
                 "title": "RHSA-2022:5480: thunderbird security update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225480",
+                "title": "RHSA-2022:5480: thunderbird security update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
@@ -12438,6 +12627,13 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -12866,7 +13062,7 @@
             },
             {
                 "date": "2022-08-09",
-                "def_id": "oval:redos:def:345",
+                "def_id": "oval:redos:def:346",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 X.Org Server",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -12898,6 +13094,13 @@
                 "title": "RHSA-2022:5905: xorg-x11-server security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-04",
+                "def_id": "oval:com.redhat.rhsa:def:20225905",
+                "title": "RHSA-2022:5905: xorg-x11-server security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-08-04",
@@ -12982,6 +13185,20 @@
                 "title": "RHSA-2022:8222: xorg-x11-server-Xwayland security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228221",
+                "title": "RHSA-2022:8221: xorg-x11-server security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228222",
+                "title": "RHSA-2022:8222: xorg-x11-server-Xwayland security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -13169,7 +13386,7 @@
             },
             {
                 "date": "2022-08-09",
-                "def_id": "oval:redos:def:346",
+                "def_id": "oval:redos:def:347",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 X.Org Server",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -13201,6 +13418,13 @@
                 "title": "RHSA-2022:5905: xorg-x11-server security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-04",
+                "def_id": "oval:com.redhat.rhsa:def:20225905",
+                "title": "RHSA-2022:5905: xorg-x11-server security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-08-04",
@@ -13285,6 +13509,20 @@
                 "title": "RHSA-2022:8222: xorg-x11-server-Xwayland security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228221",
+                "title": "RHSA-2022:8221: xorg-x11-server security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228222",
+                "title": "RHSA-2022:8222: xorg-x11-server-Xwayland security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -13430,7 +13668,7 @@
             },
             {
                 "date": "2022-09-19",
-                "def_id": "oval:redos:def:380",
+                "def_id": "oval:redos:def:381",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -13673,6 +13911,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227337",
                 "title": "RHSA-2022:7337: kernel security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227338",
+                "title": "RHSA-2022:7338: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227337",
+                "title": "RHSA-2022:7337: kernel security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
@@ -13877,6 +14129,20 @@
                 "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228267",
+                "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -13979,6 +14245,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-09-11",
+                "def_id": "oval:redos:def:3562",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 xen",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2022-10-25",
                 "def_id": "oval:org.almalinux.alsa:def:20227134",
                 "title": "ALSA-2022:7134: kernel-rt security and bug fix update (Important)",
@@ -14018,6 +14291,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227337",
                 "title": "RHSA-2022:7337: kernel security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227338",
+                "title": "RHSA-2022:7338: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227337",
+                "title": "RHSA-2022:7337: kernel security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
@@ -14222,6 +14509,20 @@
                 "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228267",
+                "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -14515,13 +14816,6 @@
             },
             {
                 "date": "2023-12-04",
-                "def_id": "oval:com.ubuntu.mantic:def:65291000000",
-                "title": "USN-6529-1 -- Request Tracker vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.mantic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-04",
                 "def_id": "oval:com.ubuntu.bionic:def:65291000000",
                 "title": "USN-6529-1 -- Request Tracker vulnerabilities",
                 "type": "ubuntu",
@@ -14540,13 +14834,6 @@
                 "title": "USN-6529-1 -- Request Tracker vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-04",
-                "def_id": "oval:com.ubuntu.mantic:def:65291000000",
-                "title": "USN-6529-1 -- Request Tracker vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.mantic.usn.oval.xml.bz2"
             }
         ],
         "CVE-2022-26362": [
@@ -14789,7 +15076,7 @@
             },
             {
                 "date": "2022-06-28",
-                "def_id": "oval:redos:def:295",
+                "def_id": "oval:redos:def:296",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache HTTP",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -14877,6 +15164,13 @@
                 "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -15095,6 +15389,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20228054",
                 "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
@@ -15294,6 +15595,13 @@
                 "title": "RHSA-2022:8340: freetype security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228340",
+                "title": "RHSA-2022:8340: freetype security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -15505,6 +15813,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20228340",
                 "title": "RHSA-2022:8340: freetype security update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228340",
+                "title": "RHSA-2022:8340: freetype security update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
@@ -15534,7 +15849,7 @@
         "CVE-2022-28330": [
             {
                 "date": "2022-06-28",
-                "def_id": "oval:redos:def:296",
+                "def_id": "oval:redos:def:297",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache HTTP",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -15557,7 +15872,7 @@
             },
             {
                 "date": "2022-07-14",
-                "def_id": "oval:redos:def:342",
+                "def_id": "oval:redos:def:343",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c BusyBox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -15755,7 +16070,7 @@
             },
             {
                 "date": "2022-06-28",
-                "def_id": "oval:redos:def:297",
+                "def_id": "oval:redos:def:298",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache HTTP",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -15843,6 +16158,13 @@
                 "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -16023,7 +16345,7 @@
             },
             {
                 "date": "2022-06-28",
-                "def_id": "oval:redos:def:298",
+                "def_id": "oval:redos:def:299",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache HTTP",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -16111,6 +16433,13 @@
                 "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -16228,7 +16557,7 @@
             },
             {
                 "date": "2024-07-30",
-                "def_id": "oval:redos:def:2575",
+                "def_id": "oval:redos:def:2580",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c libgit2",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -16336,6 +16665,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20232319",
                 "title": "RHSA-2023:2319: git security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232319",
+                "title": "RHSA-2023:2319: git security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -16395,6 +16731,13 @@
                 "title": "USN-5526-1 -- PyJWT vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-09-11",
+                "def_id": "oval:redos:def:3560",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c python3-jwt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2022-29227": [
@@ -16654,7 +16997,7 @@
             },
             {
                 "date": "2022-06-28",
-                "def_id": "oval:redos:def:299",
+                "def_id": "oval:redos:def:300",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache HTTP",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -16742,6 +17085,13 @@
                 "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -17277,6 +17627,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2024-09-11",
+                "def_id": "oval:redos:def:3563",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 xen",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2022-10-25",
                 "def_id": "oval:org.almalinux.alsa:def:20227134",
                 "title": "ALSA-2022:7134: kernel-rt security and bug fix update (Important)",
@@ -17316,6 +17673,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227337",
                 "title": "RHSA-2022:7337: kernel security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227338",
+                "title": "RHSA-2022:7338: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227337",
+                "title": "RHSA-2022:7337: kernel security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
@@ -17520,6 +17891,20 @@
                 "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228267",
+                "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -18172,6 +18557,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227337",
                 "title": "RHSA-2022:7337: kernel security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227338",
+                "title": "RHSA-2022:7338: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227337",
+                "title": "RHSA-2022:7337: kernel security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
@@ -18382,6 +18781,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20227933",
                 "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228267",
+                "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -18521,7 +18934,7 @@
             },
             {
                 "date": "2022-07-06",
-                "def_id": "oval:redos:def:341",
+                "def_id": "oval:redos:def:342",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Rubygem Rack",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -18677,7 +19090,7 @@
             },
             {
                 "date": "2022-07-06",
-                "def_id": "oval:redos:def:340",
+                "def_id": "oval:redos:def:341",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Rubygem Rack",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -18688,6 +19101,13 @@
                 "title": "RHSA-2022:7343: pcs security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-02",
+                "def_id": "oval:com.redhat.rhsa:def:20227343",
+                "title": "RHSA-2022:7343: pcs security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-11-02",
@@ -18739,465 +19159,6 @@
                 "date": "2024-05-15",
                 "def_id": "oval:org.debian:def:287507559011323446492999495832485168455",
                 "title": "CVE-2022-30522 apache2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.bionic:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-23",
-                "def_id": "oval:com.ubuntu.bionic:def:54873000000",
-                "title": "USN-5487-3 -- Apache HTTP Server regression",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.focal:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.jammy:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.trusty:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-23",
-                "def_id": "oval:com.ubuntu.trusty:def:54873000000",
-                "title": "USN-5487-3 -- Apache HTTP Server regression",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.xenial:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-23",
-                "def_id": "oval:com.ubuntu.xenial:def:54873000000",
-                "title": "USN-5487-3 -- Apache HTTP Server regression",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.bionic:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-23",
-                "def_id": "oval:com.ubuntu.bionic:def:54873000000",
-                "title": "USN-5487-3 -- Apache HTTP Server regression",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.focal:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.jammy:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.trusty:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-23",
-                "def_id": "oval:com.ubuntu.trusty:def:54873000000",
-                "title": "USN-5487-3 -- Apache HTTP Server regression",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-21",
-                "def_id": "oval:com.ubuntu.xenial:def:54871000000",
-                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-06-23",
-                "def_id": "oval:com.ubuntu.xenial:def:54873000000",
-                "title": "USN-5487-3 -- Apache HTTP Server regression",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.oracle.elsa:def:20227647",
-                "title": "ELSA-2022-7647:  httpd:2.4 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-11-22",
-                "def_id": "oval:com.oracle.elsa:def:20228067",
-                "title": "ELSA-2022-8067:  httpd security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.oracle.elsa:def:20227647",
-                "title": "ELSA-2022-7647:  httpd:2.4 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-11-22",
-                "def_id": "oval:com.oracle.elsa:def:20228067",
-                "title": "ELSA-2022-8067:  httpd security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.oracle.elsa:def:20227647",
-                "title": "ELSA-2022-7647:  httpd:2.4 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-11-22",
-                "def_id": "oval:com.oracle.elsa:def:20228067",
-                "title": "ELSA-2022-8067:  httpd security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-06-28",
-                "def_id": "oval:redos:def:300",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache HTTP",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:org.almalinux.alsa:def:20227647",
-                "title": "ALSA-2022:7647: httpd:2.4 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:org.almalinux.alsa:def:20228067",
-                "title": "ALSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-09-29",
-                "def_id": "oval:com.redhat.rhsa:def:20226753",
-                "title": "RHSA-2022:6753: httpd24-httpd security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-29",
-                "def_id": "oval:com.redhat.rhsa:def:20226753",
-                "title": "RHSA-2022:6753: httpd24-httpd security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227647",
-                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227647",
-                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227647",
-                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227647",
-                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227647",
-                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228067",
-                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228067",
-                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228067",
-                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228067",
-                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-30550": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:325569325443500491170997587990486131036",
-                "title": "CVE-2022-30550 dovecot",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:325569325443500491170997587990486131036",
-                "title": "CVE-2022-30550 dovecot",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2022-07-11",
-                "def_id": "oval:com.ubuntu.bionic:def:55091000000",
-                "title": "USN-5509-1 -- Dovecot vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-11",
-                "def_id": "oval:com.ubuntu.focal:def:55091000000",
-                "title": "USN-5509-1 -- Dovecot vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-11",
-                "def_id": "oval:com.ubuntu.jammy:def:55091000000",
-                "title": "USN-5509-1 -- Dovecot vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-11",
-                "def_id": "oval:com.ubuntu.bionic:def:55091000000",
-                "title": "USN-5509-1 -- Dovecot vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-11",
-                "def_id": "oval:com.ubuntu.focal:def:55091000000",
-                "title": "USN-5509-1 -- Dovecot vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-07-11",
-                "def_id": "oval:com.ubuntu.jammy:def:55091000000",
-                "title": "USN-5509-1 -- Dovecot vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.oracle.elsa:def:20227623",
-                "title": "ELSA-2022-7623:  dovecot security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-11-22",
-                "def_id": "oval:com.oracle.elsa:def:20228208",
-                "title": "ELSA-2022-8208:  dovecot security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.oracle.elsa:def:20227623",
-                "title": "ELSA-2022-7623:  dovecot security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-11-22",
-                "def_id": "oval:com.oracle.elsa:def:20228208",
-                "title": "ELSA-2022-8208:  dovecot security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.oracle.elsa:def:20227623",
-                "title": "ELSA-2022-7623:  dovecot security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2022-11-22",
-                "def_id": "oval:com.oracle.elsa:def:20228208",
-                "title": "ELSA-2022-8208:  dovecot security and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2022-07-14",
-                "def_id": "oval:redos:def:343",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Dovecot",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:org.almalinux.alsa:def:20227623",
-                "title": "ALSA-2022:7623: dovecot security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:org.almalinux.alsa:def:20228208",
-                "title": "ALSA-2022:8208: dovecot security and enhancement update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227623",
-                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227623",
-                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227623",
-                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227623",
-                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-08",
-                "def_id": "oval:com.redhat.rhsa:def:20227623",
-                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228208",
-                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228208",
-                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228208",
-                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2022-11-15",
-                "def_id": "oval:com.redhat.rhsa:def:20228208",
-                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2022-09-27",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2022-30556": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:262338266309542870739055815404430749003",
-                "title": "CVE-2022-30556 apache2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:262338266309542870739055815404430749003",
-                "title": "CVE-2022-30556 apache2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
@@ -19445,6 +19406,486 @@
                 "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2022-30550": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:325569325443500491170997587990486131036",
+                "title": "CVE-2022-30550 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:325569325443500491170997587990486131036",
+                "title": "CVE-2022-30550 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-07-11",
+                "def_id": "oval:com.ubuntu.bionic:def:55091000000",
+                "title": "USN-5509-1 -- Dovecot vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-11",
+                "def_id": "oval:com.ubuntu.focal:def:55091000000",
+                "title": "USN-5509-1 -- Dovecot vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-11",
+                "def_id": "oval:com.ubuntu.jammy:def:55091000000",
+                "title": "USN-5509-1 -- Dovecot vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-11",
+                "def_id": "oval:com.ubuntu.bionic:def:55091000000",
+                "title": "USN-5509-1 -- Dovecot vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-11",
+                "def_id": "oval:com.ubuntu.focal:def:55091000000",
+                "title": "USN-5509-1 -- Dovecot vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-11",
+                "def_id": "oval:com.ubuntu.jammy:def:55091000000",
+                "title": "USN-5509-1 -- Dovecot vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.oracle.elsa:def:20227623",
+                "title": "ELSA-2022-7623:  dovecot security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-11-22",
+                "def_id": "oval:com.oracle.elsa:def:20228208",
+                "title": "ELSA-2022-8208:  dovecot security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.oracle.elsa:def:20227623",
+                "title": "ELSA-2022-7623:  dovecot security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-11-22",
+                "def_id": "oval:com.oracle.elsa:def:20228208",
+                "title": "ELSA-2022-8208:  dovecot security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.oracle.elsa:def:20227623",
+                "title": "ELSA-2022-7623:  dovecot security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-11-22",
+                "def_id": "oval:com.oracle.elsa:def:20228208",
+                "title": "ELSA-2022-8208:  dovecot security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-07-14",
+                "def_id": "oval:redos:def:344",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c Dovecot",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:org.almalinux.alsa:def:20227623",
+                "title": "ALSA-2022:7623: dovecot security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:org.almalinux.alsa:def:20228208",
+                "title": "ALSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227623",
+                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227623",
+                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227623",
+                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227623",
+                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227623",
+                "title": "RHSA-2022:7623: dovecot security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2022-30556": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:262338266309542870739055815404430749003",
+                "title": "CVE-2022-30556 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:262338266309542870739055815404430749003",
+                "title": "CVE-2022-30556 apache2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.bionic:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-23",
+                "def_id": "oval:com.ubuntu.bionic:def:54873000000",
+                "title": "USN-5487-3 -- Apache HTTP Server regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.focal:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.jammy:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.trusty:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-23",
+                "def_id": "oval:com.ubuntu.trusty:def:54873000000",
+                "title": "USN-5487-3 -- Apache HTTP Server regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.xenial:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-23",
+                "def_id": "oval:com.ubuntu.xenial:def:54873000000",
+                "title": "USN-5487-3 -- Apache HTTP Server regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.bionic:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-23",
+                "def_id": "oval:com.ubuntu.bionic:def:54873000000",
+                "title": "USN-5487-3 -- Apache HTTP Server regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.focal:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.jammy:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.trusty:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-23",
+                "def_id": "oval:com.ubuntu.trusty:def:54873000000",
+                "title": "USN-5487-3 -- Apache HTTP Server regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-21",
+                "def_id": "oval:com.ubuntu.xenial:def:54871000000",
+                "title": "USN-5487-1 -- Apache HTTP Server vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-23",
+                "def_id": "oval:com.ubuntu.xenial:def:54873000000",
+                "title": "USN-5487-3 -- Apache HTTP Server regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.oracle.elsa:def:20227647",
+                "title": "ELSA-2022-7647:  httpd:2.4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-11-22",
+                "def_id": "oval:com.oracle.elsa:def:20228067",
+                "title": "ELSA-2022-8067:  httpd security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.oracle.elsa:def:20227647",
+                "title": "ELSA-2022-7647:  httpd:2.4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-11-22",
+                "def_id": "oval:com.oracle.elsa:def:20228067",
+                "title": "ELSA-2022-8067:  httpd security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.oracle.elsa:def:20227647",
+                "title": "ELSA-2022-7647:  httpd:2.4 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2022-11-22",
+                "def_id": "oval:com.oracle.elsa:def:20228067",
+                "title": "ELSA-2022-8067:  httpd security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2022-06-28",
+                "def_id": "oval:redos:def:302",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache HTTP",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:org.almalinux.alsa:def:20227647",
+                "title": "ALSA-2022:7647: httpd:2.4 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:org.almalinux.alsa:def:20228067",
+                "title": "ALSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-09-29",
+                "def_id": "oval:com.redhat.rhsa:def:20226753",
+                "title": "RHSA-2022:6753: httpd24-httpd security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-29",
+                "def_id": "oval:com.redhat.rhsa:def:20226753",
+                "title": "RHSA-2022:6753: httpd24-httpd security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227647",
+                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227647",
+                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227647",
+                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227647",
+                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20227647",
+                "title": "RHSA-2022:7647: httpd:2.4 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -19732,7 +20173,7 @@
             },
             {
                 "date": "2024-03-27",
-                "def_id": "oval:redos:def:1311",
+                "def_id": "oval:redos:def:1316",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 skopeo",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -20071,6 +20512,41 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225799",
                 "title": "RHSA-2022:5799: go-toolset and golang security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232253",
+                "title": "RHSA-2023:2253: buildah security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232282",
+                "title": "RHSA-2023:2282: podman security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232283",
+                "title": "RHSA-2023:2283: skopeo security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232367",
+                "title": "RHSA-2023:2367: containernetworking-plugins security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225799",
+                "title": "RHSA-2022:5799: go-toolset and golang security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -20249,7 +20725,7 @@
             },
             {
                 "date": "2024-08-16",
-                "def_id": "oval:redos:def:3018",
+                "def_id": "oval:redos:def:3023",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c perl-HTTP-Daemon",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -20734,7 +21210,7 @@
             },
             {
                 "date": "2022-06-28",
-                "def_id": "oval:redos:def:302",
+                "def_id": "oval:redos:def:303",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache HTTP",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -20822,6 +21298,13 @@
                 "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228067",
+                "title": "RHSA-2022:8067: httpd security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -21140,6 +21623,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226157",
                 "title": "RHSA-2022:6157: curl security update (Moderate)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -21276,6 +21766,13 @@
                 "title": "RHSA-2022:6157: curl security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-08-24",
@@ -21530,6 +22027,13 @@
                 "title": "RHSA-2022:6157: curl security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-08-24",
@@ -22246,7 +22750,7 @@
             },
             {
                 "date": "2022-08-09",
-                "def_id": "oval:redos:def:348",
+                "def_id": "oval:redos:def:349",
                 "title": "\u0426\u0435\u043b\u043e\u0447\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0435 \u043f\u0435\u0440\u0435\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u0432 Harfbuzz",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22474,6 +22978,27 @@
                 "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228384",
+                "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-10-20",
@@ -23379,14 +23904,14 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:324",
+                "def_id": "oval:redos:def:325",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:332",
+                "def_id": "oval:redos:def:333",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -23411,6 +23936,20 @@
                 "title": "RHSA-2022:5480: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225479",
+                "title": "RHSA-2022:5479: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225480",
+                "title": "RHSA-2022:5480: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -23747,6 +24286,20 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -24144,14 +24697,14 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:323",
+                "def_id": "oval:redos:def:324",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:331",
+                "def_id": "oval:redos:def:332",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -24176,6 +24729,20 @@
                 "title": "RHSA-2022:5480: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225479",
+                "title": "RHSA-2022:5479: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225480",
+                "title": "RHSA-2022:5480: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -24512,6 +25079,20 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -24939,14 +25520,14 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:327",
+                "def_id": "oval:redos:def:328",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:335",
+                "def_id": "oval:redos:def:336",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -24971,6 +25552,20 @@
                 "title": "RHSA-2022:5480: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225479",
+                "title": "RHSA-2022:5479: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225480",
+                "title": "RHSA-2022:5480: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -25307,6 +25902,20 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -25854,14 +26463,14 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:322",
+                "def_id": "oval:redos:def:323",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:330",
+                "def_id": "oval:redos:def:331",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -25886,6 +26495,20 @@
                 "title": "RHSA-2022:5480: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225479",
+                "title": "RHSA-2022:5479: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225480",
+                "title": "RHSA-2022:5480: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -26222,6 +26845,20 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -26719,14 +27356,14 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:325",
+                "def_id": "oval:redos:def:326",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:333",
+                "def_id": "oval:redos:def:334",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -26751,6 +27388,20 @@
                 "title": "RHSA-2022:5480: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225479",
+                "title": "RHSA-2022:5479: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225480",
+                "title": "RHSA-2022:5480: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -27087,6 +27738,20 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -27544,14 +28209,14 @@
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:329",
+                "def_id": "oval:redos:def:330",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-07-01",
-                "def_id": "oval:redos:def:337",
+                "def_id": "oval:redos:def:338",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -27576,6 +28241,20 @@
                 "title": "RHSA-2022:5480: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225479",
+                "title": "RHSA-2022:5479: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225480",
+                "title": "RHSA-2022:5480: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -27918,6 +28597,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
@@ -28143,7 +28836,7 @@
             },
             {
                 "date": "2022-12-20",
-                "def_id": "oval:redos:def:581",
+                "def_id": "oval:redos:def:582",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -28299,7 +28992,7 @@
             },
             {
                 "date": "2024-08-15",
-                "def_id": "oval:redos:def:2977",
+                "def_id": "oval:redos:def:2982",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c gnupg2",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -28415,6 +29108,13 @@
                 "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226602",
+                "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://access.redhat.com/security/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-09-20",

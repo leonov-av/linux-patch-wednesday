@@ -12,13 +12,14 @@ If Microsoft Patch Tuesday occurs every second Tuesday of the month, then Linux 
 
 | Year | Month | Bulletin | Status | CVEs |
 | --- | --- | --- | --- | --- |
-| 2024| August | [2024-08-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-08-21.json) | In Work | 658 |
-| 2024| July | [2024-07-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-07-17.json) | Released | 702 |
-| 2024| June | [2024-06-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-06-19.json) | Released | 1034 |
-| 2024| May | [2024-05-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-05-15.json) | Released | 10924 |
-| 2024| April | [2024-04-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-04-17.json) | Released | 360 |
-| 2024| March | [2024-03-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-03-20.json) | Released | 155 |
-| 2024| February | [2024-02-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-02-21.json) | Released | 176 |
+| 2024| September | [2024-09-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-09-18.json) | In Work | 448 |
+| 2024| August | [2024-08-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-08-21.json) | Released | 659 |
+| 2024| July | [2024-07-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-07-17.json) | Released | 698 |
+| 2024| June | [2024-06-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-06-19.json) | Released | 1035 |
+| 2024| May | [2024-05-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-05-15.json) | Released | 10849 |
+| 2024| April | [2024-04-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-04-17.json) | Released | 361 |
+| 2024| March | [2024-03-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-03-20.json) | Released | 154 |
+| 2024| February | [2024-02-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-02-21.json) | Released | 173 |
 | 2024| January | [2024-01-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-01-17.json) | Released | 100 |
 | 2023| December | [2023-12-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-12-20.json) | Released | 184 |
 | 2023| November | [2023-11-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-11-15.json) | Released | 216 |
@@ -39,13 +40,13 @@ If Microsoft Patch Tuesday occurs every second Tuesday of the month, then Linux 
 | 2022| August | [2022-08-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-08-17.json) | Released | 195 |
 | 2022| July | [2022-07-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-07-20.json) | Released | 190 |
 | 2022| June | [2022-06-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-06-15.json) | Released | 194 |
-| 2022| May | [2022-05-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-05-18.json) | Released | 243 |
+| 2022| May | [2022-05-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-05-18.json) | Released | 244 |
 | 2022| April | [2022-04-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-04-20.json) | Released | 260 |
 | 2022| March | [2022-03-16.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-03-16.json) | Released | 174 |
 | 2022| February | [2022-02-16.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-02-16.json) | Released | 204 |
 | 2022| January | [2022-01-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-01-19.json) | Released | 236 |
 | 2021| December | [2021-12-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2021-12-15.json) | Released | 112 |
-| 2021| November | [2021-11-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2021-11-17.json) | Released | 216 |
+| 2021| November | [2021-11-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2021-11-17.json) | Released | 217 |
 | 2021| October | [2021-10-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2021-10-20.json) | Released | 184 |
 | 2021| September | [2021-09-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2021-09-15.json) | Released | 118 |
 | 2021| August | [2021-08-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2021-08-18.json) | Released | 170 |
