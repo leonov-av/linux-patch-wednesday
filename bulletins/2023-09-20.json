@@ -8,38 +8,6 @@
     "patch_wednesday_start_date_ts": 1692219600,
     "status": "Released",
     "vulnerabilities": {
-        " CVE-2023-32233": [
-            {
-                "date": "2023-09-04",
-                "def_id": "oval:redos:def:903",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-09-04",
-                "def_id": "oval:redos:def:954",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        " CVE-2023-4585": [
-            {
-                "date": "2023-09-20",
-                "def_id": "oval:redos:def:1096",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-09-20",
-                "def_id": "oval:redos:def:1110",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2013-7484": [
             {
                 "date": "2024-05-15",
@@ -3570,13 +3538,90 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2022-37051 ": [
+        "CVE-2022-37051": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:257597759789197198025452746776252156545",
+                "title": "CVE-2022-37051 poppler",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:257597759789197198025452746776252156545",
+                "title": "CVE-2022-37051 poppler",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.bionic:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.focal:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.jammy:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.xenial:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.bionic:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.focal:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.jammy:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.xenial:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
             {
                 "date": "2023-09-19",
                 "def_id": "oval:redos:def:1083",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Poppler",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-10-16",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-37052": [
@@ -3658,7 +3703,77 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
-        "CVE-2022-38349 ": [
+        "CVE-2022-38349": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:338941274287626615806387743409412443892",
+                "title": "CVE-2022-38349 poppler",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:338941274287626615806387743409412443892",
+                "title": "CVE-2022-38349 poppler",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.bionic:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.focal:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.jammy:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.xenial:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.bionic:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.focal:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.jammy:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-23",
+                "def_id": "oval:com.ubuntu.xenial:def:65081000000",
+                "title": "USN-6508-1 -- poppler vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
             {
                 "date": "2023-09-19",
                 "def_id": "oval:redos:def:1081",
@@ -4311,22 +4426,6 @@
                 "title": "USN-6381-1 -- GNU binutils vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            }
-        ],
-        "CVE-2022-45886            ": [
-            {
-                "date": "2023-09-04",
-                "def_id": "oval:redos:def:904",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-09-04",
-                "def_id": "oval:redos:def:955",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2022-45888": [
@@ -9838,7 +9937,7 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
-        "CVE-2023-32251            ": [
+        "CVE-2023-32251": [
             {
                 "date": "2023-09-05",
                 "def_id": "oval:redos:def:975",
@@ -10014,22 +10113,6 @@
             {
                 "date": "2023-09-05",
                 "def_id": "oval:redos:def:995",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-32254            ": [
-            {
-                "date": "2023-09-05",
-                "def_id": "oval:redos:def:963",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-09-05",
-                "def_id": "oval:redos:def:984",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -22339,6 +22422,13 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
+                "date": "2024-04-12",
+                "def_id": "oval:redos:def:1765",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 salt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-01-16",
                 "def_id": "oval:com.redhat.rhsa:def:20240215",
                 "title": "RHSA-2024:0215: Red Hat OpenStack Platform 17.1 (GitPython) security update (Moderate)",
@@ -33362,6 +33452,20 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2023-09-20",
+                "def_id": "oval:redos:def:1096",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-09-20",
+                "def_id": "oval:redos:def:1110",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-09-04",
                 "def_id": "oval:org.almalinux.alsa:def:20234952",
                 "title": "ALSA-2023:4952: firefox security update (Important)",
@@ -34835,7 +34939,14 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             }
         ],
-        "CVE-2023-4778            ": [
+        "CVE-2023-4778": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:172111603273954426779391616416502450370",
+                "title": "CVE-2023-4778 gpac",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
             {
                 "date": "2023-09-19",
                 "def_id": "oval:redos:def:1080",

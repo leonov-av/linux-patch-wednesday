@@ -687,15 +687,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2021-3326 ": [
-            {
-                "date": "2023-04-20",
-                "def_id": "oval:redos:def:722",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c glibc",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2021-33631": [
             {
                 "date": "2024-05-15",
@@ -3962,15 +3953,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2022-3517 ": [
-            {
-                "date": "2023-05-05",
-                "def_id": "oval:redos:def:767",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c nodejs-minimatch",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2022-3522": [
             {
                 "date": "2023-05-15",
@@ -6458,7 +6440,14 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2022-45199 ": [
+        "CVE-2022-45199": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:126209176105065958123225020365602351770",
+                "title": "CVE-2022-45199 pillow",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
             {
                 "date": "2023-04-28",
                 "def_id": "oval:redos:def:738",
@@ -7039,218 +7028,6 @@
             },
             {
                 "date": "2023-05-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2023-0464": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:4645510531822218509451563820617860788",
-                "title": "CVE-2023-0464 openssl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:4645510531822218509451563820617860788",
-                "title": "CVE-2023-0464 openssl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2023-05-31",
-                "def_id": "oval:org.debian:def:299841389318981254800418315165565876480",
-                "title": "DSA-5417-1 openssl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.bionic:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.focal:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.jammy:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.trusty:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.xenial:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.bionic:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.focal:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.jammy:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.trusty:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-04-25",
-                "def_id": "oval:com.ubuntu.xenial:def:60391000000",
-                "title": "USN-6039-1 -- OpenSSL vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-08-31",
-                "def_id": "oval:com.oracle.elsa:def:202312768",
-                "title": "ELSA-2023-12768:  openssl security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-06-22",
-                "def_id": "oval:com.oracle.elsa:def:20233722",
-                "title": "ELSA-2023-3722:  openssl security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-08-31",
-                "def_id": "oval:com.oracle.elsa:def:202312768",
-                "title": "ELSA-2023-12768:  openssl security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-06-22",
-                "def_id": "oval:com.oracle.elsa:def:20233722",
-                "title": "ELSA-2023-3722:  openssl security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-08-31",
-                "def_id": "oval:com.oracle.elsa:def:202312768",
-                "title": "ELSA-2023-12768:  openssl security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-06-22",
-                "def_id": "oval:com.oracle.elsa:def:20233722",
-                "title": "ELSA-2023-3722:  openssl security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2023-06-21",
-                "def_id": "oval:org.almalinux.alsa:def:20233722",
-                "title": "ALSA-2023:3722: openssl security and bug fix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
-            },
-            {
-                "date": "2023-12-07",
-                "def_id": "oval:com.redhat.rhsa:def:20237622",
-                "title": "RHSA-2023:7622: Red Hat JBoss Web Server 5.7.7 release and security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/jboss-ws-5.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-07",
-                "def_id": "oval:com.redhat.rhsa:def:20237622",
-                "title": "RHSA-2023:7622: Red Hat JBoss Web Server 5.7.7 release and security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/jboss-ws-5.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-07",
-                "def_id": "oval:com.redhat.rhsa:def:20237622",
-                "title": "RHSA-2023:7622: Red Hat JBoss Web Server 5.7.7 release and security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/jboss-ws-5.oval.xml.bz2"
-            },
-            {
-                "date": "2023-12-07",
-                "def_id": "oval:com.redhat.rhsa:def:20237622",
-                "title": "RHSA-2023:7622: Red Hat JBoss Web Server 5.7.7 release and security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/jboss-ws-5.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-21",
-                "def_id": "oval:com.redhat.rhsa:def:20233722",
-                "title": "RHSA-2023:3722: openssl security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-21",
-                "def_id": "oval:com.redhat.rhsa:def:20233722",
-                "title": "RHSA-2023:3722: openssl security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-21",
-                "def_id": "oval:com.redhat.rhsa:def:20233722",
-                "title": "RHSA-2023:3722: openssl security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-21",
-                "def_id": "oval:com.redhat.rhsa:def:20233722",
-                "title": "RHSA-2023:3722: openssl security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-21",
-                "def_id": "oval:com.redhat.rhsa:def:20233722",
-                "title": "RHSA-2023:3722: openssl security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
-            },
-            {
-                "date": "2023-06-08",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -9498,15 +9275,6 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2023-1945 ": [
-            {
-                "date": "2023-05-05",
-                "def_id": "oval:redos:def:742",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-1981": [
@@ -20386,22 +20154,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2023-25751 ": [
-            {
-                "date": "2023-04-20",
-                "def_id": "oval:redos:def:723",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-04-20",
-                "def_id": "oval:redos:def:729",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2023-25761": [
             {
                 "date": "2023-04-26",
@@ -20949,15 +20701,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             }
         ],
-        "CVE-2023-27522 ": [
-            {
-                "date": "2023-04-20",
-                "def_id": "oval:redos:def:720",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Apache httpd",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2023-27932": [
             {
                 "date": "2024-05-15",
@@ -21270,22 +21013,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2023-28162 ": [
-            {
-                "date": "2023-04-20",
-                "def_id": "oval:redos:def:725",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-04-20",
-                "def_id": "oval:redos:def:731",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2023-28163": [
             {
                 "date": "2023-04-20",
@@ -21297,22 +21024,6 @@
             {
                 "date": "2023-04-20",
                 "def_id": "oval:redos:def:733",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-28164 ": [
-            {
-                "date": "2023-04-20",
-                "def_id": "oval:redos:def:724",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-04-20",
-                "def_id": "oval:redos:def:730",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -23351,38 +23062,6 @@
             {
                 "date": "2023-05-05",
                 "def_id": "oval:redos:def:757",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-29535 ": [
-            {
-                "date": "2023-05-05",
-                "def_id": "oval:redos:def:747",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-05-05",
-                "def_id": "oval:redos:def:759",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-29539 ": [
-            {
-                "date": "2023-05-05",
-                "def_id": "oval:redos:def:749",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2023-05-05",
-                "def_id": "oval:redos:def:761",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 firefox",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -27377,6 +27056,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2023-06-22",
+                "def_id": "oval:redos:def:830",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 thunderbird",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2023-05-18",
                 "def_id": "oval:org.almalinux.alsa:def:20233220",
                 "title": "ALSA-2023:3220: firefox security update (Important)",
@@ -30311,6 +29997,20 @@
                 "title": "ELSA-2023-3723:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-09-04",
+                "def_id": "oval:redos:def:903",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-09-04",
+                "def_id": "oval:redos:def:954",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 \u044f\u0434\u0440\u0430 \u041e\u0421",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-05-30",

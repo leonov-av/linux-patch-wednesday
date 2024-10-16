@@ -8,15 +8,6 @@
     "patch_wednesday_start_date_ts": 1647464400,
     "status": "Released",
     "vulnerabilities": {
-        " CVE-2022-0492": [
-            {
-                "date": "2022-03-24",
-                "def_id": "oval:redos:def:157",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c cgroup",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2015-1336": [
             {
                 "date": "2024-05-15",
@@ -4278,6 +4269,13 @@
                 "title": "ELSA-2022-8385:  dhcp security and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2023-04-14",
+                "def_id": "oval:redos:def:690",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 BIND",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2022-11-08",
@@ -10196,15 +10194,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2022-0729 ": [
-            {
-                "date": "2022-04-12",
-                "def_id": "oval:redos:def:186",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2022-0730": [
             {
                 "date": "2024-05-15",
@@ -12413,13 +12402,195 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
-        "CVE-2022-0943 ": [
+        "CVE-2022-0943": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:227542135690515372085541563786618370063",
+                "title": "CVE-2022-0943 vim",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:227542135690515372085541563786618370063",
+                "title": "CVE-2022-0943 vim",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2022-09-15",
+                "def_id": "oval:com.ubuntu.bionic:def:56131000000",
+                "title": "USN-5613-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-15",
+                "def_id": "oval:com.ubuntu.focal:def:56131000000",
+                "title": "USN-5613-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-19",
+                "def_id": "oval:com.ubuntu.focal:def:56132000000",
+                "title": "USN-5613-2 -- Vim regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-15",
+                "def_id": "oval:com.ubuntu.jammy:def:56131000000",
+                "title": "USN-5613-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-15",
+                "def_id": "oval:com.ubuntu.trusty:def:56131000000",
+                "title": "USN-5613-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-06",
+                "def_id": "oval:com.ubuntu.xenial:def:54601000000",
+                "title": "USN-5460-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-15",
+                "def_id": "oval:com.ubuntu.bionic:def:56131000000",
+                "title": "USN-5613-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-15",
+                "def_id": "oval:com.ubuntu.focal:def:56131000000",
+                "title": "USN-5613-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-19",
+                "def_id": "oval:com.ubuntu.focal:def:56132000000",
+                "title": "USN-5613-2 -- Vim regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-15",
+                "def_id": "oval:com.ubuntu.jammy:def:56131000000",
+                "title": "USN-5613-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-15",
+                "def_id": "oval:com.ubuntu.trusty:def:56131000000",
+                "title": "USN-5613-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-06",
+                "def_id": "oval:com.ubuntu.xenial:def:54601000000",
+                "title": "USN-5460-1 -- Vim vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.oracle.elsa:def:20225242",
+                "title": "ELSA-2022-5242:  vim security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.oracle.elsa:def:20225242",
+                "title": "ELSA-2022-5242:  vim security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2022-06-30",
+                "def_id": "oval:com.oracle.elsa:def:20225242",
+                "title": "ELSA-2022-5242:  vim security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
             {
                 "date": "2022-04-12",
                 "def_id": "oval:redos:def:185",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Vim",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:org.almalinux.alsa:def:20225242",
+                "title": "ALSA-2022:5242: vim security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225242",
+                "title": "RHSA-2022:5242: vim security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225242",
+                "title": "RHSA-2022:5242: vim security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225242",
+                "title": "RHSA-2022:5242: vim security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225242",
+                "title": "RHSA-2022:5242: vim security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225242",
+                "title": "RHSA-2022:5242: vim security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225242",
+                "title": "RHSA-2022:5242: vim security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225242",
+                "title": "RHSA-2022:5242: vim security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-0971": [
@@ -12670,7 +12841,7 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
-        "CVE-2022-0985 ": [
+        "CVE-2022-0985": [
             {
                 "date": "2022-03-29",
                 "def_id": "oval:redos:def:161",
@@ -36622,6 +36793,20 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
+                "date": "2022-04-12",
+                "def_id": "oval:redos:def:189",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Mozilla Firefox",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2022-04-12",
+                "def_id": "oval:redos:def:197",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Mozilla Thunderbird",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2022-04-11",
                 "def_id": "oval:org.almalinux.alsa:def:20221301",
                 "title": "ALSA-2022:1301: thunderbird security update (Important)",
@@ -36928,22 +37113,6 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2022-28282 ": [
-            {
-                "date": "2022-04-12",
-                "def_id": "oval:redos:def:189",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Mozilla Firefox",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2022-04-12",
-                "def_id": "oval:redos:def:197",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Mozilla Thunderbird",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2022-28283": [

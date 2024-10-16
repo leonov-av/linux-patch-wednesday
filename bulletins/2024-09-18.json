@@ -72,15 +72,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             }
         ],
-        "CVE-2022-1921 ": [
-            {
-                "date": "2024-09-10",
-                "def_id": "oval:redos:def:3510",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 gstreamer1-plugins-good",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2022-48901": [
             {
                 "date": "2024-09-18",
@@ -997,15 +988,6 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
-        "CVE-2023-32067 ": [
-            {
-                "date": "2024-08-28",
-                "def_id": "oval:redos:def:3297",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c c-ares",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2023-38303": [
             {
                 "date": "2024-09-18",
@@ -1092,15 +1074,6 @@
                 "date": "2024-09-18",
                 "def_id": "oval:redos:def:3678",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 webmin",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
-        "CVE-2023-45288 ": [
-            {
-                "date": "2024-08-26",
-                "def_id": "oval:redos:def:3269",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 stolon",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
@@ -1216,6 +1189,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-10-16",
+                "def_id": "oval:com.ubuntu.trusty:def:70382000000",
+                "title": "USN-7038-2 -- APR vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-26",
                 "def_id": "oval:com.ubuntu.xenial:def:70381000000",
                 "title": "USN-7038-1 -- APR vulnerability",
@@ -1249,6 +1229,13 @@
                 "title": "USN-7038-1 -- APR vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-16",
+                "def_id": "oval:com.ubuntu.trusty:def:70382000000",
+                "title": "USN-7038-2 -- APR vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-09-26",
@@ -8935,6 +8922,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
             },
             {
+                "date": "2024-10-16",
+                "def_id": "oval:com.ubuntu.trusty:def:70482000000",
+                "title": "USN-7048-2 -- Vim vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-10-01",
                 "def_id": "oval:com.ubuntu.xenial:def:70481000000",
                 "title": "USN-7048-1 -- Vim vulnerability",
@@ -8968,6 +8962,13 @@
                 "title": "USN-7048-1 -- Vim vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-16",
+                "def_id": "oval:com.ubuntu.trusty:def:70482000000",
+                "title": "USN-7048-2 -- Vim vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-10-01",
