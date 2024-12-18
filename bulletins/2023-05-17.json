@@ -773,13 +773,6 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2024-07-10",
-                "def_id": "oval:com.ubuntu.trusty:def:68663000000",
-                "title": "USN-6866-3 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
                 "date": "2024-07-03",
                 "def_id": "oval:com.ubuntu.xenial:def:68651000000",
                 "title": "USN-6865-1 -- Linux kernel vulnerabilities",
@@ -7039,6 +7032,92 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2022-48696": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:318227371272757678285473232490738607534",
+                "title": "CVE-2022-48696 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-11-07",
+                "def_id": "oval:redos:def:4659",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.redhat.rhsa:def:20232951",
+                "title": "RHSA-2023:2951: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.redhat.rhsa:def:20232951",
+                "title": "RHSA-2023:2951: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.redhat.rhsa:def:20232951",
+                "title": "RHSA-2023:2951: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.redhat.rhsa:def:20232951",
+                "title": "RHSA-2023:2951: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-16",
+                "def_id": "oval:com.redhat.rhsa:def:20232951",
+                "title": "RHSA-2023:2951: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232458",
+                "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232458",
+                "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232458",
+                "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232458",
+                "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232458",
+                "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-48883": [
             {
                 "date": "2024-08-21",
@@ -7820,13 +7899,6 @@
                 "date": "2023-07-26",
                 "def_id": "oval:com.ubuntu.trusty:def:62541000000",
                 "title": "USN-6254-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-09-06",
-                "def_id": "oval:com.ubuntu.trusty:def:63411000000",
-                "title": "USN-6341-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
@@ -25532,13 +25604,6 @@
                 "date": "2023-06-08",
                 "def_id": "oval:com.ubuntu.trusty:def:61491000000",
                 "title": "USN-6149-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2023-10-30",
-                "def_id": "oval:com.ubuntu.trusty:def:64601000000",
-                "title": "USN-6460-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
