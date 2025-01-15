@@ -2679,6 +2679,43 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2022-48988": [
+            {
+                "date": "2024-11-19",
+                "def_id": "oval:org.debian:def:96017643137059869582951968547996318727",
+                "title": "CVE-2022-48988 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-11-19",
+                "def_id": "oval:org.debian:def:96017643137059869582951968547996318727",
+                "title": "CVE-2022-48988 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2022-48997": [
             {
                 "date": "2024-11-19",
@@ -5524,6 +5561,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:40152005879263229066335842537264702525",
+                "title": "CVE-2023-31083 linux-6.1",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
                 "date": "2023-10-19",
                 "def_id": "oval:com.ubuntu.bionic:def:64401000000",
                 "title": "USN-6440-1 -- Linux kernel vulnerabilities",
@@ -5751,6 +5795,20 @@
                 "date": "2023-10-19",
                 "def_id": "oval:com.ubuntu.trusty:def:64391000000",
                 "title": "USN-6439-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-23",
+                "def_id": "oval:com.ubuntu.trusty:def:64392000000",
+                "title": "USN-6439-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-20",
+                "def_id": "oval:com.ubuntu.trusty:def:64402000000",
+                "title": "USN-6440-2 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
@@ -15110,6 +15168,27 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-10-23",
+                "def_id": "oval:com.ubuntu.trusty:def:64392000000",
+                "title": "USN-6439-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-20",
+                "def_id": "oval:com.ubuntu.trusty:def:64402000000",
+                "title": "USN-6440-2 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.trusty:def:64601000000",
+                "title": "USN-6460-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-10-19",
                 "def_id": "oval:com.ubuntu.xenial:def:64391000000",
                 "title": "USN-6439-1 -- Linux kernel vulnerabilities",
@@ -15185,6 +15264,13 @@
                 "title": "ELSA-2023-13043: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-12-18",
+                "def_id": "oval:redos:def:5456",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2023-42754": [
@@ -15989,6 +16075,27 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
+                "date": "2023-10-23",
+                "def_id": "oval:com.ubuntu.trusty:def:64392000000",
+                "title": "USN-6439-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-20",
+                "def_id": "oval:com.ubuntu.trusty:def:64402000000",
+                "title": "USN-6440-2 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-30",
+                "def_id": "oval:com.ubuntu.trusty:def:64601000000",
+                "title": "USN-6460-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-10-19",
                 "def_id": "oval:com.ubuntu.xenial:def:64391000000",
                 "title": "USN-6439-1 -- Linux kernel vulnerabilities",
@@ -16374,6 +16481,13 @@
                 "title": "ELSA-2024-2394:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-12-18",
+                "def_id": "oval:redos:def:5454",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-04-30",
@@ -17112,6 +17226,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
             },
             {
+                "date": "2024-12-19",
+                "def_id": "oval:com.oracle.elsa:def:202411238",
+                "title": "ELSA-2024-11238:  python3.11-urllib3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
                 "date": "2024-05-02",
                 "def_id": "oval:com.oracle.elsa:def:20242132",
                 "title": "ELSA-2024-2132:  fence-agents security and bug fix update (MODERATE)",
@@ -17154,6 +17275,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
+                "date": "2024-12-19",
+                "def_id": "oval:com.oracle.elsa:def:202411238",
+                "title": "ELSA-2024-11238:  python3.11-urllib3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
                 "date": "2024-05-02",
                 "def_id": "oval:com.oracle.elsa:def:20242132",
                 "title": "ELSA-2024-2132:  fence-agents security and bug fix update (MODERATE)",
@@ -17206,6 +17334,13 @@
                 "date": "2024-01-25",
                 "def_id": "oval:com.oracle.elsa:def:20240464",
                 "title": "ELSA-2024-0464:  python-urllib3 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-12-19",
+                "def_id": "oval:com.oracle.elsa:def:202411238",
+                "title": "ELSA-2024-11238:  python3.11-urllib3 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
@@ -17259,6 +17394,13 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2024-12-17",
+                "def_id": "oval:org.almalinux.alsa:def:202411238",
+                "title": "ALSA-2024:11238: python3.11-urllib3 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
                 "date": "2024-01-25",
                 "def_id": "oval:org.almalinux.alsa:def:20240464",
                 "title": "ALSA-2024:0464: python-urllib3 security update (Moderate)",
@@ -17301,9 +17443,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
             },
             {
+                "date": "2025-01-08",
+                "def_id": "oval:com.redhat.rhsa:def:20250078",
+                "title": "RHSA-2025:0078: python3.11-urllib3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2024-01-30",
                 "def_id": "oval:com.redhat.rhsa:def:20240588",
                 "title": "RHSA-2024:0588: python-urllib3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-08",
+                "def_id": "oval:com.redhat.rhsa:def:20250078",
+                "title": "RHSA-2025:0078: python3.11-urllib3 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
             },
@@ -17315,9 +17471,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-01-08",
+                "def_id": "oval:com.redhat.rhsa:def:20250078",
+                "title": "RHSA-2025:0078: python3.11-urllib3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2024-01-30",
                 "def_id": "oval:com.redhat.rhsa:def:20240588",
                 "title": "RHSA-2024:0588: python-urllib3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-08",
+                "def_id": "oval:com.redhat.rhsa:def:20250078",
+                "title": "RHSA-2025:0078: python3.11-urllib3 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
             },
@@ -17427,6 +17597,13 @@
                 "title": "USN-7107-1 -- zlib vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-13",
+                "def_id": "oval:com.ubuntu.trusty:def:71071000000",
+                "title": "USN-7107-1 -- zlib vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-10-20",
@@ -20620,6 +20797,27 @@
                 "date": "2023-10-19",
                 "def_id": "oval:com.ubuntu.trusty:def:64391000000",
                 "title": "USN-6439-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-23",
+                "def_id": "oval:com.ubuntu.trusty:def:64392000000",
+                "title": "USN-6439-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-10-20",
+                "def_id": "oval:com.ubuntu.trusty:def:64402000000",
+                "title": "USN-6440-2 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-03-18",
+                "def_id": "oval:com.ubuntu.trusty:def:66991000000",
+                "title": "USN-6699-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
