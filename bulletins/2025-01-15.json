@@ -6,7 +6,7 @@
     "patch_wednesday_end_date_ts": 1736974799,
     "patch_wednesday_start_date": "2024-12-19",
     "patch_wednesday_start_date_ts": 1734555600,
-    "status": "In Work",
+    "status": "Released",
     "vulnerabilities": {
         "CVE-2018-25107": [
             {
@@ -385,6 +385,36 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
+        "CVE-2024-11029": [
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:org.debian:def:23768598739736930984276459891778286731",
+                "title": "CVE-2024-11029 freeipa",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250334",
+                "title": "ELSA-2025-0334:  ipa security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250334",
+                "title": "ELSA-2025-0334:  ipa security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250334",
+                "title": "RHSA-2025:0334: ipa security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2024-11477": [
             {
                 "date": "2025-01-14",
@@ -599,6 +629,55 @@
                 "title": "USN-7206-1 -- rsync vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250324",
+                "title": "ELSA-2025-0324:  rsync security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250325",
+                "title": "ELSA-2025-0325:  rsync security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250324",
+                "title": "ELSA-2025-0324:  rsync security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250325",
+                "title": "ELSA-2025-0325:  rsync security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250324",
+                "title": "ELSA-2025-0324:  rsync security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:org.almalinux.alsa:def:20250325",
+                "title": "ALSA-2025:0325: rsync security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:org.almalinux.alsa:def:20250324",
+                "title": "ALSA-2025:0324: rsync security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
                 "date": "2025-01-15",
@@ -1264,6 +1343,13 @@
                 "title": "RHSA-2025:0288: Bug fix of NetworkManager (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.redhat.rhsa:def:20250377",
+                "title": "RHSA-2025:0377: Security and bug fixes for NetworkManager (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-36613": [
@@ -1778,13 +1864,6 @@
                 "title": "CVE-2024-48873 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2025-01-15",
-                "def_id": "oval:org.debian:def:203375602431021980959408389298386585624",
-                "title": "CVE-2024-48873 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             }
         ],
         "CVE-2024-48875": [
@@ -3229,6 +3308,27 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250346",
+                "title": "RHSA-2025:0346: iperf3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250346",
+                "title": "RHSA-2025:0346: iperf3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250346",
+                "title": "RHSA-2025:0346: iperf3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-01-09",
                 "def_id": "oval:com.redhat.rhsa:def:20250168",
                 "title": "RHSA-2025:0168: iperf3 security update (Important)",
@@ -4541,6 +4641,69 @@
             },
             {
                 "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250308",
+                "title": "ELSA-2025-0308:  fence-agents security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250308",
+                "title": "ELSA-2025-0308:  fence-agents security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250308",
+                "title": "ELSA-2025-0308: fence-agents security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:org.almalinux.alsa:def:20250308",
+                "title": "ALSA-2025:0308: fence-agents security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250345",
+                "title": "RHSA-2025:0345: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250335",
+                "title": "RHSA-2025:0335: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250335",
+                "title": "RHSA-2025:0335: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250335",
+                "title": "RHSA-2025:0335: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250338",
+                "title": "RHSA-2025:0338: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
                 "def_id": "oval:com.redhat.rhsa:def:20250308",
                 "title": "RHSA-2025:0308: fence-agents security update (Important)",
                 "type": "redhat",
@@ -4561,6 +4724,69 @@
                 "title": "CVE-2024-56326 jinja2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250308",
+                "title": "ELSA-2025-0308:  fence-agents security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250308",
+                "title": "ELSA-2025-0308:  fence-agents security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.oracle.elsa:def:20250308",
+                "title": "ELSA-2025-0308: fence-agents security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:org.almalinux.alsa:def:20250308",
+                "title": "ALSA-2025:0308: fence-agents security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250345",
+                "title": "RHSA-2025:0345: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250335",
+                "title": "RHSA-2025:0335: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250335",
+                "title": "RHSA-2025:0335: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250335",
+                "title": "RHSA-2025:0335: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:com.redhat.rhsa:def:20250338",
+                "title": "RHSA-2025:0338: fence-agents security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-01-14",
@@ -4695,6 +4921,76 @@
                 "title": "CVE-2024-56378 poppler",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.bionic:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.focal:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.jammy:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.noble:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.oracular:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.xenial:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.bionic:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.focal:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.jammy:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-16",
+                "def_id": "oval:com.ubuntu.noble:def:72131000000",
+                "title": "USN-7213-1 -- poppler vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
             }
         ],
         "CVE-2024-56431": [
@@ -7615,13 +7911,6 @@
                 "title": "CVE-2024-57804 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2025-01-15",
-                "def_id": "oval:org.debian:def:107747239087702820458712298396549593129",
-                "title": "CVE-2024-57804 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             }
         ],
         "CVE-2024-57807": [
@@ -7686,6 +7975,55 @@
                 "title": "CVE-2024-57823 raptor2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250312",
+                "title": "ELSA-2025-0312:  raptor2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250314",
+                "title": "ELSA-2025-0314:  raptor2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250312",
+                "title": "ELSA-2025-0312:  raptor2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250314",
+                "title": "ELSA-2025-0314:  raptor2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:com.oracle.elsa:def:20250312",
+                "title": "ELSA-2025-0312:  raptor2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:org.almalinux.alsa:def:20250314",
+                "title": "ALSA-2025:0314: raptor2 security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2025-01-14",
+                "def_id": "oval:org.almalinux.alsa:def:20250312",
+                "title": "ALSA-2025:0312: raptor2 security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
                 "date": "2025-01-14",
@@ -10127,6 +10465,13 @@
             },
             {
                 "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:298019129608406697255688112501517805250",
                 "title": "CVE-2025-0434 chromium",
                 "type": "debian",
@@ -10138,6 +10483,13 @@
                 "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:96779773731033509412746881141189866983",
                 "title": "CVE-2025-0435 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
@@ -10159,6 +10511,13 @@
             },
             {
                 "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:129856545975478757817411409968186678644",
                 "title": "CVE-2025-0436 chromium",
                 "type": "debian",
@@ -10170,6 +10529,13 @@
                 "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:190862867158837749755686702871378706413",
                 "title": "CVE-2025-0437 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
@@ -10191,6 +10557,13 @@
             },
             {
                 "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:53509985055789563257411541229522073731",
                 "title": "CVE-2025-0438 chromium",
                 "type": "debian",
@@ -10202,6 +10575,13 @@
                 "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:175072566125624508213253272414977746037",
                 "title": "CVE-2025-0439 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
@@ -10223,6 +10603,13 @@
             },
             {
                 "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:12578543947403246689913995916392966442",
                 "title": "CVE-2025-0440 chromium",
                 "type": "debian",
@@ -10234,6 +10621,13 @@
                 "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:109799292471558873555641785317728817385",
                 "title": "CVE-2025-0441 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
@@ -10255,6 +10649,13 @@
             },
             {
                 "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:114781956113793886213600217641308647416",
                 "title": "CVE-2025-0442 chromium",
                 "type": "debian",
@@ -10266,6 +10667,13 @@
                 "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:204833494047692832848279172333692044267",
                 "title": "CVE-2025-0443 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
@@ -10287,6 +10695,13 @@
             },
             {
                 "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:246975421687790353688433411716439961329",
                 "title": "CVE-2025-0446 chromium",
                 "type": "debian",
@@ -10303,6 +10718,13 @@
             },
             {
                 "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:262167912313804418386192095252116175655",
                 "title": "CVE-2025-0447 chromium",
                 "type": "debian",
@@ -10314,6 +10736,13 @@
                 "date": "2025-01-15",
                 "def_id": "oval:org.debian:def:285071990019402728177107777498543985068",
                 "title": "CVE-2025-0448 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-01-15",
+                "def_id": "oval:org.debian:def:32559391890775244227915356746364601538",
+                "title": "DSA-5844-1 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
