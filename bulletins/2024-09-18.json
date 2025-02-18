@@ -373,29 +373,6 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
-        "CVE-2022-48921": [
-            {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:174597626757556042649524459458994423548",
-                "title": "CVE-2022-48921 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:174597626757556042649524459458994423548",
-                "title": "CVE-2022-48921 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-09-19",
-                "def_id": "oval:redos:def:3733",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2022-48922": [
             {
                 "date": "2024-09-18",
@@ -592,6 +569,34 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-11-26",
+                "def_id": "oval:com.redhat.rhsa:def:202410262",
+                "title": "RHSA-2024:10262: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-26",
+                "def_id": "oval:com.redhat.rhsa:def:202410262",
+                "title": "RHSA-2024:10262: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-26",
+                "def_id": "oval:com.redhat.rhsa:def:202410262",
+                "title": "RHSA-2024:10262: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-26",
+                "def_id": "oval:com.redhat.rhsa:def:202410262",
+                "title": "RHSA-2024:10262: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
             },
             {
                 "date": "2024-11-12",
@@ -4136,6 +4141,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/openstack-16.2.oval.xml.bz2"
             },
             {
+                "date": "2025-02-10",
+                "def_id": "oval:com.redhat.rhsa:def:20251190",
+                "title": "RHSA-2025:1190: Red Hat OpenStack Platform 17.1 (etcd) security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/openstack-17.1.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-26",
                 "def_id": "oval:com.redhat.rhsa:def:20247205",
                 "title": "RHSA-2024:7205: osbuild-composer security update (Important)",
@@ -4486,6 +4498,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/openshift-4.17.oval.xml.bz2"
             },
             {
+                "date": "2025-02-10",
+                "def_id": "oval:com.redhat.rhsa:def:20251190",
+                "title": "RHSA-2025:1190: Red Hat OpenStack Platform 17.1 (etcd) security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/openstack-17.1.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-25",
                 "def_id": "oval:com.redhat.rhsa:def:20247102",
                 "title": "RHSA-2024:7102: grafana security update (Important)",
@@ -4799,6 +4818,20 @@
                 "title": "RHSA-2024:8112: buildah security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202411216",
+                "title": "RHSA-2024:11216: containernetworking-plugins security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202411217",
+                "title": "RHSA-2024:11217: skopeo security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
                 "date": "2024-09-23",
@@ -10561,6 +10594,13 @@
                 "title": "USN-7005-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-17",
+                "def_id": "oval:redos:def:5740",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-41003": [
@@ -11311,6 +11351,20 @@
                 "title": "CVE-2024-43398 ruby2.7",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:com.ubuntu.focal:def:72561000000",
+                "title": "USN-7256-1 -- Ruby vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:com.ubuntu.focal:def:72561000000",
+                "title": "USN-7256-1 -- Ruby vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-09-16",
@@ -12213,6 +12267,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6105",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43884": [
@@ -12782,6 +12843,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6106",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43886": [
@@ -13192,6 +13260,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6107",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-11-05",
@@ -13684,6 +13759,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6108",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43892": [
@@ -14092,6 +14174,13 @@
                 "title": "ELSA-2024-9315:  kernel security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6110",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-11-05",
@@ -14591,6 +14680,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6111",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43894": [
@@ -15034,6 +15130,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6112",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43895": [
@@ -15213,6 +15316,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6113",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43899": [
@@ -15753,6 +15863,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6114",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43904": [
@@ -15851,6 +15968,13 @@
                 "date": "2025-01-07",
                 "def_id": "oval:com.ubuntu.jammy:def:71793000000",
                 "title": "USN-7179-3 -- Linux kernel (GKE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-27",
+                "def_id": "oval:com.ubuntu.jammy:def:71794000000",
+                "title": "USN-7179-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -15970,6 +16094,13 @@
                 "date": "2025-01-07",
                 "def_id": "oval:com.ubuntu.jammy:def:71793000000",
                 "title": "USN-7179-3 -- Linux kernel (GKE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-27",
+                "def_id": "oval:com.ubuntu.jammy:def:71794000000",
+                "title": "USN-7179-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -16282,134 +16413,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            }
-        ],
-        "CVE-2024-43906": [
-            {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:278831019446194423065423304442782868622",
-                "title": "CVE-2024-43906 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:278831019446194423065423304442782868622",
-                "title": "CVE-2024-43906 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.jammy:def:71541000000",
-                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-06",
-                "def_id": "oval:com.ubuntu.jammy:def:71542000000",
-                "title": "USN-7154-2 -- Linux kernel (HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.jammy:def:71551000000",
-                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.jammy:def:71961000000",
-                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71541000000",
-                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71551000000",
-                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71561000000",
-                "title": "USN-7156-1 -- Linux kernel (GKE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.noble:def:71961000000",
-                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.jammy:def:71541000000",
-                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-06",
-                "def_id": "oval:com.ubuntu.jammy:def:71542000000",
-                "title": "USN-7154-2 -- Linux kernel (HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.jammy:def:71551000000",
-                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.jammy:def:71961000000",
-                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71541000000",
-                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71551000000",
-                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71561000000",
-                "title": "USN-7156-1 -- Linux kernel (GKE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.noble:def:71961000000",
-                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6115",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43907": [
@@ -16671,6 +16681,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6116",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43908": [
@@ -17114,6 +17131,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-05",
+                "def_id": "oval:redos:def:6117",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43909": [
@@ -17375,6 +17399,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6118",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-43911": [
@@ -17691,13 +17722,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:30493512785559838077162337944411599666",
-                "title": "CVE-2024-43913 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
                 "date": "2024-12-12",
                 "def_id": "oval:com.ubuntu.jammy:def:71541000000",
                 "title": "USN-7154-1 -- Linux kernel vulnerabilities",
@@ -17861,6 +17885,20 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-01-28",
+                "def_id": "oval:com.ubuntu.bionic:def:72331000000",
+                "title": "USN-7233-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-30",
+                "def_id": "oval:com.ubuntu.bionic:def:72332000000",
+                "title": "USN-7233-2 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-10-31",
                 "def_id": "oval:com.ubuntu.focal:def:70881000000",
                 "title": "USN-7088-1 -- Linux kernel vulnerabilities",
@@ -17999,6 +18037,41 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-30",
+                "def_id": "oval:com.ubuntu.trusty:def:72332000000",
+                "title": "USN-7233-2 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:com.ubuntu.trusty:def:72621000000",
+                "title": "USN-7262-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-28",
+                "def_id": "oval:com.ubuntu.xenial:def:72331000000",
+                "title": "USN-7233-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-03",
+                "def_id": "oval:com.ubuntu.xenial:def:72333000000",
+                "title": "USN-7233-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:com.ubuntu.xenial:def:72621000000",
+                "title": "USN-7262-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-10-31",
@@ -18029,6 +18102,20 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-01-28",
+                "def_id": "oval:com.ubuntu.bionic:def:72331000000",
+                "title": "USN-7233-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-30",
+                "def_id": "oval:com.ubuntu.bionic:def:72332000000",
+                "title": "USN-7233-2 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-10-31",
                 "def_id": "oval:com.ubuntu.focal:def:70881000000",
                 "title": "USN-7088-1 -- Linux kernel vulnerabilities",
@@ -18167,6 +18254,41 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-30",
+                "def_id": "oval:com.ubuntu.trusty:def:72332000000",
+                "title": "USN-7233-2 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:com.ubuntu.trusty:def:72621000000",
+                "title": "USN-7262-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-28",
+                "def_id": "oval:com.ubuntu.xenial:def:72331000000",
+                "title": "USN-7233-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-03",
+                "def_id": "oval:com.ubuntu.xenial:def:72333000000",
+                "title": "USN-7233-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:com.ubuntu.xenial:def:72621000000",
+                "title": "USN-7262-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-10-11",
@@ -18272,6 +18394,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6119",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44082": [
@@ -18467,6 +18596,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-01-20",
+                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
+                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2025-01-06",
                 "def_id": "oval:com.ubuntu.jammy:def:71861000000",
                 "title": "USN-7186-1 -- Linux kernel (Intel IoTG) vulnerabilities",
@@ -18582,6 +18718,13 @@
                 "date": "2024-12-17",
                 "def_id": "oval:com.ubuntu.jammy:def:71662000000",
                 "title": "USN-7166-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-20",
+                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
+                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -18950,6 +19093,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6120",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44935": [
@@ -19414,6 +19564,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6121",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-11-05",
@@ -19905,6 +20062,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-01-20",
+                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
+                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2025-01-06",
                 "def_id": "oval:com.ubuntu.jammy:def:71861000000",
                 "title": "USN-7186-1 -- Linux kernel (Intel IoTG) vulnerabilities",
@@ -20136,6 +20300,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-01-20",
+                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
+                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2025-01-06",
                 "def_id": "oval:com.ubuntu.jammy:def:71861000000",
                 "title": "USN-7186-1 -- Linux kernel (Intel IoTG) vulnerabilities",
@@ -20218,6 +20389,34 @@
                 "title": "USN-7110-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-09",
+                "def_id": "oval:com.oracle.elsa:def:202520095",
+                "title": "ELSA-2025-20095: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-02-09",
+                "def_id": "oval:com.oracle.elsa:def:202520095",
+                "title": "ELSA-2025-20095: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-02-09",
+                "def_id": "oval:com.oracle.elsa:def:202520095",
+                "title": "ELSA-2025-20095: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-02-09",
+                "def_id": "oval:com.oracle.elsa:def:202520095",
+                "title": "ELSA-2025-20095: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             }
         ],
         "CVE-2024-44941": [
@@ -20511,6 +20710,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-01-20",
+                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
+                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2025-01-06",
                 "def_id": "oval:com.ubuntu.jammy:def:71861000000",
                 "title": "USN-7186-1 -- Linux kernel (Intel IoTG) vulnerabilities",
@@ -20738,6 +20944,13 @@
                 "date": "2024-12-17",
                 "def_id": "oval:com.ubuntu.jammy:def:71662000000",
                 "title": "USN-7166-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-20",
+                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
+                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -21414,6 +21627,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6123",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44946": [
@@ -21857,6 +22077,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6124",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44947": [
@@ -22449,6 +22676,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6125",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-11-12",
                 "def_id": "oval:com.redhat.rhsa:def:20249315",
                 "title": "RHSA-2024:9315: kernel security update (Moderate)",
@@ -22918,6 +23152,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6126",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44949": [
@@ -22948,6 +23189,34 @@
                 "title": "CVE-2024-44949 linux-6.1",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-02-09",
+                "def_id": "oval:com.oracle.elsa:def:202520095",
+                "title": "ELSA-2025-20095: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-02-09",
+                "def_id": "oval:com.oracle.elsa:def:202520095",
+                "title": "ELSA-2025-20095: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-02-09",
+                "def_id": "oval:com.oracle.elsa:def:202520095",
+                "title": "ELSA-2025-20095: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-02-09",
+                "def_id": "oval:com.oracle.elsa:def:202520095",
+                "title": "ELSA-2025-20095: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             }
         ],
         "CVE-2024-44950": [
@@ -23549,6 +23818,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6127",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44955": [
@@ -23954,6 +24230,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6128",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44960": [
@@ -24439,6 +24722,13 @@
                 "title": "ELSA-2024-9315:  kernel security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6130",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-11-12",
@@ -25168,6 +25458,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6131",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-11-12",
                 "def_id": "oval:com.redhat.rhsa:def:20249315",
                 "title": "RHSA-2024:9315: kernel security update (Moderate)",
@@ -25427,6 +25724,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6132",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44967": [
@@ -25555,6 +25859,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6133",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44968": [
@@ -25683,6 +25994,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6134",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44969": [
@@ -26126,6 +26444,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6135",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44970": [
@@ -26550,6 +26875,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6136",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44972": [
@@ -26918,6 +27250,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6137",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44977": [
@@ -27328,6 +27667,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6138",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44983": [
@@ -27589,6 +27935,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6139",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44985": [
@@ -27850,6 +28203,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6141",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44986": [
@@ -28118,6 +28478,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6142",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44987": [
@@ -28645,6 +29012,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6143",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44988": [
@@ -29067,6 +29441,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6144",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44989": [
@@ -29358,6 +29739,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6145",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-11-05",
                 "def_id": "oval:org.almalinux.alsa:def:20248870",
                 "title": "ALSA-2024:8870: kernel-rt security update (Moderate)",
@@ -29384,6 +29772,13 @@
                 "title": "RHSA-2024:8870: kernel-rt security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:202410771",
+                "title": "RHSA-2024:10771: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             }
         ],
         "CVE-2024-44990": [
@@ -29675,6 +30070,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6146",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-11-05",
                 "def_id": "oval:org.almalinux.alsa:def:20248870",
                 "title": "ALSA-2024:8870: kernel-rt security update (Moderate)",
@@ -29836,6 +30238,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6147",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44995": [
@@ -30258,6 +30667,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6148",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44998": [
@@ -30785,6 +31201,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6151",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-44999": [
@@ -31228,6 +31651,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6152",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45000": [
@@ -31363,6 +31793,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6153",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45002": [
@@ -31498,6 +31935,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6155",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45003": [
@@ -31920,6 +32364,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6156",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45006": [
@@ -32412,6 +32863,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6158",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45007": [
@@ -32680,6 +33138,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6159",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45008": [
@@ -33144,6 +33609,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6160",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45009": [
@@ -33384,6 +33856,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6161",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45010": [
@@ -33780,6 +34259,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6162",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45015": [
@@ -34288,6 +34774,20 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6164",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6213",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45018": [
@@ -34621,6 +35121,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6165",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-11-05",
                 "def_id": "oval:org.almalinux.alsa:def:20248870",
                 "title": "ALSA-2024:8870: kernel-rt security update (Moderate)",
@@ -34668,6 +35175,13 @@
                 "title": "RHSA-2024:8617: kernel security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410939",
+                "title": "RHSA-2024:10939: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
                 "date": "2024-10-30",
@@ -34810,6 +35324,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6166",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45021": [
@@ -35400,6 +35921,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6168",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45022": [
@@ -35535,6 +36063,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6169",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45025": [
@@ -35957,6 +36492,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6170",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45026": [
@@ -36379,6 +36921,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6171",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45028": [
@@ -36822,6 +37371,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6172",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45029": [
@@ -36957,6 +37513,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6173",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45157": [
@@ -37379,6 +37942,20 @@
                 "title": "ALSA-2024:10218: perl-App-cpanminus security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-11-25",
+                "def_id": "oval:com.redhat.rhsa:def:202410219",
+                "title": "RHSA-2024:10219: perl-App-cpanminus:1.7044 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-25",
+                "def_id": "oval:com.redhat.rhsa:def:202410218",
+                "title": "RHSA-2024:10218: perl-App-cpanminus security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-45409": [
@@ -38205,6 +38782,104 @@
                 "title": "CVE-2024-45508 htmldoc",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.bionic:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.focal:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.jammy:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.noble:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.oracular:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.trusty:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.xenial:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.bionic:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.focal:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.jammy:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.noble:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.oracular:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.trusty:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-22",
+                "def_id": "oval:com.ubuntu.xenial:def:72251000000",
+                "title": "USN-7225-1 -- HTMLDOC vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2024-45590": [
@@ -38980,6 +39655,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6176",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46674": [
@@ -39087,6 +39769,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6177",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46675": [
@@ -39530,6 +40219,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6178",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46676": [
@@ -39952,6 +40648,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6179",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46677": [
@@ -40395,6 +41098,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6180",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46678": [
@@ -40945,6 +41655,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6181",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-11-05",
@@ -41523,6 +42240,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6183",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46686": [
@@ -41658,6 +42382,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6184",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46689": [
@@ -42024,6 +42755,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6186",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46694": [
@@ -42159,6 +42897,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6189",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46695": [
@@ -42250,6 +42995,13 @@
                 "date": "2024-12-17",
                 "def_id": "oval:com.ubuntu.jammy:def:71662000000",
                 "title": "USN-7166-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-20",
+                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
+                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -42369,6 +43121,13 @@
                 "date": "2024-12-17",
                 "def_id": "oval:com.ubuntu.jammy:def:71662000000",
                 "title": "USN-7166-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-20",
+                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
+                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
@@ -42511,6 +43270,27 @@
                 "title": "ALSA-2024:10939: kernel security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410943",
+                "title": "RHSA-2024:10943: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410944",
+                "title": "RHSA-2024:10944: kernel-rt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410939",
+                "title": "RHSA-2024:10939: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46698": [
@@ -42900,6 +43680,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6190",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46707": [
@@ -43168,6 +43955,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6192",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46710": [
@@ -43431,6 +44225,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6194",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46713": [
@@ -43720,6 +44521,13 @@
                 "title": "ELSA-2025-0059:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6195",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2025-01-08",
@@ -44156,6 +44964,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6196",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46715": [
@@ -45004,6 +45819,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6197",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46720": [
@@ -45589,6 +46411,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6198",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46722": [
@@ -46116,6 +46945,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6199",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46723": [
@@ -46643,6 +47479,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6200",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46724": [
@@ -47051,6 +47894,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6201",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46725": [
@@ -47319,6 +48169,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6202",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46726": [
@@ -48241,6 +49098,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6203",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46732": [
@@ -48509,6 +49373,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6204",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46733": [
@@ -48688,6 +49559,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6205",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46735": [
@@ -48823,6 +49701,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6206",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46737": [
@@ -49779,6 +50664,13 @@
                 "title": "ELSA-2024-12782: Unbreakable Enterprise kernel-container security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6207",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46739": [
@@ -50201,6 +51093,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6208",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46740": [
@@ -50623,6 +51522,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6209",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46742": [
@@ -51159,6 +52065,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6211",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46744": [
@@ -51602,6 +52515,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6212",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46745": [
@@ -52045,6 +52965,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6214",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46746": [
@@ -52061,13 +52988,6 @@
                 "title": "DSA-5782-1 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:132748072390972965124227700826480942731",
-                "title": "CVE-2024-46746 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2025-01-15",
@@ -52313,6 +53233,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-06",
+                "def_id": "oval:redos:def:6215",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46747": [
@@ -52735,6 +53662,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6217",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46748": [
@@ -53194,6 +54128,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6216",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46751": [
@@ -53590,6 +54531,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6218",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46753": [
@@ -54289,6 +55237,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6219",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46759": [
@@ -54816,6 +55771,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6223",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46760": [
@@ -55387,6 +56349,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6224",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46762": [
@@ -55783,6 +56752,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6225",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46765": [
@@ -56524,6 +57500,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6228",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46772": [
@@ -57600,134 +58583,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            }
-        ],
-        "CVE-2024-46778": [
-            {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:285234227460320625129763883747120985531",
-                "title": "CVE-2024-46778 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:285234227460320625129763883747120985531",
-                "title": "CVE-2024-46778 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.jammy:def:71541000000",
-                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-06",
-                "def_id": "oval:com.ubuntu.jammy:def:71542000000",
-                "title": "USN-7154-2 -- Linux kernel (HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.jammy:def:71551000000",
-                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.jammy:def:71961000000",
-                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71541000000",
-                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71551000000",
-                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71561000000",
-                "title": "USN-7156-1 -- Linux kernel (GKE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.noble:def:71961000000",
-                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.jammy:def:71541000000",
-                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-06",
-                "def_id": "oval:com.ubuntu.jammy:def:71542000000",
-                "title": "USN-7154-2 -- Linux kernel (HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.jammy:def:71551000000",
-                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.jammy:def:71961000000",
-                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71541000000",
-                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71551000000",
-                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-12",
-                "def_id": "oval:com.ubuntu.noble:def:71561000000",
-                "title": "USN-7156-1 -- Linux kernel (GKE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.noble:def:71961000000",
-                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6229",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46780": [
@@ -58171,6 +59033,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6230",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46781": [
@@ -58614,6 +59483,13 @@
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-02-10",
+                "def_id": "oval:redos:def:6231",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46782": [
