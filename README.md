@@ -12,7 +12,8 @@ If Microsoft Patch Tuesday occurs every second Tuesday of the month, then Linux 
 
 | Year | Month | Bulletin | Status | CVEs |
 | --- | --- | --- | --- | --- |
-| 2025| February | [2025-02-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-02-19.json) | In Work | 319 |
+| 2025| March | [2025-03-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-03-19.json) | In Work | 36 |
+| 2025| February | [2025-02-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-02-19.json) | Released | 561 |
 | 2025| January | [2025-01-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-01-15.json) | Released | 425 |
 | 2024| December | [2024-12-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-12-18.json) | Released | 323 |
 | 2024| November | [2024-11-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-11-20.json) | Released | 798 |
