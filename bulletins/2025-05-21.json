@@ -2051,6 +2051,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.noble:def:74681000000",
+                "title": "USN-7468-1 -- Linux kernel (Azure, N-Series) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2025-04-23",
                 "def_id": "oval:com.ubuntu.jammy:def:74491000000",
                 "title": "USN-7449-1 -- Linux kernel vulnerabilities",
@@ -2096,6 +2103,13 @@
                 "date": "2025-04-23",
                 "def_id": "oval:com.ubuntu.noble:def:74531000000",
                 "title": "USN-7453-1 -- Linux kernel (Real-time) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.noble:def:74681000000",
+                "title": "USN-7468-1 -- Linux kernel (Azure, N-Series) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
             }
@@ -4932,6 +4946,41 @@
                 "title": "CVE-2025-2830 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.oracle.elsa:def:20254229",
+                "title": "ELSA-2025-4229:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.oracle.elsa:def:20254229",
+                "title": "ELSA-2025-4229:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:org.almalinux.alsa:def:20254229",
+                "title": "ALSA-2025:4229: thunderbird security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.redhat.rhsa:def:20254229",
+                "title": "RHSA-2025:4229: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.redhat.rhsa:def:20254229",
+                "title": "RHSA-2025:4229: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-2849": [
@@ -4939,6 +4988,29 @@
                 "date": "2025-04-23",
                 "def_id": "oval:org.debian:def:194109780150096130025396114492425141612",
                 "title": "CVE-2025-2849 upx-ucl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            }
+        ],
+        "CVE-2025-2866": [
+            {
+                "date": "2025-04-29",
+                "def_id": "oval:org.debian:def:165766868449984088388167184027996290469",
+                "title": "CVE-2025-2866 libreoffice",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:org.debian:def:39137372516790938073205626829787624046",
+                "title": "DSA-5908-1 libreoffice",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-04-29",
+                "def_id": "oval:org.debian:def:165766868449984088388167184027996290469",
+                "title": "CVE-2025-2866 libreoffice",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             }
@@ -5783,6 +5855,52 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             }
         ],
+        "CVE-2025-31650": [
+            {
+                "date": "2025-04-29",
+                "def_id": "oval:org.debian:def:28421624164053292922553383039569950102",
+                "title": "CVE-2025-31650 tomcat10",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-04-29",
+                "def_id": "oval:org.debian:def:69675739912442221875943051403390629763",
+                "title": "CVE-2025-31650 tomcat9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-04-29",
+                "def_id": "oval:org.debian:def:69675739912442221875943051403390629763",
+                "title": "CVE-2025-31650 tomcat9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            }
+        ],
+        "CVE-2025-31651": [
+            {
+                "date": "2025-04-29",
+                "def_id": "oval:org.debian:def:240254731315050033629476779195608317207",
+                "title": "CVE-2025-31651 tomcat10",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-04-29",
+                "def_id": "oval:org.debian:def:281535622434817589482627784878395326626",
+                "title": "CVE-2025-31651 tomcat9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-04-29",
+                "def_id": "oval:org.debian:def:281535622434817589482627784878395326626",
+                "title": "CVE-2025-31651 tomcat9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            }
+        ],
         "CVE-2025-31672": [
             {
                 "date": "2025-04-23",
@@ -5920,6 +6038,76 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.focal:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.jammy:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.noble:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.oracular:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.plucky:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.focal:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.jammy:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.noble:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.oracular:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.plucky:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2025-04-24",
                 "def_id": "oval:redos:def:7166",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c libxml2",
@@ -5941,6 +6129,76 @@
                 "title": "CVE-2025-32415 libxml2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.focal:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.jammy:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.noble:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.oracular:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.plucky:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.focal:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.jammy:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.noble:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.oracular:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.ubuntu.plucky:def:74671000000",
+                "title": "USN-7467-1 -- libxml2 vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.plucky.usn.oval.xml.bz2"
             }
         ],
         "CVE-2025-32433": [
@@ -6514,6 +6772,41 @@
                 "title": "CVE-2025-3522 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.oracle.elsa:def:20254229",
+                "title": "ELSA-2025-4229:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.oracle.elsa:def:20254229",
+                "title": "ELSA-2025-4229:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:org.almalinux.alsa:def:20254229",
+                "title": "ALSA-2025:4229: thunderbird security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.redhat.rhsa:def:20254229",
+                "title": "RHSA-2025:4229: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.redhat.rhsa:def:20254229",
+                "title": "RHSA-2025:4229: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-3523": [
@@ -6530,6 +6823,41 @@
                 "title": "CVE-2025-3523 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.oracle.elsa:def:20254229",
+                "title": "ELSA-2025-4229:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.oracle.elsa:def:20254229",
+                "title": "ELSA-2025-4229:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:org.almalinux.alsa:def:20254229",
+                "title": "ALSA-2025:4229: thunderbird security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.redhat.rhsa:def:20254229",
+                "title": "RHSA-2025:4229: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-28",
+                "def_id": "oval:com.redhat.rhsa:def:20254229",
+                "title": "RHSA-2025:4229: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-3548": [
