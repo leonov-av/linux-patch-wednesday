@@ -304,29 +304,6 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
-        "CVE-2022-48917": [
-            {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:303325909672124915967759640032155285777",
-                "title": "CVE-2022-48917 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-09-18",
-                "def_id": "oval:org.debian:def:303325909672124915967759640032155285777",
-                "title": "CVE-2022-48917 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-09-19",
-                "def_id": "oval:redos:def:3735",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            }
-        ],
         "CVE-2022-48919": [
             {
                 "date": "2024-09-18",
@@ -5914,6 +5891,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20257118",
+                "title": "RHSA-2025:7118: osbuild and osbuild-composer security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-23",
                 "def_id": "oval:com.redhat.rhsa:def:20246913",
                 "title": "RHSA-2024:6913: golang security update (Important)",
@@ -5945,6 +5929,13 @@
                 "date": "2024-11-12",
                 "def_id": "oval:com.redhat.rhsa:def:20249459",
                 "title": "RHSA-2024:9459: buildah security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20257118",
+                "title": "RHSA-2025:7118: osbuild and osbuild-composer security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -8795,6 +8786,204 @@
                 "title": "ELSA-2024-9315:  kernel security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249315",
+                "title": "RHSA-2024:9315: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249315",
+                "title": "RHSA-2024:9315: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2024-39501": [
+            {
+                "date": "2024-09-11",
+                "def_id": "oval:com.oracle.elsa:def:202412612",
+                "title": "ELSA-2024-12612: Unbreakable Enterprise kernel-container security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-09-12",
+                "def_id": "oval:com.oracle.elsa:def:202412618",
+                "title": "ELSA-2024-12618: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-09-10",
+                "def_id": "oval:com.oracle.elsa:def:202412610",
+                "title": "ELSA-2024-12610: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-09-24",
+                "def_id": "oval:com.oracle.elsa:def:20247000",
+                "title": "ELSA-2024-7000:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-10-11",
+                "def_id": "oval:com.oracle.elsa:def:202412779",
+                "title": "ELSA-2024-12779: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-11-14",
+                "def_id": "oval:com.oracle.elsa:def:20249315",
+                "title": "ELSA-2024-9315:  kernel security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
+            },
+            {
+                "date": "2024-09-11",
+                "def_id": "oval:com.oracle.elsa:def:202412612",
+                "title": "ELSA-2024-12612: Unbreakable Enterprise kernel-container security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-09-12",
+                "def_id": "oval:com.oracle.elsa:def:202412618",
+                "title": "ELSA-2024-12618: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-09-10",
+                "def_id": "oval:com.oracle.elsa:def:202412610",
+                "title": "ELSA-2024-12610: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-09-24",
+                "def_id": "oval:com.oracle.elsa:def:20247000",
+                "title": "ELSA-2024-7000:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-10-11",
+                "def_id": "oval:com.oracle.elsa:def:202412779",
+                "title": "ELSA-2024-12779: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-11-14",
+                "def_id": "oval:com.oracle.elsa:def:20249315",
+                "title": "ELSA-2024-9315:  kernel security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-09-11",
+                "def_id": "oval:com.oracle.elsa:def:202412612",
+                "title": "ELSA-2024-12612: Unbreakable Enterprise kernel-container security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2024-09-10",
+                "def_id": "oval:com.oracle.elsa:def:202412610",
+                "title": "ELSA-2024-12610: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2024-10-11",
+                "def_id": "oval:com.oracle.elsa:def:202412779",
+                "title": "ELSA-2024-12779: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2024-09-11",
+                "def_id": "oval:com.oracle.elsa:def:202412612",
+                "title": "ELSA-2024-12612: Unbreakable Enterprise kernel-container security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-09-12",
+                "def_id": "oval:com.oracle.elsa:def:202412618",
+                "title": "ELSA-2024-12618: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-09-10",
+                "def_id": "oval:com.oracle.elsa:def:202412610",
+                "title": "ELSA-2024-12610: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-09-24",
+                "def_id": "oval:com.oracle.elsa:def:20247000",
+                "title": "ELSA-2024-7000:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2024-09-12",
+                "def_id": "oval:com.oracle.elsa:def:202412618",
+                "title": "ELSA-2024-12618: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-11-14",
+                "def_id": "oval:com.oracle.elsa:def:20249315",
+                "title": "ELSA-2024-9315:  kernel security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2024-12-05",
+                "def_id": "oval:redos:def:5313",
+                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-09-24",
+                "def_id": "oval:org.almalinux.alsa:def:20247000",
+                "title": "ALSA-2024:7000: kernel security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-09-24",
+                "def_id": "oval:org.almalinux.alsa:def:20247001",
+                "title": "ALSA-2024:7001: kernel-rt security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2024-09-24",
+                "def_id": "oval:com.redhat.rhsa:def:20247000",
+                "title": "RHSA-2024:7000: kernel security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2024-09-24",
+                "def_id": "oval:com.redhat.rhsa:def:20247001",
+                "title": "RHSA-2024:7001: kernel-rt security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2024-11-12",
@@ -12405,6 +12594,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.oracle.elsa:def:20254488",
+                "title": "ELSA-2025-4488:  ruby:3.1 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
                 "date": "2024-09-19",
                 "def_id": "oval:com.oracle.elsa:def:20246784",
                 "title": "ELSA-2024-6784:  ruby:3.3 security update (MODERATE)",
@@ -12429,6 +12625,13 @@
                 "date": "2025-04-22",
                 "def_id": "oval:com.oracle.elsa:def:20254063",
                 "title": "ELSA-2025-4063:  ruby:3.1 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.oracle.elsa:def:20254488",
+                "title": "ELSA-2025-4488:  ruby:3.1 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -12461,6 +12664,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.oracle.elsa:def:20254488",
+                "title": "ELSA-2025-4488:  ruby:3.1 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
                 "date": "2024-09-19",
                 "def_id": "oval:redos:def:3721",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 rubygem-rexml",
@@ -12485,6 +12695,13 @@
                 "date": "2024-09-18",
                 "def_id": "oval:org.almalinux.alsa:def:20246785",
                 "title": "ALSA-2024:6785: ruby:3.3 security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:org.almalinux.alsa:def:20254488",
+                "title": "ALSA-2025:4488: ruby:3.1 security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
@@ -12580,9 +12797,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.redhat.rhsa:def:20254488",
+                "title": "RHSA-2025:4488: ruby:3.1 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-18",
                 "def_id": "oval:com.redhat.rhsa:def:20246785",
                 "title": "RHSA-2024:6785: ruby:3.3 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.redhat.rhsa:def:20254488",
+                "title": "RHSA-2025:4488: ruby:3.1 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -13909,6 +14140,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-43886": [
@@ -14375,6 +14620,20 @@
                 "title": "RHSA-2025:2270: kernel security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-43890": [
@@ -20356,6 +20615,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-44082": [
@@ -21116,6 +21389,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-44934": [
@@ -21384,6 +21671,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-44935": [
@@ -26722,6 +27023,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-20",
+                "def_id": "oval:com.ubuntu.noble:def:75231000000",
+                "title": "USN-7523-1 -- Linux kernel (Raspberry Pi Real-time) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2025-04-23",
                 "def_id": "oval:com.ubuntu.jammy:def:74491000000",
                 "title": "USN-7449-1 -- Linux kernel vulnerabilities",
@@ -26774,6 +27082,13 @@
                 "date": "2025-04-28",
                 "def_id": "oval:com.ubuntu.noble:def:74681000000",
                 "title": "USN-7468-1 -- Linux kernel (Azure, N-Series) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-20",
+                "def_id": "oval:com.ubuntu.noble:def:75231000000",
+                "title": "USN-7523-1 -- Linux kernel (Raspberry Pi Real-time) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
             }
@@ -27172,6 +27487,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-44960": [
@@ -29556,6 +29885,34 @@
                 "title": "ELSA-2024-9315:  kernel security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.almalinux.alsa:def:20258057",
+                "title": "ALSA-2025:8057: kernel-rt security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.almalinux.alsa:def:20258056",
+                "title": "ALSA-2025:8056: kernel security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:com.redhat.rhsa:def:20258056",
+                "title": "RHSA-2025:8056: kernel security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:com.redhat.rhsa:def:20258057",
+                "title": "RHSA-2025:8057: kernel-rt security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2024-11-12",
@@ -32003,6 +32360,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-44988": [
@@ -32777,6 +33148,20 @@
                 "title": "RHSA-2024:10771: kernel security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-44990": [
@@ -33033,6 +33418,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
             },
             {
+                "date": "2025-04-30",
+                "def_id": "oval:com.oracle.elsa:def:20254341",
+                "title": "ELSA-2025-4341:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
                 "date": "2024-11-05",
                 "def_id": "oval:com.oracle.elsa:def:20248856",
                 "title": "ELSA-2024-8856:  kernel security update (MODERATE)",
@@ -33043,6 +33435,13 @@
                 "date": "2024-11-11",
                 "def_id": "oval:com.oracle.elsa:def:202412815",
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-04-30",
+                "def_id": "oval:com.oracle.elsa:def:20254341",
+                "title": "ELSA-2025-4341:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -33064,6 +33463,13 @@
                 "date": "2024-11-11",
                 "def_id": "oval:com.oracle.elsa:def:202412815",
                 "title": "ELSA-2024-12815: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-04-30",
+                "def_id": "oval:com.oracle.elsa:def:20254341",
+                "title": "ELSA-2025-4341:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
@@ -33122,6 +33528,20 @@
                 "title": "RHSA-2025:2270: kernel security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20254341",
+                "title": "RHSA-2025:4341: kernel security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20254341",
+                "title": "RHSA-2025:4341: kernel security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-44991": [
@@ -34819,6 +35239,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-45002": [
@@ -36882,6 +37316,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-45010": [
@@ -37017,6 +37465,20 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-45011": [
@@ -37807,6 +38269,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-45018": [
@@ -38208,6 +38684,13 @@
                 "title": "RHSA-2024:8617: kernel security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410939",
+                "title": "RHSA-2024:10939: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-10-30",
@@ -39110,6 +39593,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-45025": [
@@ -41002,6 +41499,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:202410218",
                 "title": "RHSA-2024:10218: perl-App-cpanminus security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-25",
+                "def_id": "oval:com.redhat.rhsa:def:202410218",
+                "title": "RHSA-2024:10218: perl-App-cpanminus security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
@@ -41175,6 +41679,20 @@
                 "title": "USN-7456-1 -- Twig vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-15",
+                "def_id": "oval:redos:def:7351",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c php-twig3",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-15",
+                "def_id": "oval:redos:def:7352",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c php-twig2",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-45490": [
@@ -43472,6 +43990,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46674": [
@@ -44036,6 +44568,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46676": [
@@ -47128,6 +47674,13 @@
                 "def_id": "oval:com.redhat.rhsa:def:202410939",
                 "title": "RHSA-2024:10939: kernel security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410939",
+                "title": "RHSA-2024:10939: kernel security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
@@ -48077,6 +48630,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46713": [
@@ -50797,6 +51364,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46723": [
@@ -51331,6 +51912,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46724": [
@@ -51746,6 +52341,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46725": [
@@ -52021,6 +52630,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46726": [
@@ -56099,6 +56722,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46744": [
@@ -56999,6 +57636,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46746": [
@@ -57696,6 +58347,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46748": [
@@ -58162,6 +58827,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46751": [
@@ -58828,6 +59507,20 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46755": [
@@ -59812,6 +60505,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46760": [
@@ -60390,6 +61097,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46762": [
@@ -61151,6 +61872,34 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74961000000",
+                "title": "USN-7496-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74962000000",
+                "title": "USN-7496-2 -- Linux kernel (FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74963000000",
+                "title": "USN-7496-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74965000000",
+                "title": "USN-7496-5 -- Linux kernel (Azure FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-10-31",
                 "def_id": "oval:com.ubuntu.focal:def:70881000000",
                 "title": "USN-7088-1 -- Linux kernel vulnerabilities",
@@ -61289,6 +62038,55 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.trusty:def:74964000000",
+                "title": "USN-7496-4 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.trusty:def:75062000000",
+                "title": "USN-7506-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.ubuntu.trusty:def:75064000000",
+                "title": "USN-7506-4 -- Linux kernel (Xenial HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.xenial:def:74961000000",
+                "title": "USN-7496-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.xenial:def:74963000000",
+                "title": "USN-7496-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:75061000000",
+                "title": "USN-7506-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:75063000000",
+                "title": "USN-7506-3 -- Linux kernel (FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-10-31",
@@ -61319,6 +62117,34 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74961000000",
+                "title": "USN-7496-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74962000000",
+                "title": "USN-7496-2 -- Linux kernel (FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74963000000",
+                "title": "USN-7496-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74965000000",
+                "title": "USN-7496-5 -- Linux kernel (Azure FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-10-31",
                 "def_id": "oval:com.ubuntu.focal:def:70881000000",
                 "title": "USN-7088-1 -- Linux kernel vulnerabilities",
@@ -61457,6 +62283,55 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.trusty:def:74964000000",
+                "title": "USN-7496-4 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.trusty:def:75062000000",
+                "title": "USN-7506-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.ubuntu.trusty:def:75064000000",
+                "title": "USN-7506-4 -- Linux kernel (Xenial HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.xenial:def:74961000000",
+                "title": "USN-7496-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.xenial:def:74963000000",
+                "title": "USN-7496-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:75061000000",
+                "title": "USN-7506-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:75063000000",
+                "title": "USN-7506-3 -- Linux kernel (FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-11-12",
@@ -62698,6 +63573,34 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74961000000",
+                "title": "USN-7496-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74962000000",
+                "title": "USN-7496-2 -- Linux kernel (FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74963000000",
+                "title": "USN-7496-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74965000000",
+                "title": "USN-7496-5 -- Linux kernel (Azure FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-10-31",
                 "def_id": "oval:com.ubuntu.focal:def:70881000000",
                 "title": "USN-7088-1 -- Linux kernel vulnerabilities",
@@ -62836,6 +63739,55 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.trusty:def:74964000000",
+                "title": "USN-7496-4 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.trusty:def:75062000000",
+                "title": "USN-7506-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.ubuntu.trusty:def:75064000000",
+                "title": "USN-7506-4 -- Linux kernel (Xenial HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.xenial:def:74961000000",
+                "title": "USN-7496-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.xenial:def:74963000000",
+                "title": "USN-7496-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:75061000000",
+                "title": "USN-7506-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:75063000000",
+                "title": "USN-7506-3 -- Linux kernel (FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-10-31",
@@ -62866,6 +63818,34 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74961000000",
+                "title": "USN-7496-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74962000000",
+                "title": "USN-7496-2 -- Linux kernel (FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74963000000",
+                "title": "USN-7496-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.bionic:def:74965000000",
+                "title": "USN-7496-5 -- Linux kernel (Azure FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-10-31",
                 "def_id": "oval:com.ubuntu.focal:def:70881000000",
                 "title": "USN-7088-1 -- Linux kernel vulnerabilities",
@@ -63004,6 +63984,55 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.trusty:def:74964000000",
+                "title": "USN-7496-4 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.trusty:def:75062000000",
+                "title": "USN-7506-2 -- Linux kernel (AWS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.ubuntu.trusty:def:75064000000",
+                "title": "USN-7506-4 -- Linux kernel (Xenial HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.xenial:def:74961000000",
+                "title": "USN-7496-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-07",
+                "def_id": "oval:com.ubuntu.xenial:def:74963000000",
+                "title": "USN-7496-3 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:75061000000",
+                "title": "USN-7506-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-12",
+                "def_id": "oval:com.ubuntu.xenial:def:75063000000",
+                "title": "USN-7506-3 -- Linux kernel (FIPS) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-11-12",
@@ -64396,6 +65425,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46784": [
@@ -64834,6 +65877,20 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46787": [
@@ -64962,6 +66019,20 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-46791": [
@@ -66596,6 +67667,20 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20256966",
+                "title": "RHSA-2025:6966: kernel security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-5288": [
@@ -66939,6 +68024,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.bionic:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-16",
                 "def_id": "oval:com.ubuntu.focal:def:70151000000",
                 "title": "USN-7015-1 -- Python vulnerabilities",
@@ -66956,6 +68048,13 @@
                 "date": "2024-11-19",
                 "def_id": "oval:com.ubuntu.focal:def:70155000000",
                 "title": "USN-7015-5 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.focal:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
@@ -66981,6 +68080,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.jammy:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-16",
                 "def_id": "oval:com.ubuntu.noble:def:70151000000",
                 "title": "USN-7015-1 -- Python vulnerabilities",
@@ -66988,9 +68094,23 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.oracular:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-11-19",
                 "def_id": "oval:com.ubuntu.trusty:def:70155000000",
                 "title": "USN-7015-5 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.trusty:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
@@ -67009,6 +68129,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.xenial:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-19",
                 "def_id": "oval:com.ubuntu.bionic:def:70152000000",
                 "title": "USN-7015-2 -- Python vulnerabilities",
@@ -67019,6 +68146,13 @@
                 "date": "2024-11-19",
                 "def_id": "oval:com.ubuntu.bionic:def:70155000000",
                 "title": "USN-7015-5 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.bionic:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
@@ -67044,6 +68178,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.focal:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-16",
                 "def_id": "oval:com.ubuntu.jammy:def:70151000000",
                 "title": "USN-7015-1 -- Python vulnerabilities",
@@ -67065,6 +68206,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.jammy:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-16",
                 "def_id": "oval:com.ubuntu.noble:def:70151000000",
                 "title": "USN-7015-1 -- Python vulnerabilities",
@@ -67072,9 +68220,23 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.oracular:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2024-11-19",
                 "def_id": "oval:com.ubuntu.trusty:def:70155000000",
                 "title": "USN-7015-5 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.trusty:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
@@ -67089,6 +68251,13 @@
                 "date": "2024-11-19",
                 "def_id": "oval:com.ubuntu.xenial:def:70155000000",
                 "title": "USN-7015-5 -- Python vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.ubuntu.xenial:def:74881000000",
+                "title": "USN-7488-1 -- Python vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
@@ -67587,6 +68756,48 @@
                 "def_id": "oval:com.redhat.rhsa:def:20248374",
                 "title": "RHSA-2024:8374: python3.11 security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-24",
+                "def_id": "oval:com.redhat.rhsa:def:20248446",
+                "title": "RHSA-2024:8446: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-24",
+                "def_id": "oval:com.redhat.rhsa:def:20248447",
+                "title": "RHSA-2024:8447: python3.12 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-23",
+                "def_id": "oval:com.redhat.rhsa:def:20248374",
+                "title": "RHSA-2024:8374: python3.11 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-24",
+                "def_id": "oval:com.redhat.rhsa:def:20248446",
+                "title": "RHSA-2024:8446: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-24",
+                "def_id": "oval:com.redhat.rhsa:def:20248447",
+                "title": "RHSA-2024:8447: python3.12 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-23",
+                "def_id": "oval:com.redhat.rhsa:def:20248374",
+                "title": "RHSA-2024:8374: python3.11 security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -67602,6 +68813,48 @@
                 "title": "RHSA-2024:8447: python3.12 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-23",
+                "def_id": "oval:com.redhat.rhsa:def:20248374",
+                "title": "RHSA-2024:8374: python3.11 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-24",
+                "def_id": "oval:com.redhat.rhsa:def:20248446",
+                "title": "RHSA-2024:8446: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-10-24",
+                "def_id": "oval:com.redhat.rhsa:def:20248447",
+                "title": "RHSA-2024:8447: python3.12 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249450",
+                "title": "RHSA-2024:9450: python3.11 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249451",
+                "title": "RHSA-2024:9451: python3.12 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249468",
+                "title": "RHSA-2024:9468: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-10-23",
@@ -68624,6 +69877,62 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
+                "date": "2024-09-03",
+                "def_id": "oval:com.redhat.rhsa:def:20246163",
+                "title": "RHSA-2024:6163: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-09-03",
+                "def_id": "oval:com.redhat.rhsa:def:20246163",
+                "title": "RHSA-2024:6163: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-09-03",
+                "def_id": "oval:com.redhat.rhsa:def:20246163",
+                "title": "RHSA-2024:6163: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-09-03",
+                "def_id": "oval:com.redhat.rhsa:def:20246163",
+                "title": "RHSA-2024:6163: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249190",
+                "title": "RHSA-2024:9190: python3.12 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249192",
+                "title": "RHSA-2024:9192: python3.11 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249371",
+                "title": "RHSA-2024:9371: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-09-03",
+                "def_id": "oval:com.redhat.rhsa:def:20246163",
+                "title": "RHSA-2024:6163: python3.9 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
                 "date": "2024-11-12",
                 "def_id": "oval:com.redhat.rhsa:def:20249190",
                 "title": "RHSA-2024:9190: python3.12 security update (Moderate)",
@@ -68835,6 +70144,13 @@
                 "title": "ALSA-2024:9128: libvirt security update (Moderate)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2024-11-12",
+                "def_id": "oval:com.redhat.rhsa:def:20249128",
+                "title": "RHSA-2024:9128: libvirt security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-11-12",

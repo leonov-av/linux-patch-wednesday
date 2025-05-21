@@ -526,11 +526,25 @@
         ],
         "CVE-2023-0437": [
             {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:44501713578929358812592467200721495662",
+                "title": "CVE-2023-0437 libbson-xs-perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2024-05-15",
                 "def_id": "oval:org.debian:def:241489272202520693848606655253048536649",
                 "title": "CVE-2023-0437 mongo-c-driver",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:44501713578929358812592467200721495662",
+                "title": "CVE-2023-0437 libbson-xs-perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
@@ -10736,6 +10750,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.oracle.elsa:def:20254492",
+                "title": "ELSA-2025-4492:  qemu-kvm security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
                 "date": "2024-09-02",
                 "def_id": "oval:com.oracle.elsa:def:202412605",
                 "title": "ELSA-2024-12605: virt:kvm_utils2 security update (IMPORTANT)",
@@ -10760,6 +10781,13 @@
                 "date": "2024-06-03",
                 "def_id": "oval:com.oracle.elsa:def:202412407",
                 "title": "ELSA-2024-12407: qemu-kvm security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.oracle.elsa:def:20254492",
+                "title": "ELSA-2025-4492:  qemu-kvm security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -10792,6 +10820,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2025-05-06",
+                "def_id": "oval:com.oracle.elsa:def:20254492",
+                "title": "ELSA-2025-4492:  qemu-kvm security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
                 "date": "2024-06-26",
                 "def_id": "oval:redos:def:2281",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 qemu",
@@ -10804,6 +10839,20 @@
                 "title": "RHSA-2024:2962: virt:rhel and virt-devel:rhel security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.redhat.rhsa:def:20254492",
+                "title": "RHSA-2025:4492: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-06",
+                "def_id": "oval:com.redhat.rhsa:def:20254492",
+                "title": "RHSA-2025:4492: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2024-0208": [
@@ -12180,6 +12229,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20257118",
+                "title": "RHSA-2025:7118: osbuild and osbuild-composer security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2024-03-21",
                 "def_id": "oval:com.redhat.rhsa:def:20241462",
                 "title": "RHSA-2024:1462: golang security update (Important)",
@@ -12260,6 +12316,13 @@
                 "date": "2024-07-23",
                 "def_id": "oval:com.redhat.rhsa:def:20244762",
                 "title": "RHSA-2024:4762: runc security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20257118",
+                "title": "RHSA-2025:7118: osbuild and osbuild-composer security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -14319,6 +14382,48 @@
                 "def_id": "oval:com.redhat.rhsa:def:20241818",
                 "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -14341,6 +14446,27 @@
                 "title": "RHSA-2024:1828: java-21-openjdk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-04-18",
@@ -15336,6 +15462,48 @@
                 "def_id": "oval:com.redhat.rhsa:def:20241818",
                 "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -15358,6 +15526,27 @@
                 "title": "RHSA-2024:1828: java-21-openjdk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-04-18",
@@ -16038,6 +16227,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20241818",
                 "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -16046,6 +16263,20 @@
                 "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-04-18",
@@ -16985,6 +17216,48 @@
                 "def_id": "oval:com.redhat.rhsa:def:20241818",
                 "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -17000,6 +17273,27 @@
                 "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241818",
+                "title": "RHSA-2024:1818: java-1.8.0-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:com.redhat.rhsa:def:20241822",
+                "title": "RHSA-2024:1822: java-11-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241825",
+                "title": "RHSA-2024:1825: java-17-openjdk security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-04-18",
@@ -32924,12 +33218,40 @@
                 "def_id": "oval:com.redhat.rhsa:def:202410949",
                 "title": "RHSA-2024:10949: php:8.2 security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410950",
+                "title": "RHSA-2024:10950: php:8.1 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20257315",
+                "title": "RHSA-2025:7315: php security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410949",
+                "title": "RHSA-2024:10949: php:8.2 security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
                 "date": "2024-12-11",
                 "def_id": "oval:com.redhat.rhsa:def:202410950",
                 "title": "RHSA-2024:10950: php:8.1 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20257315",
+                "title": "RHSA-2025:7315: php security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -33800,6 +34122,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20241879",
                 "title": "RHSA-2024:1879: gnutls security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20242570",
+                "title": "RHSA-2024:2570: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241879",
+                "title": "RHSA-2024:1879: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20242570",
+                "title": "RHSA-2024:2570: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241879",
+                "title": "RHSA-2024:1879: gnutls security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -33808,6 +34158,20 @@
                 "title": "RHSA-2024:2570: gnutls security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241879",
+                "title": "RHSA-2024:1879: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20242570",
+                "title": "RHSA-2024:2570: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-04-18",
@@ -34005,6 +34369,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20241879",
                 "title": "RHSA-2024:1879: gnutls security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20242570",
+                "title": "RHSA-2024:2570: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241879",
+                "title": "RHSA-2024:1879: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20242570",
+                "title": "RHSA-2024:2570: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241879",
+                "title": "RHSA-2024:1879: gnutls security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -34013,6 +34405,20 @@
                 "title": "RHSA-2024:2570: gnutls security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-18",
+                "def_id": "oval:com.redhat.rhsa:def:20241879",
+                "title": "RHSA-2024:1879: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-30",
+                "def_id": "oval:com.redhat.rhsa:def:20242570",
+                "title": "RHSA-2024:2570: gnutls security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-04-18",
@@ -34875,7 +35281,28 @@
                 "def_id": "oval:com.redhat.rhsa:def:20241691",
                 "title": "RHSA-2024:1691: varnish security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-08",
+                "def_id": "oval:com.redhat.rhsa:def:20241691",
+                "title": "RHSA-2024:1691: varnish security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-08",
+                "def_id": "oval:com.redhat.rhsa:def:20241691",
+                "title": "RHSA-2024:1691: varnish security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-04-08",
+                "def_id": "oval:com.redhat.rhsa:def:20241691",
+                "title": "RHSA-2024:1691: varnish security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2024-04-08",
@@ -35150,12 +35577,40 @@
                 "def_id": "oval:com.redhat.rhsa:def:202410949",
                 "title": "RHSA-2024:10949: php:8.2 security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410950",
+                "title": "RHSA-2024:10950: php:8.1 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20257315",
+                "title": "RHSA-2025:7315: php security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-11",
+                "def_id": "oval:com.redhat.rhsa:def:202410949",
+                "title": "RHSA-2024:10949: php:8.2 security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
                 "date": "2024-12-11",
                 "def_id": "oval:com.redhat.rhsa:def:202410950",
                 "title": "RHSA-2024:10950: php:8.1 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-05-13",
+                "def_id": "oval:com.redhat.rhsa:def:20257315",
+                "title": "RHSA-2025:7315: php security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
