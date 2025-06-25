@@ -27,13 +27,6 @@
         "CVE-2010-1585": [
             {
                 "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110310",
-                "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110311",
                 "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
@@ -44,7 +37,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20110310",
                 "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
                 "date": "2011-03-02",
@@ -57,13 +50,20 @@
                 "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110310",
                 "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110311",
+                "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
                 "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110311",
-                "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20110310",
+                "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -308,16 +308,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-03-01",
-                "def_id": "oval:com.oracle.elsa:def:20110308",
-                "title": "ELSA-2011-0308:  mailman security update (MODERATE)",
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110307",
+                "title": "ELSA-2011-0307:  mailman security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110307",
-                "title": "ELSA-2011-0307:  mailman security update (MODERATE)",
+                "date": "2011-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20110308",
+                "title": "ELSA-2011-0308:  mailman security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -439,6 +439,48 @@
                 "title": "RHSA-2011:0308: mailman security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2010-4165": [
@@ -457,16 +499,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-03-16",
-                "def_id": "oval:com.oracle.elsa:def:20112010",
-                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "date": "2011-02-23",
+                "def_id": "oval:com.oracle.elsa:def:20110283",
+                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-23",
-                "def_id": "oval:com.oracle.elsa:def:20110283",
-                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -613,16 +655,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-03-16",
-                "def_id": "oval:com.oracle.elsa:def:20112010",
-                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "date": "2011-02-23",
+                "def_id": "oval:com.oracle.elsa:def:20110283",
+                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-23",
-                "def_id": "oval:com.oracle.elsa:def:20110283",
-                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -755,13 +797,6 @@
         ],
         "CVE-2010-4251": [
             {
-                "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110303",
-                "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-05-28",
                 "def_id": "oval:com.oracle.elsa:def:20110542",
                 "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
@@ -780,6 +815,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20110303",
                 "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110542",
+                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -790,9 +832,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-05-28",
-                "def_id": "oval:com.oracle.elsa:def:20110542",
-                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110303",
+                "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6801,13 +6843,6 @@
         ],
         "CVE-2010-4655": [
             {
-                "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110303",
-                "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-04-07",
                 "def_id": "oval:com.oracle.elsa:def:20110421",
                 "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
@@ -6826,6 +6861,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20110303",
                 "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-04-07",
+                "def_id": "oval:com.oracle.elsa:def:20110421",
+                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -6836,9 +6878,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110303",
+                "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6971,13 +7013,6 @@
         ],
         "CVE-2010-4805": [
             {
-                "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110303",
-                "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-05-28",
                 "def_id": "oval:com.oracle.elsa:def:20110542",
                 "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
@@ -6988,13 +7023,20 @@
                 "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110303",
                 "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110542",
+                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-05-28",
-                "def_id": "oval:com.oracle.elsa:def:20110542",
-                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110303",
+                "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -7652,13 +7694,6 @@
         "CVE-2011-0053": [
             {
                 "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110310",
-                "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110311",
                 "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
@@ -7669,7 +7704,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20110310",
                 "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
                 "date": "2011-03-02",
@@ -7682,13 +7717,20 @@
                 "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110310",
                 "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110311",
+                "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
                 "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110311",
-                "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20110310",
+                "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -8730,13 +8772,6 @@
         "CVE-2011-0061": [
             {
                 "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110310",
-                "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110311",
                 "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
@@ -8747,7 +8782,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20110310",
                 "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
                 "date": "2011-03-02",
@@ -8760,13 +8795,20 @@
                 "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110310",
                 "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110311",
+                "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
                 "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110311",
-                "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20110310",
+                "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -8998,13 +9040,6 @@
         "CVE-2011-0062": [
             {
                 "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110310",
-                "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110311",
                 "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
@@ -9015,7 +9050,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20110310",
                 "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
                 "date": "2011-03-02",
@@ -9028,13 +9063,20 @@
                 "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110310",
                 "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110311",
+                "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
                 "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110311",
-                "title": "ELSA-2011-0311:  thunderbird security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20110310",
+                "title": "ELSA-2011-0310:  firefox security and bug fix update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -12483,16 +12525,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-03-01",
-                "def_id": "oval:com.oracle.elsa:def:20110308",
-                "title": "ELSA-2011-0308:  mailman security update (MODERATE)",
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110307",
+                "title": "ELSA-2011-0307:  mailman security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110307",
-                "title": "ELSA-2011-0307:  mailman security update (MODERATE)",
+                "date": "2011-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20110308",
+                "title": "ELSA-2011-0308:  mailman security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -12614,6 +12656,48 @@
                 "title": "RHSA-2011:0308: mailman security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2016-02-21",
+                "def_id": "oval:org.altlinux.errata:def:20161141",
+                "title": "ALT-PU-2016-1141: package `mailman` update to version 2.1.21-alt3.rc2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2011-0714": [
@@ -12782,15 +12866,15 @@
             },
             {
                 "date": "2011-03-08",
-                "def_id": "oval:com.oracle.elsa:def:20110328",
-                "title": "ELSA-2011-0328:  subversion security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20110327",
+                "title": "ELSA-2011-0327:  subversion security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2011-03-08",
-                "def_id": "oval:com.oracle.elsa:def:20110327",
-                "title": "ELSA-2011-0327:  subversion security and bug fix update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20110328",
+                "title": "ELSA-2011-0328:  subversion security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -12930,13 +13014,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2011-03-01",
-                "def_id": "oval:com.oracle.elsa:def:20110305",
-                "title": "ELSA-2011-0305:  samba security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110306",
                 "title": "ELSA-2011-0306:  samba3x security update (IMPORTANT)",
@@ -12947,13 +13024,20 @@
                 "date": "2011-03-01",
                 "def_id": "oval:com.oracle.elsa:def:20110305",
                 "title": "ELSA-2011-0305:  samba security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110306",
+                "title": "ELSA-2011-0306:  samba3x security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110306",
-                "title": "ELSA-2011-0306:  samba3x security update (IMPORTANT)",
+                "date": "2011-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20110305",
+                "title": "ELSA-2011-0305:  samba security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -13704,15 +13788,15 @@
             },
             {
                 "date": "2011-03-10",
-                "def_id": "oval:com.oracle.elsa:def:20110347",
-                "title": "ELSA-2011-0347:  openldap security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20110346",
+                "title": "ELSA-2011-0346:  openldap security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2011-03-10",
-                "def_id": "oval:com.oracle.elsa:def:20110346",
-                "title": "ELSA-2011-0346:  openldap security and bug fix update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20110347",
+                "title": "ELSA-2011-0347:  openldap security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },

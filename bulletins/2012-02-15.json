@@ -166,13 +166,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120058",
-                "title": "ELSA-2012-0058:  glibc security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120126",
                 "title": "ELSA-2012-0126:  glibc security update (MODERATE)",
@@ -183,13 +176,20 @@
                 "date": "2012-01-24",
                 "def_id": "oval:com.oracle.elsa:def:20120058",
                 "title": "ELSA-2012-0058:  glibc security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120126",
+                "title": "ELSA-2012-0126:  glibc security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120126",
-                "title": "ELSA-2012-0126:  glibc security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120058",
+                "title": "ELSA-2012-0058:  glibc security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -858,13 +858,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-15",
                 "def_id": "oval:com.oracle.elsa:def:20120137",
                 "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
@@ -883,6 +876,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20120062",
                 "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -893,23 +893,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -1122,6 +1122,48 @@
                 "title": "RHSA-2012:0137: texlive security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-23",
+                "def_id": "oval:org.altlinux.errata:def:20203114",
+                "title": "ALT-PU-2020-3114: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-05-23",
+                "def_id": "oval:org.altlinux.errata:def:20221925",
+                "title": "ALT-PU-2022-1925: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2011-0764": [
@@ -1140,13 +1182,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-15",
                 "def_id": "oval:com.oracle.elsa:def:20120137",
                 "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
@@ -1165,6 +1200,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20120062",
                 "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -1175,23 +1217,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -1404,6 +1446,48 @@
                 "title": "RHSA-2012:0137: texlive security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-23",
+                "def_id": "oval:org.altlinux.errata:def:20203114",
+                "title": "ALT-PU-2020-3114: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-05-23",
+                "def_id": "oval:org.altlinux.errata:def:20221925",
+                "title": "ALT-PU-2022-1925: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2011-1552": [
@@ -1422,13 +1506,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-15",
                 "def_id": "oval:com.oracle.elsa:def:20120137",
                 "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
@@ -1447,6 +1524,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20120062",
                 "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -1457,23 +1541,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -1686,6 +1770,48 @@
                 "title": "RHSA-2012:0137: texlive security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-23",
+                "def_id": "oval:org.altlinux.errata:def:20203114",
+                "title": "ALT-PU-2020-3114: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-05-23",
+                "def_id": "oval:org.altlinux.errata:def:20221925",
+                "title": "ALT-PU-2022-1925: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2011-1553": [
@@ -1704,13 +1830,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-15",
                 "def_id": "oval:com.oracle.elsa:def:20120137",
                 "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
@@ -1729,6 +1848,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20120062",
                 "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -1739,23 +1865,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -1968,6 +2094,48 @@
                 "title": "RHSA-2012:0137: texlive security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-23",
+                "def_id": "oval:org.altlinux.errata:def:20203114",
+                "title": "ALT-PU-2020-3114: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-05-23",
+                "def_id": "oval:org.altlinux.errata:def:20221925",
+                "title": "ALT-PU-2022-1925: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2011-1554": [
@@ -1986,13 +2154,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-15",
                 "def_id": "oval:com.oracle.elsa:def:20120137",
                 "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
@@ -2011,6 +2172,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20120062",
                 "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -2021,23 +2189,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -2250,6 +2418,48 @@
                 "title": "RHSA-2012:0137: texlive security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-23",
+                "def_id": "oval:org.altlinux.errata:def:20203114",
+                "title": "ALT-PU-2020-3114: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-05-23",
+                "def_id": "oval:org.altlinux.errata:def:20221925",
+                "title": "ALT-PU-2022-1925: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2011-2023": [
@@ -2444,16 +2654,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -2901,16 +3111,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3162,16 +3372,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120323",
-                "title": "ELSA-2012-0323:  httpd security update (MODERATE)",
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120128",
+                "title": "ELSA-2012-0128:  httpd security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120128",
-                "title": "ELSA-2012-0128:  httpd security update (MODERATE)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120323",
+                "title": "ELSA-2012-0323:  httpd security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3318,16 +3528,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120323",
-                "title": "ELSA-2012-0323:  httpd security update (MODERATE)",
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120128",
+                "title": "ELSA-2012-0128:  httpd security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120128",
-                "title": "ELSA-2012-0128:  httpd security update (MODERATE)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120323",
+                "title": "ELSA-2012-0323:  httpd security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3461,15 +3671,15 @@
             },
             {
                 "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120080",
-                "title": "ELSA-2012-0080:  thunderbird security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120079",
+                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120079",
-                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120080",
+                "title": "ELSA-2012-0080:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3715,15 +3925,15 @@
             },
             {
                 "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120080",
-                "title": "ELSA-2012-0080:  thunderbird security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120079",
+                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120079",
-                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120080",
+                "title": "ELSA-2012-0080:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3954,6 +4164,20 @@
         ],
         "CVE-2011-4086": [
             {
+                "date": "2012-05-16",
+                "def_id": "oval:com.oracle.elsa:def:20122014",
+                "title": "ELSA-2012-2014:  Unbreakable Enterprise kernel security  update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-05-16",
+                "def_id": "oval:com.oracle.elsa:def:20122013",
+                "title": "ELSA-2012-2013:  Unbreakable Enterprise kernel security  update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
                 "date": "2012-02-09",
                 "def_id": "oval:com.oracle.elsa:def:20120107",
                 "title": "ELSA-2012-0107:  kernel security and bug fix update (IMPORTANT)",
@@ -3969,22 +4193,15 @@
             },
             {
                 "date": "2012-05-16",
-                "def_id": "oval:com.oracle.elsa:def:20122013",
-                "title": "ELSA-2012-2013:  Unbreakable Enterprise kernel security  update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-05-16",
                 "def_id": "oval:com.oracle.elsa:def:20122014",
                 "title": "ELSA-2012-2014:  Unbreakable Enterprise kernel security  update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-05-15",
-                "def_id": "oval:com.oracle.elsa:def:20120571",
-                "title": "ELSA-2012-0571:  kernel security and bug fix update (MODERATE)",
+                "date": "2012-05-16",
+                "def_id": "oval:com.oracle.elsa:def:20122013",
+                "title": "ELSA-2012-2013:  Unbreakable Enterprise kernel security  update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3996,9 +4213,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-05-16",
-                "def_id": "oval:com.oracle.elsa:def:20122013",
-                "title": "ELSA-2012-2013:  Unbreakable Enterprise kernel security  update (MODERATE)",
+                "date": "2012-05-15",
+                "def_id": "oval:com.oracle.elsa:def:20120571",
+                "title": "ELSA-2012-0571:  kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4007,26 +4224,19 @@
                 "def_id": "oval:com.oracle.elsa:def:20122014",
                 "title": "ELSA-2012-2014:  Unbreakable Enterprise kernel security  update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2012-05-16",
+                "def_id": "oval:com.oracle.elsa:def:20122013",
+                "title": "ELSA-2012-2013:  Unbreakable Enterprise kernel security  update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
                 "date": "2012-05-15",
                 "def_id": "oval:com.oracle.elsa:def:20120571",
                 "title": "ELSA-2012-0571:  kernel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2012-05-16",
-                "def_id": "oval:com.oracle.elsa:def:20122013",
-                "title": "ELSA-2012-2013:  Unbreakable Enterprise kernel security  update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2012-05-16",
-                "def_id": "oval:com.oracle.elsa:def:20122014",
-                "title": "ELSA-2012-2014:  Unbreakable Enterprise kernel security  update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -4174,15 +4384,15 @@
             },
             {
                 "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120060",
-                "title": "ELSA-2012-0060:  openssl security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120059",
+                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120059",
-                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120060",
+                "title": "ELSA-2012-0060:  openssl security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4502,15 +4712,15 @@
             },
             {
                 "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120060",
-                "title": "ELSA-2012-0060:  openssl security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120059",
+                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120059",
-                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120060",
+                "title": "ELSA-2012-0060:  openssl security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4771,13 +4981,6 @@
         ],
         "CVE-2011-4609": [
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120058",
-                "title": "ELSA-2012-0058:  glibc security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120126",
                 "title": "ELSA-2012-0126:  glibc security update (MODERATE)",
@@ -4788,13 +4991,20 @@
                 "date": "2012-01-24",
                 "def_id": "oval:com.oracle.elsa:def:20120058",
                 "title": "ELSA-2012-0058:  glibc security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120126",
+                "title": "ELSA-2012-0126:  glibc security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120126",
-                "title": "ELSA-2012-0126:  glibc security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120058",
+                "title": "ELSA-2012-0058:  glibc security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4942,15 +5152,15 @@
             },
             {
                 "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120060",
-                "title": "ELSA-2012-0060:  openssl security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120059",
+                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120059",
-                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120060",
+                "title": "ELSA-2012-0060:  openssl security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5069,13 +5279,6 @@
         ],
         "CVE-2011-4622": [
             {
-                "date": "2012-01-23",
-                "def_id": "oval:com.oracle.elsa:def:20120051",
-                "title": "ELSA-2012-0051:  kvm security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-03-06",
                 "def_id": "oval:com.oracle.elsa:def:20120350",
                 "title": "ELSA-2012-0350:  kernel security and bug fix update (MODERATE)",
@@ -5094,6 +5297,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20120051",
                 "title": "ELSA-2012-0051:  kvm security update (IMPORTANT)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20120350",
+                "title": "ELSA-2012-0350:  kernel security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -5104,9 +5314,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20120350",
-                "title": "ELSA-2012-0350:  kernel security and bug fix update (MODERATE)",
+                "date": "2012-01-23",
+                "def_id": "oval:com.oracle.elsa:def:20120051",
+                "title": "ELSA-2012-0051:  kvm security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5233,13 +5443,6 @@
         "CVE-2011-4815": [
             {
                 "date": "2012-01-30",
-                "def_id": "oval:com.oracle.elsa:def:20120069",
-                "title": "ELSA-2012-0069:  ruby security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-01-30",
                 "def_id": "oval:com.oracle.elsa:def:20120070",
                 "title": "ELSA-2012-0070:  ruby security update (MODERATE)",
                 "type": "oraclelinux",
@@ -5249,13 +5452,20 @@
                 "date": "2012-01-30",
                 "def_id": "oval:com.oracle.elsa:def:20120069",
                 "title": "ELSA-2012-0069:  ruby security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-01-30",
+                "def_id": "oval:com.oracle.elsa:def:20120070",
+                "title": "ELSA-2012-0070:  ruby security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-01-30",
-                "def_id": "oval:com.oracle.elsa:def:20120070",
-                "title": "ELSA-2012-0070:  ruby security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120069",
+                "title": "ELSA-2012-0069:  ruby security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5404,16 +5614,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5773,15 +5983,15 @@
             },
             {
                 "date": "2012-01-23",
-                "def_id": "oval:com.oracle.elsa:def:20120050",
-                "title": "ELSA-2012-0050:  qemu-kvm security, bug fix, and enhancement update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:20120051",
+                "title": "ELSA-2012-0051:  kvm security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
                 "date": "2012-01-23",
-                "def_id": "oval:com.oracle.elsa:def:20120051",
-                "title": "ELSA-2012-0051:  kvm security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:20120050",
+                "title": "ELSA-2012-0050:  qemu-kvm security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
@@ -5793,9 +6003,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-03-07",
-                "def_id": "oval:com.oracle.elsa:def:20120370",
-                "title": "ELSA-2012-0370:  xen security and bug fix update (IMPORTANT)",
+                "date": "2012-01-23",
+                "def_id": "oval:com.oracle.elsa:def:20120051",
+                "title": "ELSA-2012-0051:  kvm security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5807,9 +6017,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-01-23",
-                "def_id": "oval:com.oracle.elsa:def:20120051",
-                "title": "ELSA-2012-0051:  kvm security update (IMPORTANT)",
+                "date": "2012-03-07",
+                "def_id": "oval:com.oracle.elsa:def:20120370",
+                "title": "ELSA-2012-0370:  xen security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5956,16 +6166,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120323",
-                "title": "ELSA-2012-0323:  httpd security update (MODERATE)",
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120128",
+                "title": "ELSA-2012-0128:  httpd security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120128",
-                "title": "ELSA-2012-0128:  httpd security update (MODERATE)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120323",
+                "title": "ELSA-2012-0323:  httpd security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6112,16 +6322,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120323",
-                "title": "ELSA-2012-0323:  httpd security update (MODERATE)",
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120128",
+                "title": "ELSA-2012-0128:  httpd security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120128",
-                "title": "ELSA-2012-0128:  httpd security update (MODERATE)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120323",
+                "title": "ELSA-2012-0323:  httpd security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6254,16 +6464,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20122001",
-                "title": "ELSA-2012-2001:  Unbreakable Enterprise kernel security and bug fix update (IMPORTANT)",
+                "date": "2012-01-23",
+                "def_id": "oval:com.oracle.elsa:def:20120052",
+                "title": "ELSA-2012-0052:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-01-23",
-                "def_id": "oval:com.oracle.elsa:def:20120052",
-                "title": "ELSA-2012-0052:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20122001",
+                "title": "ELSA-2012-2001:  Unbreakable Enterprise kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6396,13 +6606,6 @@
         ],
         "CVE-2012-0075": [
             {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120105",
-                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120127",
                 "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
@@ -6413,13 +6616,20 @@
                 "date": "2012-02-08",
                 "def_id": "oval:com.oracle.elsa:def:20120105",
                 "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120127",
+                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120127",
-                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
+                "date": "2012-02-08",
+                "def_id": "oval:com.oracle.elsa:def:20120105",
+                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6538,13 +6748,6 @@
         ],
         "CVE-2012-0087": [
             {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120105",
-                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120127",
                 "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
@@ -6555,13 +6758,20 @@
                 "date": "2012-02-08",
                 "def_id": "oval:com.oracle.elsa:def:20120105",
                 "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120127",
+                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120127",
-                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
+                "date": "2012-02-08",
+                "def_id": "oval:com.oracle.elsa:def:20120105",
+                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6680,13 +6890,6 @@
         ],
         "CVE-2012-0101": [
             {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120105",
-                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120127",
                 "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
@@ -6697,13 +6900,20 @@
                 "date": "2012-02-08",
                 "def_id": "oval:com.oracle.elsa:def:20120105",
                 "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120127",
+                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120127",
-                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
+                "date": "2012-02-08",
+                "def_id": "oval:com.oracle.elsa:def:20120105",
+                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6822,13 +7032,6 @@
         ],
         "CVE-2012-0102": [
             {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120105",
-                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120127",
                 "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
@@ -6839,13 +7042,20 @@
                 "date": "2012-02-08",
                 "def_id": "oval:com.oracle.elsa:def:20120105",
                 "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120127",
+                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120127",
-                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
+                "date": "2012-02-08",
+                "def_id": "oval:com.oracle.elsa:def:20120105",
+                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -7220,13 +7430,6 @@
         ],
         "CVE-2012-0114": [
             {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120105",
-                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120127",
                 "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
@@ -7237,13 +7440,20 @@
                 "date": "2012-02-08",
                 "def_id": "oval:com.oracle.elsa:def:20120105",
                 "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120127",
+                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120127",
-                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
+                "date": "2012-02-08",
+                "def_id": "oval:com.oracle.elsa:def:20120105",
+                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -8002,16 +8212,16 @@
         ],
         "CVE-2012-0207": [
             {
-                "date": "2012-02-09",
-                "def_id": "oval:com.oracle.elsa:def:20120107",
-                "title": "ELSA-2012-0107:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2012-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20120350",
+                "title": "ELSA-2012-0350:  kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20120350",
-                "title": "ELSA-2012-0350:  kernel security and bug fix update (MODERATE)",
+                "date": "2012-02-09",
+                "def_id": "oval:com.oracle.elsa:def:20120107",
+                "title": "ELSA-2012-0107:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
@@ -8023,9 +8233,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-03-07",
-                "def_id": "oval:com.oracle.elsa:def:20122003",
-                "title": "ELSA-2012-2003:  Unbreakable Enterprise kernel security and bug fix update (IMPORTANT)",
+                "date": "2012-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20120350",
+                "title": "ELSA-2012-0350:  kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -8037,9 +8247,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20120350",
-                "title": "ELSA-2012-0350:  kernel security and bug fix update (MODERATE)",
+                "date": "2012-03-07",
+                "def_id": "oval:com.oracle.elsa:def:20122003",
+                "title": "ELSA-2012-2003:  Unbreakable Enterprise kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -8187,15 +8397,15 @@
             },
             {
                 "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120080",
-                "title": "ELSA-2012-0080:  thunderbird security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120079",
+                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120079",
-                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120080",
+                "title": "ELSA-2012-0080:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -8454,13 +8664,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120079",
-                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-15",
                 "def_id": "oval:com.oracle.elsa:def:20120136",
                 "title": "ELSA-2012-0136:  libvorbis security update (IMPORTANT)",
@@ -8472,7 +8675,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20120079",
                 "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
                 "date": "2012-02-15",
@@ -8485,13 +8688,20 @@
                 "date": "2012-01-31",
                 "def_id": "oval:com.oracle.elsa:def:20120079",
                 "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120136",
+                "title": "ELSA-2012-0136:  libvorbis security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120136",
-                "title": "ELSA-2012-0136:  libvorbis security update (IMPORTANT)",
+                "date": "2012-01-31",
+                "def_id": "oval:com.oracle.elsa:def:20120079",
+                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -8723,15 +8933,15 @@
             },
             {
                 "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120080",
-                "title": "ELSA-2012-0080:  thunderbird security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120079",
+                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-01-31",
-                "def_id": "oval:com.oracle.elsa:def:20120079",
-                "title": "ELSA-2012-0079:  firefox security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120080",
+                "title": "ELSA-2012-0080:  thunderbird security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -8962,13 +9172,6 @@
         ],
         "CVE-2012-0484": [
             {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120105",
-                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120127",
                 "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
@@ -8979,13 +9182,20 @@
                 "date": "2012-02-08",
                 "def_id": "oval:com.oracle.elsa:def:20120105",
                 "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120127",
+                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120127",
-                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
+                "date": "2012-02-08",
+                "def_id": "oval:com.oracle.elsa:def:20120105",
+                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -9232,13 +9442,6 @@
         ],
         "CVE-2012-0490": [
             {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120105",
-                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-13",
                 "def_id": "oval:com.oracle.elsa:def:20120127",
                 "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
@@ -9249,13 +9452,20 @@
                 "date": "2012-02-08",
                 "def_id": "oval:com.oracle.elsa:def:20120105",
                 "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-13",
+                "def_id": "oval:com.oracle.elsa:def:20120127",
+                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-13",
-                "def_id": "oval:com.oracle.elsa:def:20120127",
-                "title": "ELSA-2012-0127:  mysql security update (MODERATE)",
+                "date": "2012-02-08",
+                "def_id": "oval:com.oracle.elsa:def:20120105",
+                "title": "ELSA-2012-0105:  mysql security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -9516,16 +9726,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -9763,16 +9973,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -10220,16 +10430,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -10677,16 +10887,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -11134,16 +11344,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -11591,16 +11801,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -12048,16 +12258,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-02-28",
-                "def_id": "oval:com.oracle.elsa:def:20120322",
-                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120135",
+                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120135",
-                "title": "ELSA-2012-0135:  java-1.6.0-openjdk security update (CRITICAL)",
+                "date": "2012-02-28",
+                "def_id": "oval:com.oracle.elsa:def:20120322",
+                "title": "ELSA-2012-0322:  java-1.6.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -12613,15 +12823,15 @@
             },
             {
                 "date": "2012-02-02",
-                "def_id": "oval:com.oracle.elsa:def:20120093",
-                "title": "ELSA-2012-0093:  php security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120092",
+                "title": "ELSA-2012-0092:  php53 security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-02-02",
-                "def_id": "oval:com.oracle.elsa:def:20120092",
-                "title": "ELSA-2012-0092:  php53 security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20120093",
+                "title": "ELSA-2012-0093:  php security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },

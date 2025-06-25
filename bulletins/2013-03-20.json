@@ -698,13 +698,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130599",
-                "title": "ELSA-2013-0599:  xen security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
                 "date": "2013-03-07",
                 "def_id": "oval:com.oracle.elsa:def:20130608",
                 "title": "ELSA-2013-0608:  kvm security update (IMPORTANT)",
@@ -723,6 +716,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20130599",
                 "title": "ELSA-2013-0599:  xen security update (IMPORTANT)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-03-07",
+                "def_id": "oval:com.oracle.elsa:def:20130608",
+                "title": "ELSA-2013-0608:  kvm security update (IMPORTANT)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -733,9 +733,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2013-03-07",
-                "def_id": "oval:com.oracle.elsa:def:20130608",
-                "title": "ELSA-2013-0608:  kvm security update (IMPORTANT)",
+                "date": "2013-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20130599",
+                "title": "ELSA-2013-0599:  xen security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -982,16 +982,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
-                "date": "2013-02-27",
-                "def_id": "oval:com.oracle.elsa:def:20132507",
-                "title": "ELSA-2013-2507: Unbreakable Enterprise kernel security  and bug fix update (IMPORTANT)",
+                "date": "2013-03-12",
+                "def_id": "oval:com.oracle.elsa:def:20130630",
+                "title": "ELSA-2013-0630:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2013-03-12",
-                "def_id": "oval:com.oracle.elsa:def:20130630",
-                "title": "ELSA-2013-0630:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2013-02-27",
+                "def_id": "oval:com.oracle.elsa:def:20132507",
+                "title": "ELSA-2013-2507: Unbreakable Enterprise kernel security  and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -1094,6 +1094,48 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             },
             {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
                 "date": "2014-12-09",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -1118,29 +1160,8 @@
             },
             {
                 "date": "2013-03-11",
-                "def_id": "oval:com.oracle.elsa:def:201306211",
-                "title": "ELSA-2013-0621-1:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-03-11",
                 "def_id": "oval:com.oracle.elsa:def:20130621",
                 "title": "ELSA-2013-0621:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-03-12",
-                "def_id": "oval:com.oracle.elsa:def:20130630",
-                "title": "ELSA-2013-0630:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-03-13",
-                "def_id": "oval:com.oracle.elsa:def:20132511",
-                "title": "ELSA-2013-2511: Unbreakable Enterprise kernel Security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
@@ -1152,23 +1173,30 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
-                "date": "2013-03-12",
-                "def_id": "oval:com.oracle.elsa:def:20130630",
-                "title": "ELSA-2013-0630:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2013-03-11",
+                "def_id": "oval:com.oracle.elsa:def:201306211",
+                "title": "ELSA-2013-0621-1:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
                 "date": "2013-03-13",
                 "def_id": "oval:com.oracle.elsa:def:20132511",
                 "title": "ELSA-2013-2511: Unbreakable Enterprise kernel Security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-03-12",
+                "def_id": "oval:com.oracle.elsa:def:20130630",
+                "title": "ELSA-2013-0630:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
                 "date": "2013-03-11",
-                "def_id": "oval:com.oracle.elsa:def:201306211",
-                "title": "ELSA-2013-0621-1:  kernel security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:20130621",
+                "title": "ELSA-2013-0621:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -1181,8 +1209,15 @@
             },
             {
                 "date": "2013-03-11",
-                "def_id": "oval:com.oracle.elsa:def:20130621",
-                "title": "ELSA-2013-0621:  kernel security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:201306211",
+                "title": "ELSA-2013-0621-1:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-03-13",
+                "def_id": "oval:com.oracle.elsa:def:20132511",
+                "title": "ELSA-2013-2511: Unbreakable Enterprise kernel Security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -1190,6 +1225,13 @@
                 "date": "2013-03-12",
                 "def_id": "oval:com.oracle.elsa:def:20130630",
                 "title": "ELSA-2013-0630:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-03-13",
+                "def_id": "oval:com.oracle.elsa:def:20132512",
+                "title": "ELSA-2013-2512: Unbreakable Enterprise kernel Security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -1201,9 +1243,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2013-03-13",
-                "def_id": "oval:com.oracle.elsa:def:20132512",
-                "title": "ELSA-2013-2512: Unbreakable Enterprise kernel Security update (IMPORTANT)",
+                "date": "2013-03-12",
+                "def_id": "oval:com.oracle.elsa:def:20130630",
+                "title": "ELSA-2013-0630:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -1297,6 +1339,48 @@
                 "title": "RHSA-2013:0630: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2013-0272": [
@@ -2367,6 +2451,48 @@
                 "title": "RHSA-2013:0581: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2014-11-13",
+                "def_id": "oval:org.altlinux.errata:def:20142345",
+                "title": "ALT-PU-2014-2345: package `libxml2` update to version 2.9.2-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2014-11-13",
+                "def_id": "oval:org.altlinux.errata:def:20142345",
+                "title": "ALT-PU-2014-2345: package `libxml2` update to version 2.9.2-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2014-11-13",
+                "def_id": "oval:org.altlinux.errata:def:20142345",
+                "title": "ALT-PU-2014-2345: package `libxml2` update to version 2.9.2-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2014-11-13",
+                "def_id": "oval:org.altlinux.errata:def:20142345",
+                "title": "ALT-PU-2014-2345: package `libxml2` update to version 2.9.2-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2014-11-13",
+                "def_id": "oval:org.altlinux.errata:def:20142345",
+                "title": "ALT-PU-2014-2345: package `libxml2` update to version 2.9.2-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2014-11-13",
+                "def_id": "oval:org.altlinux.errata:def:20142345",
+                "title": "ALT-PU-2014-2345: package `libxml2` update to version 2.9.2-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2013-0504": [
@@ -3148,16 +3274,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
-                "date": "2013-03-11",
-                "def_id": "oval:com.oracle.elsa:def:20130627",
-                "title": "ELSA-2013-0627:  thunderbird security update (IMPORTANT)",
+                "date": "2013-03-08",
+                "def_id": "oval:com.oracle.elsa:def:20130614",
+                "title": "ELSA-2013-0614:  xulrunner security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2013-03-08",
-                "def_id": "oval:com.oracle.elsa:def:20130614",
-                "title": "ELSA-2013-0614:  xulrunner security update (CRITICAL)",
+                "date": "2013-03-11",
+                "def_id": "oval:com.oracle.elsa:def:20130627",
+                "title": "ELSA-2013-0627:  thunderbird security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3347,13 +3473,6 @@
         "CVE-2013-0809": [
             {
                 "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130602",
-                "title": "ELSA-2013-0602:  java-1.7.0-openjdk security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-03-06",
                 "def_id": "oval:com.oracle.elsa:def:20130603",
                 "title": "ELSA-2013-0603:  java-1.7.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
@@ -3368,8 +3487,8 @@
             },
             {
                 "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130605",
-                "title": "ELSA-2013-0605:  java-1.6.0-openjdk security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20130602",
+                "title": "ELSA-2013-0602:  java-1.7.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
@@ -3378,12 +3497,12 @@
                 "def_id": "oval:com.oracle.elsa:def:20130605",
                 "title": "ELSA-2013-0605:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
                 "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130602",
-                "title": "ELSA-2013-0602:  java-1.7.0-openjdk security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20130603",
+                "title": "ELSA-2013-0603:  java-1.7.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3396,8 +3515,15 @@
             },
             {
                 "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130603",
-                "title": "ELSA-2013-0603:  java-1.7.0-openjdk security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:20130602",
+                "title": "ELSA-2013-0602:  java-1.7.0-openjdk security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20130605",
+                "title": "ELSA-2013-0605:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4020,20 +4146,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2013-02-26",
-                "def_id": "oval:com.oracle.elsa:def:20130567",
-                "title": "ELSA-2013-0567:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-03-11",
-                "def_id": "oval:com.oracle.elsa:def:201306211",
-                "title": "ELSA-2013-0621-1:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
                 "date": "2013-03-11",
                 "def_id": "oval:com.oracle.elsa:def:20130621",
                 "title": "ELSA-2013-0621:  kernel security update (IMPORTANT)",
@@ -4048,9 +4160,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
-                "date": "2013-04-24",
-                "def_id": "oval:com.oracle.elsa:def:20132520",
-                "title": "ELSA-2013-2520: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "date": "2013-03-11",
+                "def_id": "oval:com.oracle.elsa:def:201306211",
+                "title": "ELSA-2013-0621-1:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-02-26",
+                "def_id": "oval:com.oracle.elsa:def:20130567",
+                "title": "ELSA-2013-0567:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
@@ -4059,19 +4178,12 @@
                 "def_id": "oval:com.oracle.elsa:def:20132520",
                 "title": "ELSA-2013-2520: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-02-26",
-                "def_id": "oval:com.oracle.elsa:def:20130567",
-                "title": "ELSA-2013-0567:  kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
                 "date": "2013-03-11",
-                "def_id": "oval:com.oracle.elsa:def:201306211",
-                "title": "ELSA-2013-0621-1:  kernel security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:20130621",
+                "title": "ELSA-2013-0621:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4084,8 +4196,8 @@
             },
             {
                 "date": "2013-03-11",
-                "def_id": "oval:com.oracle.elsa:def:20130621",
-                "title": "ELSA-2013-0621:  kernel security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:201306211",
+                "title": "ELSA-2013-0621-1:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4093,13 +4205,27 @@
                 "date": "2013-02-26",
                 "def_id": "oval:com.oracle.elsa:def:20130567",
                 "title": "ELSA-2013-0567:  kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-04-24",
+                "def_id": "oval:com.oracle.elsa:def:20132520",
+                "title": "ELSA-2013-2520: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-04-11",
+                "def_id": "oval:com.oracle.elsa:def:20132513",
+                "title": "ELSA-2013-2513: Unbreakable Enterprise kernel security and bugfix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2013-04-11",
-                "def_id": "oval:com.oracle.elsa:def:20132513",
-                "title": "ELSA-2013-2513: Unbreakable Enterprise kernel security and bugfix update (IMPORTANT)",
+                "date": "2013-02-26",
+                "def_id": "oval:com.oracle.elsa:def:20130567",
+                "title": "ELSA-2013-0567:  kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -4228,6 +4354,48 @@
                 "title": "RHSA-2013:0567: kernel security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2013-1371": [
@@ -4540,13 +4708,6 @@
         "CVE-2013-1493": [
             {
                 "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130602",
-                "title": "ELSA-2013-0602:  java-1.7.0-openjdk security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-03-06",
                 "def_id": "oval:com.oracle.elsa:def:20130603",
                 "title": "ELSA-2013-0603:  java-1.7.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
@@ -4561,8 +4722,8 @@
             },
             {
                 "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130605",
-                "title": "ELSA-2013-0605:  java-1.6.0-openjdk security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20130602",
+                "title": "ELSA-2013-0602:  java-1.7.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
@@ -4571,12 +4732,12 @@
                 "def_id": "oval:com.oracle.elsa:def:20130605",
                 "title": "ELSA-2013-0605:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
                 "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130602",
-                "title": "ELSA-2013-0602:  java-1.7.0-openjdk security update (CRITICAL)",
+                "def_id": "oval:com.oracle.elsa:def:20130603",
+                "title": "ELSA-2013-0603:  java-1.7.0-openjdk security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4589,8 +4750,15 @@
             },
             {
                 "date": "2013-03-06",
-                "def_id": "oval:com.oracle.elsa:def:20130603",
-                "title": "ELSA-2013-0603:  java-1.7.0-openjdk security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:20130602",
+                "title": "ELSA-2013-0602:  java-1.7.0-openjdk security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-03-06",
+                "def_id": "oval:com.oracle.elsa:def:20130605",
+                "title": "ELSA-2013-0605:  java-1.6.0-openjdk security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5387,13 +5555,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2013-04-23",
-                "def_id": "oval:com.oracle.elsa:def:20130744",
-                "title": "ELSA-2013-0744:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
                 "date": "2013-04-11",
                 "def_id": "oval:com.oracle.elsa:def:20132513",
                 "title": "ELSA-2013-2513: Unbreakable Enterprise kernel security and bugfix update (IMPORTANT)",
@@ -5405,7 +5566,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20130744",
                 "title": "ELSA-2013-0744:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
                 "date": "2013-04-11",
@@ -5418,13 +5579,20 @@
                 "date": "2013-04-23",
                 "def_id": "oval:com.oracle.elsa:def:20130744",
                 "title": "ELSA-2013-0744:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-04-11",
+                "def_id": "oval:com.oracle.elsa:def:20132513",
+                "title": "ELSA-2013-2513: Unbreakable Enterprise kernel security and bugfix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2013-04-11",
-                "def_id": "oval:com.oracle.elsa:def:20132513",
-                "title": "ELSA-2013-2513: Unbreakable Enterprise kernel security and bugfix update (IMPORTANT)",
+                "date": "2013-04-23",
+                "def_id": "oval:com.oracle.elsa:def:20130744",
+                "title": "ELSA-2013-0744:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -5539,6 +5707,48 @@
                 "title": "RHSA-2013:0744: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2013-11-24",
+                "def_id": "oval:org.altlinux.errata:def:20131178",
+                "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2013-1821": [
@@ -5607,15 +5817,15 @@
             },
             {
                 "date": "2013-03-07",
-                "def_id": "oval:com.oracle.elsa:def:20130612",
-                "title": "ELSA-2013-0612:  ruby security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20130611",
+                "title": "ELSA-2013-0611:  ruby security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2013-03-07",
-                "def_id": "oval:com.oracle.elsa:def:20130611",
-                "title": "ELSA-2013-0611:  ruby security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20130612",
+                "title": "ELSA-2013-0612:  ruby security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5709,6 +5919,48 @@
                 "title": "RHSA-2013:0612: ruby security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2016-10-03",
+                "def_id": "oval:org.altlinux.errata:def:20162061",
+                "title": "ALT-PU-2016-2061: package `ruby` update to version 2.3.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2016-10-03",
+                "def_id": "oval:org.altlinux.errata:def:20162061",
+                "title": "ALT-PU-2016-2061: package `ruby` update to version 2.3.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2016-10-03",
+                "def_id": "oval:org.altlinux.errata:def:20162061",
+                "title": "ALT-PU-2016-2061: package `ruby` update to version 2.3.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2016-10-03",
+                "def_id": "oval:org.altlinux.errata:def:20162061",
+                "title": "ALT-PU-2016-2061: package `ruby` update to version 2.3.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2016-10-03",
+                "def_id": "oval:org.altlinux.errata:def:20162061",
+                "title": "ALT-PU-2016-2061: package `ruby` update to version 2.3.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2016-10-03",
+                "def_id": "oval:org.altlinux.errata:def:20162061",
+                "title": "ALT-PU-2016-2061: package `ruby` update to version 2.3.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ]
     },

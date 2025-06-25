@@ -329,13 +329,6 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120062",
-                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-02-15",
                 "def_id": "oval:com.oracle.elsa:def:20120137",
                 "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
@@ -350,16 +343,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2011-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20110009",
-                "title": "ELSA-2011-0009:  evince security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
                 "date": "2012-01-24",
                 "def_id": "oval:com.oracle.elsa:def:20120062",
                 "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -371,9 +364,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2012-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20120062",
+                "title": "ELSA-2012-0062:  t1lib security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -381,6 +374,13 @@
                 "date": "2011-02-10",
                 "def_id": "oval:com.oracle.elsa:def:20110009",
                 "title": "ELSA-2011-0009:  evince security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "oval:com.oracle.elsa:def:20120137",
+                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -392,9 +392,9 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2012-02-15",
-                "def_id": "oval:com.oracle.elsa:def:20120137",
-                "title": "ELSA-2012-0137:  texlive security update (MODERATE)",
+                "date": "2011-02-10",
+                "def_id": "oval:com.oracle.elsa:def:20110009",
+                "title": "ELSA-2011-0009:  evince security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -719,6 +719,48 @@
                 "title": "RHSA-2012:0137: texlive security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2020-10-23",
+                "def_id": "oval:org.altlinux.errata:def:20203114",
+                "title": "ALT-PU-2020-3114: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-05-23",
+                "def_id": "oval:org.altlinux.errata:def:20221925",
+                "title": "ALT-PU-2022-1925: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2020-10-21",
+                "def_id": "oval:org.altlinux.errata:def:20203095",
+                "title": "ALT-PU-2020-3095: package `t1lib` update to version 5.1.2-alt6",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2010-2643": [
@@ -1563,13 +1605,6 @@
         ],
         "CVE-2010-3858": [
             {
-                "date": "2011-01-04",
-                "def_id": "oval:com.oracle.elsa:def:20110004",
-                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-06-02",
                 "def_id": "oval:com.oracle.elsa:def:20110836",
                 "title": "ELSA-2011-0836:  kernel security and bug fix update (IMPORTANT)",
@@ -1580,13 +1615,20 @@
                 "date": "2011-01-04",
                 "def_id": "oval:com.oracle.elsa:def:20110004",
                 "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-06-02",
+                "def_id": "oval:com.oracle.elsa:def:20110836",
+                "title": "ELSA-2011-0836:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-06-02",
-                "def_id": "oval:com.oracle.elsa:def:20110836",
-                "title": "ELSA-2011-0836:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-01-04",
+                "def_id": "oval:com.oracle.elsa:def:20110004",
+                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -1863,13 +1905,6 @@
         ],
         "CVE-2010-3865": [
             {
-                "date": "2011-01-04",
-                "def_id": "oval:com.oracle.elsa:def:20110004",
-                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
@@ -1880,13 +1915,20 @@
                 "date": "2011-01-04",
                 "def_id": "oval:com.oracle.elsa:def:20110004",
                 "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-01-04",
+                "def_id": "oval:com.oracle.elsa:def:20110004",
+                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -2147,13 +2189,6 @@
         ],
         "CVE-2010-3876": [
             {
-                "date": "2011-01-04",
-                "def_id": "oval:com.oracle.elsa:def:20110004",
-                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
@@ -2164,13 +2199,20 @@
                 "date": "2011-01-04",
                 "def_id": "oval:com.oracle.elsa:def:20110004",
                 "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-01-04",
+                "def_id": "oval:com.oracle.elsa:def:20110004",
+                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -2296,13 +2338,6 @@
         ],
         "CVE-2010-3880": [
             {
-                "date": "2011-01-04",
-                "def_id": "oval:com.oracle.elsa:def:20110004",
-                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
@@ -2313,13 +2348,20 @@
                 "date": "2011-01-04",
                 "def_id": "oval:com.oracle.elsa:def:20110004",
                 "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-01-04",
+                "def_id": "oval:com.oracle.elsa:def:20110004",
+                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -2459,16 +2501,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2010-12-20",
-                "def_id": "oval:com.oracle.elsa:def:20100998",
-                "title": "ELSA-2010-0998:  kvm security and bug fix update (LOW)",
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110542",
+                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-05-28",
-                "def_id": "oval:com.oracle.elsa:def:20110542",
-                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
+                "date": "2010-12-20",
+                "def_id": "oval:com.oracle.elsa:def:20100998",
+                "title": "ELSA-2010-0998:  kvm security and bug fix update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -2855,13 +2897,6 @@
         ],
         "CVE-2010-4072": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110017",
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
@@ -2872,13 +2907,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "oval:com.oracle.elsa:def:20110017",
+                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3004,13 +3046,6 @@
         ],
         "CVE-2010-4073": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110017",
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
@@ -3021,13 +3056,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "oval:com.oracle.elsa:def:20110017",
+                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3288,13 +3330,6 @@
         ],
         "CVE-2010-4075": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110017",
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
@@ -3305,13 +3340,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "oval:com.oracle.elsa:def:20110017",
+                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3707,13 +3749,6 @@
         ],
         "CVE-2010-4080": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110017",
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
@@ -3724,13 +3759,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "oval:com.oracle.elsa:def:20110017",
+                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -3856,13 +3898,6 @@
         ],
         "CVE-2010-4081": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110017",
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
@@ -3873,13 +3908,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "oval:com.oracle.elsa:def:20110017",
+                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4140,13 +4182,6 @@
         ],
         "CVE-2010-4083": [
             {
-                "date": "2011-01-04",
-                "def_id": "oval:com.oracle.elsa:def:20110004",
-                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
@@ -4157,13 +4192,20 @@
                 "date": "2011-01-04",
                 "def_id": "oval:com.oracle.elsa:def:20110004",
                 "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-01-04",
+                "def_id": "oval:com.oracle.elsa:def:20110004",
+                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -4305,13 +4347,6 @@
         ],
         "CVE-2010-4158": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110017",
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
@@ -4322,13 +4357,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "oval:com.oracle.elsa:def:20110017",
+                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5024,13 +5066,6 @@
         ],
         "CVE-2010-4242": [
             {
-                "date": "2011-01-04",
-                "def_id": "oval:com.oracle.elsa:def:20110004",
-                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
@@ -5041,13 +5076,20 @@
                 "date": "2011-01-04",
                 "def_id": "oval:com.oracle.elsa:def:20110004",
                 "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-01-04",
+                "def_id": "oval:com.oracle.elsa:def:20110004",
+                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5189,13 +5231,6 @@
         ],
         "CVE-2010-4248": [
             {
-                "date": "2011-01-04",
-                "def_id": "oval:com.oracle.elsa:def:20110004",
-                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
@@ -5206,13 +5241,20 @@
                 "date": "2011-01-04",
                 "def_id": "oval:com.oracle.elsa:def:20110004",
                 "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-01-04",
+                "def_id": "oval:com.oracle.elsa:def:20110004",
+                "title": "ELSA-2011-0004:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5338,13 +5380,6 @@
         ],
         "CVE-2010-4249": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-03-02",
                 "def_id": "oval:com.oracle.elsa:def:20110303",
                 "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
@@ -5363,6 +5398,13 @@
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-03-02",
+                "def_id": "oval:com.oracle.elsa:def:20110303",
+                "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
@@ -5373,23 +5415,23 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-03-02",
-                "def_id": "oval:com.oracle.elsa:def:20110303",
-                "title": "ELSA-2011-0303:  kernel security and bug fix update (MODERATE)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2011-03-16",
-                "def_id": "oval:com.oracle.elsa:def:20112010",
-                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -5508,13 +5550,6 @@
         ],
         "CVE-2010-4263": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110017",
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
@@ -5525,13 +5560,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "oval:com.oracle.elsa:def:20110017",
+                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5836,13 +5878,6 @@
         ],
         "CVE-2010-4525": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110028",
                 "title": "ELSA-2011-0028:  kvm security and bug fix update (LOW)",
@@ -5853,13 +5888,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "oval:com.oracle.elsa:def:20110028",
+                "title": "ELSA-2011-0028:  kvm security and bug fix update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110028",
-                "title": "ELSA-2011-0028:  kvm security and bug fix update (LOW)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -6134,13 +6176,6 @@
         ],
         "CVE-2010-4668": [
             {
-                "date": "2011-02-12",
-                "def_id": "oval:com.oracle.elsa:def:20110007",
-                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
                 "date": "2011-03-16",
                 "def_id": "oval:com.oracle.elsa:def:20112010",
                 "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
@@ -6152,7 +6187,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
                 "date": "2011-03-16",
@@ -6165,13 +6200,20 @@
                 "date": "2011-02-12",
                 "def_id": "oval:com.oracle.elsa:def:20110007",
                 "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2011-03-16",
-                "def_id": "oval:com.oracle.elsa:def:20112010",
-                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "date": "2011-02-12",
+                "def_id": "oval:com.oracle.elsa:def:20110007",
+                "title": "ELSA-2011-0007:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },

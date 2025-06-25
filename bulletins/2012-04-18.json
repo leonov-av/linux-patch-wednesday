@@ -117,13 +117,6 @@
         ],
         "CVE-2011-4128": [
             {
-                "date": "2012-03-27",
-                "def_id": "oval:com.oracle.elsa:def:20120428",
-                "title": "ELSA-2012-0428:  gnutls security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-03-28",
                 "def_id": "oval:com.oracle.elsa:def:20120429",
                 "title": "ELSA-2012-0429:  gnutls security update (IMPORTANT)",
@@ -134,13 +127,20 @@
                 "date": "2012-03-27",
                 "def_id": "oval:com.oracle.elsa:def:20120428",
                 "title": "ELSA-2012-0428:  gnutls security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-03-28",
+                "def_id": "oval:com.oracle.elsa:def:20120429",
+                "title": "ELSA-2012-0429:  gnutls security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-03-28",
-                "def_id": "oval:com.oracle.elsa:def:20120429",
-                "title": "ELSA-2012-0429:  gnutls security update (IMPORTANT)",
+                "date": "2012-03-27",
+                "def_id": "oval:com.oracle.elsa:def:20120428",
+                "title": "ELSA-2012-0428:  gnutls security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -702,15 +702,15 @@
             },
             {
                 "date": "2012-04-11",
-                "def_id": "oval:com.oracle.elsa:def:20120475",
-                "title": "ELSA-2012-0475:  tomcat6 security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120474",
+                "title": "ELSA-2012-0474:  tomcat5 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-04-11",
-                "def_id": "oval:com.oracle.elsa:def:20120474",
-                "title": "ELSA-2012-0474:  tomcat5 security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120475",
+                "title": "ELSA-2012-0475:  tomcat6 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -844,15 +844,15 @@
             },
             {
                 "date": "2012-04-11",
-                "def_id": "oval:com.oracle.elsa:def:20120475",
-                "title": "ELSA-2012-0475:  tomcat6 security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120474",
+                "title": "ELSA-2012-0474:  tomcat5 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-04-11",
-                "def_id": "oval:com.oracle.elsa:def:20120474",
-                "title": "ELSA-2012-0474:  tomcat5 security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20120475",
+                "title": "ELSA-2012-0475:  tomcat6 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -1246,6 +1246,76 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             },
             {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2021-08-15",
+                "def_id": "oval:org.altlinux.errata:def:20212518",
+                "title": "ALT-PU-2021-2518: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
                 "date": "2015-01-28",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -1400,6 +1470,76 @@
                 "title": "RHSA-2012:0451: rpm security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2021-08-15",
+                "def_id": "oval:org.altlinux.errata:def:20212518",
+                "title": "ALT-PU-2021-2518: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
                 "date": "2015-01-28",
@@ -1986,6 +2126,76 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             },
             {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2021-08-15",
+                "def_id": "oval:org.altlinux.errata:def:20212518",
+                "title": "ALT-PU-2021-2518: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2016-12-08",
+                "def_id": "oval:org.altlinux.errata:def:20162427",
+                "title": "ALT-PU-2016-2427: package `rpm` update to version 4.13.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
                 "date": "2015-01-28",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -2009,16 +2219,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122007",
-                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
+                "date": "2012-04-17",
+                "def_id": "oval:com.oracle.elsa:def:20120481",
+                "title": "ELSA-2012-0481:  kernel security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-04-17",
-                "def_id": "oval:com.oracle.elsa:def:20120481",
-                "title": "ELSA-2012-0481:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "date": "2012-04-19",
+                "def_id": "oval:com.oracle.elsa:def:20122007",
+                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -2294,13 +2504,6 @@
             },
             {
                 "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122007",
-                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-04-19",
                 "def_id": "oval:com.oracle.elsa:def:20122008",
                 "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
@@ -2311,19 +2514,26 @@
                 "def_id": "oval:com.oracle.elsa:def:20122007",
                 "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122008",
-                "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
                 "date": "2012-04-17",
                 "def_id": "oval:com.oracle.elsa:def:20120481",
                 "title": "ELSA-2012-0481:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-04-19",
+                "def_id": "oval:com.oracle.elsa:def:20122008",
+                "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-04-19",
+                "def_id": "oval:com.oracle.elsa:def:20122007",
+                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -2336,15 +2546,15 @@
             },
             {
                 "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122007",
-                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20122008",
+                "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
                 "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122008",
-                "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20122007",
+                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -2464,13 +2674,6 @@
             },
             {
                 "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122007",
-                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-04-19",
                 "def_id": "oval:com.oracle.elsa:def:20122008",
                 "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
@@ -2481,19 +2684,26 @@
                 "def_id": "oval:com.oracle.elsa:def:20122007",
                 "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122008",
-                "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
                 "date": "2012-04-17",
                 "def_id": "oval:com.oracle.elsa:def:20120481",
                 "title": "ELSA-2012-0481:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-04-19",
+                "def_id": "oval:com.oracle.elsa:def:20122008",
+                "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-04-19",
+                "def_id": "oval:com.oracle.elsa:def:20122007",
+                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -2506,15 +2716,15 @@
             },
             {
                 "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122007",
-                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20122008",
+                "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
                 "date": "2012-04-19",
-                "def_id": "oval:com.oracle.elsa:def:20122008",
-                "title": "ELSA-2012-2008:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20122007",
+                "title": "ELSA-2012-2007:  Unbreakable Enterprise kernel security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -4934,17 +5144,38 @@
             },
             {
                 "date": "2013-02-27",
+                "def_id": "oval:com.oracle.elsa:def:20130515",
+                "title": "ELSA-2013-0515:  openchange security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-02-27",
                 "def_id": "oval:com.oracle.elsa:def:20130506",
                 "title": "ELSA-2013-0506:  samba4 security, bug fix and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
             },
             {
+                "date": "2012-04-10",
+                "def_id": "oval:com.oracle.elsa:def:20120465",
+                "title": "ELSA-2012-0465:  samba security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
                 "date": "2013-02-27",
                 "def_id": "oval:com.oracle.elsa:def:20130515",
                 "title": "ELSA-2013-0515:  openchange security, bug fix and enhancement update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-02-27",
+                "def_id": "oval:com.oracle.elsa:def:20130506",
+                "title": "ELSA-2013-0506:  samba4 security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-04-10",
@@ -4954,27 +5185,6 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2013-02-27",
-                "def_id": "oval:com.oracle.elsa:def:20130506",
-                "title": "ELSA-2013-0506:  samba4 security, bug fix and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-02-27",
-                "def_id": "oval:com.oracle.elsa:def:20130515",
-                "title": "ELSA-2013-0515:  openchange security, bug fix and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-04-10",
-                "def_id": "oval:com.oracle.elsa:def:20120465",
-                "title": "ELSA-2012-0465:  samba security update (CRITICAL)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
                 "date": "2012-04-10",
                 "def_id": "oval:com.oracle.elsa:def:20120465",
                 "title": "ELSA-2012-0465:  samba security update (CRITICAL)",
@@ -4983,15 +5193,15 @@
             },
             {
                 "date": "2013-02-27",
-                "def_id": "oval:com.oracle.elsa:def:20130506",
-                "title": "ELSA-2013-0506:  samba4 security, bug fix and enhancement update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20130515",
+                "title": "ELSA-2013-0515:  openchange security, bug fix and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
                 "date": "2013-02-27",
-                "def_id": "oval:com.oracle.elsa:def:20130515",
-                "title": "ELSA-2013-0515:  openchange security, bug fix and enhancement update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20130506",
+                "title": "ELSA-2013-0506:  samba4 security, bug fix and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
@@ -5349,15 +5559,15 @@
             },
             {
                 "date": "2012-03-27",
-                "def_id": "oval:com.oracle.elsa:def:20120428",
-                "title": "ELSA-2012-0428:  gnutls security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:20120427",
+                "title": "ELSA-2012-0427:  libtasn1 security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-03-27",
-                "def_id": "oval:com.oracle.elsa:def:20120427",
-                "title": "ELSA-2012-0427:  libtasn1 security update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:20120428",
+                "title": "ELSA-2012-0428:  gnutls security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5490,13 +5700,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2012-03-27",
-                "def_id": "oval:com.oracle.elsa:def:20120428",
-                "title": "ELSA-2012-0428:  gnutls security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
                 "date": "2012-03-28",
                 "def_id": "oval:com.oracle.elsa:def:20120429",
                 "title": "ELSA-2012-0429:  gnutls security update (IMPORTANT)",
@@ -5507,13 +5710,20 @@
                 "date": "2012-03-27",
                 "def_id": "oval:com.oracle.elsa:def:20120428",
                 "title": "ELSA-2012-0428:  gnutls security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-03-28",
+                "def_id": "oval:com.oracle.elsa:def:20120429",
+                "title": "ELSA-2012-0429:  gnutls security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-03-28",
-                "def_id": "oval:com.oracle.elsa:def:20120429",
-                "title": "ELSA-2012-0429:  gnutls security update (IMPORTANT)",
+                "date": "2012-03-27",
+                "def_id": "oval:com.oracle.elsa:def:20120428",
+                "title": "ELSA-2012-0428:  gnutls security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -5642,13 +5852,6 @@
         "CVE-2012-1583": [
             {
                 "date": "2012-04-17",
-                "def_id": "oval:com.oracle.elsa:def:201204801",
-                "title": "ELSA-2012-0480-1:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-04-17",
                 "def_id": "oval:com.oracle.elsa:def:20120480",
                 "title": "ELSA-2012-0480:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
@@ -5658,13 +5861,20 @@
                 "date": "2012-04-17",
                 "def_id": "oval:com.oracle.elsa:def:201204801",
                 "title": "ELSA-2012-0480-1:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-04-17",
+                "def_id": "oval:com.oracle.elsa:def:20120480",
+                "title": "ELSA-2012-0480:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2012-04-17",
-                "def_id": "oval:com.oracle.elsa:def:20120480",
-                "title": "ELSA-2012-0480:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:201204801",
+                "title": "ELSA-2012-0480-1:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
