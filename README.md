@@ -12,9 +12,10 @@ If Microsoft Patch Tuesday occurs every second Tuesday of the month, then Linux 
 
 | Year | Month | Bulletin | Status | CVEs |
 | --- | --- | --- | --- | --- |
-| 2025| July | [2025-07-16.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-07-16.json) | In Work | 461 |
-| 2025| June | [2025-06-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-06-18.json) | Released | 553 |
-| 2025| May | [2025-05-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-05-21.json) | Released | 1043 |
+| 2025| August | [2025-08-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-08-20.json) | In Work | 11 |
+| 2025| July | [2025-07-16.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-07-16.json) | Released | 470 |
+| 2025| June | [2025-06-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-06-18.json) | Released | 550 |
+| 2025| May | [2025-05-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-05-21.json) | Released | 1032 |
 | 2025| April | [2025-04-16.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-04-16.json) | Released | 231 |
 | 2025| March | [2025-03-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-03-19.json) | Released | 919 |
 | 2025| February | [2025-02-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2025-02-19.json) | Released | 471 |
@@ -32,7 +33,7 @@ If Microsoft Patch Tuesday occurs every second Tuesday of the month, then Linux 
 | 2024| February | [2024-02-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-02-21.json) | Released | 255 |
 | 2024| January | [2024-01-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2024-01-17.json) | Released | 167 |
 | 2023| December | [2023-12-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-12-20.json) | Released | 226 |
-| 2023| November | [2023-11-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-11-15.json) | Released | 312 |
+| 2023| November | [2023-11-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-11-15.json) | Released | 321 |
 | 2023| October | [2023-10-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-10-18.json) | Released | 218 |
 | 2023| September | [2023-09-20.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-09-20.json) | Released | 312 |
 | 2023| August | [2023-08-16.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-08-16.json) | Released | 216 |
@@ -44,7 +45,7 @@ If Microsoft Patch Tuesday occurs every second Tuesday of the month, then Linux 
 | 2023| February | [2023-02-15.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-02-15.json) | Released | 283 |
 | 2023| January | [2023-01-18.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2023-01-18.json) | Released | 211 |
 | 2022| December | [2022-12-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-12-21.json) | Released | 315 |
-| 2022| November | [2022-11-16.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-11-16.json) | Released | 371 |
+| 2022| November | [2022-11-16.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-11-16.json) | Released | 372 |
 | 2022| October | [2022-10-19.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-10-19.json) | Released | 193 |
 | 2022| September | [2022-09-21.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-09-21.json) | Released | 266 |
 | 2022| August | [2022-08-17.json](https://github.com/leonov-av/linux-patch-wednesday/blob/main/bulletins/2022-08-17.json) | Released | 196 |

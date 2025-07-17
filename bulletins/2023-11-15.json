@@ -3474,6 +3474,20 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2025-07-17",
+                "def_id": "oval:com.redhat.rhsa:def:202511358",
+                "title": "RHSA-2025:11358: kernel security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.redhat.rhsa:def:202511375",
+                "title": "RHSA-2025:11375: kernel-rt security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
                 "date": "2025-07-10",
                 "def_id": "oval:com.redhat.rhsa:def:202510761",
                 "title": "RHSA-2025:10761: kernel security update (Important)",
@@ -12078,6 +12092,13 @@
                 "date": "2024-12-20",
                 "def_id": "oval:org.altlinux.errata:def:202417373",
                 "title": "ALT-PU-2024-17373: package `python3-module-certifi` update to version 2024.8.30-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2025-07-16",
+                "def_id": "oval:org.altlinux.errata:def:20259363",
+                "title": "ALT-PU-2025-9363: package `ca-certificates` update to version 2025.02.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
@@ -25921,16 +25942,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2024-09-02",
-                "def_id": "oval:com.oracle.elsa:def:202412606",
-                "title": "ELSA-2024-12606: Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "date": "2024-06-05",
+                "def_id": "oval:com.oracle.elsa:def:20243618",
+                "title": "ELSA-2024-3618:  kernel update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2024-06-05",
-                "def_id": "oval:com.oracle.elsa:def:20243618",
-                "title": "ELSA-2024-3618:  kernel update (MODERATE)",
+                "date": "2024-09-02",
+                "def_id": "oval:com.oracle.elsa:def:202412606",
+                "title": "ELSA-2024-12606: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -27795,6 +27816,64 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2023-53036": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:251617839907372304764293589564971789326",
+                "title": "CVE-2023-53036 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:251617839907372304764293589564971789326",
+                "title": "CVE-2023-53036 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-53042": [
             {
                 "date": "2025-05-21",
@@ -28020,6 +28099,64 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2023-53060": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:114433469801064703904722758041287422875",
+                "title": "CVE-2023-53060 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:114433469801064703904722758041287422875",
+                "title": "CVE-2023-53060 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-53065": [
             {
                 "date": "2025-05-21",
@@ -28122,6 +28259,57 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2023-53071": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:22096855771620757106024627691651004226",
+                "title": "CVE-2023-53071 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-53073": [
             {
                 "date": "2025-05-21",
@@ -28129,6 +28317,64 @@
                 "title": "CVE-2023-53073 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-53077": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:42441770422318346317163183651573470132",
+                "title": "CVE-2023-53077 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:42441770422318346317163183651573470132",
+                "title": "CVE-2023-53077 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -28282,7 +28528,123 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2023-53084": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:310461913350951979098211235993232861400",
+                "title": "CVE-2023-53084 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:310461913350951979098211235993232861400",
+                "title": "CVE-2023-53084 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-53085": [
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-53090": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:22693834063061889931743649472173399799",
+                "title": "CVE-2023-53090 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:22693834063061889931743649472173399799",
+                "title": "CVE-2023-53090 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
             {
                 "date": "2023-11-14",
                 "def_id": "oval:com.redhat.rhsa:def:20237077",
@@ -28544,6 +28906,64 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
+        "CVE-2023-53105": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:227415227170655709430770468790575726287",
+                "title": "CVE-2023-53105 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:227415227170655709430770468790575726287",
+                "title": "CVE-2023-53105 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-53107": [
             {
                 "date": "2025-05-21",
@@ -28600,6 +29020,122 @@
                 "title": "RHSA-2025:8134: kernel-rt security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-53108": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:180733923786215149562059721570189619091",
+                "title": "CVE-2023-53108 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:180733923786215149562059721570189619091",
+                "title": "CVE-2023-53108 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236583",
+                "title": "RHSA-2023:6583: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2023-53110": [
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:49508892654351538489292113548035189417",
+                "title": "CVE-2023-53110 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-05-21",
+                "def_id": "oval:org.debian:def:49508892654351538489292113548035189417",
+                "title": "CVE-2023-53110 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2023-11-14",
+                "def_id": "oval:com.redhat.rhsa:def:20237077",
+                "title": "RHSA-2023:7077: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
