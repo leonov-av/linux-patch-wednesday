@@ -24,6 +24,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:162848082869782721837567522997494751281",
+                "title": "CVE-2017-6363 libgd2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:com.ubuntu.bionic:def:50681000000",
                 "title": "USN-5068-1 -- GD library vulnerabilities",
@@ -133,6 +140,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:300049359270131569530755098963243141531",
+                "title": "CVE-2020-0429 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:com.oracle.elsa:def:20219442",
                 "title": "ELSA-2021-9442: Unbreakable Enterprise kernel security update (IMPORTANT)",
@@ -177,11 +191,25 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:225736665150755846979690881972564662419",
+                "title": "CVE-2020-22083 jsonpickle",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-08-24",
                 "def_id": "oval:org.altlinux.errata:def:20212614",
                 "title": "ALT-PU-2021-2614: package `python3-module-jsonpickle` update to version 2.0.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-07-21",
+                "def_id": "oval:org.altlinux.errata:def:20259418",
+                "title": "ALT-PU-2025-9418: package `python3-module-jsonpickle` update to version 3.0.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2020-27068": [
@@ -198,6 +226,13 @@
                 "title": "CVE-2020-27068 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:64167260326560508949202701166715562528",
+                "title": "CVE-2020-27068 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-08",
@@ -242,6 +277,13 @@
                 "title": "CVE-2020-28493 jinja2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:11996060148681791726793571639001396231",
+                "title": "CVE-2020-28493 jinja2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2024-01-25",
@@ -624,6 +666,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:224222499671253757320419861413308204441",
+                "title": "CVE-2020-35503 qemu",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-11-25",
                 "def_id": "oval:org.altlinux.errata:def:20213363",
                 "title": "ALT-PU-2021-3363: package `qemu` update to version 6.1.0-alt2",
@@ -666,6 +715,13 @@
                 "title": "CVE-2021-0512 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:67095943877874578514639401778035788618",
+                "title": "CVE-2021-0512 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-22",
@@ -1102,316 +1158,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhvh-4.oval.xml.bz2"
             }
         ],
-        "CVE-2021-20095": [
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214201",
-                "title": "ELSA-2021-4201:  babel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214151",
-                "title": "ELSA-2021-4151:  python27:2.7 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214162",
-                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214201",
-                "title": "ELSA-2021-4201:  babel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214151",
-                "title": "ELSA-2021-4151:  python27:2.7 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214162",
-                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214201",
-                "title": "ELSA-2021-4201:  babel security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214151",
-                "title": "ELSA-2021-4151:  python27:2.7 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214162",
-                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:org.almalinux.alsa:def:20214151",
-                "title": "ALSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:org.almalinux.alsa:def:20214201",
-                "title": "ALSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:org.almalinux.alsa:def:20214162",
-                "title": "ALSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "almalinux",
-                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
-            },
-            {
-                "date": "2021-08-24",
-                "def_id": "oval:com.redhat.rhsa:def:20213252",
-                "title": "RHSA-2021:3252: python27 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-08-24",
-                "def_id": "oval:com.redhat.rhsa:def:20213254",
-                "title": "RHSA-2021:3254: rh-python38 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-08-24",
-                "def_id": "oval:com.redhat.rhsa:def:20213252",
-                "title": "RHSA-2021:3252: python27 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-08-24",
-                "def_id": "oval:com.redhat.rhsa:def:20213254",
-                "title": "RHSA-2021:3254: rh-python38 security, bug fix, and enhancement update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214151",
-                "title": "RHSA-2021:4151: python27:2.7 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214162",
-                "title": "RHSA-2021:4162: python38:3.8 and python38-devel:3.8 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2021-11-09",
-                "def_id": "oval:com.redhat.rhsa:def:20214201",
-                "title": "RHSA-2021:4201: babel security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
-            },
-            {
-                "date": "2021-10-21",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
         "CVE-2021-21834": [
             {
                 "date": "2024-05-15",
@@ -1812,6 +1558,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:27591401915505472411988223771274269453",
+                "title": "CVE-2021-22881 rails",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-03",
                 "def_id": "oval:org.altlinux.errata:def:20212693",
                 "title": "ALT-PU-2021-2693: package `gem-rails` update to version 6.1.4.1-alt1",
@@ -1833,6 +1586,13 @@
                 "title": "CVE-2021-22902 rails",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:136698744178469491219275289209221161073",
+                "title": "CVE-2021-22902 rails",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-11-16",
@@ -1893,6 +1653,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:168796677622761882460504263775572352912",
+                "title": "CVE-2021-22942 rails",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-03",
                 "def_id": "oval:org.altlinux.errata:def:20212693",
                 "title": "ALT-PU-2021-2693: package `gem-rails` update to version 6.1.4.1-alt1",
@@ -1921,6 +1688,13 @@
                 "title": "DSA-5197-1 curl",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:328661658138806376317960951375276626942",
+                "title": "CVE-2021-22945 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-15",
@@ -2049,6 +1823,13 @@
                 "title": "DSA-5197-1 curl",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:206145221766665056714278221341955602954",
+                "title": "CVE-2021-22946 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-15",
@@ -2366,6 +2147,13 @@
                 "title": "DSA-5197-1 curl",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:63486163559548244596515235555498499253",
+                "title": "CVE-2021-22947 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-15",
@@ -2738,6 +2526,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:320305829503396886673103402655923899910",
+                "title": "CVE-2021-29376 ircii",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-08-21",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -2759,6 +2554,13 @@
                 "title": "CVE-2021-29509 puma",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:126811976707701562413910831814074076480",
+                "title": "CVE-2021-29509 puma",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-11-16",
@@ -3280,6 +3082,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:35407930066456063982477883850605141300",
+                "title": "CVE-2021-30598 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:org.altlinux.errata:def:20212747",
                 "title": "ALT-PU-2021-2747: package `chromium` update to version 92.0.4515.159-alt0.p9.1",
@@ -3371,6 +3180,13 @@
                 "title": "CVE-2021-30599 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:316580794890075858756080300870581788861",
+                "title": "CVE-2021-30599 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-08",
@@ -3466,6 +3282,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:233905817614095157117974491691583721065",
+                "title": "CVE-2021-30600 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:org.altlinux.errata:def:20212747",
                 "title": "ALT-PU-2021-2747: package `chromium` update to version 92.0.4515.159-alt0.p9.1",
@@ -3557,6 +3380,13 @@
                 "title": "CVE-2021-30601 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:291513361250813956138090801690323675502",
+                "title": "CVE-2021-30601 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-08",
@@ -3652,6 +3482,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:112363369942045487146793974052004916272",
+                "title": "CVE-2021-30602 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:org.altlinux.errata:def:20212747",
                 "title": "ALT-PU-2021-2747: package `chromium` update to version 92.0.4515.159-alt0.p9.1",
@@ -3743,6 +3580,13 @@
                 "title": "CVE-2021-30603 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3819288598407301559364755151444370944",
+                "title": "CVE-2021-30603 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-08",
@@ -3838,6 +3682,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:114611128511366696785118551785709116295",
+                "title": "CVE-2021-30604 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:org.altlinux.errata:def:20212747",
                 "title": "ALT-PU-2021-2747: package `chromium` update to version 92.0.4515.159-alt0.p9.1",
@@ -3929,6 +3780,13 @@
                 "title": "CVE-2021-30606 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:140546288698207131233170437322999766282",
+                "title": "CVE-2021-30606 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -4024,6 +3882,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:256364291848317392609453719159277325971",
+                "title": "CVE-2021-30607 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -4115,6 +3980,13 @@
                 "title": "CVE-2021-30608 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:276191798658797905244368075748498743621",
+                "title": "CVE-2021-30608 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -4210,6 +4082,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:145026659572259175604345295051899870210",
+                "title": "CVE-2021-30609 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -4301,6 +4180,13 @@
                 "title": "CVE-2021-30610 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:293013022647407686193832761163699177322",
+                "title": "CVE-2021-30610 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -4396,6 +4282,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16117942985955043053284055366046278777",
+                "title": "CVE-2021-30611 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -4487,6 +4380,13 @@
                 "title": "CVE-2021-30612 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:141292460443244969645292810403475776301",
+                "title": "CVE-2021-30612 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -4582,6 +4482,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:280422575831668716737728367704358667782",
+                "title": "CVE-2021-30613 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -4673,6 +4580,13 @@
                 "title": "CVE-2021-30614 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:43262483830219281332458163860553937530",
+                "title": "CVE-2021-30614 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -4768,6 +4682,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:175688874492579653643415974279078384380",
+                "title": "CVE-2021-30615 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -4859,6 +4780,13 @@
                 "title": "CVE-2021-30616 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:48614173719914314916483298005250344263",
+                "title": "CVE-2021-30616 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -4954,6 +4882,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:65373036984876883764972687659815922421",
+                "title": "CVE-2021-30617 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -5045,6 +4980,13 @@
                 "title": "CVE-2021-30618 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:230590884692627125429240779599782007705",
+                "title": "CVE-2021-30618 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -5140,6 +5082,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:55247509827253630917542175817088518693",
+                "title": "CVE-2021-30619 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -5231,6 +5180,13 @@
                 "title": "CVE-2021-30620 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:337910667803787353626497404692229076116",
+                "title": "CVE-2021-30620 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -5326,6 +5282,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:56831900327560260978149385568071772671",
+                "title": "CVE-2021-30621 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -5417,6 +5380,13 @@
                 "title": "CVE-2021-30622 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:208104583497829916604239014905209505297",
+                "title": "CVE-2021-30622 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -5512,6 +5482,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:141993102076522085064065674639518276422",
+                "title": "CVE-2021-30623 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -5603,6 +5580,13 @@
                 "title": "CVE-2021-30624 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:127066363792022832623446487118753879359",
+                "title": "CVE-2021-30624 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -5698,6 +5682,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:310922031600622383521802616870314943834",
+                "title": "CVE-2021-30625 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -5789,6 +5780,13 @@
                 "title": "CVE-2021-30626 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:236394583774312142735554761371233249196",
+                "title": "CVE-2021-30626 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -5884,6 +5882,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:204354084443341063088171863686835226461",
+                "title": "CVE-2021-30627 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -5975,6 +5980,13 @@
                 "title": "CVE-2021-30628 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:188967526402297572986362579262418524295",
+                "title": "CVE-2021-30628 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -6070,6 +6082,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:338406369379464465445449744923536971394",
+                "title": "CVE-2021-30629 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -6161,6 +6180,13 @@
                 "title": "CVE-2021-30630 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:55674754580794412227438329993678764450",
+                "title": "CVE-2021-30630 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -6335,6 +6361,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:71674089289081539135693026349921948695",
+                "title": "CVE-2021-30632 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-10-15",
                 "def_id": "oval:org.altlinux.errata:def:20213044",
                 "title": "ALT-PU-2021-3044: package `chromium` update to version 94.0.4606.81-alt0.p9.1",
@@ -6426,6 +6459,13 @@
                 "title": "CVE-2021-30633 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:322263003717099265855959832819950436969",
+                "title": "CVE-2021-30633 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-15",
@@ -6558,6 +6598,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:123310697142977199763364440651698455187",
+                "title": "CVE-2021-31879 wget",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-08-18",
                 "def_id": "oval:org.altlinux.errata:def:20222459",
                 "title": "ALT-PU-2022-2459: package `wget` update to version 1.21.3-alt1",
@@ -6607,6 +6654,13 @@
                 "title": "CVE-2021-32740 ruby-addressable",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:131793262604363460878498682929560424837",
+                "title": "CVE-2021-32740 ruby-addressable",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-11-16",
@@ -6958,6 +7012,13 @@
                 "title": "CVE-2021-32803 node-tar",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:251229260799049055272811589855102100361",
+                "title": "CVE-2021-32803 node-tar",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-02-11",
@@ -7366,6 +7427,13 @@
                 "title": "CVE-2021-32804 node-tar",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3788077223353073896833741818001052711",
+                "title": "CVE-2021-32804 node-tar",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-22",
@@ -7923,6 +7991,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16469146364628049337655860478809533759",
+                "title": "CVE-2021-33285 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -8252,6 +8327,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:96097406467634026428892911572748607001",
+                "title": "CVE-2021-33286 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -8585,6 +8667,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:244883937276749658210471612507070775501",
+                "title": "CVE-2021-33287 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -8916,6 +9005,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:196231298083000550232852353967203342246",
+                "title": "CVE-2021-33289 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -9084,6 +9180,13 @@
                 "title": "CVE-2021-33582 cyrus-imapd",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:274946415038793476997399975152087335013",
+                "title": "CVE-2021-33582 cyrus-imapd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2025-01-22",
@@ -9361,6 +9464,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:37458694000013501354985945660375849583",
+                "title": "CVE-2021-33833 connman",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2023-07-19",
                 "def_id": "oval:com.ubuntu.bionic:def:62361000000",
                 "title": "USN-6236-1 -- ConnMan vulnerabilities",
@@ -9505,6 +9615,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:18153938223288982382318367744014533355",
+                "title": "CVE-2021-34813 olm",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-12-15",
                 "def_id": "oval:com.ubuntu.focal:def:51941000000",
                 "title": "USN-5194-1 -- Olm vulnerability",
@@ -9540,6 +9657,13 @@
                 "title": "CVE-2021-34866 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:107370126321432570563381018593424174401",
+                "title": "CVE-2021-34866 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2024-02-07",
@@ -9835,6 +9959,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:136672002952276738006728360589952600384",
+                "title": "CVE-2021-3507 qemu",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-06-21",
                 "def_id": "oval:com.ubuntu.bionic:def:54891000000",
                 "title": "USN-5489-1 -- QEMU vulnerabilities",
@@ -10050,6 +10181,20 @@
                 "title": "RHSA-2022:7967: qemu-kvm security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227967",
+                "title": "RHSA-2022:7967: qemu-kvm security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227967",
+                "title": "RHSA-2022:7967: qemu-kvm security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -10325,6 +10470,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:170453421325110926732741033675104916401",
+                "title": "CVE-2021-35266 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -10658,6 +10810,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:32753642413842107107738223513295999763",
+                "title": "CVE-2021-35267 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -10987,6 +11146,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:263915537022465841179626086225741448637",
+                "title": "CVE-2021-35268 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -11320,6 +11486,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:102107439485238264857186188820576254640",
+                "title": "CVE-2021-35269 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -11490,6 +11663,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:262807968757865208046090308338002017644",
+                "title": "CVE-2021-35940 apr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-08-30",
                 "def_id": "oval:com.ubuntu.trusty:def:50561000000",
                 "title": "USN-5056-1 -- APR vulnerability",
@@ -11546,6 +11726,13 @@
                 "title": "CVE-2021-3631 libvirt",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:131862726820574463792199921597996377313",
+                "title": "CVE-2021-3631 libvirt",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-02",
@@ -11802,6 +11989,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:210663145452793591434858764954557266381",
+                "title": "CVE-2021-3634 libssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-08-26",
                 "def_id": "oval:com.ubuntu.focal:def:50531000000",
                 "title": "USN-5053-1 -- libssh vulnerability",
@@ -11965,6 +12159,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:203823681085057637349058157212456038963",
+                "title": "CVE-2021-3639 libapache2-mod-auth-mellon",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:com.ubuntu.bionic:def:50691000000",
                 "title": "USN-5069-1 -- mod-auth-mellon vulnerability",
@@ -12107,6 +12308,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:258144293122113155449770504178066670939",
+                "title": "CVE-2021-3658 bluez",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-11-23",
                 "def_id": "oval:com.ubuntu.bionic:def:51551000000",
                 "title": "USN-5155-1 -- BlueZ vulnerabilities",
@@ -12177,6 +12385,13 @@
                 "title": "CVE-2021-3667 libvirt",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:144997852302036953925938126236434109660",
+                "title": "CVE-2021-3667 libvirt",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-02",
@@ -12368,6 +12583,13 @@
                 "title": "DSA-4980-1 qemu",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:2192184256582023378981932406812246112",
+                "title": "CVE-2021-3682 qemu",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-02-28",
@@ -12610,6 +12832,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.bionic:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-09-30",
                 "def_id": "oval:com.ubuntu.focal:def:50971000000",
                 "title": "USN-5097-1 -- LedgerSMB vulnerabilities",
@@ -12617,11 +12846,88 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.focal:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.jammy:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.noble:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.plucky:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.xenial:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.bionic:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-09-30",
                 "def_id": "oval:com.ubuntu.focal:def:50971000000",
                 "title": "USN-5097-1 -- LedgerSMB vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.focal:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.jammy:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.noble:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.plucky:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.xenial:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2021-3694": [
@@ -12675,6 +12981,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.bionic:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-09-30",
                 "def_id": "oval:com.ubuntu.focal:def:50971000000",
                 "title": "USN-5097-1 -- LedgerSMB vulnerabilities",
@@ -12682,11 +12995,88 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.focal:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.jammy:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.noble:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.plucky:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.xenial:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.bionic:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-09-30",
                 "def_id": "oval:com.ubuntu.focal:def:50971000000",
                 "title": "USN-5097-1 -- LedgerSMB vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.focal:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.jammy:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.noble:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.plucky:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.xenial:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2021-36980": [
@@ -12703,6 +13093,13 @@
                 "title": "CVE-2021-36980 openvswitch",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:86679737993367665860281670449910357962",
+                "title": "CVE-2021-36980 openvswitch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-08",
@@ -12921,6 +13318,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:130186817182147169635684436572934072944",
+                "title": "CVE-2021-3711 openssl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-08-24",
                 "def_id": "oval:com.ubuntu.bionic:def:50511000000",
                 "title": "USN-5051-1 -- OpenSSL vulnerabilities",
@@ -13075,6 +13479,13 @@
                 "title": "DSA-4963-1 openssl",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:300069756646224940898608841754690700661",
+                "title": "CVE-2021-3712 openssl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-08-24",
@@ -13485,6 +13896,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:145571178372939625194702478766920049327",
+                "title": "CVE-2021-3713 qemu",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-02-28",
                 "def_id": "oval:com.ubuntu.bionic:def:53071000000",
                 "title": "USN-5307-1 -- QEMU vulnerabilities",
@@ -13690,6 +14108,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.bionic:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-09-30",
                 "def_id": "oval:com.ubuntu.focal:def:50971000000",
                 "title": "USN-5097-1 -- LedgerSMB vulnerabilities",
@@ -13697,11 +14122,88 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.focal:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.jammy:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.noble:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.plucky:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.xenial:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.bionic:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-09-30",
                 "def_id": "oval:com.ubuntu.focal:def:50971000000",
                 "title": "USN-5097-1 -- LedgerSMB vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.focal:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.jammy:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.noble:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.plucky:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-07-17",
+                "def_id": "oval:com.ubuntu.xenial:def:76471000000",
+                "title": "USN-7647-1 -- LedgerSMB vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             }
         ],
         "CVE-2021-37519": [
@@ -13718,6 +14220,13 @@
                 "title": "CVE-2021-37519 memcached",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:275578335590638186120766658298224118877",
+                "title": "CVE-2021-37519 memcached",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2024-04-12",
@@ -13778,6 +14287,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:218188703546603102330266814339196733958",
+                "title": "CVE-2021-37600 util-linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-11-08",
                 "def_id": "oval:org.altlinux.errata:def:20223036",
                 "title": "ALT-PU-2022-3036: package `util-linux` update to version 2.38.1-alt1",
@@ -13827,6 +14343,13 @@
                 "title": "DSA-4972-1 ghostscript",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:51543507465361255054233895076780147407",
+                "title": "CVE-2021-3781 ghostscript",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-10",
@@ -13922,6 +14445,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:121607742480319091663159301488147624588",
+                "title": "CVE-2021-38115 libgd2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:com.ubuntu.bionic:def:50681000000",
                 "title": "USN-5068-1 -- GD library vulnerabilities",
@@ -13994,6 +14524,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70656806857498207233685161899237587207",
+                "title": "CVE-2021-38173 btrbk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-06",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -14015,6 +14552,13 @@
                 "title": "CVE-2021-38185 cpio",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:318494464888551268641493960637167567649",
+                "title": "CVE-2021-38185 cpio",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-08",
@@ -14248,6 +14792,13 @@
                 "title": "DSA-4961-1 tor",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:99902197491645915363044886433240054704",
+                "title": "CVE-2021-38385 tor",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-10-04",
@@ -14660,6 +15211,20 @@
                 "title": "DSA-4973-1 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:11217629556217075777695325508722603925",
+                "title": "CVE-2021-38493 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:278168310882974417135372262879151818881",
+                "title": "CVE-2021-38493 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-09-09",
@@ -15782,6 +16347,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:291443380043364050986557386634970735986",
+                "title": "CVE-2021-39251 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -16111,6 +16683,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:281350752779690536020151087950399480755",
+                "title": "CVE-2021-39252 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -16444,6 +17023,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:255777850890056071650653460316093155458",
+                "title": "CVE-2021-39253 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -16773,6 +17359,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16618216692727921899391560243767579060",
+                "title": "CVE-2021-39254 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -17106,6 +17699,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:98996699004567137117670994135958081043",
+                "title": "CVE-2021-39255 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -17435,6 +18035,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:193002333134148923216305911401988481337",
+                "title": "CVE-2021-39256 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -17768,6 +18375,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:22397920830395634509595042661860367406",
+                "title": "CVE-2021-39257 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -18097,6 +18711,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:48794306331999009473413961552267969214",
+                "title": "CVE-2021-39258 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -18430,6 +19051,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:33531669837477698369686868222641587660",
+                "title": "CVE-2021-39259 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -18759,6 +19387,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128294152108346369620465244009367821506",
+                "title": "CVE-2021-39260 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -19092,6 +19727,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:125527878587138328566481425308397727963",
+                "title": "CVE-2021-39261 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -19423,6 +20065,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:55142569232907127982192427329358116260",
+                "title": "CVE-2021-39262 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-05-17",
                 "def_id": "oval:com.oracle.elsa:def:20221759",
                 "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
@@ -19752,6 +20401,13 @@
                 "title": "DSA-4971-1 ntfs-3g",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:122111936824598936968413296653906881510",
+                "title": "CVE-2021-39263 ntfs-3g",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-05-17",
@@ -20136,6 +20792,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:5580337541923731722743213651290548930",
+                "title": "CVE-2021-39365 grilo",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-08-30",
                 "def_id": "oval:com.ubuntu.bionic:def:50551000000",
                 "title": "USN-5055-1 -- GNOME grilo vulnerability",
@@ -20320,6 +20983,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:66957781294577122066107114076203808548",
+                "title": "CVE-2021-39371 pywps",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-04",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -20362,6 +21032,13 @@
                 "title": "DSA-4983-1 neutron",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:139858347795399020364665278998288390591",
+                "title": "CVE-2021-40085 neutron",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2023-05-10",
@@ -20478,6 +21155,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:54540856473016976262730103910178730663",
+                "title": "CVE-2021-40145 libgd2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:com.ubuntu.bionic:def:50681000000",
                 "title": "USN-5068-1 -- GD library vulnerabilities",
@@ -20569,6 +21253,13 @@
                 "title": "DSA-4967-1 squashfs-tools",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:263494643040131147628658562723217082285",
+                "title": "CVE-2021-40153 squashfs-tools",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-08-31",
@@ -20790,6 +21481,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:68032569934472294083555854169575141598",
+                "title": "CVE-2021-40346 haproxy",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-08",
                 "def_id": "oval:com.ubuntu.focal:def:50631000000",
                 "title": "USN-5063-1 -- HAProxy vulnerabilities",
@@ -20904,6 +21602,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:25203569998894416100162377299751158375",
+                "title": "CVE-2021-40347 postorius",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-11-25",
                 "def_id": "oval:com.ubuntu.bionic:def:51571000000",
                 "title": "USN-5157-1 -- Postorius vulnerability",
@@ -20953,6 +21658,13 @@
                 "title": "DSA-4978-1 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:336515367527616613251359642030358944859",
+                "title": "CVE-2021-40490 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-22",
@@ -21853,6 +22565,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:39848050667364390763298761768689883541",
+                "title": "CVE-2021-41072 squashfs-tools",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-09-15",
                 "def_id": "oval:com.ubuntu.bionic:def:50781000000",
                 "title": "USN-5078-1 -- Squashfs-Tools vulnerability",
@@ -22079,6 +22798,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:31293575106887916156302292827292948665",
+                "title": "CVE-2021-41229 bluez",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-11-23",
                 "def_id": "oval:com.ubuntu.bionic:def:51551000000",
                 "title": "USN-5155-1 -- BlueZ vulnerabilities",
@@ -22247,6 +22973,13 @@
                 "title": "CVE-2021-42008 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:148513635387028805741167653195439004542",
+                "title": "CVE-2021-42008 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-10-22",
@@ -22662,6 +23395,13 @@
                 "title": "CVE-2021-45930 qtsvg-opensource-src",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:50171199435337113440529925708602566168",
+                "title": "CVE-2021-45930 qtsvg-opensource-src",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-01-19",
@@ -23821,6 +24561,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:289231427702058534255724982167982868897",
+                "title": "CVE-2021-45944 ghostscript",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2022-01-12",
                 "def_id": "oval:com.ubuntu.bionic:def:52241000000",
                 "title": "USN-5224-1 -- Ghostscript vulnerabilities",
@@ -23949,6 +24696,13 @@
                 "title": "CVE-2022-1043 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:204357212080560546021144901528156865341",
+                "title": "CVE-2022-1043 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-08-30",
@@ -24273,6 +25027,20 @@
                 "title": "DSA-5118-1 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-buster.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:140565311290163991707716597810250046951",
+                "title": "CVE-2022-1196 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:170178041597466359823158866495981892038",
+                "title": "CVE-2022-1196 thunderbird",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2022-04-27",
@@ -24851,6 +25619,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:18598271873957868410204993806799842463",
+                "title": "CVE-2022-35230 zabbix",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2024-04-25",
                 "def_id": "oval:com.ubuntu.bionic:def:67511000000",
                 "title": "USN-6751-1 -- Zabbix vulnerabilities",
@@ -24979,6 +25754,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:266715432588203158869288268866396339548",
+                "title": "CVE-2022-39176 bluez",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
                 "date": "2021-12-07",
                 "def_id": "oval:org.altlinux.errata:def:20213492",
                 "title": "ALT-PU-2021-3492: package `bluez` update to version 5.62-alt2",
@@ -25028,6 +25810,13 @@
                 "title": "CVE-2022-39177 bluez",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:233619476751466091982660266708143056952",
+                "title": "CVE-2022-39177 bluez",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2021-12-07",
@@ -25100,6 +25889,27 @@
                 "title": "CVE-2023-33285 qtbase-opensource-src-gles",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:163060036023465735313746348196985124103",
+                "title": "CVE-2023-33285 qt6-base",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:225469966992485699857282762616575095227",
+                "title": "CVE-2023-33285 qtbase-opensource-src",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:146482169668632899185063248731152637373",
+                "title": "CVE-2023-33285 qtbase-opensource-src-gles",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2023-11-12",
