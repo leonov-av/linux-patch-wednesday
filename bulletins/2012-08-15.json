@@ -8,6 +8,36 @@
     "patch_wednesday_start_date_ts": 1342641600,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2012-0049": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:294302762951386844126412973996905050587",
+                "title": "CVE-2012-0049 openttd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:294302762951386844126412973996905050587",
+                "title": "CVE-2012-0049 openttd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:294302762951386844126412973996905050587",
+                "title": "CVE-2012-0049 openttd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-08-06",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-1013": [
             {
                 "date": "2024-05-15",
@@ -143,6 +173,36 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2012-1014": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:130126822515879167828263076623025730964",
+                "title": "CVE-2012-1014 krb5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:130126822515879167828263076623025730964",
+                "title": "CVE-2012-1014 krb5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:130126822515879167828263076623025730964",
+                "title": "CVE-2012-1014 krb5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-07-31",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-1015": [
             {
                 "date": "2024-05-15",
@@ -274,141 +334,6 @@
                 "date": "2012-07-31",
                 "def_id": "oval:com.redhat.rhsa:def:20121131",
                 "title": "RHSA-2012:1131: krb5 security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2012-1151": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:270998601535397860567778717395399491707",
-                "title": "CVE-2012-1151 libdbd-pg-perl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:270998601535397860567778717395399491707",
-                "title": "CVE-2012-1151 libdbd-pg-perl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:270998601535397860567778717395399491707",
-                "title": "CVE-2012-1151 libdbd-pg-perl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.oracle.elsa:def:20121116",
-                "title": "ELSA-2012-1116:  perl-DBD-Pg security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.oracle.elsa:def:20121116",
-                "title": "ELSA-2012-1116:  perl-DBD-Pg security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.oracle.elsa:def:20121116",
-                "title": "ELSA-2012-1116:  perl-DBD-Pg security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-07-25",
-                "def_id": "oval:com.redhat.rhsa:def:20121116",
-                "title": "RHSA-2012:1116: perl-DBD-Pg security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
@@ -1088,6 +1013,13 @@
                 "title": "ELSA-2012-1130:  xen security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-03-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-2665": [
@@ -1223,6 +1155,13 @@
                 "title": "RHSA-2012:1135: libreoffice security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-08-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-2668": [
@@ -1339,139 +1278,397 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2012-3374": [
+        "CVE-2012-2688": [
+            {
+                "date": "2013-12-10",
+                "def_id": "oval:com.oracle.elsa:def:20131814",
+                "title": "ELSA-2013-1814:  php security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-10-02",
+                "def_id": "oval:com.oracle.elsa:def:20131307",
+                "title": "ELSA-2013-1307:  php53 security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-02-27",
+                "def_id": "oval:com.oracle.elsa:def:20130514",
+                "title": "ELSA-2013-0514:  php security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-12-10",
+                "def_id": "oval:com.oracle.elsa:def:20131814",
+                "title": "ELSA-2013-1814:  php security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-10-02",
+                "def_id": "oval:com.oracle.elsa:def:20131307",
+                "title": "ELSA-2013-1307:  php53 security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-02-27",
+                "def_id": "oval:com.oracle.elsa:def:20130514",
+                "title": "ELSA-2013-0514:  php security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-02-27",
+                "def_id": "oval:com.oracle.elsa:def:20130514",
+                "title": "ELSA-2013-0514:  php security, bug fix and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130514",
+                "title": "RHSA-2013:0514: php security, bug fix and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-08-13",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-2807": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:301600061946896965161216350520845302241",
-                "title": "CVE-2012-3374 pidgin",
+                "def_id": "oval:org.debian:def:195413655256274197636672714405878633086",
+                "title": "CVE-2012-2807 libxml2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:301600061946896965161216350520845302241",
-                "title": "CVE-2012-3374 pidgin",
+                "def_id": "oval:org.debian:def:195413655256274197636672714405878633086",
+                "title": "CVE-2012-2807 libxml2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:301600061946896965161216350520845302241",
-                "title": "CVE-2012-3374 pidgin",
+                "def_id": "oval:org.debian:def:195413655256274197636672714405878633086",
+                "title": "CVE-2012-2807 libxml2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.oracle.elsa:def:20121102",
-                "title": "ELSA-2012-1102:  pidgin security update (MODERATE)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.oracle.elsa:def:20121288",
+                "title": "ELSA-2012-1288:  libxml2 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.oracle.elsa:def:20121102",
-                "title": "ELSA-2012-1102:  pidgin security update (MODERATE)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.oracle.elsa:def:20121288",
+                "title": "ELSA-2012-1288:  libxml2 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.oracle.elsa:def:20121102",
-                "title": "ELSA-2012-1102:  pidgin security update (MODERATE)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.oracle.elsa:def:20121288",
+                "title": "ELSA-2012-1288:  libxml2 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
             },
             {
-                "date": "2012-07-19",
-                "def_id": "oval:com.redhat.rhsa:def:20121102",
-                "title": "RHSA-2012:1102: pidgin security update (Moderate)",
+                "date": "2012-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121288",
+                "title": "RHSA-2012:1288: libxml2 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-08-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-2978": [
+            {
+                "date": "2015-09-29",
+                "def_id": "oval:org.altlinux.errata:def:20151813",
+                "title": "ALT-PU-2015-1813: package `nsd` update to version 4.1.5-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-09-29",
+                "def_id": "oval:org.altlinux.errata:def:20151813",
+                "title": "ALT-PU-2015-1813: package `nsd` update to version 4.1.5-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-09-29",
+                "def_id": "oval:org.altlinux.errata:def:20151813",
+                "title": "ALT-PU-2015-1813: package `nsd` update to version 4.1.5-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-09-29",
+                "def_id": "oval:org.altlinux.errata:def:20151813",
+                "title": "ALT-PU-2015-1813: package `nsd` update to version 4.1.5-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-09-29",
+                "def_id": "oval:org.altlinux.errata:def:20151813",
+                "title": "ALT-PU-2015-1813: package `nsd` update to version 4.1.5-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-09-29",
+                "def_id": "oval:org.altlinux.errata:def:20151813",
+                "title": "ALT-PU-2015-1813: package `nsd` update to version 4.1.5-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2012-07-19",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-3292": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:318879979399508933537934710466196586519",
+                "title": "CVE-2012-3292 globus-gridftp-server",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:318879979399508933537934710466196586519",
+                "title": "CVE-2012-3292 globus-gridftp-server",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:318879979399508933537934710466196586519",
+                "title": "CVE-2012-3292 globus-gridftp-server",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-08-06",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-3416": [
@@ -1890,6 +2087,117 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2012-3442": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:113926401105325988162047650281386521950",
+                "title": "CVE-2012-3442 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:113926401105325988162047650281386521950",
+                "title": "CVE-2012-3442 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:113926401105325988162047650281386521950",
+                "title": "CVE-2012-3442 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-08-14",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-3461": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:191924468049831516086846410450117761970",
+                "title": "CVE-2012-3461 libotr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:191924468049831516086846410450117761970",
+                "title": "CVE-2012-3461 libotr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:191924468049831516086846410450117761970",
+                "title": "CVE-2012-3461 libotr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-08-12",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-3478": [
+            {
+                "date": "2016-07-01",
+                "def_id": "oval:org.altlinux.errata:def:20161705",
+                "title": "ALT-PU-2016-1705: package `rssh` update to version 2.3.4-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2016-07-01",
+                "def_id": "oval:org.altlinux.errata:def:20161705",
+                "title": "ALT-PU-2016-1705: package `rssh` update to version 2.3.4-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2016-07-01",
+                "def_id": "oval:org.altlinux.errata:def:20161705",
+                "title": "ALT-PU-2016-1705: package `rssh` update to version 2.3.4-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2016-07-01",
+                "def_id": "oval:org.altlinux.errata:def:20161705",
+                "title": "ALT-PU-2016-1705: package `rssh` update to version 2.3.4-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2016-07-01",
+                "def_id": "oval:org.altlinux.errata:def:20161705",
+                "title": "ALT-PU-2016-1705: package `rssh` update to version 2.3.4-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2016-07-01",
+                "def_id": "oval:org.altlinux.errata:def:20161705",
+                "title": "ALT-PU-2016-1705: package `rssh` update to version 2.3.4-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2012-08-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-3571": [
             {
                 "date": "2024-05-15",
@@ -2037,6 +2345,13 @@
                 "title": "RHSA-2012:1141: dhcp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-07-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-3817": [
@@ -2172,6 +2487,13 @@
                 "title": "RHSA-2012:1123: bind security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-07-30",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-3954": [
@@ -2307,6 +2629,15 @@
                 "title": "RHSA-2012:1141: dhcp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2012-4000": [
+            {
+                "date": "2012-08-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-4163": [

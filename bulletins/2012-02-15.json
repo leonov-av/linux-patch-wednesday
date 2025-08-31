@@ -703,22 +703,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2010-4554": [
-            {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120103",
-                "title": "ELSA-2012-0103:  squirrelmail security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-02-08",
-                "def_id": "oval:com.oracle.elsa:def:20120103",
-                "title": "ELSA-2012-0103:  squirrelmail security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2010-4555": [
             {
                 "date": "2012-02-08",
@@ -2539,6 +2523,36 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
+        "CVE-2011-1940": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:257217066221903567730705239189204076211",
+                "title": "CVE-2011-1940 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:257217066221903567730705239189204076211",
+                "title": "CVE-2011-1940 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:257217066221903567730705239189204076211",
+                "title": "CVE-2011-1940 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-01-22",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2011-2023": [
             {
                 "date": "2012-02-08",
@@ -2681,6 +2695,13 @@
                 "title": "RHSA-2012:0105: mysql security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-03-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-2752": [
@@ -2713,6 +2734,423 @@
                 "title": "ELSA-2012-0103:  squirrelmail security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2011-3026": [
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.oracle.elsa:def:20120140",
+                "title": "ELSA-2012-0140:  thunderbird security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.oracle.elsa:def:20120317",
+                "title": "ELSA-2012-0317:  libpng security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.oracle.elsa:def:20120143",
+                "title": "ELSA-2012-0143:  xulrunner security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.oracle.elsa:def:20120140",
+                "title": "ELSA-2012-0140:  thunderbird security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.oracle.elsa:def:20120317",
+                "title": "ELSA-2012-0317:  libpng security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.oracle.elsa:def:20120143",
+                "title": "ELSA-2012-0143:  xulrunner security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.oracle.elsa:def:20120140",
+                "title": "ELSA-2012-0140:  thunderbird security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.oracle.elsa:def:20120317",
+                "title": "ELSA-2012-0317:  libpng security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.oracle.elsa:def:20120143",
+                "title": "ELSA-2012-0143:  xulrunner security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120140",
+                "title": "RHSA-2012:0140: thunderbird security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-16",
+                "def_id": "oval:com.redhat.rhsa:def:20120143",
+                "title": "RHSA-2012:0143: xulrunner security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20120317",
+                "title": "RHSA-2012:0317: libpng security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-3483": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16408585646455539292125692701296837098",
+                "title": "CVE-2011-3483 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16408585646455539292125692701296837098",
+                "title": "CVE-2011-3483 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16408585646455539292125692701296837098",
+                "title": "CVE-2011-3483 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-01-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3563": [
@@ -4251,6 +4689,13 @@
                 "title": "RHSA-2012:0080: thunderbird security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-02",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-4086": [
@@ -4442,169 +4887,13 @@
                 "title": "RHSA-2012:0571: kernel security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2011-4108": [
+            },
             {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:273701085625640255492236203057640839443",
-                "title": "CVE-2011-4108 openssl",
+                "date": "2012-05-09",
+                "def_id": "debian",
+                "title": "Debian email list",
                 "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:273701085625640255492236203057640839443",
-                "title": "CVE-2011-4108 openssl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:273701085625640255492236203057640839443",
-                "title": "CVE-2011-4108 openssl",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120059",
-                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120060",
-                "title": "ELSA-2012-0060:  openssl security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120059",
-                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120060",
-                "title": "ELSA-2012-0060:  openssl security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.oracle.elsa:def:20120059",
-                "title": "ELSA-2012-0059:  openssl security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-01-24",
-                "def_id": "oval:com.redhat.rhsa:def:20120059",
-                "title": "RHSA-2012:0059: openssl security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-4109": [
@@ -6274,6 +6563,13 @@
                 "title": "RHSA-2012:0050: qemu-kvm security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-01-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-0031": [
@@ -6437,6 +6733,36 @@
                 "title": "RHSA-2012:0128: httpd security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2012-0050": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:285880448778439476103737723822815223414",
+                "title": "CVE-2012-0050 openssl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:285880448778439476103737723822815223414",
+                "title": "CVE-2012-0050 openssl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:285880448778439476103737723822815223414",
+                "title": "CVE-2012-0050 openssl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-01-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-0053": [
@@ -8534,6 +8860,36 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2012-0210": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:86938574964290359892966000824251453380",
+                "title": "CVE-2012-0210 devscripts",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:86938574964290359892966000824251453380",
+                "title": "CVE-2012-0210 devscripts",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:86938574964290359892966000824251453380",
+                "title": "CVE-2012-0210 devscripts",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-02-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-0442": [
             {
                 "date": "2012-01-31",
@@ -9082,6 +9438,13 @@
                 "title": "RHSA-2012:0136: libvorbis security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-19",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-0449": [
@@ -12974,6 +13337,192 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2012-0804": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:207232235151489671849584548587489125106",
+                "title": "CVE-2012-0804 cvs",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:207232235151489671849584548587489125106",
+                "title": "CVE-2012-0804 cvs",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:207232235151489671849584548587489125106",
+                "title": "CVE-2012-0804 cvs",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20120321",
+                "title": "ELSA-2012-0321:  cvs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20120321",
+                "title": "ELSA-2012-0321:  cvs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.oracle.elsa:def:20120321",
+                "title": "ELSA-2012-0321:  cvs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-21",
+                "def_id": "oval:com.redhat.rhsa:def:20120321",
+                "title": "RHSA-2012:0321: cvs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-09",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-0806": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:148729467697934560316048500361482158833",
+                "title": "CVE-2012-0806 bip",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:148729467697934560316048500361482158833",
+                "title": "CVE-2012-0806 bip",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:148729467697934560316048500361482158833",
+                "title": "CVE-2012-0806 bip",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-01-24",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-0830": [
             {
                 "date": "2012-02-02",
@@ -13114,6 +13663,13 @@
                 "title": "RHSA-2012:0093: php security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-02",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ]
     },

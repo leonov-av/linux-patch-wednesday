@@ -8,22 +8,6 @@
     "patch_wednesday_start_date_ts": 1319054400,
     "status": "Released",
     "vulnerabilities": {
-        "CVE-2009-4067": [
-            {
-                "date": "2011-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20111386",
-                "title": "ELSA-2011-1386:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-10-21",
-                "def_id": "oval:com.oracle.elsa:def:20111386",
-                "title": "ELSA-2011-1386:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2011-0708": [
             {
                 "date": "2011-11-02",
@@ -1023,6 +1007,13 @@
                 "title": "RHSA-2011:1423: php53 and php security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-01-31",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-2094": [
@@ -2049,6 +2040,15 @@
                 "title": "RHSA-2011:1434: acroread security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2011-2193": [
+            {
+                "date": "2011-10-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-2202": [
@@ -4878,6 +4878,105 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2011-2766": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:319739342251635914807256290906875828106",
+                "title": "CVE-2011-2766 libfcgi-perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:319739342251635914807256290906875828106",
+                "title": "CVE-2011-2766 libfcgi-perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:319739342251635914807256290906875828106",
+                "title": "CVE-2011-2766 libfcgi-perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-10-24",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-2768": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:9752941145493927325598811917839632918",
+                "title": "CVE-2011-2768 tor",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:9752941145493927325598811917839632918",
+                "title": "CVE-2011-2768 tor",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:9752941145493927325598811917839632918",
+                "title": "CVE-2011-2768 tor",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-10-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-2770": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3421100783066846846505444608336706837",
+                "title": "CVE-2011-2770 man2html",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3421100783066846846505444608336706837",
+                "title": "CVE-2011-2770 man2html",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3421100783066846846505444608336706837",
+                "title": "CVE-2011-2770 man2html",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-11-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-2771": [
+            {
+                "date": "2011-11-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2011-2939": [
             {
                 "date": "2024-05-15",
@@ -5106,6 +5205,176 @@
                 "title": "ELSA-2011-1386:  kernel security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-12-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-3148": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:281150211949920432450752026524434027271",
+                "title": "CVE-2011-3148 pam",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:281150211949920432450752026524434027271",
+                "title": "CVE-2011-3148 pam",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:281150211949920432450752026524434027271",
+                "title": "CVE-2011-3148 pam",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2013-02-22",
+                "def_id": "oval:com.oracle.elsa:def:20130521",
+                "title": "ELSA-2013-0521:  pam security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-02-22",
+                "def_id": "oval:com.oracle.elsa:def:20130521",
+                "title": "ELSA-2013-0521:  pam security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-02-22",
+                "def_id": "oval:com.oracle.elsa:def:20130521",
+                "title": "ELSA-2013-0521:  pam security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130521",
+                "title": "RHSA-2013:0521: pam security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-10-24",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3188": [
@@ -5788,6 +6057,13 @@
                 "title": "RHSA-2011:1402: freetype security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-10-24",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3346": [
@@ -6118,6 +6394,36 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2011-3360": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:146858701971229816556109695846168356176",
+                "title": "CVE-2011-3360 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:146858701971229816556109695846168356176",
+                "title": "CVE-2011-3360 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:146858701971229816556109695846168356176",
+                "title": "CVE-2011-3360 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-10-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2011-3368": [
             {
                 "date": "2024-05-15",
@@ -6286,6 +6592,13 @@
                 "title": "RHSA-2011:1391: httpd security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-06",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3377": [
@@ -6442,6 +6755,13 @@
                 "title": "RHSA-2011:1441: icedtea-web security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3439": [
@@ -6598,6 +6918,43 @@
                 "title": "RHSA-2011:1455: freetype security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-3504": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16228527754150100851152385227303835583",
+                "title": "CVE-2011-3504 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16228527754150100851152385227303835583",
+                "title": "CVE-2011-3504 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16228527754150100851152385227303835583",
+                "title": "CVE-2011-3504 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-11-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3597": [
@@ -6768,6 +7125,66 @@
                 "title": "RHSA-2011:1424: perl security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2011-3601": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:280301195864583983278608241863862273220",
+                "title": "CVE-2011-3601 radvd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:280301195864583983278608241863862273220",
+                "title": "CVE-2011-3601 radvd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:280301195864583983278608241863862273220",
+                "title": "CVE-2011-3601 radvd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-10-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-3640": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:25509610819101235126291775100618748145",
+                "title": "CVE-2011-3640 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:25509610819101235126291775100618748145",
+                "title": "CVE-2011-3640 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:25509610819101235126291775100618748145",
+                "title": "CVE-2011-3640 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-11-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3647": [
@@ -7036,6 +7453,13 @@
                 "title": "RHSA-2011:1439: thunderbird security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-09",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3648": [
@@ -7574,6 +7998,15 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2011-4062": [
+            {
+                "date": "2011-10-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2011-4073": [
             {
                 "date": "2011-11-02",
@@ -7707,6 +8140,291 @@
                 "title": "RHSA-2011:1422: openswan security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-4075": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70476585389915269129928525290851074342",
+                "title": "CVE-2011-4075 phpldapadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70476585389915269129928525290851074342",
+                "title": "CVE-2011-4075 phpldapadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-10-31",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-4103": [
+            {
+                "date": "2011-11-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-4130": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:107058526091328756422971815227651430930",
+                "title": "CVE-2011-4130 proftpd-dfsg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:107058526091328756422971815227651430930",
+                "title": "CVE-2011-4130 proftpd-dfsg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:107058526091328756422971815227651430930",
+                "title": "CVE-2011-4130 proftpd-dfsg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-11-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-4136": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:136219944506336332938639693177468034820",
+                "title": "CVE-2011-4136 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:136219944506336332938639693177468034820",
+                "title": "CVE-2011-4136 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:136219944506336332938639693177468034820",
+                "title": "CVE-2011-4136 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-10-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-4294": [
+            {
+                "date": "2011-11-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-4313": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:293097221587911152956067476030148754391",
+                "title": "CVE-2011-4313 bind9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:293097221587911152956067476030148754391",
+                "title": "CVE-2011-4313 bind9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:293097221587911152956067476030148754391",
+                "title": "CVE-2011-4313 bind9",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.oracle.elsa:def:20111458",
+                "title": "ELSA-2011-1458:  bind security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.oracle.elsa:def:20111459",
+                "title": "ELSA-2011-1459:  bind97 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.oracle.elsa:def:20111458",
+                "title": "ELSA-2011-1458:  bind security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.oracle.elsa:def:20111459",
+                "title": "ELSA-2011-1459:  bind97 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.oracle.elsa:def:20111458",
+                "title": "ELSA-2011-1458:  bind security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-17",
+                "def_id": "oval:com.redhat.rhsa:def:20111458",
+                "title": "RHSA-2011:1458: bind security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-11-16",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-4374": [
@@ -7821,6 +8539,29 @@
                 "title": "RHSA-2011:1434: acroread security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2011-4625": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:22337501567655085923890895657915471686",
+                "title": "CVE-2011-4625 simplesamlphp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:22337501567655085923890895657915471686",
+                "title": "CVE-2011-4625 simplesamlphp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2011-10-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ]
     },

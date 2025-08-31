@@ -24,6 +24,59 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2006-0207": [
+            {
+                "date": "2007-07-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2006-4519": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:131600899809309826938969943398171122086",
+                "title": "CVE-2006-4519 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:131600899809309826938969943398171122086",
+                "title": "CVE-2006-4519 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:131600899809309826938969943398171122086",
+                "title": "CVE-2006-4519 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2007-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20070513",
+                "title": "ELSA-2007-0513:  Moderate: gimp security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-09-26",
+                "def_id": "oval:com.oracle.elsa:def:20070513",
+                "title": "ELSA-2007-0513:  Moderate: gimp security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-07-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2006-5752": [
             {
                 "date": "2024-05-15",
@@ -93,22 +146,6 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2007-0005": [
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070347",
-                "title": "ELSA-2007-0347:  Important: kernel security and bug fix update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
-            },
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070347",
-                "title": "ELSA-2007-0347:  Important: kernel security and bug fix update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2007-0006": [
             {
                 "date": "2007-06-26",
@@ -160,43 +197,6 @@
                 "date": "2024-05-15",
                 "def_id": "oval:org.debian:def:124016410401480538075926547080237525993",
                 "title": "CVE-2007-0493 bind9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070057",
-                "title": "ELSA-2007-0057:  Moderate: bind security update  (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
-            },
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070057",
-                "title": "ELSA-2007-0057:  Moderate: bind security update  (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2007-0494": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:178887618479683345671438374885089048419",
-                "title": "CVE-2007-0494 bind9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:178887618479683345671438374885089048419",
-                "title": "CVE-2007-0494 bind9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:178887618479683345671438374885089048419",
-                "title": "CVE-2007-0494 bind9",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
@@ -279,99 +279,34 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2007-1003": [
+        "CVE-2007-1002": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:188989811313166208566526480398131157393",
-                "title": "CVE-2007-1003 xorg-server",
+                "def_id": "oval:org.debian:def:122805431283620869233578685456693546487",
+                "title": "CVE-2007-1002 evolution",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:188989811313166208566526480398131157393",
-                "title": "CVE-2007-1003 xorg-server",
+                "def_id": "oval:org.debian:def:122805431283620869233578685456693546487",
+                "title": "CVE-2007-1002 evolution",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:188989811313166208566526480398131157393",
-                "title": "CVE-2007-1003 xorg-server",
+                "def_id": "oval:org.debian:def:122805431283620869233578685456693546487",
+                "title": "CVE-2007-1002 evolution",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070127",
-                "title": "ELSA-2007-0127:  Important: xorg-x11-server security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
-            },
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070127",
-                "title": "ELSA-2007-0127:  Important: xorg-x11-server security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2007-1263": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:321139076727114702679602919838676408304",
-                "title": "CVE-2007-1263 gnupg2",
+                "date": "2007-06-29",
+                "def_id": "debian",
+                "title": "Debian email list",
                 "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:66091429576090623882382445270415307287",
-                "title": "CVE-2007-1263 gpgme1.0",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:321139076727114702679602919838676408304",
-                "title": "CVE-2007-1263 gnupg2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:66091429576090623882382445270415307287",
-                "title": "CVE-2007-1263 gpgme1.0",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:321139076727114702679602919838676408304",
-                "title": "CVE-2007-1263 gnupg2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:66091429576090623882382445270415307287",
-                "title": "CVE-2007-1263 gpgme1.0",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070107",
-                "title": "ELSA-2007-0107:  Important: gnupg security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
-            },
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070107",
-                "title": "ELSA-2007-0107:  Important: gnupg security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-1351": [
@@ -430,6 +365,13 @@
                 "title": "ELSA-2007-0132:  Important: libXfont security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-01-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-1352": [
@@ -483,6 +425,13 @@
                 "title": "ELSA-2007-0376:  Important: kernel security and bug fix update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-1358": [
@@ -517,20 +466,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2007-1496": [
+        "CVE-2007-1399": [
             {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070347",
-                "title": "ELSA-2007-0347:  Important: kernel security and bug fix update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
-            },
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070347",
-                "title": "ELSA-2007-0347:  Important: kernel security and bug fix update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2007-07-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-1497": [
@@ -600,6 +542,36 @@
                 "title": "ELSA-2007-0347:  Important: kernel security and bug fix update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2007-1655": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:79371448433839967155260149737306050431",
+                "title": "CVE-2007-1655 tinymux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:79371448433839967155260149737306050431",
+                "title": "CVE-2007-1655 tinymux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:79371448433839967155260149737306050431",
+                "title": "CVE-2007-1655 tinymux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2007-06-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-1667": [
@@ -679,22 +651,13 @@
                 "title": "ELSA-2007-0157:  Moderate: xorg-x11-apps/libX11 security updates  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2007-1841": [
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070342",
-                "title": "ELSA-2007-0342:  Moderate: ipsec-tools security update  (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
             },
             {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070342",
-                "title": "ELSA-2007-0342:  Moderate: ipsec-tools security update  (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2009-08-10",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-1861": [
@@ -780,6 +743,13 @@
                 "title": "ELSA-2007-0347:  Important: kernel security and bug fix update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-31",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-2242": [
@@ -833,6 +803,13 @@
                 "title": "ELSA-2007-0346:  Moderate: vim security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-09-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-2442": [
@@ -870,6 +847,13 @@
                 "title": "ELSA-2007-0562:  Important: krb5 security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-06-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-2443": [
@@ -957,22 +941,6 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2007-2509": [
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070348",
-                "title": "ELSA-2007-0348:  Important: php security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
-            },
-            {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070348",
-                "title": "ELSA-2007-0348:  Important: php security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2007-2510": [
             {
                 "date": "2007-06-26",
@@ -1003,6 +971,36 @@
                 "title": "ELSA-2007-0376:  Important: kernel security and bug fix update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2007-2650": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:315493339370834931008387239244052640952",
+                "title": "CVE-2007-2650 clamav",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:315493339370834931008387239244052640952",
+                "title": "CVE-2007-2650 clamav",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:315493339370834931008387239244052640952",
+                "title": "CVE-2007-2650 clamav",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2007-06-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-2798": [
@@ -1042,41 +1040,93 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2007-3099": [
+        "CVE-2007-2833": [
+            {
+                "date": "2007-06-21",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-2835": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:280115778577400761488989588559416512224",
-                "title": "CVE-2007-3099 open-iscsi",
+                "def_id": "oval:org.debian:def:76524250547257870407198189757503719744",
+                "title": "CVE-2007-2835 unicon",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:280115778577400761488989588559416512224",
-                "title": "CVE-2007-3099 open-iscsi",
+                "def_id": "oval:org.debian:def:76524250547257870407198189757503719744",
+                "title": "CVE-2007-2835 unicon",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:280115778577400761488989588559416512224",
-                "title": "CVE-2007-3099 open-iscsi",
+                "def_id": "oval:org.debian:def:76524250547257870407198189757503719744",
+                "title": "CVE-2007-2835 unicon",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070497",
-                "title": "ELSA-2007-0497:  Moderate: iscsi-initiator-utils security update  (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+                "date": "2007-07-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-2836": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:21696704668375125090360582688087771063",
+                "title": "CVE-2007-2836 hiki",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2007-06-26",
-                "def_id": "oval:com.oracle.elsa:def:20070497",
-                "title": "ELSA-2007-0497:  Moderate: iscsi-initiator-utils security update  (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:21696704668375125090360582688087771063",
+                "title": "CVE-2007-2836 hiki",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2007-06-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-2837": [
+            {
+                "date": "2007-07-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-2838": [
+            {
+                "date": "2007-07-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-2839": [
+            {
+                "date": "2007-07-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-3100": [
@@ -1130,6 +1180,13 @@
                 "title": "ELSA-2007-0520:  Moderate: xorg-x11-xfs security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-07-30",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-3107": [
@@ -1146,6 +1203,22 @@
                 "title": "ELSA-2007-0595:  Moderate: kernel security and bug fix update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2007-3114": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:159923075244310991126496978122594100760",
+                "title": "CVE-2007-3114 maradns",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2007-06-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-3257": [
@@ -1204,6 +1277,13 @@
                 "title": "ELSA-2007-0510:  Important: evolution-data-server security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-06-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-3304": [
@@ -1241,6 +1321,36 @@
                 "title": "ELSA-2007-0556:  Moderate: httpd security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2007-3316": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:197961286624022851405798367746510911350",
+                "title": "CVE-2007-3316 vlc",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:197961286624022851405798367746510911350",
+                "title": "CVE-2007-3316 vlc",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:197961286624022851405798367746510911350",
+                "title": "CVE-2007-3316 vlc",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2007-07-09",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-3374": [
@@ -1294,6 +1404,57 @@
                 "title": "ELSA-2007-0674:  Moderate: perl-Net-DNS security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-03-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-3390": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:111254122066770309292712753160637377712",
+                "title": "CVE-2007-3390 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:111254122066770309292712753160637377712",
+                "title": "CVE-2007-3390 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:111254122066770309292712753160637377712",
+                "title": "CVE-2007-3390 wireshark",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2007-11-19",
+                "def_id": "oval:com.oracle.elsa:def:20070710",
+                "title": "ELSA-2007-0710:  wireshark security update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-11-19",
+                "def_id": "oval:com.oracle.elsa:def:20070710",
+                "title": "ELSA-2007-0710:  wireshark security update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-06-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-3409": [
@@ -1331,6 +1492,36 @@
                 "title": "ELSA-2007-0674:  Moderate: perl-Net-DNS security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2007-3564": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:291818458326918658892569421912559036771",
+                "title": "CVE-2007-3564 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:291818458326918658892569421912559036771",
+                "title": "CVE-2007-3564 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:291818458326918658892569421912559036771",
+                "title": "CVE-2007-3564 curl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2007-07-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ]
     },

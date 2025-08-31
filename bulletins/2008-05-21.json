@@ -8,6 +8,15 @@
     "patch_wednesday_start_date_ts": 1208376000,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2007-0175": [
+            {
+                "date": "2008-05-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2007-1797": [
             {
                 "date": "2024-05-15",
@@ -66,20 +75,194 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2007-3919": [
+        "CVE-2007-2052": [
             {
-                "date": "2008-05-13",
-                "def_id": "oval:com.oracle.elsa:def:20080194",
-                "title": "ELSA-2008-0194:  xen security and bug fix update (IMPORTANT)",
+                "date": "2009-07-27",
+                "def_id": "oval:com.oracle.elsa:def:20091176",
+                "title": "ELSA-2009-1176:  python security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
+            },
+            {
+                "date": "2009-07-27",
+                "def_id": "oval:com.oracle.elsa:def:20091176",
+                "title": "ELSA-2009-1176:  python security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-04-19",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-3806": [
+            {
+                "date": "2008-05-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-4476": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:212919233159027207763196663289151871294",
+                "title": "CVE-2007-4476 cpio",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:234087062042719312228579078848410425586",
+                "title": "CVE-2007-4476 tar",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:212919233159027207763196663289151871294",
+                "title": "CVE-2007-4476 cpio",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:234087062042719312228579078848410425586",
+                "title": "CVE-2007-4476 tar",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:212919233159027207763196663289151871294",
+                "title": "CVE-2007-4476 cpio",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:234087062042719312228579078848410425586",
+                "title": "CVE-2007-4476 tar",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2010-03-15",
+                "def_id": "oval:com.oracle.elsa:def:20100144",
+                "title": "ELSA-2010-0144:  cpio security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
+            },
+            {
+                "date": "2010-03-15",
+                "def_id": "oval:com.oracle.elsa:def:20100141",
+                "title": "ELSA-2010-0141:  tar security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
+            },
+            {
+                "date": "2010-03-15",
+                "def_id": "oval:com.oracle.elsa:def:20100144",
+                "title": "ELSA-2010-0144:  cpio security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-03-15",
+                "def_id": "oval:com.oracle.elsa:def:20100141",
+                "title": "ELSA-2010-0141:  tar security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-05-02",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-4752": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:59546472003029462623023229519347942697",
+                "title": "CVE-2007-4752 openssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:59546472003029462623023229519347942697",
+                "title": "CVE-2007-4752 openssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:59546472003029462623023229519347942697",
+                "title": "CVE-2007-4752 openssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-08-22",
+                "def_id": "oval:com.oracle.elsa:def:20080855",
+                "title": "ELSA-2008-0855:  openssh security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2008.xml.bz2"
             },
             {
-                "date": "2008-05-13",
-                "def_id": "oval:com.oracle.elsa:def:20080194",
-                "title": "ELSA-2008-0194:  xen security and bug fix update (IMPORTANT)",
+                "date": "2008-08-22",
+                "def_id": "oval:com.oracle.elsa:def:20080855",
+                "title": "ELSA-2008-0855:  openssh security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-18",
+                "def_id": "oval:org.altlinux.errata:def:20243921",
+                "title": "ALT-PU-2024-3921: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20249513",
+                "title": "ALT-PU-2024-9513: package `openssh-gostcrypto` update to version 9.6p1-alt2.gost",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2024-03-19",
+                "def_id": "oval:org.altlinux.errata:def:20244077",
+                "title": "ALT-PU-2024-4077: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2024-03-28",
+                "def_id": "oval:org.altlinux.errata:def:20244467",
+                "title": "ALT-PU-2024-4467: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:org.altlinux.errata:def:20244182",
+                "title": "ALT-PU-2024-4182: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2008-05-14",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-4985": [
@@ -256,6 +439,15 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2007-5051": [
+            {
+                "date": "2008-04-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2007-5093": [
             {
                 "date": "2008-05-20",
@@ -325,6 +517,15 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2007-5745": [
+            {
+                "date": "2008-04-17",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2007-6282": [
             {
                 "date": "2008-05-20",
@@ -339,6 +540,13 @@
                 "title": "ELSA-2008-0275:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-08-21",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2007-6712": [
@@ -355,6 +563,13 @@
                 "title": "ELSA-2008-0275:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-05-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-0007": [
@@ -371,6 +586,135 @@
                 "title": "ELSA-2008-0233:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2008-0165": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:294469167886633222887433160202174984001",
+                "title": "CVE-2008-0165 ikiwiki",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:294469167886633222887433160202174984001",
+                "title": "CVE-2008-0165 ikiwiki",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:294469167886633222887433160202174984001",
+                "title": "CVE-2008-0165 ikiwiki",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-04-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-0167": [
+            {
+                "date": "2008-05-14",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-0314": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142584549614805671330170616014411416184",
+                "title": "CVE-2008-0314 clamav",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142584549614805671330170616014411416184",
+                "title": "CVE-2008-0314 clamav",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142584549614805671330170616014411416184",
+                "title": "CVE-2008-0314 clamav",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-04-17",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-0554": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:117003700234651803355294766588844149040",
+                "title": "CVE-2008-0554 netpbm-free",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:117003700234651803355294766588844149040",
+                "title": "CVE-2008-0554 netpbm-free",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:117003700234651803355294766588844149040",
+                "title": "CVE-2008-0554 netpbm-free",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-05-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-0783": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:1444096282381270731554451021872472673",
+                "title": "CVE-2008-0783 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:1444096282381270731554451021872472673",
+                "title": "CVE-2008-0783 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:1444096282381270731554451021872472673",
+                "title": "CVE-2008-0783 cacti",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-05-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-0928": [
@@ -408,6 +752,13 @@
                 "title": "ELSA-2008-0194:  xen security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2009-05-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-1096": [
@@ -526,6 +877,96 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2008-1102": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:695158619268560116347272985020240686",
+                "title": "CVE-2008-1102 blender",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:695158619268560116347272985020240686",
+                "title": "CVE-2008-1102 blender",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:695158619268560116347272985020240686",
+                "title": "CVE-2008-1102 blender",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-05-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-1149": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:11728828152128024365097575938518660819",
+                "title": "CVE-2008-1149 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:11728828152128024365097575938518660819",
+                "title": "CVE-2008-1149 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:11728828152128024365097575938518660819",
+                "title": "CVE-2008-1149 phpmyadmin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-04-24",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-1293": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:238101414325441805515825623439747609335",
+                "title": "CVE-2008-1293 ltsp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:238101414325441805515825623439747609335",
+                "title": "CVE-2008-1293 ltsp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:238101414325441805515825623439747609335",
+                "title": "CVE-2008-1293 ltsp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-04-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2008-1367": [
             {
                 "date": "2024-05-15",
@@ -577,6 +1018,13 @@
                 "title": "ELSA-2008-0233:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-05-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-1380": [
@@ -593,6 +1041,13 @@
                 "title": "ELSA-2008-0222:  firefox security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-04-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-1419": [
@@ -651,6 +1106,13 @@
                 "title": "ELSA-2008-0270:  libvorbis security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-06-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-1420": [
@@ -748,6 +1210,54 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2008-1474": [
+            {
+                "date": "2008-04-22",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-1558": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:239798559060823197176582560514176811981",
+                "title": "CVE-2008-1558 mplayer",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:239798559060823197176582560514176811981",
+                "title": "CVE-2008-1558 mplayer",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:239798559060823197176582560514176811981",
+                "title": "CVE-2008-1558 mplayer",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-04-19",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-1614": [
+            {
+                "date": "2008-04-17",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2008-1615": [
             {
                 "date": "2008-05-20",
@@ -794,6 +1304,13 @@
                 "title": "ELSA-2008-0233:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-05-12",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-1693": [
@@ -852,6 +1369,13 @@
                 "title": "ELSA-2008-0239:  poppler security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-04-17",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-1767": [
@@ -889,6 +1413,117 @@
                 "title": "ELSA-2008-0287:  libxslt security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-05-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-1801": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:259238902320351072796223941709404931416",
+                "title": "CVE-2008-1801 rdesktop",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:259238902320351072796223941709404931416",
+                "title": "CVE-2008-1801 rdesktop",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:259238902320351072796223941709404931416",
+                "title": "CVE-2008-1801 rdesktop",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-07-24",
+                "def_id": "oval:com.oracle.elsa:def:20080575",
+                "title": "ELSA-2008-0575:  rdesktop security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2008.xml.bz2"
+            },
+            {
+                "date": "2008-07-24",
+                "def_id": "oval:com.oracle.elsa:def:20080575",
+                "title": "ELSA-2008-0575:  rdesktop security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-05-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-1897": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:37073775860203414997040753171074852053",
+                "title": "CVE-2008-1897 asterisk",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2008-04-30",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-1927": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:64959185032835095659165423149501474163",
+                "title": "CVE-2008-1927 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:64959185032835095659165423149501474163",
+                "title": "CVE-2008-1927 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:64959185032835095659165423149501474163",
+                "title": "CVE-2008-1927 perl",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-06-11",
+                "def_id": "oval:com.oracle.elsa:def:20080522",
+                "title": "ELSA-2008-0522:  perl security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2008.xml.bz2"
+            },
+            {
+                "date": "2008-06-11",
+                "def_id": "oval:com.oracle.elsa:def:20080522",
+                "title": "ELSA-2008-0522:  perl security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-04-24",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-1943": [
@@ -937,6 +1572,13 @@
                 "title": "ELSA-2008-0489:  gnutls security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-05-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-1949": [
@@ -969,6 +1611,15 @@
                 "title": "ELSA-2008-0489:  gnutls security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2008-1974": [
+            {
+                "date": "2008-04-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2008-2004": [
@@ -1006,6 +1657,54 @@
                 "title": "ELSA-2008-0194:  xen security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2008-2040": [
+            {
+                "date": "2008-05-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-2064": [
+            {
+                "date": "2008-05-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-2146": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128325721015078218372460704896005895775",
+                "title": "CVE-2008-2146 wordpress",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128325721015078218372460704896005895775",
+                "title": "CVE-2008-2146 wordpress",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128325721015078218372460704896005895775",
+                "title": "CVE-2008-2146 wordpress",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-05-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ]
     },

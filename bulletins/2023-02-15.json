@@ -489,7 +489,7 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2023-02-01",
+                "date": "2023-01-31",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -1506,7 +1506,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
-                "date": "2023-01-29",
+                "date": "2023-01-28",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -3485,43 +3485,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2021-43113": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:89806687853843179732862486982486812352",
-                "title": "CVE-2021-43113 libitext5-java",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:89806687853843179732862486982486812352",
-                "title": "CVE-2021-43113 libitext5-java",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2023-01-19",
-                "def_id": "oval:org.debian:def:293099367352887879429064093738362728458",
-                "title": "DSA-5323-1 libitext5-java",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:89806687853843179732862486982486812352",
-                "title": "CVE-2021-43113 libitext5-java",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2023-01-19",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
         "CVE-2022-0436": [
             {
                 "date": "2024-05-15",
@@ -3766,6 +3729,20 @@
                 "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236420",
+                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236420",
+                "title": "RHSA-2023:6420: grafana security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -4787,7 +4764,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20232261",
                 "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -4823,6 +4828,13 @@
                 "title": "ALT-PU-2023-1185: package `bind` update to version 9.16.37-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2023-01-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-3143": [
@@ -5266,6 +5278,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20236535",
                 "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
@@ -5273,7 +5299,28 @@
                 "def_id": "oval:com.redhat.rhsa:def:20236535",
                 "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-33124": [
@@ -6093,10 +6140,24 @@
             },
             {
                 "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
                 "def_id": "oval:com.redhat.rhsa:def:20232458",
                 "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -6121,10 +6182,24 @@
             },
             {
                 "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
                 "def_id": "oval:com.redhat.rhsa:def:20232458",
                 "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -6323,6 +6398,13 @@
                 "title": "ALT-PU-2023-5229: package `redis` update to version 6.2.13-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2024-11-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-36760": [
@@ -6704,7 +6786,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230340",
                 "title": "RHSA-2023:0340: bash security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-23",
+                "def_id": "oval:com.redhat.rhsa:def:20230340",
+                "title": "RHSA-2023:0340: bash security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-23",
+                "def_id": "oval:com.redhat.rhsa:def:20230340",
+                "title": "RHSA-2023:0340: bash security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-23",
+                "def_id": "oval:com.redhat.rhsa:def:20230340",
+                "title": "RHSA-2023:0340: bash security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-23",
+                "def_id": "oval:com.redhat.rhsa:def:20230340",
+                "title": "RHSA-2023:0340: bash security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-23",
+                "def_id": "oval:com.redhat.rhsa:def:20230340",
+                "title": "RHSA-2023:0340: bash security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-23",
+                "def_id": "oval:com.redhat.rhsa:def:20230340",
+                "title": "RHSA-2023:0340: bash security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-23",
+                "def_id": "oval:com.redhat.rhsa:def:20230340",
+                "title": "RHSA-2023:0340: bash security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-01-23",
@@ -6939,7 +7070,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20232261",
                 "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -7554,7 +7713,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20232261",
                 "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232261",
+                "title": "RHSA-2023:2261: bind security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -7825,7 +8012,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20236434",
                 "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -7911,7 +8147,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20236434",
                 "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -9583,7 +9868,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2023-10-20",
+                "date": "2023-08-18",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -9820,7 +10105,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20232256",
                 "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -10872,6 +11185,20 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2023-02-28",
                 "def_id": "oval:com.redhat.rhsa:def:20230946",
                 "title": "RHSA-2023:0946: openssl security and bug fix update (Important)",
@@ -10884,6 +11211,20 @@
                 "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-28",
@@ -12797,7 +13138,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20236434",
                 "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236434",
+                "title": "RHSA-2023:6434: frr security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -12928,7 +13318,7 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
-                "date": "2023-03-11",
+                "date": "2023-02-13",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -13681,6 +14071,20 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2023-02-28",
                 "def_id": "oval:com.redhat.rhsa:def:20230946",
                 "title": "RHSA-2023:0946: openssl security and bug fix update (Important)",
@@ -13693,6 +14097,20 @@
                 "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-28",
@@ -14471,7 +14889,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20232340",
                 "title": "RHSA-2023:2340: libtiff security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232340",
+                "title": "RHSA-2023:2340: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232340",
+                "title": "RHSA-2023:2340: libtiff security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232340",
+                "title": "RHSA-2023:2340: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232340",
+                "title": "RHSA-2023:2340: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -14678,7 +15124,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20233725",
                 "title": "RHSA-2023:3725: less security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20233725",
+                "title": "RHSA-2023:3725: less security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20233725",
+                "title": "RHSA-2023:3725: less security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20233725",
+                "title": "RHSA-2023:3725: less security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20233725",
+                "title": "RHSA-2023:3725: less security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-06-21",
@@ -14806,7 +15280,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20236535",
                 "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -14913,7 +15415,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20236535",
                 "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236535",
+                "title": "RHSA-2023:6535: webkit2gtk3 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",
@@ -15088,7 +15618,7 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
-                "date": "2023-02-07",
+                "date": "2023-02-06",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -15432,6 +15962,13 @@
                 "title": "ALT-PU-2023-1213: package `libde265` update to version 1.0.11-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2023-03-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-47665": [
@@ -15627,7 +16164,7 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/openstack-17.oval.xml.bz2"
             },
             {
-                "date": "2023-01-25",
+                "date": "2023-01-24",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -16335,7 +16872,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20233711",
                 "title": "RHSA-2023:3711: libtiff security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20233711",
+                "title": "RHSA-2023:3711: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20233711",
+                "title": "RHSA-2023:3711: libtiff security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20233711",
+                "title": "RHSA-2023:3711: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20233711",
+                "title": "RHSA-2023:3711: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-06-21",
@@ -17743,7 +18308,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-02-19",
+                "date": "2023-02-18",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -17982,6 +18547,20 @@
                 "def_id": "oval:com.redhat.rhsa:def:20231696",
                 "title": "RHSA-2023:1696: haproxy security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -17989,7 +18568,49 @@
                 "def_id": "oval:com.redhat.rhsa:def:20231696",
                 "title": "RHSA-2023:1696: haproxy security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-14",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-0179": [
@@ -19368,6 +19989,20 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2023-02-28",
                 "def_id": "oval:com.redhat.rhsa:def:20230946",
                 "title": "RHSA-2023:0946: openssl security and bug fix update (Important)",
@@ -19380,6 +20015,20 @@
                 "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-28",
@@ -20865,6 +21514,20 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2023-02-28",
                 "def_id": "oval:com.redhat.rhsa:def:20230946",
                 "title": "RHSA-2023:0946: openssl security and bug fix update (Important)",
@@ -20884,6 +21547,20 @@
                 "title": "RHSA-2025:7937: compat-openssl11 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232165",
+                "title": "RHSA-2023:2165: edk2 security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-28",
@@ -21343,6 +22020,13 @@
                 "title": "USN-7168-1 -- EditorConfig vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-30",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-0361": [
@@ -21568,7 +22252,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20231141",
                 "title": "RHSA-2023:1141: gnutls security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-07",
+                "def_id": "oval:com.redhat.rhsa:def:20231141",
+                "title": "RHSA-2023:1141: gnutls security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-07",
+                "def_id": "oval:com.redhat.rhsa:def:20231141",
+                "title": "RHSA-2023:1141: gnutls security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-07",
+                "def_id": "oval:com.redhat.rhsa:def:20231141",
+                "title": "RHSA-2023:1141: gnutls security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-07",
+                "def_id": "oval:com.redhat.rhsa:def:20231141",
+                "title": "RHSA-2023:1141: gnutls security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-07",
+                "def_id": "oval:com.redhat.rhsa:def:20231141",
+                "title": "RHSA-2023:1141: gnutls security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-07",
+                "def_id": "oval:com.redhat.rhsa:def:20231141",
+                "title": "RHSA-2023:1141: gnutls security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-07",
+                "def_id": "oval:com.redhat.rhsa:def:20231141",
+                "title": "RHSA-2023:1141: gnutls security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-03-07",
@@ -21620,7 +22353,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-02-18",
+                "date": "2023-02-14",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -22343,7 +23076,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-06-05",
+                "date": "2023-05-13",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -23207,10 +23940,24 @@
             },
             {
                 "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
                 "def_id": "oval:com.redhat.rhsa:def:20232458",
                 "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -23235,10 +23982,24 @@
             },
             {
                 "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
                 "def_id": "oval:com.redhat.rhsa:def:20232458",
                 "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -24306,7 +25067,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230608",
                 "title": "RHSA-2023:0608: thunderbird security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "oval:com.redhat.rhsa:def:20230608",
+                "title": "RHSA-2023:0608: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "oval:com.redhat.rhsa:def:20230608",
+                "title": "RHSA-2023:0608: thunderbird security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "oval:com.redhat.rhsa:def:20230608",
+                "title": "RHSA-2023:0608: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "oval:com.redhat.rhsa:def:20230608",
+                "title": "RHSA-2023:0608: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "oval:com.redhat.rhsa:def:20230608",
+                "title": "RHSA-2023:0608: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "oval:com.redhat.rhsa:def:20230608",
+                "title": "RHSA-2023:0608: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-06",
+                "def_id": "oval:com.redhat.rhsa:def:20230608",
+                "title": "RHSA-2023:0608: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-06",
@@ -25202,6 +26012,13 @@
                 "title": "ALT-PU-2023-1671: package `yandex-browser-stable` update to version 23.3.1.929-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2023-01-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-0472": [
@@ -26248,6 +27065,34 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232248",
+                "title": "RHSA-2023:2248: xorg-x11-server security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232249",
+                "title": "RHSA-2023:2249: xorg-x11-server-Xwayland security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232248",
+                "title": "RHSA-2023:2248: xorg-x11-server security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232249",
+                "title": "RHSA-2023:2249: xorg-x11-server-Xwayland security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2023-02-07",
                 "def_id": "oval:com.redhat.rhsa:def:20230622",
                 "title": "RHSA-2023:0622: tigervnc security update (Important)",
@@ -26896,7 +27741,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-02-27",
+                "date": "2023-02-24",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -27409,6 +28254,13 @@
                 "title": "ALT-PU-2023-1180: package `libjxl` update to version 0.8.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-07-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-0662": [
@@ -27968,6 +28820,13 @@
                 "title": "ALT-PU-2023-1671: package `yandex-browser-stable` update to version 23.3.1.929-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2023-02-08",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-0697": [
@@ -29912,7 +30771,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20231368",
                 "title": "RHSA-2023:1368: nss security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
+                "def_id": "oval:com.redhat.rhsa:def:20231368",
+                "title": "RHSA-2023:1368: nss security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
+                "def_id": "oval:com.redhat.rhsa:def:20231368",
+                "title": "RHSA-2023:1368: nss security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
+                "def_id": "oval:com.redhat.rhsa:def:20231368",
+                "title": "RHSA-2023:1368: nss security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
+                "def_id": "oval:com.redhat.rhsa:def:20231368",
+                "title": "RHSA-2023:1368: nss security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
+                "def_id": "oval:com.redhat.rhsa:def:20231368",
+                "title": "RHSA-2023:1368: nss security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
+                "def_id": "oval:com.redhat.rhsa:def:20231368",
+                "title": "RHSA-2023:1368: nss security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
+                "def_id": "oval:com.redhat.rhsa:def:20231368",
+                "title": "RHSA-2023:1368: nss security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-03-21",
@@ -30083,7 +30991,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-02-16",
+                "date": "2023-02-15",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -36626,7 +37534,7 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
-                "date": "2023-01-30",
+                "date": "2023-01-29",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -36900,7 +37808,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20232256",
                 "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -37147,7 +38083,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20232256",
                 "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232256",
+                "title": "RHSA-2023:2256: webkit2gtk3 security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -37622,7 +38586,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20231701",
                 "title": "RHSA-2023:1701: curl security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231701",
+                "title": "RHSA-2023:1701: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231701",
+                "title": "RHSA-2023:1701: curl security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231701",
+                "title": "RHSA-2023:1701: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231701",
+                "title": "RHSA-2023:1701: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231701",
+                "title": "RHSA-2023:1701: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231701",
+                "title": "RHSA-2023:1701: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231701",
+                "title": "RHSA-2023:1701: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-04-11",
@@ -37935,7 +38948,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-02-22",
+                "date": "2023-02-21",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -38357,6 +39370,13 @@
                 "title": "ALT-PU-2023-1553: package `python3-module-django` update to version 3.2.18-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2023-02-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-24021": [
@@ -38666,6 +39686,13 @@
                 "title": "USN-7318-1 -- SPIP vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.oracular.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-24",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-24580": [
@@ -38761,7 +39788,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-02-21",
+                "date": "2023-02-20",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -40017,7 +41044,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20231696",
                 "title": "RHSA-2023:1696: haproxy security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-11",
+                "def_id": "oval:com.redhat.rhsa:def:20231696",
+                "title": "RHSA-2023:1696: haproxy security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-04-11",
@@ -40712,6 +41788,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -40720,6 +41824,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",
@@ -41519,6 +42693,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -41527,6 +42729,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",
@@ -42326,6 +43598,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -42334,6 +43634,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",
@@ -43133,6 +44503,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -43141,6 +44539,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",
@@ -43954,6 +45422,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -43962,6 +45458,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",
@@ -44761,6 +46327,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -44769,6 +46363,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",
@@ -45582,6 +47246,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -45590,6 +47282,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",
@@ -46417,6 +48179,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -46425,6 +48215,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",
@@ -47182,6 +49042,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20230810",
                 "title": "RHSA-2023:0810: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -47190,6 +49078,76 @@
                 "title": "RHSA-2023:0824: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230810",
+                "title": "RHSA-2023:0810: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20230824",
+                "title": "RHSA-2023:0824: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-02-20",

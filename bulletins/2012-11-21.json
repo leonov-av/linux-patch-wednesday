@@ -8,6 +8,15 @@
     "patch_wednesday_start_date_ts": 1350504000,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2009-5024": [
+            {
+                "date": "2012-10-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2011-2486": [
             {
                 "date": "2012-11-13",
@@ -118,120 +127,6 @@
                 "date": "2012-11-13",
                 "def_id": "oval:com.redhat.rhsa:def:20121459",
                 "title": "RHSA-2012:1459: nspluginwrapper security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2012-0540": [
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.oracle.elsa:def:20121462",
-                "title": "ELSA-2012-1462:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.oracle.elsa:def:20121462",
-                "title": "ELSA-2012-1462:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.oracle.elsa:def:20121462",
-                "title": "ELSA-2012-1462:  mysql security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-11-14",
-                "def_id": "oval:com.redhat.rhsa:def:20121462",
-                "title": "RHSA-2012:1462: mysql security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
@@ -3267,6 +3162,13 @@
                 "title": "RHSA-2012:1462: mysql security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-3158": [
@@ -4873,6 +4775,36 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2012-3505": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:176776135824601913478463936866760751177",
+                "title": "CVE-2012-3505 tinyproxy",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:176776135824601913478463936866760751177",
+                "title": "CVE-2012-3505 tinyproxy",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:176776135824601913478463936866760751177",
+                "title": "CVE-2012-3505 tinyproxy",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-10-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-3511": [
             {
                 "date": "2024-05-15",
@@ -5987,6 +5919,13 @@
                 "title": "RHSA-2012:1483: thunderbird security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-08",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-4202": [
@@ -7459,6 +7398,36 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2012-4233": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:34595332667944221758620958610902532665",
+                "title": "CVE-2012-4233 libreoffice",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:34595332667944221758620958610902532665",
+                "title": "CVE-2012-4233 libreoffice",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:34595332667944221758620958610902532665",
+                "title": "CVE-2012-4233 libreoffice",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-10-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-4433": [
             {
                 "date": "2024-05-15",
@@ -7636,6 +7605,148 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
+        "CVE-2012-4447": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:251817136694676895435380013772562434427",
+                "title": "CVE-2012-4447 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:251817136694676895435380013772562434427",
+                "title": "CVE-2012-4447 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:251817136694676895435380013772562434427",
+                "title": "CVE-2012-4447 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.oracle.elsa:def:20121590",
+                "title": "ELSA-2012-1590:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.oracle.elsa:def:20121590",
+                "title": "ELSA-2012-1590:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.oracle.elsa:def:20121590",
+                "title": "ELSA-2012-1590:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-10-21",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-4505": [
             {
                 "date": "2024-05-15",
@@ -7769,6 +7880,43 @@
                 "title": "RHSA-2012:1461: libproxy security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-11-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-4510": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:85480466774979632756493535311492913656",
+                "title": "CVE-2012-4510 cups-pk-helper",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:85480466774979632756493535311492913656",
+                "title": "CVE-2012-4510 cups-pk-helper",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:85480466774979632756493535311492913656",
+                "title": "CVE-2012-4510 cups-pk-helper",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-10-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-4512": [
@@ -8041,6 +8189,36 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2012-4523": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:307808892204047463145965628084178750446",
+                "title": "CVE-2012-4523 radsecproxy",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:307808892204047463145965628084178750446",
+                "title": "CVE-2012-4523 radsecproxy",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:307808892204047463145965628084178750446",
+                "title": "CVE-2012-4523 radsecproxy",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-11-10",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-4540": [
             {
                 "date": "2024-05-15",
@@ -8188,6 +8366,243 @@
                 "title": "RHSA-2012:1434: icedtea-web security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2013-10-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-4564": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:316861984456232035019584727217003567392",
+                "title": "CVE-2012-4564 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:316861984456232035019584727217003567392",
+                "title": "CVE-2012-4564 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:316861984456232035019584727217003567392",
+                "title": "CVE-2012-4564 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.oracle.elsa:def:20121590",
+                "title": "ELSA-2012-1590:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.oracle.elsa:def:20121590",
+                "title": "ELSA-2012-1590:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.oracle.elsa:def:20121590",
+                "title": "ELSA-2012-1590:  libtiff security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2012-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:20121590",
+                "title": "RHSA-2012:1590: libtiff security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2019-04-10",
+                "def_id": "oval:org.altlinux.errata:def:20191628",
+                "title": "ALT-PU-2019-1628: package `libtiff` update to version 4.0.10.0.57.f9fc01c3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2019-04-10",
+                "def_id": "oval:org.altlinux.errata:def:20191628",
+                "title": "ALT-PU-2019-1628: package `libtiff` update to version 4.0.10.0.57.f9fc01c3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2019-04-10",
+                "def_id": "oval:org.altlinux.errata:def:20191628",
+                "title": "ALT-PU-2019-1628: package `libtiff` update to version 4.0.10.0.57.f9fc01c3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2019-04-10",
+                "def_id": "oval:org.altlinux.errata:def:20191628",
+                "title": "ALT-PU-2019-1628: package `libtiff` update to version 4.0.10.0.57.f9fc01c3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2019-04-10",
+                "def_id": "oval:org.altlinux.errata:def:20191628",
+                "title": "ALT-PU-2019-1628: package `libtiff` update to version 4.0.10.0.57.f9fc01c3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2019-04-10",
+                "def_id": "oval:org.altlinux.errata:def:20191628",
+                "title": "ALT-PU-2019-1628: package `libtiff` update to version 4.0.10.0.57.f9fc01c3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2012-11-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-4730": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:40941109338495887395255688905300903292",
+                "title": "CVE-2012-4730 request-tracker4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:40941109338495887395255688905300903292",
+                "title": "CVE-2012-4730 request-tracker4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2012-10-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-4731": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:131312004489716779510770831594580438641",
+                "title": "CVE-2012-4731 request-tracker4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:131312004489716779510770831594580438641",
+                "title": "CVE-2012-4731 request-tracker4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2012-10-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-4820": [
@@ -10309,6 +10724,78 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2012-5671": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128835203007710587834484503938028172709",
+                "title": "CVE-2012-5671 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128835203007710587834484503938028172709",
+                "title": "CVE-2012-5671 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:128835203007710587834484503938028172709",
+                "title": "CVE-2012-5671 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2014-05-24",
+                "def_id": "oval:org.altlinux.errata:def:20141684",
+                "title": "ALT-PU-2014-1684: package `exim` update to version 4.82-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2014-05-24",
+                "def_id": "oval:org.altlinux.errata:def:20141684",
+                "title": "ALT-PU-2014-1684: package `exim` update to version 4.82-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2014-05-24",
+                "def_id": "oval:org.altlinux.errata:def:20141684",
+                "title": "ALT-PU-2014-1684: package `exim` update to version 4.82-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2014-05-24",
+                "def_id": "oval:org.altlinux.errata:def:20141684",
+                "title": "ALT-PU-2014-1684: package `exim` update to version 4.82-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2014-05-24",
+                "def_id": "oval:org.altlinux.errata:def:20141684",
+                "title": "ALT-PU-2014-1684: package `exim` update to version 4.82-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2014-05-24",
+                "def_id": "oval:org.altlinux.errata:def:20141684",
+                "title": "ALT-PU-2014-1684: package `exim` update to version 4.82-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2012-10-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-5829": [
             {
                 "date": "2012-11-20",
@@ -12115,6 +12602,15 @@
                 "title": "RHSA-2012:1483: thunderbird security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2012-6144": [
+            {
+                "date": "2012-11-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-1475": [

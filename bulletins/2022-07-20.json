@@ -3286,7 +3286,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-07-14",
+                "date": "2023-07-13",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -3681,6 +3681,13 @@
                 "title": "ALT-PU-2022-2246: package `python3-module-httpx` update to version 0.23.0-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-08-22",
+                "def_id": "oval:org.altlinux.errata:def:202510589",
+                "title": "ALT-PU-2025-10589: package `python3-module-httpx` update to version 0.18.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2021-4209": [
@@ -3804,7 +3811,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2022-08-12",
+                "date": "2022-08-11",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -5917,7 +5924,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2022-09-15",
+                "date": "2022-09-06",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -8576,6 +8583,13 @@
                 "title": "ALT-PU-2022-2184: package `openssl1.1` update to version 1.1.1q-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2022-06-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-2084": [
@@ -9352,7 +9366,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-02-20",
+                "date": "2023-02-07",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -10940,10 +10954,24 @@
             },
             {
                 "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
                 "def_id": "oval:com.redhat.rhsa:def:20232458",
                 "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -10968,10 +10996,24 @@
             },
             {
                 "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
                 "def_id": "oval:com.redhat.rhsa:def:20232458",
                 "title": "RHSA-2023:2458: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-05-09",
+                "def_id": "oval:com.redhat.rhsa:def:20232148",
+                "title": "RHSA-2023:2148: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-05-09",
@@ -12205,6 +12247,48 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225695",
                 "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
@@ -12220,6 +12304,48 @@
                 "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-25",
@@ -12346,6 +12472,13 @@
                 "title": "ALT-PU-2022-7668: package `java-1.8.0-openjdk` update to version 1.8.0.342.b07-alt0_0.1.eajpp8",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2022-07-22",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-21541": [
@@ -13551,6 +13684,48 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225695",
                 "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
@@ -13566,6 +13741,48 @@
                 "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-25",
@@ -14032,6 +14249,13 @@
                 "title": "ALT-PU-2023-1462: package `chromium-gost` update to version 110.0.5481.177-alt1.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2022-06-22",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-2157": [
@@ -15049,6 +15273,13 @@
                 "title": "ALT-PU-2023-1462: package `chromium-gost` update to version 110.0.5481.177-alt1.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2022-07-22",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-2164": [
@@ -16425,6 +16656,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -16433,6 +16692,76 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -16582,7 +16911,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2022-07-01",
+                "date": "2022-06-29",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -17576,7 +17905,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225482",
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -17875,6 +18253,13 @@
                 "title": "RHSA-2025:10364: webkitgtk4 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-2294": [
@@ -18045,6 +18430,13 @@
                 "title": "ALT-PU-2023-1462: package `chromium-gost` update to version 110.0.5481.177-alt1.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2022-07-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-2295": [
@@ -19803,6 +20195,13 @@
                 "title": "CVE-2022-24851 ldap-account-manager",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2022-07-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-25802": [
@@ -19938,6 +20337,13 @@
                 "title": "USN-7692-1 -- Request Tracker vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.plucky.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-13",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-26362": [
@@ -20647,7 +21053,35 @@
                 "def_id": "oval:com.redhat.rhsa:def:20228054",
                 "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228054",
+                "title": "RHSA-2022:8054: webkit2gtk3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -22900,6 +23334,13 @@
                 "title": "USN-6458-1 -- Slurm vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2022-06-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-29501": [
@@ -25736,7 +26177,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20228208",
                 "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228208",
+                "title": "RHSA-2022:8208: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -26678,7 +27168,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2022-06-29",
+                "date": "2022-06-22",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -27602,7 +28092,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226157",
                 "title": "RHSA-2022:6157: curl security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-08-24",
@@ -27793,7 +28332,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226157",
                 "title": "RHSA-2022:6157: curl security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-08-24",
@@ -28096,7 +28684,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226157",
                 "title": "RHSA-2022:6157: curl security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-08-24",
+                "def_id": "oval:com.redhat.rhsa:def:20226157",
+                "title": "RHSA-2022:6157: curl security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-08-24",
@@ -29813,6 +30450,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
             },
             {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228384",
+                "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2022-10-20",
                 "def_id": "oval:com.redhat.rhsa:def:20226999",
                 "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
@@ -29823,6 +30467,13 @@
                 "date": "2022-10-20",
                 "def_id": "oval:com.redhat.rhsa:def:20227013",
                 "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228384",
+                "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
             },
@@ -29852,6 +30503,48 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226999",
                 "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228384",
+                "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228384",
+                "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
@@ -29860,6 +30553,55 @@
                 "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228384",
+                "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228384",
+                "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226999",
+                "title": "RHSA-2022:6999: java-17-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-10-20",
+                "def_id": "oval:com.redhat.rhsa:def:20227013",
+                "title": "RHSA-2022:7013: java-11-openjdk security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20228384",
+                "title": "RHSA-2022:8384: harfbuzz security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-10-20",
@@ -31386,6 +32128,48 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225695",
                 "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
@@ -31401,6 +32185,48 @@
                 "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225695",
+                "title": "RHSA-2022:5695: java-11-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-25",
+                "def_id": "oval:com.redhat.rhsa:def:20225709",
+                "title": "RHSA-2022:5709: java-1.8.0-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-27",
+                "def_id": "oval:com.redhat.rhsa:def:20225736",
+                "title": "RHSA-2022:5736: java-17-openjdk security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-25",
@@ -32498,6 +33324,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -32506,6 +33360,76 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -33489,6 +34413,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -33497,6 +34449,76 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -34543,6 +35565,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -34551,6 +35601,76 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -36181,6 +37301,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -36189,6 +37337,76 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -37298,6 +38516,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -37306,6 +38552,76 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -38466,6 +39782,34 @@
                 "def_id": "oval:com.redhat.rhsa:def:20225481",
                 "title": "RHSA-2022:5481: firefox security update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
@@ -38474,6 +39818,76 @@
                 "title": "RHSA-2022:5482: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225481",
+                "title": "RHSA-2022:5481: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-07-01",
+                "def_id": "oval:com.redhat.rhsa:def:20225482",
+                "title": "RHSA-2022:5482: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-07-01",
@@ -39060,7 +40474,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226602",
                 "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226602",
+                "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226602",
+                "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226602",
+                "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226602",
+                "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226602",
+                "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226602",
+                "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226602",
+                "title": "RHSA-2022:6602: gnupg2 security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-09-20",
@@ -39096,6 +40559,13 @@
                 "title": "ALT-PU-2025-7346: package `gnupg2` update to version 2.2.36-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2022-07-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-34918": [
@@ -39675,6 +41145,13 @@
             },
             {
                 "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226592",
+                "title": "RHSA-2022:6592: kpatch-patch security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
                 "def_id": "oval:com.redhat.rhsa:def:20226610",
                 "title": "RHSA-2022:6610: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
@@ -39684,6 +41161,13 @@
                 "date": "2022-09-20",
                 "def_id": "oval:com.redhat.rhsa:def:20226582",
                 "title": "RHSA-2022:6582: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226592",
+                "title": "RHSA-2022:6592: kpatch-patch security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
             },
@@ -39720,6 +41204,55 @@
                 "def_id": "oval:com.redhat.rhsa:def:20226582",
                 "title": "RHSA-2022:6582: kernel-rt security and bug fix update (Important)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226592",
+                "title": "RHSA-2022:6592: kpatch-patch security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226610",
+                "title": "RHSA-2022:6610: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226582",
+                "title": "RHSA-2022:6582: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226592",
+                "title": "RHSA-2022:6592: kpatch-patch security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226610",
+                "title": "RHSA-2022:6610: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226582",
+                "title": "RHSA-2022:6582: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226592",
+                "title": "RHSA-2022:6592: kpatch-patch security update (Important)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
@@ -39728,6 +41261,48 @@
                 "title": "RHSA-2022:6610: kernel security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226582",
+                "title": "RHSA-2022:6582: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226592",
+                "title": "RHSA-2022:6592: kpatch-patch security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226610",
+                "title": "RHSA-2022:6610: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226582",
+                "title": "RHSA-2022:6582: kernel-rt security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226592",
+                "title": "RHSA-2022:6592: kpatch-patch security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-09-20",
+                "def_id": "oval:com.redhat.rhsa:def:20226610",
+                "title": "RHSA-2022:6610: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2022-09-20",
@@ -39970,6 +41545,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
+                "date": "2025-08-21",
+                "def_id": "oval:org.altlinux.errata:def:202510462",
+                "title": "ALT-PU-2025-10462: package `mbedtls` update to version 2.28.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
                 "date": "2022-09-05",
                 "def_id": "oval:org.altlinux.errata:def:20222561",
                 "title": "ALT-PU-2022-2561: package `mbedtls` update to version 3.2.1-alt1",
@@ -40033,6 +41615,13 @@
                 "title": "CVE-2022-35410 mat2",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2022-07-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2022-35507": [
@@ -40548,7 +42137,56 @@
                 "def_id": "oval:com.redhat.rhsa:def:20236621",
                 "title": "RHSA-2023:6621: protobuf-c security update (Moderate)",
                 "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236621",
+                "title": "RHSA-2023:6621: protobuf-c security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236621",
+                "title": "RHSA-2023:6621: protobuf-c security update (Moderate)",
+                "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236621",
+                "title": "RHSA-2023:6621: protobuf-c security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236621",
+                "title": "RHSA-2023:6621: protobuf-c security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236621",
+                "title": "RHSA-2023:6621: protobuf-c security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236621",
+                "title": "RHSA-2023:6621: protobuf-c security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236621",
+                "title": "RHSA-2023:6621: protobuf-c security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
                 "date": "2023-11-07",

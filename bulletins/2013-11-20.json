@@ -320,6 +320,36 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
+        "CVE-2011-5036": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:106480153483462685672098245843310244277",
+                "title": "CVE-2011-5036 ruby-rack",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:106480153483462685672098245843310244277",
+                "title": "CVE-2011-5036 ruby-rack",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:106480153483462685672098245843310244277",
+                "title": "CVE-2011-5036 ruby-rack",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2013-10-21",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-0786": [
             {
                 "date": "2024-05-15",
@@ -1198,6 +1228,15 @@
                 "title": "RHSA-2013:1500: gc security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2012-2750": [
+            {
+                "date": "2013-10-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-3825": [
@@ -3561,148 +3600,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2012-6085": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:272306857753578237567477582615364243996",
-                "title": "CVE-2012-6085 gnupg2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:272306857753578237567477582615364243996",
-                "title": "CVE-2012-6085 gnupg2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:272306857753578237567477582615364243996",
-                "title": "CVE-2012-6085 gnupg2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.oracle.elsa:def:20131459",
-                "title": "ELSA-2013-1459:  gnupg2 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.oracle.elsa:def:20131458",
-                "title": "ELSA-2013-1458:  gnupg security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.oracle.elsa:def:20131459",
-                "title": "ELSA-2013-1459:  gnupg2 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.oracle.elsa:def:20131458",
-                "title": "ELSA-2013-1458:  gnupg security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.oracle.elsa:def:20131459",
-                "title": "ELSA-2013-1459:  gnupg2 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-24",
-                "def_id": "oval:com.redhat.rhsa:def:20131459",
-                "title": "RHSA-2013:1459: gnupg2 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
         "CVE-2013-0221": [
             {
                 "date": "2013-11-25",
@@ -4104,113 +4001,6 @@
                 "date": "2013-11-20",
                 "def_id": "oval:com.redhat.rhsa:def:20131652",
                 "title": "RHSA-2013:1652: coreutils security, bug fix, and enhancement update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2013-0255": [
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.oracle.elsa:def:20131475",
-                "title": "ELSA-2013-1475:  postgresql and postgresql84 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.oracle.elsa:def:20131475",
-                "title": "ELSA-2013-1475:  postgresql and postgresql84 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.oracle.elsa:def:20131475",
-                "title": "ELSA-2013-1475:  postgresql and postgresql84 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-10-29",
-                "def_id": "oval:com.redhat.rhsa:def:20131475",
-                "title": "RHSA-2013:1475: postgresql and postgresql84 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
@@ -4707,6 +4497,13 @@
                 "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-04-24",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-0844": [
@@ -4786,6 +4583,13 @@
                 "title": "DSA-2793-1 libav",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2013-11-09",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-0850": [
@@ -5241,6 +5045,13 @@
                 "title": "DSA-2786-1 icu",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2013-10-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-1719": [
@@ -6407,6 +6218,13 @@
                 "title": "ALT-PU-2013-1030: package `nss` update to version 3.15.2-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-11-02",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-1813": [
@@ -6761,6 +6579,13 @@
                 "title": "RHBA-2013:1647: mysql bug fix update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2013-12-16",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-1881": [
@@ -7157,162 +6982,6 @@
                 "title": "ALT-PU-2013-1178: package `kernel-image-el-def` update to version 2.6.32-alt13",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            }
-        ],
-        "CVE-2013-1940": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:165332293260884510244691414218968807575",
-                "title": "CVE-2013-1940 xorg-server",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:165332293260884510244691414218968807575",
-                "title": "CVE-2013-1940 xorg-server",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:165332293260884510244691414218968807575",
-                "title": "CVE-2013-1940 xorg-server",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2013-11-26",
-                "def_id": "oval:com.oracle.elsa:def:20131620",
-                "title": "ELSA-2013-1620:  xorg-x11-server security and bug fix update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
-            },
-            {
-                "date": "2013-11-26",
-                "def_id": "oval:com.oracle.elsa:def:20131620",
-                "title": "ELSA-2013-1620:  xorg-x11-server security and bug fix update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2013-11-26",
-                "def_id": "oval:com.oracle.elsa:def:20131620",
-                "title": "ELSA-2013-1620:  xorg-x11-server security and bug fix update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2013-11-20",
-                "def_id": "oval:com.redhat.rhsa:def:20131620",
-                "title": "RHSA-2013:1620: xorg-x11-server security and bug fix update (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
         "CVE-2013-2111": [
@@ -9146,6 +8815,13 @@
                 "title": "ALT-PU-2013-1102: package `chromium` update to version 30.0.1599.114-alt1.r229842",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-10-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-2907": [
@@ -13642,6 +13318,13 @@
                 "title": "ALT-PU-2013-1119: package `chromium` update to version 31.0.1650.57-alt1.r235101",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-11-16",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-3561": [
@@ -15629,7 +15312,7 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             },
             {
-                "date": "2014-08-01",
+                "date": "2014-03-17",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -16307,6 +15990,13 @@
                 "title": "ALT-PU-2013-1219: package `qemu` update to version 1.7.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-05-19",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-4345": [
@@ -18647,6 +18337,13 @@
                 "title": "DSA-2796-1 torque",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2013-11-13",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-4508": [
@@ -18740,6 +18437,13 @@
                 "title": "ALT-PU-2014-1074: package `lighttpd` update to version 1.4.34-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-11-13",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-4510": [
@@ -18777,6 +18481,13 @@
                 "title": "DSA-2791-1 tryton-client",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2013-11-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-4511": [
@@ -19582,6 +19293,13 @@
                 "title": "ALT-PU-2013-1298: package `curl` update to version 7.34.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-11-17",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-4548": [
@@ -19726,6 +19444,13 @@
                 "title": "DSA-2794-1 spip",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2013-11-10",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-4556": [
@@ -20335,6 +20060,13 @@
                 "title": "DSA-2782-1 polarssl",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2013-10-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-4927": [
@@ -22415,6 +22147,13 @@
                 "title": "ALT-PU-2014-1201: package `seamonkey` update to version 2.23-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-10-31",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-5591": [
@@ -45444,6 +45183,13 @@
                 "title": "ALT-PU-2014-1255: package `strongswan` update to version 5.1.2-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-11-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-6172": [
@@ -45523,6 +45269,13 @@
                 "title": "ALT-PU-2016-1095: package `roundcube` update to version 1.1.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-10-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-6336": [
@@ -45714,6 +45467,13 @@
                 "title": "ALT-PU-2013-1068: package `wireshark` update to version 1.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-11-04",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-6337": [
@@ -46986,6 +46746,13 @@
                 "title": "ALT-PU-2013-1095: package `libpixman` update to version 0.32.2-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-12-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-6425": [
@@ -47156,6 +46923,13 @@
                 "title": "ALT-PU-2013-1095: package `libpixman` update to version 0.32.2-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2013-12-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-6621": [
@@ -49484,6 +49258,13 @@
                 "title": "ALT-PU-2014-1201: package `seamonkey` update to version 2.23-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-05-05",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-6630": [
@@ -51608,6 +51389,13 @@
                 "title": "ALT-PU-2014-2226: package `thunderbird` update to version 31.1.2-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-09-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2014-1567": [

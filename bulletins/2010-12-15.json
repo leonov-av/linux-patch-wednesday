@@ -194,22 +194,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2010-0397": [
-            {
-                "date": "2010-11-29",
-                "def_id": "oval:com.oracle.elsa:def:20100919",
-                "title": "ELSA-2010-0919:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
-            },
-            {
-                "date": "2010-11-29",
-                "def_id": "oval:com.oracle.elsa:def:20100919",
-                "title": "ELSA-2010-0919:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2010-1128": [
             {
                 "date": "2010-11-29",
@@ -394,6 +378,13 @@
                 "title": "RHSA-2010:0925: krb5 security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2010-12-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2010-1324": [
@@ -552,199 +543,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2010-1623": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:147696393539608836513028010543331823478",
-                "title": "CVE-2010-1623 apache2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:145377917834095506786070816112932886768",
-                "title": "CVE-2010-1623 apr-util",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:147696393539608836513028010543331823478",
-                "title": "CVE-2010-1623 apache2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:145377917834095506786070816112932886768",
-                "title": "CVE-2010-1623 apr-util",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:147696393539608836513028010543331823478",
-                "title": "CVE-2010-1623 apache2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:145377917834095506786070816112932886768",
-                "title": "CVE-2010-1623 apr-util",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2010-12-07",
-                "def_id": "oval:com.oracle.elsa:def:20100950",
-                "title": "ELSA-2010-0950:  apr-util security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
-            },
-            {
-                "date": "2010-12-07",
-                "def_id": "oval:com.oracle.elsa:def:20100950",
-                "title": "ELSA-2010-0950:  apr-util security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2010-12-07",
-                "def_id": "oval:com.oracle.elsa:def:20100950",
-                "title": "ELSA-2010-0950:  apr-util security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2010-12-08",
-                "def_id": "oval:com.redhat.rhsa:def:20100950",
-                "title": "RHSA-2010:0950: apr-util security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2010-1917": [
-            {
-                "date": "2010-11-29",
-                "def_id": "oval:com.oracle.elsa:def:20100919",
-                "title": "ELSA-2010-0919:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
-            },
-            {
-                "date": "2010-11-29",
-                "def_id": "oval:com.oracle.elsa:def:20100919",
-                "title": "ELSA-2010-0919:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2010-2531": [
             {
                 "date": "2010-11-29",
@@ -759,6 +557,13 @@
                 "title": "ELSA-2010-0919:  php security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-06-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2010-2949": [
@@ -894,6 +699,15 @@
                 "title": "RHSA-2010:0945: quagga security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2010-2963": [
+            {
+                "date": "2010-11-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2010-3065": [
@@ -1080,6 +894,13 @@
                 "title": "RHSA-2010:0924: wireshark security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2010-11-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2010-3555": [
@@ -2088,6 +1909,13 @@
                 "title": "RHSA-2010:0975: bind security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2010-12-10",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2010-3614": [
@@ -2565,6 +2393,13 @@
                 "title": "RHSA-2010:0966: firefox security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2010-12-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2010-3768": [
@@ -4465,6 +4300,295 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2010-4008": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:18207289183228773551004953475851874242",
+                "title": "CVE-2010-4008 libxml2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:18207289183228773551004953475851874242",
+                "title": "CVE-2010-4008 libxml2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:18207289183228773551004953475851874242",
+                "title": "CVE-2010-4008 libxml2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20111749",
+                "title": "ELSA-2011-1749:  libxml2 security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2012-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20120017",
+                "title": "ELSA-2012-0017:  libxml2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.oracle.elsa:def:20130217",
+                "title": "ELSA-2013-0217:  mingw32-libxml2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2012-01-11",
+                "def_id": "oval:com.oracle.elsa:def:20120017",
+                "title": "ELSA-2012-0017:  libxml2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20111749",
+                "title": "ELSA-2011-1749:  libxml2 security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.oracle.elsa:def:20130217",
+                "title": "ELSA-2013-0217:  mingw32-libxml2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-12-14",
+                "def_id": "oval:com.oracle.elsa:def:20111749",
+                "title": "ELSA-2011-1749:  libxml2 security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.oracle.elsa:def:20130217",
+                "title": "ELSA-2013-0217:  mingw32-libxml2 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-12-05",
+                "def_id": "oval:com.redhat.rhsa:def:20111749",
+                "title": "RHSA-2011:1749: libxml2 security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2013-01-31",
+                "def_id": "oval:com.redhat.rhsa:def:20130217",
+                "title": "RHSA-2013:0217: mingw32-libxml2 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2010-12-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2010-4020": [
             {
                 "date": "2024-05-15",
@@ -5061,6 +5185,36 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2010-4336": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:19489844784589283164037888075897570325",
+                "title": "CVE-2010-4336 collectd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:19489844784589283164037888075897570325",
+                "title": "CVE-2010-4336 collectd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:19489844784589283164037888075897570325",
+                "title": "CVE-2010-4336 collectd",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2010-12-13",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2010-4344": [
             {
                 "date": "2024-05-15",
@@ -5096,6 +5250,13 @@
                 "title": "ELSA-2010-0970:  exim security update (CRITICAL)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-12-10",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ]
     },

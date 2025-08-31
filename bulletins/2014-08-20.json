@@ -208,6 +208,13 @@
                 "title": "DSA-3003-1 libav",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2014-08-10",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-3935": [
@@ -403,251 +410,34 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             }
         ],
-        "CVE-2012-1571": [
+        "CVE-2012-2249": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:72481517594361321521108335989421755116",
-                "title": "CVE-2012-1571 file",
+                "def_id": "oval:org.debian:def:321383867376363262297139811580380015968",
+                "title": "CVE-2012-2249 tor",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:72481517594361321521108335989421755116",
-                "title": "CVE-2012-1571 file",
+                "def_id": "oval:org.debian:def:321383867376363262297139811580380015968",
+                "title": "CVE-2012-2249 tor",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:72481517594361321521108335989421755116",
-                "title": "CVE-2012-1571 file",
+                "def_id": "oval:org.debian:def:321383867376363262297139811580380015968",
+                "title": "CVE-2012-2249 tor",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2014-10-15",
-                "def_id": "oval:com.oracle.elsa:def:20141606",
-                "title": "ELSA-2014-1606:  file security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2014.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.oracle.elsa:def:20141012",
-                "title": "ELSA-2014-1012:  php53 and php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2014.xml.bz2"
-            },
-            {
-                "date": "2014-10-15",
-                "def_id": "oval:com.oracle.elsa:def:20141606",
-                "title": "ELSA-2014-1606:  file security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.oracle.elsa:def:20141012",
-                "title": "ELSA-2014-1012:  php53 and php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2014-10-15",
-                "def_id": "oval:com.oracle.elsa:def:20141606",
-                "title": "ELSA-2014-1606:  file security and bug fix update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.oracle.elsa:def:20141012",
-                "title": "ELSA-2014-1012:  php53 and php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2014-08-06",
-                "def_id": "oval:com.redhat.rhsa:def:20141012",
-                "title": "RHSA-2014:1012: php53 and php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            },
-            {
-                "date": "2014-10-13",
-                "def_id": "oval:com.redhat.rhsa:def:20141606",
-                "title": "RHSA-2014:1606: file security and bug fix update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+                "date": "2014-07-31",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-3512": [
@@ -674,6 +464,22 @@
             },
             {
                 "date": "2014-08-07",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-6120": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:101320995442531193547984569672302575332",
+                "title": "CVE-2012-6120 puppet",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2014-08-01",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -1660,6 +1466,13 @@
                 "title": "DSA-3006-1 xen",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2014-08-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2013-1442": [
@@ -4304,7 +4117,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-08-09",
+                "date": "2014-07-27",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -5166,7 +4979,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-09-29",
+                "date": "2014-07-24",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -6877,7 +6690,7 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2014-08-07",
+                "date": "2014-08-05",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -7719,7 +7532,7 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2014-08-05",
+                "date": "2014-07-22",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -11144,7 +10957,7 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2014-09-17",
+                "date": "2014-08-09",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -11636,6 +11449,13 @@
                 "title": "ALT-PU-2015-1749: package `mariadb` update to version 10.0.21-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-07-22",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2014-2853": [
@@ -12936,6 +12756,13 @@
                 "title": "ALT-PU-2014-1955: package `chromium` update to version 36.0.1985.125-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-09-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2014-3162": [
@@ -14524,7 +14351,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-08-08",
+                "date": "2014-08-07",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -18091,6 +17918,13 @@
                 "title": "ALT-PU-2015-1794: package `kernel-image-std-def` update to version 3.18.21-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-07-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2014-3537": [
@@ -18522,7 +18356,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-07-31",
+                "date": "2014-07-27",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -19470,7 +19304,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-08-20",
+                "date": "2014-08-14",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -23064,7 +22898,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-08-18",
+                "date": "2014-08-09",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -25273,7 +25107,7 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2014-08-11",
+                "date": "2014-07-18",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -26195,6 +26029,13 @@
                 "title": "DSA-2983-1 drupal7",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2014-07-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2014-5020": [
@@ -26408,7 +26249,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-08-22",
+                "date": "2014-08-20",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -28021,7 +27862,7 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
-                "date": "2014-10-24",
+                "date": "2014-08-11",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -29292,6 +29133,13 @@
                 "title": "ALT-PU-2014-2480: package `tor` update to version 0.2.5.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-07-31",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2014-5139": [
@@ -29548,6 +29396,13 @@
                 "title": "ALT-PU-2014-2080: package `wireshark` update to version 1.12.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2014-08-10",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2014-5162": [
@@ -31023,7 +30878,7 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2014-09-17",
+                "date": "2014-08-09",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -31288,7 +31143,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-09-14",
+                "date": "2014-09-11",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -32730,7 +32585,7 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2016-08-23",
+                "date": "2016-08-17",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",

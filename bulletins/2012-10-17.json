@@ -8,6 +8,36 @@
     "patch_wednesday_start_date_ts": 1348084800,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2010-2482": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75551779582012100952048566345929244642",
+                "title": "CVE-2010-2482 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75551779582012100952048566345929244642",
+                "title": "CVE-2010-2482 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75551779582012100952048566345929244642",
+                "title": "CVE-2010-2482 tiff",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-09-26",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
         "CVE-2012-1956": [
             {
                 "date": "2012-10-10",
@@ -1681,155 +1711,6 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
-        "CVE-2012-3547": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:120762031187528537335866663959608612326",
-                "title": "CVE-2012-3547 freeradius",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:120762031187528537335866663959608612326",
-                "title": "CVE-2012-3547 freeradius",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:120762031187528537335866663959608612326",
-                "title": "CVE-2012-3547 freeradius",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.oracle.elsa:def:20121326",
-                "title": "ELSA-2012-1326:  freeradius security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.oracle.elsa:def:20121327",
-                "title": "ELSA-2012-1327:  freeradius2 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.oracle.elsa:def:20121326",
-                "title": "ELSA-2012-1326:  freeradius security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.oracle.elsa:def:20121327",
-                "title": "ELSA-2012-1327:  freeradius2 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.oracle.elsa:def:20121326",
-                "title": "ELSA-2012-1326:  freeradius security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2012-10-02",
-                "def_id": "oval:com.redhat.rhsa:def:20121326",
-                "title": "RHSA-2012:1326: freeradius security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
         "CVE-2012-3552": [
             {
                 "date": "2024-05-15",
@@ -1991,6 +1872,169 @@
                 "title": "RHSA-2012:1304: kernel security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2012-3955": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:85461271800963735725040425943601976865",
+                "title": "CVE-2012-3955 isc-dhcp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:85461271800963735725040425943601976865",
+                "title": "CVE-2012-3955 isc-dhcp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:85461271800963735725040425943601976865",
+                "title": "CVE-2012-3955 isc-dhcp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2013-02-22",
+                "def_id": "oval:com.oracle.elsa:def:20130504",
+                "title": "ELSA-2013-0504:  dhcp security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2013.xml.bz2"
+            },
+            {
+                "date": "2013-02-22",
+                "def_id": "oval:com.oracle.elsa:def:20130504",
+                "title": "ELSA-2013-0504:  dhcp security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2013-02-22",
+                "def_id": "oval:com.oracle.elsa:def:20130504",
+                "title": "ELSA-2013-0504:  dhcp security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2013-02-20",
+                "def_id": "oval:com.redhat.rhsa:def:20130504",
+                "title": "RHSA-2013:0504: dhcp security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-09-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-3982": [
@@ -2217,6 +2261,13 @@
                 "title": "RHSA-2012:1351: thunderbird security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-10-23",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-3986": [
@@ -7068,6 +7119,66 @@
                 "title": "RHSA-2012:1359: libvirt security and bug fix update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2012-4430": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:167396150442979355574333201929196691625",
+                "title": "CVE-2012-4430 bacula",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:167396150442979355574333201929196691625",
+                "title": "CVE-2012-4430 bacula",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:167396150442979355574333201929196691625",
+                "title": "CVE-2012-4430 bacula",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-10-08",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2012-4445": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:248606402489810479302703316534382224108",
+                "title": "CVE-2012-4445 wpa",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:248606402489810479302703316534382224108",
+                "title": "CVE-2012-4445 wpa",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:248606402489810479302703316534382224108",
+                "title": "CVE-2012-4445 wpa",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2012-10-08",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-5068": [
@@ -17074,6 +17185,13 @@
                 "title": "RHSA-2012:1363: bind security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-10-20",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2012-5248": [
