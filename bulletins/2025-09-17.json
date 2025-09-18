@@ -1559,29 +1559,6 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             }
         ],
-        "CVE-2022-50317": [
-            {
-                "date": "2025-09-16",
-                "def_id": "oval:org.debian:def:242498510030789594069987921890114890782",
-                "title": "CVE-2022-50317 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2025-09-16",
-                "def_id": "oval:org.debian:def:242498510030789594069987921890114890782",
-                "title": "CVE-2022-50317 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2025-09-16",
-                "def_id": "oval:org.debian:def:242498510030789594069987921890114890782",
-                "title": "CVE-2022-50317 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            }
-        ],
         "CVE-2022-50318": [
             {
                 "date": "2025-09-16",
@@ -2389,29 +2366,6 @@
                 "date": "2025-09-16",
                 "def_id": "oval:org.debian:def:38357773717560958857456049986037298143",
                 "title": "CVE-2022-50355 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            }
-        ],
-        "CVE-2022-50356": [
-            {
-                "date": "2025-09-16",
-                "def_id": "oval:org.debian:def:268314802006209683210664681120333086146",
-                "title": "CVE-2022-50356 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2025-09-16",
-                "def_id": "oval:org.debian:def:268314802006209683210664681120333086146",
-                "title": "CVE-2022-50356 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2025-09-16",
-                "def_id": "oval:org.debian:def:268314802006209683210664681120333086146",
-                "title": "CVE-2022-50356 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             }
@@ -7217,6 +7171,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2025-09-16",
                 "def_id": "oval:org.debian:def:293053031658574979851407724846492844688",
                 "title": "CVE-2025-10527 firefox-esr",
@@ -7243,11 +7204,67 @@
                 "title": "CVE-2025-10527 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
             },
@@ -7259,9 +7276,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
@@ -7273,9 +7304,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
@@ -7285,6 +7330,20 @@
                 "title": "RHSA-2025:16108: firefox security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2025-10528": [
@@ -7303,6 +7362,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2025-09-16",
                 "def_id": "oval:org.debian:def:231477568566944938623666628553157942091",
                 "title": "CVE-2025-10528 firefox-esr",
@@ -7329,11 +7395,67 @@
                 "title": "CVE-2025-10528 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
             },
@@ -7345,9 +7467,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
@@ -7359,6 +7495,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
@@ -7366,9 +7509,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -7389,6 +7546,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2025-09-16",
                 "def_id": "oval:org.debian:def:251536726629587313561816477009892096961",
                 "title": "CVE-2025-10529 firefox-esr",
@@ -7415,11 +7579,67 @@
                 "title": "CVE-2025-10529 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
             },
@@ -7431,9 +7651,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
@@ -7445,6 +7679,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
@@ -7452,9 +7693,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -7475,6 +7730,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2025-09-16",
                 "def_id": "oval:org.debian:def:96145329268982897699551297517144899125",
                 "title": "CVE-2025-10532 firefox-esr",
@@ -7501,11 +7763,67 @@
                 "title": "CVE-2025-10532 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
             },
@@ -7517,9 +7835,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
@@ -7531,6 +7863,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
@@ -7538,9 +7877,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -7561,6 +7914,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2025-09-16",
                 "def_id": "oval:org.debian:def:70693309505364313321815880471564578649",
                 "title": "CVE-2025-10533 firefox-esr",
@@ -7587,11 +7947,67 @@
                 "title": "CVE-2025-10533 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
             },
@@ -7603,9 +8019,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
@@ -7617,6 +8047,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
@@ -7624,9 +8061,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -7647,6 +8098,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2025-09-16",
                 "def_id": "oval:org.debian:def:108984796570170599631858907680595780310",
                 "title": "CVE-2025-10536 firefox-esr",
@@ -7673,11 +8131,67 @@
                 "title": "CVE-2025-10536 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
             },
@@ -7689,9 +8203,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
@@ -7703,6 +8231,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
@@ -7710,9 +8245,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
@@ -7733,6 +8282,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2025-09-16",
                 "def_id": "oval:org.debian:def:175657182674297814991599718824338492505",
                 "title": "CVE-2025-10537 firefox-esr",
@@ -7759,11 +8315,67 @@
                 "title": "CVE-2025-10537 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:org.debian:def:116104458992629494902171262804268365617",
+                "title": "DSA-6003-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516156",
+                "title": "ELSA-2025-16156:  thunderbird security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.oracle.elsa:def:202516108",
+                "title": "ELSA-2025-16108:  firefox security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
             },
@@ -7775,9 +8387,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
@@ -7789,6 +8415,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
@@ -7796,9 +8429,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
             },
             {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-09-17",
                 "def_id": "oval:com.redhat.rhsa:def:202516108",
                 "title": "RHSA-2025:16108: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-09-18",
+                "def_id": "oval:com.redhat.rhsa:def:202516156",
+                "title": "RHSA-2025:16156: thunderbird security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
