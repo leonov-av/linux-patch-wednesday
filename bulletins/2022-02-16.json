@@ -570,7 +570,7 @@
             },
             {
                 "date": "2024-04-03",
-                "def_id": "oval:redos:def:1566",
+                "def_id": "oval:redos:def:1564",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c zeromq",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -4238,7 +4238,7 @@
             },
             {
                 "date": "2025-01-28",
-                "def_id": "oval:redos:def:5946",
+                "def_id": "oval:redos:def:5944",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 python3-numpy",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -4575,7 +4575,7 @@
             },
             {
                 "date": "2024-04-04",
-                "def_id": "oval:redos:def:1592",
+                "def_id": "oval:redos:def:1590",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c php-adodb",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -9513,6 +9513,13 @@
                 "title": "ALT-PU-2023-1178: package `arm-none-eabi-binutils` update to version 2.39-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-09-30",
+                "def_id": "oval:org.altlinux.errata:def:202512241",
+                "title": "ALT-PU-2025-12241: package `binutils` update to version 2.35.2-alt3",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2021-45079": [
@@ -20666,10 +20673,24 @@
             },
             {
                 "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
                 "def_id": "oval:com.redhat.rhsa:def:20228267",
                 "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -21932,10 +21953,24 @@
             },
             {
                 "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
                 "def_id": "oval:com.redhat.rhsa:def:20228267",
                 "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -26586,7 +26621,7 @@
         "CVE-2022-21349": [
             {
                 "date": "2024-05-24",
-                "def_id": "oval:redos:def:2090",
+                "def_id": "oval:redos:def:2088",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-1.8.0-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -28533,6 +28568,27 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
             },
             {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
                 "date": "2022-08-02",
                 "def_id": "oval:com.redhat.rhsa:def:20225826",
                 "title": "RHSA-2022:5826: mariadb:10.5 security, bug fix, and enhancement update (Moderate)",
@@ -29331,7 +29387,7 @@
             },
             {
                 "date": "2024-12-11",
-                "def_id": "oval:redos:def:5403",
+                "def_id": "oval:redos:def:5401",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c python3-ipython",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -40701,7 +40757,7 @@
             },
             {
                 "date": "2024-12-03",
-                "def_id": "oval:redos:def:5231",
+                "def_id": "oval:redos:def:5229",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 filebeat",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -43440,10 +43496,24 @@
             },
             {
                 "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
                 "def_id": "oval:com.redhat.rhsa:def:20228267",
                 "title": "RHSA-2022:8267: kernel security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-11-15",
+                "def_id": "oval:com.redhat.rhsa:def:20227933",
+                "title": "RHSA-2022:7933: kernel-rt security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
                 "date": "2022-11-15",
@@ -46684,6 +46754,48 @@
                 "title": "RHSA-2023:6341: xorg-x11-server-Xwayland security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-04",
+                "def_id": "oval:com.redhat.rhsa:def:20231592",
+                "title": "RHSA-2023:1592: tigervnc security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236340",
+                "title": "RHSA-2023:6340: xorg-x11-server security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236341",
+                "title": "RHSA-2023:6341: xorg-x11-server-Xwayland security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-04-04",
+                "def_id": "oval:com.redhat.rhsa:def:20231592",
+                "title": "RHSA-2023:1592: tigervnc security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236340",
+                "title": "RHSA-2023:6340: xorg-x11-server security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-07",
+                "def_id": "oval:com.redhat.rhsa:def:20236341",
+                "title": "RHSA-2023:6341: xorg-x11-server-Xwayland security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
             },
             {
                 "date": "2023-04-04",

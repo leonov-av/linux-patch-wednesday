@@ -9560,14 +9560,14 @@
             },
             {
                 "date": "2024-05-24",
-                "def_id": "oval:redos:def:2093",
+                "def_id": "oval:redos:def:2091",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-1.8.0-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-05-24",
-                "def_id": "oval:redos:def:2118",
+                "def_id": "oval:redos:def:2116",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-11-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -10234,14 +10234,14 @@
             },
             {
                 "date": "2024-05-24",
-                "def_id": "oval:redos:def:2092",
+                "def_id": "oval:redos:def:2090",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-1.8.0-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-05-24",
-                "def_id": "oval:redos:def:2117",
+                "def_id": "oval:redos:def:2115",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 java-11-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -16602,7 +16602,7 @@
             },
             {
                 "date": "2024-07-24",
-                "def_id": "oval:redos:def:2473",
+                "def_id": "oval:redos:def:2471",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 ruby",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -17490,7 +17490,7 @@
             },
             {
                 "date": "2024-07-24",
-                "def_id": "oval:redos:def:2474",
+                "def_id": "oval:redos:def:2472",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 ruby",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -18505,6 +18505,13 @@
                 "title": "ELSA-2021-4409:  libgcrypt security and bug fix update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-10-06",
+                "def_id": "oval:redos:def:8640",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c libgcrypt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2021-11-09",
@@ -20709,7 +20716,7 @@
             },
             {
                 "date": "2024-04-03",
-                "def_id": "oval:redos:def:1568",
+                "def_id": "oval:redos:def:1566",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 systemd",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -21739,7 +21746,7 @@
             },
             {
                 "date": "2024-06-26",
-                "def_id": "oval:redos:def:2306",
+                "def_id": "oval:redos:def:2304",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c avahi",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -33553,9 +33560,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
             },
             {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2022-05-31",
                 "def_id": "oval:com.redhat.rhsa:def:20224818",
                 "title": "RHSA-2022:4818: mariadb:10.3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
             },
@@ -33570,6 +33591,13 @@
                 "date": "2022-05-31",
                 "def_id": "oval:com.redhat.rhsa:def:20224818",
                 "title": "RHSA-2022:4818: mariadb:10.3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
             },
@@ -33849,9 +33877,23 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
             },
             {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2022-05-31",
                 "def_id": "oval:com.redhat.rhsa:def:20224818",
                 "title": "RHSA-2022:4818: mariadb:10.3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
             },
@@ -33866,6 +33908,13 @@
                 "date": "2022-05-31",
                 "def_id": "oval:com.redhat.rhsa:def:20224818",
                 "title": "RHSA-2022:4818: mariadb:10.3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
             },
@@ -34213,6 +34262,55 @@
                 "title": "RHSA-2022:6518: rh-mysql80-mysql security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20224818",
+                "title": "RHSA-2022:4818: mariadb:10.3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20224818",
+                "title": "RHSA-2022:4818: mariadb:10.3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20224818",
+                "title": "RHSA-2022:4818: mariadb:10.3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2022-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20224818",
+                "title": "RHSA-2022:4818: mariadb:10.3 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2023-11-08",
+                "def_id": "oval:com.redhat.rhsa:def:20236821",
+                "title": "RHSA-2023:6821: mariadb:10.5 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.4-tus.oval.xml.bz2"
             },
             {
                 "date": "2022-04-26",
