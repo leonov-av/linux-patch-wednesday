@@ -6,7 +6,7 @@
     "patch_wednesday_end_date_ts": 1760561999,
     "patch_wednesday_start_date": "2025-09-18",
     "patch_wednesday_start_date_ts": 1758142800,
-    "status": "In Work",
+    "status": "Released",
     "vulnerabilities": {
         "CVE-2021-4460": [
             {
@@ -3101,6 +3101,13 @@
                 "title": "ELSA-2025-17760:  kernel security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2025-10-13",
+                "def_id": "oval:org.almalinux.alsa:def:202517760",
+                "title": "ALSA-2025:17760: kernel security update (Moderate)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
                 "date": "2025-10-13",
@@ -9172,6 +9179,13 @@
                 "title": "CVE-2025-11021 libsoup3",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.almalinux.alsa:def:202518183",
+                "title": "ALSA-2025:18183: libsoup3 security update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-10.xml.bz2"
             }
         ],
         "CVE-2025-11065": [
@@ -10266,6 +10280,13 @@
             },
             {
                 "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
                 "def_id": "oval:org.debian:def:260566210121381578741780552830478628366",
                 "title": "CVE-2025-11708 firefox-esr",
                 "type": "debian",
@@ -10291,6 +10312,62 @@
                 "title": "CVE-2025-11708 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2025-11709": [
@@ -10310,6 +10387,13 @@
             },
             {
                 "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
                 "def_id": "oval:org.debian:def:84098904620205231432600551113564542944",
                 "title": "CVE-2025-11709 firefox-esr",
                 "type": "debian",
@@ -10335,6 +10419,55 @@
                 "title": "CVE-2025-11709 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-11710": [
@@ -10354,6 +10487,13 @@
             },
             {
                 "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
                 "def_id": "oval:org.debian:def:326273364091363898730259075922542164246",
                 "title": "CVE-2025-11710 firefox-esr",
                 "type": "debian",
@@ -10379,6 +10519,55 @@
                 "title": "CVE-2025-11710 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-11711": [
@@ -10398,6 +10587,13 @@
             },
             {
                 "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
                 "def_id": "oval:org.debian:def:280608229242093875512988472172978638681",
                 "title": "CVE-2025-11711 firefox-esr",
                 "type": "debian",
@@ -10423,6 +10619,55 @@
                 "title": "CVE-2025-11711 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-11712": [
@@ -10442,6 +10687,13 @@
             },
             {
                 "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
                 "def_id": "oval:org.debian:def:241170149101322516475342615523379965014",
                 "title": "CVE-2025-11712 firefox-esr",
                 "type": "debian",
@@ -10467,6 +10719,55 @@
                 "title": "CVE-2025-11712 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-11714": [
@@ -10486,6 +10787,13 @@
             },
             {
                 "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
                 "def_id": "oval:org.debian:def:335244840052380073980334664207545425427",
                 "title": "CVE-2025-11714 firefox-esr",
                 "type": "debian",
@@ -10511,6 +10819,55 @@
                 "title": "CVE-2025-11714 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-11715": [
@@ -10530,6 +10887,13 @@
             },
             {
                 "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
                 "def_id": "oval:org.debian:def:224814890948089859098017676326372114697",
                 "title": "CVE-2025-11715 firefox-esr",
                 "type": "debian",
@@ -10555,6 +10919,55 @@
                 "title": "CVE-2025-11715 thunderbird",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.debian:def:239481624836804787102624714488173352408",
+                "title": "DSA-6025-1 firefox-esr",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518155",
+                "title": "RHSA-2025:18155: firefox security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-11731": [
@@ -10589,6 +11002,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
+                "date": "2025-10-16",
+                "def_id": "oval:org.debian:def:277332533748848568882816363621593291584",
+                "title": "DSA-6026-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
                 "date": "2025-10-15",
                 "def_id": "oval:org.debian:def:15029388893850429659712422841211967577",
                 "title": "CVE-2025-11756 chromium",
@@ -10601,6 +11021,20 @@
                 "title": "CVE-2025-11756 chromium",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:org.debian:def:277332533748848568882816363621593291584",
+                "title": "DSA-6026-1 chromium",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2025-1695": [
@@ -17476,6 +17910,27 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518070",
+                "title": "ELSA-2025-18070:  webkit2gtk3 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518070",
+                "title": "ELSA-2025-18070:  webkit2gtk3 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518070",
+                "title": "ELSA-2025-18070:  webkit2gtk3 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
                 "date": "2025-10-15",
                 "def_id": "oval:com.redhat.rhsa:def:202518070",
                 "title": "RHSA-2025:18070: webkit2gtk3 security update (Important)",
@@ -18235,6 +18690,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
+                "date": "2025-10-15",
+                "def_id": "oval:org.altlinux.errata:def:202512954",
+                "title": "ALT-PU-2025-12954: package `redis` update to version 7.2.11-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
                 "date": "2025-10-13",
                 "def_id": "oval:org.altlinux.errata:def:202512931",
                 "title": "ALT-PU-2025-12931: package `redis` update to version 7.2.11-alt1",
@@ -18307,6 +18769,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
+                "date": "2025-10-15",
+                "def_id": "oval:org.altlinux.errata:def:202512954",
+                "title": "ALT-PU-2025-12954: package `redis` update to version 7.2.11-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
                 "date": "2025-10-13",
                 "def_id": "oval:org.altlinux.errata:def:202512931",
                 "title": "ALT-PU-2025-12931: package `redis` update to version 7.2.11-alt1",
@@ -18370,6 +18839,13 @@
                 "title": "DSA-6022-1 valkey",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.altlinux.errata:def:202512954",
+                "title": "ALT-PU-2025-12954: package `redis` update to version 7.2.11-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
                 "date": "2025-10-13",
@@ -18611,6 +19087,13 @@
                 "title": "ELSA-2025-20653: valkey security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol10.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.altlinux.errata:def:202512954",
+                "title": "ALT-PU-2025-12954: package `redis` update to version 7.2.11-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
                 "date": "2025-10-13",
@@ -18898,6 +19381,495 @@
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 vim-X11",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            }
+        ],
+        "CVE-2025-55247": [
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518148",
+                "title": "RHSA-2025:18148: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518150",
+                "title": "RHSA-2025:18150: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2025-55248": [
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518148",
+                "title": "RHSA-2025:18148: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518150",
+                "title": "RHSA-2025:18150: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            }
+        ],
+        "CVE-2025-55315": [
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518150",
+                "title": "ELSA-2025-18150:  .NET 9.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.oracle.elsa:def:202518148",
+                "title": "ELSA-2025-18148:  .NET 8.0 security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518148",
+                "title": "RHSA-2025:18148: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518150",
+                "title": "RHSA-2025:18150: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-16",
+                "def_id": "oval:com.redhat.rhsa:def:202518256",
+                "title": "RHSA-2025:18256: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518149",
+                "title": "RHSA-2025:18149: .NET 8.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:com.redhat.rhsa:def:202518151",
+                "title": "RHSA-2025:18151: .NET 9.0 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             }
         ],
         "CVE-2025-55551": [
@@ -21464,6 +22436,20 @@
                 "title": "RHSA-2025:17084: ipa security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.altlinux.errata:def:202512706",
+                "title": "ALT-PU-2025-12706: package `freeipa` update to version 4.9.14-alt5.c10f2.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.altlinux.errata:def:202512708",
+                "title": "ALT-PU-2025-12708: package `389-ds-base` update to version 2.4.6-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2025-8291": [
@@ -22199,6 +23185,13 @@
                 "date": "2025-10-03",
                 "def_id": "oval:org.altlinux.errata:def:202511954",
                 "title": "ALT-PU-2025-11954: package `libtiff` update to version 4.7.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-10-15",
+                "def_id": "oval:org.altlinux.errata:def:202512867",
+                "title": "ALT-PU-2025-12867: package `libtiff5` update to version 4.4.0-alt9",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
