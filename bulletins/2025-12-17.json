@@ -6,7 +6,7 @@
     "patch_wednesday_end_date_ts": 1766005199,
     "patch_wednesday_start_date": "2025-11-20",
     "patch_wednesday_start_date_ts": 1763586000,
-    "status": "In Work",
+    "status": "Released",
     "vulnerabilities": {
         "CVE-2013-10031": [
             {
@@ -165,29 +165,6 @@
                 "date": "2025-12-17",
                 "def_id": "oval:org.debian:def:183316229064408358533021482091420749990",
                 "title": "CVE-2022-50615 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            }
-        ],
-        "CVE-2022-50616": [
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:13715418506791945648348426274704275215",
-                "title": "CVE-2022-50616 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:13715418506791945648348426274704275215",
-                "title": "CVE-2022-50616 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:13715418506791945648348426274704275215",
-                "title": "CVE-2022-50616 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             }
@@ -599,29 +576,6 @@
                 "date": "2025-12-17",
                 "def_id": "oval:org.debian:def:131594583518245419692317353624353579364",
                 "title": "CVE-2022-50636 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            }
-        ],
-        "CVE-2022-50637": [
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:212591375730889353891287915603755402027",
-                "title": "CVE-2022-50637 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:212591375730889353891287915603755402027",
-                "title": "CVE-2022-50637 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:212591375730889353891287915603755402027",
-                "title": "CVE-2022-50637 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             }
@@ -2986,6 +2940,13 @@
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c guacamole-server",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:org.altlinux.errata:def:202515675",
+                "title": "ALT-PU-2025-15675: package `guacamole-server` update to version 1.6.0-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             }
         ],
         "CVE-2024-38798": [
@@ -4091,6 +4052,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -4106,10 +4081,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -4187,10 +4190,24 @@
         "CVE-2025-13609": [
             {
                 "date": "2025-12-16",
+                "def_id": "oval:com.oracle.elsa:def:202523201",
+                "title": "ELSA-2025-23201:  keylime security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-12-16",
                 "def_id": "oval:com.oracle.elsa:def:202523210",
                 "title": "ELSA-2025-23210:  keylime security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2025.xml.bz2"
+            },
+            {
+                "date": "2025-12-16",
+                "def_id": "oval:com.oracle.elsa:def:202523201",
+                "title": "ELSA-2025-23201:  keylime security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2025-12-16",
@@ -4207,11 +4224,39 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2025-12-16",
+                "def_id": "oval:com.oracle.elsa:def:202523201",
+                "title": "ELSA-2025-23201:  keylime security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol10.xml.bz2"
+            },
+            {
                 "date": "2025-12-15",
                 "def_id": "oval:org.almalinux.alsa:def:202523210",
                 "title": "ALSA-2025:23210: keylime security update (Important)",
                 "type": "almalinux",
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523628",
+                "title": "RHSA-2025:23628: keylime security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523628",
+                "title": "RHSA-2025:23628: keylime security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523628",
+                "title": "RHSA-2025:23628: keylime security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.6-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-16",
@@ -5028,6 +5073,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -5043,10 +5102,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -12555,6 +12642,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -12570,10 +12671,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -12732,6 +12861,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -12747,10 +12890,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -12965,6 +13136,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -12980,10 +13165,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -13198,6 +13411,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -13213,10 +13440,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -13431,6 +13686,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -13446,10 +13715,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -13664,6 +13961,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -13679,10 +13990,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -13897,6 +14236,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -13912,10 +14265,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -14130,6 +14511,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -14145,10 +14540,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -14363,6 +14786,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -14378,10 +14815,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -14596,6 +15061,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -14611,10 +15090,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -14829,6 +15336,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -14844,10 +15365,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -15006,6 +15555,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -15021,10 +15584,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -15450,6 +16041,13 @@
                 "title": "USN-7912-2 -- CUPS vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:org.altlinux.errata:def:202515394",
+                "title": "ALT-PU-2025-15394: package `cups` update to version 2.4.16-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2025-59030": [
@@ -15861,6 +16459,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
+                "date": "2025-12-17",
+                "def_id": "oval:redos:def:9291",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c golang",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2025-12-05",
                 "def_id": "oval:org.altlinux.errata:def:202515362",
                 "title": "ALT-PU-2025-15362: package `golang` update to version 1.25.5-alt1",
@@ -15896,6 +16501,13 @@
                 "title": "CVE-2025-61729 golang-1.24",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:redos:def:9292",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c golang",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2025-12-05",
@@ -16077,6 +16689,13 @@
                 "title": "USN-7897-1 -- CUPS vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:org.altlinux.errata:def:202515394",
+                "title": "ALT-PU-2025-15394: package `cups` update to version 2.4.16-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2025-62400": [
@@ -16102,6 +16721,13 @@
                 "date": "2025-12-17",
                 "def_id": "oval:org.debian:def:1195702385531270998872848172523433262",
                 "title": "CVE-2025-62408 c-ares",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:org.debian:def:146675867108010042445670935176802690497",
+                "title": "DSA-6084-1 c-ares",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
@@ -16139,6 +16765,13 @@
                 "title": "ALT-PU-2025-15562: package `c-ares` update to version 1.34.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2025-62507": [
@@ -18274,6 +18907,20 @@
                 "url": "https://security.almalinux.org/oval/org.almalinux.alsa-9.xml.bz2"
             },
             {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523583",
+                "title": "RHSA-2025:23583: webkitgtk4 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523433",
+                "title": "RHSA-2025:23433: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.2-aus.oval.xml.bz2"
+            },
+            {
                 "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523434",
                 "title": "RHSA-2025:23434: webkit2gtk3 security update (Important)",
@@ -18289,10 +18936,38 @@
             },
             {
                 "date": "2025-12-17",
+                "def_id": "oval:com.redhat.rhsa:def:202523452",
+                "title": "RHSA-2025:23452: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-17",
                 "def_id": "oval:com.redhat.rhsa:def:202523451",
                 "title": "RHSA-2025:23451: webkit2gtk3 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2025-12-18",
+                "def_id": "oval:com.redhat.rhsa:def:202523591",
+                "title": "RHSA-2025:23591: webkit2gtk3 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.4-eus.oval.xml.bz2"
             },
             {
                 "date": "2025-12-11",
@@ -18555,6 +19230,13 @@
                 "title": "ALT-PU-2025-15529: package `python3-module-urllib3` update to version 2.6.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-12-17",
+                "def_id": "oval:org.altlinux.errata:def:202515826",
+                "title": "ALT-PU-2025-15826: package `python3-module-urllib3` update to version 1.26.20-alt3",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2025-66421": [
@@ -19294,29 +19976,6 @@
                 "date": "2025-12-17",
                 "def_id": "oval:org.debian:def:256130841442062206812059309011121507631",
                 "title": "CVE-2025-67749 pcsx2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            }
-        ],
-        "CVE-2025-67896": [
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:49156615464789699426639265667645969712",
-                "title": "CVE-2025-67896 exim4",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:49156615464789699426639265667645969712",
-                "title": "CVE-2025-67896 exim4",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2025-12-17",
-                "def_id": "oval:org.debian:def:49156615464789699426639265667645969712",
-                "title": "CVE-2025-67896 exim4",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             }
