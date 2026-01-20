@@ -696,7 +696,7 @@
             },
             {
                 "date": "2025-10-27",
-                "def_id": "oval:redos:def:8802",
+                "def_id": "oval:redos:def:8801",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 cuda",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -726,7 +726,7 @@
             },
             {
                 "date": "2025-10-27",
-                "def_id": "oval:redos:def:8799",
+                "def_id": "oval:redos:def:8798",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 cuda",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -756,7 +756,7 @@
             },
             {
                 "date": "2025-10-27",
-                "def_id": "oval:redos:def:8800",
+                "def_id": "oval:redos:def:8799",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 cuda",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -6550,7 +6550,7 @@
             },
             {
                 "date": "2025-08-14",
-                "def_id": "oval:redos:def:7939",
+                "def_id": "oval:redos:def:7938",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c pdns-recursor",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -10791,6 +10791,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2026-01-12",
+                "def_id": "oval:redos:def:9382",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-09-24",
                 "def_id": "oval:org.almalinux.alsa:def:20247000",
                 "title": "ALSA-2024:7000: kernel security update (Important)",
@@ -14951,6 +14958,134 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             }
         ],
+        "CVE-2024-44972": [
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.jammy:def:71541000000",
+                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-06",
+                "def_id": "oval:com.ubuntu.jammy:def:71542000000",
+                "title": "USN-7154-2 -- Linux kernel (HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.jammy:def:71551000000",
+                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-09",
+                "def_id": "oval:com.ubuntu.jammy:def:71961000000",
+                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.noble:def:71541000000",
+                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.noble:def:71551000000",
+                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.noble:def:71561000000",
+                "title": "USN-7156-1 -- Linux kernel (GKE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-09",
+                "def_id": "oval:com.ubuntu.noble:def:71961000000",
+                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.jammy:def:71541000000",
+                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-06",
+                "def_id": "oval:com.ubuntu.jammy:def:71542000000",
+                "title": "USN-7154-2 -- Linux kernel (HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.jammy:def:71551000000",
+                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-09",
+                "def_id": "oval:com.ubuntu.jammy:def:71961000000",
+                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.noble:def:71541000000",
+                "title": "USN-7154-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.noble:def:71551000000",
+                "title": "USN-7155-1 -- Linux kernel (NVIDIA) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-12-12",
+                "def_id": "oval:com.ubuntu.noble:def:71561000000",
+                "title": "USN-7156-1 -- Linux kernel (GKE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2025-01-09",
+                "def_id": "oval:com.ubuntu.noble:def:71961000000",
+                "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2024-11-21",
+                "def_id": "oval:org.altlinux.errata:def:202414046",
+                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-10-11",
+                "def_id": "oval:org.altlinux.errata:def:202413979",
+                "title": "ALT-PU-2024-13979: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            }
+        ],
         "CVE-2024-44978": [
             {
                 "date": "2025-08-20",
@@ -16858,13 +16993,6 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
-                "date": "2025-02-12",
-                "def_id": "oval:redos:def:6259",
-                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c python3-werkzeug",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
                 "date": "2025-08-13",
                 "def_id": "oval:org.altlinux.errata:def:202510063",
                 "title": "ALT-PU-2025-10063: package `assimp` update to version 5.4.3-alt2",
@@ -16968,7 +17096,7 @@
             },
             {
                 "date": "2025-09-24",
-                "def_id": "oval:redos:def:8404",
+                "def_id": "oval:redos:def:8403",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 pcp",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -17299,7 +17427,7 @@
             },
             {
                 "date": "2025-09-24",
-                "def_id": "oval:redos:def:8403",
+                "def_id": "oval:redos:def:8402",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 pcp",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -18531,7 +18659,7 @@
             },
             {
                 "date": "2025-05-20",
-                "def_id": "oval:redos:def:7355",
+                "def_id": "oval:redos:def:7354",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -20953,6 +21081,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9429",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-11-21",
                 "def_id": "oval:org.altlinux.errata:def:202414046",
                 "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
@@ -22520,7 +22655,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6446",
+                "def_id": "oval:redos:def:6445",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -23314,6 +23449,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9430",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46813": [
@@ -24192,6 +24334,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9431",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-11-21",
                 "def_id": "oval:org.altlinux.errata:def:202414046",
                 "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
@@ -24220,13 +24369,6 @@
                 "title": "DSA-5907-1 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-10-16",
-                "def_id": "oval:org.debian:def:132201794318057678951122114375908290564",
-                "title": "CVE-2024-46823 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2025-06-17",
@@ -24363,20 +24505,6 @@
             }
         ],
         "CVE-2024-46825": [
-            {
-                "date": "2024-10-16",
-                "def_id": "oval:org.debian:def:153927722959647846818146820821464158782",
-                "title": "CVE-2024-46825 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-10-16",
-                "def_id": "oval:org.debian:def:153927722959647846818146820821464158782",
-                "title": "CVE-2024-46825 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
             {
                 "date": "2024-10-16",
                 "def_id": "oval:org.debian:def:153927722959647846818146820821464158782",
@@ -25066,6 +25194,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9432",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2024-11-05",
                 "def_id": "oval:org.almalinux.alsa:def:20248870",
                 "title": "ALSA-2024:8870: kernel-rt security update (Moderate)",
@@ -25425,6 +25560,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9433",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
         "CVE-2024-46831": [
@@ -25883,6 +26025,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
             },
             {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9434",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2025-05-13",
                 "def_id": "oval:com.redhat.rhsa:def:20256966",
                 "title": "RHSA-2025:6966: kernel security update (Moderate)",
@@ -26079,6 +26228,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9435",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-11-21",
@@ -26583,7 +26739,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6447",
+                "def_id": "oval:redos:def:6446",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -26597,20 +26753,6 @@
             }
         ],
         "CVE-2024-46842": [
-            {
-                "date": "2024-10-16",
-                "def_id": "oval:org.debian:def:286521720376927364438807560806656388060",
-                "title": "CVE-2024-46842 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-10-16",
-                "def_id": "oval:org.debian:def:286521720376927364438807560806656388060",
-                "title": "CVE-2024-46842 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
             {
                 "date": "2024-10-16",
                 "def_id": "oval:org.debian:def:286521720376927364438807560806656388060",
@@ -27346,6 +27488,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9436",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-11-21",
@@ -28228,7 +28377,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6448",
+                "def_id": "oval:redos:def:6447",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -28811,7 +28960,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6449",
+                "def_id": "oval:redos:def:6448",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -29415,7 +29564,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6450",
+                "def_id": "oval:redos:def:6449",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -29753,7 +29902,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6451",
+                "def_id": "oval:redos:def:6450",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -29920,6 +30069,13 @@
                 "title": "USN-7196-1 -- Linux kernel (Azure) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-01-13",
+                "def_id": "oval:redos:def:9437",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2024-10-02",
@@ -30303,7 +30459,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6452",
+                "def_id": "oval:redos:def:6451",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -30858,7 +31014,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6453",
+                "def_id": "oval:redos:def:6452",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -31328,7 +31484,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6454",
+                "def_id": "oval:redos:def:6453",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -31589,7 +31745,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6455",
+                "def_id": "oval:redos:def:6454",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -32139,7 +32295,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6456",
+                "def_id": "oval:redos:def:6455",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -33884,7 +34040,7 @@
             },
             {
                 "date": "2025-08-26",
-                "def_id": "oval:redos:def:8116",
+                "def_id": "oval:redos:def:8115",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 rubygem-webrick",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -33993,10 +34149,17 @@
             },
             {
                 "date": "2025-02-19",
-                "def_id": "oval:redos:def:6342",
+                "def_id": "oval:redos:def:6341",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c apache-commons-io",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2025-12-22",
+                "def_id": "oval:org.altlinux.errata:def:202515881",
+                "title": "ALT-PU-2025-15881: package `apache-commons-io` update to version 2.14.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2024-47561": [
@@ -34888,6 +35051,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
+                "date": "2026-01-20",
+                "def_id": "oval:org.debian:def:324763236795410457521417247526012477355",
+                "title": "CVE-2024-47666 linux-6.1",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
                 "date": "2024-10-16",
                 "def_id": "oval:org.debian:def:106752179466284139253117846276150400261",
                 "title": "CVE-2024-47666 linux",
@@ -35012,6 +35182,13 @@
                 "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2026-01-14",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2024-47670": [
@@ -35675,7 +35852,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6457",
+                "def_id": "oval:redos:def:6456",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -36398,688 +36575,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6458",
-                "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
-                "type": "redos",
-                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
-            },
-            {
-                "date": "2024-11-21",
-                "def_id": "oval:org.altlinux.errata:def:202414046",
-                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2024-10-17",
-                "def_id": "oval:org.altlinux.errata:def:202417643",
-                "title": "ALT-PU-2024-17643: package `kernel-image-un-def` update to version 6.1.112-alt0.c10f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            }
-        ],
-        "CVE-2024-47672": [
-            {
-                "date": "2024-10-16",
-                "def_id": "oval:org.debian:def:94993469855885369411937729675053425702",
-                "title": "CVE-2024-47672 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-10-16",
-                "def_id": "oval:org.debian:def:94993469855885369411937729675053425702",
-                "title": "CVE-2024-47672 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2025-01-15",
-                "def_id": "oval:org.debian:def:86017126541070810387311043853697626628",
-                "title": "CVE-2024-47672 linux-6.1",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-10-16",
-                "def_id": "oval:org.debian:def:94993469855885369411937729675053425702",
-                "title": "CVE-2024-47672 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.bionic:def:72931000000",
-                "title": "USN-7293-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.bionic:def:72941000000",
-                "title": "USN-7294-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-27",
-                "def_id": "oval:com.ubuntu.bionic:def:72942000000",
-                "title": "USN-7294-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-01",
-                "def_id": "oval:com.ubuntu.bionic:def:74011000000",
-                "title": "USN-7401-1 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-05-28",
-                "def_id": "oval:com.ubuntu.bionic:def:75401000000",
-                "title": "USN-7540-1 -- Linux kernel (Raspberry Pi) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-17",
-                "def_id": "oval:com.ubuntu.focal:def:71661000000",
-                "title": "USN-7166-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-17",
-                "def_id": "oval:com.ubuntu.focal:def:71662000000",
-                "title": "USN-7166-2 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-20",
-                "def_id": "oval:com.ubuntu.focal:def:71663000000",
-                "title": "USN-7166-3 -- Linux kernel (HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.focal:def:71862000000",
-                "title": "USN-7186-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.focal:def:71941000000",
-                "title": "USN-7194-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:72931000000",
-                "title": "USN-7293-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:72941000000",
-                "title": "USN-7294-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-27",
-                "def_id": "oval:com.ubuntu.focal:def:72942000000",
-                "title": "USN-7294-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.focal:def:72943000000",
-                "title": "USN-7294-3 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-03",
-                "def_id": "oval:com.ubuntu.focal:def:72944000000",
-                "title": "USN-7294-4 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:72951000000",
-                "title": "USN-7295-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-28",
-                "def_id": "oval:com.ubuntu.focal:def:73931000000",
-                "title": "USN-7393-1 -- Linux kernel (FIPS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-03",
-                "def_id": "oval:com.ubuntu.focal:def:74131000000",
-                "title": "USN-7413-1 -- Linux kernel (IoT) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-05-28",
-                "def_id": "oval:com.ubuntu.focal:def:75391000000",
-                "title": "USN-7539-1 -- Linux kernel (Raspberry Pi) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-17",
-                "def_id": "oval:com.ubuntu.jammy:def:71661000000",
-                "title": "USN-7166-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-17",
-                "def_id": "oval:com.ubuntu.jammy:def:71662000000",
-                "title": "USN-7166-2 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-20",
-                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
-                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-06",
-                "def_id": "oval:com.ubuntu.jammy:def:71861000000",
-                "title": "USN-7186-1 -- Linux kernel (Intel IoTG) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.jammy:def:71862000000",
-                "title": "USN-7186-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-25",
-                "def_id": "oval:com.ubuntu.jammy:def:73011000000",
-                "title": "USN-7301-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.jammy:def:73031000000",
-                "title": "USN-7303-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.jammy:def:73032000000",
-                "title": "USN-7303-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-03",
-                "def_id": "oval:com.ubuntu.jammy:def:73033000000",
-                "title": "USN-7303-3 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.jammy:def:73111000000",
-                "title": "USN-7311-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-01",
-                "def_id": "oval:com.ubuntu.jammy:def:73842000000",
-                "title": "USN-7384-2 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-01",
-                "def_id": "oval:com.ubuntu.jammy:def:74031000000",
-                "title": "USN-7403-1 -- Linux kernel (HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-25",
-                "def_id": "oval:com.ubuntu.noble:def:73011000000",
-                "title": "USN-7301-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.noble:def:73031000000",
-                "title": "USN-7303-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.noble:def:73032000000",
-                "title": "USN-7303-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-03",
-                "def_id": "oval:com.ubuntu.noble:def:73033000000",
-                "title": "USN-7303-3 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.noble:def:73041000000",
-                "title": "USN-7304-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.noble:def:73111000000",
-                "title": "USN-7311-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-27",
-                "def_id": "oval:com.ubuntu.noble:def:73841000000",
-                "title": "USN-7384-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-27",
-                "def_id": "oval:com.ubuntu.noble:def:73851000000",
-                "title": "USN-7385-1 -- Linux kernel (IBM) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-27",
-                "def_id": "oval:com.ubuntu.noble:def:73861000000",
-                "title": "USN-7386-1 -- Linux kernel (OEM) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-28",
-                "def_id": "oval:com.ubuntu.noble:def:74681000000",
-                "title": "USN-7468-1 -- Linux kernel (Azure, N-Series) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.bionic:def:72931000000",
-                "title": "USN-7293-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.bionic:def:72941000000",
-                "title": "USN-7294-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-27",
-                "def_id": "oval:com.ubuntu.bionic:def:72942000000",
-                "title": "USN-7294-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-01",
-                "def_id": "oval:com.ubuntu.bionic:def:74011000000",
-                "title": "USN-7401-1 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-05-28",
-                "def_id": "oval:com.ubuntu.bionic:def:75401000000",
-                "title": "USN-7540-1 -- Linux kernel (Raspberry Pi) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-17",
-                "def_id": "oval:com.ubuntu.focal:def:71661000000",
-                "title": "USN-7166-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-17",
-                "def_id": "oval:com.ubuntu.focal:def:71662000000",
-                "title": "USN-7166-2 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-20",
-                "def_id": "oval:com.ubuntu.focal:def:71663000000",
-                "title": "USN-7166-3 -- Linux kernel (HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.focal:def:71862000000",
-                "title": "USN-7186-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.focal:def:71941000000",
-                "title": "USN-7194-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:72931000000",
-                "title": "USN-7293-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:72941000000",
-                "title": "USN-7294-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-27",
-                "def_id": "oval:com.ubuntu.focal:def:72942000000",
-                "title": "USN-7294-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.focal:def:72943000000",
-                "title": "USN-7294-3 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-03",
-                "def_id": "oval:com.ubuntu.focal:def:72944000000",
-                "title": "USN-7294-4 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.focal:def:72951000000",
-                "title": "USN-7295-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-28",
-                "def_id": "oval:com.ubuntu.focal:def:73931000000",
-                "title": "USN-7393-1 -- Linux kernel (FIPS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-03",
-                "def_id": "oval:com.ubuntu.focal:def:74131000000",
-                "title": "USN-7413-1 -- Linux kernel (IoT) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-05-28",
-                "def_id": "oval:com.ubuntu.focal:def:75391000000",
-                "title": "USN-7539-1 -- Linux kernel (Raspberry Pi) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-17",
-                "def_id": "oval:com.ubuntu.jammy:def:71661000000",
-                "title": "USN-7166-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-17",
-                "def_id": "oval:com.ubuntu.jammy:def:71662000000",
-                "title": "USN-7166-2 -- Linux kernel (AWS) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-20",
-                "def_id": "oval:com.ubuntu.jammy:def:71664000000",
-                "title": "USN-7166-4 -- Linux kernel (Xilinx ZynqMP) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-06",
-                "def_id": "oval:com.ubuntu.jammy:def:71861000000",
-                "title": "USN-7186-1 -- Linux kernel (Intel IoTG) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-01-09",
-                "def_id": "oval:com.ubuntu.jammy:def:71862000000",
-                "title": "USN-7186-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-25",
-                "def_id": "oval:com.ubuntu.jammy:def:73011000000",
-                "title": "USN-7301-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.jammy:def:73031000000",
-                "title": "USN-7303-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.jammy:def:73032000000",
-                "title": "USN-7303-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-03",
-                "def_id": "oval:com.ubuntu.jammy:def:73033000000",
-                "title": "USN-7303-3 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.jammy:def:73111000000",
-                "title": "USN-7311-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-01",
-                "def_id": "oval:com.ubuntu.jammy:def:73842000000",
-                "title": "USN-7384-2 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-01",
-                "def_id": "oval:com.ubuntu.jammy:def:74031000000",
-                "title": "USN-7403-1 -- Linux kernel (HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-25",
-                "def_id": "oval:com.ubuntu.noble:def:73011000000",
-                "title": "USN-7301-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.noble:def:73031000000",
-                "title": "USN-7303-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.noble:def:73032000000",
-                "title": "USN-7303-2 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-03",
-                "def_id": "oval:com.ubuntu.noble:def:73033000000",
-                "title": "USN-7303-3 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-26",
-                "def_id": "oval:com.ubuntu.noble:def:73041000000",
-                "title": "USN-7304-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-02-28",
-                "def_id": "oval:com.ubuntu.noble:def:73111000000",
-                "title": "USN-7311-1 -- Linux kernel vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-27",
-                "def_id": "oval:com.ubuntu.noble:def:73841000000",
-                "title": "USN-7384-1 -- Linux kernel (Azure) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-27",
-                "def_id": "oval:com.ubuntu.noble:def:73851000000",
-                "title": "USN-7385-1 -- Linux kernel (IBM) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-27",
-                "def_id": "oval:com.ubuntu.noble:def:73861000000",
-                "title": "USN-7386-1 -- Linux kernel (OEM) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-04-28",
-                "def_id": "oval:com.ubuntu.noble:def:74681000000",
-                "title": "USN-7468-1 -- Linux kernel (Azure, N-Series) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.noble.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2024-12-18",
-                "def_id": "oval:com.oracle.elsa:def:202412887",
-                "title": "ELSA-2024-12887: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-12-16",
-                "def_id": "oval:com.oracle.elsa:def:202412884",
-                "title": "ELSA-2024-12884: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2024.xml.bz2"
-            },
-            {
-                "date": "2024-12-18",
-                "def_id": "oval:com.oracle.elsa:def:202412887",
-                "title": "ELSA-2024-12887: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-12-16",
-                "def_id": "oval:com.oracle.elsa:def:202412884",
-                "title": "ELSA-2024-12884: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2024-12-16",
-                "def_id": "oval:com.oracle.elsa:def:202412884",
-                "title": "ELSA-2024-12884: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2024-12-18",
-                "def_id": "oval:com.oracle.elsa:def:202412887",
-                "title": "ELSA-2024-12887: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2024-12-16",
-                "def_id": "oval:com.oracle.elsa:def:202412884",
-                "title": "ELSA-2024-12884: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2024-12-18",
-                "def_id": "oval:com.oracle.elsa:def:202412887",
-                "title": "ELSA-2024-12887: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
-            },
-            {
-                "date": "2025-03-10",
-                "def_id": "oval:redos:def:6459",
+                "def_id": "oval:redos:def:6457",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -37536,7 +37032,7 @@
             },
             {
                 "date": "2025-03-10",
-                "def_id": "oval:redos:def:6460",
+                "def_id": "oval:redos:def:6459",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -38175,7 +37671,7 @@
             },
             {
                 "date": "2025-04-14",
-                "def_id": "oval:redos:def:7008",
+                "def_id": "oval:redos:def:7007",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -38656,7 +38152,7 @@
             },
             {
                 "date": "2025-10-28",
-                "def_id": "oval:redos:def:8816",
+                "def_id": "oval:redos:def:8815",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c JSON-lib",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -38940,7 +38436,7 @@
             },
             {
                 "date": "2025-10-06",
-                "def_id": "oval:redos:def:8585",
+                "def_id": "oval:redos:def:8584",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c mediawiki",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -39174,7 +38670,7 @@
             },
             {
                 "date": "2025-04-24",
-                "def_id": "oval:redos:def:7107",
+                "def_id": "oval:redos:def:7106",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 libarchive",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -39281,7 +38777,7 @@
             },
             {
                 "date": "2025-04-24",
-                "def_id": "oval:redos:def:7106",
+                "def_id": "oval:redos:def:7105",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 libarchive",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -39845,7 +39341,7 @@
             },
             {
                 "date": "2025-03-12",
-                "def_id": "oval:redos:def:6530",
+                "def_id": "oval:redos:def:6529",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 kernel-lt",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -39952,28 +39448,28 @@
             },
             {
                 "date": "2025-05-15",
-                "def_id": "oval:redos:def:7341",
+                "def_id": "oval:redos:def:7340",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c java-21-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2025-05-15",
-                "def_id": "oval:redos:def:7342",
+                "def_id": "oval:redos:def:7341",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c java-17-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2025-05-15",
-                "def_id": "oval:redos:def:7343",
+                "def_id": "oval:redos:def:7342",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c java-11-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2025-05-15",
-                "def_id": "oval:redos:def:7344",
+                "def_id": "oval:redos:def:7343",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c java-1.8.0-openjdk",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -40650,7 +40146,7 @@
             },
             {
                 "date": "2025-07-31",
-                "def_id": "oval:redos:def:7819",
+                "def_id": "oval:redos:def:7818",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c protobuf",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -40903,7 +40399,7 @@
             },
             {
                 "date": "2025-11-05",
-                "def_id": "oval:redos:def:8916",
+                "def_id": "oval:redos:def:8915",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c qemu",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -41303,7 +40799,7 @@
             },
             {
                 "date": "2025-09-22",
-                "def_id": "oval:redos:def:8369",
+                "def_id": "oval:redos:def:8368",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c unbound",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"

@@ -8556,6 +8556,13 @@
                 "title": "ALT-PU-2025-11603: package `python-module-future` update to version 0.16.0-alt3",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2026-01-01",
+                "def_id": "oval:org.altlinux.errata:def:202516360",
+                "title": "ALT-PU-2025-16360: package `python-module-future` update to version 0.18.2-alt1.c10f2.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2022-4123": [
@@ -12218,7 +12225,7 @@
             },
             {
                 "date": "2025-06-24",
-                "def_id": "oval:redos:def:7648",
+                "def_id": "oval:redos:def:7647",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 libde265",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -12504,7 +12511,7 @@
             },
             {
                 "date": "2025-06-25",
-                "def_id": "oval:redos:def:7654",
+                "def_id": "oval:redos:def:7653",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 libde265",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -12604,7 +12611,7 @@
             },
             {
                 "date": "2025-06-25",
-                "def_id": "oval:redos:def:7653",
+                "def_id": "oval:redos:def:7652",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 libde265",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -12704,7 +12711,7 @@
             },
             {
                 "date": "2025-06-24",
-                "def_id": "oval:redos:def:7647",
+                "def_id": "oval:redos:def:7646",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 libde265",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -18919,6 +18926,43 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             }
         ],
+        "CVE-2022-50774": [
+            {
+                "date": "2026-01-20",
+                "def_id": "oval:org.debian:def:118970276800804930125172177630165397519",
+                "title": "CVE-2022-50774 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2026-01-20",
+                "def_id": "oval:org.debian:def:118970276800804930125172177630165397519",
+                "title": "CVE-2022-50774 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2026-01-20",
+                "def_id": "oval:org.debian:def:118970276800804930125172177630165397519",
+                "title": "CVE-2022-50774 linux",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2023-01-30",
+                "def_id": "oval:com.redhat.rhsa:def:20230512",
+                "title": "RHSA-2023:0512: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2023-01-30",
+                "def_id": "oval:com.redhat.rhsa:def:20230512",
+                "title": "RHSA-2023:0512: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.0-eus.oval.xml.bz2"
+            }
+        ],
         "CVE-2023-0056": [
             {
                 "date": "2024-05-15",
@@ -24416,6 +24460,13 @@
             },
             {
                 "date": "2023-03-21",
+                "def_id": "oval:com.oracle.elsa:def:202312206",
+                "title": "ELSA-2023-12206:  Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
                 "def_id": "oval:com.oracle.elsa:def:202312207",
                 "title": "ELSA-2023-12207:  Unbreakable Enterprise kernel-container security update (IMPORTANT)",
                 "type": "oraclelinux",
@@ -24453,13 +24504,6 @@
                 "date": "2023-03-17",
                 "def_id": "oval:com.oracle.elsa:def:202312199",
                 "title": "ELSA-2023-12199: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
-            },
-            {
-                "date": "2023-03-21",
-                "def_id": "oval:com.oracle.elsa:def:202312206",
-                "title": "ELSA-2023-12206:  Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2023.xml.bz2"
             },
@@ -24472,6 +24516,13 @@
             },
             {
                 "date": "2023-03-21",
+                "def_id": "oval:com.oracle.elsa:def:202312206",
+                "title": "ELSA-2023-12206:  Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
                 "def_id": "oval:com.oracle.elsa:def:202312207",
                 "title": "ELSA-2023-12207:  Unbreakable Enterprise kernel-container security update (IMPORTANT)",
                 "type": "oraclelinux",
@@ -24509,13 +24560,6 @@
                 "date": "2023-03-17",
                 "def_id": "oval:com.oracle.elsa:def:202312199",
                 "title": "ELSA-2023-12199: Unbreakable Enterprise kernel security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2023-03-21",
-                "def_id": "oval:com.oracle.elsa:def:202312206",
-                "title": "ELSA-2023-12206:  Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -24535,6 +24579,13 @@
             },
             {
                 "date": "2023-03-21",
+                "def_id": "oval:com.oracle.elsa:def:202312206",
+                "title": "ELSA-2023-12206:  Unbreakable Enterprise kernel security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2023-03-21",
                 "def_id": "oval:com.oracle.elsa:def:202312207",
                 "title": "ELSA-2023-12207:  Unbreakable Enterprise kernel-container security update (IMPORTANT)",
                 "type": "oraclelinux",
@@ -24566,7 +24617,7 @@
                 "def_id": "oval:com.oracle.elsa:def:202312206",
                 "title": "ELSA-2023-12206:  Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
                 "date": "2023-03-21",
@@ -24586,13 +24637,6 @@
                 "date": "2023-05-23",
                 "def_id": "oval:com.oracle.elsa:def:20232951",
                 "title": "ELSA-2023-2951:  kernel security, bug fix, and enhancement update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2023-03-21",
-                "def_id": "oval:com.oracle.elsa:def:202312206",
-                "title": "ELSA-2023-12206:  Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
@@ -29279,7 +29323,7 @@
             },
             {
                 "date": "2025-08-07",
-                "def_id": "oval:redos:def:7875",
+                "def_id": "oval:redos:def:7874",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c libjxl",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -38900,7 +38944,7 @@
             },
             {
                 "date": "2025-08-12",
-                "def_id": "oval:redos:def:7906",
+                "def_id": "oval:redos:def:7905",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 Sofia-sip",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -38948,6 +38992,13 @@
                 "title": "ALT-PU-2025-10108: package `kodi` update to version 19.5-alt3",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2025-12-28",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2023-23517": [
@@ -39573,7 +39624,7 @@
             },
             {
                 "date": "2025-09-08",
-                "def_id": "oval:redos:def:8251",
+                "def_id": "oval:redos:def:8250",
                 "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c libcurl",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -39680,14 +39731,14 @@
             },
             {
                 "date": "2025-09-23",
-                "def_id": "oval:redos:def:8400",
+                "def_id": "oval:redos:def:8399",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 curl",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2025-09-24",
-                "def_id": "oval:redos:def:8426",
+                "def_id": "oval:redos:def:8425",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 libcurl",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
@@ -39843,14 +39894,14 @@
             },
             {
                 "date": "2025-09-23",
-                "def_id": "oval:redos:def:8401",
+                "def_id": "oval:redos:def:8400",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 curl",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2025-09-24",
-                "def_id": "oval:redos:def:8427",
+                "def_id": "oval:redos:def:8426",
                 "title": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0438 libcurl",
                 "type": "redos",
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
