@@ -8,6 +8,57 @@
     "patch_wednesday_start_date_ts": 1626901200,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2005-4889": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:274308776005229795993487488772765217530",
+                "title": "CVE-2005-4889 rpm",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:274308776005229795993487488772765217530",
+                "title": "CVE-2005-4889 rpm",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:274308776005229795993487488772765217530",
+                "title": "CVE-2005-4889 rpm",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2021-08-15",
+                "def_id": "oval:org.altlinux.errata:def:20212518",
+                "title": "ALT-PU-2021-2518: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212600",
+                "title": "ALT-PU-2021-2600: package `debugedit` update to version 5.0.0.2.ae27-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            }
+        ],
         "CVE-2014-10402": [
             {
                 "date": "2024-05-15",
@@ -1429,15 +1480,15 @@
             },
             {
                 "date": "2024-05-08",
-                "def_id": "oval:org.altlinux.errata:def:20247537",
-                "title": "ALT-PU-2024-7537: package `openssh` update to version 7.9p1-alt4.p10.6",
+                "def_id": "oval:org.altlinux.errata:def:20247539",
+                "title": "ALT-PU-2024-7539: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.3",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
                 "date": "2024-05-08",
-                "def_id": "oval:org.altlinux.errata:def:20247539",
-                "title": "ALT-PU-2024-7539: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.3",
+                "def_id": "oval:org.altlinux.errata:def:20247537",
+                "title": "ALT-PU-2024-7537: package `openssh` update to version 7.9p1-alt4.p10.6",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -11234,22 +11285,15 @@
             },
             {
                 "date": "2023-06-30",
-                "def_id": "oval:org.altlinux.errata:def:20234089",
-                "title": "ALT-PU-2023-4089: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2023-06-30",
                 "def_id": "oval:org.altlinux.errata:def:20234090",
                 "title": "ALT-PU-2023-4090: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
-                "date": "2023-08-01",
-                "def_id": "oval:org.altlinux.errata:def:20234665",
-                "title": "ALT-PU-2023-4665: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
+                "date": "2023-06-30",
+                "def_id": "oval:org.altlinux.errata:def:20234089",
+                "title": "ALT-PU-2023-4089: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -11257,6 +11301,13 @@
                 "date": "2023-08-01",
                 "def_id": "oval:org.altlinux.errata:def:20234664",
                 "title": "ALT-PU-2023-4664: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2023-08-01",
+                "def_id": "oval:org.altlinux.errata:def:20234665",
+                "title": "ALT-PU-2023-4665: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -13878,22 +13929,15 @@
             },
             {
                 "date": "2023-06-30",
-                "def_id": "oval:org.altlinux.errata:def:20234089",
-                "title": "ALT-PU-2023-4089: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2023-06-30",
                 "def_id": "oval:org.altlinux.errata:def:20234090",
                 "title": "ALT-PU-2023-4090: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
-                "date": "2023-08-01",
-                "def_id": "oval:org.altlinux.errata:def:20234665",
-                "title": "ALT-PU-2023-4665: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
+                "date": "2023-06-30",
+                "def_id": "oval:org.altlinux.errata:def:20234089",
+                "title": "ALT-PU-2023-4089: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -13901,6 +13945,13 @@
                 "date": "2023-08-01",
                 "def_id": "oval:org.altlinux.errata:def:20234664",
                 "title": "ALT-PU-2023-4664: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2023-08-01",
+                "def_id": "oval:org.altlinux.errata:def:20234665",
+                "title": "ALT-PU-2023-4665: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -14062,22 +14113,15 @@
             },
             {
                 "date": "2023-06-30",
-                "def_id": "oval:org.altlinux.errata:def:20234089",
-                "title": "ALT-PU-2023-4089: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2023-06-30",
                 "def_id": "oval:org.altlinux.errata:def:20234090",
                 "title": "ALT-PU-2023-4090: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
-                "date": "2023-08-01",
-                "def_id": "oval:org.altlinux.errata:def:20234665",
-                "title": "ALT-PU-2023-4665: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
+                "date": "2023-06-30",
+                "def_id": "oval:org.altlinux.errata:def:20234089",
+                "title": "ALT-PU-2023-4089: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -14085,6 +14129,13 @@
                 "date": "2023-08-01",
                 "def_id": "oval:org.altlinux.errata:def:20234664",
                 "title": "ALT-PU-2023-4664: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2023-08-01",
+                "def_id": "oval:org.altlinux.errata:def:20234665",
+                "title": "ALT-PU-2023-4665: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -14246,22 +14297,15 @@
             },
             {
                 "date": "2023-06-30",
-                "def_id": "oval:org.altlinux.errata:def:20234089",
-                "title": "ALT-PU-2023-4089: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2023-06-30",
                 "def_id": "oval:org.altlinux.errata:def:20234090",
                 "title": "ALT-PU-2023-4090: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
-                "date": "2023-08-01",
-                "def_id": "oval:org.altlinux.errata:def:20234665",
-                "title": "ALT-PU-2023-4665: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
+                "date": "2023-06-30",
+                "def_id": "oval:org.altlinux.errata:def:20234089",
+                "title": "ALT-PU-2023-4089: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330416.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -14269,6 +14313,13 @@
                 "date": "2023-08-01",
                 "def_id": "oval:org.altlinux.errata:def:20234664",
                 "title": "ALT-PU-2023-4664: package `kernel-modules-virtualbox-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2023-08-01",
+                "def_id": "oval:org.altlinux.errata:def:20234665",
+                "title": "ALT-PU-2023-4665: package `kernel-modules-virtualbox-addition-std-def` update to version 6.1.44-alt1.330425.0.c9f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -15634,20 +15685,6 @@
             },
             {
                 "date": "2022-04-28",
-                "def_id": "oval:org.altlinux.errata:def:20221783",
-                "title": "ALT-PU-2022-1783: package `thunderbird` update to version 91.6.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2022-04-28",
-                "def_id": "oval:org.altlinux.errata:def:20221781",
-                "title": "ALT-PU-2022-1781: package `firefox-esr` update to version 91.7.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2022-04-28",
                 "def_id": "oval:org.altlinux.errata:def:20221782",
                 "title": "ALT-PU-2022-1782: package `firefox` update to version 93.0-alt0.p9.1",
                 "type": "altlinux",
@@ -15699,20 +15736,6 @@
                 "date": "2021-11-26",
                 "def_id": "oval:org.altlinux.errata:def:20213368",
                 "title": "ALT-PU-2021-3368: package `firefox` update to version 93.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2021-11-26",
-                "def_id": "oval:org.altlinux.errata:def:20213370",
-                "title": "ALT-PU-2021-3370: package `thunderbird` update to version 91.3.0-alt0.c9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2021-11-26",
-                "def_id": "oval:org.altlinux.errata:def:20213369",
-                "title": "ALT-PU-2021-3369: package `firefox-esr` update to version 91.3.0-alt1.c9.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -15818,20 +15841,6 @@
             },
             {
                 "date": "2022-04-28",
-                "def_id": "oval:org.altlinux.errata:def:20221783",
-                "title": "ALT-PU-2022-1783: package `thunderbird` update to version 91.6.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2022-04-28",
-                "def_id": "oval:org.altlinux.errata:def:20221781",
-                "title": "ALT-PU-2022-1781: package `firefox-esr` update to version 91.7.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2022-04-28",
                 "def_id": "oval:org.altlinux.errata:def:20221782",
                 "title": "ALT-PU-2022-1782: package `firefox` update to version 93.0-alt0.p9.1",
                 "type": "altlinux",
@@ -15887,20 +15896,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
-                "date": "2021-11-26",
-                "def_id": "oval:org.altlinux.errata:def:20213370",
-                "title": "ALT-PU-2021-3370: package `thunderbird` update to version 91.3.0-alt0.c9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2021-11-26",
-                "def_id": "oval:org.altlinux.errata:def:20213369",
-                "title": "ALT-PU-2021-3369: package `firefox-esr` update to version 91.3.0-alt1.c9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
                 "date": "2021-09-03",
                 "def_id": "oval:org.altlinux.errata:def:20212718",
                 "title": "ALT-PU-2021-2718: package `thunderbird` update to version 91.0.3-alt1",
@@ -15946,13 +15941,6 @@
         "CVE-2021-29983": [
             {
                 "date": "2022-04-28",
-                "def_id": "oval:org.altlinux.errata:def:20221781",
-                "title": "ALT-PU-2022-1781: package `firefox-esr` update to version 91.7.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2022-04-28",
                 "def_id": "oval:org.altlinux.errata:def:20221782",
                 "title": "ALT-PU-2022-1782: package `firefox` update to version 93.0-alt0.p9.1",
                 "type": "altlinux",
@@ -15990,13 +15978,6 @@
                 "date": "2021-11-26",
                 "def_id": "oval:org.altlinux.errata:def:20213368",
                 "title": "ALT-PU-2021-3368: package `firefox` update to version 93.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2021-11-26",
-                "def_id": "oval:org.altlinux.errata:def:20213369",
-                "title": "ALT-PU-2021-3369: package `firefox-esr` update to version 91.3.0-alt1.c9.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -16088,20 +16069,6 @@
             },
             {
                 "date": "2022-04-28",
-                "def_id": "oval:org.altlinux.errata:def:20221783",
-                "title": "ALT-PU-2022-1783: package `thunderbird` update to version 91.6.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2022-04-28",
-                "def_id": "oval:org.altlinux.errata:def:20221781",
-                "title": "ALT-PU-2022-1781: package `firefox-esr` update to version 91.7.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2022-04-28",
                 "def_id": "oval:org.altlinux.errata:def:20221782",
                 "title": "ALT-PU-2022-1782: package `firefox` update to version 93.0-alt0.p9.1",
                 "type": "altlinux",
@@ -16153,20 +16120,6 @@
                 "date": "2021-11-26",
                 "def_id": "oval:org.altlinux.errata:def:20213368",
                 "title": "ALT-PU-2021-3368: package `firefox` update to version 93.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2021-11-26",
-                "def_id": "oval:org.altlinux.errata:def:20213370",
-                "title": "ALT-PU-2021-3370: package `thunderbird` update to version 91.3.0-alt0.c9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2021-11-26",
-                "def_id": "oval:org.altlinux.errata:def:20213369",
-                "title": "ALT-PU-2021-3369: package `firefox-esr` update to version 91.3.0-alt1.c9.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -16244,13 +16197,6 @@
             },
             {
                 "date": "2022-04-28",
-                "def_id": "oval:org.altlinux.errata:def:20221781",
-                "title": "ALT-PU-2022-1781: package `firefox-esr` update to version 91.7.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2022-04-28",
                 "def_id": "oval:org.altlinux.errata:def:20221782",
                 "title": "ALT-PU-2022-1782: package `firefox` update to version 93.0-alt0.p9.1",
                 "type": "altlinux",
@@ -16288,13 +16234,6 @@
                 "date": "2021-11-26",
                 "def_id": "oval:org.altlinux.errata:def:20213368",
                 "title": "ALT-PU-2021-3368: package `firefox` update to version 93.0-alt0.p9.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2021-11-26",
-                "def_id": "oval:org.altlinux.errata:def:20213369",
-                "title": "ALT-PU-2021-3369: package `firefox-esr` update to version 91.3.0-alt1.c9.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -33451,22 +33390,15 @@
             },
             {
                 "date": "2021-08-23",
-                "def_id": "oval:org.altlinux.errata:def:20212604",
-                "title": "ALT-PU-2021-2604: package `postgresql12-1C` update to version 12.7-alt0.M90P.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2021-08-23",
                 "def_id": "oval:org.altlinux.errata:def:20212605",
                 "title": "ALT-PU-2021-2605: package `postgresql11` update to version 11.13-alt0.M90P.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
             },
             {
-                "date": "2022-01-21",
-                "def_id": "oval:org.altlinux.errata:def:20221109",
-                "title": "ALT-PU-2022-1109: package `postgresql12-1C` update to version 12.9-alt0.M90P.1",
+                "date": "2021-08-23",
+                "def_id": "oval:org.altlinux.errata:def:20212604",
+                "title": "ALT-PU-2021-2604: package `postgresql12-1C` update to version 12.7-alt0.M90P.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
             },
@@ -33528,13 +33460,6 @@
             },
             {
                 "date": "2021-12-20",
-                "def_id": "oval:org.altlinux.errata:def:20213564",
-                "title": "ALT-PU-2021-3564: package `postgresql12-1C` update to version 12.7-alt0.M90P.3",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2021-12-20",
                 "def_id": "oval:org.altlinux.errata:def:20213567",
                 "title": "ALT-PU-2021-3567: package `postgresql11` update to version 11.14-alt0.M90P.1",
                 "type": "altlinux",
@@ -33548,9 +33473,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
-                "date": "2023-11-01",
-                "def_id": "oval:org.altlinux.errata:def:20236629",
-                "title": "ALT-PU-2023-6629: package `postgresql12-1C` update to version 12.15-alt0.M90P.1",
+                "date": "2021-12-20",
+                "def_id": "oval:org.altlinux.errata:def:20213564",
+                "title": "ALT-PU-2021-3564: package `postgresql12-1C` update to version 12.7-alt0.M90P.3",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
@@ -34957,13 +34882,6 @@
                 "date": "2021-07-29",
                 "def_id": "oval:org.altlinux.errata:def:20212369",
                 "title": "ALT-PU-2021-2369: package `prosody` update to version 0.11.9-alt2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2021-08-18",
-                "def_id": "oval:org.altlinux.errata:def:20212552",
-                "title": "ALT-PU-2021-2552: package `prosody` update to version 0.11.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -36705,23 +36623,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2022-05-05",
-                "def_id": "oval:org.altlinux.errata:def:20221821",
-                "title": "ALT-PU-2022-1821: package `ffmpeg` update to version 4.4.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2021-09-25",
                 "def_id": "oval:org.altlinux.errata:def:20212900",
                 "title": "ALT-PU-2021-2900: package `ffmpeg` update to version 4.4-alt7",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2021-10-30",
-                "def_id": "oval:org.altlinux.errata:def:20213166",
-                "title": "ALT-PU-2021-3166: package `ffmpeg` update to version 4.4.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -36740,23 +36644,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2022-05-05",
-                "def_id": "oval:org.altlinux.errata:def:20221821",
-                "title": "ALT-PU-2022-1821: package `ffmpeg` update to version 4.4.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
                 "date": "2021-10-07",
                 "def_id": "oval:org.altlinux.errata:def:20212999",
                 "title": "ALT-PU-2021-2999: package `ffmpeg` update to version 4.4-alt7",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
-                "date": "2022-05-05",
-                "def_id": "oval:org.altlinux.errata:def:20221821",
-                "title": "ALT-PU-2022-1821: package `ffmpeg` update to version 4.4.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
