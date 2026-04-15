@@ -21551,13 +21551,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2022-04-07",
-                "def_id": "oval:org.altlinux.errata:def:20221647",
-                "title": "ALT-PU-2022-1647: package `kernel-image-rpi-un` update to version 5.17.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2022-04-27",
                 "def_id": "oval:org.altlinux.errata:def:20221768",
                 "title": "ALT-PU-2022-1768: package `kernel-image-un-def` update to version 5.17.4-alt1",
@@ -21565,9 +21558,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2023-04-27",
-                "def_id": "oval:org.altlinux.errata:def:20231684",
-                "title": "ALT-PU-2023-1684: package `kernel-image-std-def` update to version 6.1.26-alt1",
+                "date": "2022-04-07",
+                "def_id": "oval:org.altlinux.errata:def:20221647",
+                "title": "ALT-PU-2022-1647: package `kernel-image-rpi-un` update to version 5.17.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -21575,6 +21568,13 @@
                 "date": "2022-04-20",
                 "def_id": "oval:org.altlinux.errata:def:20221730",
                 "title": "ALT-PU-2022-1730: package `kernel-image-mp` update to version 5.17.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2023-04-27",
+                "def_id": "oval:org.altlinux.errata:def:20231684",
+                "title": "ALT-PU-2023-1684: package `kernel-image-std-def` update to version 6.1.26-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -21672,6 +21672,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221759",
+                "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
+            },
+            {
                 "date": "2022-05-26",
                 "def_id": "oval:com.oracle.elsa:def:20229432",
                 "title": "ELSA-2022-9432:  qemu security update (IMPORTANT)",
@@ -21682,13 +21689,6 @@
                 "date": "2022-06-06",
                 "def_id": "oval:com.oracle.elsa:def:20229460",
                 "title": "ELSA-2022-9460: kvm_utils security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
-            },
-            {
-                "date": "2022-05-17",
-                "def_id": "oval:com.oracle.elsa:def:20221759",
-                "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
             },
@@ -21721,6 +21721,13 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2022.xml.bz2"
             },
             {
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221759",
+                "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
                 "date": "2022-05-26",
                 "def_id": "oval:com.oracle.elsa:def:20229432",
                 "title": "ELSA-2022-9432:  qemu security update (IMPORTANT)",
@@ -21731,13 +21738,6 @@
                 "date": "2022-06-06",
                 "def_id": "oval:com.oracle.elsa:def:20229460",
                 "title": "ELSA-2022-9460: kvm_utils security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2022-05-17",
-                "def_id": "oval:com.oracle.elsa:def:20221759",
-                "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
@@ -21791,16 +21791,16 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
             },
             {
-                "date": "2022-06-06",
-                "def_id": "oval:com.oracle.elsa:def:20229460",
-                "title": "ELSA-2022-9460: kvm_utils security update (IMPORTANT)",
+                "date": "2022-05-17",
+                "def_id": "oval:com.oracle.elsa:def:20221759",
+                "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
-                "date": "2022-05-17",
-                "def_id": "oval:com.oracle.elsa:def:20221759",
-                "title": "ELSA-2022-1759:  virt:ol and virt-devel:ol security, bug fix, and enhancement update (MODERATE)",
+                "date": "2022-06-06",
+                "def_id": "oval:com.oracle.elsa:def:20229460",
+                "title": "ELSA-2022-9460: kvm_utils security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
@@ -52207,16 +52207,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2025-09-07",
-                "def_id": "oval:org.altlinux.errata:def:202516619",
-                "title": "ALT-PU-2025-16619: package `kernel-image-rt` update to version 5.10.241-alt1.rt135",
+                "date": "2025-09-04",
+                "def_id": "oval:org.altlinux.errata:def:202516606",
+                "title": "ALT-PU-2025-16606: package `kernel-image-std-def` update to version 5.10.241-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2025-09-04",
-                "def_id": "oval:org.altlinux.errata:def:202516606",
-                "title": "ALT-PU-2025-16606: package `kernel-image-std-def` update to version 5.10.241-alt1",
+                "date": "2025-09-07",
+                "def_id": "oval:org.altlinux.errata:def:202516619",
+                "title": "ALT-PU-2025-16619: package `kernel-image-rt` update to version 5.10.241-alt1.rt135",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -53583,16 +53583,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2025-09-07",
-                "def_id": "oval:org.altlinux.errata:def:202516619",
-                "title": "ALT-PU-2025-16619: package `kernel-image-rt` update to version 5.10.241-alt1.rt135",
+                "date": "2025-09-04",
+                "def_id": "oval:org.altlinux.errata:def:202516606",
+                "title": "ALT-PU-2025-16606: package `kernel-image-std-def` update to version 5.10.241-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2025-09-04",
-                "def_id": "oval:org.altlinux.errata:def:202516606",
-                "title": "ALT-PU-2025-16606: package `kernel-image-std-def` update to version 5.10.241-alt1",
+                "date": "2025-09-07",
+                "def_id": "oval:org.altlinux.errata:def:202516619",
+                "title": "ALT-PU-2025-16619: package `kernel-image-rt` update to version 5.10.241-alt1.rt135",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },

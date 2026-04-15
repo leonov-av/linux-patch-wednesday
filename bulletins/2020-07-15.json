@@ -8548,13 +8548,6 @@
             },
             {
                 "date": "2020-12-18",
-                "def_id": "oval:com.oracle.elsa:def:202055031",
-                "title": "ELSA-2020-5503-1:  mariadb-connector-c security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
-            },
-            {
-                "date": "2020-12-18",
                 "def_id": "oval:com.oracle.elsa:def:20205500",
                 "title": "ELSA-2020-5500:  mariadb:10.3 security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
@@ -8565,7 +8558,7 @@
                 "def_id": "oval:com.oracle.elsa:def:202055031",
                 "title": "ELSA-2020-5503-1:  mariadb-connector-c security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2020.xml.bz2"
             },
             {
                 "date": "2020-12-18",
@@ -8578,13 +8571,20 @@
                 "date": "2020-12-18",
                 "def_id": "oval:com.oracle.elsa:def:202055031",
                 "title": "ELSA-2020-5503-1:  mariadb-connector-c security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2020-12-18",
+                "def_id": "oval:com.oracle.elsa:def:20205500",
+                "title": "ELSA-2020-5500:  mariadb:10.3 security, bug fix, and enhancement update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
                 "date": "2020-12-18",
-                "def_id": "oval:com.oracle.elsa:def:20205500",
-                "title": "ELSA-2020-5500:  mariadb:10.3 security, bug fix, and enhancement update (IMPORTANT)",
+                "def_id": "oval:com.oracle.elsa:def:202055031",
+                "title": "ELSA-2020-5503-1:  mariadb-connector-c security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
@@ -29735,11 +29735,25 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-03-24",
+                "def_id": "oval:com.ubuntu.bionic:def:81221000000",
+                "title": "USN-8122-1 -- PJSIP vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-10-09",
                 "def_id": "oval:com.ubuntu.focal:def:64221000000",
                 "title": "USN-6422-1 -- Ring vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-24",
+                "def_id": "oval:com.ubuntu.xenial:def:81221000000",
+                "title": "USN-8122-1 -- PJSIP vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2023-10-09",
@@ -29749,11 +29763,25 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-03-24",
+                "def_id": "oval:com.ubuntu.bionic:def:81221000000",
+                "title": "USN-8122-1 -- PJSIP vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2023-10-09",
                 "def_id": "oval:com.ubuntu.focal:def:64221000000",
                 "title": "USN-6422-1 -- Ring vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-24",
+                "def_id": "oval:com.ubuntu.xenial:def:81221000000",
+                "title": "USN-8122-1 -- PJSIP vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2020-07-06",
@@ -30319,6 +30347,20 @@
                 "date": "2026-02-26",
                 "def_id": "oval:org.altlinux.errata:def:20264046",
                 "title": "ALT-PU-2026-4046: package `kernel-image-pine` update to version 6.18.13-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2026-03-26",
+                "def_id": "oval:org.altlinux.errata:def:20265135",
+                "title": "ALT-PU-2026-5135: package `kernel-image-6.18` update to version 6.18.20-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2026-04-02",
+                "def_id": "oval:org.altlinux.errata:def:20264865",
+                "title": "ALT-PU-2026-4865: package `kernel-image-6.18` update to version 6.18.19-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },

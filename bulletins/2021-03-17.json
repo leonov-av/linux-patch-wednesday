@@ -9606,13 +9606,6 @@
             },
             {
                 "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214151",
-                "title": "ELSA-2021-4151:  python27:2.7 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
                 "def_id": "oval:com.oracle.elsa:def:20214162",
                 "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
                 "type": "oraclelinux",
@@ -9623,7 +9616,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20214151",
                 "title": "ELSA-2021-4151:  python27:2.7 security update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
             },
             {
                 "date": "2021-11-16",
@@ -9636,13 +9629,20 @@
                 "date": "2021-11-16",
                 "def_id": "oval:com.oracle.elsa:def:20214151",
                 "title": "ELSA-2021-4151:  python27:2.7 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2021-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20214162",
+                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
                 "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214162",
-                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
+                "def_id": "oval:com.oracle.elsa:def:20214151",
+                "title": "ELSA-2021-4151:  python27:2.7 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
@@ -10553,21 +10553,21 @@
             {
                 "date": "2021-03-05",
                 "def_id": "oval:com.oracle.elsa:def:20210711",
-                "title": "ELSA-2021-0711: virt:ol and virt-devel:ol security update (IMPORTANT)",
+                "title": "ELSA-2021-0711: virt:ol and virt-devel:ol security update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
             },
             {
                 "date": "2021-03-05",
                 "def_id": "oval:com.oracle.elsa:def:20210711",
-                "title": "ELSA-2021-0711: virt:ol and virt-devel:ol security update (IMPORTANT)",
+                "title": "ELSA-2021-0711: virt:ol and virt-devel:ol security update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2021-03-05",
                 "def_id": "oval:com.oracle.elsa:def:20210711",
-                "title": "ELSA-2021-0711: virt:ol and virt-devel:ol security update (IMPORTANT)",
+                "title": "ELSA-2021-0711: virt:ol and virt-devel:ol security update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
@@ -11756,6 +11756,34 @@
                 "title": "CVE-2021-20179 dogtag-pki",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2026-04-08",
+                "def_id": "oval:com.ubuntu.bionic:def:81581000000",
+                "title": "USN-8158-1 -- Dogtag PKI vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-08",
+                "def_id": "oval:com.ubuntu.focal:def:81581000000",
+                "title": "USN-8158-1 -- Dogtag PKI vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-08",
+                "def_id": "oval:com.ubuntu.bionic:def:81581000000",
+                "title": "USN-8158-1 -- Dogtag PKI vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-08",
+                "def_id": "oval:com.ubuntu.focal:def:81581000000",
+                "title": "USN-8158-1 -- Dogtag PKI vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
                 "date": "2021-03-24",
@@ -34351,6 +34379,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2021-11-16",
+                "def_id": "oval:com.oracle.elsa:def:20214162",
+                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+            },
+            {
                 "date": "2021-05-25",
                 "def_id": "oval:com.oracle.elsa:def:20211633",
                 "title": "ELSA-2021-1633:  python3 security update (MODERATE)",
@@ -34369,7 +34404,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20214162",
                 "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2021.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
                 "date": "2021-05-25",
@@ -34390,7 +34425,7 @@
                 "def_id": "oval:com.oracle.elsa:def:20214162",
                 "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
             {
                 "date": "2021-05-25",
@@ -34403,13 +34438,6 @@
                 "date": "2021-11-16",
                 "def_id": "oval:com.oracle.elsa:def:20214151",
                 "title": "ELSA-2021-4151:  python27:2.7 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
-            },
-            {
-                "date": "2021-11-16",
-                "def_id": "oval:com.oracle.elsa:def:20214162",
-                "title": "ELSA-2021-4162:  python38:3.8 and python38-devel:3.8 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol8.xml.bz2"
             },
@@ -36127,6 +36155,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.bionic:def:81351000000",
+                "title": "USN-8135-1 -- Pillow vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-03-11",
                 "def_id": "oval:com.ubuntu.focal:def:47631000000",
                 "title": "USN-4763-1 -- Pillow vulnerabilities",
@@ -36134,9 +36169,23 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.trusty:def:81351000000",
+                "title": "USN-8135-1 -- Pillow vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-03-11",
                 "def_id": "oval:com.ubuntu.xenial:def:47631000000",
                 "title": "USN-4763-1 -- Pillow vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.xenial:def:81351000000",
+                "title": "USN-8135-1 -- Pillow vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
@@ -36148,6 +36197,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.bionic:def:81351000000",
+                "title": "USN-8135-1 -- Pillow vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-03-11",
                 "def_id": "oval:com.ubuntu.focal:def:47631000000",
                 "title": "USN-4763-1 -- Pillow vulnerabilities",
@@ -36155,9 +36211,23 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.trusty:def:81351000000",
+                "title": "USN-8135-1 -- Pillow vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-03-11",
                 "def_id": "oval:com.ubuntu.xenial:def:47631000000",
                 "title": "USN-4763-1 -- Pillow vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.xenial:def:81351000000",
+                "title": "USN-8135-1 -- Pillow vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
@@ -45308,6 +45378,90 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.bionic:def:80892000000",
+                "title": "USN-8089-2 -- Go Networking vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-07",
+                "def_id": "oval:com.ubuntu.bionic:def:80893000000",
+                "title": "USN-8089-3 -- ADSys, Juju Core, LXD vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.focal:def:80892000000",
+                "title": "USN-8089-2 -- Go Networking vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-07",
+                "def_id": "oval:com.ubuntu.focal:def:80893000000",
+                "title": "USN-8089-3 -- ADSys, Juju Core, LXD vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.xenial:def:80892000000",
+                "title": "USN-8089-2 -- Go Networking vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-07",
+                "def_id": "oval:com.ubuntu.xenial:def:80893000000",
+                "title": "USN-8089-3 -- ADSys, Juju Core, LXD vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.bionic:def:80892000000",
+                "title": "USN-8089-2 -- Go Networking vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-07",
+                "def_id": "oval:com.ubuntu.bionic:def:80893000000",
+                "title": "USN-8089-3 -- ADSys, Juju Core, LXD vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.focal:def:80892000000",
+                "title": "USN-8089-2 -- Go Networking vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-07",
+                "def_id": "oval:com.ubuntu.focal:def:80893000000",
+                "title": "USN-8089-3 -- ADSys, Juju Core, LXD vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-03-31",
+                "def_id": "oval:com.ubuntu.xenial:def:80892000000",
+                "title": "USN-8089-2 -- Go Networking vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-04-07",
+                "def_id": "oval:com.ubuntu.xenial:def:80893000000",
+                "title": "USN-8089-3 -- ADSys, Juju Core, LXD vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2021-06-07",
                 "def_id": "oval:org.altlinux.errata:def:20211940",
                 "title": "ALT-PU-2021-1940: package `golang` update to version 1.15.13-alt1",
@@ -51911,16 +52065,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-12-09",
-                "def_id": "oval:org.altlinux.errata:def:20223310",
-                "title": "ALT-PU-2022-3310: package `kernel-image-rt` update to version 5.10.158-alt1.rt77",
+                "date": "2022-12-06",
+                "def_id": "oval:org.altlinux.errata:def:20223285",
+                "title": "ALT-PU-2022-3285: package `kernel-image-std-kvm` update to version 5.10.157-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-12-06",
-                "def_id": "oval:org.altlinux.errata:def:20223285",
-                "title": "ALT-PU-2022-3285: package `kernel-image-std-kvm` update to version 5.10.157-alt1",
+                "date": "2022-12-09",
+                "def_id": "oval:org.altlinux.errata:def:20223310",
+                "title": "ALT-PU-2022-3310: package `kernel-image-rt` update to version 5.10.158-alt1.rt77",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -52934,9 +53088,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2022-06-24",
-                "def_id": "oval:org.altlinux.errata:def:20222137",
-                "title": "ALT-PU-2022-2137: package `kernel-image-rpi-def` update to version 5.15.48-alt1",
+                "date": "2022-06-10",
+                "def_id": "oval:org.altlinux.errata:def:20222033",
+                "title": "ALT-PU-2022-2033: package `kernel-image-un-def` update to version 5.15.46-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -52948,9 +53102,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2022-06-10",
-                "def_id": "oval:org.altlinux.errata:def:20222033",
-                "title": "ALT-PU-2022-2033: package `kernel-image-un-def` update to version 5.15.46-alt1",
+                "date": "2022-06-24",
+                "def_id": "oval:org.altlinux.errata:def:20222137",
+                "title": "ALT-PU-2022-2137: package `kernel-image-rpi-def` update to version 5.15.48-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -52990,9 +53144,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-07-17",
-                "def_id": "oval:org.altlinux.errata:def:20222261",
-                "title": "ALT-PU-2022-2261: package `kernel-image-rt` update to version 5.10.131-alt1.rt72",
+                "date": "2022-06-09",
+                "def_id": "oval:org.altlinux.errata:def:20222023",
+                "title": "ALT-PU-2022-2023: package `kernel-image-std-def` update to version 5.15.46-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -53004,9 +53158,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-06-15",
-                "def_id": "oval:org.altlinux.errata:def:20222050",
-                "title": "ALT-PU-2022-2050: package `kernel-image-mp` update to version 5.18.4-alt1",
+                "date": "2022-07-17",
+                "def_id": "oval:org.altlinux.errata:def:20222261",
+                "title": "ALT-PU-2022-2261: package `kernel-image-rt` update to version 5.10.131-alt1.rt72",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -53014,13 +53168,6 @@
                 "date": "2022-06-24",
                 "def_id": "oval:org.altlinux.errata:def:20222136",
                 "title": "ALT-PU-2022-2136: package `kernel-image-rpi-def` update to version 5.15.48-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2022-06-09",
-                "def_id": "oval:org.altlinux.errata:def:20222023",
-                "title": "ALT-PU-2022-2023: package `kernel-image-std-def` update to version 5.15.46-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -53035,6 +53182,13 @@
                 "date": "2022-06-29",
                 "def_id": "oval:org.altlinux.errata:def:20222152",
                 "title": "ALT-PU-2022-2152: package `kernel-image-rpi-un` update to version 5.18.7-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-06-15",
+                "def_id": "oval:org.altlinux.errata:def:20222050",
+                "title": "ALT-PU-2022-2050: package `kernel-image-mp` update to version 5.18.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -53067,9 +53221,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2022-06-24",
-                "def_id": "oval:org.altlinux.errata:def:20222137",
-                "title": "ALT-PU-2022-2137: package `kernel-image-rpi-def` update to version 5.15.48-alt1",
+                "date": "2022-06-10",
+                "def_id": "oval:org.altlinux.errata:def:20222033",
+                "title": "ALT-PU-2022-2033: package `kernel-image-un-def` update to version 5.15.46-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
@@ -53081,9 +53235,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2022-06-10",
-                "def_id": "oval:org.altlinux.errata:def:20222033",
-                "title": "ALT-PU-2022-2033: package `kernel-image-un-def` update to version 5.15.46-alt1",
+                "date": "2022-06-24",
+                "def_id": "oval:org.altlinux.errata:def:20222137",
+                "title": "ALT-PU-2022-2137: package `kernel-image-rpi-def` update to version 5.15.48-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
@@ -53123,9 +53277,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2022-06-24",
-                "def_id": "oval:org.altlinux.errata:def:20222137",
-                "title": "ALT-PU-2022-2137: package `kernel-image-rpi-def` update to version 5.15.48-alt1",
+                "date": "2022-06-10",
+                "def_id": "oval:org.altlinux.errata:def:20222033",
+                "title": "ALT-PU-2022-2033: package `kernel-image-un-def` update to version 5.15.46-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -53137,9 +53291,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2022-06-10",
-                "def_id": "oval:org.altlinux.errata:def:20222033",
-                "title": "ALT-PU-2022-2033: package `kernel-image-un-def` update to version 5.15.46-alt1",
+                "date": "2022-06-24",
+                "def_id": "oval:org.altlinux.errata:def:20222137",
+                "title": "ALT-PU-2022-2137: package `kernel-image-rpi-def` update to version 5.15.48-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -53948,13 +54102,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-01-31",
-                "def_id": "oval:org.altlinux.errata:def:20221175",
-                "title": "ALT-PU-2022-1175: package `kernel-image-mp` update to version 5.16.4-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2021-05-31",
                 "def_id": "oval:org.altlinux.errata:def:20211888",
                 "title": "ALT-PU-2021-1888: package `kernel-image-rpi-un` update to version 5.12.6-alt1",
@@ -53969,9 +54116,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-01-19",
-                "def_id": "oval:org.altlinux.errata:def:20227829",
-                "title": "ALT-PU-2022-7829: package `kernel-image-un-def` update to version 5.16.0-alt1",
+                "date": "2023-04-05",
+                "def_id": "oval:org.altlinux.errata:def:20238793",
+                "title": "ALT-PU-2023-8793: package `kernel-image-std-def` update to version 5.15.106-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -53983,9 +54130,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2023-04-05",
-                "def_id": "oval:org.altlinux.errata:def:20238793",
-                "title": "ALT-PU-2023-8793: package `kernel-image-std-def` update to version 5.15.106-alt1",
+                "date": "2023-04-20",
+                "def_id": "oval:org.altlinux.errata:def:20231650",
+                "title": "ALT-PU-2023-1650: package `kernel-image-mp` update to version 6.2.12-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-01-31",
+                "def_id": "oval:org.altlinux.errata:def:20221175",
+                "title": "ALT-PU-2022-1175: package `kernel-image-mp` update to version 5.16.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -53997,9 +54151,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2023-04-20",
-                "def_id": "oval:org.altlinux.errata:def:20231650",
-                "title": "ALT-PU-2023-1650: package `kernel-image-mp` update to version 6.2.12-alt1",
+                "date": "2022-01-19",
+                "def_id": "oval:org.altlinux.errata:def:20227829",
+                "title": "ALT-PU-2022-7829: package `kernel-image-un-def` update to version 5.16.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -54046,16 +54200,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2023-04-17",
-                "def_id": "oval:org.altlinux.errata:def:20231628",
-                "title": "ALT-PU-2023-1628: package `kernel-image-std-def` update to version 5.10.177-alt1",
+                "date": "2023-04-12",
+                "def_id": "oval:org.altlinux.errata:def:20238558",
+                "title": "ALT-PU-2023-8558: package `kernel-image-un-def` update to version 5.15.106-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2023-04-12",
-                "def_id": "oval:org.altlinux.errata:def:20238558",
-                "title": "ALT-PU-2023-8558: package `kernel-image-un-def` update to version 5.15.106-alt1",
+                "date": "2023-04-17",
+                "def_id": "oval:org.altlinux.errata:def:20231628",
+                "title": "ALT-PU-2023-1628: package `kernel-image-std-def` update to version 5.10.177-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
@@ -57298,13 +57452,6 @@
             },
             {
                 "date": "2024-05-17",
-                "def_id": "oval:org.altlinux.errata:def:202418147",
-                "title": "ALT-PU-2024-18147: package `kernel-image-6.8` update to version 6.8.10-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2024-05-17",
                 "def_id": "oval:org.altlinux.errata:def:202418215",
                 "title": "ALT-PU-2024-18215: package `kernel-image-pine` update to version 6.6.31-alt1",
                 "type": "altlinux",
@@ -57314,6 +57461,13 @@
                 "date": "2024-05-17",
                 "def_id": "oval:org.altlinux.errata:def:202418474",
                 "title": "ALT-PU-2024-18474: package `kernel-image-un-def` update to version 6.6.31-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2024-05-17",
+                "def_id": "oval:org.altlinux.errata:def:202418147",
+                "title": "ALT-PU-2024-18147: package `kernel-image-6.8` update to version 6.8.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -57360,13 +57514,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-08-12",
-                "def_id": "oval:org.altlinux.errata:def:202410753",
-                "title": "ALT-PU-2024-10753: package `kernel-image-un-def` update to version 6.1.103-alt0.c10f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
                 "date": "2021-03-08",
                 "def_id": "oval:org.altlinux.errata:def:20211447",
                 "title": "ALT-PU-2021-1447: package `kernel-image-mp` update to version 5.11.4-alt1",
@@ -57384,6 +57531,13 @@
                 "date": "2021-03-20",
                 "def_id": "oval:org.altlinux.errata:def:20211525",
                 "title": "ALT-PU-2021-1525: package `kernel-image-un-def` update to version 5.11.7-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2024-08-12",
+                "def_id": "oval:org.altlinux.errata:def:202410753",
+                "title": "ALT-PU-2024-10753: package `kernel-image-un-def` update to version 6.1.103-alt0.c10f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
@@ -57698,16 +57852,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2022-06-30",
-                "def_id": "oval:org.altlinux.errata:def:20222155",
-                "title": "ALT-PU-2022-2155: package `kernel-image-rpi-un` update to version 5.18.7-alt1",
+                "date": "2024-11-21",
+                "def_id": "oval:org.altlinux.errata:def:202414046",
+                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-11-21",
-                "def_id": "oval:org.altlinux.errata:def:202414046",
-                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
+                "date": "2022-06-30",
+                "def_id": "oval:org.altlinux.errata:def:20222155",
+                "title": "ALT-PU-2022-2155: package `kernel-image-rpi-un` update to version 5.18.7-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -57733,13 +57887,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-01-31",
-                "def_id": "oval:org.altlinux.errata:def:20221175",
-                "title": "ALT-PU-2022-1175: package `kernel-image-mp` update to version 5.16.4-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2021-05-31",
                 "def_id": "oval:org.altlinux.errata:def:20211888",
                 "title": "ALT-PU-2021-1888: package `kernel-image-rpi-un` update to version 5.12.6-alt1",
@@ -57754,20 +57901,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2023-03-29",
-                "def_id": "oval:org.altlinux.errata:def:20231539",
-                "title": "ALT-PU-2023-1539: package `kernel-image-un-def` update to version 6.2.8-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2022-01-19",
-                "def_id": "oval:org.altlinux.errata:def:20227829",
-                "title": "ALT-PU-2022-7829: package `kernel-image-un-def` update to version 5.16.0-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2023-03-14",
                 "def_id": "oval:org.altlinux.errata:def:20231434",
                 "title": "ALT-PU-2023-1434: package `kernel-image-mp` update to version 6.2.4-alt1",
@@ -57775,9 +57908,30 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
+                "date": "2023-03-29",
+                "def_id": "oval:org.altlinux.errata:def:20231539",
+                "title": "ALT-PU-2023-1539: package `kernel-image-un-def` update to version 6.2.8-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-01-31",
+                "def_id": "oval:org.altlinux.errata:def:20221175",
+                "title": "ALT-PU-2022-1175: package `kernel-image-mp` update to version 5.16.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
                 "date": "2022-04-07",
                 "def_id": "oval:org.altlinux.errata:def:20221647",
                 "title": "ALT-PU-2022-1647: package `kernel-image-rpi-un` update to version 5.17.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-01-19",
+                "def_id": "oval:org.altlinux.errata:def:20227829",
+                "title": "ALT-PU-2022-7829: package `kernel-image-un-def` update to version 5.16.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -57838,13 +57992,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-08-12",
-                "def_id": "oval:org.altlinux.errata:def:202410753",
-                "title": "ALT-PU-2024-10753: package `kernel-image-un-def` update to version 6.1.103-alt0.c10f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
                 "date": "2021-03-08",
                 "def_id": "oval:org.altlinux.errata:def:20211447",
                 "title": "ALT-PU-2021-1447: package `kernel-image-mp` update to version 5.11.4-alt1",
@@ -57862,6 +58009,13 @@
                 "date": "2021-03-20",
                 "def_id": "oval:org.altlinux.errata:def:20211525",
                 "title": "ALT-PU-2021-1525: package `kernel-image-un-def` update to version 5.11.7-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2024-08-12",
+                "def_id": "oval:org.altlinux.errata:def:202410753",
+                "title": "ALT-PU-2024-10753: package `kernel-image-un-def` update to version 6.1.103-alt0.c10f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -58211,16 +58365,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2022-06-30",
-                "def_id": "oval:org.altlinux.errata:def:20222155",
-                "title": "ALT-PU-2022-2155: package `kernel-image-rpi-un` update to version 5.18.7-alt1",
+                "date": "2024-11-21",
+                "def_id": "oval:org.altlinux.errata:def:202414046",
+                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-11-21",
-                "def_id": "oval:org.altlinux.errata:def:202414046",
-                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
+                "date": "2022-06-30",
+                "def_id": "oval:org.altlinux.errata:def:20222155",
+                "title": "ALT-PU-2022-2155: package `kernel-image-rpi-un` update to version 5.18.7-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -58246,13 +58400,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-01-31",
-                "def_id": "oval:org.altlinux.errata:def:20221175",
-                "title": "ALT-PU-2022-1175: package `kernel-image-mp` update to version 5.16.4-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2021-05-31",
                 "def_id": "oval:org.altlinux.errata:def:20211888",
                 "title": "ALT-PU-2021-1888: package `kernel-image-rpi-un` update to version 5.12.6-alt1",
@@ -58267,20 +58414,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2023-03-29",
-                "def_id": "oval:org.altlinux.errata:def:20231539",
-                "title": "ALT-PU-2023-1539: package `kernel-image-un-def` update to version 6.2.8-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2022-01-19",
-                "def_id": "oval:org.altlinux.errata:def:20227829",
-                "title": "ALT-PU-2022-7829: package `kernel-image-un-def` update to version 5.16.0-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2023-03-14",
                 "def_id": "oval:org.altlinux.errata:def:20231434",
                 "title": "ALT-PU-2023-1434: package `kernel-image-mp` update to version 6.2.4-alt1",
@@ -58288,9 +58421,30 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
+                "date": "2023-03-29",
+                "def_id": "oval:org.altlinux.errata:def:20231539",
+                "title": "ALT-PU-2023-1539: package `kernel-image-un-def` update to version 6.2.8-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-01-31",
+                "def_id": "oval:org.altlinux.errata:def:20221175",
+                "title": "ALT-PU-2022-1175: package `kernel-image-mp` update to version 5.16.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
                 "date": "2022-04-07",
                 "def_id": "oval:org.altlinux.errata:def:20221647",
                 "title": "ALT-PU-2022-1647: package `kernel-image-rpi-un` update to version 5.17.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-01-19",
+                "def_id": "oval:org.altlinux.errata:def:20227829",
+                "title": "ALT-PU-2022-7829: package `kernel-image-un-def` update to version 5.16.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -58351,13 +58505,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-08-12",
-                "def_id": "oval:org.altlinux.errata:def:202410753",
-                "title": "ALT-PU-2024-10753: package `kernel-image-un-def` update to version 6.1.103-alt0.c10f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
                 "date": "2021-03-08",
                 "def_id": "oval:org.altlinux.errata:def:20211447",
                 "title": "ALT-PU-2021-1447: package `kernel-image-mp` update to version 5.11.4-alt1",
@@ -58375,6 +58522,13 @@
                 "date": "2021-03-20",
                 "def_id": "oval:org.altlinux.errata:def:20211525",
                 "title": "ALT-PU-2021-1525: package `kernel-image-un-def` update to version 5.11.7-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2024-08-12",
+                "def_id": "oval:org.altlinux.errata:def:202410753",
+                "title": "ALT-PU-2024-10753: package `kernel-image-un-def` update to version 6.1.103-alt0.c10f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -58878,16 +59032,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2022-06-30",
-                "def_id": "oval:org.altlinux.errata:def:20222155",
-                "title": "ALT-PU-2022-2155: package `kernel-image-rpi-un` update to version 5.18.7-alt1",
+                "date": "2024-11-21",
+                "def_id": "oval:org.altlinux.errata:def:202414046",
+                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-11-21",
-                "def_id": "oval:org.altlinux.errata:def:202414046",
-                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
+                "date": "2022-06-30",
+                "def_id": "oval:org.altlinux.errata:def:20222155",
+                "title": "ALT-PU-2022-2155: package `kernel-image-rpi-un` update to version 5.18.7-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -58913,13 +59067,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2022-01-31",
-                "def_id": "oval:org.altlinux.errata:def:20221175",
-                "title": "ALT-PU-2022-1175: package `kernel-image-mp` update to version 5.16.4-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2021-05-31",
                 "def_id": "oval:org.altlinux.errata:def:20211888",
                 "title": "ALT-PU-2021-1888: package `kernel-image-rpi-un` update to version 5.12.6-alt1",
@@ -58934,20 +59081,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2023-03-29",
-                "def_id": "oval:org.altlinux.errata:def:20231539",
-                "title": "ALT-PU-2023-1539: package `kernel-image-un-def` update to version 6.2.8-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2022-01-19",
-                "def_id": "oval:org.altlinux.errata:def:20227829",
-                "title": "ALT-PU-2022-7829: package `kernel-image-un-def` update to version 5.16.0-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2023-03-14",
                 "def_id": "oval:org.altlinux.errata:def:20231434",
                 "title": "ALT-PU-2023-1434: package `kernel-image-mp` update to version 6.2.4-alt1",
@@ -58955,9 +59088,30 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
+                "date": "2023-03-29",
+                "def_id": "oval:org.altlinux.errata:def:20231539",
+                "title": "ALT-PU-2023-1539: package `kernel-image-un-def` update to version 6.2.8-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-01-31",
+                "def_id": "oval:org.altlinux.errata:def:20221175",
+                "title": "ALT-PU-2022-1175: package `kernel-image-mp` update to version 5.16.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
                 "date": "2022-04-07",
                 "def_id": "oval:org.altlinux.errata:def:20221647",
                 "title": "ALT-PU-2022-1647: package `kernel-image-rpi-un` update to version 5.17.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2022-01-19",
+                "def_id": "oval:org.altlinux.errata:def:20227829",
+                "title": "ALT-PU-2022-7829: package `kernel-image-un-def` update to version 5.16.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -59018,13 +59172,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-08-12",
-                "def_id": "oval:org.altlinux.errata:def:202410753",
-                "title": "ALT-PU-2024-10753: package `kernel-image-un-def` update to version 6.1.103-alt0.c10f.2",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
                 "date": "2021-03-08",
                 "def_id": "oval:org.altlinux.errata:def:20211447",
                 "title": "ALT-PU-2021-1447: package `kernel-image-mp` update to version 5.11.4-alt1",
@@ -59042,6 +59189,13 @@
                 "date": "2021-03-20",
                 "def_id": "oval:org.altlinux.errata:def:20211525",
                 "title": "ALT-PU-2021-1525: package `kernel-image-un-def` update to version 5.11.7-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2024-08-12",
+                "def_id": "oval:org.altlinux.errata:def:202410753",
+                "title": "ALT-PU-2024-10753: package `kernel-image-un-def` update to version 6.1.103-alt0.c10f.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -60611,13 +60765,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2025-04-04",
-                "def_id": "oval:org.altlinux.errata:def:202516506",
-                "title": "ALT-PU-2025-16506: package `kernel-image-6.12` update to version 6.12.21-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2025-04-07",
                 "def_id": "oval:org.altlinux.errata:def:202516452",
                 "title": "ALT-PU-2025-16452: package `kernel-image-pine` update to version 6.12.22-alt1",
@@ -60625,9 +60772,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2025-10-03",
-                "def_id": "oval:org.altlinux.errata:def:202512647",
-                "title": "ALT-PU-2025-12647: package `kernel-image-rpi-un` update to version 6.12.49-alt1",
+                "date": "2025-04-04",
+                "def_id": "oval:org.altlinux.errata:def:202516506",
+                "title": "ALT-PU-2025-16506: package `kernel-image-6.12` update to version 6.12.21-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -60635,6 +60782,13 @@
                 "date": "2025-04-24",
                 "def_id": "oval:org.altlinux.errata:def:20255786",
                 "title": "ALT-PU-2025-5786: package `kernel-image-rt` update to version 6.12.24-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-10-03",
+                "def_id": "oval:org.altlinux.errata:def:202512647",
+                "title": "ALT-PU-2025-12647: package `kernel-image-rpi-un` update to version 6.12.49-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
