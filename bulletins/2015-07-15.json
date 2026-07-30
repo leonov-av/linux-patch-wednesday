@@ -8,43 +8,6 @@
     "patch_wednesday_start_date_ts": 1434574800,
     "status": "Released",
     "vulnerabilities": {
-        "CVE-2010-4651": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:278115778783572969630603202926206130396",
-                "title": "CVE-2010-4651 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:278115778783572969630603202926206130396",
-                "title": "CVE-2010-4651 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:278115778783572969630603202926206130396",
-                "title": "CVE-2010-4651 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            }
-        ],
         "CVE-2012-6531": [
             {
                 "date": "2015-06-20",
@@ -126,6 +89,13 @@
                 "title": "ALT-PU-2015-1563: package `rrd` update to version 1.5.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151563",
+                "title": "ALT-PU-2015-1563: package `rrd` update to version 1.5.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2014-0578": [
@@ -219,6 +189,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2014-9425": [
@@ -356,85 +333,554 @@
                 "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "oval:org.altlinux.errata:def:20151581",
+                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
-        "CVE-2014-9637": [
+        "CVE-2015-0275": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:122531986148974787599781973806419629877",
-                "title": "CVE-2014-9637 patch",
+                "def_id": "oval:org.debian:def:258737083746654180468725049032868348238",
+                "title": "CVE-2015-0275 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:122531986148974787599781973806419629877",
-                "title": "CVE-2014-9637 patch",
+                "def_id": "oval:org.debian:def:258737083746654180468725049032868348238",
+                "title": "CVE-2015-0275 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:122531986148974787599781973806419629877",
-                "title": "CVE-2014-9637 patch",
+                "def_id": "oval:org.debian:def:258737083746654180468725049032868348238",
+                "title": "CVE-2015-0275 linux",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:263510000000",
+                "title": "USN-2635-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:263610000000",
+                "title": "USN-2636-1 -- Linux kernel (Vivid HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:263510000000",
+                "title": "USN-2635-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:263610000000",
+                "title": "USN-2636-1 -- Linux kernel (Vivid HWE) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.oracle.elsa:def:20151778",
+                "title": "ELSA-2015-1778:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2015.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.oracle.elsa:def:20151778",
+                "title": "ELSA-2015-1778:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.oracle.elsa:def:20151778",
+                "title": "ELSA-2015-1778:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151787",
+                "title": "RHSA-2015:1787: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/mrg-2.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151778",
+                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-15",
+                "def_id": "oval:com.redhat.rhsa:def:20151788",
+                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-0848": [
@@ -530,15 +976,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-08",
-                "def_id": "oval:com.ubuntu.trusty:def:26701000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267010000000",
                 "title": "USN-2670-1 -- libwmf vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-08",
-                "def_id": "oval:com.ubuntu.trusty:def:26701000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267010000000",
                 "title": "USN-2670-1 -- libwmf vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -838,90 +1284,18 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2017-09-27",
+                "def_id": "oval:org.altlinux.errata:def:20172327",
+                "title": "ALT-PU-2017-2327: package `libwmf` update to version 0.2.8.4-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-06-26",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2015-1196": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:28920043406786506087295407819032169404",
-                "title": "CVE-2015-1196 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:28920043406786506087295407819032169404",
-                "title": "CVE-2015-1196 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:28920043406786506087295407819032169404",
-                "title": "CVE-2015-1196 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2015-1266": [
@@ -1094,15 +1468,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
             },
             {
-                "date": "2015-06-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26521000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265210000000",
                 "title": "USN-2652-1 -- Oxide vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-06-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26521000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265210000000",
                 "title": "USN-2652-1 -- Oxide vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -1197,6 +1571,13 @@
                 "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-03",
+                "def_id": "oval:org.altlinux.errata:def:20151589",
+                "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
                 "date": "2015-07-23",
@@ -1376,15 +1757,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
             },
             {
-                "date": "2015-06-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26521000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265210000000",
                 "title": "USN-2652-1 -- Oxide vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-06-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26521000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265210000000",
                 "title": "USN-2652-1 -- Oxide vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -1479,6 +1860,13 @@
                 "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-03",
+                "def_id": "oval:org.altlinux.errata:def:20151589",
+                "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-1268": [
@@ -1651,15 +2039,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
             },
             {
-                "date": "2015-06-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26521000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265210000000",
                 "title": "USN-2652-1 -- Oxide vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-06-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26521000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265210000000",
                 "title": "USN-2652-1 -- Oxide vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -1754,6 +2142,13 @@
                 "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-03",
+                "def_id": "oval:org.altlinux.errata:def:20151589",
+                "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-1269": [
@@ -1926,15 +2321,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
             },
             {
-                "date": "2015-06-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26521000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265210000000",
                 "title": "USN-2652-1 -- Oxide vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-06-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26521000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265210000000",
                 "title": "USN-2652-1 -- Oxide vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -2029,6 +2424,36 @@
                 "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-03",
+                "def_id": "oval:org.altlinux.errata:def:20151589",
+                "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            }
+        ],
+        "CVE-2015-1323": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:264810000000",
+                "title": "USN-2648-1 -- Aptdaemon vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:264810000000",
+                "title": "USN-2648-1 -- Aptdaemon vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-06-30",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2015-1330": [
@@ -2082,15 +2507,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-06-29",
-                "def_id": "oval:com.ubuntu.trusty:def:26571000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265710000000",
                 "title": "USN-2657-1 -- unattended-upgrades vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-06-29",
-                "def_id": "oval:com.ubuntu.trusty:def:26571000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265710000000",
                 "title": "USN-2657-1 -- unattended-upgrades vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -2101,164 +2526,6 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2015-1395": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:208512015408465146279024950496852407649",
-                "title": "CVE-2015-1395 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:208512015408465146279024950496852407649",
-                "title": "CVE-2015-1395 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:208512015408465146279024950496852407649",
-                "title": "CVE-2015-1395 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            }
-        ],
-        "CVE-2015-1396": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:75979277065813266756421660522501740528",
-                "title": "CVE-2015-1396 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:75979277065813266756421660522501740528",
-                "title": "CVE-2015-1396 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:75979277065813266756421660522501740528",
-                "title": "CVE-2015-1396 patch",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-06-22",
-                "def_id": "oval:com.ubuntu.trusty:def:26511000000",
-                "title": "USN-2651-1 -- GNU patch vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151846",
-                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2015-1793": [
@@ -2324,6 +2591,13 @@
                 "title": "ALT-PU-2015-1600: package `openssl10` update to version 1.0.1k-alt4",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-09",
+                "def_id": "oval:org.altlinux.errata:def:20151600",
+                "title": "ALT-PU-2015-1600: package `openssl10` update to version 1.0.1k-alt4",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-1819": [
@@ -2531,15 +2805,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-11-16",
-                "def_id": "oval:com.ubuntu.trusty:def:28121000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:281210000000",
                 "title": "USN-2812-1 -- libxml2 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-11-16",
-                "def_id": "oval:com.ubuntu.trusty:def:28121000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:281210000000",
                 "title": "USN-2812-1 -- libxml2 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -3491,15 +3765,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -5061,15 +5335,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -6631,15 +6905,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -8201,15 +8475,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -9743,15 +10017,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -11117,29 +11391,29 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-09-16",
-                "def_id": "oval:com.ubuntu.trusty:def:27401000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:274010000000",
                 "title": "USN-2740-1 -- ICU vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-09-16",
-                "def_id": "oval:com.ubuntu.trusty:def:27401000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:274010000000",
                 "title": "USN-2740-1 -- ICU vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -12668,6 +12942,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2016-05-10",
+                "def_id": "oval:org.altlinux.errata:def:20161467",
+                "title": "ALT-PU-2016-1467: package `cacti` update to version 0.8.8h-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-06-24",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -13090,43 +13371,43 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26561000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265610000000",
                 "title": "USN-2656-1 -- Firefox vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26721000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267210000000",
                 "title": "USN-2672-1 -- NSS vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-20",
-                "def_id": "oval:com.ubuntu.trusty:def:26731000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267310000000",
                 "title": "USN-2673-1 -- Thunderbird vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26561000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265610000000",
                 "title": "USN-2656-1 -- Firefox vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26721000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267210000000",
                 "title": "USN-2672-1 -- NSS vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-20",
-                "def_id": "oval:com.ubuntu.trusty:def:26731000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267310000000",
                 "title": "USN-2673-1 -- Thunderbird vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -13384,117 +13665,17 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2015-2726": [
-            {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26561000000",
-                "title": "USN-2656-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26561000000",
-                "title": "USN-2656-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-08-10",
-                "def_id": "oval:org.altlinux.errata:def:20151667",
-                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2015-08-11",
-                "def_id": "oval:org.altlinux.errata:def:20151669",
-                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2015-08-10",
-                "def_id": "oval:org.altlinux.errata:def:20151667",
-                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2015-08-11",
-                "def_id": "oval:org.altlinux.errata:def:20151669",
-                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2015-08-10",
-                "def_id": "oval:org.altlinux.errata:def:20151667",
-                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2015-08-11",
-                "def_id": "oval:org.altlinux.errata:def:20151669",
-                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2015-08-10",
-                "def_id": "oval:org.altlinux.errata:def:20151667",
-                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2015-08-11",
-                "def_id": "oval:org.altlinux.errata:def:20151669",
-                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2015-08-10",
-                "def_id": "oval:org.altlinux.errata:def:20151667",
-                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
-                "date": "2015-08-11",
-                "def_id": "oval:org.altlinux.errata:def:20151669",
-                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
-                "date": "2015-08-10",
-                "def_id": "oval:org.altlinux.errata:def:20151667",
-                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
-                "date": "2015-08-11",
-                "def_id": "oval:org.altlinux.errata:def:20151669",
-                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            }
-        ],
         "CVE-2015-2727": [
             {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26561000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265610000000",
                 "title": "USN-2656-1 -- Firefox vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26561000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265610000000",
                 "title": "USN-2656-1 -- Firefox vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -13757,358 +13938,6 @@
                 "title": "RHSA-2015:1207: firefox security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            }
-        ],
-        "CVE-2015-2730": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
-                "title": "CVE-2015-2730 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
-                "title": "CVE-2015-2730 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2015-08-17",
-                "def_id": "oval:org.debian:def:280299278101319516252858366291070499254",
-                "title": "DSA-3336-1 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
-            },
-            {
-                "date": "2015-08-17",
-                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
-                "title": "DSA-3336-1 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
-            },
-            {
-                "date": "2015-08-17",
-                "def_id": "oval:org.debian:def:271333732435495758424495673723228352412",
-                "title": "DSA-3336-1 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
-                "title": "CVE-2015-2730 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2015-08-17",
-                "def_id": "oval:org.debian:def:280299278101319516252858366291070499254",
-                "title": "DSA-3336-1 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
-            },
-            {
-                "date": "2015-08-17",
-                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
-                "title": "DSA-3336-1 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
-            },
-            {
-                "date": "2015-08-17",
-                "def_id": "oval:org.debian:def:271333732435495758424495673723228352412",
-                "title": "DSA-3336-1 nss",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
-            },
-            {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26561000000",
-                "title": "USN-2656-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26721000000",
-                "title": "USN-2672-1 -- NSS vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26561000000",
-                "title": "USN-2656-1 -- Firefox vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-07-09",
-                "def_id": "oval:com.ubuntu.trusty:def:26721000000",
-                "title": "USN-2672-1 -- NSS vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-08-24",
-                "def_id": "oval:com.oracle.elsa:def:20151664",
-                "title": "ELSA-2015-1664:  nss security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2015.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.oracle.elsa:def:20151699",
-                "title": "ELSA-2015-1699:  nss-softokn security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2015.xml.bz2"
-            },
-            {
-                "date": "2015-08-24",
-                "def_id": "oval:com.oracle.elsa:def:20151664",
-                "title": "ELSA-2015-1664:  nss security, bug fix, and enhancement update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.oracle.elsa:def:20151699",
-                "title": "ELSA-2015-1699:  nss-softokn security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.oracle.elsa:def:20151699",
-                "title": "ELSA-2015-1699:  nss-softokn security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.oracle.elsa:def:20151699",
-                "title": "ELSA-2015-1699:  nss-softokn security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-01",
-                "def_id": "oval:com.redhat.rhsa:def:20151699",
-                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-27",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2015-2967": [
@@ -14244,6 +14073,13 @@
                 "title": "ALT-PU-2016-1467: package `cacti` update to version 0.8.8h-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2016-05-10",
+                "def_id": "oval:org.altlinux.errata:def:20161467",
+                "title": "ALT-PU-2016-1467: package `cacti` update to version 0.8.8h-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3113": [
@@ -14337,6 +14173,13 @@
                 "title": "ALT-PU-2015-1565: package `adobe-flash-player` update to version 11-alt46",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-24",
+                "def_id": "oval:org.altlinux.errata:def:20151565",
+                "title": "ALT-PU-2015-1565: package `adobe-flash-player` update to version 11-alt46",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3114": [
@@ -14430,6 +14273,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3115": [
@@ -14523,6 +14373,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3116": [
@@ -14616,6 +14473,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3117": [
@@ -14709,6 +14573,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3118": [
@@ -14802,6 +14673,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3119": [
@@ -14895,6 +14773,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3120": [
@@ -14988,6 +14873,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3121": [
@@ -15081,6 +14973,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3122": [
@@ -15174,6 +15073,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3123": [
@@ -15267,6 +15173,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3124": [
@@ -15360,6 +15273,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3125": [
@@ -15453,6 +15373,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3126": [
@@ -15546,6 +15473,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3127": [
@@ -15639,6 +15573,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3128": [
@@ -15732,6 +15673,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3129": [
@@ -15825,6 +15773,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3130": [
@@ -15918,6 +15873,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3131": [
@@ -16011,6 +15973,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3132": [
@@ -16104,6 +16073,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3133": [
@@ -16197,6 +16173,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3134": [
@@ -16290,6 +16273,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3135": [
@@ -16383,6 +16373,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3136": [
@@ -16476,6 +16473,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3137": [
@@ -16569,6 +16573,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3149": [
@@ -17672,6 +17683,13 @@
                 "title": "ALT-PU-2015-1555: package `curl` update to version 7.43.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-19",
+                "def_id": "oval:org.altlinux.errata:def:20151555",
+                "title": "ALT-PU-2015-1555: package `curl` update to version 7.43.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3237": [
@@ -17737,6 +17755,13 @@
                 "title": "ALT-PU-2015-1555: package `curl` update to version 7.43.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-19",
+                "def_id": "oval:org.altlinux.errata:def:20151555",
+                "title": "ALT-PU-2015-1555: package `curl` update to version 7.43.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3239": [
@@ -17825,6 +17850,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2015-09-15",
+                "def_id": "oval:org.altlinux.errata:def:20151783",
+                "title": "ALT-PU-2015-1783: package `libunwind` update to version 1.1-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-07-12",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -17855,46 +17887,18 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.bionic:def:37171000000",
-                "title": "USN-3717-1 -- PolicyKit vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.trusty:def:37171000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:371710000000",
                 "title": "USN-3717-1 -- PolicyKit vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.xenial:def:37171000000",
-                "title": "USN-3717-1 -- PolicyKit vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.bionic:def:37171000000",
-                "title": "USN-3717-1 -- PolicyKit vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.trusty:def:37171000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:371710000000",
                 "title": "USN-3717-1 -- PolicyKit vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.xenial:def:37171000000",
-                "title": "USN-3717-1 -- PolicyKit vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2015-07-02",
@@ -17937,6 +17941,13 @@
                 "title": "ALT-PU-2015-1588: package `polkit` update to version 0.113-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-02",
+                "def_id": "oval:org.altlinux.errata:def:20151588",
+                "title": "ALT-PU-2015-1588: package `polkit` update to version 0.113-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3256": [
@@ -18177,6 +18188,13 @@
                 "title": "ALT-PU-2015-1588: package `polkit` update to version 0.113-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-02",
+                "def_id": "oval:org.altlinux.errata:def:20151588",
+                "title": "ALT-PU-2015-1588: package `polkit` update to version 0.113-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3258": [
@@ -18265,15 +18283,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26591000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265910000000",
                 "title": "USN-2659-1 -- cups-filters vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26591000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265910000000",
                 "title": "USN-2659-1 -- cups-filters vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -18522,6 +18540,13 @@
                 "title": "ALT-PU-2015-1609: package `cups-filters` update to version 1.0.71-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-14",
+                "def_id": "oval:org.altlinux.errata:def:20151609",
+                "title": "ALT-PU-2015-1609: package `cups-filters` update to version 1.0.71-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
                 "date": "2015-07-07",
@@ -18617,15 +18642,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26591000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265910000000",
                 "title": "USN-2659-1 -- cups-filters vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26591000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265910000000",
                 "title": "USN-2659-1 -- cups-filters vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -18874,6 +18899,13 @@
                 "title": "ALT-PU-2015-1609: package `cups-filters` update to version 1.0.71-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-14",
+                "def_id": "oval:org.altlinux.errata:def:20151609",
+                "title": "ALT-PU-2015-1609: package `cups-filters` update to version 1.0.71-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
                 "date": "2015-09-24",
@@ -19200,6 +19232,13 @@
                 "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-03",
+                "def_id": "oval:org.altlinux.errata:def:20151589",
+                "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-3644": [
@@ -19281,7 +19320,58 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2018-09-26",
+                "def_id": "oval:org.altlinux.errata:def:20182391",
+                "title": "ALT-PU-2018-2391: package `stunnel4` update to version 5.49-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-07-02",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2015-3905": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185734223277875489527737571111759400006",
+                "title": "CVE-2015-3905 t1utils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185734223277875489527737571111759400006",
+                "title": "CVE-2015-3905 t1utils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185734223277875489527737571111759400006",
+                "title": "CVE-2015-3905 t1utils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:262710000000",
+                "title": "USN-2627-1 -- t1utils vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:262710000000",
+                "title": "USN-2627-1 -- t1utils vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-06-29",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
@@ -19311,60 +19401,18 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.bionic:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.focal:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.trusty:def:73301000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:733010000000",
                 "title": "USN-7330-1 -- Ansible vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.xenial:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.bionic:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.focal:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.trusty:def:73301000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:733010000000",
                 "title": "USN-7330-1 -- Ansible vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.xenial:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2015-06-27",
@@ -19407,6 +19455,13 @@
                 "title": "ALT-PU-2015-1579: package `ansible` update to version 1.9.2-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-27",
+                "def_id": "oval:org.altlinux.errata:def:20151579",
+                "title": "ALT-PU-2015-1579: package `ansible` update to version 1.9.2-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
                 "date": "2019-09-16",
@@ -19439,43 +19494,43 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26631000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266310000000",
                 "title": "USN-2663-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26641000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266410000000",
                 "title": "USN-2664-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26651000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266510000000",
                 "title": "USN-2665-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26631000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266310000000",
                 "title": "USN-2663-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26641000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266410000000",
                 "title": "USN-2664-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26651000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266510000000",
                 "title": "USN-2665-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -19563,6 +19618,20 @@
                 "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4002": [
@@ -19588,43 +19657,43 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26631000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266310000000",
                 "title": "USN-2663-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26641000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266410000000",
                 "title": "USN-2664-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26651000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266510000000",
                 "title": "USN-2665-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26631000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266310000000",
                 "title": "USN-2663-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26641000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266410000000",
                 "title": "USN-2664-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26651000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266510000000",
                 "title": "USN-2665-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -19712,6 +19781,20 @@
                 "title": "ALT-PU-2015-1568: package `kernel-image-std-def` update to version 3.14.45-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-06-24",
+                "def_id": "oval:org.altlinux.errata:def:20151568",
+                "title": "ALT-PU-2015-1568: package `kernel-image-std-def` update to version 3.14.45-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4003": [
@@ -19737,43 +19820,43 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26631000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266310000000",
                 "title": "USN-2663-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26641000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266410000000",
                 "title": "USN-2664-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26651000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266510000000",
                 "title": "USN-2665-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26631000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266310000000",
                 "title": "USN-2663-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26641000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266410000000",
                 "title": "USN-2664-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26651000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266510000000",
                 "title": "USN-2665-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -19861,6 +19944,20 @@
                 "title": "ALT-PU-2015-1568: package `kernel-image-std-def` update to version 3.14.45-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-06-24",
+                "def_id": "oval:org.altlinux.errata:def:20151568",
+                "title": "ALT-PU-2015-1568: package `kernel-image-std-def` update to version 3.14.45-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4342": [
@@ -19998,6 +20095,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2016-05-10",
+                "def_id": "oval:org.altlinux.errata:def:20161467",
+                "title": "ALT-PU-2016-1467: package `cacti` update to version 0.8.8h-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-06-27",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -20096,6 +20200,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4429": [
@@ -20189,6 +20300,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4430": [
@@ -20282,6 +20400,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4431": [
@@ -20375,6 +20500,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4432": [
@@ -20468,6 +20600,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4433": [
@@ -20561,6 +20700,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4454": [
@@ -20698,6 +20844,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2016-05-10",
+                "def_id": "oval:org.altlinux.errata:def:20161467",
+                "title": "ALT-PU-2016-1467: package `cacti` update to version 0.8.8h-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-06-27",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -20798,15 +20951,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-08",
-                "def_id": "oval:com.ubuntu.trusty:def:26701000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267010000000",
                 "title": "USN-2670-1 -- libwmf vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-08",
-                "def_id": "oval:com.ubuntu.trusty:def:26701000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267010000000",
                 "title": "USN-2670-1 -- libwmf vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -21106,6 +21259,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2017-09-27",
+                "def_id": "oval:org.altlinux.errata:def:20172327",
+                "title": "ALT-PU-2017-2327: package `libwmf` update to version 0.2.8.4-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-06-26",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -21241,15 +21401,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26581000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265810000000",
                 "title": "USN-2658-1 -- PHP vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26581000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265810000000",
                 "title": "USN-2658-1 -- PHP vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -21677,15 +21837,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26691000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266910000000",
                 "title": "USN-2669-1 -- Bind vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26691000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266910000000",
                 "title": "USN-2669-1 -- Bind vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -21985,6 +22145,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2015-07-29",
+                "def_id": "oval:org.altlinux.errata:def:20151641",
+                "title": "ALT-PU-2015-1641: package `bind` update to version 9.9.7-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-07-07",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -22015,46 +22182,18 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.bionic:def:37171000000",
-                "title": "USN-3717-1 -- PolicyKit vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.trusty:def:37171000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:371710000000",
                 "title": "USN-3717-1 -- PolicyKit vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.xenial:def:37171000000",
-                "title": "USN-3717-1 -- PolicyKit vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.bionic:def:37171000000",
-                "title": "USN-3717-1 -- PolicyKit vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.trusty:def:37171000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:371710000000",
                 "title": "USN-3717-1 -- PolicyKit vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2018-07-16",
-                "def_id": "oval:com.ubuntu.xenial:def:37171000000",
-                "title": "USN-3717-1 -- PolicyKit vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2015-07-02",
@@ -22097,6 +22236,13 @@
                 "title": "ALT-PU-2015-1588: package `polkit` update to version 0.113-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-02",
+                "def_id": "oval:org.altlinux.errata:def:20151588",
+                "title": "ALT-PU-2015-1588: package `polkit` update to version 0.113-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4643": [
@@ -22227,15 +22373,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26581000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265810000000",
                 "title": "USN-2658-1 -- PHP vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26581000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265810000000",
                 "title": "USN-2658-1 -- PHP vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -22698,15 +22844,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26581000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265810000000",
                 "title": "USN-2658-1 -- PHP vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-06",
-                "def_id": "oval:com.ubuntu.trusty:def:26581000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265810000000",
                 "title": "USN-2658-1 -- PHP vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -22896,6 +23042,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2015-06-19",
+                "def_id": "oval:org.altlinux.errata:def:20151556",
+                "title": "ALT-PU-2015-1556: package `wireshark` update to version 1.12.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-06-23",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -22987,6 +23140,13 @@
                 "title": "ALT-PU-2015-1556: package `wireshark` update to version 1.12.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-19",
+                "def_id": "oval:org.altlinux.errata:def:20151556",
+                "title": "ALT-PU-2015-1556: package `wireshark` update to version 1.12.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4695": [
@@ -23082,15 +23242,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-08",
-                "def_id": "oval:com.ubuntu.trusty:def:26701000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267010000000",
                 "title": "USN-2670-1 -- libwmf vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-08",
-                "def_id": "oval:com.ubuntu.trusty:def:26701000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267010000000",
                 "title": "USN-2670-1 -- libwmf vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -23388,6 +23548,13 @@
                 "title": "ALT-PU-2025-10399: package `libwmf` update to version 0.2.13-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2017-09-27",
+                "def_id": "oval:org.altlinux.errata:def:20172327",
+                "title": "ALT-PU-2017-2327: package `libwmf` update to version 0.2.8.4-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
                 "date": "2015-06-29",
@@ -23490,15 +23657,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-08",
-                "def_id": "oval:com.ubuntu.trusty:def:26701000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267010000000",
                 "title": "USN-2670-1 -- libwmf vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-08",
-                "def_id": "oval:com.ubuntu.trusty:def:26701000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267010000000",
                 "title": "USN-2670-1 -- libwmf vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -23798,6 +23965,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2017-09-27",
+                "def_id": "oval:org.altlinux.errata:def:20172327",
+                "title": "ALT-PU-2017-2327: package `libwmf` update to version 0.2.8.4-alt13",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-06-29",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -23898,43 +24072,43 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26641000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266410000000",
                 "title": "USN-2664-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26811000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268110000000",
                 "title": "USN-2681-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26831000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268310000000",
                 "title": "USN-2683-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-07",
-                "def_id": "oval:com.ubuntu.trusty:def:26641000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:266410000000",
                 "title": "USN-2664-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26811000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268110000000",
                 "title": "USN-2681-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26831000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268310000000",
                 "title": "USN-2683-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -24456,6 +24630,20 @@
                 "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-4731": [
@@ -24908,15 +25096,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -26478,15 +26666,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -28048,15 +28236,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -29618,15 +29806,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -31188,15 +31376,15 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -32835,29 +33023,29 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-09-16",
-                "def_id": "oval:com.ubuntu.trusty:def:27401000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:274010000000",
                 "title": "USN-2740-1 -- ICU vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:26961000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:269610000000",
                 "title": "USN-2696-1 -- OpenJDK 7 vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-09-16",
-                "def_id": "oval:com.ubuntu.trusty:def:27401000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:274010000000",
                 "title": "USN-2740-1 -- ICU vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -34060,6 +34248,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-5117": [
@@ -34153,6 +34348,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-5118": [
@@ -34246,6 +34448,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-5119": [
@@ -34339,6 +34548,13 @@
                 "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20151596",
+                "title": "ALT-PU-2015-1596: package `adobe-flash-player` update to version 11-alt47",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-5122": [
@@ -34474,6 +34690,20 @@
                 "title": "ALT-PU-2015-1616: package `adobe-flash-player` update to version 11-alt51",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-14",
+                "def_id": "oval:org.altlinux.errata:def:20151610",
+                "title": "ALT-PU-2015-1610: package `adobe-flash-player` update to version 11-alt50",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-07-18",
+                "def_id": "oval:org.altlinux.errata:def:20151616",
+                "title": "ALT-PU-2015-1616: package `adobe-flash-player` update to version 11-alt51",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-5123": [
@@ -34609,6 +34839,20 @@
                 "title": "ALT-PU-2015-1616: package `adobe-flash-player` update to version 11-alt51",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-14",
+                "def_id": "oval:org.altlinux.errata:def:20151610",
+                "title": "ALT-PU-2015-1610: package `adobe-flash-player` update to version 11-alt50",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-07-18",
+                "def_id": "oval:org.altlinux.errata:def:20151616",
+                "title": "ALT-PU-2015-1616: package `adobe-flash-player` update to version 11-alt51",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-5124": [
@@ -34702,6 +34946,13 @@
                 "title": "ALT-PU-2015-1674: package `adobe-flash-player` update to version 11-alt52",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-08-12",
+                "def_id": "oval:org.altlinux.errata:def:20151674",
+                "title": "ALT-PU-2015-1674: package `adobe-flash-player` update to version 11-alt52",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-5364": [
@@ -34825,43 +35076,43 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26811000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268110000000",
                 "title": "USN-2681-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26821000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268210000000",
                 "title": "USN-2682-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26831000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268310000000",
                 "title": "USN-2683-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26811000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268110000000",
                 "title": "USN-2681-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26821000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268210000000",
                 "title": "USN-2682-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26831000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268310000000",
                 "title": "USN-2683-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -35523,6 +35774,20 @@
                 "title": "ALT-PU-2015-1568: package `kernel-image-std-def` update to version 3.14.45-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-06-24",
+                "def_id": "oval:org.altlinux.errata:def:20151568",
+                "title": "ALT-PU-2015-1568: package `kernel-image-std-def` update to version 3.14.45-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
                 "date": "2015-09-22",
@@ -35653,43 +35918,43 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26811000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268110000000",
                 "title": "USN-2681-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26821000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268210000000",
                 "title": "USN-2682-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26831000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268310000000",
                 "title": "USN-2683-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26811000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268110000000",
                 "title": "USN-2681-1 -- Linux kernel vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26821000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268210000000",
                 "title": "USN-2682-1 -- Linux kernel (Utopic HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-07-23",
-                "def_id": "oval:com.ubuntu.trusty:def:26831000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:268310000000",
                 "title": "USN-2683-1 -- Linux kernel (Vivid HWE) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
@@ -36353,6 +36618,20 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2015-06-23",
+                "def_id": "oval:org.altlinux.errata:def:20151564",
+                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151849",
+                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-09-22",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -36474,6 +36753,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2017-04-04",
+                "def_id": "oval:org.altlinux.errata:def:20171425",
+                "title": "ALT-PU-2017-1425: package `pdns` update to version 4.0.3-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2015-07-09",
                 "def_id": "debian",
                 "title": "Debian email list",
@@ -36504,60 +36790,18 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.bionic:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.focal:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.trusty:def:73301000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:733010000000",
                 "title": "USN-7330-1 -- Ansible vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.xenial:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.bionic:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.bionic.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.focal:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.trusty:def:73301000000",
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:733010000000",
                 "title": "USN-7330-1 -- Ansible vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2025-03-05",
-                "def_id": "oval:com.ubuntu.xenial:def:73301000000",
-                "title": "USN-7330-1 -- Ansible vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2015-06-27",
@@ -36600,6 +36844,13 @@
                 "title": "ALT-PU-2015-1579: package `ansible` update to version 1.9.2-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-27",
+                "def_id": "oval:org.altlinux.errata:def:20151579",
+                "title": "ALT-PU-2015-1579: package `ansible` update to version 1.9.2-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
                 "date": "2019-09-16",
@@ -36651,6 +36902,13 @@
                 "title": "ALT-PU-2015-1558: package `glpi` update to version 0.85.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-20",
+                "def_id": "oval:org.altlinux.errata:def:20151558",
+                "title": "ALT-PU-2015-1558: package `glpi` update to version 0.85.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-7685": [
@@ -36695,6 +36953,13 @@
                 "title": "ALT-PU-2015-1558: package `glpi` update to version 0.85.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-20",
+                "def_id": "oval:org.altlinux.errata:def:20151558",
+                "title": "ALT-PU-2015-1558: package `glpi` update to version 0.85.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-8076": [
@@ -36739,6 +37004,13 @@
                 "title": "ALT-PU-2015-1604: package `cyrus-imapd` update to version 2.4.18-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-11",
+                "def_id": "oval:org.altlinux.errata:def:20151604",
+                "title": "ALT-PU-2015-1604: package `cyrus-imapd` update to version 2.4.18-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-8077": [
@@ -36825,6 +37097,20 @@
                 "title": "ALT-PU-2015-2092: package `cyrus-imapd` update to version 2.5.7-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-11",
+                "def_id": "oval:org.altlinux.errata:def:20151604",
+                "title": "ALT-PU-2015-1604: package `cyrus-imapd` update to version 2.4.18-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-12-12",
+                "def_id": "oval:org.altlinux.errata:def:20152092",
+                "title": "ALT-PU-2015-2092: package `cyrus-imapd` update to version 2.5.7-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2015-8078": [
@@ -36911,6 +37197,20 @@
                 "title": "ALT-PU-2015-2092: package `cyrus-imapd` update to version 2.5.7-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-07-11",
+                "def_id": "oval:org.altlinux.errata:def:20151604",
+                "title": "ALT-PU-2015-1604: package `cyrus-imapd` update to version 2.4.18-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-12-12",
+                "def_id": "oval:org.altlinux.errata:def:20152092",
+                "title": "ALT-PU-2015-2092: package `cyrus-imapd` update to version 2.5.7-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ]
     },
