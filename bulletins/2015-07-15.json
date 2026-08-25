@@ -8,6 +8,36 @@
     "patch_wednesday_start_date_ts": 1434574800,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2010-4651": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:278115778783572969630603202926206130396",
+                "title": "CVE-2010-4651 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:278115778783572969630603202926206130396",
+                "title": "CVE-2010-4651 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:278115778783572969630603202926206130396",
+                "title": "CVE-2010-4651 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2015-06-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2012-6531": [
             {
                 "date": "2015-06-20",
@@ -270,617 +300,97 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2014-9449": [
+        "CVE-2014-9637": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:60365952719056813898622282683801166582",
-                "title": "CVE-2014-9449 exiv2",
+                "def_id": "oval:org.debian:def:122531986148974787599781973806419629877",
+                "title": "CVE-2014-9637 patch",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:60365952719056813898622282683801166582",
-                "title": "CVE-2014-9449 exiv2",
+                "def_id": "oval:org.debian:def:122531986148974787599781973806419629877",
+                "title": "CVE-2014-9637 patch",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:60365952719056813898622282683801166582",
-                "title": "CVE-2014-9449 exiv2",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2015-06-29",
-                "def_id": "oval:org.altlinux.errata:def:20151581",
-                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2015-06-29",
-                "def_id": "oval:org.altlinux.errata:def:20151581",
-                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2015-06-29",
-                "def_id": "oval:org.altlinux.errata:def:20151581",
-                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2015-06-29",
-                "def_id": "oval:org.altlinux.errata:def:20151581",
-                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2015-06-29",
-                "def_id": "oval:org.altlinux.errata:def:20151581",
-                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
-                "date": "2015-06-29",
-                "def_id": "oval:org.altlinux.errata:def:20151581",
-                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
-                "date": "2015-06-29",
-                "def_id": "oval:org.altlinux.errata:def:20151581",
-                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            }
-        ],
-        "CVE-2015-0275": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:258737083746654180468725049032868348238",
-                "title": "CVE-2015-0275 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:258737083746654180468725049032868348238",
-                "title": "CVE-2015-0275 linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:258737083746654180468725049032868348238",
-                "title": "CVE-2015-0275 linux",
+                "def_id": "oval:org.debian:def:122531986148974787599781973806419629877",
+                "title": "CVE-2014-9637 patch",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:263510000000",
-                "title": "USN-2635-1 -- Linux kernel (Utopic HWE) vulnerabilities",
+                "def_id": "oval:com.ubuntu.trusty:def:265110000000",
+                "title": "USN-2651-1 -- GNU patch vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
                 "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:263610000000",
-                "title": "USN-2636-1 -- Linux kernel (Vivid HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:263510000000",
-                "title": "USN-2635-1 -- Linux kernel (Utopic HWE) vulnerabilities",
+                "def_id": "oval:com.ubuntu.trusty:def:265110000000",
+                "title": "USN-2651-1 -- GNU patch vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:263610000000",
-                "title": "USN-2636-1 -- Linux kernel (Vivid HWE) vulnerabilities",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.oracle.elsa:def:20151778",
-                "title": "ELSA-2015-1778:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2015.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.oracle.elsa:def:20151778",
-                "title": "ELSA-2015-1778:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.oracle.elsa:def:20151778",
-                "title": "ELSA-2015-1778:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151787",
-                "title": "RHSA-2015:1787: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/mrg-2.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151778",
-                "title": "RHSA-2015:1778: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2015-09-15",
-                "def_id": "oval:com.redhat.rhsa:def:20151788",
-                "title": "RHSA-2015:1788: kernel-rt security, bug fix, and enhancement update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
-            },
-            {
-                "date": "2015-06-23",
-                "def_id": "oval:org.altlinux.errata:def:20151564",
-                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151849",
-                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2015-06-23",
-                "def_id": "oval:org.altlinux.errata:def:20151564",
-                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151849",
-                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2015-06-23",
-                "def_id": "oval:org.altlinux.errata:def:20151564",
-                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151849",
-                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2015-06-23",
-                "def_id": "oval:org.altlinux.errata:def:20151564",
-                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151849",
-                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2015-06-23",
-                "def_id": "oval:org.altlinux.errata:def:20151564",
-                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151849",
-                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
-                "date": "2015-06-23",
-                "def_id": "oval:org.altlinux.errata:def:20151564",
-                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
                 "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151849",
-                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
-                "date": "2015-06-23",
-                "def_id": "oval:org.altlinux.errata:def:20151564",
-                "title": "ALT-PU-2015-1564: package `kernel-image-un-def` update to version 4.0.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2015-10-09",
-                "def_id": "oval:org.altlinux.errata:def:20151849",
-                "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+                "date": "2015-06-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0848": [
@@ -1296,6 +806,106 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-1196": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:28920043406786506087295407819032169404",
+                "title": "CVE-2015-1196 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:28920043406786506087295407819032169404",
+                "title": "CVE-2015-1196 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:28920043406786506087295407819032169404",
+                "title": "CVE-2015-1196 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265110000000",
+                "title": "USN-2651-1 -- GNU patch vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265110000000",
+                "title": "USN-2651-1 -- GNU patch vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-06-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-1266": [
@@ -1585,6 +1195,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-06-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-1267": [
@@ -1867,6 +1484,13 @@
                 "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-06-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-1268": [
@@ -2149,6 +1773,13 @@
                 "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-06-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-1269": [
@@ -2431,29 +2062,13 @@
                 "title": "ALT-PU-2015-1589: package `chromium` update to version 43.0.2357.130-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            }
-        ],
-        "CVE-2015-1323": [
-            {
-                "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:264810000000",
-                "title": "USN-2648-1 -- Aptdaemon vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:264810000000",
-                "title": "USN-2648-1 -- Aptdaemon vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
                 "date": "2015-06-30",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-1330": [
@@ -2526,6 +2141,199 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-1395": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:208512015408465146279024950496852407649",
+                "title": "CVE-2015-1395 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:208512015408465146279024950496852407649",
+                "title": "CVE-2015-1395 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:208512015408465146279024950496852407649",
+                "title": "CVE-2015-1395 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265110000000",
+                "title": "USN-2651-1 -- GNU patch vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265110000000",
+                "title": "USN-2651-1 -- GNU patch vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-06-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-1396": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75979277065813266756421660522501740528",
+                "title": "CVE-2015-1396 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75979277065813266756421660522501740528",
+                "title": "CVE-2015-1396 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75979277065813266756421660522501740528",
+                "title": "CVE-2015-1396 patch",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265110000000",
+                "title": "USN-2651-1 -- GNU patch vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265110000000",
+                "title": "USN-2651-1 -- GNU patch vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151846",
+                "title": "ALT-PU-2015-1846: package `patch` update to version 2.7.5.0.6.3270-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-06-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-1793": [
@@ -3153,6 +2961,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-11-16",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-1833": [
@@ -3255,6 +3070,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-08-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2141": [
@@ -4883,6 +4705,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2601": [
@@ -6453,6 +6282,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2621": [
@@ -8023,6 +7859,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2625": [
@@ -9565,6 +9408,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2628": [
@@ -10869,6 +10719,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2632": [
@@ -12523,6 +12380,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2659": [
@@ -13663,6 +13527,134 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-2726": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265610000000",
+                "title": "USN-2656-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265610000000",
+                "title": "USN-2656-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-08-10",
+                "def_id": "oval:org.altlinux.errata:def:20151667",
+                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-08-11",
+                "def_id": "oval:org.altlinux.errata:def:20151669",
+                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-08-10",
+                "def_id": "oval:org.altlinux.errata:def:20151667",
+                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-08-11",
+                "def_id": "oval:org.altlinux.errata:def:20151669",
+                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-08-10",
+                "def_id": "oval:org.altlinux.errata:def:20151667",
+                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-08-11",
+                "def_id": "oval:org.altlinux.errata:def:20151669",
+                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-08-10",
+                "def_id": "oval:org.altlinux.errata:def:20151667",
+                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-08-11",
+                "def_id": "oval:org.altlinux.errata:def:20151669",
+                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-08-10",
+                "def_id": "oval:org.altlinux.errata:def:20151667",
+                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-08-11",
+                "def_id": "oval:org.altlinux.errata:def:20151669",
+                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-08-10",
+                "def_id": "oval:org.altlinux.errata:def:20151667",
+                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-08-11",
+                "def_id": "oval:org.altlinux.errata:def:20151669",
+                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-08-10",
+                "def_id": "oval:org.altlinux.errata:def:20151667",
+                "title": "ALT-PU-2015-1667: package `firefox` update to version 39.0.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-08-11",
+                "def_id": "oval:org.altlinux.errata:def:20151669",
+                "title": "ALT-PU-2015-1669: package `firefox-esr` update to version 38.1.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-07-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2727": [
@@ -13938,6 +13930,372 @@
                 "title": "RHSA-2015:1207: firefox security update (Critical)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2015-07-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-2730": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
+                "title": "CVE-2015-2730 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
+                "title": "CVE-2015-2730 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2015-08-17",
+                "def_id": "oval:org.debian:def:280299278101319516252858366291070499254",
+                "title": "DSA-3336-1 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2015-08-17",
+                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
+                "title": "DSA-3336-1 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2015-08-17",
+                "def_id": "oval:org.debian:def:271333732435495758424495673723228352412",
+                "title": "DSA-3336-1 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-jessie.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
+                "title": "CVE-2015-2730 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2015-08-17",
+                "def_id": "oval:org.debian:def:280299278101319516252858366291070499254",
+                "title": "DSA-3336-1 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-08-17",
+                "def_id": "oval:org.debian:def:36730635114258317875337304526318401309",
+                "title": "DSA-3336-1 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-08-17",
+                "def_id": "oval:org.debian:def:271333732435495758424495673723228352412",
+                "title": "DSA-3336-1 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265610000000",
+                "title": "USN-2656-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267210000000",
+                "title": "USN-2672-1 -- NSS vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:265610000000",
+                "title": "USN-2656-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:267210000000",
+                "title": "USN-2672-1 -- NSS vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-08-24",
+                "def_id": "oval:com.oracle.elsa:def:20151664",
+                "title": "ELSA-2015-1664:  nss security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2015.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.oracle.elsa:def:20151699",
+                "title": "ELSA-2015-1699:  nss-softokn security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2015.xml.bz2"
+            },
+            {
+                "date": "2015-08-24",
+                "def_id": "oval:com.oracle.elsa:def:20151664",
+                "title": "ELSA-2015-1664:  nss security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.oracle.elsa:def:20151699",
+                "title": "ELSA-2015-1699:  nss-softokn security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.oracle.elsa:def:20151699",
+                "title": "ELSA-2015-1699:  nss-softokn security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.oracle.elsa:def:20151699",
+                "title": "ELSA-2015-1699:  nss-softokn security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-01",
+                "def_id": "oval:com.redhat.rhsa:def:20151699",
+                "title": "RHSA-2015:1699: nss-softokn security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2015-09-27",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-2967": [
@@ -17948,6 +18306,13 @@
                 "title": "ALT-PU-2015-1588: package `polkit` update to version 0.113-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2018-07-16",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-3256": [
@@ -18554,6 +18919,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-3279": [
@@ -18913,6 +19285,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-3281": [
@@ -19188,6 +19567,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-3335": [
@@ -19334,50 +19720,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2015-3905": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:185734223277875489527737571111759400006",
-                "title": "CVE-2015-3905 t1utils",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:185734223277875489527737571111759400006",
-                "title": "CVE-2015-3905 t1utils",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:185734223277875489527737571111759400006",
-                "title": "CVE-2015-3905 t1utils",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:262710000000",
-                "title": "USN-2627-1 -- t1utils vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:262710000000",
-                "title": "USN-2627-1 -- t1utils vulnerability",
-                "type": "ubuntu",
-                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
-            },
-            {
-                "date": "2015-06-29",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
         "CVE-2015-3908": [
             {
                 "date": "2024-05-15",
@@ -19469,6 +19811,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2025-03-05",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4001": [
@@ -19632,6 +19981,13 @@
                 "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-07-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4002": [
@@ -19795,6 +20151,13 @@
                 "title": "ALT-PU-2015-1568: package `kernel-image-std-def` update to version 3.14.45-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-07-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4003": [
@@ -19958,6 +20321,13 @@
                 "title": "ALT-PU-2015-1568: package `kernel-image-std-def` update to version 3.14.45-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-07-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4342": [
@@ -21271,6 +21641,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4598": [
@@ -21784,6 +22161,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4620": [
@@ -22157,6 +22541,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4625": [
@@ -22243,6 +22634,13 @@
                 "title": "ALT-PU-2015-1588: package `polkit` update to version 0.113-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2018-07-16",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4643": [
@@ -22714,6 +23112,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4644": [
@@ -22954,6 +23359,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4651": [
@@ -23562,6 +23974,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4696": [
@@ -23977,6 +24396,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-08",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4700": [
@@ -24644,6 +25070,13 @@
                 "title": "ALT-PU-2015-1849: package `kernel-image-std-def` update to version 4.1.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-07-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4731": [
@@ -26214,6 +26647,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4732": [
@@ -27784,6 +28224,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4733": [
@@ -29354,6 +29801,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4748": [
@@ -30924,6 +31378,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4749": [
@@ -32494,6 +32955,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-4760": [
@@ -34155,6 +34623,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-5116": [
@@ -35795,6 +36270,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-5366": [
@@ -36637,6 +37119,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-07-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-5470": [
@@ -36858,6 +37347,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2025-03-05",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-7684": [

@@ -80,57 +80,90 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
-        "CVE-2013-2074": [
-            {
-                "date": "2017-05-25",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2014-9841": [
+        "CVE-2014-3248": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:98134797693907084027178169281470165803",
-                "title": "CVE-2014-9841 imagemagick",
+                "def_id": "oval:org.debian:def:84110281797674448040988514355302289361",
+                "title": "CVE-2014-3248 facter",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:98134797693907084027178169281470165803",
-                "title": "CVE-2014-9841 imagemagick",
+                "def_id": "oval:org.debian:def:35011024686614436096575491089919293235",
+                "title": "CVE-2014-3248 hiera",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16583476608668848666163068129162149047",
+                "title": "CVE-2014-3248 mcollective",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:84110281797674448040988514355302289361",
+                "title": "CVE-2014-3248 facter",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:98134797693907084027178169281470165803",
-                "title": "CVE-2014-9841 imagemagick",
+                "def_id": "oval:org.debian:def:35011024686614436096575491089919293235",
+                "title": "CVE-2014-3248 hiera",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:16583476608668848666163068129162149047",
+                "title": "CVE-2014-3248 mcollective",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3089248214770333519143935727436105686",
+                "title": "CVE-2014-3248 puppet",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:84110281797674448040988514355302289361",
+                "title": "CVE-2014-3248 facter",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:35011024686614436096575491089919293235",
+                "title": "CVE-2014-3248 hiera",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
                 "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:313110000000",
-                "title": "USN-3131-1 -- ImageMagick vulnerabilities",
+                "def_id": "oval:com.ubuntu.trusty:def:330810000000",
+                "title": "USN-3308-1 -- Puppet vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
                 "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:313110000000",
-                "title": "USN-3131-1 -- ImageMagick vulnerabilities",
+                "def_id": "oval:com.ubuntu.trusty:def:330810000000",
+                "title": "USN-3308-1 -- Puppet vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2017-05-29",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
+                "date": "2017-06-05",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-7686": [
@@ -858,6 +891,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2019-06-03",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2016-10371": [
@@ -930,6 +970,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2018-03-20",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2016-10375": [
@@ -1171,6 +1218,211 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/cfme-5.8.oval.xml.bz2"
             }
         ],
+        "CVE-2016-4491": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:162412530260816419384564493984315270465",
+                "title": "CVE-2016-4491 binutils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:199490826524659409325996599229682867248",
+                "title": "CVE-2016-4491 libiberty",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:162412530260816419384564493984315270465",
+                "title": "CVE-2016-4491 binutils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:199490826524659409325996599229682867248",
+                "title": "CVE-2016-4491 libiberty",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:162412530260816419384564493984315270465",
+                "title": "CVE-2016-4491 binutils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:199490826524659409325996599229682867248",
+                "title": "CVE-2016-4491 libiberty",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:333710000000",
+                "title": "USN-3337-1 -- Valgrind vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:336710000000",
+                "title": "USN-3367-1 -- gdb vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:336810000000",
+                "title": "USN-3368-1 -- libiberty vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:433620000000",
+                "title": "USN-4336-2 -- GNU binutils vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:333710000000",
+                "title": "USN-3337-1 -- Valgrind vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:336710000000",
+                "title": "USN-3367-1 -- gdb vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:336810000000",
+                "title": "USN-3368-1 -- libiberty vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:333710000000",
+                "title": "USN-3337-1 -- Valgrind vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:336710000000",
+                "title": "USN-3367-1 -- gdb vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:336810000000",
+                "title": "USN-3368-1 -- libiberty vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:433620000000",
+                "title": "USN-4336-2 -- GNU binutils vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:333710000000",
+                "title": "USN-3337-1 -- Valgrind vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:336710000000",
+                "title": "USN-3367-1 -- gdb vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:336810000000",
+                "title": "USN-3368-1 -- libiberty vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:433620000000",
+                "title": "USN-4336-2 -- GNU binutils vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:333710000000",
+                "title": "USN-3337-1 -- Valgrind vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:336710000000",
+                "title": "USN-3367-1 -- gdb vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:336810000000",
+                "title": "USN-3368-1 -- libiberty vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:333710000000",
+                "title": "USN-3337-1 -- Valgrind vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:336710000000",
+                "title": "USN-3367-1 -- gdb vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:336810000000",
+                "title": "USN-3368-1 -- libiberty vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:433620000000",
+                "title": "USN-4336-2 -- GNU binutils vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2016-6127": [
             {
                 "date": "2024-05-15",
@@ -1350,6 +1602,222 @@
                 "title": "RHSA-2017:1253: Red Hat JBoss Enterprise Application Platform 6.4.15 update on RHEL 7 (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/jboss-eap-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2017-0350": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:50730855539601894574930844439455621191",
+                "title": "CVE-2017-0350 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:50730855539601894574930844439455621191",
+                "title": "CVE-2017-0350 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:50730855539601894574930844439455621191",
+                "title": "CVE-2017-0350 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-05-31",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2017-0351": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:23480034395982581616860560600434894657",
+                "title": "CVE-2017-0351 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:23480034395982581616860560600434894657",
+                "title": "CVE-2017-0351 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:23480034395982581616860560600434894657",
+                "title": "CVE-2017-0351 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-05-31",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2017-0352": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:42216557167239673696006348295509947807",
+                "title": "CVE-2017-0352 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:42216557167239673696006348295509947807",
+                "title": "CVE-2017-0352 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:42216557167239673696006348295509947807",
+                "title": "CVE-2017-0352 nvidia-graphics-drivers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:330510000000",
+                "title": "USN-3305-1 -- NVIDIA graphics drivers vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-05-31",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-0375": [
@@ -1601,6 +2069,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-1000061": [
@@ -1841,6 +2316,13 @@
                 "title": "ALT-PU-2017-1664: package `libxmlsec1` update to version 1.2.24-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2022-10-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-1000121": [
@@ -2428,6 +2910,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-1000364": [
@@ -3515,6 +4004,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-1000366": [
@@ -3965,6 +4461,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-1000367": [
@@ -4359,6 +4862,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-1000368": [
@@ -4676,6 +5186,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2019-05-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-1000369": [
@@ -4825,6 +5342,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-1000379": [
@@ -5655,6 +6179,13 @@
                 "title": "ALT-PU-2017-1685: package `vlc` update to version 3.0.0-alt1.git7b57ce6",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2021-03-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-17670": [
@@ -5827,6 +6358,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-05",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-2360": [
@@ -5978,6 +6516,13 @@
                 "title": "ALT-PU-2017-1662: package `libwebkitgtk4` update to version 2.16.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-2510": [
@@ -6078,6 +6623,13 @@
                 "title": "ALT-PU-2017-1662: package `libwebkitgtk4` update to version 2.16.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-2539": [
@@ -6178,6 +6730,13 @@
                 "title": "ALT-PU-2017-1662: package `libwebkitgtk4` update to version 2.16.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-2595": [
@@ -6275,6 +6834,13 @@
                 "title": "RHSA-2017:1461: openstack-keystone security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/openstack-9.oval.xml.bz2"
+            },
+            {
+                "date": "2017-10-11",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-3075": [
@@ -11120,6 +11686,162 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2017-5471": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5472": [
@@ -12305,6 +13027,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5595": [
@@ -12477,6 +13206,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2021-03-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5645": [
@@ -13153,6 +13889,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2018-01-08",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5943": [
@@ -13523,6 +14266,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5975": [
@@ -13707,6 +14457,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5976": [
@@ -13891,6 +14648,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5977": [
@@ -14210,6 +14974,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5979": [
@@ -14394,6 +15165,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5980": [
@@ -14578,6 +15356,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5981": [
@@ -14762,6 +15547,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-5982": [
@@ -14978,6 +15770,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2018-04-16",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-6840": [
@@ -15350,6 +16149,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-05",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-6892": [
@@ -15485,6 +16291,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2019-06-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-6960": [
@@ -15543,6 +16356,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2020-09-17",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7378": [
@@ -16248,6 +17068,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7493": [
@@ -16432,6 +17259,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-09-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7494": [
@@ -17043,6 +17877,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-24",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7502": [
@@ -17402,6 +18243,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7507": [
@@ -17740,6 +18588,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7508": [
@@ -17917,6 +18772,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7514": [
@@ -18103,6 +18965,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7521": [
@@ -18273,6 +19142,13 @@
                 "title": "ALT-PU-2017-1766: package `openvpn` update to version 2.4.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2017-06-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7522": [
@@ -19623,6 +20499,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7750": [
@@ -20808,6 +21691,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7751": [
@@ -21993,6 +22883,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7752": [
@@ -23178,6 +24075,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7754": [
@@ -24363,6 +25267,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7756": [
@@ -25548,6 +26459,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7757": [
@@ -26733,6 +27651,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7758": [
@@ -27918,6 +28843,295 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2017-7762": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:331510000000",
+                "title": "USN-3315-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2018-07-04",
+                "def_id": "oval:com.oracle.elsa:def:20182113",
+                "title": "ELSA-2018-2113:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2018.xml.bz2"
+            },
+            {
+                "date": "2018-07-04",
+                "def_id": "oval:com.oracle.elsa:def:20182113",
+                "title": "ELSA-2018-2113:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2018-07-04",
+                "def_id": "oval:com.oracle.elsa:def:20182113",
+                "title": "ELSA-2018-2113:  firefox security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182112",
+                "title": "RHSA-2018:2112: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182112",
+                "title": "RHSA-2018:2112: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182112",
+                "title": "RHSA-2018:2112: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-28",
+                "def_id": "oval:com.redhat.rhsa:def:20182113",
+                "title": "RHSA-2018:2113: firefox security update (Critical)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2017-07-15",
+                "def_id": "oval:org.altlinux.errata:def:20171886",
+                "title": "ALT-PU-2017-1886: package `firefox` update to version 54.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2018-06-05",
+                "def_id": "oval:org.altlinux.errata:def:20181854",
+                "title": "ALT-PU-2018-1854: package `firefox-esr` update to version 60.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7764": [
@@ -29103,6 +30317,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7771": [
@@ -30575,6 +31796,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7772": [
@@ -32047,6 +33275,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7773": [
@@ -33519,6 +34754,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7774": [
@@ -34991,6 +36233,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7775": [
@@ -35686,6 +36935,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7776": [
@@ -37158,6 +38414,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7777": [
@@ -38630,6 +39893,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7778": [
@@ -40151,6 +41421,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7941": [
@@ -40412,6 +41689,43 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2017-7942": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:120354335500498863931962048616099797837",
+                "title": "CVE-2017-7942 imagemagick",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:120354335500498863931962048616099797837",
+                "title": "CVE-2017-7942 imagemagick",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:120354335500498863931962048616099797837",
+                "title": "CVE-2017-7942 imagemagick",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-7943": [
@@ -40673,6 +41987,22 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2017-7979": [
+            {
+                "date": "2017-06-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8295": [
@@ -41527,6 +42857,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8344": [
@@ -41788,6 +43125,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8345": [
@@ -42049,6 +43393,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8346": [
@@ -42310,6 +43661,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8347": [
@@ -42571,6 +43929,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8348": [
@@ -42832,6 +44197,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8349": [
@@ -43093,6 +44465,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8350": [
@@ -43354,6 +44733,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8351": [
@@ -43615,6 +45001,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8352": [
@@ -43876,6 +45269,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8353": [
@@ -44137,6 +45537,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8354": [
@@ -44398,6 +45805,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8355": [
@@ -44659,6 +46073,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8356": [
@@ -44920,6 +46341,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8357": [
@@ -45181,6 +46609,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8361": [
@@ -45302,6 +46737,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8362": [
@@ -45423,6 +46865,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8363": [
@@ -45544,6 +46993,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8364": [
@@ -45744,6 +47200,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8366": [
@@ -46067,6 +47530,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8782": [
@@ -46148,6 +47618,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-24",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8825": [
@@ -46220,6 +47697,64 @@
                 "title": "ALT-PU-2017-1756: package `libetpan` update to version 1.8-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            }
+        ],
+        "CVE-2017-8829": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:215938789540907095351933142967087618698",
+                "title": "CVE-2017-8829 lintian",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:215938789540907095351933142967087618698",
+                "title": "CVE-2017-8829 lintian",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:215938789540907095351933142967087618698",
+                "title": "CVE-2017-8829 lintian",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:331010000000",
+                "title": "USN-3310-1 -- lintian vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:331010000000",
+                "title": "USN-3310-1 -- lintian vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:331010000000",
+                "title": "USN-3310-1 -- lintian vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:331010000000",
+                "title": "USN-3310-1 -- lintian vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-06-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8830": [
@@ -46481,6 +48016,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8849": [
@@ -47521,6 +49063,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-8911": [
@@ -47707,6 +49256,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9023": [
@@ -47849,6 +49405,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9061": [
@@ -49079,6 +50642,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9075": [
@@ -50005,6 +51575,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9076": [
@@ -50882,6 +52459,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9077": [
@@ -51836,6 +53420,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9078": [
@@ -52416,6 +54007,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9118": [
@@ -52670,6 +54268,13 @@
                 "title": "ALT-PU-2021-3587: package `php7` update to version 7.4.27-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2022-02-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9119": [
@@ -52805,6 +54410,13 @@
                 "title": "ALT-PU-2017-1707: package `php7` update to version 7.1.6-alt1.S1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2022-02-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9120": [
@@ -53038,6 +54650,13 @@
                 "title": "ALT-PU-2021-2700: package `php7` update to version 7.4.23-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2022-02-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9141": [
@@ -53299,6 +54918,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9142": [
@@ -53560,6 +55186,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9143": [
@@ -53821,6 +55454,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9144": [
@@ -54082,6 +55722,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-05-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9147": [
@@ -54140,6 +55787,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2018-03-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9148": [
@@ -54338,6 +55992,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9224": [
@@ -54571,6 +56232,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-08-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9226": [
@@ -54804,6 +56472,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-08-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9227": [
@@ -55037,6 +56712,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-08-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9228": [
@@ -55270,6 +56952,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-08-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9229": [
@@ -55503,6 +57192,64 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-08-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2017-9232": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:330010000000",
+                "title": "USN-3300-1 -- juju-core vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:330010000000",
+                "title": "USN-3300-1 -- juju-core vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:330010000000",
+                "title": "USN-3300-1 -- juju-core vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:330010000000",
+                "title": "USN-3300-1 -- juju-core vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:330010000000",
+                "title": "USN-3300-1 -- juju-core vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.xenial:def:330010000000",
+                "title": "USN-3300-1 -- juju-core vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2017-05-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9233": [
@@ -55806,6 +57553,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-07-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9239": [
@@ -55927,6 +57681,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2019-01-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9242": [
@@ -56692,6 +58453,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9287": [
@@ -57030,6 +58798,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9300": [
@@ -58889,6 +60664,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2018-03-20",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9404": [
@@ -58961,6 +60743,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2018-03-20",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9433": [
@@ -59096,6 +60885,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9468": [
@@ -59259,6 +61055,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9469": [
@@ -59422,6 +61225,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-06-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9502": [
@@ -59643,6 +61453,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2017-07-03",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9545": [
@@ -59715,6 +61532,13 @@
                 "title": "ALT-PU-2017-1672: package `mpg123` update to version 1.25.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2021-03-17",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-9736": [
@@ -60008,6 +61832,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2021-03-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2018-16881": [
@@ -60192,6 +62023,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2022-05-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ]
     },

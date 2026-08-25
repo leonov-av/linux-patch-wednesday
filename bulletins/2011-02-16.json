@@ -8,6 +8,36 @@
     "patch_wednesday_start_date_ts": 1295470800,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2007-2448": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:327207204933546996784083407525953581154",
+                "title": "CVE-2007-2448 subversion",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:327207204933546996784083407525953581154",
+                "title": "CVE-2007-2448 subversion",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:327207204933546996784083407525953581154",
+                "title": "CVE-2007-2448 subversion",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2008-5983": [
             {
                 "date": "2011-01-20",
@@ -22,6 +52,13 @@
                 "title": "ELSA-2011-0027:  python security, bug fix, and enhancement update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-10-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2009-4134": [
@@ -36,43 +73,6 @@
                 "date": "2011-01-20",
                 "def_id": "oval:com.oracle.elsa:def:20110027",
                 "title": "ELSA-2011-0027:  python security, bug fix, and enhancement update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2010-0831": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:131859823243376033996916437649124196497",
-                "title": "CVE-2010-0831 fastjar",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:131859823243376033996916437649124196497",
-                "title": "CVE-2010-0831 fastjar",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:131859823243376033996916437649124196497",
-                "title": "CVE-2010-0831 fastjar",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110025",
-                "title": "ELSA-2011-0025:  gcc security and bug fix update (LOW)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110025",
-                "title": "ELSA-2011-0025:  gcc security and bug fix update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
@@ -130,6 +130,13 @@
                 "title": "ELSA-2011-0027:  python security, bug fix, and enhancement update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-10-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1780": [
@@ -2164,6 +2171,66 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2010-2023": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3780524560627683484997182149673029396",
+                "title": "CVE-2010-2023 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3780524560627683484997182149673029396",
+                "title": "CVE-2010-2023 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:3780524560627683484997182149673029396",
+                "title": "CVE-2010-2023 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-02-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-2024": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:246772245031974972559829810241742360152",
+                "title": "CVE-2010-2024 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:246772245031974972559829810241742360152",
+                "title": "CVE-2010-2024 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:246772245031974972559829810241742360152",
+                "title": "CVE-2010-2024 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-02-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2010-2089": [
             {
                 "date": "2024-05-15",
@@ -2185,6 +2252,13 @@
                 "title": "ELSA-2011-0027:  python security, bug fix, and enhancement update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2012-10-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-2322": [
@@ -2222,6 +2296,15 @@
                 "title": "ELSA-2011-0025:  gcc security and bug fix update (LOW)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2010-2936": [
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3113": [
@@ -3304,153 +3387,34 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
-        "CVE-2010-3296": [
+        "CVE-2010-3304": [
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:259591035825448116715561364195486104163",
+                "title": "CVE-2010-3304 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:259591035825448116715561364195486104163",
+                "title": "CVE-2010-3304 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2011-01-20",
-                "def_id": "oval:com.oracle.elsa:def:20110017",
-                "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:259591035825448116715561364195486104163",
+                "title": "CVE-2010-3304 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+                "date": "2011-02-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3429": [
@@ -3481,6 +3445,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3450": [
@@ -3623,6 +3594,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3451": [
@@ -3758,6 +3736,13 @@
                 "title": "RHSA-2011:0183: openoffice.org security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3452": [
@@ -3893,6 +3878,13 @@
                 "title": "RHSA-2011:0183: openoffice.org security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3453": [
@@ -4028,6 +4020,13 @@
                 "title": "RHSA-2011:0183: openoffice.org security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3454": [
@@ -4163,6 +4162,13 @@
                 "title": "RHSA-2011:0183: openoffice.org security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3689": [
@@ -4298,157 +4304,206 @@
                 "title": "RHSA-2011:0183: openoffice.org security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
-        "CVE-2010-3709": [
+        "CVE-2010-3706": [
             {
-                "date": "2011-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20110195",
-                "title": "ELSA-2011-0195:  php security update (MODERATE)",
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:39129600851045061277698437211844726615",
+                "title": "CVE-2010-3706 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:39129600851045061277698437211844726615",
+                "title": "CVE-2010-3706 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:39129600851045061277698437211844726615",
+                "title": "CVE-2010-3706 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-02-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-3707": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:218198989163208671090970373732435948767",
+                "title": "CVE-2010-3707 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:218198989163208671090970373732435948767",
+                "title": "CVE-2010-3707 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:218198989163208671090970373732435948767",
+                "title": "CVE-2010-3707 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110600",
+                "title": "ELSA-2011-0600:  dovecot security and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20110195",
-                "title": "ELSA-2011-0195:  php security update (MODERATE)",
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110600",
+                "title": "ELSA-2011-0600:  dovecot security and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20110195",
-                "title": "ELSA-2011-0195:  php security update (MODERATE)",
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110600",
+                "title": "ELSA-2011-0600:  dovecot security and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2010-3710": [
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.oracle.elsa:def:20110196",
-                "title": "ELSA-2011-0196:  php53 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.oracle.elsa:def:20110196",
-                "title": "ELSA-2011-0196:  php53 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2011-02-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3718": [
@@ -4605,6 +4660,206 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-03-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-3779": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142760508392845963661009313485955616083",
+                "title": "CVE-2010-3779 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142760508392845963661009313485955616083",
+                "title": "CVE-2010-3779 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142760508392845963661009313485955616083",
+                "title": "CVE-2010-3779 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-02-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-3780": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:225963518988803604818232869980640854844",
+                "title": "CVE-2010-3780 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:225963518988803604818232869980640854844",
+                "title": "CVE-2010-3780 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:225963518988803604818232869980640854844",
+                "title": "CVE-2010-3780 dovecot",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110600",
+                "title": "ELSA-2011-0600:  dovecot security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110600",
+                "title": "ELSA-2011-0600:  dovecot security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110600",
+                "title": "ELSA-2011-0600:  dovecot security and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110600",
+                "title": "RHSA-2011:0600: dovecot security and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3812": [
@@ -4740,6 +4995,13 @@
                 "title": "RHSA-2011:0177: webkitgtk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-08-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3813": [
@@ -4875,52 +5137,22 @@
                 "title": "RHSA-2011:0177: webkitgtk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-08-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
-        "CVE-2010-3814": [
+        "CVE-2010-3873": [
             {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:30746896323583610274053454058186034694",
-                "title": "CVE-2010-3814 freetype",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:30746896323583610274053454058186034694",
-                "title": "CVE-2010-3814 freetype",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:30746896323583610274053454058186034694",
-                "title": "CVE-2010-3814 freetype",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2011-01-30",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2010-3860": [
-            {
-                "date": "2011-01-25",
-                "def_id": "oval:com.oracle.elsa:def:20110176",
-                "title": "ELSA-2011-0176:  java-1.6.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-01-25",
-                "def_id": "oval:com.oracle.elsa:def:20110176",
-                "title": "ELSA-2011-0176:  java-1.6.0-openjdk security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3877": [
@@ -4937,6 +5169,13 @@
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-02-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4015": [
@@ -5093,6 +5332,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-02-03",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4022": [
@@ -5249,22 +5495,499 @@
                 "title": "RHSA-2011:0200: krb5 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
-        "CVE-2010-4156": [
+        "CVE-2010-4164": [
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.oracle.elsa:def:20110196",
-                "title": "ELSA-2011-0196:  php53 security update (MODERATE)",
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4165": [
+            {
+                "date": "2011-02-23",
+                "def_id": "oval:com.oracle.elsa:def:20110283",
+                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.oracle.elsa:def:20110196",
-                "title": "ELSA-2011-0196:  php53 security update (MODERATE)",
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-02-23",
+                "def_id": "oval:com.oracle.elsa:def:20110283",
+                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-02-23",
+                "def_id": "oval:com.oracle.elsa:def:20110283",
+                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4169": [
+            {
+                "date": "2011-02-23",
+                "def_id": "oval:com.oracle.elsa:def:20110283",
+                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-02-23",
+                "def_id": "oval:com.oracle.elsa:def:20110283",
+                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-02-23",
+                "def_id": "oval:com.oracle.elsa:def:20110283",
+                "title": "ELSA-2011-0283:  kernel security, bug fix, and enhancement update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-03-16",
+                "def_id": "oval:com.oracle.elsa:def:20112010",
+                "title": "ELSA-2011-2010:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-22",
+                "def_id": "oval:com.redhat.rhsa:def:20110283",
+                "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4172": [
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110791",
+                "title": "ELSA-2011-0791:  tomcat6 security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110791",
+                "title": "ELSA-2011-0791:  tomcat6 security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110791",
+                "title": "ELSA-2011-0791:  tomcat6 security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-01-24",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4175": [
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4197": [
@@ -5400,6 +6123,13 @@
                 "title": "RHSA-2011:0177: webkitgtk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-08-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4198": [
@@ -5535,6 +6265,13 @@
                 "title": "RHSA-2011:0177: webkitgtk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-08-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4204": [
@@ -5670,6 +6407,13 @@
                 "title": "RHSA-2011:0177: webkitgtk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-08-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4206": [
@@ -5805,6 +6549,13 @@
                 "title": "RHSA-2011:0177: webkitgtk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-08-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4238": [
@@ -5821,6 +6572,13 @@
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-08-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4243": [
@@ -5977,6 +6735,13 @@
                 "title": "RHSA-2011:0283: kernel security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4253": [
@@ -6112,6 +6877,13 @@
                 "title": "RHSA-2011:0183: openoffice.org security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4255": [
@@ -6151,6 +6923,24 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2010-4256": [
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4258": [
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2010-4343": [
             {
                 "date": "2011-01-20",
@@ -6165,6 +6955,13 @@
                 "title": "ELSA-2011-0017:  Oracle Linux 5.6 kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4351": [
@@ -6188,169 +6985,43 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-01-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
-        "CVE-2010-4352": [
+        "CVE-2010-4369": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:169006303674770889946094574501751628517",
-                "title": "CVE-2010-4352 dbus",
+                "def_id": "oval:org.debian:def:338023174710813690076602953700511034438",
+                "title": "CVE-2010-4369 awstats",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:169006303674770889946094574501751628517",
-                "title": "CVE-2010-4352 dbus",
+                "def_id": "oval:org.debian:def:338023174710813690076602953700511034438",
+                "title": "CVE-2010-4369 awstats",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:169006303674770889946094574501751628517",
-                "title": "CVE-2010-4352 dbus",
+                "def_id": "oval:org.debian:def:338023174710813690076602953700511034438",
+                "title": "CVE-2010-4369 awstats",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2011-03-22",
-                "def_id": "oval:com.oracle.elsa:def:20110376",
-                "title": "ELSA-2011-0376:  dbus security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.oracle.elsa:def:20110376",
-                "title": "ELSA-2011-0376:  dbus security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.oracle.elsa:def:20110376",
-                "title": "ELSA-2011-0376:  dbus security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-03-22",
-                "def_id": "oval:com.redhat.rhsa:def:20110376",
-                "title": "RHSA-2011:0376: dbus security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            },
-            {
-                "date": "2011-01-20",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
+                "date": "2011-01-24",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4476": [
@@ -6976,6 +7647,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-03-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4526": [
@@ -7132,6 +7810,13 @@
                 "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4531": [
@@ -7295,6 +7980,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4539": [
@@ -7465,6 +8157,13 @@
                 "title": "RHSA-2011:0258: subversion security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4577": [
@@ -7600,6 +8299,13 @@
                 "title": "RHSA-2011:0177: webkitgtk security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-08-23",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4643": [
@@ -7735,6 +8441,13 @@
                 "title": "RHSA-2011:0183: openoffice.org security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4644": [
@@ -7905,155 +8618,13 @@
                 "title": "RHSA-2011:0258: subversion security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
-            }
-        ],
-        "CVE-2010-4645": [
-            {
-                "date": "2011-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20110195",
-                "title": "ELSA-2011-0195:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-02-03",
-                "def_id": "oval:com.oracle.elsa:def:20110196",
-                "title": "ELSA-2011-0196:  php53 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20110195",
-                "title": "ELSA-2011-0195:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.oracle.elsa:def:20110196",
-                "title": "ELSA-2011-0196:  php53 security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2011-02-10",
-                "def_id": "oval:com.oracle.elsa:def:20110195",
-                "title": "ELSA-2011-0195:  php security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-02-03",
-                "def_id": "oval:com.redhat.rhsa:def:20110195",
-                "title": "RHSA-2011:0195: php security update (Moderate)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0002": [
@@ -8221,6 +8792,332 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2011-0010": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:302199251997708732610054987242506101340",
+                "title": "CVE-2011-0010 sudo",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:302199251997708732610054987242506101340",
+                "title": "CVE-2011-0010 sudo",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:302199251997708732610054987242506101340",
+                "title": "CVE-2011-0010 sudo",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110599",
+                "title": "ELSA-2011-0599:  sudo security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2012-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20120309",
+                "title": "ELSA-2012-0309:  sudo security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20120309",
+                "title": "ELSA-2012-0309:  sudo security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110599",
+                "title": "ELSA-2011-0599:  sudo security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110599",
+                "title": "ELSA-2011-0599:  sudo security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110599",
+                "title": "RHSA-2011:0599: sudo security and bug fix update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-01-20",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-0011": [
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.oracle.elsa:def:20110345",
+                "title": "ELSA-2011-0345:  qemu-kvm security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.oracle.elsa:def:20110345",
+                "title": "ELSA-2011-0345:  qemu-kvm security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.oracle.elsa:def:20110345",
+                "title": "ELSA-2011-0345:  qemu-kvm security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110345",
+                "title": "RHSA-2011:0345: qemu-kvm security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-01",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-02-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2011-0014": [
             {
                 "date": "2024-05-15",
@@ -8382,6 +9279,43 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-02-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-0017": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:167966937319201891635900931180604812664",
+                "title": "CVE-2011-0017 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:167966937319201891635900931180604812664",
+                "title": "CVE-2011-0017 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:167966937319201891635900931180604812664",
+                "title": "CVE-2011-0017 exim4",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-02-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0020": [
@@ -8538,6 +9472,22 @@
                 "title": "RHSA-2011:0180: pango security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-0025": [
+            {
+                "date": "2011-02-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0050": [
@@ -8717,6 +9667,13 @@
                 "title": "RHSA-2011:0200: krb5 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0282": [
@@ -8887,6 +9844,13 @@
                 "title": "RHSA-2011:0200: krb5 security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-02-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0413": [
@@ -10622,6 +11586,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-02-17",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0721": [
@@ -10652,6 +11623,22 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-02-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-0724": [
+            {
+                "date": "2011-02-11",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0777": [

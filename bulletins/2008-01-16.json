@@ -8,13 +8,13 @@
     "patch_wednesday_start_date_ts": 1198098000,
     "status": "Released",
     "vulnerabilities": {
-        "CVE-2006-6058": [
+        "CVE-2005-4790": [
             {
-                "date": "2007-12-20",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
+                "date": "2008-01-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-2807": [
@@ -68,6 +68,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2008-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3641": [
@@ -121,6 +128,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-12-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4321": [
@@ -188,6 +202,99 @@
                 "title": "ELSA-2008-0008:  Moderate: httpd security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-4752": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:59546472003029462623023229519347942697",
+                "title": "CVE-2007-4752 openssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:59546472003029462623023229519347942697",
+                "title": "CVE-2007-4752 openssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:59546472003029462623023229519347942697",
+                "title": "CVE-2007-4752 openssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-08-22",
+                "def_id": "oval:com.oracle.elsa:def:20080855",
+                "title": "ELSA-2008-0855:  openssh security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2008.xml.bz2"
+            },
+            {
+                "date": "2008-08-22",
+                "def_id": "oval:com.oracle.elsa:def:20080855",
+                "title": "ELSA-2008-0855:  openssh security update (CRITICAL)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2024-03-18",
+                "def_id": "oval:org.altlinux.errata:def:20243921",
+                "title": "ALT-PU-2024-3921: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-07-08",
+                "def_id": "oval:org.altlinux.errata:def:20249513",
+                "title": "ALT-PU-2024-9513: package `openssh-gostcrypto` update to version 9.6p1-alt2.gost",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2024-03-19",
+                "def_id": "oval:org.altlinux.errata:def:20244077",
+                "title": "ALT-PU-2024-4077: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2024-03-28",
+                "def_id": "oval:org.altlinux.errata:def:20244467",
+                "title": "ALT-PU-2024-4467: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2024-03-20",
+                "def_id": "oval:org.altlinux.errata:def:20244182",
+                "title": "ALT-PU-2024-4182: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2008-05-14",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2008-01-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4769": [
@@ -267,6 +374,13 @@
                 "title": "ALT-PU-2017-1441: package `tcl` update to version 8.6.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2008-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4772": [
@@ -297,57 +411,31 @@
                 "title": "ELSA-2008-0038:  Moderate: postgresql security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
-        "CVE-2007-4974": [
+        "CVE-2007-4897": [
             {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:208623169276136481859154837401069757355",
-                "title": "CVE-2007-4974 ardour",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
+                "date": "2008-01-08",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-4924": [
             {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:2244857478038186114543802342968588337",
-                "title": "CVE-2007-4974 libsndfile",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:208623169276136481859154837401069757355",
-                "title": "CVE-2007-4974 ardour",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:2244857478038186114543802342968588337",
-                "title": "CVE-2007-4974 libsndfile",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:208623169276136481859154837401069757355",
-                "title": "CVE-2007-4974 ardour",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:2244857478038186114543802342968588337",
-                "title": "CVE-2007-4974 libsndfile",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2007-12-29",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
+                "date": "2008-01-08",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-5000": [
@@ -385,6 +473,13 @@
                 "title": "ELSA-2008-0008:  Moderate: httpd security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-5037": [
@@ -417,36 +512,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2007-5191": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:238369997470899668919205529384032774628",
-                "title": "CVE-2007-5191 util-linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:238369997470899668919205529384032774628",
-                "title": "CVE-2007-5191 util-linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:238369997470899668919205529384032774628",
-                "title": "CVE-2007-5191 util-linux",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2008-01-05",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
         "CVE-2007-5300": [
             {
                 "date": "2008-01-06",
@@ -454,6 +519,43 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-5846": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:300798390276402137629120847284172363897",
+                "title": "CVE-2007-5846 net-snmp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:300798390276402137629120847284172363897",
+                "title": "CVE-2007-5846 net-snmp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:300798390276402137629120847284172363897",
+                "title": "CVE-2007-5846 net-snmp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-02-06",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2008-01-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-5849": [
@@ -484,6 +586,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2008-01-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6067": [
@@ -577,6 +686,13 @@
                 "title": "ALT-PU-2017-1441: package `tcl` update to version 8.6.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2008-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6284": [
@@ -621,6 +737,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2008-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6285": [
@@ -637,6 +760,45 @@
                 "title": "ELSA-2007-1176:  Important: autofs security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2007-6304": [
+            {
+                "date": "2007-12-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-6358": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:163500616457334541533581751824717524671",
+                "title": "CVE-2007-6358 cups",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:163500616457334541533581751824717524671",
+                "title": "CVE-2007-6358 cups",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:163500616457334541533581751824717524671",
+                "title": "CVE-2007-6358 cups",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-01-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6381": [
@@ -683,6 +845,13 @@
                 "title": "ELSA-2008-0008:  Moderate: httpd security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6421": [
@@ -720,6 +889,13 @@
                 "title": "ELSA-2008-0008:  Moderate: httpd security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6422": [
@@ -757,6 +933,13 @@
                 "title": "ELSA-2008-0008:  Moderate: httpd security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6437": [
@@ -914,6 +1097,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2008-01-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6599": [
@@ -960,6 +1150,13 @@
                 "title": "ELSA-2008-0038:  Moderate: postgresql security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-6601": [
@@ -976,6 +1173,13 @@
                 "title": "ELSA-2008-0038:  Moderate: postgresql security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2008-0003": [
@@ -1029,6 +1233,13 @@
                 "title": "ELSA-2008-0008:  Moderate: httpd security update  (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2008-0061": [
@@ -1045,6 +1256,52 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2008-0171": [
+            {
+                "date": "2012-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20120305",
+                "title": "ELSA-2012-0305:  boost security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20120305",
+                "title": "ELSA-2012-0305:  boost security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-01-16",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2008-0172": [
+            {
+                "date": "2012-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20120305",
+                "title": "ELSA-2012-0305:  boost security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2012.xml.bz2"
+            },
+            {
+                "date": "2012-03-01",
+                "def_id": "oval:com.oracle.elsa:def:20120305",
+                "title": "ELSA-2012-0305:  boost security and bug fix update (LOW)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2008-01-16",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2008-0173": [

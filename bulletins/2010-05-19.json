@@ -8,34 +8,64 @@
     "patch_wednesday_start_date_ts": 1271880000,
     "status": "Released",
     "vulnerabilities": {
-        "CVE-2009-3389": [
+        "CVE-2009-1284": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:40670995117817945969470854509251114675",
-                "title": "CVE-2009-3389 libtheora",
+                "def_id": "oval:org.debian:def:4479070350847100939364898645180240045",
+                "title": "CVE-2009-1284 texlive-bin",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:40670995117817945969470854509251114675",
-                "title": "CVE-2009-3389 libtheora",
+                "def_id": "oval:org.debian:def:4479070350847100939364898645180240045",
+                "title": "CVE-2009-1284 texlive-bin",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:40670995117817945969470854509251114675",
-                "title": "CVE-2009-3389 libtheora",
+                "def_id": "oval:org.debian:def:4479070350847100939364898645180240045",
+                "title": "CVE-2009-1284 texlive-bin",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2010-05-11",
-                "def_id": "debian",
-                "title": "Debian email list",
+                "date": "2010-05-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2009-1573": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:121409804583497762049898515197607449386",
+                "title": "CVE-2009-1573 xorg-server",
                 "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:121409804583497762049898515197607449386",
+                "title": "CVE-2009-1573 xorg-server",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:121409804583497762049898515197607449386",
+                "title": "CVE-2009-1573 xorg-server",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2010-05-18",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2009-3700": [
@@ -68,38 +98,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2009-4136": [
-            {
-                "date": "2010-05-19",
-                "def_id": "oval:com.oracle.elsa:def:20100429",
-                "title": "ELSA-2010-0429:  postgresql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
-            },
-            {
-                "date": "2010-05-19",
-                "def_id": "oval:com.oracle.elsa:def:20100429",
-                "title": "ELSA-2010-0429:  postgresql security update (MODERATE)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2010-0307": [
-            {
-                "date": "2010-05-06",
-                "def_id": "oval:com.oracle.elsa:def:20100398",
-                "title": "ELSA-2010-0398:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
-            },
-            {
-                "date": "2010-05-06",
-                "def_id": "oval:com.oracle.elsa:def:20100398",
-                "title": "ELSA-2010-0398:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
         "CVE-2010-0403": [
             {
                 "date": "2010-05-13",
@@ -107,22 +105,6 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2010-0410": [
-            {
-                "date": "2010-05-06",
-                "def_id": "oval:com.oracle.elsa:def:20100398",
-                "title": "ELSA-2010-0398:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
-            },
-            {
-                "date": "2010-05-06",
-                "def_id": "oval:com.oracle.elsa:def:20100398",
-                "title": "ELSA-2010-0398:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
         "CVE-2010-0442": [
@@ -146,6 +128,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2010-04-28",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-0730": [
@@ -215,6 +204,43 @@
                 "title": "ELSA-2010-0400:  tetex security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-05-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-0827": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:93788434195964669572996538067349126531",
+                "title": "CVE-2010-0827 texlive-bin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:93788434195964669572996538067349126531",
+                "title": "CVE-2010-0827 texlive-bin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:93788434195964669572996538067349126531",
+                "title": "CVE-2010-0827 texlive-bin",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2010-05-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-0829": [
@@ -259,6 +285,22 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2010-05-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-1000": [
+            {
+                "date": "2010-05-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1085": [
@@ -275,6 +317,13 @@
                 "title": "ELSA-2010-0398:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-06-03",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1086": [
@@ -291,6 +340,13 @@
                 "title": "ELSA-2010-0398:  kernel security and bug fix update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-06-03",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1150": [
@@ -337,6 +393,13 @@
                 "title": "ELSA-2010-0382:  xorg-x11-server security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-05-18",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1169": [
@@ -367,6 +430,13 @@
                 "title": "ELSA-2010-0430:  postgresql84 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-05-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1170": [
@@ -397,6 +467,43 @@
                 "title": "ELSA-2010-0430:  postgresql84 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-05-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-1320": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:189864405346256325166518116119096438824",
+                "title": "CVE-2010-1320 krb5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:189864405346256325166518116119096438824",
+                "title": "CVE-2010-1320 krb5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:189864405346256325166518116119096438824",
+                "title": "CVE-2010-1320 krb5",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2010-05-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1321": [
@@ -686,6 +793,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2010-05-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1431": [
@@ -753,6 +867,22 @@
                 "title": "ELSA-2010-0400:  tetex security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-05-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-1511": [
+            {
+                "date": "2010-05-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1512": [
@@ -813,6 +943,13 @@
                 "title": "ELSA-2010-0430:  postgresql84 security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2010-05-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-2062": [

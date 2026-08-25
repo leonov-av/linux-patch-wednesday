@@ -8,6 +8,15 @@
     "patch_wednesday_start_date_ts": 1187208000,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2005-0504": [
+            {
+                "date": "2007-08-31",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2006-6942": [
             {
                 "date": "2024-05-15",
@@ -70,36 +79,6 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2007-1799": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:63642386655722456070846387684574750228",
-                "title": "CVE-2007-1799 ktorrent",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:63642386655722456070846387684574750228",
-                "title": "CVE-2007-1799 ktorrent",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:63642386655722456070846387684574750228",
-                "title": "CVE-2007-1799 ktorrent",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2007-09-11",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
         "CVE-2007-2024": [
             {
                 "date": "2007-09-11",
@@ -109,48 +88,55 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2007-2231": [
+        "CVE-2007-2721": [
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:60094563095271705378297317053264456539",
-                "title": "CVE-2007-2231 dovecot",
+                "def_id": "oval:org.debian:def:216030131813967379123231556805125738706",
+                "title": "CVE-2007-2721 ghostscript",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:60094563095271705378297317053264456539",
-                "title": "CVE-2007-2231 dovecot",
+                "def_id": "oval:org.debian:def:216030131813967379123231556805125738706",
+                "title": "CVE-2007-2721 ghostscript",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
                 "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:60094563095271705378297317053264456539",
-                "title": "CVE-2007-2231 dovecot",
+                "def_id": "oval:org.debian:def:216030131813967379123231556805125738706",
+                "title": "CVE-2007-2721 ghostscript",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2008-05-30",
-                "def_id": "oval:com.oracle.elsa:def:20080297",
-                "title": "ELSA-2008-0297:  dovecot security and bug fix update (LOW)",
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090012",
+                "title": "ELSA-2009-0012:  netpbm security update (MODERATE)",
                 "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2008.xml.bz2"
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2009.xml.bz2"
             },
             {
-                "date": "2008-05-30",
-                "def_id": "oval:com.oracle.elsa:def:20080297",
-                "title": "ELSA-2008-0297:  dovecot security and bug fix update (LOW)",
+                "date": "2009-02-11",
+                "def_id": "oval:com.oracle.elsa:def:20090012",
+                "title": "ELSA-2009-0012:  netpbm security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2007-08-28",
+                "date": "2010-04-17",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-08-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-2834": [
@@ -160,61 +146,110 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2007-2875": [
-            {
-                "date": "2007-09-14",
-                "def_id": "oval:com.oracle.elsa:def:20070705",
-                "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
             },
             {
-                "date": "2007-09-14",
-                "def_id": "oval:com.oracle.elsa:def:20070705",
-                "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2007-10-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
-        "CVE-2007-2876": [
+        "CVE-2007-2953": [
             {
-                "date": "2007-09-14",
-                "def_id": "oval:com.oracle.elsa:def:20070705",
-                "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:243348180753506135445800310589205123154",
+                "title": "CVE-2007-2953 vim",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2007-09-14",
-                "def_id": "oval:com.oracle.elsa:def:20070705",
-                "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2007-2878": [
-            {
-                "date": "2007-09-14",
-                "def_id": "oval:com.oracle.elsa:def:20070705",
-                "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:243348180753506135445800310589205123154",
+                "title": "CVE-2007-2953 vim",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2007-09-14",
-                "def_id": "oval:com.oracle.elsa:def:20070705",
-                "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:243348180753506135445800310589205123154",
+                "title": "CVE-2007-2953 vim",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2008-11-25",
+                "def_id": "oval:com.oracle.elsa:def:20080580",
+                "title": "ELSA-2008-0580:  vim security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2008.xml.bz2"
+            },
+            {
+                "date": "2008-11-25",
+                "def_id": "oval:com.oracle.elsa:def:20080580",
+                "title": "ELSA-2008-0580:  vim security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2008-01-29",
+                "date": "2007-08-28",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-3104": [
+            {
+                "date": "2008-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20080089",
+                "title": "ELSA-2008-0089:  Important: kernel security and bug fix update  (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2008.xml.bz2"
+            },
+            {
+                "date": "2008-01-24",
+                "def_id": "oval:com.oracle.elsa:def:20080089",
+                "title": "ELSA-2008-0089:  Important: kernel security and bug fix update  (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-12-10",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-08-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-3105": [
+            {
+                "date": "2007-10-23",
+                "def_id": "oval:com.oracle.elsa:def:20070940",
+                "title": "ELSA-2007-0940:  Important:kernel security update  (NA)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-10-23",
+                "def_id": "oval:com.oracle.elsa:def:20070940",
+                "title": "ELSA-2007-0940:  Important:kernel security update  (NA)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3106": [
@@ -280,6 +315,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-08-16",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3189": [
@@ -289,6 +331,24 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-3642": [
+            {
+                "date": "2007-08-31",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-3670": [
+            {
+                "date": "2007-08-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3739": [
@@ -305,6 +365,13 @@
                 "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-09-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3740": [
@@ -321,6 +388,13 @@
                 "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-09-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3780": [
@@ -337,6 +411,13 @@
                 "title": "ELSA-2007-0875:  Important: mysql security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-10-11",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3791": [
@@ -346,6 +427,43 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2007-3820": [
+            {
+                "date": "2007-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20070909",
+                "title": "ELSA-2007-0909:  Moderate: kdelibs security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20070905",
+                "title": "ELSA-2007-0905:  Moderate: kdebase security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20070909",
+                "title": "ELSA-2007-0909:  Moderate: kdelibs security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20070905",
+                "title": "ELSA-2007-0905:  Moderate: kdebase security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3843": [
@@ -362,6 +480,36 @@
                 "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-31",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-3848": [
+            {
+                "date": "2007-10-23",
+                "def_id": "oval:com.oracle.elsa:def:20070940",
+                "title": "ELSA-2007-0940:  Important:kernel security update  (NA)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-10-23",
+                "def_id": "oval:com.oracle.elsa:def:20070940",
+                "title": "ELSA-2007-0940:  Important:kernel security update  (NA)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3849": [
@@ -394,6 +542,13 @@
                 "title": "ELSA-2007-0705:  Important: kernel security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-3913": [
@@ -491,6 +646,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-09-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4000": [
@@ -586,6 +748,29 @@
                 "title": "ELSA-2007-0845:  Important:libvorbis security update  (NA)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-16",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-4033": [
+            {
+                "date": "2007-10-18",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-09-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4065": [
@@ -732,6 +917,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-08-20",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4131": [
@@ -776,6 +968,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-08-28",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4134": [
@@ -808,6 +1007,82 @@
                 "title": "ELSA-2007-0883:  Important: qt security update  (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-09-18",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-4224": [
+            {
+                "date": "2007-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20070909",
+                "title": "ELSA-2007-0909:  Moderate: kdelibs security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20070905",
+                "title": "ELSA-2007-0905:  Moderate: kdebase security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20070909",
+                "title": "ELSA-2007-0909:  Moderate: kdelibs security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-10-08",
+                "def_id": "oval:com.oracle.elsa:def:20070905",
+                "title": "ELSA-2007-0905:  Moderate: kdebase security update  (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-4225": [
+            {
+                "date": "2007-08-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-4308": [
+            {
+                "date": "2007-10-23",
+                "def_id": "oval:com.oracle.elsa:def:20070940",
+                "title": "ELSA-2007-0940:  Important:kernel security update  (NA)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2007.xml.bz2"
+            },
+            {
+                "date": "2007-10-23",
+                "def_id": "oval:com.oracle.elsa:def:20070940",
+                "title": "ELSA-2007-0940:  Important:kernel security update  (NA)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-08-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4460": [
@@ -870,6 +1145,36 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2007-4601": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:26130851819677896709521971435820014517",
+                "title": "CVE-2007-4601 tcp-wrappers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:26130851819677896709521971435820014517",
+                "title": "CVE-2007-4601 tcp-wrappers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:26130851819677896709521971435820014517",
+                "title": "CVE-2007-4601 tcp-wrappers",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2007-08-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2007-4730": [
             {
                 "date": "2024-05-15",
@@ -898,6 +1203,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-09-18",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2007-4743": [
@@ -942,6 +1254,43 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-09-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2007-4826": [
+            {
+                "date": "2010-10-20",
+                "def_id": "oval:com.oracle.elsa:def:20100785",
+                "title": "ELSA-2010-0785:  quagga security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2010.xml.bz2"
+            },
+            {
+                "date": "2010-10-20",
+                "def_id": "oval:com.oracle.elsa:def:20100785",
+                "title": "ELSA-2010-0785:  quagga security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2007-10-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2007-09-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ]
     },

@@ -45,6 +45,36 @@
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             }
         ],
+        "CVE-2009-2939": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:261788049974532640050045893387170507569",
+                "title": "CVE-2009-2939 postfix",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:261788049974532640050045893387170507569",
+                "title": "CVE-2009-2939 postfix",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:261788049974532640050045893387170507569",
+                "title": "CVE-2009-2939 postfix",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-04-18",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2009-5022": [
             {
                 "date": "2024-05-15",
@@ -206,43 +236,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2010-0296": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:287558549173659316467741968144362223822",
-                "title": "CVE-2010-0296 glibc",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:287558549173659316467741968144362223822",
-                "title": "CVE-2010-0296 glibc",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:287558549173659316467741968144362223822",
-                "title": "CVE-2010-0296 glibc",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2011-04-04",
-                "def_id": "oval:com.oracle.elsa:def:20110412",
-                "title": "ELSA-2011-0412:  glibc security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
-            },
-            {
-                "date": "2011-04-04",
-                "def_id": "oval:com.oracle.elsa:def:20110412",
-                "title": "ELSA-2011-0412:  glibc security update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2011-04-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1674": [
@@ -399,6 +399,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-03-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-1675": [
@@ -534,6 +541,13 @@
                 "title": "RHSA-2011:0406: quagga security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-3275": [
@@ -566,6 +580,71 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2010-3609": [
+            {
+                "date": "2018-11-28",
+                "def_id": "oval:org.altlinux.errata:def:20182713",
+                "title": "ALT-PU-2018-2713: package `openslp` update to version 2.0.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2018-11-28",
+                "def_id": "oval:org.altlinux.errata:def:20182713",
+                "title": "ALT-PU-2018-2713: package `openslp` update to version 2.0.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2018-11-28",
+                "def_id": "oval:org.altlinux.errata:def:20182713",
+                "title": "ALT-PU-2018-2713: package `openslp` update to version 2.0.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2018-11-28",
+                "def_id": "oval:org.altlinux.errata:def:20182713",
+                "title": "ALT-PU-2018-2713: package `openslp` update to version 2.0.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2018-11-28",
+                "def_id": "oval:org.altlinux.errata:def:20182713",
+                "title": "ALT-PU-2018-2713: package `openslp` update to version 2.0.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2018-11-28",
+                "def_id": "oval:org.altlinux.errata:def:20182713",
+                "title": "ALT-PU-2018-2713: package `openslp` update to version 2.0.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2018-11-28",
+                "def_id": "oval:org.altlinux.errata:def:20182713",
+                "title": "ALT-PU-2018-2713: package `openslp` update to version 2.0.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-09-03",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-20",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2010-3695": [
             {
                 "date": "2011-03-27",
@@ -575,330 +654,774 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
-        "CVE-2010-4346": [
+        "CVE-2010-3908": [
             {
-                "date": "2011-04-13",
-                "def_id": "oval:com.oracle.elsa:def:20110429",
-                "title": "ELSA-2011-0429:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:221476831650139073957220873359219257798",
+                "title": "CVE-2010-3908 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:221476831650139073957220873359219257798",
+                "title": "CVE-2010-3908 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
             },
             {
-                "date": "2011-04-14",
-                "def_id": "oval:com.oracle.elsa:def:20112014",
-                "title": "ELSA-2011-2014:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:221476831650139073957220873359219257798",
+                "title": "CVE-2010-3908 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
-                "date": "2011-04-13",
-                "def_id": "oval:com.oracle.elsa:def:20110429",
-                "title": "ELSA-2011-0429:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+                "date": "2011-09-11",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
             },
             {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2011-04-14",
-                "def_id": "oval:com.oracle.elsa:def:20112014",
-                "title": "ELSA-2011-2014:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            },
-            {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2011-04-14",
-                "def_id": "oval:com.oracle.elsa:def:20112014",
-                "title": "ELSA-2011-2014:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+                "date": "2011-04-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
-        "CVE-2010-4648": [
+        "CVE-2010-4076": [
             {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-03-18",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4529": [
+            {
+                "date": "2011-04-20",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4540": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70996278424710503008764643635612897497",
+                "title": "CVE-2010-4540 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70996278424710503008764643635612897497",
+                "title": "CVE-2010-4540 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70996278424710503008764643635612897497",
+                "title": "CVE-2010-4540 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110838",
+                "title": "ELSA-2011-0838:  gimp security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-04-14",
-                "def_id": "oval:com.oracle.elsa:def:20112014",
-                "title": "ELSA-2011-2014:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
             },
             {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110838",
+                "title": "ELSA-2011-0838:  gimp security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-04-14",
-                "def_id": "oval:com.oracle.elsa:def:20112014",
-                "title": "ELSA-2011-2014:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
             },
             {
-                "date": "2011-04-07",
-                "def_id": "oval:com.oracle.elsa:def:20110421",
-                "title": "ELSA-2011-0421:  kernel security and bug fix update (IMPORTANT)",
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
             },
             {
-                "date": "2011-04-14",
-                "def_id": "oval:com.oracle.elsa:def:20112014",
-                "title": "ELSA-2011-2014:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
-                "type": "oraclelinux",
-                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
-            },
-            {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
             },
             {
-                "date": "2011-04-08",
-                "def_id": "oval:com.redhat.rhsa:def:20110421",
-                "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-03-06",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4541": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:199912106771500074868071387063054223708",
+                "title": "CVE-2010-4541 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:199912106771500074868071387063054223708",
+                "title": "CVE-2010-4541 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:199912106771500074868071387063054223708",
+                "title": "CVE-2010-4541 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110838",
+                "title": "ELSA-2011-0838:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110838",
+                "title": "ELSA-2011-0838:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4542": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:5126620800272039546793202086899348153",
+                "title": "CVE-2010-4542 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:5126620800272039546793202086899348153",
+                "title": "CVE-2010-4542 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:5126620800272039546793202086899348153",
+                "title": "CVE-2010-4542 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110838",
+                "title": "ELSA-2011-0838:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110838",
+                "title": "ELSA-2011-0838:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4543": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:130637834967291027423872558559412062073",
+                "title": "CVE-2010-4543 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:130637834967291027423872558559412062073",
+                "title": "CVE-2010-4543 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:130637834967291027423872558559412062073",
+                "title": "CVE-2010-4543 gimp",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110838",
+                "title": "ELSA-2011-0838:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110838",
+                "title": "ELSA-2011-0838:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "oval:com.oracle.elsa:def:20110839",
+                "title": "ELSA-2011-0839:  gimp security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.redhat.rhsa:def:20110839",
+                "title": "RHSA-2011:0839: gimp security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2010-4656": [
@@ -1055,6 +1578,43 @@
                 "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2010-4704": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:254200256859364166831741053022586831389",
+                "title": "CVE-2010-4704 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:254200256859364166831741053022586831389",
+                "title": "CVE-2010-4704 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:254200256859364166831741053022586831389",
+                "title": "CVE-2010-4704 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-04-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0012": [
@@ -1192,6 +1752,162 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
             }
         ],
+        "CVE-2011-0013": [
+            {
+                "date": "2011-12-20",
+                "def_id": "oval:com.oracle.elsa:def:20111845",
+                "title": "ELSA-2011-1845:  tomcat5 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110791",
+                "title": "ELSA-2011-0791:  tomcat6 security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-12-20",
+                "def_id": "oval:com.oracle.elsa:def:20111845",
+                "title": "ELSA-2011-1845:  tomcat5 security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110791",
+                "title": "ELSA-2011-0791:  tomcat6 security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110791",
+                "title": "ELSA-2011-0791:  tomcat6 security and bug fix update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110791",
+                "title": "RHSA-2011:0791: tomcat6 security and bug fix update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2011-0024": [
             {
                 "date": "2024-05-15",
@@ -1227,36 +1943,6 @@
                 "title": "ELSA-2011-0370:  wireshark security update (MODERATE)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
-            }
-        ],
-        "CVE-2011-0191": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:257645516171829673229186086703354169034",
-                "title": "CVE-2011-0191 tiff",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:257645516171829673229186086703354169034",
-                "title": "CVE-2011-0191 tiff",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:257645516171829673229186086703354169034",
-                "title": "CVE-2011-0191 tiff",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2011-04-03",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
         "CVE-2011-0285": [
@@ -1413,6 +2099,13 @@
                 "title": "RHSA-2011:0447: krb5 security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0411": [
@@ -1590,36 +2283,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
-            }
-        ],
-        "CVE-2011-0414": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:74233098134126513319330332688645618031",
-                "title": "CVE-2011-0414 bind9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
             },
             {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:74233098134126513319330332688645618031",
-                "title": "CVE-2011-0414 bind9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:74233098134126513319330332688645618031",
-                "title": "CVE-2011-0414 bind9",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2011-03-30",
-                "def_id": "debian",
-                "title": "Debian email list",
-                "type": "debian",
-                "url": "https://lists.debian.org/debian-lts-announce/"
+                "date": "2011-04-18",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0439": [
@@ -1638,6 +2308,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0444": [
@@ -1957,6 +2634,43 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-0480": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142953110264168123692301252285842564579",
+                "title": "CVE-2011-0480 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142953110264168123692301252285842564579",
+                "title": "CVE-2011-0480 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:142953110264168123692301252285842564579",
+                "title": "CVE-2011-0480 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-04-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0520": [
@@ -2143,6 +2857,13 @@
                 "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0536": [
@@ -2867,6 +3588,13 @@
                 "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-05",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0710": [
@@ -3016,6 +3744,169 @@
                 "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2011-0712": [
+            {
+                "date": "2011-05-11",
+                "def_id": "oval:com.oracle.elsa:def:20112015",
+                "title": "ELSA-2011-2015:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.oracle.elsa:def:20110498",
+                "title": "ELSA-2011-0498:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-11",
+                "def_id": "oval:com.oracle.elsa:def:20112015",
+                "title": "ELSA-2011-2015:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.oracle.elsa:def:20110498",
+                "title": "ELSA-2011-0498:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-11",
+                "def_id": "oval:com.oracle.elsa:def:20112015",
+                "title": "ELSA-2011-2015:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.oracle.elsa:def:20110498",
+                "title": "ELSA-2011-0498:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0713": [
@@ -3307,6 +4198,13 @@
                 "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-02-28",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0720": [
@@ -3323,6 +4221,66 @@
                 "title": "ELSA-2011-0394:  conga security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            }
+        ],
+        "CVE-2011-0722": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:178674559170387362309550200907641894937",
+                "title": "CVE-2011-0722 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:178674559170387362309550200907641894937",
+                "title": "CVE-2011-0722 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:178674559170387362309550200907641894937",
+                "title": "CVE-2011-0722 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-04-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-0723": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75348849328211306628934157586257346122",
+                "title": "CVE-2011-0723 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75348849328211306628934157586257346122",
+                "title": "CVE-2011-0723 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:75348849328211306628934157586257346122",
+                "title": "CVE-2011-0723 ffmpeg",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2011-04-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0727": [
@@ -3486,6 +4444,22 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-03-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-0729": [
+            {
+                "date": "2011-04-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-0997": [
@@ -3649,6 +4623,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-11",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1010": [
@@ -3931,6 +4912,13 @@
                 "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1011": [
@@ -4066,6 +5054,15 @@
                 "title": "RHSA-2011:0414: policycoreutils security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            }
+        ],
+        "CVE-2011-1012": [
+            {
+                "date": "2011-03-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1071": [
@@ -4236,6 +5233,288 @@
                 "title": "RHSA-2011:0413: glibc security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-03-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-1082": [
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110542",
+                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-23",
+                "def_id": "oval:com.oracle.elsa:def:20112016",
+                "title": "ELSA-2011-2016: Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110542",
+                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-23",
+                "def_id": "oval:com.oracle.elsa:def:20112016",
+                "title": "ELSA-2011-2016: Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-28",
+                "def_id": "oval:com.oracle.elsa:def:20110542",
+                "title": "ELSA-2011-0542:  Oracle Linux 6.1 kernel security, bug fix and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-23",
+                "def_id": "oval:com.oracle.elsa:def:20112016",
+                "title": "ELSA-2011-2016: Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-19",
+                "def_id": "oval:com.redhat.rhsa:def:20110542",
+                "title": "RHSA-2011:0542: Red Hat Enterprise Linux 6.1 kernel security, bug fix and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110883",
+                "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1090": [
@@ -4525,6 +5804,332 @@
                 "title": "RHSA-2011:0883: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-1093": [
+            {
+                "date": "2011-05-11",
+                "def_id": "oval:com.oracle.elsa:def:20112015",
+                "title": "ELSA-2011-2015:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.oracle.elsa:def:20110498",
+                "title": "ELSA-2011-0498:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110833",
+                "title": "ELSA-2011-0833:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-05-11",
+                "def_id": "oval:com.oracle.elsa:def:20112015",
+                "title": "ELSA-2011-2015:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.oracle.elsa:def:20110498",
+                "title": "ELSA-2011-0498:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-31",
+                "def_id": "oval:com.oracle.elsa:def:20110833",
+                "title": "ELSA-2011-0833:  kernel security and bug fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-05-11",
+                "def_id": "oval:com.oracle.elsa:def:20112015",
+                "title": "ELSA-2011-2015:  Oracle Linux 6 Unbreakable Enterprise kernel security fix update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.oracle.elsa:def:20110498",
+                "title": "ELSA-2011-0498:  kernel security, bug fix, and enhancement update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-05-10",
+                "def_id": "oval:com.redhat.rhsa:def:20110498",
+                "title": "RHSA-2011:0498: kernel security, bug fix, and enhancement update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-03-25",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-1094": [
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110464",
+                "title": "ELSA-2011-0464:  kdelibs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110464",
+                "title": "ELSA-2011-0464:  kdelibs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110464",
+                "title": "ELSA-2011-0464:  kdelibs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1095": [
@@ -4695,6 +6300,13 @@
                 "title": "RHSA-2011:0413: glibc security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-03-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1097": [
@@ -4851,6 +6463,13 @@
                 "title": "RHSA-2011:0390: rsync security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1098": [
@@ -5084,6 +6703,13 @@
                 "title": "ALT-PU-2015-2093: package `logrotate` update to version 3.9.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2011-07-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1139": [
@@ -5920,6 +7546,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-03-29",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1154": [
@@ -6153,6 +7786,13 @@
                 "title": "ALT-PU-2015-2093: package `logrotate` update to version 3.9.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2011-07-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1155": [
@@ -6386,6 +8026,13 @@
                 "title": "ALT-PU-2015-2093: package `logrotate` update to version 3.9.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2011-07-21",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1167": [
@@ -6542,6 +8189,155 @@
                 "title": "RHSA-2011:0392: libtiff security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2011-1168": [
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110464",
+                "title": "ELSA-2011-0464:  kdelibs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110464",
+                "title": "ELSA-2011-0464:  kdelibs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110464",
+                "title": "ELSA-2011-0464:  kdelibs security update (MODERATE)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110464",
+                "title": "RHSA-2011:0464: kdelibs security update (Moderate)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1176": [
@@ -6572,6 +8368,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-11-11",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1179": [
@@ -6737,6 +8540,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1401": [
@@ -6988,6 +8798,13 @@
                 "title": "RHSA-2011:0421: kernel security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-06-01",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1485": [
@@ -7151,6 +8968,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2011-04-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1496": [
@@ -7250,6 +9074,148 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-1586": [
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110465",
+                "title": "ELSA-2011-0465:  kdenetwork security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-2011.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110465",
+                "title": "ELSA-2011-0465:  kdenetwork security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-all.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.oracle.elsa:def:20110465",
+                "title": "ELSA-2011-0465:  kdenetwork security update (IMPORTANT)",
+                "type": "oraclelinux",
+                "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol6.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.1-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.2-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.3-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.4-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.5-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-21",
+                "def_id": "oval:com.redhat.rhsa:def:20110465",
+                "title": "RHSA-2011:0465: kdenetwork security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2011-04-18",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1589": [
@@ -7429,6 +9395,13 @@
                 "title": "RHSA-2011:0413: glibc security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-03-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1659": [
@@ -7599,6 +9572,13 @@
                 "title": "RHSA-2011:0413: glibc security update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2012-03-09",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2011-1684": [
@@ -7638,6 +9618,15 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            }
+        ],
+        "CVE-2011-1842": [
+            {
+                "date": "2011-04-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ]
     },

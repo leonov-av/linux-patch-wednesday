@@ -8,6 +8,15 @@
     "patch_wednesday_start_date_ts": 1418850000,
     "status": "Released",
     "vulnerabilities": {
+        "CVE-2009-4135": [
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
         "CVE-2013-1811": [
             {
                 "date": "2015-01-06",
@@ -318,78 +327,6 @@
                 "title": "DSA-3120-1 mantis",
                 "type": "debian",
                 "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
-            }
-        ],
-        "CVE-2013-2061": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:91687971965237110506365248073912181115",
-                "title": "CVE-2013-2061 openvpn",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:91687971965237110506365248073912181115",
-                "title": "CVE-2013-2061 openvpn",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:91687971965237110506365248073912181115",
-                "title": "CVE-2013-2061 openvpn",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
-            {
-                "date": "2015-01-17",
-                "def_id": "oval:org.altlinux.errata:def:20151053",
-                "title": "ALT-PU-2015-1053: package `openvpn` update to version 2.3.6-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
-            },
-            {
-                "date": "2015-01-17",
-                "def_id": "oval:org.altlinux.errata:def:20151053",
-                "title": "ALT-PU-2015-1053: package `openvpn` update to version 2.3.6-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
-                "date": "2015-01-17",
-                "def_id": "oval:org.altlinux.errata:def:20151053",
-                "title": "ALT-PU-2015-1053: package `openvpn` update to version 2.3.6-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
-                "date": "2015-01-17",
-                "def_id": "oval:org.altlinux.errata:def:20151053",
-                "title": "ALT-PU-2015-1053: package `openvpn` update to version 2.3.6-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
-            },
-            {
-                "date": "2015-01-17",
-                "def_id": "oval:org.altlinux.errata:def:20151053",
-                "title": "ALT-PU-2015-1053: package `openvpn` update to version 2.3.6-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
-            },
-            {
-                "date": "2015-01-17",
-                "def_id": "oval:org.altlinux.errata:def:20151053",
-                "title": "ALT-PU-2015-1053: package `openvpn` update to version 2.3.6-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
-            },
-            {
-                "date": "2015-01-17",
-                "def_id": "oval:org.altlinux.errata:def:20151053",
-                "title": "ALT-PU-2015-1053: package `openvpn` update to version 2.3.6-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
         "CVE-2013-4460": [
@@ -764,272 +701,372 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
         ],
-        "CVE-2014-0172": [
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:101949710902238478479625449603250529982",
-                "title": "CVE-2014-0172 elfutils",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:101949710902238478479625449603250529982",
-                "title": "CVE-2014-0172 elfutils",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
-            },
-            {
-                "date": "2024-05-15",
-                "def_id": "oval:org.debian:def:101949710902238478479625449603250529982",
-                "title": "CVE-2014-0172 elfutils",
-                "type": "debian",
-                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
-            },
+        "CVE-2014-1425": [
             {
                 "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:218810000000",
-                "title": "USN-2188-1 -- elfutils vulnerability",
+                "def_id": "oval:com.ubuntu.trusty:def:245110000000",
+                "title": "USN-2451-1 -- cgmanager vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
                 "date": "2026-07-30",
-                "def_id": "oval:com.ubuntu.trusty:def:218810000000",
-                "title": "USN-2188-1 -- elfutils vulnerability",
+                "def_id": "oval:com.ubuntu.trusty:def:245110000000",
+                "title": "USN-2451-1 -- cgmanager vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-01-06",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2014-1569": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:200454956788694115284844636487388328072",
+                "title": "CVE-2014-1569 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:200454956788694115284844636487388328072",
+                "title": "CVE-2014-1569 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:200454956788694115284844636487388328072",
+                "title": "CVE-2014-1569 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2015-03-13",
+                "def_id": "oval:org.debian:def:200454956788694115284844636487388328072",
+                "title": "DSA-3186-1 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-03-13",
+                "def_id": "oval:org.debian:def:14464499608644316881256881447918916364",
+                "title": "DSA-3186-1 nss",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245210000000",
+                "title": "USN-2452-1 -- NSS vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245210000000",
+                "title": "USN-2452-1 -- NSS vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-05-05",
+                "def_id": "oval:com.redhat.rhba:def:20150926",
+                "title": "RHBA-2015:0926: nss, nss-util, and nspr bug fix and enhancement update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-els.oval.xml.bz2"
+            },
+            {
+                "date": "2015-05-05",
+                "def_id": "oval:com.redhat.rhba:def:20150926",
+                "title": "RHBA-2015:0926: nss, nss-util, and nspr bug fix and enhancement update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6-supplementary.oval.xml.bz2"
+            },
+            {
+                "date": "2015-05-05",
+                "def_id": "oval:com.redhat.rhba:def:20150926",
+                "title": "RHBA-2015:0926: nss, nss-util, and nspr bug fix and enhancement update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-05-05",
+                "def_id": "oval:com.redhat.rhba:def:20150926",
+                "title": "RHBA-2015:0926: nss, nss-util, and nspr bug fix and enhancement update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-05-05",
+                "def_id": "oval:com.redhat.rhba:def:20150926",
+                "title": "RHBA-2015:0926: nss, nss-util, and nspr bug fix and enhancement update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.6-tus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-05-05",
+                "def_id": "oval:com.redhat.rhba:def:20150926",
+                "title": "RHBA-2015:0926: nss, nss-util, and nspr bug fix and enhancement update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.7-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2015-05-05",
+                "def_id": "oval:com.redhat.rhba:def:20150926",
+                "title": "RHBA-2015:0926: nss, nss-util, and nspr bug fix and enhancement update (Low)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-alt.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-els.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7-supplementary.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.1-eus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-aus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-e4s.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-eus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.2-tus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-aus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-e4s.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-eus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.3-tus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-aus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-e4s.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-eus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.4-tus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.5-eus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-aus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-e4s.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-eus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.6-tus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-aus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-e4s.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-eus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.7-tus.oval.xml.bz2"
             },
             {
-                "date": "2015-03-05",
-                "def_id": "oval:com.redhat.rhea:def:20150369",
-                "title": "RHEA-2015:0369: elfutils bug fix and enhancement update (Moderate)",
+                "date": "2015-05-12",
+                "def_id": "oval:com.redhat.rhba:def:20150965",
+                "title": "RHBA-2015:0965: nss, nss-util, and nspr bug fix and enhancement update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhel-7.oval.xml.bz2"
             },
             {
-                "date": "2014-12-20",
-                "def_id": "oval:org.altlinux.errata:def:20142479",
-                "title": "ALT-PU-2014-2479: package `elfutils` update to version 0.161-alt1",
+                "date": "2015-03-11",
+                "def_id": "oval:org.altlinux.errata:def:20151274",
+                "title": "ALT-PU-2015-1274: package `nss` update to version 3.17.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
             },
             {
-                "date": "2014-12-20",
-                "def_id": "oval:org.altlinux.errata:def:20142479",
-                "title": "ALT-PU-2014-2479: package `elfutils` update to version 0.161-alt1",
+                "date": "2015-03-11",
+                "def_id": "oval:org.altlinux.errata:def:20151274",
+                "title": "ALT-PU-2015-1274: package `nss` update to version 3.17.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2014-12-20",
-                "def_id": "oval:org.altlinux.errata:def:20142479",
-                "title": "ALT-PU-2014-2479: package `elfutils` update to version 0.161-alt1",
+                "date": "2015-03-11",
+                "def_id": "oval:org.altlinux.errata:def:20151274",
+                "title": "ALT-PU-2015-1274: package `nss` update to version 3.17.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2014-12-20",
-                "def_id": "oval:org.altlinux.errata:def:20142479",
-                "title": "ALT-PU-2014-2479: package `elfutils` update to version 0.161-alt1",
+                "date": "2015-03-11",
+                "def_id": "oval:org.altlinux.errata:def:20151274",
+                "title": "ALT-PU-2015-1274: package `nss` update to version 3.17.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
             },
             {
-                "date": "2014-12-20",
-                "def_id": "oval:org.altlinux.errata:def:20142479",
-                "title": "ALT-PU-2014-2479: package `elfutils` update to version 0.161-alt1",
+                "date": "2015-03-11",
+                "def_id": "oval:org.altlinux.errata:def:20151274",
+                "title": "ALT-PU-2015-1274: package `nss` update to version 3.17.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2014-12-20",
-                "def_id": "oval:org.altlinux.errata:def:20142479",
-                "title": "ALT-PU-2014-2479: package `elfutils` update to version 0.161-alt1",
+                "date": "2015-03-11",
+                "def_id": "oval:org.altlinux.errata:def:20151274",
+                "title": "ALT-PU-2015-1274: package `nss` update to version 3.17.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2014-12-20",
-                "def_id": "oval:org.altlinux.errata:def:20142479",
-                "title": "ALT-PU-2014-2479: package `elfutils` update to version 0.161-alt1",
+                "date": "2015-03-11",
+                "def_id": "oval:org.altlinux.errata:def:20151274",
+                "title": "ALT-PU-2015-1274: package `nss` update to version 3.17.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-02-16",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-2524": [
@@ -1750,6 +1787,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-3571": [
@@ -2228,6 +2272,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-3572": [
@@ -2706,6 +2757,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-3580": [
@@ -3086,6 +3144,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-08-20",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-3598": [
@@ -3745,6 +3810,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-6272": [
@@ -3859,6 +3931,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-6316": [
@@ -5813,6 +5892,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-6587": [
@@ -6963,6 +7049,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-6591": [
@@ -8274,6 +8367,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-6593": [
@@ -9473,6 +9573,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-6601": [
@@ -10343,6 +10450,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-7146": [
@@ -10550,6 +10664,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8116": [
@@ -10965,6 +11086,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8126": [
@@ -11016,6 +11144,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2021-03-15",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8131": [
@@ -11088,6 +11223,99 @@
                 "title": "ALT-PU-2014-2472: package `libvirt` update to version 1.2.11-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            }
+        ],
+        "CVE-2014-8132": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70200000330221789976435418387632599505",
+                "title": "CVE-2014-8132 libssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70200000330221789976435418387632599505",
+                "title": "CVE-2014-8132 libssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:70200000330221789976435418387632599505",
+                "title": "CVE-2014-8132 libssh",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:247810000000",
+                "title": "USN-2478-1 -- libssh vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:247810000000",
+                "title": "USN-2478-1 -- libssh vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-06-17",
+                "def_id": "oval:org.altlinux.errata:def:20151549",
+                "title": "ALT-PU-2015-1549: package `libssh` update to version 0.6.5-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-06-17",
+                "def_id": "oval:org.altlinux.errata:def:20151549",
+                "title": "ALT-PU-2015-1549: package `libssh` update to version 0.6.5-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-06-17",
+                "def_id": "oval:org.altlinux.errata:def:20151549",
+                "title": "ALT-PU-2015-1549: package `libssh` update to version 0.6.5-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-06-17",
+                "def_id": "oval:org.altlinux.errata:def:20151549",
+                "title": "ALT-PU-2015-1549: package `libssh` update to version 0.6.5-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-06-17",
+                "def_id": "oval:org.altlinux.errata:def:20151549",
+                "title": "ALT-PU-2015-1549: package `libssh` update to version 0.6.5-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-06-17",
+                "def_id": "oval:org.altlinux.errata:def:20151549",
+                "title": "ALT-PU-2015-1549: package `libssh` update to version 0.6.5-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-17",
+                "def_id": "oval:org.altlinux.errata:def:20151549",
+                "title": "ALT-PU-2015-1549: package `libssh` update to version 0.6.5-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-19",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8133": [
@@ -11489,6 +11717,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8135": [
@@ -11850,6 +12085,13 @@
                 "title": "ALT-PU-2014-2472: package `libvirt` update to version 1.2.11-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2016-01-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8137": [
@@ -12202,6 +12444,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8138": [
@@ -12554,6 +12803,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8139": [
@@ -12934,6 +13190,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8140": [
@@ -13314,6 +13577,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8141": [
@@ -13694,6 +13964,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8142": [
@@ -14025,6 +14302,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-17",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8145": [
@@ -14661,6 +14945,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8553": [
@@ -15777,6 +16068,523 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2014-8635": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2014-8636": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2014-8637": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8638": [
@@ -16395,6 +17203,13 @@
                 "title": "ALT-PU-2015-1584: package `thunderbird` update to version 38.0.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8639": [
@@ -17013,6 +17828,183 @@
                 "title": "ALT-PU-2015-1584: package `thunderbird` update to version 38.0.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2014-8640": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8641": [
@@ -17470,6 +18462,183 @@
                 "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2014-8642": [
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:245810000000",
+                "title": "USN-2458-1 -- Firefox vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-01-25",
+                "def_id": "oval:org.altlinux.errata:def:20151082",
+                "title": "ALT-PU-2015-1082: package `seamonkey` update to version 2.32-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-28",
+                "def_id": "oval:org.altlinux.errata:def:20151112",
+                "title": "ALT-PU-2015-1112: package `firefox` update to version 35.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-05-26",
+                "def_id": "oval:org.altlinux.errata:def:20151464",
+                "title": "ALT-PU-2015-1464: package `firefox-esr` update to version 38.0.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-8986": [
@@ -19605,6 +20774,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2014-12-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9294": [
@@ -20013,6 +21189,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2014-12-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9295": [
@@ -20421,6 +21604,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2014-12-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9296": [
@@ -20815,6 +22005,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2014-12-22",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9323": [
@@ -20901,6 +22098,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2019-04-02",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9324": [
@@ -21552,6 +22756,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9402": [
@@ -21806,6 +23017,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9419": [
@@ -22529,6 +23747,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9420": [
@@ -23217,6 +24442,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-04",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9427": [
@@ -23338,6 +24570,185 @@
                 "title": "RHSA-2015:1066: php54 security and bug fix update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/rhscl.oval.xml.bz2"
+            },
+            {
+                "date": "2015-02-17",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2014-9449": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:60365952719056813898622282683801166582",
+                "title": "CVE-2014-9449 exiv2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:60365952719056813898622282683801166582",
+                "title": "CVE-2014-9449 exiv2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:60365952719056813898622282683801166582",
+                "title": "CVE-2014-9449 exiv2",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "oval:org.altlinux.errata:def:20151581",
+                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "oval:org.altlinux.errata:def:20151581",
+                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "oval:org.altlinux.errata:def:20151581",
+                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "oval:org.altlinux.errata:def:20151581",
+                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "oval:org.altlinux.errata:def:20151581",
+                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "oval:org.altlinux.errata:def:20151581",
+                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-06-29",
+                "def_id": "oval:org.altlinux.errata:def:20151581",
+                "title": "ALT-PU-2015-1581: package `exiv2` update to version 0.25-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2014-9471": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185529520859798885223813953296271270794",
+                "title": "CVE-2014-9471 coreutils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185529520859798885223813953296271270794",
+                "title": "CVE-2014-9471 coreutils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:185529520859798885223813953296271270794",
+                "title": "CVE-2014-9471 coreutils",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:247310000000",
+                "title": "USN-2473-1 -- coreutils vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:247310000000",
+                "title": "USN-2473-1 -- coreutils vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151847",
+                "title": "ALT-PU-2015-1847: package `coreutils` update to version 8.24.0.40.c1dba-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151847",
+                "title": "ALT-PU-2015-1847: package `coreutils` update to version 8.24.0.40.c1dba-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151847",
+                "title": "ALT-PU-2015-1847: package `coreutils` update to version 8.24.0.40.c1dba-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151847",
+                "title": "ALT-PU-2015-1847: package `coreutils` update to version 8.24.0.40.c1dba-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151847",
+                "title": "ALT-PU-2015-1847: package `coreutils` update to version 8.24.0.40.c1dba-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151847",
+                "title": "ALT-PU-2015-1847: package `coreutils` update to version 8.24.0.40.c1dba-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-10-09",
+                "def_id": "oval:org.altlinux.errata:def:20151847",
+                "title": "ALT-PU-2015-1847: package `coreutils` update to version 8.24.0.40.c1dba-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9475": [
@@ -24361,6 +25772,13 @@
                 "title": "ALT-PU-2015-1118: package `kernel-image-un-def` update to version 3.18.5-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9584": [
@@ -25091,6 +26509,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9585": [
@@ -25863,6 +27288,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9601": [
@@ -25949,6 +27381,13 @@
                 "title": "ALT-PU-2015-2857: package `python-module-Pillow` update to version 2.7.0-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2016-09-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9620": [
@@ -26154,6 +27593,13 @@
                 "title": "RHSA-2016:0760: file security, bug fix, and enhancement update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/rhel-6.oval.xml.bz2"
+            },
+            {
+                "date": "2018-06-14",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9622": [
@@ -26809,6 +28255,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-17",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9683": [
@@ -27252,6 +28705,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9728": [
@@ -27485,6 +28945,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9729": [
@@ -27641,6 +29108,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9730": [
@@ -27797,6 +29271,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2014-9731": [
@@ -27953,6 +29434,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0204": [
@@ -28445,6 +29933,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0205": [
@@ -28853,6 +30348,13 @@
                 "title": "ALT-PU-2015-1023: package `openssl10` update to version 1.0.1k-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0206": [
@@ -29261,6 +30763,497 @@
                 "title": "ALT-PU-2015-1023: package `openssl10` update to version 1.0.1k-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-12",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-0219": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:40498168374704868474452126141649401306",
+                "title": "CVE-2015-0219 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:40498168374704868474452126141649401306",
+                "title": "CVE-2015-0219 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:40498168374704868474452126141649401306",
+                "title": "CVE-2015-0219 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:40498168374704868474452126141649401306",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:145754409364510093290152017263873900708",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:256109299536097641129841806116651500791",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:235973493509328070971090920043152494485",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:246910000000",
+                "title": "USN-2469-1 -- Django vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:246910000000",
+                "title": "USN-2469-1 -- Django vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-0220": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:145754409364510093290152017263873900708",
+                "title": "CVE-2015-0220 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:145754409364510093290152017263873900708",
+                "title": "CVE-2015-0220 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:145754409364510093290152017263873900708",
+                "title": "CVE-2015-0220 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:40498168374704868474452126141649401306",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:145754409364510093290152017263873900708",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:256109299536097641129841806116651500791",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:235973493509328070971090920043152494485",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:246910000000",
+                "title": "USN-2469-1 -- Django vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:246910000000",
+                "title": "USN-2469-1 -- Django vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-0221": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:256109299536097641129841806116651500791",
+                "title": "CVE-2015-0221 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:256109299536097641129841806116651500791",
+                "title": "CVE-2015-0221 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:256109299536097641129841806116651500791",
+                "title": "CVE-2015-0221 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:40498168374704868474452126141649401306",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:145754409364510093290152017263873900708",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:256109299536097641129841806116651500791",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2015-02-03",
+                "def_id": "oval:org.debian:def:235973493509328070971090920043152494485",
+                "title": "DSA-3151-1 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-wheezy.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:246910000000",
+                "title": "USN-2469-1 -- Django vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:246910000000",
+                "title": "USN-2469-1 -- Django vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
+            }
+        ],
+        "CVE-2015-0222": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:168445324755970929863414533326911457549",
+                "title": "CVE-2015-0222 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:168445324755970929863414533326911457549",
+                "title": "CVE-2015-0222 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bullseye.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:168445324755970929863414533326911457549",
+                "title": "CVE-2015-0222 python-django",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:246910000000",
+                "title": "USN-2469-1 -- Django vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-07-30",
+                "def_id": "oval:com.ubuntu.trusty:def:246910000000",
+                "title": "USN-2469-1 -- Django vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p9?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c9f2?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2015-02-26",
+                "def_id": "oval:org.altlinux.errata:def:20152866",
+                "title": "ALT-PU-2015-2866: package `python-module-django` update to version 1.8-alt1.b1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2015-01-29",
+                "def_id": "debian",
+                "title": "Debian email list",
+                "type": "debian",
+                "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0301": [
@@ -31031,6 +33024,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0395": [
@@ -31999,6 +33999,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0407": [
@@ -33198,6 +35205,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0408": [
@@ -34397,6 +36411,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0410": [
@@ -35596,6 +37617,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0412": [
@@ -36746,6 +38774,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-01-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-0437": [
@@ -39591,6 +41626,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-04-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-1799": [
@@ -40034,6 +42076,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-04-13",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-5194": [
@@ -40687,6 +42736,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-10-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-5195": [
@@ -41340,6 +43396,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-10-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-5219": [
@@ -41993,6 +44056,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-10-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-6525": [
@@ -42438,6 +44508,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-09-30",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-7851": [
@@ -43058,6 +45135,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2015-10-27",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-8079": [
@@ -43230,6 +45314,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2016-01-07",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2015-8954": [
@@ -43691,6 +45782,13 @@
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2019-02-26",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2016-5825": [
