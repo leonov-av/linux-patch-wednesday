@@ -1451,6 +1451,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.xenial:def:840610000000",
+                "title": "USN-8406-1 -- Net::CIDR::Lite vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.bionic:def:840610000000",
                 "title": "USN-8406-1 -- Net::CIDR::Lite vulnerabilities",
@@ -1484,6 +1491,13 @@
                 "title": "USN-6712-1 -- Net::CIDR::Lite vulnerability",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.xenial:def:840610000000",
+                "title": "USN-8406-1 -- Net::CIDR::Lite vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
                 "date": "2024-06-26",
@@ -55582,6 +55596,43 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             }
         ],
+        "CVE-2023-50781": [
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:23361857657780205662266321033774390332",
+                "title": "CVE-2023-50781 m2crypto",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-bookworm.xml.bz2"
+            },
+            {
+                "date": "2024-05-15",
+                "def_id": "oval:org.debian:def:23361857657780205662266321033774390332",
+                "title": "CVE-2023-50781 m2crypto",
+                "type": "debian",
+                "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
+            },
+            {
+                "date": "2024-05-21",
+                "def_id": "oval:redos:def:2050",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c python3-m2crypto",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
+                "date": "2024-04-01",
+                "def_id": "oval:org.altlinux.errata:def:202418565",
+                "title": "ALT-PU-2024-18565: package `python3-module-m2crypto` update to version 0.41.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2024-04-01",
+                "def_id": "oval:org.altlinux.errata:def:202418565",
+                "title": "ALT-PU-2024-18565: package `python3-module-m2crypto` update to version 0.41.0-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            }
+        ],
         "CVE-2023-51704": [
             {
                 "date": "2024-05-15",
@@ -69006,16 +69057,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
@@ -73360,16 +73411,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -82168,16 +82219,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2024-08-27",
-                "def_id": "oval:org.altlinux.errata:def:202411575",
-                "title": "ALT-PU-2024-11575: package `zabbix` update to version 6.0.32-alt0.c10f1.1",
+                "date": "2024-09-20",
+                "def_id": "oval:org.altlinux.errata:def:202412059",
+                "title": "ALT-PU-2024-12059: package `zabbix` update to version 7.0.3-alt0.c10f1.2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2024-09-20",
-                "def_id": "oval:org.altlinux.errata:def:202412059",
-                "title": "ALT-PU-2024-12059: package `zabbix` update to version 7.0.3-alt0.c10f1.2",
+                "date": "2024-08-27",
+                "def_id": "oval:org.altlinux.errata:def:202411575",
+                "title": "ALT-PU-2024-11575: package `zabbix` update to version 6.0.32-alt0.c10f1.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
@@ -86592,15 +86643,15 @@
             },
             {
                 "date": "2024-06-25",
-                "def_id": "oval:org.altlinux.errata:def:20248809",
-                "title": "ALT-PU-2024-8809: package `cri-o1.27` update to version 1.27.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20248807",
+                "title": "ALT-PU-2024-8807: package `cri-o1.28` update to version 1.28.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
                 "date": "2024-06-25",
-                "def_id": "oval:org.altlinux.errata:def:20248807",
-                "title": "ALT-PU-2024-8807: package `cri-o1.28` update to version 1.28.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20248809",
+                "title": "ALT-PU-2024-8809: package `cri-o1.27` update to version 1.27.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
@@ -89092,6 +89143,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
+                "date": "2026-10-17",
+                "def_id": "oval:org.altlinux.errata:def:202617094",
+                "title": "ALT-PU-2026-17094: package `pve-qemu` update to version 7.2.22-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
                 "date": "2024-04-09",
                 "def_id": "oval:org.altlinux.errata:def:20246223",
                 "title": "ALT-PU-2024-6223: package `qemu` update to version 8.2.2-alt1",
@@ -89258,6 +89316,13 @@
                 "date": "2024-04-21",
                 "def_id": "oval:org.altlinux.errata:def:20246866",
                 "title": "ALT-PU-2024-6866: package `qemu` update to version 8.2.2-alt0.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
+            },
+            {
+                "date": "2026-10-17",
+                "def_id": "oval:org.altlinux.errata:def:202617094",
+                "title": "ALT-PU-2026-17094: package `pve-qemu` update to version 7.2.22-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -108976,16 +109041,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -148800,13 +148865,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            },
-            {
                 "date": "2024-10-11",
                 "def_id": "oval:org.altlinux.errata:def:202413960",
                 "title": "ALT-PU-2024-13960: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
@@ -148824,6 +148882,13 @@
                 "date": "2024-12-13",
                 "def_id": "oval:org.altlinux.errata:def:202418268",
                 "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -193746,16 +193811,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -230182,16 +230247,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -230471,16 +230536,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -232346,16 +232411,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -232642,16 +232707,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -239225,16 +239290,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-11-27",
+                "def_id": "oval:org.altlinux.errata:def:202416228",
+                "title": "ALT-PU-2024-16228: package `kernel-image-rt` update to version 6.1.119-alt1.rt45",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-11-27",
-                "def_id": "oval:org.altlinux.errata:def:202416228",
-                "title": "ALT-PU-2024-16228: package `kernel-image-rt` update to version 6.1.119-alt1.rt45",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -256734,16 +256799,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -322547,16 +322612,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -331861,13 +331926,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            },
-            {
                 "date": "2024-10-11",
                 "def_id": "oval:org.altlinux.errata:def:202413960",
                 "title": "ALT-PU-2024-13960: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
@@ -331885,6 +331943,13 @@
                 "date": "2024-11-27",
                 "def_id": "oval:org.altlinux.errata:def:202416228",
                 "title": "ALT-PU-2024-16228: package `kernel-image-rt` update to version 6.1.119-alt1.rt45",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -349585,16 +349650,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -353806,6 +353871,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.fips-updates_jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.fips-updates_noble:def:681610000000",
                 "title": "USN-6816-1 -- Linux kernel vulnerabilities",
@@ -353932,6 +354004,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.noble:def:681610000000",
                 "title": "USN-6816-1 -- Linux kernel vulnerabilities",
@@ -354012,6 +354091,13 @@
                 "date": "2026-08-19",
                 "def_id": "oval:com.ubuntu.realtime_jammy:def:862030000000",
                 "title": "USN-8620-3 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.realtime_jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.realtime_jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.realtime_jammy.usn.oval.xml.bz2"
             },
@@ -354149,6 +354235,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.fips-updates_jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.fips-updates_noble:def:681610000000",
                 "title": "USN-6816-1 -- Linux kernel vulnerabilities",
@@ -354275,6 +354368,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.noble:def:681610000000",
                 "title": "USN-6816-1 -- Linux kernel vulnerabilities",
@@ -354355,6 +354455,13 @@
                 "date": "2026-08-19",
                 "def_id": "oval:com.ubuntu.realtime_jammy:def:862030000000",
                 "title": "USN-8620-3 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.realtime_jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.realtime_jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.realtime_jammy.usn.oval.xml.bz2"
             },
@@ -365823,15 +365930,15 @@
             },
             {
                 "date": "2024-06-25",
-                "def_id": "oval:org.altlinux.errata:def:20248809",
-                "title": "ALT-PU-2024-8809: package `cri-o1.27` update to version 1.27.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20248807",
+                "title": "ALT-PU-2024-8807: package `cri-o1.28` update to version 1.28.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
                 "date": "2024-06-25",
-                "def_id": "oval:org.altlinux.errata:def:20248807",
-                "title": "ALT-PU-2024-8807: package `cri-o1.28` update to version 1.28.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20248809",
+                "title": "ALT-PU-2024-8809: package `cri-o1.27` update to version 1.27.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
@@ -369066,15 +369173,15 @@
             },
             {
                 "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
+                "def_id": "oval:org.altlinux.errata:def:202415840",
+                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
                 "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415840",
-                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -369087,15 +369194,15 @@
             },
             {
                 "date": "2025-01-21",
-                "def_id": "oval:org.altlinux.errata:def:20251007",
-                "title": "ALT-PU-2025-1007: package `firefox` update to version 132.0.1-alt0.c10.1",
+                "def_id": "oval:org.altlinux.errata:def:20251009",
+                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
                 "date": "2025-01-21",
-                "def_id": "oval:org.altlinux.errata:def:20251009",
-                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
+                "def_id": "oval:org.altlinux.errata:def:20251007",
+                "title": "ALT-PU-2025-1007: package `firefox` update to version 132.0.1-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -369508,16 +369615,16 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
+                "date": "2024-04-09",
+                "def_id": "oval:org.altlinux.errata:def:20244971",
+                "title": "ALT-PU-2024-4971: package `firefox-esr` update to version 115.9.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-04-09",
-                "def_id": "oval:org.altlinux.errata:def:20244971",
-                "title": "ALT-PU-2024-4971: package `firefox-esr` update to version 115.9.1-alt1",
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -375713,13 +375820,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-23",
                 "def_id": "oval:org.altlinux.errata:def:20246721",
                 "title": "ALT-PU-2024-6721: package `firefox-esr` update to version 115.10.0-alt1",
@@ -375744,6 +375844,13 @@
                 "date": "2024-12-27",
                 "def_id": "oval:org.altlinux.errata:def:202415841",
                 "title": "ALT-PU-2024-15841: package `thunderbird` update to version 128.4.2-alt0.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -379216,16 +379323,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -386977,16 +387084,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -401110,16 +401217,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -406432,6 +406539,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.fips-updates_jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.fips-updates_noble:def:689310000000",
                 "title": "USN-6893-1 -- Linux kernel vulnerabilities",
@@ -406551,6 +406665,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.noble:def:689310000000",
                 "title": "USN-6893-1 -- Linux kernel vulnerabilities",
@@ -406624,6 +406745,13 @@
                 "date": "2026-08-19",
                 "def_id": "oval:com.ubuntu.realtime_jammy:def:862030000000",
                 "title": "USN-8620-3 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.realtime_jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.realtime_jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.realtime_jammy.usn.oval.xml.bz2"
             },
@@ -406754,6 +406882,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.fips-updates_jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.fips-updates_noble:def:689310000000",
                 "title": "USN-6893-1 -- Linux kernel vulnerabilities",
@@ -406873,6 +407008,13 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.jammy.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.noble:def:689310000000",
                 "title": "USN-6893-1 -- Linux kernel vulnerabilities",
@@ -406946,6 +407088,13 @@
                 "date": "2026-08-19",
                 "def_id": "oval:com.ubuntu.realtime_jammy:def:862030000000",
                 "title": "USN-8620-3 -- Linux kernel (Intel IoTG) vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.realtime_jammy.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.realtime_jammy:def:866820000000",
+                "title": "USN-8668-2 -- Linux kernel (Raspberry Pi) vulnerabilities",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.realtime_jammy.usn.oval.xml.bz2"
             },
@@ -445909,16 +446058,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -450583,13 +450732,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-11-21",
-                "def_id": "oval:org.altlinux.errata:def:202414046",
-                "title": "ALT-PU-2024-14046: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-13",
                 "def_id": "oval:org.altlinux.errata:def:20246507",
                 "title": "ALT-PU-2024-6507: package `kernel-image-un-def` update to version 6.6.27-alt1",
@@ -450649,13 +450791,6 @@
                 "date": "2024-05-02",
                 "def_id": "oval:org.altlinux.errata:def:202418118",
                 "title": "ALT-PU-2024-18118: package `kernel-image-mp` update to version 6.8.8-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            },
-            {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -465110,13 +465245,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            },
-            {
                 "date": "2024-10-11",
                 "def_id": "oval:org.altlinux.errata:def:202413960",
                 "title": "ALT-PU-2024-13960: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
@@ -465134,6 +465262,13 @@
                 "date": "2024-11-27",
                 "def_id": "oval:org.altlinux.errata:def:202416228",
                 "title": "ALT-PU-2024-16228: package `kernel-image-rt` update to version 6.1.119-alt1.rt45",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -465469,13 +465604,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            },
-            {
                 "date": "2024-10-11",
                 "def_id": "oval:org.altlinux.errata:def:202413960",
                 "title": "ALT-PU-2024-13960: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
@@ -465493,6 +465621,13 @@
                 "date": "2024-11-27",
                 "def_id": "oval:org.altlinux.errata:def:202416228",
                 "title": "ALT-PU-2024-16228: package `kernel-image-rt` update to version 6.1.119-alt1.rt45",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -466472,13 +466607,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            },
-            {
                 "date": "2024-10-11",
                 "def_id": "oval:org.altlinux.errata:def:202413960",
                 "title": "ALT-PU-2024-13960: package `kernel-image-rpi-un` update to version 6.6.56-alt1",
@@ -466489,6 +466617,13 @@
                 "date": "2024-10-11",
                 "def_id": "oval:org.altlinux.errata:def:202418495",
                 "title": "ALT-PU-2024-18495: package `kernel-image-un-def` update to version 6.6.55-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -479657,16 +479792,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -481842,13 +481977,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-23",
                 "def_id": "oval:org.altlinux.errata:def:20246721",
                 "title": "ALT-PU-2024-6721: package `firefox-esr` update to version 115.10.0-alt1",
@@ -481866,6 +481994,13 @@
                 "date": "2024-12-27",
                 "def_id": "oval:org.altlinux.errata:def:202415841",
                 "title": "ALT-PU-2024-15841: package `thunderbird` update to version 128.4.2-alt0.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -482803,13 +482938,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-23",
                 "def_id": "oval:org.altlinux.errata:def:20246721",
                 "title": "ALT-PU-2024-6721: package `firefox-esr` update to version 115.10.0-alt1",
@@ -482827,6 +482955,13 @@
                 "date": "2024-12-27",
                 "def_id": "oval:org.altlinux.errata:def:202415841",
                 "title": "ALT-PU-2024-15841: package `thunderbird` update to version 128.4.2-alt0.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -483764,13 +483899,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-23",
                 "def_id": "oval:org.altlinux.errata:def:20246721",
                 "title": "ALT-PU-2024-6721: package `firefox-esr` update to version 115.10.0-alt1",
@@ -483795,6 +483923,13 @@
                 "date": "2024-12-27",
                 "def_id": "oval:org.altlinux.errata:def:202415841",
                 "title": "ALT-PU-2024-15841: package `thunderbird` update to version 128.4.2-alt0.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -484753,13 +484888,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-23",
                 "def_id": "oval:org.altlinux.errata:def:20246721",
                 "title": "ALT-PU-2024-6721: package `firefox-esr` update to version 115.10.0-alt1",
@@ -484784,6 +484912,13 @@
                 "date": "2024-12-27",
                 "def_id": "oval:org.altlinux.errata:def:202415841",
                 "title": "ALT-PU-2024-15841: package `thunderbird` update to version 128.4.2-alt0.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -484902,13 +485037,6 @@
         ],
         "CVE-2024-3863": [
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-23",
                 "def_id": "oval:org.altlinux.errata:def:20246721",
                 "title": "ALT-PU-2024-6721: package `firefox-esr` update to version 115.10.0-alt1",
@@ -484933,6 +485061,13 @@
                 "date": "2024-12-27",
                 "def_id": "oval:org.altlinux.errata:def:202415841",
                 "title": "ALT-PU-2024-15841: package `thunderbird` update to version 128.4.2-alt0.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -485891,13 +486026,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-23",
                 "def_id": "oval:org.altlinux.errata:def:20246721",
                 "title": "ALT-PU-2024-6721: package `firefox-esr` update to version 115.10.0-alt1",
@@ -485915,6 +486043,13 @@
                 "date": "2024-12-27",
                 "def_id": "oval:org.altlinux.errata:def:202415841",
                 "title": "ALT-PU-2024-15841: package `thunderbird` update to version 128.4.2-alt0.p10.1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -486432,16 +486567,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },

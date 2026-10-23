@@ -1406,6 +1406,20 @@
                 "title": "RHSA-2023:5363: nodejs:18 security, bug fix, and enhancement update (Important)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
+            },
+            {
+                "date": "2026-10-07",
+                "def_id": "oval:org.altlinux.errata:def:202617292",
+                "title": "ALT-PU-2026-17292: package `npm` update to version 8.19.3-alt3",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2026-10-07",
+                "def_id": "oval:org.altlinux.errata:def:202617285",
+                "title": "ALT-PU-2026-17285: package `npm` update to version 8.19.3-alt3",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             }
         ],
         "CVE-2022-27635": [
@@ -15356,6 +15370,50 @@
                 "url": "https://lists.debian.org/debian-lts-announce/"
             }
         ],
+        "CVE-2023-39410": [
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:20237639",
+                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL6/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:20237639",
+                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:20237639",
+                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-12-04",
+                "def_id": "oval:com.redhat.rhsa:def:20237639",
+                "title": "RHSA-2023:7639: Red Hat JBoss Enterprise Application Platform 7.4.14 on RHEL 9 security update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/jboss-eap-7.oval.xml.bz2"
+            },
+            {
+                "date": "2023-09-26",
+                "def_id": "oval:org.altlinux.errata:def:20238973",
+                "title": "ALT-PU-2023-8973: package `python3-module-avro` update to version 1.11.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2023-09-26",
+                "def_id": "oval:org.altlinux.errata:def:20238973",
+                "title": "ALT-PU-2023-8973: package `python3-module-avro` update to version 1.11.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            }
+        ],
         "CVE-2023-3955": [
             {
                 "date": "2024-05-15",
@@ -19750,6 +19808,34 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/jboss-ws-6.oval.xml.bz2"
             },
             {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
+            },
+            {
                 "date": "2024-01-10",
                 "def_id": "oval:com.redhat.rhsa:def:20240125",
                 "title": "RHSA-2024:0125: tomcat security update (Moderate)",
@@ -19990,6 +20076,13 @@
                 "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
             },
             {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.xenial:def:836920000000",
+                "title": "USN-8369-2 -- mod_jk regression",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.bionic:def:682610000000",
                 "title": "USN-6826-1 -- mod_jk vulnerability",
@@ -20056,6 +20149,13 @@
                 "date": "2026-07-30",
                 "def_id": "oval:com.ubuntu.xenial:def:682610000000",
                 "title": "USN-6826-1 -- mod_jk vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-10-21",
+                "def_id": "oval:com.ubuntu.xenial:def:836920000000",
+                "title": "USN-8369-2 -- mod_jk regression",
                 "type": "ubuntu",
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
             },
@@ -22863,6 +22963,34 @@
                 "title": "RHSA-2023:6206: Red Hat JBoss Web Server 5.7.6 release and security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/jboss-ws-5.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
             },
             {
                 "date": "2024-01-10",
@@ -34033,16 +34161,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2023-10-16",
-                "def_id": "oval:org.altlinux.errata:def:20236262",
-                "title": "ALT-PU-2023-6262: package `golang` update to version 1.20.10-alt1",
+                "date": "2024-02-12",
+                "def_id": "oval:org.altlinux.errata:def:20241883",
+                "title": "ALT-PU-2024-1883: package `traefik` update to version 2.10.7-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-02-12",
-                "def_id": "oval:org.altlinux.errata:def:20241883",
-                "title": "ALT-PU-2024-1883: package `traefik` update to version 2.10.7-alt1",
+                "date": "2023-10-16",
+                "def_id": "oval:org.altlinux.errata:def:20236262",
+                "title": "ALT-PU-2023-6262: package `golang` update to version 1.20.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -34327,16 +34455,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-10-24",
-                "def_id": "oval:org.altlinux.errata:def:20236267",
-                "title": "ALT-PU-2023-6267: package `golang` update to version 1.21.3-alt1",
+                "date": "2023-11-15",
+                "def_id": "oval:org.altlinux.errata:def:20237206",
+                "title": "ALT-PU-2023-7206: package `traefik` update to version 2.10.5-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-11-15",
-                "def_id": "oval:org.altlinux.errata:def:20237206",
-                "title": "ALT-PU-2023-7206: package `traefik` update to version 2.10.5-alt1",
+                "date": "2023-10-24",
+                "def_id": "oval:org.altlinux.errata:def:20236267",
+                "title": "ALT-PU-2023-6267: package `golang` update to version 1.21.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -34442,6 +34570,13 @@
                 "date": "2023-11-09",
                 "def_id": "oval:org.altlinux.errata:def:20237094",
                 "title": "ALT-PU-2023-7094: package `traefik` update to version 2.10.5-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2025-03-07",
+                "def_id": "oval:org.altlinux.errata:def:20253875",
+                "title": "ALT-PU-2025-3875: package `grpc` update to version 1.70.1-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -36390,6 +36525,13 @@
                 "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
+                "date": "2026-09-17",
+                "def_id": "oval:org.altlinux.errata:def:202615354",
+                "title": "ALT-PU-2026-15354: package `libxml2` update to version 2.9.12-alt1.p10.10",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
                 "date": "2023-12-15",
                 "def_id": "oval:org.altlinux.errata:def:20238083",
                 "title": "ALT-PU-2023-8083: package `libxml2` update to version 2.12.3-alt1",
@@ -37450,6 +37592,34 @@
                 "title": "RHSA-2023:6206: Red Hat JBoss Web Server 5.7.6 release and security update (Moderate)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/jboss-ws-5.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-aus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-e4s.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-eus.oval.xml.bz2"
+            },
+            {
+                "date": "2024-06-11",
+                "def_id": "oval:com.redhat.rhsa:def:20243814",
+                "title": "RHSA-2024:3814: tomcat security and bug fix update (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/rhel-8.8-tus.oval.xml.bz2"
             },
             {
                 "date": "2024-01-10",
@@ -40325,6 +40495,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/storage-ceph-7.oval.xml.bz2"
             },
             {
+                "date": "2026-10-08",
+                "def_id": "oval:com.redhat.rhsa:def:202679101",
+                "title": "RHSA-2026:79101: Red Hat Ceph Storage 8.1 security and bug fix updates (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/storage-ceph-8.oval.xml.bz2"
+            },
+            {
                 "date": "2024-03-06",
                 "def_id": "oval:com.redhat.rhsa:def:20241196",
                 "title": "RHSA-2024:1196: Red Hat JBoss Enterprise Application Platform 7.4 security update (Moderate)",
@@ -40668,6 +40845,13 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/storage-ceph-7.oval.xml.bz2"
             },
             {
+                "date": "2026-10-08",
+                "def_id": "oval:com.redhat.rhsa:def:202679101",
+                "title": "RHSA-2026:79101: Red Hat Ceph Storage 8.1 security and bug fix updates (Important)",
+                "type": "redhat",
+                "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/storage-ceph-8.oval.xml.bz2"
+            },
+            {
                 "date": "2024-09-19",
                 "def_id": "oval:org.altlinux.errata:def:202412010",
                 "title": "ALT-PU-2024-12010: package `openssh-gostcrypto` update to version 7.9p1-alt4.gost.p10.3",
@@ -41005,15 +41189,15 @@
             },
             {
                 "date": "2024-06-25",
-                "def_id": "oval:org.altlinux.errata:def:20248809",
-                "title": "ALT-PU-2024-8809: package `cri-o1.27` update to version 1.27.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20248807",
+                "title": "ALT-PU-2024-8807: package `cri-o1.28` update to version 1.28.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
                 "date": "2024-06-25",
-                "def_id": "oval:org.altlinux.errata:def:20248807",
-                "title": "ALT-PU-2024-8807: package `cri-o1.28` update to version 1.28.6-alt1",
+                "def_id": "oval:org.altlinux.errata:def:20248809",
+                "title": "ALT-PU-2024-8809: package `cri-o1.27` update to version 1.27.6-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
@@ -41887,16 +42071,16 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415840",
-                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
+                "date": "2024-04-03",
+                "def_id": "oval:org.altlinux.errata:def:20244241",
+                "title": "ALT-PU-2024-4241: package `firefox` update to version 118.0.2-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-04-03",
-                "def_id": "oval:org.altlinux.errata:def:20244241",
-                "title": "ALT-PU-2024-4241: package `firefox` update to version 118.0.2-alt0.p10.1",
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415840",
+                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -41922,16 +42106,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2025-01-21",
-                "def_id": "oval:org.altlinux.errata:def:20251009",
-                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
+                "date": "2024-07-31",
+                "def_id": "oval:org.altlinux.errata:def:202410261",
+                "title": "ALT-PU-2024-10261: package `firefox` update to version 118.0.2-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-07-31",
-                "def_id": "oval:org.altlinux.errata:def:202410261",
-                "title": "ALT-PU-2024-10261: package `firefox` update to version 118.0.2-alt0.p10.1",
+                "date": "2025-01-21",
+                "def_id": "oval:org.altlinux.errata:def:20251009",
+                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -41987,16 +42171,16 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415840",
-                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
+                "date": "2024-04-03",
+                "def_id": "oval:org.altlinux.errata:def:20244241",
+                "title": "ALT-PU-2024-4241: package `firefox` update to version 118.0.2-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-04-03",
-                "def_id": "oval:org.altlinux.errata:def:20244241",
-                "title": "ALT-PU-2024-4241: package `firefox` update to version 118.0.2-alt0.p10.1",
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415840",
+                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -42022,16 +42206,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2025-01-21",
-                "def_id": "oval:org.altlinux.errata:def:20251009",
-                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
+                "date": "2024-07-31",
+                "def_id": "oval:org.altlinux.errata:def:202410261",
+                "title": "ALT-PU-2024-10261: package `firefox` update to version 118.0.2-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-07-31",
-                "def_id": "oval:org.altlinux.errata:def:202410261",
-                "title": "ALT-PU-2024-10261: package `firefox` update to version 118.0.2-alt0.p10.1",
+                "date": "2025-01-21",
+                "def_id": "oval:org.altlinux.errata:def:20251009",
+                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -42087,16 +42271,16 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415840",
-                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
+                "date": "2024-04-03",
+                "def_id": "oval:org.altlinux.errata:def:20244241",
+                "title": "ALT-PU-2024-4241: package `firefox` update to version 118.0.2-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-04-03",
-                "def_id": "oval:org.altlinux.errata:def:20244241",
-                "title": "ALT-PU-2024-4241: package `firefox` update to version 118.0.2-alt0.p10.1",
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415840",
+                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -42122,16 +42306,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2025-01-21",
-                "def_id": "oval:org.altlinux.errata:def:20251009",
-                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
+                "date": "2024-07-31",
+                "def_id": "oval:org.altlinux.errata:def:202410261",
+                "title": "ALT-PU-2024-10261: package `firefox` update to version 118.0.2-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-07-31",
-                "def_id": "oval:org.altlinux.errata:def:202410261",
-                "title": "ALT-PU-2024-10261: package `firefox` update to version 118.0.2-alt0.p10.1",
+                "date": "2025-01-21",
+                "def_id": "oval:org.altlinux.errata:def:20251009",
+                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -42187,16 +42371,16 @@
                 "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.focal.usn.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415840",
-                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
+                "date": "2024-04-03",
+                "def_id": "oval:org.altlinux.errata:def:20244241",
+                "title": "ALT-PU-2024-4241: package `firefox` update to version 118.0.2-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-04-03",
-                "def_id": "oval:org.altlinux.errata:def:20244241",
-                "title": "ALT-PU-2024-4241: package `firefox` update to version 118.0.2-alt0.p10.1",
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415840",
+                "title": "ALT-PU-2024-15840: package `firefox-esr` update to version 128.4.0-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -42222,16 +42406,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2025-01-21",
-                "def_id": "oval:org.altlinux.errata:def:20251009",
-                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
+                "date": "2024-07-31",
+                "def_id": "oval:org.altlinux.errata:def:202410261",
+                "title": "ALT-PU-2024-10261: package `firefox` update to version 118.0.2-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-07-31",
-                "def_id": "oval:org.altlinux.errata:def:202410261",
-                "title": "ALT-PU-2024-10261: package `firefox` update to version 118.0.2-alt0.p10.1",
+                "date": "2025-01-21",
+                "def_id": "oval:org.altlinux.errata:def:20251009",
+                "title": "ALT-PU-2025-1009: package `firefox-esr` update to version 128.4.0-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -43311,6 +43495,13 @@
                 "title": "ELSA-2023-13043: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol9.xml.bz2"
+            },
+            {
+                "date": "2026-10-16",
+                "def_id": "oval:redos:def:18495",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
             },
             {
                 "date": "2023-10-17",
@@ -64028,6 +64219,13 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
+                "date": "2026-09-24",
+                "def_id": "oval:redos:def:16180",
+                "title": "\u0423\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u044c kernel-lt",
+                "type": "redos",
+                "url": "https://redos.red-soft.ru/support/secure/redos.xml"
+            },
+            {
                 "date": "2026-02-28",
                 "def_id": "oval:org.altlinux.errata:def:20263750",
                 "title": "ALT-PU-2026-3750: package `kernel-image-un-def` update to version 6.1.163-alt1",
@@ -64093,16 +64291,16 @@
         ],
         "CVE-2023-54365": [
             {
-                "date": "2023-10-16",
-                "def_id": "oval:org.altlinux.errata:def:20236262",
-                "title": "ALT-PU-2023-6262: package `golang` update to version 1.20.10-alt1",
+                "date": "2024-02-12",
+                "def_id": "oval:org.altlinux.errata:def:20241883",
+                "title": "ALT-PU-2024-1883: package `traefik` update to version 2.10.7-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
             {
-                "date": "2024-02-12",
-                "def_id": "oval:org.altlinux.errata:def:20241883",
-                "title": "ALT-PU-2024-1883: package `traefik` update to version 2.10.7-alt1",
+                "date": "2023-10-16",
+                "def_id": "oval:org.altlinux.errata:def:20236262",
+                "title": "ALT-PU-2023-6262: package `golang` update to version 1.20.10-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -64142,16 +64340,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f1?one_file=true"
             },
             {
-                "date": "2023-10-24",
-                "def_id": "oval:org.altlinux.errata:def:20236267",
-                "title": "ALT-PU-2023-6267: package `golang` update to version 1.21.3-alt1",
+                "date": "2023-11-15",
+                "def_id": "oval:org.altlinux.errata:def:20237206",
+                "title": "ALT-PU-2023-7206: package `traefik` update to version 2.10.5-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2023-11-15",
-                "def_id": "oval:org.altlinux.errata:def:20237206",
-                "title": "ALT-PU-2023-7206: package `traefik` update to version 2.10.5-alt1",
+                "date": "2023-10-24",
+                "def_id": "oval:org.altlinux.errata:def:20236267",
+                "title": "ALT-PU-2023-6267: package `golang` update to version 1.21.3-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
@@ -70815,13 +71013,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL9/rhel-9.oval.xml.bz2"
             },
             {
-                "date": "2024-12-27",
-                "def_id": "oval:org.altlinux.errata:def:202415839",
-                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
-            },
-            {
                 "date": "2024-04-23",
                 "def_id": "oval:org.altlinux.errata:def:20246721",
                 "title": "ALT-PU-2024-6721: package `firefox-esr` update to version 115.10.0-alt1",
@@ -70853,6 +71044,13 @@
                 "date": "2024-03-20",
                 "def_id": "oval:org.altlinux.errata:def:20243860",
                 "title": "ALT-PU-2024-3860: package `thunderbird` update to version 115.8.1-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
+            },
+            {
+                "date": "2024-12-27",
+                "def_id": "oval:org.altlinux.errata:def:202415839",
+                "title": "ALT-PU-2024-15839: package `firefox` update to version 132.0.1-alt0.p10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p10?one_file=true"
             },
@@ -70941,16 +71139,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2025-01-21",
-                "def_id": "oval:org.altlinux.errata:def:20251007",
-                "title": "ALT-PU-2025-1007: package `firefox` update to version 132.0.1-alt0.c10.1",
+                "date": "2024-03-29",
+                "def_id": "oval:org.altlinux.errata:def:20244601",
+                "title": "ALT-PU-2024-4601: package `thunderbird` update to version 115.8.1-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
             {
-                "date": "2024-03-29",
-                "def_id": "oval:org.altlinux.errata:def:20244601",
-                "title": "ALT-PU-2024-4601: package `thunderbird` update to version 115.8.1-alt0.c10.1",
+                "date": "2025-01-21",
+                "def_id": "oval:org.altlinux.errata:def:20251007",
+                "title": "ALT-PU-2025-1007: package `firefox` update to version 132.0.1-alt0.c10.1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/c10f2?one_file=true"
             },
