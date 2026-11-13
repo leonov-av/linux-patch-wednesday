@@ -9501,13 +9501,6 @@
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/openshift-4.3.oval.xml.bz2"
             },
             {
-                "date": "2020-05-04",
-                "def_id": "oval:com.redhat.rhba:def:20200582",
-                "title": "RHBA-2020:0582: OpenShift Container Platform 4.4 RPM release advisory (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL7/openshift-4.4.oval.xml.bz2"
-            },
-            {
                 "date": "2020-05-12",
                 "def_id": "oval:com.redhat.rhsa:def:20202116",
                 "title": "RHSA-2020:2116: buildah security and bug fix update (Important)",
@@ -9541,13 +9534,6 @@
                 "title": "RHSA-2020:1396: OpenShift Container Platform 4.3.12 podman security update (Low)",
                 "type": "redhat",
                 "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/openshift-4.3.oval.xml.bz2"
-            },
-            {
-                "date": "2020-05-04",
-                "def_id": "oval:com.redhat.rhba:def:20200582",
-                "title": "RHBA-2020:0582: OpenShift Container Platform 4.4 RPM release advisory (Low)",
-                "type": "redhat",
-                "url": "https://security.access.redhat.com/data/oval/v2/RHEL8/openshift-4.4.oval.xml.bz2"
             },
             {
                 "date": "2020-04-28",
@@ -21571,6 +21557,20 @@
                 "title": "ELSA-2022-9761: Unbreakable Enterprise kernel security update (IMPORTANT)",
                 "type": "oraclelinux",
                 "url": "https://linux.oracle.com/security/oval/com.oracle.elsa-ol7.xml.bz2"
+            },
+            {
+                "date": "2021-05-18",
+                "def_id": "oval:org.almalinux.alsa:def:20211578",
+                "title": "ALSA-2021:1578: kernel security, bug fix, and enhancement update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml.bz2"
+            },
+            {
+                "date": "2021-05-18",
+                "def_id": "oval:org.almalinux.alsa:def:20211578",
+                "title": "ALSA-2021:1578: kernel security, bug fix, and enhancement update (Important)",
+                "type": "almalinux",
+                "url": "https://security.almalinux.org/oval/org.almalinux.alsa-8.xml"
             },
             {
                 "date": "2021-05-18",
@@ -50232,16 +50232,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2024-04-22",
-                "def_id": "oval:org.altlinux.errata:def:20246818",
-                "title": "ALT-PU-2024-6818: package `kernel-image-rpi-un` update to version 6.6.23-alt1",
+                "date": "2021-05-28",
+                "def_id": "oval:org.altlinux.errata:def:20211870",
+                "title": "ALT-PU-2021-1870: package `kernel-image-rt` update to version 5.10.35-alt1.rt39",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2021-05-28",
-                "def_id": "oval:org.altlinux.errata:def:20211870",
-                "title": "ALT-PU-2021-1870: package `kernel-image-rt` update to version 5.10.35-alt1.rt39",
+                "date": "2024-04-22",
+                "def_id": "oval:org.altlinux.errata:def:20246818",
+                "title": "ALT-PU-2024-6818: package `kernel-image-rpi-un` update to version 6.6.23-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -50428,13 +50428,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-04-22",
-                "def_id": "oval:org.altlinux.errata:def:20246818",
-                "title": "ALT-PU-2024-6818: package `kernel-image-rpi-un` update to version 6.6.23-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            },
-            {
                 "date": "2021-05-28",
                 "def_id": "oval:org.altlinux.errata:def:20211870",
                 "title": "ALT-PU-2021-1870: package `kernel-image-rt` update to version 5.10.35-alt1.rt39",
@@ -50445,6 +50438,13 @@
                 "date": "2024-12-13",
                 "def_id": "oval:org.altlinux.errata:def:202418268",
                 "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:org.altlinux.errata:def:20246818",
+                "title": "ALT-PU-2024-6818: package `kernel-image-rpi-un` update to version 6.6.23-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
@@ -51473,13 +51473,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2025-10-03",
-                "def_id": "oval:org.altlinux.errata:def:202512647",
-                "title": "ALT-PU-2025-12647: package `kernel-image-rpi-un` update to version 6.12.49-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2021-05-26",
                 "def_id": "oval:org.altlinux.errata:def:20211862",
                 "title": "ALT-PU-2021-1862: package `kernel-image-rpi-def` update to version 5.10.36-alt1",
@@ -51497,6 +51490,13 @@
                 "date": "2024-02-06",
                 "def_id": "oval:org.altlinux.errata:def:20241867",
                 "title": "ALT-PU-2024-1867: package `kernel-image-mp` update to version 6.7.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2025-10-03",
+                "def_id": "oval:org.altlinux.errata:def:202512647",
+                "title": "ALT-PU-2025-12647: package `kernel-image-rpi-un` update to version 6.12.49-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -51655,13 +51655,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2025-10-03",
-                "def_id": "oval:org.altlinux.errata:def:202512645",
-                "title": "ALT-PU-2025-12645: package `kernel-image-rpi-un` update to version 6.12.49-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
-            },
-            {
                 "date": "2021-05-26",
                 "def_id": "oval:org.altlinux.errata:def:20211862",
                 "title": "ALT-PU-2021-1862: package `kernel-image-rpi-def` update to version 5.10.36-alt1",
@@ -51683,6 +51676,13 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
+                "date": "2024-08-06",
+                "def_id": "oval:org.altlinux.errata:def:202410786",
+                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
                 "date": "2024-02-06",
                 "def_id": "oval:org.altlinux.errata:def:20241867",
                 "title": "ALT-PU-2024-1867: package `kernel-image-mp` update to version 6.7.4-alt1",
@@ -51690,9 +51690,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-08-06",
-                "def_id": "oval:org.altlinux.errata:def:202410786",
-                "title": "ALT-PU-2024-10786: package `kernel-image-pine` update to version 6.10.3-alt1",
+                "date": "2025-10-03",
+                "def_id": "oval:org.altlinux.errata:def:202512645",
+                "title": "ALT-PU-2025-12645: package `kernel-image-rpi-un` update to version 6.12.49-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },

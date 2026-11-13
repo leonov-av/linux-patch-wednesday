@@ -3270,11 +3270,46 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
+                "date": "2026-11-13",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:898410000000",
+                "title": "USN-8984-1 -- jabberd2 vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:898410000000",
+                "title": "USN-8984-1 -- jabberd2 vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-11-13",
+                "def_id": "oval:com.ubuntu.fips-updates_xenial:def:898410000000",
+                "title": "USN-8984-1 -- jabberd2 vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.fips-updates_xenial.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-11-13",
+                "def_id": "oval:com.ubuntu.xenial:def:898410000000",
+                "title": "USN-8984-1 -- jabberd2 vulnerability",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.xenial.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2017-07-05",
                 "def_id": "debian",
                 "title": "Debian email list",
                 "type": "debian",
                 "url": "https://lists.debian.org/debian-lts-announce/"
+            },
+            {
+                "date": "2026-11-03",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2017-10810": [
@@ -34888,6 +34923,20 @@
                 "url": "https://www.debian.org/security/oval/oval-definitions-trixie.xml.bz2"
             },
             {
+                "date": "2026-11-13",
+                "def_id": "oval:com.ubuntu.trusty:def:903510000000",
+                "title": "USN-9035-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
+                "date": "2026-11-13",
+                "def_id": "oval:com.ubuntu.trusty:def:903510000000",
+                "title": "USN-9035-1 -- Linux kernel vulnerabilities",
+                "type": "ubuntu",
+                "url": "https://security-metadata.canonical.com/oval/oci.com.ubuntu.trusty.usn.oval.xml.bz2"
+            },
+            {
                 "date": "2017-07-12",
                 "def_id": "oval:org.altlinux.errata:def:20171854",
                 "title": "ALT-PU-2017-1854: package `kernel-image-un-def` update to version 4.12.0-alt1",
@@ -34984,6 +35033,13 @@
                 "title": "ALT-PU-2018-1991: package `kernel-image-std-def` update to version 4.14.53-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
+            },
+            {
+                "date": "2026-11-10",
+                "def_id": "ubuntu",
+                "title": "Ubuntu email list",
+                "type": "ubuntu",
+                "url": "https://lists.ubuntu.com/archives/ubuntu-security-announce/"
             }
         ],
         "CVE-2018-1049": [
@@ -36335,13 +36391,6 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
             {
-                "date": "2024-04-22",
-                "def_id": "oval:org.altlinux.errata:def:20246818",
-                "title": "ALT-PU-2024-6818: package `kernel-image-rpi-un` update to version 6.6.23-alt1",
-                "type": "altlinux",
-                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
-            },
-            {
                 "date": "2023-12-06",
                 "def_id": "oval:org.altlinux.errata:def:20237838",
                 "title": "ALT-PU-2023-7838: package `kernel-image-mp` update to version 6.6.4-alt1",
@@ -36352,6 +36401,13 @@
                 "date": "2023-12-05",
                 "def_id": "oval:org.altlinux.errata:def:20237787",
                 "title": "ALT-PU-2023-7787: package `kernel-image-un-def` update to version 6.6.4-alt1",
+                "type": "altlinux",
+                "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
+            },
+            {
+                "date": "2024-04-22",
+                "def_id": "oval:org.altlinux.errata:def:20246818",
+                "title": "ALT-PU-2024-6818: package `kernel-image-rpi-un` update to version 6.6.23-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/p11?one_file=true"
             },
@@ -36419,16 +36475,16 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-04-22",
-                "def_id": "oval:org.altlinux.errata:def:20246818",
-                "title": "ALT-PU-2024-6818: package `kernel-image-rpi-un` update to version 6.6.23-alt1",
+                "date": "2023-12-06",
+                "def_id": "oval:org.altlinux.errata:def:20237838",
+                "title": "ALT-PU-2023-7838: package `kernel-image-mp` update to version 6.6.4-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2023-12-06",
-                "def_id": "oval:org.altlinux.errata:def:20237838",
-                "title": "ALT-PU-2023-7838: package `kernel-image-mp` update to version 6.6.4-alt1",
+                "date": "2024-12-13",
+                "def_id": "oval:org.altlinux.errata:def:202418268",
+                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
@@ -36440,9 +36496,9 @@
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             },
             {
-                "date": "2024-12-13",
-                "def_id": "oval:org.altlinux.errata:def:202418268",
-                "title": "ALT-PU-2024-18268: package `kernel-image-rt` update to version 6.12.4-alt2",
+                "date": "2024-04-22",
+                "def_id": "oval:org.altlinux.errata:def:20246818",
+                "title": "ALT-PU-2024-6818: package `kernel-image-rpi-un` update to version 6.6.23-alt1",
                 "type": "altlinux",
                 "url": "https://rdb.altlinux.org/api/errata/export/oval/sisyphus?one_file=true"
             }
